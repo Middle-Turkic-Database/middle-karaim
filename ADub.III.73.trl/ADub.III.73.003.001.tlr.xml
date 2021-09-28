@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ana="#no" />
+        <author ana="#no" />
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Uppsala University, Department of linguistics and philology</publisher>
+        <pubPlace>Uppsala, Sweden</pubPlace>
+        <date>2020</date>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Warsaw, Poland</settlement>
+            <repository>Private archive</repository>
+            <idno>ADub.III.73</idno>
+          </msIdentifier>
+          <msContents>
+            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p>
+          <lg>
+            <l>Leviticus 1</l>
+          </lg>
+        </p>
+      </abstract>
+    </profileDesc>
+  </teiHeader><text>
+
+    <body>
+      <div type="edition">
+        <div type="textpart" subtype="chapter">
+          <ab>
+            <title>Leviticus 1</title>
+            <milestone unit="page" n="158r" />
+            <milestone unit="line" n="1" />
+            <l>
+              <emph>Book of Leviticus</emph>
+            </l>
+            <milestone unit="line" n="2" />
+            <l n="1">And the divine Presence of the Lord called Moses, and spoke
+              <milestone unit="line" n="3" />to him from the tent of meeting, saying,
+            </l>
+            <milestone unit="line" n="4" />
+            <l n="2">‘Speak to the children of Israel, and say to them,
+              <milestone unit="line" n="5" />“If any man from you brings an offering to the Lord,
+              <milestone unit="line" n="6" />you shall bring your offering of livestock from the cattle, and from the flock.
+            </l>
+            <milestone unit="line" n="7" />
+            <l n="3">If his offering is a burnt offering from the cattle,
+              <milestone unit="line" n="8" />he shall offer an unblemished male. He shall bring it to the door of the tent of meeting
+              <milestone unit="line" n="9" />for his acceptance before the Lord.
+            </l>
+            <l n="4">
+              <milestone unit="line" n="10" />And he shall reach out his hand over the head of the burnt offering, and
+              <milestone unit="line" n="11" />it shall be accepted for him to ask for atonement for him.
+            </l>
+            <l n="5">
+              <milestone unit="line" n="12" />And he shall slaughter the young of cattle before the Lord, and
+              <milestone unit="line" n="13" />Aaron’s sons, the priests, shall bring the
+              <milestone unit="line" n="14" />blood, and sprinkle
+              <addSpan spanTo="#add001" />
+              <emph>the blood</emph>
+              <anchor xml:id="add001" /> on the altar, all around, that
+              <milestone unit="line" n="15" />is at the door of the tent of meeting.
+            </l>
+            <l n="6">And he shall flay
+              <milestone unit="line" n="16" />the burnt offering, and cut it into pieces according to its pieces.
+            </l>
+            <milestone unit="line" n="17" />
+            <l n="7">And the sons of Aaron, the priest, shall put
+              <milestone unit="line" n="18" />fire on the altar, and lay the wood in order on the fire.
+            </l>
+            <milestone unit="line" n="19" />
+            <l n="8">And Aaron’s sons, the priests, shall arrange
+              <milestone unit="line" n="20" />the parts, the head, and
+              <milestone unit="page" n="158v" />
+              <milestone unit="line" n="1" />the neck in order on the wood that is on the fire which
+              <milestone unit="line" n="2" />is on the altar.
+            </l>
+            <l n="9">And he wash with water its entrails and its knees.
+              <milestone unit="line" n="3" />And the priest shall burn all on the altar.
+              <milestone unit="line" n="4" />It is a burnt offering, an offering by fire, an aroma of acceptance to the Lord.
+            </l>
+            <milestone unit="line" n="5" />
+            <l n="10">And if his offering is from the flock, from the lambs
+              <milestone unit="line" n="6" />or from the goats, for a burnt offering, he shall bring an unblemished male.
+            </l>
+            <milestone unit="line" n="7" />
+            <l n="11">And he shall slaughter it on the northward side of the altar
+              <milestone unit="line" n="8" />before the Lord, and Aaron’s sons,
+              <milestone unit="line" n="9" />the priests, shall sprinkle its blood on the altar, all around.
+            </l>
+            <milestone unit="line" n="10" />
+            <l n="12">And he shall cut it into pieces according to its pieces, its head,
+              <milestone unit="line" n="11" />and its neck, and the priest shall arrange them in order
+              <milestone unit="line" n="12" />on the wood that is on the fire which is on the altar.
+            </l>
+            <milestone unit="line" n="13" />
+            <l n="13">And he shall wash the entrails and the knees
+              <milestone unit="line" n="14" />with water. And the priest shall bring it all and
+              <milestone unit="line" n="15" />burn it on the altar. It is a burnt offering, an offering by fire, an aroma of acceptance to the Lord.
+            </l>
+            <milestone unit="line" n="16" />
+            <l n="14">And if his offering to the Lord is a burnt offering of birds,
+              <milestone unit="line" n="17" />then he shall bring his offering of turtledoves or of young pigeons.
+            </l>
+            <milestone unit="line" n="18" />
+            <l n="15">And the priest shall bring it
+              <milestone unit="line" n="19" />to the altar, and <supplied reason="lost">wring off</supplied><ref target="#fn1" type="noteAnchor" /> its head, and burn
+              <milestone unit="line" n="20" />it on the altar, and the blood thereof shall be drained out on the side
+              <milestone unit="line" n="21" />of the altar.
+            </l>
+            <l n="16">And he shall remove away its crop
+              <milestone unit="page" n="159r" />
+              <milestone unit="line" n="1" />with its feathers, and he shall cast it beside the altar eastward
+              <milestone unit="line" n="2" />to the place of the ashes.
+            </l>
+            <l n="17">And he shall halve it by its wings,
+              <milestone unit="line" n="3" />but shall not divide it. And the priest shall burn it on the altar,
+              <milestone unit="line" n="4" />on the wood that is on the fire. It is a burnt offering,
+              <milestone unit="line" n="5" />an offering by fire, an aroma of acceptance to the Lord.
+            </l>
+          </ab>
+        </div>
+      </div>
+      <div type="apparatus">
+        <listApp>
+          <app>
+            <note xml:id="fn1" type="footnote">K: <emph>shave</emph>; a scribal error (or a mistranslation), cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">וּמָלַק </foreign>‘and wring off’.</note>
+          </app>
+        </listApp>
+      </div>
+    </body>
+  </text>
+</TEI>
