@@ -1,4 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader><fileDesc><titleStmt><title ana="#no"/><author ana="#no"/></titleStmt><publicationStmt><publisher>Uppsala University, Department of linguistics and philology</publisher><pubPlace>Uppsala, Sweden</pubPlace><date>2020</date><availability status="restricted"><licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Warsaw, Poland</settlement><repository>Private archive</repository><idno>JSul.III.1</idno></msIdentifier><msContents><summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary></msContents></msDesc></sourceDesc></fileDesc><profileDesc><abstract><p><lg><l>Genesis 10</l></lg></p></abstract></profileDesc></teiHeader><text><body><div type="edition"><div type="textpart" subtype="chapter"><ab><title>Genesis 10</title><l><foreign xml:lang="he" style="unicode-bidi: embed;">יוד </foreign></l><l n="1"><foreign xml:lang="he" style="unicode-bidi: embed;">ואלה</foreign><milestone unit="line" n="25"/>Da bulardylar tuvmuslary uvullarynyn Noaḥnyn Šem <supplied reason="lost">da</supplied><ref target="#fn1" type="noteAnchor"/> Ḥam da Jafet da tuvdurul-<milestone unit="line" n="26"/>dular alarɣa uvullar ol mabuldan sortun.</l><l n="2"><foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>Uvullary Jefetnin Gomer<milestone unit="line" n="27"/>da Magog da Madaj da Javan da Tuval da Mešeḫ da Tiras.</l><l n="3"><foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da<milestone unit="page" n="10v"/><milestone unit="line" n="1"/>uvullary Gomer<addSpan spanTo="#add001"/>nin<anchor xml:id="add001"/> Aškenaz da Rifat da Toɣarma.</l><l n="4"><foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da uvullary<milestone unit="line" n="2"/>Javannyn Eliša da Taršiš Kitim da Dodanim.</l><l n="5"><foreign xml:lang="he" style="unicode-bidi: embed;">מאלה </foreign>Bulardan ajyryl-<milestone unit="line" n="3"/>dylar otraclary ol ḥanlyqlarnyn jerlerinde kisi tili sajyn uruvlary<milestone unit="line" n="4"/>sajyn ḥanlyqlarynda.</l><l n="6"><foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da uvullary Ḥamnyn Kuš da Micrajim da Put-<milestone unit="line" n="5"/>da Kenaʿan.</l><l n="7"><foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da uvullary Kušnun Seva da Ḥavila da Savta da Raʿma<milestone unit="line" n="6"/>da Savteḫa da uvullary Raʿamanyn Ševa da Dedan.</l><l n="8"><foreign xml:lang="he" style="unicode-bidi: embed;">וכוש </foreign>Da Kuš<milestone unit="line" n="7"/>tuvdurdu osol Nimrodnu ol baslady bolma baɣatyr jerde.</l><l n="9"><foreign xml:lang="he" style="unicode-bidi: embed;">הוא </foreign>Ol<milestone unit="line" n="8"/>edi av baɣatyry alnynda H-nyn anyn ücün ajtyldy Nimrod kibik<milestone unit="line" n="9"/>av baɣatyry alnynda H-nyn.</l><l n="10"><foreign xml:lang="he" style="unicode-bidi: embed;">ותהי </foreign>Da edi baslyɣy bijliginin Bavel<milestone unit="line" n="10"/>da Ereḫ da Akad da Kalne jerinde Šinʿarnyn.</l><l n="11"><foreign xml:lang="he" style="unicode-bidi: embed;">מן </foreign>Ol jerden<milestone unit="line" n="11"/>ol cyqty Ašur da qondardy osol Nineveni da osol Roḥovot ʿİrni<milestone unit="line" n="12"/>da osol Kalaḥny.</l><l n="12"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol Resenni arasyna Ninevenin da<milestone unit="line" n="13"/>arasyna Kalaḥnyn oldu ol ullu sahar.</l><l n="13"><foreign xml:lang="he" style="unicode-bidi: embed;">ומצרים </foreign>Da Micrajim tuvdurdu<milestone unit="line" n="14"/>osol Ludimni da osol ʿAnamimni da osol Lahavimni da osol Naftuḥim-<milestone unit="line" n="15"/>ni.</l><l n="14"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol Patrusimni da osol Kasluḥimni ki cyqtylar<milestone unit="line" n="16"/>andan Pelištim da osol Kaftorimni.</l><l n="15"><foreign xml:lang="he" style="unicode-bidi: embed;">וכנען </foreign>Da Kenaʿan tuvdurdu<milestone unit="line" n="17"/>osol Cidonnu tunɣucun da osol Ḥetni.</l><l n="16"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol ol Jevusini<milestone unit="line" n="18"/>da osol ol Emorini da osol ol Girgašini.</l><l n="17"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol ol<milestone unit="line" n="19"/>Ḥivini da osol ol ʿArqini da osol ol Sinini.</l><l n="18"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol ol<milestone unit="line" n="20"/>Arvadini da osol ol Cemarini da osol ol Ḥamatini da andan sortun<milestone unit="line" n="21"/>tozuldular uruvlary ol Kenaʿaninin.</l><l n="19"><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>Da edi cegi ol Kenaʿaninin<milestone unit="line" n="22"/>Cidondan kelivine Gerarnyn ʿAzaɣadejin kelivine Sedomnun da ʿAmoranyn da<milestone unit="line" n="23"/>Admanyn da Cevojimnin Lašaʿɣadejin.</l><l n="20"><foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>Bulardylar uvullary Ḥamnyn<milestone unit="line" n="24"/>uruvlary sajyn tilleri sajyn jerlerinde ḥanlyqlarynda.</l><l n="21"><foreign xml:lang="he" style="unicode-bidi: embed;">ולשם </foreign>Da Šemge<milestone unit="line" n="25"/>tuvduruldu daɣyn olda atasy bar uvullarynyn ʿEvernin qaryndasy Jefetnin ol<milestone unit="line" n="26"/>aɣaraqnyn.</l><l n="22"><foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>Uvullary Šemnin ʿElam da Ašur da Arpaḫšad da Lud<milestone unit="line" n="27"/>da Aram.</l><l n="23"><foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da uvullary Aramnyn ʿUc da Ḥul da Geter da Maš.</l><milestone unit="page" n="11r"/><milestone unit="line" n="1"/><l n="24"><supplied reason="lost"><foreign xml:lang="he" style="unicode-bidi: embed;">וארפכשד</foreign></supplied><ref target="#fn2" type="noteAnchor"/> Da Arpaḫšad tuvdurdu osol Šelaḥny da Šelaḥ tuvdurdu osol ʿEverni.</l><milestone unit="line" n="2"/><l n="25"><foreign xml:lang="he" style="unicode-bidi: embed;">ולעבר </foreign>Da ʿEverge tuvduruldu eki uvullar aty ol birnin Peleɣ<milestone unit="line" n="3"/>ki künlerinde anyn ajyryldy eli ol jernin da aty qaryndasynyn Joqtan.</l><milestone unit="line" n="4"/><l n="26"><foreign xml:lang="he" style="unicode-bidi: embed;">ויקטן </foreign>Da Joqtan tuvdurdu osol Almodadny da osol Šalefni da osol<milestone unit="line" n="5"/>Ḥacarmavetni da osol Jaraḥny.</l><l n="27"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol Hadoramny da osol Uzalny<milestone unit="line" n="6"/>da osol Diqlany.</l><l n="28"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol ʿOvalny da osol Avimaʾelni da osol<milestone unit="line" n="7"/>Ševany.</l><l n="29"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da osol Ofirni da osol Ḥavilany da osol Jovavny bar<milestone unit="line" n="8"/>bular uvullary Joqtannyn.</l><l n="30"><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>Da edi olturuslary alarnyn Mešadan<milestone unit="line" n="9"/>kelivine Sefarnyn tavyna ol mizraḥnyn.</l><l n="31"><foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>Bulardylar uvullary Šemnin<milestone unit="line" n="10"/>uruvlary sajyn tilleri sajyn jerlerinde ḥanlyqlary sajyn.</l><l n="32"><foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>Bulardylar<milestone unit="line" n="11"/>uruvlary uvullarynyn Noaḥnyn tuvmuslary sajyn ḥanlyqlarynda da bulardan<milestone unit="line" n="12"/>ajyryldylar ol ḥanlyqlar jerde ol mabuldan sortun.</l></ab></div></div><div type="apparatus"><listApp><app><note xml:id="fn1" type="footnote">JSul.III.01: deest. | BSMS 288: <emph>da</emph>.</note><note xml:id="fn2" type="footnote">The incipit is written as catchword and is not present in the main text.</note></app></listApp></div></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ana="#no" />
+        <author ana="#no" />
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Uppsala University, Department of linguistics and philology</publisher>
+        <pubPlace>Uppsala, Sweden</pubPlace>
+        <date>2020</date>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Warsaw, Poland</settlement>
+            <repository>Private archive</repository>
+            <idno>JSul.III.1</idno>
+          </msIdentifier>
+          <msContents>
+            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p>
+          <lg>
+            <l>Genesis 10</l>
+          </lg>
+        </p>
+      </abstract>
+    </profileDesc>
+  </teiHeader><text>
+
+    <body>
+      <div type="edition">
+        <div type="textpart" subtype="chapter">
+          <ab>
+            <title>Genesis 10</title>
+            <l>
+              <foreign xml:lang="he" style="unicode-bidi: embed;">יוד </foreign>
+            </l>
+            <l n="1">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואלה</foreign>
+              <milestone unit="line" n="25" />Da bulardylar tuvmuslary uvullarynyn Noaḥnyn Šem <supplied reason="lost">da</supplied><ref target="#fn1" type="noteAnchor" /> Ḥam da Jafet da tuvdurul-
+              <milestone unit="line" n="26" />dular alarɣa uvullar ol mabuldan sortun.
+            </l>
+            <l n="2">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
+              Uvullary Jefetnin Gomer
+              <milestone unit="line" n="27" />da Magog da Madaj da Javan da Tuval da Mešeḫ da Tiras.
+            </l>
+            <l n="3">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>Da
+              <milestone unit="page" n="10v" />
+              <milestone unit="line" n="1" />uvullary Gomer
+              <addSpan spanTo="#add001" />nin
+              <anchor xml:id="add001" /> Aškenaz da Rifat da Toɣarma.
+            </l>
+            <l n="4">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>
+              Da uvullary
+              <milestone unit="line" n="2" />Javannyn Eliša da Taršiš Kitim da Dodanim.
+            </l>
+            <l n="5">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">מאלה </foreign>
+              Bulardan ajyryl-
+              <milestone unit="line" n="3" />dylar otraclary ol ḥanlyqlarnyn jerlerinde kisi tili sajyn uruvlary
+              <milestone unit="line" n="4" />sajyn ḥanlyqlarynda.
+            </l>
+            <l n="6">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>
+              Da uvullary Ḥamnyn Kuš da Micrajim da Put-
+              <milestone unit="line" n="5" />da Kenaʿan.
+            </l>
+            <l n="7">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>
+              Da uvullary Kušnun Seva da Ḥavila da Savta da Raʿma
+              <milestone unit="line" n="6" />da Savteḫa da uvullary Raʿamanyn Ševa da Dedan.
+            </l>
+            <l n="8">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">וכוש </foreign>
+              Da Kuš
+              <milestone unit="line" n="7" />tuvdurdu osol Nimrodnu ol baslady bolma baɣatyr jerde.
+            </l>
+            <l n="9">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">הוא </foreign>
+              Ol
+              <milestone unit="line" n="8" />edi av baɣatyry alnynda H-nyn anyn ücün ajtyldy Nimrod kibik
+              <milestone unit="line" n="9" />av baɣatyry alnynda H-nyn.
+            </l>
+            <l n="10">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ותהי </foreign>
+              Da edi baslyɣy bijliginin Bavel
+              <milestone unit="line" n="10" />da Ereḫ da Akad da Kalne jerinde Šinʿarnyn.
+            </l>
+            <l n="11">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">מן </foreign>Ol jerden
+              <milestone unit="line" n="11" />ol cyqty Ašur da qondardy osol Nineveni da osol Roḥovot ʿİrni
+              <milestone unit="line" n="12" />da osol Kalaḥny.
+            </l>
+            <l n="12">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol Resenni arasyna Ninevenin da
+              <milestone unit="line" n="13" />arasyna Kalaḥnyn oldu ol ullu sahar.
+            </l>
+            <l n="13">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ומצרים </foreign>
+              Da Micrajim tuvdurdu
+              <milestone unit="line" n="14" />osol Ludimni da osol ʿAnamimni da osol Lahavimni da osol Naftuḥim-
+              <milestone unit="line" n="15" />ni.
+            </l>
+            <l n="14">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol Patrusimni da osol Kasluḥimni ki cyqtylar
+              <milestone unit="line" n="16" />andan Pelištim da osol Kaftorimni.
+            </l>
+            <l n="15">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">וכנען </foreign>
+              Da Kenaʿan tuvdurdu
+              <milestone unit="line" n="17" />osol Cidonnu tunɣucun da osol Ḥetni.
+            </l>
+            <l n="16">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol ol Jevusini
+              <milestone unit="line" n="18" />da osol ol Emorini da osol ol Girgašini.
+            </l>
+            <l n="17">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol ol
+              <milestone unit="line" n="19" />Ḥivini da osol ol ʿArqini da osol ol Sinini.
+            </l>
+            <l n="18">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol ol
+              <milestone unit="line" n="20" />Arvadini da osol ol Cemarini da osol ol Ḥamatini da andan sortun
+              <milestone unit="line" n="21" />tozuldular uruvlary ol Kenaʿaninin.
+            </l>
+            <l n="19">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+              Da edi cegi ol Kenaʿaninin
+              <milestone unit="line" n="22" />Cidondan kelivine Gerarnyn ʿAzaɣadejin kelivine Sedomnun da ʿAmoranyn da
+              <milestone unit="line" n="23" />Admanyn da Cevojimnin Lašaʿɣadejin.
+            </l>
+            <l n="20">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
+              Bulardylar uvullary Ḥamnyn
+              <milestone unit="line" n="24" />uruvlary sajyn tilleri sajyn jerlerinde ḥanlyqlarynda.
+            </l>
+            <l n="21">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ולשם </foreign>
+              Da Šemge
+              <milestone unit="line" n="25" />tuvduruldu daɣyn olda atasy bar uvullarynyn ʿEvernin qaryndasy Jefetnin ol
+              <milestone unit="line" n="26" />aɣaraqnyn.
+            </l>
+            <l n="22">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
+              Uvullary Šemnin ʿElam da Ašur da Arpaḫšad da Lud
+              <milestone unit="line" n="27" />da Aram.
+            </l>
+            <l n="23">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ובני </foreign>
+              Da uvullary Aramnyn ʿUc da Ḥul da Geter da Maš.
+            </l>
+            <milestone unit="page" n="11r" />
+            <milestone unit="line" n="1" />
+            <l n="24">
+              <supplied reason="lost">
+                <foreign xml:lang="he" style="unicode-bidi: embed;">וארפכשד</foreign>
+              </supplied><ref target="#fn2" type="noteAnchor" />
+              Da Arpaḫšad tuvdurdu osol Šelaḥny da Šelaḥ tuvdurdu osol ʿEverni.
+            </l>
+            <milestone unit="line" n="2" />
+            <l n="25">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ולעבר </foreign>
+              Da ʿEverge tuvduruldu eki uvullar aty ol birnin Peleɣ
+              <milestone unit="line" n="3" />
+              ki künlerinde anyn ajyryldy eli ol jernin da aty qaryndasynyn Joqtan.
+            </l>
+            <milestone unit="line" n="4" />
+            <l n="26">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ויקטן </foreign>
+              Da Joqtan tuvdurdu osol Almodadny da osol Šalefni da osol
+              <milestone unit="line" n="5" />Ḥacarmavetni da osol Jaraḥny.
+            </l>
+            <l n="27">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol Hadoramny da osol Uzalny
+              <milestone unit="line" n="6" />da osol Diqlany.
+            </l>
+            <l n="28">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol ʿOvalny da osol Avimaʾelni da osol
+              <milestone unit="line" n="7" />Ševany.
+            </l>
+            <l n="29">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+              Da osol Ofirni da osol Ḥavilany da osol Jovavny bar
+              <milestone unit="line" n="8" />bular uvullary Joqtannyn.
+            </l>
+            <l n="30">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+              Da edi olturuslary alarnyn Mešadan
+              <milestone unit="line" n="9" />kelivine Sefarnyn tavyna ol mizraḥnyn.
+            </l>
+            <l n="31">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
+              Bulardylar uvullary Šemnin
+              <milestone unit="line" n="10" />uruvlary sajyn tilleri sajyn jerlerinde ḥanlyqlary sajyn.
+            </l>
+            <l n="32">
+              <foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
+              Bulardylar
+              <milestone unit="line" n="11" />uruvlary uvullarynyn Noaḥnyn tuvmuslary sajyn ḥanlyqlarynda da bulardan
+              <milestone unit="line" n="12" />ajyryldylar ol ḥanlyqlar jerde ol mabuldan sortun.
+            </l>
+          </ab>
+        </div>
+      </div>
+      <div type="apparatus">
+        <listApp>
+          <app>
+            <note xml:id="fn1" type="footnote">JSul.III.01: deest. | BSMS 288: <emph>da</emph>.</note>
+            <note xml:id="fn2" type="footnote">The incipit is written as catchword and is not present in the main text.</note>
+          </app>
+        </listApp>
+      </div>
+    </body>
+  </text>
+</TEI>
