@@ -4,7 +4,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
     <fileDesc>
-      <titleStmt><title ana="#no"/><author ana="#no"/></titleStmt>
+      <titleStmt><title ana="#no" /><author ana="#no" /></titleStmt>
       <publicationStmt>
         <publisher>Uppsala University, Department of linguistics and philology</publisher>
         <pubPlace>Uppsala, Sweden</pubPlace>
@@ -41,13 +41,13 @@
       <div type="edition">
         <div type="textpart" subtype="chapter">
           <ab>
-            <milestone unit="page" n="2r"/><ref target="#fn1" type="noteAnchor"/>
-            <milestone unit="line" n="1"/>
-            <l>
-              <gap reason="lost" extent="unknown"/><foreign xml:lang="he" style="unicode-bidi: embed;">עתה בעזרת ה אל גבור ונורא אחל לכ</foreign>
-              <milestone unit="line" n="2"/>
-              <gap reason="lost" extent="unknown"/><foreign xml:lang="he" style="unicode-bidi: embed;"> פשטי ספר החומש והאל הנאזר בגבורה</foreign>
-              <milestone unit="line" n="3"/>
+            <milestone unit="page" n="2r" /><ref target="#fn1" type="noteAnchor" />
+            <milestone unit="line" n="1" />
+            <l xml:id="In-001-000">
+              <gap reason="lost" extent="unknown" /><foreign xml:lang="he" style="unicode-bidi: embed;">עתה בעזרת ה אל גבור ונורא אחל לכ</foreign>
+              <milestone unit="line" n="2" />
+              <gap reason="lost" extent="unknown" /><foreign xml:lang="he" style="unicode-bidi: embed;"> פשטי ספר החומש והאל הנאזר בגבורה</foreign>
+              <milestone unit="line" n="3" />
               <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעדנו מהתחלה עד גמירא ׳ ס א</foreign>
             </l>
           </ab>
