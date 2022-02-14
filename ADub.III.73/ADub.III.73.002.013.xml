@@ -3,198 +3,263 @@
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>ADub.III.73</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Exodus 13</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
-
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>
-              <supplied reason="lost">Exodus 13</supplied>
-            </title>
-            <milestone unit="line" n="4" />
-            <l xml:id="Ex-013-x001">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>
-            </l>
-            <l n="1" xml:id="Ex-013-001">
-              <milestone unit="line" n="5" />Da sözledi Adonaj Mošege ajtadoɣač.
-            </l>
-            <l n="2" xml:id="Ex-013-002">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">קדש </foreign>Aziz
-              <milestone unit="line" n="6" />etkin maja bar tunɣučnu ačylmaɣyn qursaqny ulanlaryn-
-              <milestone unit="line" n="7" />da Jisraʾelnin adamda da tuvarda majady ol. <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-            </l>
-            <l n="3" xml:id="Ex-013-003">
-              <milestone unit="line" n="8" />Da ajtty Moše ol ulusqa saɣynɣyn ošol ol künnü
-              <milestone unit="line" n="9" />ošpunu ki čyqtyjyz Micriden qullar erkinden ki küčlü
-              <milestone unit="line" n="10" />qudratbyla čyɣardy Adonaj sizni bundan da ašalmasyn ḥamec.
-            </l>
-            <milestone unit="line" n="11" />
-            <l n="4" xml:id="Ex-013-004">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">היום </foreign>Bügün siz čyɣasiz ol baš qusqan janɣajda.
-            </l>
-            <milestone unit="line" n="12" />
-            <l n="5" xml:id="Ex-013-005">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>Da bolɣaj ki keltirse seni Adonaj jerine ol Kenaʿani-
-              <milestone unit="line" n="13" />nin da ol Ḥitinin da ol Emorinin da ol Ḥivinin da ol Jevusi-
-              <milestone unit="line" n="14" />nin ki antetti atalaryja berḿa saja jer aɣadoɣan süt
-              <milestone unit="line" n="15" />da bal da qulluq etkin ošol ol qulluqnu ošpunu oš-
-              <milestone unit="line" n="16" />pu janɣajda.
-            </l>
-            <l n="6" xml:id="Ex-013-006">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">שבעת </foreign>Jedi künler ašaɣyn macalar da
-              <milestone unit="line" n="17" />ol jedinči künde ḥyǯ Adonajɣa.
-            </l>
-            <l n="7" xml:id="Ex-013-007">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">מצות </foreign>Macalar
-              <milestone unit="line" n="18" />ašalsyn jedi ol künlerde da körünmesin saja ḥamec da
-              <milestone unit="line" n="19" />körünmesin saja quǯur bar čegijde.
-            </l>
-            <l n="8" xml:id="Ex-013-008">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והגדת </foreign>Da
-              <milestone unit="line" n="20" />anlatqyn uvluja ol künd́a ajtadoɣač bunun ücün qyldy
-              <milestone unit="line" n="21" />Adonaj maja čyqqanymda Micriden.
-            </l>
-            <l n="9" xml:id="Ex-013-009">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>Da bolsun saja
-              <milestone unit="page" n="107v" />
-              <milestone unit="line" n="1" />belgige q<supplied reason="lost">o</supplied>luj<ref target="#fn1" type="noteAnchor" /> üstüne da saɣynčqa közlerij arasyna anyn
-              <milestone unit="line" n="2" />üčün ki bolɣaj torasy Adonajnyn avzujda ki küčlü qudrat-
-              <milestone unit="line" n="3" />byla čyɣardy seni Adonaj Micriden.
-            </l>
-            <l n="10" xml:id="Ex-013-010">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ושמרת </foreign>Da saqlaɣyn ošol
-              <milestone unit="line" n="4" />ol resimni ošpunu vaɣdasynda jyldan jylɣa.
-            </l>
-            <l n="11" xml:id="Ex-013-011">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>Da
-              <milestone unit="line" n="5" />bolɣaj ki keltirse seni Adonaj jerine ol Kenaʿaninin ki nečik
-              <milestone unit="line" n="6" />antetti saja da atalaryja da berse any saja. <foreign xml:lang="he" style="unicode-bidi: embed;">והעברת </foreign>
-            </l>
-            <l n="12" xml:id="Ex-013-012">
-              <milestone unit="line" n="7" />Da ašyrɣyn bar ačylmaɣyn qursaqnyn Adonajɣa da bar ačylma-
-              <milestone unit="line" n="8" />ɣyn ijilmeginin tuvarnyn ki bolsa saja ol erkekler Adonaj-
-              <milestone unit="line" n="9" />ɣa.
-            </l>
-            <l n="13" xml:id="Ex-013-013">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da bar ačylmaɣyn qursaqnyn ešekten juluɣun
-              <milestone unit="line" n="10" />qojbyla da eger julumasaj da enselegin any da bar tun-
-              <milestone unit="line" n="11" />ɣučun adamnyn ulanlaryjda juluɣun.
-            </l>
-            <l n="14" xml:id="Ex-013-014">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>Da bolɣaj ki sor-
-              <milestone unit="line" n="12" />sa send́an uvluj qačanda ajtadoɣač nedir bu da ajtqyn anar
-              <milestone unit="line" n="13" />küčlü qudrat byla čyɣardy bizni Adonaj Micriden qullar erkin-
-              <milestone unit="line" n="14" />den.
-            </l>
-            <l n="15" xml:id="Ex-013-015">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>Da edi ki nečik qattyrdy parʿo jüregin kle-
-              <milestone unit="line" n="15" />mesedi ijme bizni da qyrdy Adonaj bar tunɣučnu jerin-
-              <milestone unit="line" n="16" />de Micrinin bašlap tunɣučundan adamnyn
-              <addSpan spanTo="#add001" />da
-              <anchor xml:id="add001" /> tunɣučunadejin tuvar-
-              <milestone unit="line" n="17" />nyn anyn üčün men debeḥa etemen Adonajɣa bar ačylmaɣyn qur-
-              <milestone unit="line" n="18" />saqnyn ol erkekĺarni da bar tunɣučun ulanlarymnyn julujmen.
-            </l>
-            <milestone unit="line" n="19" />
-            <l n="16" xml:id="Ex-013-016">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>Da bolsun belgige q<supplied reason="lost">o</supplied>lujüstüne<ref target="#fn2" type="noteAnchor" /> da totafotqa
-              <milestone unit="line" n="20" />közlerij arasyna ki küčlü qudrat byla čyɣardy bizni Adonaj
-              <milestone unit="line" n="21" />Micriden.
-              <milestone unit="page" n="108r" />
-              <milestone unit="line" n="1" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">פרשת בשלח</foreign>
-            </l>
-            <milestone unit="line" n="2" />
-            <l n="17" xml:id="Ex-013-017">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי בשלח פרעה את העם </foreign>Da edi ijgend́a parʿo
-              <milestone unit="line" n="3" />ošol ol ulusnu da köndermedi alarny Tenri
-              <milestone unit="line" n="4" />jolubyla jerinin Pelištimnin ḥote juvuq edi ol ki ajtty
-              <milestone unit="line" n="5" />Tenri maɣat fašman eter ol ulus kö
-              <addSpan spanTo="#add002" />r
-              <anchor xml:id="add002" />genlerind́a čerüvnü
-              <milestone unit="line" n="6" />da qajtyrlar Micriǵa.
-            </l>
-            <l n="18" xml:id="Ex-013-018">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויסב </foreign>Da qajyrdy Tenri ošol
-              <milestone unit="line" n="7" />ol ulusnu
-              <seg type="commented" n="#seg001" />
-              <addSpan spanTo="#add003" />jolubyla o<supplied reason="lost">l</supplied> midbarnyn
-              <anchor xml:id="add003" />
-              <anchor type="commented" xml:id="seg001" /><ref target="#fn3" type="noteAnchor" /> Jam Sufqa da jasanɣanlar čyqtylar ulanlary Jisra-
-              <milestone unit="line" n="8" />ʾelnin jerind́an Micrinin.
-            </l>
-            <l n="19" xml:id="Ex-013-019">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויקח </foreign>Da aldy Moše ošol
-              <milestone unit="line" n="9" />süveklerin Josefnin birgesińa ki antettirme antet-
-              <milestone unit="line" n="10" />tirdi ošol ulanlaryn Jisraʾelnin ajtadoɣač saɣynma saɣynsa
-              <milestone unit="line" n="11" />Tenri sizni da čyɣaryjyz ošol süveklerimni bundan birgejizǵa.
-            </l>
-            <milestone unit="line" n="12" />
-            <l n="20" xml:id="Ex-013-020">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו </foreign>Da köčtüler Sukottan da toḥtadylar Etam-
-              <milestone unit="line" n="13" />da učunda ol midbarnyn.
-            </l>
-            <l n="21" xml:id="Ex-013-021">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהוה </foreign>Da
-              <addSpan spanTo="#add004" />šeḫinasy
-              <anchor xml:id="add004" /> Adonajnyn baryr<supplied reason="lost">e</supplied>-
-              <milestone unit="line" n="14" />di<ref target="#fn4" type="noteAnchor" /> alynlarynda alarnyn kündüz baɣanasy byla bulutnun kön-
-              <milestone unit="line" n="15" />derme alarny ol jolbyla da kečebyla baɣanasybyla otnun
-              <milestone unit="line" n="16" />jaryq etme alarɣa barma kündüz da kečebylada. <foreign xml:lang="he" style="unicode-bidi: embed;">לא </foreign>
-            </l>
-            <l n="22" xml:id="Ex-013-022">
-              <milestone unit="line" n="17" />Eksilmesedi baɣanasy ol bulutnun kündüz da baɣanasy ol
-              <milestone unit="line" n="18" />otnun kečebyla alnynda ol ulusnun.
-            </l>
-          </ab>
-        </div>
-      </div>
-      <div type="apparatus">
-        <listApp>
-          <app>
-            <note xml:id="fn1" type="footnote">K: <emph>quluj</emph>; a scribal error. | TKow.01: unvocalized text. | H: <emph>qolun</emph>. | C: <emph>qoluŋ</emph>.</note>
-            <note xml:id="fn2" type="footnote">K: <emph>qulujüstüne</emph>; a scribal error. | TKow.01: unvocalized text. | H: <emph>qolun istine</emph>. | C: <emph>qoluŋ üstünä</emph>.</note>
-            <note xml:id="fn3" type="footnote">Marginal insertion by another hand. | TKow.01: <emph>jolusary ol midbarnyn</emph>; unvocalized text. | H: <emph>joluna ol midbarnyn</emph>. | C: <emph>joluna ol jabannyŋ</emph>.</note>
-            <note xml:id="fn4" type="footnote">K: <emph>baryridi</emph>; probably a scribal error. | TKow.01: unvocalized text. | H: <emph>baryr edi</emph>. | C: <emph>jürür edi</emph>.</note>
-          </app>
-        </listApp>
-      </div>
-    </body>
-  </text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Exodus 13</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>
+                            <supplied reason="lost">Exodus 13</supplied>
+                        </title>
+                        <milestone unit="line" n="4" />
+                        <l xml:id="Ex-013-x001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>
+                        </l>
+                        <l n="1" xml:id="Ex-013-001">
+                            <milestone unit="line" n="5" />
+                            Da sözledi Adonaj Mošege ajtadoɣač. </l>
+                        <l n="2" xml:id="Ex-013-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">קדש </foreign>
+                            Aziz
+                            <milestone unit="line" n="6" />
+                            etkin maja bar tunɣučnu ačylmaɣyn qursaqny ulanlaryn-
+                            <milestone unit="line" n="7" />
+                            da Jisraʾelnin adamda da tuvarda majady ol. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                        </l>
+                        <l n="3" xml:id="Ex-013-003">
+                            <milestone unit="line" n="8" />
+                            Da ajtty Moše ol ulusqa saɣynɣyn ošol ol künnü
+                            <milestone unit="line" n="9" />
+                            ošpunu ki čyqtyjyz Micriden qullar erkinden ki küčlü
+                            <milestone unit="line" n="10" />
+                            qudratbyla čyɣardy Adonaj sizni bundan da ašalmasyn ḥamec. </l>
+                        <milestone unit="line" n="11" />
+                        <l n="4" xml:id="Ex-013-004">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">היום </foreign>
+                            Bügün siz čyɣasiz ol baš qusqan janɣajda. </l>
+                        <milestone unit="line" n="12" />
+                        <l n="5" xml:id="Ex-013-005">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolɣaj ki keltirse seni Adonaj jerine ol Kenaʿani-
+                            <milestone unit="line" n="13" />
+                            nin da ol Ḥitinin da ol Emorinin da ol Ḥivinin da ol Jevusi-
+                            <milestone unit="line" n="14" />
+                            nin ki antetti atalaryja berḿa saja jer aɣadoɣan süt
+                            <milestone unit="line" n="15" />
+                            da bal da qulluq etkin ošol ol qulluqnu ošpunu oš-
+                            <milestone unit="line" n="16" />
+                            pu janɣajda. </l>
+                        <l n="6" xml:id="Ex-013-006">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">שבעת </foreign>
+                            Jedi künler ašaɣyn macalar da
+                            <milestone unit="line" n="17" />
+                            ol jedinči künde ḥyǯ Adonajɣa. </l>
+                        <l n="7" xml:id="Ex-013-007">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">מצות </foreign>
+                            Macalar
+                            <milestone unit="line" n="18" />
+                            ašalsyn jedi ol künlerde da körünmesin saja ḥamec da
+                            <milestone unit="line" n="19" />
+                            körünmesin saja quǯur bar čegijde. </l>
+                        <l n="8" xml:id="Ex-013-008">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והגדת </foreign>
+                            Da
+                            <milestone unit="line" n="20" />
+                            anlatqyn uvluja ol künd́a ajtadoɣač bunun ücün qyldy
+                            <milestone unit="line" n="21" />
+                            Adonaj maja čyqqanymda Micriden. </l>
+                        <l n="9" xml:id="Ex-013-009">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolsun saja
+                            <milestone unit="page" n="107v" />
+                            <milestone unit="line" n="1" />
+                            belgige q<supplied reason="lost">o</supplied>luj<ref target="#fn1"
+                                type="noteAnchor" /> üstüne da saɣynčqa közlerij arasyna anyn
+                            <milestone unit="line" n="2" />
+                            üčün ki bolɣaj torasy Adonajnyn avzujda ki küčlü qudrat-
+                            <milestone unit="line" n="3" />
+                            byla čyɣardy seni Adonaj Micriden. </l>
+                        <l n="10" xml:id="Ex-013-010">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ושמרת </foreign>
+                            Da saqlaɣyn ošol
+                            <milestone unit="line" n="4" />
+                            ol resimni ošpunu vaɣdasynda jyldan jylɣa. </l>
+                        <l n="11" xml:id="Ex-013-011">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>
+                            Da
+                            <milestone unit="line" n="5" />
+                            bolɣaj ki keltirse seni Adonaj jerine ol Kenaʿaninin ki nečik
+                            <milestone unit="line" n="6" />
+                            antetti saja da atalaryja da berse any saja. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והעברת </foreign>
+                        </l>
+                        <l n="12" xml:id="Ex-013-012">
+                            <milestone unit="line" n="7" />
+                            Da ašyrɣyn bar ačylmaɣyn qursaqnyn Adonajɣa da bar ačylma-
+                            <milestone unit="line" n="8" />
+                            ɣyn ijilmeginin tuvarnyn ki bolsa saja ol erkekler Adonaj-
+                            <milestone unit="line" n="9" />
+                            ɣa. </l>
+                        <l n="13" xml:id="Ex-013-013">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar ačylmaɣyn qursaqnyn ešekten juluɣun
+                            <milestone unit="line" n="10" />
+                            qojbyla da eger julumasaj da enselegin any da bar tun-
+                            <milestone unit="line" n="11" />
+                            ɣučun adamnyn ulanlaryjda juluɣun. </l>
+                        <l n="14" xml:id="Ex-013-014">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolɣaj ki sor-
+                            <milestone unit="line" n="12" />
+                            sa send́an uvluj qačanda ajtadoɣač nedir bu da ajtqyn anar
+                            <milestone unit="line" n="13" />
+                            küčlü qudrat byla čyɣardy bizni Adonaj Micriden qullar erkin-
+                            <milestone unit="line" n="14" />
+                            den. </l>
+                        <l n="15" xml:id="Ex-013-015">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi ki nečik qattyrdy parʿo jüregin kle-
+                            <milestone unit="line" n="15" />
+                            mesedi ijme bizni da qyrdy Adonaj bar tunɣučnu jerin-
+                            <milestone unit="line" n="16" />
+                            de Micrinin bašlap tunɣučundan adamnyn <addSpan spanTo="#add001" />da
+                                <anchor xml:id="add001" /> tunɣučunadejin tuvar-
+                            <milestone unit="line" n="17" />
+                            nyn anyn üčün men debeḥa etemen Adonajɣa bar ačylmaɣyn qur-
+                            <milestone unit="line" n="18" />
+                            saqnyn ol erkekĺarni da bar tunɣučun ulanlarymnyn julujmen. </l>
+                        <milestone unit="line" n="19" />
+                        <l n="16" xml:id="Ex-013-016">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolsun belgige q<supplied reason="lost">o</supplied>lujüstüne<ref
+                                target="#fn2" type="noteAnchor" /> da totafotqa
+                            <milestone unit="line" n="20" />
+                            közlerij arasyna ki küčlü qudrat byla čyɣardy bizni Adonaj
+                            <milestone unit="line" n="21" />
+                            Micriden.
+                            <milestone unit="page" n="108r" />
+                            <milestone unit="line" n="1" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">פרשת בשלח</foreign>
+                        </l>
+                        <milestone unit="line" n="2" />
+                        <l n="17" xml:id="Ex-013-017">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי בשלח פרעה את
+                                העם </foreign>
+                            Da edi ijgend́a parʿo
+                            <milestone unit="line" n="3" />
+                            ošol ol ulusnu da köndermedi alarny Tenri
+                            <milestone unit="line" n="4" />
+                            jolubyla jerinin Pelištimnin ḥote juvuq edi ol ki ajtty
+                            <milestone unit="line" n="5" />
+                            Tenri maɣat fašman eter ol ulus kö <addSpan spanTo="#add002" />r <anchor
+                                xml:id="add002" />genlerind́a čerüvnü
+                            <milestone unit="line" n="6" />
+                            da qajtyrlar Micriǵa. </l>
+                        <l n="18" xml:id="Ex-013-018">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויסב </foreign>
+                            Da qajyrdy Tenri ošol
+                            <milestone unit="line" n="7" />
+                            ol ulusnu <seg type="commented" n="#seg001" />
+                            <addSpan spanTo="#add003" />jolubyla o<supplied reason="lost"
+                                >l</supplied> midbarnyn <anchor xml:id="add003" />
+                            <anchor type="commented" xml:id="seg001" /><ref target="#fn3"
+                                type="noteAnchor" /> Jam Sufqa da jasanɣanlar čyqtylar ulanlary
+                            Jisra-
+                            <milestone unit="line" n="8" />
+                            ʾelnin jerind́an Micrinin. </l>
+                        <l n="19" xml:id="Ex-013-019">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויקח </foreign>
+                            Da aldy Moše ošol
+                            <milestone unit="line" n="9" />
+                            süveklerin Josefnin birgesińa ki antettirme antet-
+                            <milestone unit="line" n="10" />
+                            tirdi ošol ulanlaryn Jisraʾelnin ajtadoɣač saɣynma saɣynsa
+                            <milestone unit="line" n="11" />
+                            Tenri sizni da čyɣaryjyz ošol süveklerimni bundan birgejizǵa. </l>
+                        <milestone unit="line" n="12" />
+                        <l n="20" xml:id="Ex-013-020">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da köčtüler Sukottan da toḥtadylar Etam-
+                            <milestone unit="line" n="13" />
+                            da učunda ol midbarnyn. </l>
+                        <l n="21" xml:id="Ex-013-021">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהוה </foreign>
+                            Da <addSpan spanTo="#add004" />šeḫinasy <anchor xml:id="add004" />
+                            Adonajnyn baryr<supplied reason="lost">e</supplied>-
+                            <milestone unit="line" n="14" />
+                            di<ref target="#fn4" type="noteAnchor" /> alynlarynda alarnyn kündüz
+                            baɣanasy byla bulutnun kön-
+                            <milestone unit="line" n="15" />
+                            derme alarny ol jolbyla da kečebyla baɣanasybyla otnun
+                            <milestone unit="line" n="16" />
+                            jaryq etme alarɣa barma kündüz da kečebylada. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                        </l>
+                        <l n="22" xml:id="Ex-013-022">
+                            <milestone unit="line" n="17" />
+                            Eksilmesedi baɣanasy ol bulutnun kündüz da baɣanasy ol
+                            <milestone unit="line" n="18" />
+                            otnun kečebyla alnynda ol ulusnun. </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">K: <emph>quluj</emph>; a scribal error. |
+                            TKow.01: unvocalized text. | H: <emph>qolun</emph>. | C:
+                                <emph>qoluŋ</emph>.</note>
+                        <note xml:id="fn2" type="footnote">K: <emph>qulujüstüne</emph>; a scribal
+                            error. | TKow.01: unvocalized text. | H: <emph>qolun istine</emph>. | C:
+                                <emph>qoluŋ üstünä</emph>.</note>
+                        <note xml:id="fn3" type="footnote">Marginal insertion by another hand. |
+                            TKow.01: <emph>jolusary ol midbarnyn</emph>; unvocalized text. | H:
+                                <emph>joluna ol midbarnyn</emph>. | C: <emph>joluna ol
+                                jabannyŋ</emph>.</note>
+                        <note xml:id="fn4" type="footnote">K: <emph>baryridi</emph>; probably a
+                            scribal error. | TKow.01: unvocalized text. | H: <emph>baryr edi</emph>.
+                            | C: <emph>jürür edi</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>

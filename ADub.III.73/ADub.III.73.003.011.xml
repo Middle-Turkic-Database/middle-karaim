@@ -3,329 +3,420 @@
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>ADub.III.73</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Leviticus 11</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
-
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>Leviticus 11</title>
-            <milestone unit="line" n="19" />
-            <l n="1" xml:id="Lev-011-001">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>Da sözĺadi Adonaj Mošeǵa da Aharonɣa ajtadoɣač
-              <milestone unit="line" n="20" />alarɣa.
-            </l>
-            <l n="2" xml:id="Lev-011-002">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">דברו </foreign>Sözĺajiz ulanlaryna Jisraʾelnin ajtadoɣač bu-
-              <milestone unit="line" n="21" />dur ol tiri ki ašajyz bar ol tuvardan ki ol jer üstüńa.
-            </l>
-            <milestone unit="page" n="174r" />
-            <milestone unit="line" n="1" />
-            <l n="3" xml:id="Lev-011-003">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>Bar tujaqlavčunu tujaq da ajyruvčunu ajyryčyn tujaqlarnyn
-              <milestone unit="line" n="2" />güvün keltirüvčünü tuvardan any ašajyz.
-            </l>
-            <l n="4" xml:id="Lev-011-004">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>Tek ošol
-              <milestone unit="line" n="3" />bunu ašamajyz güvün keltirüvčüĺard́an jalɣyz ol güvünnü da
-              <milestone unit="line" n="4" />tujaqlavčulardan jalɣyz ol tujaqny ošol ol tev́ani ḥot́a güvün
-              <milestone unit="line" n="5" />keltiŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol
-              <milestone unit="line" n="6" />sizǵa.
-            </l>
-            <l n="5" xml:id="Lev-011-005">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol krolikni ḥot́a güvün kel-
-              <milestone unit="line" n="7" />tiŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol
-              <milestone unit="line" n="8" />sizǵa.
-            </l>
-            <l n="6" xml:id="Lev-011-006">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol qojanny ḥot́a güvün kelti-
-              <milestone unit="line" n="9" />ŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol siz-
-              <milestone unit="line" n="10" />ǵa.
-            </l>
-            <l n="7" xml:id="Lev-011-007">
-              <addSpan spanTo="#add001" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol ḥazirni ḥot́a tujaqlajdy tujaq ol da ajyrady ajyryčyn tujaqnyn da ol güvün güvünĺaḿajdi murdardyr ol sizǵa.
-              <anchor xml:id="add001" />
-            </l>
-            <l n="8" xml:id="Lev-011-008">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">מבשרם </foreign>Etĺarind́an alarnyn ašamajyz da gövd́aĺa-
-              <milestone unit="line" n="11" />rińa alarnyn tijḿajiz murdardylar alar sizǵa.
-            </l>
-            <l n="9" xml:id="Lev-011-009">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">את</foreign>
-              <milestone unit="line" n="12" />Ošol bu
-              <addSpan spanTo="#add002" />nu
-              <anchor xml:id="add002" /> ašajyz baryndan neki suvlarda barča neki anar qanat
-              <milestone unit="line" n="13" />da qabuq suvlarda tengizĺard́a da öźanĺard́a alarny ašajyz.
-            </l>
-            <milestone unit="line" n="14" />
-            <l n="10" xml:id="Lev-011-010">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da barča neki joḥtur anar qanat da qabuq suvlarda<ref target="#fn1" type="noteAnchor" />
-              <milestone unit="line" n="15" />da öźanĺard́a bar qumuzundan ol suvlarnyn da bar ol
-              <milestone unit="line" n="16" />tiri ǯandan ki suvlarda qusqunčudu alar sizǵa.
-            </l>
-            <l n="11" xml:id="Lev-011-011">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ושקץ</foreign>
-              <milestone unit="line" n="17" />Da qusqunču bolsunlar sizǵa etĺarind́an alarnyn ašamajyz
-              <milestone unit="line" n="18" />da
-              <addSpan spanTo="#add003" />ošol
-              <anchor xml:id="add003" /> gövd́aĺarin alarnyn jiŕanči etijiz.
-            </l>
-            <l n="12" xml:id="Lev-011-012">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>Barča neki
-              <milestone unit="line" n="19" />joḥtu anar qanat da qabuq suvlarda qusqunčudu ol sizǵa.
-            </l>
-            <milestone unit="line" n="20" />
-            <l n="13" xml:id="Lev-011-013">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol bunu jiŕanči etijiz ol quštan ašalmasyn-
-              <milestone unit="line" n="21" />lar qusqunčudur alar ošol ol nešerni da ošol ol peresni
-              <milestone unit="page" n="174v" />
-              <milestone unit="line" n="1" />da ošol ol ʿaznijany.
-            </l>
-            <l n="14" xml:id="Lev-011-014">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol daʾany da ošol
-              <milestone unit="line" n="2" />ol ajany ǯynsysajyn.
-            </l>
-            <l n="15" xml:id="Lev-011-015">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol bar qarɣany ǯynsysajyn.
-            </l>
-            <milestone unit="line" n="3" />
-            <l n="16" xml:id="Lev-011-016">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Ošol ol anqyt balasyn da ošol ol taḥmasny da
-              <milestone unit="line" n="4" />ošol ol šaḥafny da ošol ol qyrɣyjny ǯynsysajyn.
-            </l>
-            <l n="17" xml:id="Lev-011-017">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת</foreign>
-              <milestone unit="line" n="5" />Da ošol ol kosnu da ošol ol šalaḫny da ošol ol janšuf-
-              <milestone unit="line" n="6" />nu.
-            </l>
-            <l n="18" xml:id="Lev-011-018">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol tinšemetni da ošol ol qaʾatny
-              <milestone unit="line" n="7" />da ošol ol raḥamny.
-            </l>
-            <l n="19" xml:id="Lev-011-019">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>Da ošol ol ḥasidany
-              <milestone unit="line" n="8" />ol anafany ǯynsysajyn da ošol duḫifatny da ošol ol
-              <milestone unit="line" n="9" />jary qanatyn.
-            </l>
-            <l n="20" xml:id="Lev-011-020">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>Bar qumuzu ol qušnun ol jürüvčü dört-
-              <milestone unit="line" n="10" />ajaq üstüńa qusqunčudu ol sizǵa.
-            </l>
-            <l n="21" xml:id="Lev-011-021">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>Tek o-
-              <milestone unit="line" n="11" />šol bunu ašajyz bar qumuzundan ol qušnun ol jürüvčünün
-              <milestone unit="line" n="12" />dört ajaq üstüńa ki anar tizĺar joɣarraq ajaqlaryndan
-              <milestone unit="line" n="13" />sekirḿa alarbyla ol jer üstüńa.
-            </l>
-            <l n="22" xml:id="Lev-011-022">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">את </foreign>Ošol
-              <milestone unit="line" n="14" />bunlary alardan ašajyz ošol ol arbeni ǯynsysajyn da ošol
-              <milestone unit="line" n="15" />salʿamny ǯynsysajyn da ošol ol ḥargolnu ǯynsysajyn
-              <milestone unit="line" n="16" />ošol ol ḥagavny ǯynsysajyn.
-            </l>
-            <l n="23" xml:id="Lev-011-023">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da bar qumuzu ol quš-
-              <milestone unit="line" n="17" />nun ki anar dört ajaqlar qusqunčudu ol sizǵa.
-            </l>
-            <l n="24" xml:id="Lev-011-024">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ולאלה</foreign>
-              <milestone unit="line" n="18" />Da bularbyla murdar bolunursiz bar ol tijüvčü
-              <addSpan spanTo="#add004" />gövd́aĺarińa
-              <anchor xml:id="add004" /> alarnyn
-              <milestone unit="line" n="19" />murdar bolsun ol ingirǵadejin.
-            </l>
-            <l n="25" xml:id="Lev-011-025">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da bar ol eltüv-
-              <milestone unit="line" n="20" />čü gövd́aĺarind́an alarnyn juvsun upraqlarnyn da murdar bolsun
-              <milestone unit="line" n="21" />ol ingirǵadejin.
-            </l>
-            <l n="26" xml:id="Lev-011-026">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">לכל </foreign>Bar ol tuvar ki ol tujaqlajdy tujaq
-              <milestone unit="page" n="175r" />
-              <milestone unit="line" n="1" />da ajyryč ajyrmajdy da güvün keltirḿajdi murdardylar
-              <milestone unit="line" n="2" />alar sizǵa bar ol tijüvčü alarɣa murdar bolsun.
-            </l>
-            <l n="27" xml:id="Lev-011-027">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל</foreign>
-              <milestone unit="line" n="3" />Da bar ol jürüvčü uvučlary üstüńa bar ol tirid́a
-              <milestone unit="line" n="4" />ol jürüvčü dört
-              <addSpan spanTo="#add005" />ajaq
-              <anchor xml:id="add005" /> üstüńa murdardylar alar sizǵa
-              <milestone unit="line" n="5" />bar ol tijüvčü gövd́aĺarińa alarnyn murdar bolsun
-              <addSpan spanTo="#add006" />
-              <emph>ol ingirgedejin</emph>
-              <anchor xml:id="add006" /><ref target="#fn2" type="noteAnchor" />.
-            </l>
-            <milestone unit="line" n="6" />
-            <l n="28" xml:id="Lev-011-028">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והנושא </foreign>Da ol eltüvčü ošol gövd́aĺarinin alarnyn
-              <addSpan spanTo="#add007" />juvsun upraqlaryn
-              <anchor xml:id="add007" />
-              <milestone unit="line" n="7" />
-              <addSpan spanTo="#add008" />
-              <emph>da</emph>
-              <anchor xml:id="add008" /><ref target="#fn3" type="noteAnchor" /> murdar bolsun ol ingirǵadejin murdarlardylar alar sizǵa.
-            </l>
-            <milestone unit="line" n="8" />
-            <l n="29" xml:id="Lev-011-029">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וזה </foreign>Da budur sizǵa ol murdar qumuzda ol tebŕa-
-              <milestone unit="line" n="9" />ńadoɣan ol jer üstüńa ol ḥoled da ol ʿaḫbar da ol
-              <milestone unit="line" n="10" />cav ǯynsysajyn.
-            </l>
-            <l n="30" xml:id="Lev-011-030">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והאנקה </foreign>Da ol anaqa da ol kovaḥ da
-              <milestone unit="line" n="11" />ol letaʾa da ol ḥomet da ol tinšamet.
-            </l>
-            <l n="31" xml:id="Lev-011-031">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>Bulardy-
-              <milestone unit="line" n="12" />lar ol murdarlar sizǵa bar ol qumuzda bar ol tijüvčü alar-
-              <milestone unit="line" n="13" />ɣa ölǵanĺarind́an sortun murdar bolsun ol ingirǵa-
-              <milestone unit="line" n="14" />dejin.
-            </l>
-            <l n="32" xml:id="Lev-011-032">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da barča neki tüšśa
-              <addSpan spanTo="#add009" />anyn üstüńa
-              <anchor xml:id="add009" /> alardan ölǵanĺa-
-              <milestone unit="line" n="15" />rind́an sortun murdar bolsun bar aɣačly savutta jemeśa
-              <milestone unit="line" n="16" />upraq jemeśa teri jemeśa qap bar savut ki qylyndy
-              <milestone unit="line" n="17" />iši alarbyla suvɣa kijirilsin da murdar bolsun ol
-              <milestone unit="line" n="18" />ingirǵadejin da arynyr.
-            </l>
-            <l n="33" xml:id="Lev-011-033">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da bar čerepli savut ki
-              <milestone unit="line" n="19" />tüšśa alardan ortasynda anyn barča neki ortasynda anyn
-              <milestone unit="line" n="20" />murdar bolsun da ol savutnuda syndyryjyz.
-            </l>
-            <l n="34" xml:id="Lev-011-034">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">מכל </foreign>Bar
-              <milestone unit="line" n="21" />ol jemd́an ki ašalady ki kelśa anyn üstüńa suv murdar
-              <milestone unit="page" n="175v" />
-              <milestone unit="line" n="1" />bolsun da bar ički ki ičiĺadi bar tüslü savutta murdar bolsun.
-            </l>
-            <milestone unit="line" n="2" />
-            <l n="35" xml:id="Lev-011-035">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da barča neki tüšśa gövd́aĺarind́an anyn üstüńa
-              <milestone unit="line" n="3" />murdar bolsun ṕeč da priṕečka qavšatylsyn murdarlardylar alar
-              <milestone unit="line" n="4" />da murdarlar bolsunlar sizǵa.
-            </l>
-            <l n="36" xml:id="Lev-011-036">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>Tek köz suv da quju
-              <milestone unit="line" n="5" />jumulmaɣy suvlarnyn bolsun aruv ančaq tijvčü gövd́aĺarińa
-              <milestone unit="line" n="6" />alarnyn murdar bolsun.
-            </l>
-            <l n="37" xml:id="Lev-011-037">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>Da ki tüšśa gövd́aĺarind́an
-              <milestone unit="line" n="7" />alarnyn bar urluq üstüńa čačylɣan ki čačylady aruv bolsun
-              <milestone unit="line" n="8" />ol.
-            </l>
-            <l n="38" xml:id="Lev-011-038">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>Da ki berilśa suv urluq üstüńa da
-              <milestone unit="line" n="9" />tüšśa gövd́aĺarind́an alarnyn anyn üstüńa murdardy
-              <milestone unit="line" n="10" />ol sizǵa.
-            </l>
-            <l n="39" xml:id="Lev-011-039">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>Da ki ölśa ol tuvardan ki ol ja
-              <addSpan spanTo="#add010" />r
-              <anchor xml:id="add010" />avlydy
-              <milestone unit="line" n="11" />sizǵa jemǵa ol tijüvčü gövd́asińa anyn murdar bolsun
-              <milestone unit="line" n="12" />ol ingirǵadejin.
-            </l>
-            <l n="40" xml:id="Lev-011-040">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והאכל </foreign>Da ol ašavču gövd́asind́an
-              <milestone unit="line" n="13" />anyn juvsun upraqlaryn da murdar bolsun ol ingirǵadejin
-              <milestone unit="line" n="14" />da ol eltüvčü ošol gövd́asin anyn juvsun ošol upraq-
-              <milestone unit="line" n="15" />laryn da murdar bolsun ol ingirǵadejin.
-            </l>
-            <l n="41" xml:id="Lev-011-041">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>Da bar
-              <milestone unit="line" n="16" />ol qumuz ol tebŕańadoɣan ol jer üstüńa qusqunčudu
-              <milestone unit="line" n="17" />ol ašalmasyn.
-            </l>
-            <l n="42" xml:id="Lev-011-042">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>Bar jürüvčü
-              <addSpan spanTo="#add011" />nü
-              <anchor xml:id="add011" /> qaryn üstüńa da bar
-              <milestone unit="line" n="18" />jürüvčü dört ajaq üstüńa bar köp ajaqlyɣadejin bar ol
-              <milestone unit="line" n="19" />qumuznu ol tebŕanüvčünü ol jer üstüńa ašamajyz alarny
-              <milestone unit="line" n="20" />ki qusqunčudu alar.
-            </l>
-            <l n="43" xml:id="Lev-011-043">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אל </foreign>Jiŕanči etḿajiz ošol ǯanlaryjyz-
-              <milestone unit="line" n="21" />ny bar ol qumuzbyla ol tebŕańadoɣan da murdar bolunmajyz
-              <milestone unit="page" n="176r" />
-              <milestone unit="line" n="1" />alarbyla da jabulur aqylyjyz alardan.
-            </l>
-            <l n="44" xml:id="Lev-011-044">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>Ki menmen Adonaj
-              <milestone unit="line" n="2" />Tenrijiz da azizĺanijiz da bolujuz azizĺar ki azizdir men
-              <milestone unit="line" n="3" />da murdar etḿajiz ošol ǯanlaryjyzny bar ol qumuzbyla
-              <milestone unit="line" n="4" />ol tebŕanüvčü ol jer üstüńa.
-            </l>
-            <l n="45" xml:id="Lev-011-045">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>Ki menmen Adonaj
-              <milestone unit="line" n="5" />ol čyɣaruvču sizni jerind́an Micrinin bolma sizǵa Tenri-
-              <milestone unit="line" n="6" />ǵa da bolujuz azizĺar ki azizdir men.
-            </l>
-            <l n="46" xml:id="Lev-011-046">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">זאת </foreign>Budur
-              <milestone unit="line" n="7" />üvŕatüvü ol tuvarnyn da ol qušnun da bar ol tiri
-              <milestone unit="line" n="8" />ǯannyn ol tebŕańadoɣannyn suvlarda da bar ǯannyn ol
-              <milestone unit="line" n="9" />tebŕańadoɣannyn ol jer üstüńa.
-            </l>
-            <l n="47" xml:id="Lev-011-047">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">להבדיל </foreign>Ajyrma
-              <milestone unit="line" n="10" />arasyna ol murdarnyn da arasyna ol aruvnun da ara-
-              <milestone unit="line" n="11" />syna ol tirinin ki ašalady da arasyna ol tirinin ki
-              <milestone unit="line" n="12" />ašalmajdy.
-            </l>
-          </ab>
-        </div>
-      </div>
-      <div type="apparatus">
-        <listApp>
-          <app>
-            <note xml:id="fn1" type="footnote">K: Possibly a mistranslation. | TKow.01: <emph>tengizlerde</emph>; unvocalized text. | H: <emph>tengizlerde</emph>. | C: <emph>teŋizlärdä</emph>. | Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">בַּיַּמִּים </foreign>‘in the seas’.</note>
-            <note xml:id="fn2" type="footnote">Marginal insertion by another hand in South-Western Karaim. | TKow.01: <emph>ol ingirgedejin</emph>; unvocalized text. | H: <emph>ol ingirgedejin</emph>. | C: <emph>yŋyrɣa degin</emph>.</note>
-            <note xml:id="fn3" type="footnote">Marginal insertion by another hand. | TKow.01: <emph>da</emph>; unvocalized text. | H: <emph>da</emph>. | C: <emph>da</emph>.</note>
-          </app>
-        </listApp>
-      </div>
-    </body>
-  </text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Leviticus 11</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Leviticus 11</title>
+                        <milestone unit="line" n="19" />
+                        <l n="1" xml:id="Lev-011-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sözĺadi Adonaj Mošeǵa da Aharonɣa ajtadoɣač
+                            <milestone unit="line" n="20" />
+                            alarɣa. </l>
+                        <l n="2" xml:id="Lev-011-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">דברו </foreign>
+                            Sözĺajiz ulanlaryna Jisraʾelnin ajtadoɣač bu-
+                            <milestone unit="line" n="21" />
+                            dur ol tiri ki ašajyz bar ol tuvardan ki ol jer üstüńa. </l>
+                        <milestone unit="page" n="174r" />
+                        <milestone unit="line" n="1" />
+                        <l n="3" xml:id="Lev-011-003">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
+                            Bar tujaqlavčunu tujaq da ajyruvčunu ajyryčyn tujaqlarnyn
+                            <milestone unit="line" n="2" />
+                            güvün keltirüvčünü tuvardan any ašajyz. </l>
+                        <l n="4" xml:id="Lev-011-004">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>
+                            Tek ošol
+                            <milestone unit="line" n="3" />
+                            bunu ašamajyz güvün keltirüvčüĺard́an jalɣyz ol güvünnü da
+                            <milestone unit="line" n="4" />
+                            tujaqlavčulardan jalɣyz ol tujaqny ošol ol tev́ani ḥot́a güvün
+                            <milestone unit="line" n="5" />
+                            keltiŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol
+                            <milestone unit="line" n="6" />
+                            sizǵa. </l>
+                        <l n="5" xml:id="Lev-011-005">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol krolikni ḥot́a güvün kel-
+                            <milestone unit="line" n="7" />
+                            tiŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol
+                            <milestone unit="line" n="8" />
+                            sizǵa. </l>
+                        <l n="6" xml:id="Lev-011-006">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol qojanny ḥot́a güvün kelti-
+                            <milestone unit="line" n="9" />
+                            ŕadi eśad́a ol da tujaq tujaqlamajdy murdardy ol siz-
+                            <milestone unit="line" n="10" />
+                            ǵa. </l>
+                        <l n="7" xml:id="Lev-011-007">
+                            <addSpan spanTo="#add001" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol ḥazirni ḥot́a tujaqlajdy tujaq ol da ajyrady ajyryčyn
+                            tujaqnyn da ol güvün güvünĺaḿajdi murdardyr ol sizǵa. <anchor
+                                xml:id="add001" />
+                        </l>
+                        <l n="8" xml:id="Lev-011-008">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">מבשרם </foreign>
+                            Etĺarind́an alarnyn ašamajyz da gövd́aĺa-
+                            <milestone unit="line" n="11" />
+                            rińa alarnyn tijḿajiz murdardylar alar sizǵa. </l>
+                        <l n="9" xml:id="Lev-011-009">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">את</foreign>
+                            <milestone unit="line" n="12" />
+                            Ošol bu <addSpan spanTo="#add002" />nu <anchor xml:id="add002" /> ašajyz
+                            baryndan neki suvlarda barča neki anar qanat
+                            <milestone unit="line" n="13" />
+                            da qabuq suvlarda tengizĺard́a da öźanĺard́a alarny ašajyz. </l>
+                        <milestone unit="line" n="14" />
+                        <l n="10" xml:id="Lev-011-010">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da barča neki joḥtur anar qanat da qabuq suvlarda<ref target="#fn1"
+                                type="noteAnchor" />
+                            <milestone unit="line" n="15" />
+                            da öźanĺard́a bar qumuzundan ol suvlarnyn da bar ol
+                            <milestone unit="line" n="16" />
+                            tiri ǯandan ki suvlarda qusqunčudu alar sizǵa. </l>
+                        <l n="11" xml:id="Lev-011-011">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ושקץ</foreign>
+                            <milestone unit="line" n="17" />
+                            Da qusqunču bolsunlar sizǵa etĺarind́an alarnyn ašamajyz
+                            <milestone unit="line" n="18" />
+                            da <addSpan spanTo="#add003" />ošol <anchor xml:id="add003" />
+                            gövd́aĺarin alarnyn jiŕanči etijiz. </l>
+                        <l n="12" xml:id="Lev-011-012">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
+                            Barča neki
+                            <milestone unit="line" n="19" />
+                            joḥtu anar qanat da qabuq suvlarda qusqunčudu ol sizǵa. </l>
+                        <milestone unit="line" n="20" />
+                        <l n="13" xml:id="Lev-011-013">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol bunu jiŕanči etijiz ol quštan ašalmasyn-
+                            <milestone unit="line" n="21" />
+                            lar qusqunčudur alar ošol ol nešerni da ošol ol peresni
+                            <milestone unit="page" n="174v" />
+                            <milestone unit="line" n="1" />
+                            da ošol ol ʿaznijany. </l>
+                        <l n="14" xml:id="Lev-011-014">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol daʾany da ošol
+                            <milestone unit="line" n="2" />
+                            ol ajany ǯynsysajyn. </l>
+                        <l n="15" xml:id="Lev-011-015">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol bar qarɣany ǯynsysajyn. </l>
+                        <milestone unit="line" n="3" />
+                        <l n="16" xml:id="Lev-011-016">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Ošol ol anqyt balasyn da ošol ol taḥmasny da
+                            <milestone unit="line" n="4" />
+                            ošol ol šaḥafny da ošol ol qyrɣyjny ǯynsysajyn. </l>
+                        <l n="17" xml:id="Lev-011-017">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת</foreign>
+                            <milestone unit="line" n="5" />
+                            Da ošol ol kosnu da ošol ol šalaḫny da ošol ol janšuf-
+                            <milestone unit="line" n="6" />
+                            nu. </l>
+                        <l n="18" xml:id="Lev-011-018">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol tinšemetni da ošol ol qaʾatny
+                            <milestone unit="line" n="7" />
+                            da ošol ol raḥamny. </l>
+                        <l n="19" xml:id="Lev-011-019">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
+                            Da ošol ol ḥasidany
+                            <milestone unit="line" n="8" />
+                            ol anafany ǯynsysajyn da ošol duḫifatny da ošol ol
+                            <milestone unit="line" n="9" />
+                            jary qanatyn. </l>
+                        <l n="20" xml:id="Lev-011-020">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
+                            Bar qumuzu ol qušnun ol jürüvčü dört-
+                            <milestone unit="line" n="10" />
+                            ajaq üstüńa qusqunčudu ol sizǵa. </l>
+                        <l n="21" xml:id="Lev-011-021">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>
+                            Tek o-
+                            <milestone unit="line" n="11" />
+                            šol bunu ašajyz bar qumuzundan ol qušnun ol jürüvčünün
+                            <milestone unit="line" n="12" />
+                            dört ajaq üstüńa ki anar tizĺar joɣarraq ajaqlaryndan
+                            <milestone unit="line" n="13" />
+                            sekirḿa alarbyla ol jer üstüńa. </l>
+                        <l n="22" xml:id="Lev-011-022">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">את </foreign>
+                            Ošol
+                            <milestone unit="line" n="14" />
+                            bunlary alardan ašajyz ošol ol arbeni ǯynsysajyn da ošol
+                            <milestone unit="line" n="15" />
+                            salʿamny ǯynsysajyn da ošol ol ḥargolnu ǯynsysajyn
+                            <milestone unit="line" n="16" />
+                            ošol ol ḥagavny ǯynsysajyn. </l>
+                        <l n="23" xml:id="Lev-011-023">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar qumuzu ol quš-
+                            <milestone unit="line" n="17" />
+                            nun ki anar dört ajaqlar qusqunčudu ol sizǵa. </l>
+                        <l n="24" xml:id="Lev-011-024">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ולאלה</foreign>
+                            <milestone unit="line" n="18" />
+                            Da bularbyla murdar bolunursiz bar ol tijüvčü <addSpan spanTo="#add004"
+                             />gövd́aĺarińa <anchor xml:id="add004" /> alarnyn
+                            <milestone unit="line" n="19" />
+                            murdar bolsun ol ingirǵadejin. </l>
+                        <l n="25" xml:id="Lev-011-025">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar ol eltüv-
+                            <milestone unit="line" n="20" />
+                            čü gövd́aĺarind́an alarnyn juvsun upraqlarnyn da murdar bolsun
+                            <milestone unit="line" n="21" />
+                            ol ingirǵadejin. </l>
+                        <l n="26" xml:id="Lev-011-026">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לכל </foreign>
+                            Bar ol tuvar ki ol tujaqlajdy tujaq
+                            <milestone unit="page" n="175r" />
+                            <milestone unit="line" n="1" />
+                            da ajyryč ajyrmajdy da güvün keltirḿajdi murdardylar
+                            <milestone unit="line" n="2" />
+                            alar sizǵa bar ol tijüvčü alarɣa murdar bolsun. </l>
+                        <l n="27" xml:id="Lev-011-027">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל</foreign>
+                            <milestone unit="line" n="3" />
+                            Da bar ol jürüvčü uvučlary üstüńa bar ol tirid́a
+                            <milestone unit="line" n="4" />
+                            ol jürüvčü dört <addSpan spanTo="#add005" />ajaq <anchor xml:id="add005"
+                             /> üstüńa murdardylar alar sizǵa
+                            <milestone unit="line" n="5" />
+                            bar ol tijüvčü gövd́aĺarińa alarnyn murdar bolsun <addSpan
+                                spanTo="#add006" />
+                            <emph>ol ingirgedejin</emph>
+                            <anchor xml:id="add006" /><ref target="#fn2" type="noteAnchor" />. </l>
+                        <milestone unit="line" n="6" />
+                        <l n="28" xml:id="Lev-011-028">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והנושא </foreign>
+                            Da ol eltüvčü ošol gövd́aĺarinin alarnyn <addSpan spanTo="#add007"
+                             />juvsun upraqlaryn <anchor xml:id="add007" />
+                            <milestone unit="line" n="7" />
+                            <addSpan spanTo="#add008" />
+                            <emph>da</emph>
+                            <anchor xml:id="add008" /><ref target="#fn3" type="noteAnchor" /> murdar
+                            bolsun ol ingirǵadejin murdarlardylar alar sizǵa. </l>
+                        <milestone unit="line" n="8" />
+                        <l n="29" xml:id="Lev-011-029">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וזה </foreign>
+                            Da budur sizǵa ol murdar qumuzda ol tebŕa-
+                            <milestone unit="line" n="9" />
+                            ńadoɣan ol jer üstüńa ol ḥoled da ol ʿaḫbar da ol
+                            <milestone unit="line" n="10" />
+                            cav ǯynsysajyn. </l>
+                        <l n="30" xml:id="Lev-011-030">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והאנקה </foreign>
+                            Da ol anaqa da ol kovaḥ da
+                            <milestone unit="line" n="11" />
+                            ol letaʾa da ol ḥomet da ol tinšamet. </l>
+                        <l n="31" xml:id="Lev-011-031">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
+                            Bulardy-
+                            <milestone unit="line" n="12" />
+                            lar ol murdarlar sizǵa bar ol qumuzda bar ol tijüvčü alar-
+                            <milestone unit="line" n="13" />
+                            ɣa ölǵanĺarind́an sortun murdar bolsun ol ingirǵa-
+                            <milestone unit="line" n="14" />
+                            dejin. </l>
+                        <l n="32" xml:id="Lev-011-032">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da barča neki tüšśa <addSpan spanTo="#add009" />anyn üstüńa <anchor
+                                xml:id="add009" /> alardan ölǵanĺa-
+                            <milestone unit="line" n="15" />
+                            rind́an sortun murdar bolsun bar aɣačly savutta jemeśa
+                            <milestone unit="line" n="16" />
+                            upraq jemeśa teri jemeśa qap bar savut ki qylyndy
+                            <milestone unit="line" n="17" />
+                            iši alarbyla suvɣa kijirilsin da murdar bolsun ol
+                            <milestone unit="line" n="18" />
+                            ingirǵadejin da arynyr. </l>
+                        <l n="33" xml:id="Lev-011-033">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar čerepli savut ki
+                            <milestone unit="line" n="19" />
+                            tüšśa alardan ortasynda anyn barča neki ortasynda anyn
+                            <milestone unit="line" n="20" />
+                            murdar bolsun da ol savutnuda syndyryjyz. </l>
+                        <l n="34" xml:id="Lev-011-034">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">מכל </foreign>
+                            Bar
+                            <milestone unit="line" n="21" />
+                            ol jemd́an ki ašalady ki kelśa anyn üstüńa suv murdar
+                            <milestone unit="page" n="175v" />
+                            <milestone unit="line" n="1" />
+                            bolsun da bar ički ki ičiĺadi bar tüslü savutta murdar bolsun. </l>
+                        <milestone unit="line" n="2" />
+                        <l n="35" xml:id="Lev-011-035">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da barča neki tüšśa gövd́aĺarind́an anyn üstüńa
+                            <milestone unit="line" n="3" />
+                            murdar bolsun ṕeč da priṕečka qavšatylsyn murdarlardylar alar
+                            <milestone unit="line" n="4" />
+                            da murdarlar bolsunlar sizǵa. </l>
+                        <l n="36" xml:id="Lev-011-036">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>
+                            Tek köz suv da quju
+                            <milestone unit="line" n="5" />
+                            jumulmaɣy suvlarnyn bolsun aruv ančaq tijvčü gövd́aĺarińa
+                            <milestone unit="line" n="6" />
+                            alarnyn murdar bolsun. </l>
+                        <l n="37" xml:id="Lev-011-037">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>
+                            Da ki tüšśa gövd́aĺarind́an
+                            <milestone unit="line" n="7" />
+                            alarnyn bar urluq üstüńa čačylɣan ki čačylady aruv bolsun
+                            <milestone unit="line" n="8" />
+                            ol. </l>
+                        <l n="38" xml:id="Lev-011-038">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>
+                            Da ki berilśa suv urluq üstüńa da
+                            <milestone unit="line" n="9" />
+                            tüšśa gövd́aĺarind́an alarnyn anyn üstüńa murdardy
+                            <milestone unit="line" n="10" />
+                            ol sizǵa. </l>
+                        <l n="39" xml:id="Lev-011-039">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>
+                            Da ki ölśa ol tuvardan ki ol ja <addSpan spanTo="#add010" />r <anchor
+                                xml:id="add010" />avlydy
+                            <milestone unit="line" n="11" />
+                            sizǵa jemǵa ol tijüvčü gövd́asińa anyn murdar bolsun
+                            <milestone unit="line" n="12" />
+                            ol ingirǵadejin. </l>
+                        <l n="40" xml:id="Lev-011-040">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והאכל </foreign>
+                            Da ol ašavču gövd́asind́an
+                            <milestone unit="line" n="13" />
+                            anyn juvsun upraqlaryn da murdar bolsun ol ingirǵadejin
+                            <milestone unit="line" n="14" />
+                            da ol eltüvčü ošol gövd́asin anyn juvsun ošol upraq-
+                            <milestone unit="line" n="15" />
+                            laryn da murdar bolsun ol ingirǵadejin. </l>
+                        <l n="41" xml:id="Lev-011-041">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar
+                            <milestone unit="line" n="16" />
+                            ol qumuz ol tebŕańadoɣan ol jer üstüńa qusqunčudu
+                            <milestone unit="line" n="17" />
+                            ol ašalmasyn. </l>
+                        <l n="42" xml:id="Lev-011-042">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
+                            Bar jürüvčü <addSpan spanTo="#add011" />nü <anchor xml:id="add011" />
+                            qaryn üstüńa da bar
+                            <milestone unit="line" n="18" />
+                            jürüvčü dört ajaq üstüńa bar köp ajaqlyɣadejin bar ol
+                            <milestone unit="line" n="19" />
+                            qumuznu ol tebŕanüvčünü ol jer üstüńa ašamajyz alarny
+                            <milestone unit="line" n="20" />
+                            ki qusqunčudu alar. </l>
+                        <l n="43" xml:id="Lev-011-043">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אל </foreign>
+                            Jiŕanči etḿajiz ošol ǯanlaryjyz-
+                            <milestone unit="line" n="21" />
+                            ny bar ol qumuzbyla ol tebŕańadoɣan da murdar bolunmajyz
+                            <milestone unit="page" n="176r" />
+                            <milestone unit="line" n="1" />
+                            alarbyla da jabulur aqylyjyz alardan. </l>
+                        <l n="44" xml:id="Lev-011-044">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
+                            Ki menmen Adonaj
+                            <milestone unit="line" n="2" />
+                            Tenrijiz da azizĺanijiz da bolujuz azizĺar ki azizdir men
+                            <milestone unit="line" n="3" />
+                            da murdar etḿajiz ošol ǯanlaryjyzny bar ol qumuzbyla
+                            <milestone unit="line" n="4" />
+                            ol tebŕanüvčü ol jer üstüńa. </l>
+                        <l n="45" xml:id="Lev-011-045">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
+                            Ki menmen Adonaj
+                            <milestone unit="line" n="5" />
+                            ol čyɣaruvču sizni jerind́an Micrinin bolma sizǵa Tenri-
+                            <milestone unit="line" n="6" />
+                            ǵa da bolujuz azizĺar ki azizdir men. </l>
+                        <l n="46" xml:id="Lev-011-046">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">זאת </foreign>
+                            Budur
+                            <milestone unit="line" n="7" />
+                            üvŕatüvü ol tuvarnyn da ol qušnun da bar ol tiri
+                            <milestone unit="line" n="8" />
+                            ǯannyn ol tebŕańadoɣannyn suvlarda da bar ǯannyn ol
+                            <milestone unit="line" n="9" />
+                            tebŕańadoɣannyn ol jer üstüńa. </l>
+                        <l n="47" xml:id="Lev-011-047">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">להבדיל </foreign>
+                            Ajyrma
+                            <milestone unit="line" n="10" />
+                            arasyna ol murdarnyn da arasyna ol aruvnun da ara-
+                            <milestone unit="line" n="11" />
+                            syna ol tirinin ki ašalady da arasyna ol tirinin ki
+                            <milestone unit="line" n="12" />
+                            ašalmajdy. </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">K: Possibly a mistranslation. | TKow.01:
+                                <emph>tengizlerde</emph>; unvocalized text. | H:
+                                <emph>tengizlerde</emph>. | C: <emph>teŋizlärdä</emph>. | Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">בַּיַּמִּים </foreign>
+                            ‘in the seas’.</note>
+                        <note xml:id="fn2" type="footnote">Marginal insertion by another hand in
+                            South-Western Karaim. | TKow.01: <emph>ol ingirgedejin</emph>;
+                            unvocalized text. | H: <emph>ol ingirgedejin</emph>. | C: <emph>yŋyrɣa
+                                degin</emph>.</note>
+                        <note xml:id="fn3" type="footnote">Marginal insertion by another hand. |
+                            TKow.01: <emph>da</emph>; unvocalized text. | H: <emph>da</emph>. | C:
+                                <emph>da</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>

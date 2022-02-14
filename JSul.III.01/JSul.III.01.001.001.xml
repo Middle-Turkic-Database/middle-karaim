@@ -3,251 +3,283 @@
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>JSul.III.1</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Genesis 1</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
-
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>Genesis 1</title>
-            <milestone unit="page" n="2r" />
-            <milestone unit="line" n="1" />
-            <l xml:id="Gen-001-x001">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">בראשית</foreign>
-              <milestone unit="line" n="2" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ברא אלהים את השמים ואת הארץ׃ </foreign>
-            </l>
-            <milestone unit="line" n="3" />
-            <l n="1" xml:id="Gen-001-001">Enk baštan jaratty Tenri osol ol köklerni da
-              <milestone unit="line" n="4" />osol ol jerni.
-            </l>
-            <l n="2" xml:id="Gen-001-002">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והארץ </foreign>
-              Da ol jer edi
-              <milestone unit="line" n="5" />veren da bos qaranɣylyq izleri istine darjanyn
-              <milestone unit="line" n="6" />da jeli Tenrinin suvurdaredi izleri istine ol suvlarnyn.
-            </l>
-            <milestone unit="line" n="7" />
-            <l n="3" xml:id="Gen-001-003">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri bolsun jaryq da boldu jaryq.
-            </l>
-            <l n="4" xml:id="Gen-001-004">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וירא</foreign>
-              <milestone unit="line" n="8" />Da kördi Tenri osol ol jaryqny ki jaḥsydy da ajyrdy Tenri
-              <milestone unit="line" n="9" />arasyna ol jaryqnyn da arasyna ol qaranɣylyqnyn.
-            </l>
-            <l n="5" xml:id="Gen-001-005">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא</foreign>
-              <milestone unit="line" n="10" />Da atady Tenri jaryqqa kün da qaranɣylyqqa atady kece da
-              <milestone unit="line" n="11" />boldu ingir da boldu tan bir kün.
-            </l>
-            <l n="6" xml:id="Gen-001-006">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
-              <milestone unit="line" n="12" />Da ajtty Tenri bolsun raqijaʿ ortasynda ol suvlarnyn da
-              <milestone unit="line" n="13" />bolsun ajyruvcu arasyna isttegi<ref target="#fn1" type="noteAnchor" /> suvlarnyn kiptegi suvlar
-              <milestone unit="line" n="14" />byla.
-            </l>
-            <l n="7" xml:id="Gen-001-007">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
-              Da jaratty Tenri osol ol rakijaʿny da ajyrdy
-              <milestone unit="line" n="15" />arasyna ol suvlarnyn ki asaɣartyn rakijaʿɣa da arasyna ol suvlarnyn
-              <milestone unit="line" n="16" />ki joɣartyn rakijaʿɣa da boldu alaj.
-            </l>
-            <l n="8" xml:id="Gen-001-008">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
-              Da atady Tenri
-              <milestone unit="line" n="17" />rakijaʿɣa kökler da boldu ingir da boldu tan ekincü kün.
-            </l>
-            <milestone unit="line" n="18" />
-            <l n="9" xml:id="Gen-001-009">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri jomulsunlar ol suvlar tibinden ol köklernin
-              <milestone unit="line" n="19" />bir orunɣa da kerinsin quru da boldu alaj.
-            </l>
-            <l n="10" xml:id="Gen-001-010">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
-              Da atady
-              <milestone unit="page" n="2v" />
-              <milestone unit="line" n="1" />Tenri quruɣa jer da jumulmaɣyna ol suvlarnyn atady tengizler da
-              <milestone unit="line" n="2" />kördi Tenri ki jaḥsydy.
-            </l>
-            <l n="11" xml:id="Gen-001-011">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri jasotlasyn
-              <milestone unit="line" n="3" />ol jer jasot keget urluqlavcu urluq jemis aɣacy bittirivci
-              <milestone unit="line" n="4" />jemis ʒynsysajyn ki urluɣu anyn anda ol jer istine da boldu alaj.
-            </l>
-            <milestone unit="line" n="5" />
-            <l n="12" xml:id="Gen-001-012">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ותוצא </foreign>
-              Da cyɣardy ol jer jasot keget urluqlavcu urluq ʒynsysajyn
-              <milestone unit="line" n="6" />da aɣac bittirivcü jemis ki urluɣu anyn anda ʒynsysajyn da
-              <milestone unit="line" n="7" />kördi Tenri ki jaḥsydy.
-            </l>
-            <l n="13" xml:id="Gen-001-013">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
-              Da boldu ingir da boldu tan icincü
-              <milestone unit="line" n="8" />kün.
-            </l>
-            <l n="14" xml:id="Gen-001-014">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri bolsun jaryqlyqlar raqijaʿ-
-              <milestone unit="line" n="9" />synda ol köklernin ajyrma arasyna ol kinnin da arasyna ol
-              <milestone unit="line" n="10" />kecenin da bolsunlar belgilerge da vaɣdalarɣa da künlerge da
-              <milestone unit="line" n="11" />jyllarɣa.
-            </l>
-            <l n="15" xml:id="Gen-001-015">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והיו </foreign>
-              Da bolsunlar jaryqlyqlarɣa raqijaʿsynda ol keklernin
-              <milestone unit="line" n="12" />jarytma ol jer istine da boldu alaj.
-            </l>
-            <l n="16" xml:id="Gen-001-016">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
-              Da jaratty
-              <milestone unit="line" n="13" />Tenri osol eki ol jaryqlyqlarny ol ullularny osol ol jaryqny ol
-              <milestone unit="line" n="14" />ullu erklenmegine ol künnin da osol ol jaryqny ol kici
-              <milestone unit="line" n="15" />erklenmegine ol kecenin da osol ol jolduzlarny.
-            </l>
-            <l n="17" xml:id="Gen-001-017">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויתן </foreign>
-              Da
-              <milestone unit="line" n="16" />berdi alarny Tenri raqijaʿsynda ol köklernin jarytma ol jer istine.
-            </l>
-            <milestone unit="line" n="17" />
-            <l n="18" xml:id="Gen-001-018">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ולמשול </foreign>
-              Da erklenme künde da kecede da ajyrma arasyna
-              <milestone unit="line" n="18" />ol jaryqnyn da arasyna ol qaranɣylyqnyn da kördi Tenri ki jaḥsydy.
-            </l>
-            <milestone unit="line" n="19" />
-            <l n="19" xml:id="Gen-001-019">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
-              Da boldu ingir da boldu tan dertinci kün.
-            </l>
-            <l n="20" xml:id="Gen-001-020">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
-              <milestone unit="line" n="20" />Da ajtty Tenri qozlasynlar ol suvlar qozlamagyn tiri ʒannyn
-              <milestone unit="line" n="21" />da qus ucqalasyn ol jer istine izleri istine raqijaʿ-
-              <milestone unit="line" n="22" />synyn ol köklernin.
-            </l>
-            <l n="21" xml:id="Gen-001-021">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויברא </foreign>
-              Da jaratty Tenri osol ol acdaɣa-
-              <milestone unit="line" n="23" />larny ol ullularny da osol bar ol tiri ʒanny ol tebrenivcü ki
-              <milestone unit="line" n="24" />qozladylar ol suvlar ʒynslarysajyn da osol bar qanatly qusnu ʒynsy-
-              <milestone unit="line" n="25" />sajyn da kördi Tenri ki jaḥsydy.
-            </l>
-            <l n="22" xml:id="Gen-001-022">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויברך </foreign>
-              Da alɣyslady alarny Tenri
-              <milestone unit="line" n="26" />ajtadoɣac jajylynyz da artynyz da tolturunuz osol ol suvlarny
-              <milestone unit="line" n="27" />tengizlerde da ol qus artsyn jerde.
-            </l>
-            <l n="23" xml:id="Gen-001-023">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
-              Da boldu ingir
-              <milestone unit="page" n="3r" />
-              <milestone unit="line" n="1" />da boldu tan besinci kün.
-            </l>
-            <l n="24" xml:id="Gen-001-024">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri
-              <milestone unit="line" n="2" />cyɣarsyn ol jer tiri ʒan ʒynsysajyn tuvar da qumurstqa da
-              <milestone unit="line" n="3" />kijigin jernin ʒynsysajyn da boldu alaj.
-            </l>
-            <l n="25" xml:id="Gen-001-025">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
-              Da jaratty Tenri
-              <milestone unit="line" n="4" />osol kijigin ol jernin ʒynsysajyn da osol ol tuvarny ʒynsysajyn
-              <milestone unit="line" n="5" />da osol bar qumurstqasyn ol jernin ʒynsysajyn da kördi Tenri ki
-              <milestone unit="line" n="6" />jaḥsydy.
-            </l>
-            <l n="26" xml:id="Gen-001-026">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri jaratajyq adam susumuz byla
-              <milestone unit="line" n="7" />uqsasymyzɣa köre da erklensinler balyɣynda ol tengiznin da
-              <milestone unit="line" n="8" />qusunda ol köklernin da tuvarda da bar ol jerde da bar ol qumurst-
-              <milestone unit="line" n="9" />qada ol tebrenivcü ol jer istine.
-            </l>
-            <l n="27" xml:id="Gen-001-027">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויברא </foreign>
-              Da jaratty Tenri
-              <milestone unit="line" n="10" />osol ol adamny susu byla uqsasy byla malaḫnyn jaratty any erkek
-              <milestone unit="line" n="11" />da tisi jaratty alarny.
-            </l>
-            <l n="28" xml:id="Gen-001-028">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויברך </foreign>
-              Da alɣyslady alarny Tenri da ajtty
-              <milestone unit="line" n="12" />alarɣa Tenri jajylynyz da artynyz da tolturunuz osol ol jerni da
-              <milestone unit="line" n="13" />tutuvluq qylynyz anda da erkleniniz balyɣynda ol tengiznin da qusunda
-              <milestone unit="line" n="14" />ol köklernin da bar tiride ol tebrenivci ol jer istine.
-            </l>
-            <milestone unit="line" n="15" />
-            <l n="29" xml:id="Gen-001-029">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-              Da ajtty Tenri muna berdim sizge osol bar kegetni
-              <milestone unit="line" n="16" />urluqlavcu urluq ki izleri istine bar ol jernin da osol bar ol
-              <milestone unit="line" n="17" />aɣacny ki anda jemis aɣacy urluqlavcu urluq sizge bolur jemge.
-            </l>
-            <milestone unit="line" n="18" />
-            <l n="30" xml:id="Gen-001-030">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ולכל </foreign>
-              Da bar kijigine ol jernin da bar qusuna ol keklernin da bar
-              <milestone unit="line" n="19" />tebrenivcige ol jer istine ki anda tiri ʒan osol bar jesilligin
-              <milestone unit="line" n="20" />kegetnin jemge da boldu alaj.
-            </l>
-            <l n="31" xml:id="Gen-001-031">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וירא </foreign>
-              Da kördi Tenri osol barca
-              <milestone unit="line" n="21" />neni ki jaratty da muna jaḥsydy astry da boldu ingir da boldu tan
-              <milestone unit="line" n="22" />ol altyncy kün.
-            </l>
-          </ab>
-        </div>
-      </div>
-      <div type="apparatus">
-        <listApp>
-          <app>
-            <note xml:id="fn1" type="footnote">JSul.III.01: spelled <foreign xml:lang="he" style="unicode-bidi: embed;">אִישְטְיטֶיגִי</foreign>; a scribal error. | BSMS 288: deest.</note>
-          </app>
-        </listApp>
-      </div>
-    </body>
-  </text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Genesis 1</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Genesis 1</title>
+                        <milestone unit="page" n="2r" />
+                        <milestone unit="line" n="1" />
+                        <l xml:id="Gen-001-x001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בראשית</foreign>
+                            <milestone unit="line" n="2" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ברא אלהים את השמים
+                                ואת הארץ׃ </foreign>
+                        </l>
+                        <milestone unit="line" n="3" />
+                        <l n="1" xml:id="Gen-001-001">Enk baštan jaratty Tenri osol ol köklerni da
+                            <milestone unit="line" n="4" />
+                            osol ol jerni. </l>
+                        <l n="2" xml:id="Gen-001-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והארץ </foreign>
+                             Da ol jer edi
+                            <milestone unit="line" n="5" />
+                            veren da bos qaranɣylyq izleri istine darjanyn
+                            <milestone unit="line" n="6" />
+                            da jeli Tenrinin suvurdaredi izleri istine ol suvlarnyn. </l>
+                        <milestone unit="line" n="7" />
+                        <l n="3" xml:id="Gen-001-003">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri bolsun jaryq da boldu jaryq. </l>
+                        <l n="4" xml:id="Gen-001-004">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וירא</foreign>
+                            <milestone unit="line" n="8" />
+                            Da kördi Tenri osol ol jaryqny ki jaḥsydy da ajyrdy Tenri
+                            <milestone unit="line" n="9" />
+                            arasyna ol jaryqnyn da arasyna ol qaranɣylyqnyn. </l>
+                        <l n="5" xml:id="Gen-001-005">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא</foreign>
+                            <milestone unit="line" n="10" />
+                            Da atady Tenri jaryqqa kün da qaranɣylyqqa atady kece da
+                            <milestone unit="line" n="11" />
+                            boldu ingir da boldu tan bir kün. </l>
+                        <l n="6" xml:id="Gen-001-006">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
+                            <milestone unit="line" n="12" />
+                            Da ajtty Tenri bolsun raqijaʿ ortasynda ol suvlarnyn da
+                            <milestone unit="line" n="13" />
+                            bolsun ajyruvcu arasyna isttegi<ref target="#fn1" type="noteAnchor" />
+                            suvlarnyn kiptegi suvlar
+                            <milestone unit="line" n="14" />
+                            byla. </l>
+                        <l n="7" xml:id="Gen-001-007">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
+                             Da jaratty Tenri osol ol rakijaʿny da ajyrdy
+                            <milestone unit="line" n="15" />
+                            arasyna ol suvlarnyn ki asaɣartyn rakijaʿɣa da arasyna ol suvlarnyn
+                            <milestone unit="line" n="16" />
+                            ki joɣartyn rakijaʿɣa da boldu alaj. </l>
+                        <l n="8" xml:id="Gen-001-008">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
+                             Da atady Tenri
+                            <milestone unit="line" n="17" />
+                            rakijaʿɣa kökler da boldu ingir da boldu tan ekincü kün. </l>
+                        <milestone unit="line" n="18" />
+                        <l n="9" xml:id="Gen-001-009">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri jomulsunlar ol suvlar tibinden ol köklernin
+                            <milestone unit="line" n="19" />
+                            bir orunɣa da kerinsin quru da boldu alaj. </l>
+                        <l n="10" xml:id="Gen-001-010">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
+                             Da atady
+                            <milestone unit="page" n="2v" />
+                            <milestone unit="line" n="1" />
+                            Tenri quruɣa jer da jumulmaɣyna ol suvlarnyn atady tengizler da
+                            <milestone unit="line" n="2" />
+                            kördi Tenri ki jaḥsydy. </l>
+                        <l n="11" xml:id="Gen-001-011">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri jasotlasyn
+                            <milestone unit="line" n="3" />
+                            ol jer jasot keget urluqlavcu urluq jemis aɣacy bittirivci
+                            <milestone unit="line" n="4" />
+                            jemis ʒynsysajyn ki urluɣu anyn anda ol jer istine da boldu alaj. </l>
+                        <milestone unit="line" n="5" />
+                        <l n="12" xml:id="Gen-001-012">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ותוצא </foreign>
+                             Da cyɣardy ol jer jasot keget urluqlavcu urluq ʒynsysajyn
+                            <milestone unit="line" n="6" />
+                            da aɣac bittirivcü jemis ki urluɣu anyn anda ʒynsysajyn da
+                            <milestone unit="line" n="7" />
+                            kördi Tenri ki jaḥsydy. </l>
+                        <l n="13" xml:id="Gen-001-013">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+                             Da boldu ingir da boldu tan icincü
+                            <milestone unit="line" n="8" />
+                            kün. </l>
+                        <l n="14" xml:id="Gen-001-014">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri bolsun jaryqlyqlar raqijaʿ-
+                            <milestone unit="line" n="9" />
+                            synda ol köklernin ajyrma arasyna ol kinnin da arasyna ol
+                            <milestone unit="line" n="10" />
+                            kecenin da bolsunlar belgilerge da vaɣdalarɣa da künlerge da
+                            <milestone unit="line" n="11" />
+                            jyllarɣa. </l>
+                        <l n="15" xml:id="Gen-001-015">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והיו </foreign>
+                             Da bolsunlar jaryqlyqlarɣa raqijaʿsynda ol keklernin
+                            <milestone unit="line" n="12" />
+                            jarytma ol jer istine da boldu alaj. </l>
+                        <l n="16" xml:id="Gen-001-016">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
+                             Da jaratty
+                            <milestone unit="line" n="13" />
+                            Tenri osol eki ol jaryqlyqlarny ol ullularny osol ol jaryqny ol
+                            <milestone unit="line" n="14" />
+                            ullu erklenmegine ol künnin da osol ol jaryqny ol kici
+                            <milestone unit="line" n="15" />
+                            erklenmegine ol kecenin da osol ol jolduzlarny. </l>
+                        <l n="17" xml:id="Gen-001-017">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויתן </foreign>
+                             Da
+                            <milestone unit="line" n="16" />
+                            berdi alarny Tenri raqijaʿsynda ol köklernin jarytma ol jer istine. </l>
+                        <milestone unit="line" n="17" />
+                        <l n="18" xml:id="Gen-001-018">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ולמשול </foreign>
+                             Da erklenme künde da kecede da ajyrma arasyna
+                            <milestone unit="line" n="18" />
+                            ol jaryqnyn da arasyna ol qaranɣylyqnyn da kördi Tenri ki jaḥsydy. </l>
+                        <milestone unit="line" n="19" />
+                        <l n="19" xml:id="Gen-001-019">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+                             Da boldu ingir da boldu tan dertinci kün. </l>
+                        <l n="20" xml:id="Gen-001-020">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
+                            <milestone unit="line" n="20" />
+                            Da ajtty Tenri qozlasynlar ol suvlar qozlamagyn tiri ʒannyn
+                            <milestone unit="line" n="21" />
+                            da qus ucqalasyn ol jer istine izleri istine raqijaʿ-
+                            <milestone unit="line" n="22" />
+                            synyn ol köklernin. </l>
+                        <l n="21" xml:id="Gen-001-021">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויברא </foreign>
+                             Da jaratty Tenri osol ol acdaɣa-
+                            <milestone unit="line" n="23" />
+                            larny ol ullularny da osol bar ol tiri ʒanny ol tebrenivcü ki
+                            <milestone unit="line" n="24" />
+                            qozladylar ol suvlar ʒynslarysajyn da osol bar qanatly qusnu ʒynsy-
+                            <milestone unit="line" n="25" />
+                            sajyn da kördi Tenri ki jaḥsydy. </l>
+                        <l n="22" xml:id="Gen-001-022">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויברך </foreign>
+                             Da alɣyslady alarny Tenri
+                            <milestone unit="line" n="26" />
+                            ajtadoɣac jajylynyz da artynyz da tolturunuz osol ol suvlarny
+                            <milestone unit="line" n="27" />
+                            tengizlerde da ol qus artsyn jerde. </l>
+                        <l n="23" xml:id="Gen-001-023">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+                             Da boldu ingir
+                            <milestone unit="page" n="3r" />
+                            <milestone unit="line" n="1" />
+                            da boldu tan besinci kün. </l>
+                        <l n="24" xml:id="Gen-001-024">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri
+                            <milestone unit="line" n="2" />
+                            cyɣarsyn ol jer tiri ʒan ʒynsysajyn tuvar da qumurstqa da
+                            <milestone unit="line" n="3" />
+                            kijigin jernin ʒynsysajyn da boldu alaj. </l>
+                        <l n="25" xml:id="Gen-001-025">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויעש </foreign>
+                             Da jaratty Tenri
+                            <milestone unit="line" n="4" />
+                            osol kijigin ol jernin ʒynsysajyn da osol ol tuvarny ʒynsysajyn
+                            <milestone unit="line" n="5" />
+                            da osol bar qumurstqasyn ol jernin ʒynsysajyn da kördi Tenri ki
+                            <milestone unit="line" n="6" />
+                            jaḥsydy. </l>
+                        <l n="26" xml:id="Gen-001-026">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri jaratajyq adam susumuz byla
+                            <milestone unit="line" n="7" />
+                            uqsasymyzɣa köre da erklensinler balyɣynda ol tengiznin da
+                            <milestone unit="line" n="8" />
+                            qusunda ol köklernin da tuvarda da bar ol jerde da bar ol qumurst-
+                            <milestone unit="line" n="9" />
+                            qada ol tebrenivcü ol jer istine. </l>
+                        <l n="27" xml:id="Gen-001-027">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויברא </foreign>
+                             Da jaratty Tenri
+                            <milestone unit="line" n="10" />
+                            osol ol adamny susu byla uqsasy byla malaḫnyn jaratty any erkek
+                            <milestone unit="line" n="11" />
+                            da tisi jaratty alarny. </l>
+                        <l n="28" xml:id="Gen-001-028">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויברך </foreign>
+                             Da alɣyslady alarny Tenri da ajtty
+                            <milestone unit="line" n="12" />
+                            alarɣa Tenri jajylynyz da artynyz da tolturunuz osol ol jerni da
+                            <milestone unit="line" n="13" />
+                            tutuvluq qylynyz anda da erkleniniz balyɣynda ol tengiznin da qusunda
+                            <milestone unit="line" n="14" />
+                            ol köklernin da bar tiride ol tebrenivci ol jer istine. </l>
+                        <milestone unit="line" n="15" />
+                        <l n="29" xml:id="Gen-001-029">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Tenri muna berdim sizge osol bar kegetni
+                            <milestone unit="line" n="16" />
+                            urluqlavcu urluq ki izleri istine bar ol jernin da osol bar ol
+                            <milestone unit="line" n="17" />
+                            aɣacny ki anda jemis aɣacy urluqlavcu urluq sizge bolur jemge. </l>
+                        <milestone unit="line" n="18" />
+                        <l n="30" xml:id="Gen-001-030">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ולכל </foreign>
+                             Da bar kijigine ol jernin da bar qusuna ol keklernin da bar
+                            <milestone unit="line" n="19" />
+                            tebrenivcige ol jer istine ki anda tiri ʒan osol bar jesilligin
+                            <milestone unit="line" n="20" />
+                            kegetnin jemge da boldu alaj. </l>
+                        <l n="31" xml:id="Gen-001-031">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וירא </foreign>
+                             Da kördi Tenri osol barca
+                            <milestone unit="line" n="21" />
+                            neni ki jaratty da muna jaḥsydy astry da boldu ingir da boldu tan
+                            <milestone unit="line" n="22" />
+                            ol altyncy kün. </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">JSul.III.01: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אִישְטְיטֶיגִי</foreign>
+                            ; a scribal error. | BSMS 288: deest.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>
