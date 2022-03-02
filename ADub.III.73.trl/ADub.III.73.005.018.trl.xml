@@ -1,4 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader><fileDesc><titleStmt><title ana="#no"/><author ana="#no"/></titleStmt><publicationStmt><publisher>Uppsala University, Department of linguistics and philology</publisher><pubPlace>Uppsala, Sweden</pubPlace><date>2020</date><availability status="restricted"><licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Warsaw, Poland</settlement><repository>Private archive</repository><idno>ADub.III.73</idno></msIdentifier><msContents><summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary></msContents></msDesc></sourceDesc></fileDesc><profileDesc><abstract><p><lg><l>Deuteronomy 18</l></lg></p></abstract></profileDesc></teiHeader><text><body><div type="edition"><div type="textpart" subtype="chapter"><ab><title>Deuteronomy 1<supplied reason="lost">8</supplied></title><milestone unit="line" n="18"/><l n="1"><milestone unit="line" n="19"/>The priests, the Levites, all the tribe of Levi, shall have no portion or<milestone unit="line" n="20"/>or share with Israel. They shall eat the Lord’s offerings by fire<milestone unit="line" n="21"/>and his portion.</l><l n="2">But he shall have no portion<milestone unit="page" n="311r"/><milestone unit="line" n="1"/>among their brothers. The Lord: he is his portion,<milestone unit="line" n="2"/>as he has spoken to him.</l><l n="3">And this shall be the handling<milestone unit="line" n="3"/>of the priests by the people, by those doing<milestone unit="line" n="4"/>a sacrifice, whether cattle or sheep: he shall give to the priest<milestone unit="line" n="5"/>the forearm, and the cheeks, and the stomach.</l><milestone unit="line" n="6"/><l n="4">You shall give him the first of your grain, of your must, and<milestone unit="line" n="7"/>of your olive oil, and the first of the shearing of your sheep.</l><l n="5"><milestone unit="line" n="8"/>Because the Lord your God has chosen him from all your tribes to stand to minister<milestone unit="line" n="9"/>in the name of the Lord, him and his sons, for all<milestone unit="line" n="10"/>days.</l><l n="6">And if a Levite comes from one of<milestone unit="line" n="11"/>your cities, from all Israel, where he lives, and<milestone unit="line" n="12"/>if he comes with all the desire of his soul to the place which<milestone unit="line" n="13"/>the Lord shall choose,</l><l n="7">Then he shall minister<milestone unit="line" n="14"/>in the name of the Lord his God, like all his brothers, the Levites,<milestone unit="line" n="15"/>who are standing there before the Lord.</l><l n="8"><milestone unit="line" n="16"/>They shall eat equal portion, according to the house of their fathers, besides his sales<milestone unit="line" n="17"/>if he sales his own portion.</l><l n="9">Because you are coming<milestone unit="line" n="18"/>to the land which the Lord your God is giving you: you shall not learn to do<milestone unit="line" n="19"/>like the repulsive things of their kingdoms.</l><milestone unit="line" n="20"/><l n="10">There shall not be found among you anyone who makes his son or his daughter pass through fire,<milestone unit="line" n="21"/>or who does witchcraft, tells fortune,<milestone unit="page" n="311v"/><milestone unit="line" n="1"/>practices divination, does sorcery,</l><l n="11">Or who gathers<milestone unit="line" n="2"/>the gathering <supplied reason="lost">of devils</supplied>, and who asks of a wizard or a soothsayer,<milestone unit="line" n="3"/>and who prays to the dead.</l><l n="12">Because everyone<milestone unit="line" n="4"/>who does these things is an abomination to the Lord, and because of these repulsive<milestone unit="line" n="5"/>things the Lord your God is destroying them<milestone unit="line" n="6"/>from before you.</l><l n="13">You shall be perfect in the service of the Lord<milestone unit="line" n="7"/>your God,</l><l n="14">Because these kingdoms which you are destroying<milestone unit="line" n="8"/>hearkened to fortune tellers and to witchcraft doers.<milestone unit="line" n="9"/>But you: the Lord your God has allowed not such for you.</l><milestone unit="line" n="10"/><l n="15">The Lord your God will raise up for you a prophet from among you, from your brothers,<milestone unit="line" n="11"/>like me. You shall listen to his word.</l><milestone unit="line" n="12"/><l n="16">According to all that you desired of the Lord<milestone unit="line" n="13"/>your God in Horeb in the day of the assembly, saying,<milestone unit="line" n="14"/>“Let me not hear any more the voice of the Lord<milestone unit="line" n="15"/>my God, and let me not see this great fire<milestone unit="line" n="16"/>anymore, so I will not die.”</l><l n="17">And<milestone unit="line" n="17"/>the Lord said to me, “They have well done that<milestone unit="line" n="18"/>they have spoken.</l><l n="18">I will raise up for them a prophet<milestone unit="line" n="19"/>from among their brothers, one like you, and I will put my words<milestone unit="line" n="20"/>in his mouth. And he will speak to them all that<milestone unit="line" n="21"/>I shall command him.</l><l n="19">And it shall be: the man who<milestone unit="page" n="312r"/><milestone unit="line" n="1"/>will not listen to my words which he shall speak in my name, I<milestone unit="line" n="2"/>will seek it from him.</l><l n="20">Just: the prophet who will intrigue<milestone unit="line" n="3"/>to speak and who will speak in the name of other gods —<milestone unit="line" n="4"/>that prophet will die.”</l><l n="21">And if you say<milestone unit="line" n="5"/>from your heart, “How shall we know the word which<milestone unit="line" n="6"/>the Lord has not spoken?” —</l><l n="22">If a prophet speaks in the name<milestone unit="line" n="7"/>of the Lord, and the word will not be and does not come |to pass|:<milestone unit="line" n="8"/>that is the word that the Lord has not spoken. The prophet has spoken it insolently.<milestone unit="line" n="9"/>You shall not be afraid of him.</l></ab></div></div></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Deuteronomy 18</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Deuteronomy 1<supplied reason="lost">8</supplied></title>
+                        <milestone unit="line" xml:id="line-18-2" n="18" prev="ADub.III.73.005.017.trl.xml#line-18-1" />
+                        <l n="1">
+                            <milestone unit="line" n="19" />
+                            The priests, the Levites, all the tribe of Levi, shall have no portion or
+                            <milestone unit="line" n="20" />
+                            or share with Israel. They shall eat the Lord’s offerings by fire
+                            <milestone unit="line" n="21" />
+                            and his portion.</l>
+                        <l n="2">But he shall have no portion
+                            <milestone unit="page" n="311r" />
+                            <milestone unit="line" n="1" />
+                            among their brothers. The Lord: he is his portion,
+                            <milestone unit="line" n="2" />
+                            as he has spoken to him.</l>
+                        <l n="3">And this shall be the handling
+                            <milestone unit="line" n="3" />
+                            of the priests by the people, by those doing
+                            <milestone unit="line" n="4" />
+                            a sacrifice, whether cattle or sheep: he shall give to the priest
+                            <milestone unit="line" n="5" />
+                            the forearm, and the cheeks, and the stomach.</l>
+                        <milestone unit="line" n="6" />
+                        <l n="4">You shall give him the first of your grain, of your must, and
+                            <milestone unit="line" n="7" />
+                            of your olive oil, and the first of the shearing of your sheep.</l>
+                        <l n="5">
+                            <milestone unit="line" n="8" />
+                            Because the Lord your God has chosen him from all your tribes to stand
+                            to minister
+                            <milestone unit="line" n="9" />
+                            in the name of the Lord, him and his sons, for all
+                            <milestone unit="line" n="10" />
+                            days.</l>
+                        <l n="6">And if a Levite comes from one of
+                            <milestone unit="line" n="11" />
+                            your cities, from all Israel, where he lives, and
+                            <milestone unit="line" n="12" />
+                            if he comes with all the desire of his soul to the place which
+                            <milestone unit="line" n="13" />
+                            the Lord shall choose,</l>
+                        <l n="7">Then he shall minister
+                            <milestone unit="line" n="14" />
+                            in the name of the Lord his God, like all his brothers, the Levites,
+                            <milestone unit="line" n="15" />
+                            who are standing there before the Lord.</l>
+                        <l n="8">
+                            <milestone unit="line" n="16" />
+                            They shall eat equal portion, according to the house of their fathers,
+                            besides his sales
+                            <milestone unit="line" n="17" />
+                            if he sales his own portion.</l>
+                        <l n="9">Because you are coming
+                            <milestone unit="line" n="18" />
+                            to the land which the Lord your God is giving you: you shall not learn
+                            to do
+                            <milestone unit="line" n="19" />
+                            like the repulsive things of their kingdoms.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="10">There shall not be found among you anyone who makes his son or his
+                            daughter pass through fire,
+                            <milestone unit="line" n="21" />
+                            or who does witchcraft, tells fortune,
+                            <milestone unit="page" n="311v" />
+                            <milestone unit="line" n="1" />
+                            practices divination, does sorcery,</l>
+                        <l n="11">Or who gathers
+                            <milestone unit="line" n="2" />
+                            the gathering <supplied reason="lost">of devils</supplied>, and who asks
+                            of a wizard or a soothsayer,
+                            <milestone unit="line" n="3" />
+                            and who prays to the dead.</l>
+                        <l n="12">Because everyone
+                            <milestone unit="line" n="4" />
+                            who does these things is an abomination to the Lord, and because of
+                            these repulsive
+                            <milestone unit="line" n="5" />
+                            things the Lord your God is destroying them
+                            <milestone unit="line" n="6" />
+                            from before you.</l>
+                        <l n="13">You shall be perfect in the service of the Lord
+                            <milestone unit="line" n="7" />
+                            your God,</l>
+                        <l n="14">Because these kingdoms which you are destroying
+                            <milestone unit="line" n="8" />
+                            hearkened to fortune tellers and to witchcraft doers.
+                            <milestone unit="line" n="9" />
+                            But you: the Lord your God has allowed not such for you.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="15">The Lord your God will raise up for you a prophet from among you,
+                            from your brothers,
+                            <milestone unit="line" n="11" />
+                            like me. You shall listen to his word.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="16">According to all that you desired of the Lord
+                            <milestone unit="line" n="13" />
+                            your God in Horeb in the day of the assembly, saying,
+                            <milestone unit="line" n="14" />
+                            “Let me not hear any more the voice of the Lord
+                            <milestone unit="line" n="15" />
+                            my God, and let me not see this great fire
+                            <milestone unit="line" n="16" />
+                            anymore, so I will not die.”</l>
+                        <l n="17">And
+                            <milestone unit="line" n="17" />
+                            the Lord said to me, “They have well done that
+                            <milestone unit="line" n="18" />
+                            they have spoken.</l>
+                        <l n="18">I will raise up for them a prophet
+                            <milestone unit="line" n="19" />
+                            from among their brothers, one like you, and I will put my words
+                            <milestone unit="line" n="20" />
+                            in his mouth. And he will speak to them all that
+                            <milestone unit="line" n="21" />
+                            I shall command him.</l>
+                        <l n="19">And it shall be: the man who
+                            <milestone unit="page" n="312r" />
+                            <milestone unit="line" n="1" />
+                            will not listen to my words which he shall speak in my name, I
+                            <milestone unit="line" n="2" />
+                            will seek it from him.</l>
+                        <l n="20">Just: the prophet who will intrigue
+                            <milestone unit="line" n="3" />
+                            to speak and who will speak in the name of other gods —
+                            <milestone unit="line" n="4" />
+                            that prophet will die.”</l>
+                        <l n="21">And if you say
+                            <milestone unit="line" n="5" />
+                            from your heart, “How shall we know the word which
+                            <milestone unit="line" n="6" />
+                            the Lord has not spoken?” —</l>
+                        <l n="22">If a prophet speaks in the name
+                            <milestone unit="line" n="7" />
+                            of the Lord, and the word will not be and does not come |to pass|:
+                            <milestone unit="line" n="8" />
+                            that is the word that the Lord has not spoken. The prophet has spoken it insolently.
+                            <milestone unit="line" xml:id="line-9-1" n="9" next="ADub.III.73.005.019.trl.xml#line-9-2" />
+                            You shall not be afraid of him.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

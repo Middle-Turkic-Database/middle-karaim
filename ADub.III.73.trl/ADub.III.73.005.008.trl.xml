@@ -1,4 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader><fileDesc><titleStmt><title ana="#no"/><author ana="#no"/></titleStmt><publicationStmt><publisher>Uppsala University, Department of linguistics and philology</publisher><pubPlace>Uppsala, Sweden</pubPlace><date>2020</date><availability status="restricted"><licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Warsaw, Poland</settlement><repository>Private archive</repository><idno>ADub.III.73</idno></msIdentifier><msContents><summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary></msContents></msDesc></sourceDesc></fileDesc><profileDesc><abstract><p><lg><l>Deuteronomy 8</l></lg></p></abstract></profileDesc></teiHeader><text><body><div type="edition"><div type="textpart" subtype="chapter"><ab><title>Deuteronomy 8</title><milestone unit="line" n="2"/><l n="1">All the commandments which I command you today<milestone unit="line" n="3"/>you shall be watchful to do, that you may live and multiply<milestone unit="line" n="4"/>and come and inherit the land which<milestone unit="line" n="5"/>the Lord swore to your fathers.</l><l n="2">And you shall remember<milestone unit="line" n="6"/>all the way which the Lord your God made you walk these<milestone unit="line" n="7"/>forty years in the wilderness, to oppress you, to test you,<milestone unit="line" n="8"/>to know what was in your heart, whether you would keep his commandments<milestone unit="line" n="9"/>or not.</l><l n="3">And he oppressed you and made you hunger<milestone unit="line" n="10"/>and fed you with manna, which you had not known<milestone unit="line" n="11"/>and your fathers had not known, to let you know that<milestone unit="line" n="12"/>man does not live by bread alone, but<milestone unit="line" n="13"/>a man lives by every word that proceeds out of the mouth of the Lord.</l><milestone unit="line" n="14"/><l n="4">Your clothing did not wear away on you,<milestone unit="line" n="15"/>and your foot did not become scabbed these forty years.</l><l n="5"/><milestone unit="line" n="16"/><l n="5">You shall also know in your mind that, as a man disciplines his<milestone unit="line" n="17"/>son, so the Lord your God disciplines you.</l><milestone unit="line" n="18"/><l n="6">And you shall keep the commandments of the Lord your God,<milestone unit="line" n="19"/>to walk in his ways and to fear him.</l><l n="7">Because<milestone unit="line" n="20"/>the Lord your God brings you to a good land, a land<milestone unit="line" n="21"/>of rivers of water, of fountains and depths that spring out of valleys and<milestone unit="page" n="295r"/><milestone unit="line" n="1"/>hills,</l><l n="8">A land of wheat and barley and vines and<milestone unit="line" n="2"/>fig trees and pomegranates, a land of olive oil, and honey,</l><l n="9"><milestone unit="line" n="3"/>A land in which you will eat bread without poverty,<milestone unit="line" n="4"/>you will not lack anything in it, a land whose stones are iron,<milestone unit="line" n="5"/>and from whose hills you may dig copper.</l><l n="10">And when you have eaten<milestone unit="line" n="6"/>and are full, you shall bless the Lord your God for the good<milestone unit="line" n="7"/>land which he has given you.</l><l n="11">Take heed to yourself, lest<milestone unit="line" n="8"/>you forget the service of the Lord your God so as not to keep his commandments<milestone unit="line" n="9"/>and his judgments and his statutes which I command you<milestone unit="line" n="10"/>today,</l><l n="12">Lest you eat and are full and build fine houses<milestone unit="line" n="11"/>and dwell |there|,</l><l n="13">And your cattle and<milestone unit="line" n="12"/>your flock is multiplied, and your silver and your gold is multiplied, and<milestone unit="line" n="13"/>all that you have is multiplied,</l><l n="14">And your heart be proud,<milestone unit="line" n="14"/>and you forget the service of the Lord your God,<milestone unit="line" n="15"/>who brought you out from the land of Egypt, from the reign of slaves,</l><milestone unit="line" n="16"/><l n="15">Who made you walk in the<milestone unit="line" n="17"/>great and awesome wilderness of fiery serpents and adders<milestone unit="line" n="18"/>and thirst, because there was no water, who brought out water for you from the diamond<milestone unit="line" n="19"/>rock,</l><l n="16">Who fed you in the wilderness with manna,<milestone unit="line" n="20"/>which your fathers had not known, in order to oppress you and in order to test<milestone unit="line" n="21"/>you, to do good for you in the end,</l><l n="17">And<milestone unit="page" n="295v"/><milestone unit="line" n="1"/>if you say in your heart, “My power and the strength of my hand made<milestone unit="line" n="2"/>this wealth for me.”</l><l n="18">Then you shall remember<milestone unit="line" n="3"/>the Lord your God, because it is he that gives you power to<milestone unit="line" n="4"/>gather goods, so as to establish his covenant which he swore<milestone unit="line" n="5"/>to your fathers, as it is this day.</l><l n="19">And it shall be,<milestone unit="line" n="6"/>if you indeed forget the Lord your God and<milestone unit="line" n="7"/>go after the service of other gods and serve them and worship them,<milestone unit="line" n="8"/>I call witness regarding you today that you will surely perish.</l><l n="20"><milestone unit="line" n="9"/>Like the kingdoms that the Lord destroys before you, so will you perish,<milestone unit="line" n="10"/>because you would not listen to the voice of the Lord your God.</l></ab></div></div></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Deuteronomy 8</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Deuteronomy 8</title>
+                        <milestone unit="line" xml:id="line-2-2" n="2" prev="ADub.III.73.005.007.trl.xml#line-2-1" />
+                        <l n="1">All the commandments which I command you today
+                            <milestone unit="line" n="3" />
+                            you shall be watchful to do, that you may live and multiply
+                            <milestone unit="line" n="4" />
+                            and come and inherit the land which
+                            <milestone unit="line" n="5" />
+                            the Lord swore to your fathers.</l>
+                        <l n="2">And you shall remember
+                            <milestone unit="line" n="6" />
+                            all the way which the Lord your God made you walk these
+                            <milestone unit="line" n="7" />
+                            forty years in the wilderness, to oppress you, to test you,
+                            <milestone unit="line" n="8" />
+                            to know what was in your heart, whether you would keep his commandments
+                            <milestone unit="line" n="9" />
+                            or not.</l>
+                        <l n="3">And he oppressed you and made you hunger
+                            <milestone unit="line" n="10" />
+                            and fed you with manna, which you had not known
+                            <milestone unit="line" n="11" />
+                            and your fathers had not known, to let you know that
+                            <milestone unit="line" n="12" />
+                            man does not live by bread alone, but
+                            <milestone unit="line" n="13" />
+                            a man lives by every word that proceeds out of the mouth of the
+                            Lord.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="4">Your clothing did not wear away on you,
+                            <milestone unit="line" n="15" />
+                            and your foot did not become scabbed these forty years.</l>
+                        <l n="5" />
+                        <milestone unit="line" n="16" />
+                        <l n="5">You shall also know in your mind that, as a man disciplines his
+                            <milestone unit="line" n="17" />
+                            son, so the Lord your God disciplines you.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="6">And you shall keep the commandments of the Lord your God,
+                            <milestone unit="line" n="19" />
+                            to walk in his ways and to fear him.</l>
+                        <l n="7">Because
+                            <milestone unit="line" n="20" />
+                            the Lord your God brings you to a good land, a land
+                            <milestone unit="line" n="21" />
+                            of rivers of water, of fountains and depths that spring out of valleys and
+                            <milestone unit="page" n="295r" />
+                            <milestone unit="line" n="1" />
+                            hills,</l>
+                        <l n="8">A land of wheat and barley and vines and
+                            <milestone unit="line" n="2" />
+                            fig trees and pomegranates, a land of olive oil, and honey,</l>
+                        <l n="9">
+                            <milestone unit="line" n="3" />
+                            A land in which you will eat bread without poverty,
+                            <milestone unit="line" n="4" />
+                            you will not lack anything in it, a land whose stones are iron,
+                            <milestone unit="line" n="5" />
+                            and from whose hills you may dig copper.</l>
+                        <l n="10">And when you have eaten
+                            <milestone unit="line" n="6" />
+                            and are full, you shall bless the Lord your God for the good
+                            <milestone unit="line" n="7" />
+                            land which he has given you.</l>
+                        <l n="11">Take heed to yourself, lest
+                            <milestone unit="line" n="8" />
+                            you forget the service of the Lord your God so as not to keep his commandments
+                            <milestone unit="line" n="9" />
+                            and his judgments and his statutes which I command you
+                            <milestone unit="line" n="10" />
+                            today,</l>
+                        <l n="12">Lest you eat and are full and build fine houses
+                            <milestone unit="line" n="11" />
+                            and dwell |there|,</l>
+                        <l n="13">And your cattle and
+                            <milestone unit="line" n="12" />
+                            your flock is multiplied, and your silver and your gold is multiplied, and
+                            <milestone unit="line" n="13" />
+                            all that you have is multiplied,</l>
+                        <l n="14">And your heart be proud,
+                            <milestone unit="line" n="14" />
+                            and you forget the service of the Lord your God,
+                            <milestone unit="line" n="15" />
+                            who brought you out from the land of Egypt, from the reign of
+                            slaves,</l>
+                        <milestone unit="line" n="16" />
+                        <l n="15">Who made you walk in the
+                            <milestone unit="line" n="17" />
+                            great and awesome wilderness of fiery serpents and adders
+                            <milestone unit="line" n="18" />
+                            and thirst, because there was no water, who brought out water for you
+                            from the diamond
+                            <milestone unit="line" n="19" />
+                            rock,</l>
+                        <l n="16">Who fed you in the wilderness with manna,
+                            <milestone unit="line" n="20" />
+                            which your fathers had not known, in order to oppress you and in order
+                            to test
+                            <milestone unit="line" n="21" />
+                            you, to do good for you in the end,</l>
+                        <l n="17">And
+                            <milestone unit="page" n="295v" />
+                            <milestone unit="line" n="1" />
+                            if you say in your heart, “My power and the strength of my hand made
+                            <milestone unit="line" n="2" />
+                            this wealth for me.”</l>
+                        <l n="18">Then you shall remember
+                            <milestone unit="line" n="3" />
+                            the Lord your God, because it is he that gives you power to
+                            <milestone unit="line" n="4" />
+                            gather goods, so as to establish his covenant which he swore
+                            <milestone unit="line" n="5" />
+                            to your fathers, as it is this day.</l>
+                        <l n="19">And it shall be,
+                            <milestone unit="line" n="6" />
+                            if you indeed forget the Lord your God and
+                            <milestone unit="line" n="7" />
+                            go after the service of other gods and serve them and worship them,
+                            <milestone unit="line" n="8" />
+                            I call witness regarding you today that you will surely perish.</l>
+                        <l n="20">
+                            <milestone unit="line" n="9" />
+                            Like the kingdoms that the Lord destroys before you, so will you perish,
+                            <milestone unit="line" n="10" />
+                            because you would not listen to the voice of the Lord your God.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
