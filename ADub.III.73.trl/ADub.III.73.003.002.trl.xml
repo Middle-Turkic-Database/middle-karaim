@@ -1,4 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader><fileDesc><titleStmt><title ana="#no"/><author ana="#no"/></titleStmt><publicationStmt><publisher>Uppsala University, Department of linguistics and philology</publisher><pubPlace>Uppsala, Sweden</pubPlace><date>2020</date><availability status="restricted"><licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Warsaw, Poland</settlement><repository>Private archive</repository><idno>ADub.III.73</idno></msIdentifier><msContents><summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary></msContents></msDesc></sourceDesc></fileDesc><profileDesc><abstract><p><lg><l>Leviticus 2</l></lg></p></abstract></profileDesc></teiHeader><text><body><div type="edition"><div type="textpart" subtype="chapter"><ab><title>Leviticus 2</title><milestone unit="line" n="5"/><l n="1">And if a person<milestone unit="line" n="6"/>brings a grain offering to the Lord, his offering shall be of fine flour.<milestone unit="line" n="7"/>And he shall pour oil on it and put frankincense on it.</l><milestone unit="line" n="8"/><l n="2">And he shall bring it to Aaron’s sons,<milestone unit="line" n="9"/>the priests. And he shall take from there the fill of his fist from its fine flour<milestone unit="line" n="10"/>and from its oil with all the frankincense, and the priest shall burn<milestone unit="line" n="11"/>its incense on the altar, an offering by fire, an aroma of acceptance<milestone unit="line" n="12"/>to the Lord.</l><l n="3">And the remnant of the grain offering shall be<milestone unit="line" n="13"/>for Aaron and his sons, the holy of holies from the Lord’s<milestone unit="line" n="14"/>offerings by fire.</l><l n="4">And if you bring an offering of a grain offering<milestone unit="line" n="15"/>baked in the oven, <supplied reason="lost">it shall be</supplied> unleavened cakes of fine flour mixed with oil<milestone unit="line" n="16"/>or unleavened flans smeared with oil.</l><l n="5">And<milestone unit="line" n="17"/>if your offering is a grain offering made on a griddle,<milestone unit="line" n="18"/>it shall be of fine flour mixed with oil, unleavened.</l><l n="6"><seg type="commented" n="#seg001"/>Break it into pieces<anchor type="commented" xml:id="seg001"/><ref target="#fn1" type="noteAnchor"/>,<milestone unit="line" n="19"/>and pour oil on it. It is a grain offering.</l><milestone unit="line" n="20"/><l n="7">And if your offering is a grain offering baked in a pan,<milestone unit="line" n="21"/>it shall be made of fine flour with oil.</l><l n="8">And you shall bring the<milestone unit="page" n="159v"/><milestone unit="line" n="1"/>grain offering that is made of these things to the Lord, and it shall be brought<milestone unit="line" n="2"/>to the priest, and the priest shall bring it to the altar.</l><l n="9"><milestone unit="line" n="3"/>And the priest shall separate from the grain offering its incense, and<milestone unit="line" n="4"/>he shall burn it on the altar, an offering by fire, an aroma of acceptance to the Lord.</l><milestone unit="line" n="5"/><l n="10">And that which is left of the grain offering shall be Aaron’s and<milestone unit="line" n="6"/>his sons’: the holy of holies of the offerings by fire of the Lord.</l><milestone unit="line" n="7"/><l n="11">Every grain offering that you bring to the Lord shall not be made leavened,<milestone unit="line" n="8"/>because you shall burn no leaven or any honey as an offering by fire to the Lord.</l><milestone unit="line" n="9"/><l n="12">The offering of a first thing: you shall bring them to the Lord,<milestone unit="line" n="10"/>but they shall not go up to the altar for an aroma of acceptance.</l><l n="13">And<milestone unit="line" n="11"/>you shall salt every offering of your grain offering with salt, and you shall not let the salt of the covenant of your God cease<milestone unit="line" n="12"/>from on your grain offering; you shall bring salt<milestone unit="line" n="13"/>on all your offerings.</l><l n="14">And if you offer<milestone unit="line" n="14"/>a grain offering of firstfruits to the Lord, you shall bring forward<milestone unit="line" n="15"/>a grain offering of your firstfruits: ears |of grain| parched in fire, <supplied reason="lost">†torn</supplied><ref target="#fn2" type="noteAnchor"/> groats.</l><l n="15"><milestone unit="line" n="16"/>And you shall put oil on it and lay<milestone unit="line" n="17"/>frankincense on it. It is a grain offering.</l><l n="16">And the priest shall burn<milestone unit="line" n="18"/>its incense, some of the groats, and some of the oil with all the frankincense,<milestone unit="line" n="19"/>an offering by fire to the Lord.</l></ab></div></div><div type="apparatus"><listApp><app><note xml:id="fn1" type="footnote">Lit. ‘to divide it |into| pieces’, a calque of BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;">פָּתֹות אֹתָהּ פִּתִּים </foreign>‘Break it into pieces’. The same Karaim construction is used in H, and in C.</note><note xml:id="fn2" type="footnote">An uncertain interpretation of <emph>jyrtqan</emph>.</note></app></listApp></div></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Leviticus 2</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Leviticus 2</title>
+                        <milestone unit="line" xml:id="line-5-2" n="5" prev="ADub.III.73.003.001.trl.xml#line-5-1" />
+                        <l n="1">And if a person
+                            <milestone unit="line" n="6" />
+                            brings a grain offering to the Lord, his offering shall be of fine flour.
+                            <milestone unit="line" n="7" />
+                            And he shall pour oil on it and put frankincense on it.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="2">And he shall bring it to Aaron’s sons,
+                            <milestone unit="line" n="9" />
+                            the priests. And he shall take from there the fill of his fist from its
+                            fine flour
+                            <milestone unit="line" n="10" />
+                            and from its oil with all the frankincense, and the priest shall burn
+                            <milestone unit="line" n="11" />
+                            its incense on the altar, an offering by fire, an aroma of acceptance
+                            <milestone unit="line" n="12" />
+                            to the Lord.</l>
+                        <l n="3">And the remnant of the grain offering shall be
+                            <milestone unit="line" n="13" />
+                            for Aaron and his sons, the holy of holies from the Lord’s
+                            <milestone unit="line" n="14" />
+                            offerings by fire.</l>
+                        <l n="4">And if you bring an offering of a grain offering
+                            <milestone unit="line" n="15" />
+                            baked in the oven, <supplied reason="lost">it shall be</supplied>
+                            unleavened cakes of fine flour mixed with oil
+                            <milestone unit="line" n="16" />
+                            or unleavened flans smeared with oil.</l>
+                        <l n="5">And
+                            <milestone unit="line" n="17" />
+                            if your offering is a grain offering made on a griddle,
+                            <milestone unit="line" n="18" />
+                            it shall be of fine flour mixed with oil, unleavened.</l>
+                        <l n="6"><seg type="commented" n="#seg001" />Break it into pieces<anchor
+                                type="commented" xml:id="seg001" /><ref target="#fn1"
+                                type="noteAnchor" />,
+                            <milestone unit="line" n="19" />
+                            and pour oil on it. It is a grain offering.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="7">And if your offering is a grain offering baked in a pan,
+                            <milestone unit="line" n="21" />
+                            it shall be made of fine flour with oil.</l>
+                        <l n="8">And you shall bring the
+                            <milestone unit="page" n="159v" />
+                            <milestone unit="line" n="1" />
+                            grain offering that is made of these things to the Lord, and it shall be brought
+                            <milestone unit="line" n="2" />
+                            to the priest, and the priest shall bring it to the altar.</l>
+                        <l n="9">
+                            <milestone unit="line" n="3" />
+                            And the priest shall separate from the grain offering its incense, and
+                            <milestone unit="line" n="4" />
+                            he shall burn it on the altar, an offering by fire, an aroma of
+                            acceptance to the Lord.</l>
+                        <milestone unit="line" n="5" />
+                        <l n="10">And that which is left of the grain offering shall be Aaron’s and
+                            <milestone unit="line" n="6" />
+                            his sons’: the holy of holies of the offerings by fire of the Lord.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="11">Every grain offering that you bring to the Lord shall not be made leavened,
+                            <milestone unit="line" n="8" />
+                            because you shall burn no leaven or any honey as an offering by fire to
+                            the Lord.</l>
+                        <milestone unit="line" n="9" />
+                        <l n="12">The offering of a first thing: you shall bring them to the Lord,
+                            <milestone unit="line" n="10" />
+                            but they shall not go up to the altar for an aroma of acceptance.</l>
+                        <l n="13">And
+                            <milestone unit="line" n="11" />
+                            you shall salt every offering of your grain offering with salt, and you
+                            shall not let the salt of the covenant of your God cease
+                            <milestone unit="line" n="12" />
+                            from on your grain offering; you shall bring salt
+                            <milestone unit="line" n="13" />
+                            on all your offerings.</l>
+                        <l n="14">And if you offer
+                            <milestone unit="line" n="14" />
+                            a grain offering of firstfruits to the Lord, you shall bring forward
+                            <milestone unit="line" n="15" />
+                            a grain offering of your firstfruits: ears |of grain| parched in fire,
+                                <supplied reason="lost">†torn</supplied><ref target="#fn2"
+                                type="noteAnchor" /> groats.</l>
+                        <l n="15">
+                            <milestone unit="line" n="16" />
+                            And you shall put oil on it and lay
+                            <milestone unit="line" n="17" />
+                            frankincense on it. It is a grain offering.</l>
+                        <l n="16">And the priest shall burn
+                            <milestone unit="line" n="18" />
+                            its incense, some of the groats, and some of the oil with all the frankincense,
+                            <milestone unit="line" xml:id="line-19-1" n="19" next="ADub.III.73.003.003.trl.xml#line-19-2" />
+                            an offering by fire to the Lord.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Lit. ‘to divide it |into| pieces’, a
+                            calque of BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >פָּתֹות אֹתָהּ פִּתִּים </foreign>
+                            ‘Break it into pieces’. The same Karaim construction is used in H, and
+                            in C.</note>
+                        <note xml:id="fn2" type="footnote">An uncertain interpretation of
+                                <emph>jyrtqan</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
