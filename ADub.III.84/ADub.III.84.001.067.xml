@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm67</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 67</title>
+                        <milestone unit="line" n="3" />
+                        <l xml:id="Ps-067-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >סז׳ למנצח בנגינות מזמור שיר</foreign>
+                            <milestone unit="line" n="4" />
+                            Berilgen ojnavcuɣa ceber cozmaqlar byla širaly mizmoru
+                            <milestone unit="line" n="6" />
+                            jarytqaj qyblalaryn bizge hammeše.</l>
+                        <l n="3" xml:id="Ps-067-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לדעת </foreign>
+                            Bilme jerde
+                            <milestone unit="line" n="7" />
+                            jolunnu bar ḥanlyqlarda jarlyɣasynny.</l>
+                        <l n="4" xml:id="Ps-067-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יודוך </foreign>
+                            Šükür eterler
+                            <milestone unit="line" n="8" />
+                            sana uluslar e Tenri šükür eterler sana uluslar barlary.</l>
+                        <milestone unit="line" n="9" />
+                        <l n="5" xml:id="Ps-067-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישמחו </foreign>
+                            Bijenirler da sararlar ummalar ki töre etesen ulus-
+                            <milestone unit="line" n="10" />
+                            larny tüzlik byla da ummalarny könderesen alarny jerde hammeše.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="6" xml:id="Ps-067-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יודוך </foreign>
+                            Šükür eterler sana uluslar e Tenri šükür eterler
+                            <milestone unit="line" n="12" />
+                            sana uluslar barlary.</l>
+                        <l n="7" xml:id="Ps-067-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ארץ </foreign>
+                            Jer berir bitisin alɣyslaɣaj bizni
+                            <milestone unit="line" n="13" />
+                            Tenri Tenrimiz biznin.</l>
+                        <l n="8" xml:id="Ps-067-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יברכנו </foreign>
+                            Alɣyslaɣaj bizni Tenri da qorqar-
+                            <milestone unit="line" n="14" />
+                            lar andan bar qyryjdaɣylary jernin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

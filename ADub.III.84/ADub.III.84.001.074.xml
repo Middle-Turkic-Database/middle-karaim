@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm74</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 74</title>
+                        <milestone unit="line" n="20" />
+                        <l xml:id="Ps-074-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >עד׳ משכיל לאסף למה אלהים</foreign>
+                            <milestone unit="line" n="21" />
+                            Aqyllatadoɣan mizmoru Asafnyn nege bu e Tenri kemistin bizni
+                            <milestone unit="line" n="22" />
+                            emirgedejin qavunady acuvun ketilmis qojunda.</l>
+                        <l n="2" xml:id="Ps-074-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכור </foreign>
+                            Saɣynɣyn
+                            <milestone unit="line" n="23" />
+                            ʒymatynny ki jarattyn avaldan juludun ševetin ilisinnin toḥtatqyn bu
+                            <milestone unit="line" n="24" />
+                            tavynda Cijjonnun toḥtady šeḫinan senin anda.</l>
+                        <l n="3" xml:id="Ps-074-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הרימה </foreign>
+                            Ketirgin
+                            <milestone unit="line" n="25" />
+                            atlamlarynny emirlik verenliklerge saɣynɣyn bar jaman etmegin
+                            <milestone unit="line" n="26" />
+                            dušmannyn bet hamiqdašta.</l>
+                        <l n="4" xml:id="Ps-074-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שאגו </foreign>
+                            Ki cuv avazy berdiler
+                            <milestone unit="page" n="39v" />
+                            <milestone unit="line" n="1" />
+                            tar etivciler ortasynda mikdašynnyn öz belgilerin qojdular
+                            <milestone unit="line" n="2" />
+                            belgiler.</l>
+                        <l n="5" xml:id="Ps-074-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידע </foreign>
+                            Qondarylɣanda mikdaš belgili edi necik keltiriv-
+                            <milestone unit="line" n="3" />
+                            cü qoj ʿolaɣa alaj keltirivcü butaɣyn aɣacnyn kesken baltalar
+                            <milestone unit="line" n="6" />
+                            byla da moteqalar<ref target="#fn1" type="noteAnchor" /> byla
+                            uvaltadylar.</l>
+                        <l n="7" xml:id="Ps-074-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שלחו </foreign>
+                            Küvdirdiler otta
+                            <milestone unit="line" n="7" />
+                            mikdašynny jergedejin jengil ettiler toḥtar ornun šeḫinannyn.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="8" xml:id="Ps-074-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אמרו </foreign>
+                            Ajttylar eslerinde eksitejik atlaryn alarnyn jerden
+                            <milestone unit="line" n="9" />
+                            küvdirdiler bar jystyrynmaq ivlerin Tenrinin jerde.</l>
+                        <l n="9" xml:id="Ps-074-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אותותינו</foreign>
+                            <milestone unit="line" n="10" />
+                            Belgilerimizni körmejbiz joḥtu artyq navi da joḥtu birgemizge
+                            <milestone unit="line" n="11" />
+                            bilivcü qacanɣadejin bolur bu ɣalut.</l>
+                        <l n="10" xml:id="Ps-074-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עד </foreign>
+                            E Tenri qacanɣadejin
+                            <milestone unit="line" n="12" />
+                            rusvajlar tar berivcü acyrɣandyryr dušman šeminni emirgedejin.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="11" xml:id="Ps-074-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למה </foreign>
+                            Nege bu bos qajtarasen on ḥyssymynny ortasyndan saharynnyn
+                            <milestone unit="line" n="14" />
+                            tas etkin dušmanny.</l>
+                        <l n="12" xml:id="Ps-074-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואלהים </foreign>
+                            Da Tenridi Bijimiz avaldan ki qylady
+                            <milestone unit="line" n="15" />
+                            jarlyɣaslar ortasynda ol jernin.</l>
+                        <l n="13" xml:id="Ps-074-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen syndyrdyn kücün byla
+                            <milestone unit="line" n="16" />
+                            kücün tengiznin da sindirdin baslaryn azdaɣalarnyn ol suvlarda.</l>
+                        <milestone unit="line" n="17" />
+                        <l n="14" xml:id="Ps-074-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen janctyn basyn Livjatannyn berdin any jemge ulusqa ol
+                            <milestone unit="line" n="18" />
+                            olturuvcu otraclarda.</l>
+                        <l n="15" xml:id="Ps-074-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen jarcyqladyn coɣaraqny da
+                            <milestone unit="line" n="19" />
+                            özenni sen quruttun ullu ezenlerni.</l>
+                        <l n="16" xml:id="Ps-074-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לך </foreign>
+                            Senindi kün ham seninde
+                            <milestone unit="line" n="20" />
+                            kece sen jarattyn qujasny da ajny.</l>
+                        <l n="17" xml:id="Ps-074-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen turɣuzdun bar
+                            <milestone unit="line" n="21" />
+                            ceklerin jernin jazny da qysny sen jarattyn alarny.</l>
+                        <l n="18" xml:id="Ps-074-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכר </foreign>
+                            Saɣynɣyn
+                            <milestone unit="line" n="22" />
+                            ki dusman rusvajlajdy e H da nekes ulus acyrɣandyradylar šeminni.</l>
+                        <milestone unit="line" n="23" />
+                        <l n="19" xml:id="Ps-074-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Cyɣara bermegin jyjyna dušmannyn ʒanyn Tora uḥuvcularyn-
+                            <milestone unit="line" n="24" />
+                            nyn jyjynyn miskinlerinnin unutmaɣyn emirgedejin.</l>
+                        <l n="20" xml:id="Ps-074-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הבט </foreign>
+                            <milestone unit="line" n="25" />
+                            Saɣynɣyn sertinni ki kestin bizin byla ki uze toldu qaranɣylyqtan
+                            <milestone unit="line" n="26" />
+                            jer ceber orunlar avanlyqtan.</l>
+                        <l n="21" xml:id="Ps-074-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Qajtmasyn jerli imengen
+                            <milestone unit="page" n="40r" />
+                            <milestone unit="line" n="1" />
+                            miskin da jarly maḥtav berediler šemine senin.</l>
+                        <l n="22" xml:id="Ps-074-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קומה </foreign>
+                            Kücünnü
+                            <milestone unit="line" n="2" />
+                            körgizgin e Tenri talasqyn talasuvcularyn byla saɣynɣyn rusvajlamaɣyn
+                            <milestone unit="line" n="3" />
+                            nekes kisinin har kün.</l>
+                        <l n="23" xml:id="Ps-074-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Unutmaɣyn avazyn dušmanlarynnyn</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">KRPS <emph>motyqa</emph> ʻhoeʼ
+                            (409).</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

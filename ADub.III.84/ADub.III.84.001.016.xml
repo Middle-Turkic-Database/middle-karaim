@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm16</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 16</title>
+                        <milestone unit="line" n="16" />
+                        <l xml:id="Ps-016-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >יו׳ מכתם לדוד שמרני אל ליום ג׳</foreign>
+                            <milestone unit="line" n="17" />
+                            Ceber mizomoru Davidnin saqlaɣyn meni e Tenri bar türlü jamandan
+                            <milestone unit="line" n="18" />
+                            ki isanamen sana.</l>
+                        <l n="2" xml:id="Ps-016-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אמרת </foreign>
+                            Ajtady ʒanym H ücün
+                            <milestone unit="line" n="19" />
+                            e H jaḥsydyr sen jaḥsy qylɣanyn mana borc tüvüldü sana.</l>
+                        <l n="3" xml:id="Ps-016-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לקדושים</foreign>
+                            <milestone unit="line" n="20" />
+                            Azizlerge ki jerde alar syjlylarɣa bar küsencim usama alarɣa.</l>
+                        <milestone unit="line" n="21" />
+                        <l n="4" xml:id="Ps-016-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ירבו </foreign>
+                            Artsynlar qyjynlary andijlernin ki özge tenrilerge qalyn
+                            <milestone unit="line" n="22" />
+                            da berneler berediler vale men qujmajmen nesek alarɣa qandan
+                            <milestone unit="line" n="23" />
+                            any saɣynmajmen osol atlaryn alarnyn erinlerim byla.</l>
+                        <l n="5" xml:id="Ps-016-005">ה
+                            <milestone unit="line" n="24" />
+                            H-dy tijisli ilisim da uvunc quvusum sensen tutuvcu osol
+                            <milestone unit="line" n="25" />
+                            on qolumnu ilis alma osol ɣoralymny.</l>
+                        <l n="6" xml:id="Ps-016-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חבלים </foreign>
+                            Ilisler
+                            <milestone unit="page" n="7v" />
+                            <milestone unit="line" n="1" />
+                            tisliler mana ceberliklerde ham ilisim ceber boldu mana.</l>
+                        <milestone unit="line" n="2" />
+                        <l n="7" xml:id="Ps-016-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אברך </foreign>
+                            Maḥtav beremen H-ɣa ki kenes beredi mana ham köcelerde
+                            <milestone unit="line" n="3" />
+                            adeplejdiler mei bivreklerim.</l>
+                        <l n="8" xml:id="Ps-016-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שויתי </foreign>
+                            Tüzüjmen savaɣatyn
+                            <milestone unit="line" n="4" />
+                            H-nyn qarsyma hammeše ki on janymdan küplejdi meni tajmamen.
+                            <milestone unit="line" n="6" />
+                            gufum toḥtajdy eminlik byla.</l>
+                        <l n="10" xml:id="Ps-016-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Qolamen seni ki kemisme-
+                            <milestone unit="line" n="7" />
+                            gejsen ʒanymny gerge bermegejsen ḥasidlerine körme cuɣurnu.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="11" xml:id="Ps-016-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תודיעני </foreign>
+                            Boldirgin mana izin emirlik tirliknin tojma
+                            <milestone unit="line" n="9" />
+                            bijenclerinden qyblalaryn alnyna körme ceberliklerni ol dunja-
+                            <milestone unit="line" n="10" />
+                            da isanyp on qudratyna.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

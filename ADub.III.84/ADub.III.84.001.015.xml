@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm15</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 15</title>
+                        <milestone unit="line" n="5" />
+                        <l xml:id="Ps-015-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >טו מזמור לדוד ה מי יגור באהלך</foreign>
+                            <milestone unit="line" n="6" />
+                            Mizmoru Davidnin e H kim bolalyr tirilme catyrlarynda senin
+                            <milestone unit="line" n="7" />
+                            kim toḥtajalyr aziz tavynda.</l>
+                        <l n="2" xml:id="Ps-015-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הולך </foreign>
+                            Qajsy kisi
+                            <milestone unit="line" n="8" />
+                            jirijdi tügellik byla da qylady rastlyqny da sözlejdi osol
+                            <milestone unit="line" n="9" />
+                            kerti sözni avzu byla alaj necik tutady esinde.</l>
+                        <l n="3" xml:id="Ps-015-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא</foreign>
+                            <milestone unit="line" n="10" />
+                            Qammazlamasa tili byla dostun qylmasa dostuna jamanny da muft
+                            <milestone unit="line" n="11" />
+                            rusvajlamasa osol juvuɣun.</l>
+                        <l n="4" xml:id="Ps-015-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">נבזה </foreign>
+                            Ḥor tutsa özün öz
+                            <milestone unit="line" n="12" />
+                            közlerinde da jerenci da osol qorquvcularny H-dan syjlasa
+                            <milestone unit="line" n="13" />
+                            ant etse jaman etme özüne da alysmasa sözün.</l>
+                        <l n="5" xml:id="Ps-015-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כספו</foreign>
+                            <milestone unit="line" n="14" />
+                            Kimüsün bermese aslam byla da šoḥad kini kisiden almasa
+                            <milestone unit="line" n="15" />
+                            qyluvcu bar bu jaḥsy islerni tajmasty dunjaɣadejin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
