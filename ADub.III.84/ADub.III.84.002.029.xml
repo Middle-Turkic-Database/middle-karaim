@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Proverb 29</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Proverb 29</title>
+                        <milestone unit="line" n="6" />
+                        <l xml:id="Prov-029-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כט</foreign>
+                        </l>
+                        <l n="1" xml:id="Prov-029-001">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">איש תוכחות</foreign>
+                            )
+                            <milestone unit="line" n="7" />
+                            Igitler jesisi kattyruvcu ense kenetelej syndyrylyr da
+                            <milestone unit="line" n="8" />
+                            bolmasty onɣalmaq.</l>
+                        <l n="2" xml:id="Prov-029-002">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברבות</foreign>
+                            ) Artqanda <seg type="commented" corresp="#seg001" />⟨rašalar⟩ <addSpan
+                                spanTo="#add001" /><emph>cadikler</emph><anchor xml:id="add001"
+                                 /><anchor type="commented" xml:id="seg001" /><ref target="#fn1"
+                                type="noteAnchor" /> bijenedi ulus
+                            <milestone unit="line" n="9" />
+                            vale erklengende raša kistunady ulus.</l>
+                        <l n="3" xml:id="Prov-029-003">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">איש</foreign>
+                            ) Kisi siviv-
+                            <milestone unit="line" n="10" />
+                            cü usnu bijendiredi atasyn vale dostlasuvcu zona qatyn-
+                            <milestone unit="line" n="11" />
+                            lar byla tasetedi malny.</l>
+                        <l n="4" xml:id="Prov-029-004">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מלך</foreign>
+                            ) Meleḫ tere byla turɣuzady
+                            <milestone unit="line" n="12" />
+                            jerni vale kisi aluvcu berneler buzady jerni.</l>
+                        <l n="5" xml:id="Prov-029-005">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גבר</foreign>
+                            ) Jigit
+                            <milestone unit="line" n="13" />
+                            jylma söz sözlevcü dostu istine qyjasa av jajady
+                            <milestone unit="line" n="14" />
+                            atlamlary istine anyn.</l>
+                        <l n="6" xml:id="Prov-029-006">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בפשע</foreign>
+                            ) Tanmaɣy ücün jaman
+                            <milestone unit="line" n="15" />
+                            kisi ilinedi tuzaqqa vale cadik sarnajdy da bijenedi.</l>
+                        <milestone unit="line" n="16" />
+                        <l n="7" xml:id="Prov-029-007">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ידע</foreign>
+                            ) Biledi cadik jarɣusun jarlylarnyn vale raša anlamajdy
+                            <milestone unit="line" n="17" />
+                            bilivni.</l>
+                        <l n="8" xml:id="Prov-029-008">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנשי</foreign>
+                            ) Elikci el tuzaq qojadylar saharɣa vale
+                            <milestone unit="line" n="18" />
+                            ḥaḫamlar qajtaradylar acuvnu.</l>
+                        <l n="9" xml:id="Prov-029-009">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">איש</foreign>
+                            ) Uslu kisi törelesse
+                            <milestone unit="line" n="19" />
+                            osol teli kisi byla da acyrɣansa da kilse da joḥtu usanc.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="10" xml:id="Prov-029-010">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנשי</foreign>
+                            ) Qanly isli el ḥorlajdylar tügel kisini vale tüzler
+                            <milestone unit="line" n="21" />
+                            izlejdiler ʒanyn anyn.</l>
+                        <l n="11" xml:id="Prov-029-011">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל</foreign>
+                            ) Bar teliligin cyɣardy teli vale
+                            <milestone unit="line" n="22" />
+                            ḥaḫam ajtqary japyrady any.</l>
+                        <l n="12" xml:id="Prov-029-012">(<ref target="#fn2" type="noteAnchor"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >מושל</foreign>
+                            ) Erklenivcü ki qajyrsa
+                            <milestone unit="line" n="23" />
+                            qulaɣyn jalɣan sözge bar jumusculary anyn rašalardy.</l>
+                        <l n="13" xml:id="Prov-029-013">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רש</foreign>
+                            )
+                            <milestone unit="line" n="24" />
+                            Jarly da igitlikler jesisi joluɣusadylar jarytuvcu közlerin
+                            <milestone unit="line" n="25" />
+                            eksilerinin de H-dy.</l>
+                        <l n="14" xml:id="Prov-029-014">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מלך</foreign>
+                            ) Meleḫ töre ötivcü kertilik
+                            <milestone unit="line" n="26" />
+                            byla jarlylarny taḥty anyn dunjaɣadejin tüzilir.</l>
+                        <l n="15" xml:id="Prov-029-015">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שבט</foreign>
+                            ) Cybyq
+                            <milestone unit="line" n="27" />
+                            da igit beredi us vale ulan öz erkli ujatly etti-
+                            <milestone unit="line" n="28" />
+                            redi atasyn.</l>
+                        <l n="16" xml:id="Prov-029-016">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברבות</foreign>
+                            ) Artqanda rašalar artar tanmaq vale
+                            <milestone unit="line" n="29" />
+                            cadikler tismeklerin alarnyn körerler.</l>
+                        <l n="17" xml:id="Prov-029-017">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יסר</foreign>
+                            ) Adeplegin
+                            <milestone unit="page" n="102r" />
+                            <milestone unit="line" n="1" />
+                            uvlunnu da tync berir sana da berir asajyslyq ʒanyna senin.</l>
+                        <milestone unit="line" n="2" />
+                        <l n="18" xml:id="Prov-029-018">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">באין</foreign>
+                            ) Bolmajyn navilik buzulady ulus vale saqlavcu Torany
+                            <milestone unit="line" n="3" />
+                            sandy anar.</l>
+                        <l n="19" xml:id="Prov-029-019">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בדברים</foreign>
+                            ) Sözler byla adeplenmesti qul ki eger
+                            <milestone unit="line" n="4" />
+                            anlasada da qaruv bermejdi.</l>
+                        <l n="20" xml:id="Prov-029-020">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חזית</foreign>
+                            ) Kördinmo kisi ʒaḥt
+                            <milestone unit="line" n="5" />
+                            sözlerinde ezinin egirek umsunc bardy telige andan.</l>
+                        <milestone unit="line" n="6" />
+                        <l n="21" xml:id="Prov-029-021">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מפנק</foreign>
+                            ) Asajyslatuvcu jaslyqtan qulun sofunda bolady ol
+                            <milestone unit="line" n="7" />
+                            erklenivcü malynda anyn.</l>
+                        <l n="22" xml:id="Prov-029-022">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">איש</foreign>
+                            ) Acuv jesisi cuqcuv-
+                            <milestone unit="line" n="8" />
+                            turady talas da qahir jesisi köp tanmaqlydy.</l>
+                        <l n="23" xml:id="Prov-029-023">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גאות</foreign>
+                            )
+                            <milestone unit="line" n="9" />
+                            Öktemligi adamnyn juvuzlatady any vale juvuz ʒanly tutady
+                            <milestone unit="line" n="10" />
+                            syj.</l>
+                        <l n="24" xml:id="Prov-029-024">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חולק</foreign>
+                            ) Ilis aluvcu uru byla ḥorlajdy ʒanyn ezinin
+                            <milestone unit="line" n="11" />
+                            ki hem ki qarɣysnyda esitse da anlatmajdy.</l>
+                        <l n="25" xml:id="Prov-029-025">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חרדת</foreign>
+                            )
+                            <milestone unit="line" n="12" />
+                            Qaltravuɣy raša adamnyn berir anar tuzaq vale isanuvcu H-
+                            <milestone unit="line" n="13" />
+                            -ɣa kücejir.</l>
+                        <l n="26" xml:id="Prov-029-026">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רבים</foreign>
+                            ) Köpler qoladylar jizlerin erklenivcünün
+                            <milestone unit="line" n="14" />
+                            vale H-dandy teresi kisinin.</l>
+                        <l n="27" xml:id="Prov-029-027">(<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תועבת</foreign>
+                            ) Jerenci etkenidi
+                            <milestone unit="line" n="15" />
+                            cadiklernin avancy kisi da jerenci etkenidi rašanyn tiz
+                            <milestone unit="line" n="16" />
+                            jollu.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Crossed out and corrected in red
+                            ink.</note>
+                        <note xml:id="fn2" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">משל</foreign>
+                            .</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
