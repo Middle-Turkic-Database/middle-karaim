@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 17</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 17</title>
+                        <milestone unit="line" n="10" />
+                        <l xml:id="Job-017-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >יז׳ רוחי חובלה׃</foreign>
+                        </l>
+                        <milestone unit="line" n="11" />
+                        <l n="1" xml:id="Job-017-001">Ʒanym menim cajpaldy künlerim menim kesildiler
+                            zeretler hadiledi-
+                            <milestone unit="line" n="12" />
+                            ler mana.</l>
+                        <l n="2" xml:id="Job-017-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Körtiden<ref target="#fn1" type="noteAnchor" /> joḥtu aldavlar birgeme
+                            menim ancaq ki
+                            <milestone unit="line" n="13" />
+                            acyrɣandyrmaqlary ücün alarnyn kötedi<ref target="#fn2"
+                                type="noteAnchor" /> jaryɣy közümnün.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="3" xml:id="Job-017-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שימה </foreign>
+                            Qojɣun endi ik körmegimni birgene senin kim ol qaɣar
+                            <milestone unit="line" n="15" />
+                            uvuc birgeme menim qoluma.</l>
+                        <l n="4" xml:id="Job-017-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki jüreklerin alarnyn qapladyn
+                            <milestone unit="line" n="16" />
+                            anlamaqtan anyn ücün kötirmejdiler miviz.</l>
+                        <l n="5" xml:id="Job-017-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לחלק </foreign>
+                            Kim ki
+                            <milestone unit="line" n="17" />
+                            jylma sözler anlatady dostlaryna muna anyn ulanlarynyn anyn
+                            <milestone unit="line" n="18" />
+                            ücün közleri tunarlar.</l>
+                        <l n="6" xml:id="Job-017-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והציגני </foreign>
+                            Da turɣuzdun meni haligine
+                            <milestone unit="line" n="19" />
+                            cercegine uluslarnyn ne ki aɣaraq da syjly burundan edim.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="7" xml:id="Job-017-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותכה </foreign>
+                            Da tundu acyrɣanmaqtan közüm da buvunlarym kelege
+                            <milestone unit="line" n="21" />
+                            kübükti<ref target="#fn3" type="noteAnchor" /> barlary.</l>
+                        <l n="8" xml:id="Job-017-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישמו </foreign>
+                            Tamasa eterler tizler bunun ücün
+                            <milestone unit="line" n="22" />
+                            da keni kisi iz etivcü istine ojanyr.</l>
+                        <l n="9" xml:id="Job-017-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאחז </foreign>
+                            Da tutar
+                            <milestone unit="line" n="23" />
+                            cadiq jaḥsy jolun ezinin da aruv qollu arttyryr kiplenmek.</l>
+                        <l n="10" xml:id="Job-017-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואולם</foreign>
+                            <milestone unit="line" n="24" />
+                            Da kertiden barlarynyz qajtynyz endi da keliniz endi ki
+                            <milestone unit="page" n="117v" />
+                            <milestone unit="line" n="1" />
+                            tapmamen sizde uslu kisi.</l>
+                        <l n="11" xml:id="Job-017-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ימי </foreign>
+                            Künlerim menim astylar fikirlerim
+                            <milestone unit="line" n="2" />
+                            izildiler saɣyslary jüregimnin.</l>
+                        <l n="12" xml:id="Job-017-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לילה </foreign>
+                            Keceni künge qojadylar
+                            <milestone unit="line" n="3" />
+                            jaryqny juvuqraq qaranɣylyqtan.</l>
+                        <l n="13" xml:id="Job-017-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger belgiledim ese gerde
+                            <milestone unit="line" n="4" />
+                            üvümnü qaranɣylyqta tösedim ese töšeklerimni.</l>
+                        <l n="14" xml:id="Job-017-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לשחת</foreign>
+                            <milestone unit="line" n="5" />
+                            <seg type="commented" corresp="#seg001" /><addSpan spanTo="#add001"
+                                 /><emph>Gerge caɣyrsam atam sensen anam da tuvduɣum
+                                qumursqa.</emph><anchor xml:id="add001" /><anchor type="commented"
+                                xml:id="seg001" /><ref target="#fn4" type="noteAnchor" /></l>
+                        <l n="15" xml:id="Job-017-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואיה</foreign>
+                            <milestone unit="line" n="6" />
+                            Da qajda bunda bolɣyjdy isancym da umsuncumnu kim közle-
+                            <milestone unit="line" n="7" />
+                            gijdimo any.</l>
+                        <l n="16" xml:id="Job-017-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בדי </foreign>
+                            Qaranɣylyqlaryna görnin enerler körtiden<ref target="#fn5"
+                                type="noteAnchor" />
+                            <milestone unit="line" n="8" />
+                            birden topraq istine toḥtarbiz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Hypercorrect form of
+                                <emph>kertiden</emph>.</note>
+                        <note xml:id="fn2" type="footnote">Hypercorrect form of
+                            <emph>ketedi</emph>.</note>
+                        <note xml:id="fn3" type="footnote">Hypercorrect form of
+                            <emph>kibikti</emph>.</note>
+                        <note xml:id="fn4" type="footnote">Marginal insertion by another
+                            hand.</note>
+                        <note xml:id="fn5" type="footnote">Hypercorrect form of
+                                <emph>kertiden</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

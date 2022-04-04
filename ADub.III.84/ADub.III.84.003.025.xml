@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 25</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 25</title>
+                        <milestone unit="line" n="20" />
+                        <l n="1" xml:id="Job-025-001">Da qaruv berdi Bildad ol Šuvaḥly da ajtty.</l>
+                        <l n="2" xml:id="Job-025-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">המשל </foreign>
+                            Erklenmek
+                            <milestone unit="line" n="21" />
+                            da qorquv birgesinedi anyn qylady bazlyq bijik köklerinde.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="3" xml:id="Job-025-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">היש </foreign>
+                            Bardymo san jyjynlaryna anyn da kim istine turmaj-
+                            <milestone unit="line" n="23" />
+                            dymo jaryɣy anyn.</l>
+                        <l n="4" xml:id="Job-025-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומה </foreign>
+                            Da ne rast bolur kisi Tenri byla
+                            <milestone unit="line" n="24" />
+                            da ne aruv bolalyr tuvɣany qatynnyn.</l>
+                        <l n="5" xml:id="Job-025-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הן </foreign>
+                            Muna ol beklese
+                            <milestone unit="page" n="123r" />
+                            <milestone unit="line" n="1" />
+                            aj asyra da balqymajdyr da jolduzlar aruv körinmejdiler
+                            <milestone unit="line" n="2" />
+                            ʿenajatlaryna anyn.</l>
+                        <l n="6" xml:id="Job-025-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אף </foreign>
+                            Ham ki kisi qurt da adam uvlu
+                            <milestone unit="line" n="3" />
+                            qumus. <foreign xml:lang="he" style="unicode-bidi: embed;">כו׳ ויען איוב
+                                ויאמר׃</foreign>
+                        </l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

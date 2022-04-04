@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 27</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 27</title>
+                        <milestone unit="line" n="22" />
+                        <l xml:id="Job-027-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >כז׳ ויוסף איוב שאת משלו ויאמר׃</foreign>
+                        </l>
+                        <milestone unit="line" n="23" />
+                        <l n="1" xml:id="Job-027-001">Da arttyrdy Ijov kötirme mašalyn da ajtty.</l>
+                        <l n="2" xml:id="Job-027-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חי </foreign>
+                            Qajjam
+                            <milestone unit="line" n="24" />
+                            Tenri keterdi teremni da küclü Tenri acy etti
+                            <milestone unit="page" n="123v" />
+                            <milestone unit="line" n="1" />
+                            ʒanyma.</l>
+                        <l n="3" xml:id="Job-027-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki negince ʒanym bardy icimde da nafsty
+                            <milestone unit="line" n="2" />
+                            Tenrinin burnumda.</l>
+                        <l n="4" xml:id="Job-027-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger sözleseler erinlerim
+                            <milestone unit="line" n="3" />
+                            avanlyqny da tilim eger sözlese jaltajlyqny.</l>
+                        <l n="5" xml:id="Job-027-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חלילה</foreign>
+                            <milestone unit="line" n="4" />
+                            Hassa bolɣaj mana eger rast etsem sizni negince tynɣajmen
+                            <milestone unit="line" n="5" />
+                            ketermemen tügelligimni özümden.</l>
+                        <l n="6" xml:id="Job-027-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בצדקתי </foreign>
+                            Rastlyɣymdan
+                            <milestone unit="line" n="6" />
+                            tutunurmen da jebermejmen any özge tisli sözlemejdi
+                            <milestone unit="line" n="7" />
+                            jüregim tuvɣan kününden.</l>
+                        <l n="7" xml:id="Job-027-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יהי </foreign>
+                            Bolɣaj rašaʿ kibik dušmanym
+                            <milestone unit="line" n="8" />
+                            da utru turuvcum avancy kibik.</l>
+                        <l n="8" xml:id="Job-027-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki nedir umsuncu
+                            <milestone unit="line" n="9" />
+                            jiz etivcinin ki qynɣyrajsa ki izip alyr Tenri anyn ʒanyn.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="9" xml:id="Job-027-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הצעקתו </foreign>
+                            Firjatynmo anyn esitir Tenri ki kelse anyn
+                            <milestone unit="line" n="11" />
+                            istine tarlyq.</l>
+                        <l n="10" xml:id="Job-027-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger küclü Tenri byla asajyslanyrmo
+                            <milestone unit="line" n="12" />
+                            caɣyryrmo Tenrige har vaḥt.</l>
+                        <l n="11" xml:id="Job-027-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אורה </foreign>
+                            Üvretejim süzge<ref target="#fn1" type="noteAnchor" />
+                            <milestone unit="line" n="13" />
+                            kücün Tenrinin da quvatyn küclü Tenrinin jasyrmajym.</l>
+                        <l n="12" xml:id="Job-027-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הן</foreign>
+                            <milestone unit="line" n="14" />
+                            Muna siz barcanyz kördiniz da nege bu heclikke hec
+                            <milestone unit="line" n="15" />
+                            bolasiz.</l>
+                        <l n="13" xml:id="Job-027-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זה </foreign>
+                            Bundijdi iliši rašaʿ adamnyn Tenriden da
+                            <milestone unit="line" n="16" />
+                            tyjysy küclülernin ki küclü Tenriden aladylar.</l>
+                        <l n="14" xml:id="Job-027-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger
+                            <milestone unit="line" n="17" />
+                            artsalar ulanlary qylycqadyr da jas ulanlary tojmajdylar
+                            <milestone unit="line" n="18" />
+                            ötmekten.</l>
+                        <l n="15" xml:id="Job-027-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שרידו </foreign>
+                            Qaldyqlary anyn zerett<supplied reason="lost">e</supplied><ref
+                                target="#fn2" type="noteAnchor" /> astraladylar
+                            <milestone unit="line" n="19" />
+                            da tullary jylamajdylar.</l>
+                        <l n="16" xml:id="Job-027-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger jystyrsa topraq
+                            <milestone unit="line" n="20" />
+                            kibik kimis da balcyqny kibik hadirl<supplied reason="lost"
+                                >e</supplied>se<ref target="#fn3" type="noteAnchor" /> upraqny.</l>
+                        <l n="17" xml:id="Job-027-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יכין</foreign>
+                            <milestone unit="line" n="21" />
+                            Hadirler da cadiq kijer da kümüsin k<supplied reason="lost"
+                                >ö</supplied>nü<ref target="#fn4" type="noteAnchor" /> kisi
+                            ilesir.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="18" xml:id="Job-027-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בנה </foreign>
+                            Qondardy qylabyla kübük<ref target="#fn5" type="noteAnchor" /> üvün da
+                            alacyqny kibik
+                            <milestone unit="line" n="23" />
+                            ki qyladyr saqlavcu.</l>
+                        <l n="19" xml:id="Job-027-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עשיר </foreign>
+                            Ḥoʒa jatsa ölümge
+                            <milestone unit="line" n="24" />
+                            da hanuz jystyrylmasada közlerin acqynca da joq bolur
+                            <milestone unit="page" n="124r" />
+                            <milestone unit="line" n="1" />
+                            maly anyn.</l>
+                        <l n="20" xml:id="Job-027-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תשיגהו </foreign>
+                            Jetisir anar suvlar kibik alɣasamaqlar
+                            <milestone unit="line" n="2" />
+                            kece byla urlap elter any tavul.</l>
+                        <l n="21" xml:id="Job-027-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישאהו </foreign>
+                            Kötirir any
+                            <milestone unit="line" n="3" />
+                            qadim jeli da baryr da tavullar any ornundan.</l>
+                        <l n="22" xml:id="Job-027-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישלך</foreign>
+                            <milestone unit="line" n="4" />
+                            Da taslar anyn istine da ḥajifsinmes qolundan anyn qacma
+                            <milestone unit="line" n="5" />
+                            qacar.</l>
+                        <l n="23" xml:id="Job-027-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישפק </foreign>
+                            Qaɣar alar istine uvuclary byla da
+                            <milestone unit="line" n="6" />
+                            syzɣryr anyn istine ornundan.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Hypercorrect form of
+                            <emph>sizge</emph>.</note>
+                        <note xml:id="fn2" type="footnote">ADub.III.84: <emph>zeretti</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn3" type="footnote">ADub.III.84: <emph>hadirlise</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn4" type="footnote">ADub.III.84: <emph>künü</emph>; a scribal
+                            error.</note>
+                        <note xml:id="fn5" type="footnote">Hypercorrect form of
+                            <emph>kibik</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
