@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 120</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 120</title>
+                        <milestone unit="line" xml:id="Ps120-P68r-L14" n="14"
+                            prev="ADub.III.84.001.119.xml#Ps119-P68r-L14" />
+                        <l xml:id="Ps-120-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קכ׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר המעלות אל ה
+                                בצרתה לי</foreign>
+                            ) <foreign xml:lang="he" style="unicode-bidi: embed;">ליום כו׳</foreign>
+                            <milestone unit="line" n="15" />
+                            Širasy ol jergelernin.</l>
+                        <l n="1" xml:id="Ps-120-001">Tar bolɣanda mana caɣyramen H-ɣa da qaruv
+                            <milestone unit="line" n="16" />
+                            beredi mana.</l>
+                        <l n="2" xml:id="Ps-120-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            E H qutqarɣyn ʒanymny jalɣan sezden jaltaj
+                            <milestone unit="line" n="17" />
+                            tilden.</l>
+                        <l n="3" xml:id="Ps-120-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מה </foreign>
+                            Ne berir da ne arttyryr sana e jaltaj til.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="4" xml:id="Ps-120-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חיצי </foreign>
+                            Oqlary baɣatyrlarnyn itilengendiler kemirleri byla <addSpan
+                                spanTo="#add001" />jalovec aɣaclarynyn<anchor xml:id="add001" />
+                            <addSpan spanTo="#add002" /><addSpan spanTo="#add002" />ḥurma
+                            <milestone unit="line" n="19" />
+                            tereklernin<anchor xml:id="add002" /><anchor xml:id="add003" />.</l>
+                        <l n="5" xml:id="Ps-120-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אויה </foreign>
+                            Vaj mana ki tirildim Mosqvada toḥtadym
+                            <milestone unit="line" n="20" />
+                            catyrlarynda Tatarnyn.</l>
+                        <l n="6" xml:id="Ps-120-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רבת </foreign>
+                            Köp zaman toḥtady ezine ʒanym
+                            <milestone unit="line" n="21" />
+                            ḥor etivci byla bazlyqny.</l>
+                        <l n="7" xml:id="Ps-120-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אני </foreign>
+                            Men bazlyqny sözlesem alar klejdiler
+                            <milestone unit="line" xml:id="Ps120-P68r-L22" n="22"
+                                next="ADub.III.84.001.121.xml#Ps121-P68r-L22" />
+                            orusma.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

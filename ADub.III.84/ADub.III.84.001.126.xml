@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 126</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 126</title>
+                        <milestone unit="line" xml:id="Ps126-P69r-L21" n="21"
+                            prev="ADub.III.84.001.125.xml#Ps125-P69r-L21" />
+                        <l xml:id="Ps-126-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קכו׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר המעלות בשוב
+                                ה</foreign>
+                            )
+                            <milestone unit="line" n="22" />
+                            Širasy ol jergelernin.</l>
+                        <l n="1" xml:id="Ps-126-001">Qajtarɣanda H osol qajtuvun Cijonnun bolubiz
+                            <milestone unit="line" n="23" />
+                            tis körüvciler kibik.</l>
+                        <l n="2" xml:id="Ps-126-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta tolar kiltkiden avzumuz
+                            <milestone unit="line" n="24" />
+                            da tilimiz sarnavdan ol vaḥtta ajtyrlar ḥanlyqlar arasyna daɣyn
+                            <milestone unit="page" n="69v" />
+                            <milestone unit="line" n="1" />
+                            ulluɣun körgizir H qylma bular byla.</l>
+                        <l n="3" xml:id="Ps-126-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הגדיל </foreign>
+                            Ulluɣun körgizir H qylma
+                            <milestone unit="line" n="2" />
+                            birgemizge bolubiz bijenivciler.</l>
+                        <l n="4" xml:id="Ps-126-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שובה </foreign>
+                            Qajtarɣyn e H osol qajtuvu-
+                            <milestone unit="line" n="3" />
+                            muznu cyrlaqlarny kibik qurɣaq orunda.</l>
+                        <l n="5" xml:id="Ps-126-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הזורעים </foreign>
+                            Ol cacuvcular
+                            <milestone unit="line" n="4" />
+                            jas byla sarnav byla orarlar.</l>
+                        <l n="6" xml:id="Ps-126-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הלוך </foreign>
+                            Barma barady da jylajdy eltivci
+                            <milestone unit="line" n="5" />
+                            bitisin ol urluqnun kelme keledi sarnavbyla eltivci kiltelerin
+                            <milestone unit="line" xml:id="Ps126-P69v-L6" n="6"
+                                next="ADub.III.84.001.127.xml#Ps127-P69v-L6" />
+                            anyn.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

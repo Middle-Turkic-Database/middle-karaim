@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 118</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 118</title>
+                        <milestone unit="line" n="18" />
+                        <l xml:id="Ps-118-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קיח׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Ps-118-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הודו לה כי טוב</foreign>
+                            <milestone unit="line" n="19" />
+                            Šükür etiniz H-ɣa ki jaḥsydy ki dunjaɣadejin qajjamdy savaɣaty anyn.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="2" xml:id="Ps-118-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יאמר </foreign>
+                            Ajtsyn endi Jisraʾel ki dunjaɣadejin qajjamdy savaɣaty anyn.</l>
+                        <milestone unit="line" n="21" />
+                        <l n="3" xml:id="Ps-118-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יאמרו </foreign>
+                            Ajtsynlar endi üvü Aharonnun ki dunjaɣadejin qajjamdy
+                            <milestone unit="line" n="22" />
+                            savaɣaty anyn.</l>
+                        <l n="4" xml:id="Ps-118-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יאמרו </foreign>
+                            Ajtsynlar endi qorquvcular H-dan ki dunjaɣa-
+                            <milestone unit="line" n="23" />
+                            dejin qajjamdy savaɣaty anyn.</l>
+                        <l n="5" xml:id="Ps-118-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מן </foreign>
+                            Ol tarlyqtan caɣyramen Tenrige
+                            <milestone unit="line" n="24" />
+                            qaruv berdi mana avl<supplied reason="lost">a</supplied>qlyq<ref
+                                target="#fn1" type="noteAnchor" /> byla e Tenri.</l>
+                        <l n="6" xml:id="Ps-118-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H-dy bolusluq mana
+                            <milestone unit="page" n="63v" />
+                            <milestone unit="line" n="1" />
+                            qorqmajmen ne qylar adam mana.</l>
+                        <l n="7" xml:id="Ps-118-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H bolusluqtu mana bolusuvcularym
+                            <milestone unit="line" n="2" />
+                            arasyna da men köremen jamanyn dusmanlarymnyn.</l>
+                        <l n="8" xml:id="Ps-118-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">טוב </foreign>
+                            Jaḥsyraqty isanma
+                            <milestone unit="line" n="3" />
+                            H-ɣa isanmaqtan adamɣa.</l>
+                        <l n="9" xml:id="Ps-118-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">טוב </foreign>
+                            Jaḥsyraqty isanma H-ɣa isanmaqtan
+                            <milestone unit="line" n="4" />
+                            ʒomartlarɣa.</l>
+                        <l n="10" xml:id="Ps-118-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar ḥanlyqlar qursadylar meni šemi byla H-nyn kesemen
+                            <milestone unit="line" n="5" />
+                            alarny.</l>
+                        <l n="11" xml:id="Ps-118-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">סבוני </foreign>
+                            Qursadylar meni daɣy civre qursadylar meni šemi byla
+                            <milestone unit="line" n="6" />
+                            H-nyn kesemen alarny.</l>
+                        <l n="12" xml:id="Ps-118-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">סבוני </foreign>
+                            Qursadylar meni balcibinleri kibik tundu-
+                            <milestone unit="line" n="7" />
+                            lar otu kibik tegeneklernin šemi byla H-nyn kesemen alarny.</l>
+                        <l n="13" xml:id="Ps-118-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דחה</foreign>
+                            <milestone unit="line" n="8" />
+                            Taberme taberdin meni jyɣylma da H bolustu mana.</l>
+                        <l n="14" xml:id="Ps-118-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עזי </foreign>
+                            Kicimdi da
+                            <milestone unit="line" n="9" />
+                            maḥtavumdu Tenri da bolady mana jarlyɣasqa.</l>
+                        <l n="15" xml:id="Ps-118-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קול </foreign>
+                            Sarnav avazy da
+                            <milestone unit="line" n="10" />
+                            jarlyɣas catyrlarynda cadiqlernin on qudraty H-nyn qylady tuvusluq</l>
+                        <milestone unit="line" n="11" />
+                        <l n="16" xml:id="Ps-118-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ימין </foreign>
+                            On qudraty H-nyn bijikti on qudraty H-nyn qylady tuvusluq</l>
+                        <milestone unit="line" n="12" />
+                        <l n="17" xml:id="Ps-118-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                            Tiri bolsam da elmesem da qotaramen tamasa islerin Tenrinin.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="18" xml:id="Ps-118-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יסור </foreign>
+                            Adepleme adeplejdi meni Tenri da elimge cyɣara bermej-
+                            <milestone unit="line" n="14" />
+                            di meni.</l>
+                        <l n="19" xml:id="Ps-118-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פתחו </foreign>
+                            Acynyz mana qabaqlaryn rastlyqnyn kelimen alar byla
+                            <milestone unit="line" n="15" />
+                            šükür etermen Tenrige.</l>
+                        <l n="20" xml:id="Ps-118-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זה </foreign>
+                            Bu ol qabaq H-nyndy cadiqler
+                            <milestone unit="line" n="16" />
+                            kelediler anyn byla.</l>
+                        <l n="21" xml:id="Ps-118-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אודך </foreign>
+                            Šükür etemen ki qaruv berdin
+                            <milestone unit="line" n="17" />
+                            mana da boldun mana jarlyɣasqa.</l>
+                        <l n="22" xml:id="Ps-118-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אבן </foreign>
+                            Tasny ḥor ettiler ol
+                            <milestone unit="line" n="18" />
+                            qondaruvcular boldu fundament tasqa.</l>
+                        <l n="23" xml:id="Ps-118-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מאת </foreign>
+                            Osol H-dan boldu
+                            <milestone unit="line" n="19" />
+                            bu ol tamasady közlerimizde.</l>
+                        <l n="24" xml:id="Ps-118-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זה </foreign>
+                            Bu ol künnü jaratty H
+                            <milestone unit="line" n="20" />
+                            anlyqqa ki quvanɣajbiz da bijengejbiz anda.</l>
+                        <l n="25" xml:id="Ps-118-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנא </foreign>
+                            Qoltqa byla
+                            <milestone unit="line" n="21" />
+                            e H qutqarɣyn endi qoltqabyla e H onartqyn endi.</l>
+                        <l n="26" xml:id="Ps-118-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברוך</foreign>
+                            <milestone unit="line" n="22" />
+                            Alɣyslydy ol kelivcü šemi byla H-nyn alɣyslajbiz sizni ivinden
+                            <milestone unit="line" n="23" />
+                            H-nyn.</l>
+                        <l n="27" xml:id="Ps-118-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Tenridi H da jarytty bizge bajlanyz qojun ḥyʒnyn
+                            <milestone unit="line" n="24" />
+                            bazyq erkenler byla mivizlerine<addSpan spanTo="#add001" />dejin<anchor
+                                xml:id="add001" /> ol mizbeaḥnyn.</l>
+                        <l n="28" xml:id="Ps-118-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אלי</foreign>
+                            <milestone unit="page" n="64r" />
+                            <milestone unit="line" n="1" />
+                            Tenrimdirsen da šükür etemen sana e Tenrim bijikliginni
+                            <milestone unit="line" n="2" />
+                            qotaramen senin.</l>
+                        <l n="29" xml:id="Ps-118-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הודו </foreign>
+                            Šükür etiniz H-ɣa ki jaḥsydy ki dunja-
+                            <milestone unit="line" n="3" />
+                            ɣadejin qajjamdy savaɣaty anyn.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אַווְלִקְלִיק</foreign>
+                            ; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

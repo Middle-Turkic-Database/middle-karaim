@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 98</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 98</title>
+                        <milestone unit="line" xml:id="Ps098-P52v-L10" n="10"
+                            prev="ADub.III.84.001.097.xml#Ps097-P52v-L10" />
+                        <l xml:id="Ps-098-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >צח׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">מזמור שירו
+                                לה</foreign>
+                            ) <foreign xml:lang="he" style="unicode-bidi: embed;">ליום כ׳</foreign>
+                            <milestone unit="line" n="11" />
+                            Mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-098-001">Šira uḥunuz H-ɣa janɣy šira ki tamaša isler
+                            <milestone unit="line" n="12" />
+                            qylady qutqardy any on qudraty anyn da aziz quvaty.</l>
+                        <l n="2" xml:id="Ps-098-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הודיע</foreign>
+                            <milestone unit="line" n="13" />
+                            Bildirdi H jarlyɣasyn közlerice ol uluslarnyn asqartty
+                            <milestone unit="line" n="14" />
+                            rastlyɣyn.</l>
+                        <l n="3" xml:id="Ps-098-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכר </foreign>
+                            Saɣyndy savaɣatyn da qajjamlyɣyn ivine Jisraʾel-
+                            <milestone unit="line" n="15" />
+                            nin kördiler bar qyryjdaɣylary jernin osol jarlyɣasyn Tenrimiznin.</l>
+                        <milestone unit="line" n="16" />
+                        <l n="4" xml:id="Ps-098-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הריעו </foreign>
+                            Qycqyrynyz H-ɣa bar eli ol jernin quvanynyz da sarnanyz
+                            <milestone unit="line" n="17" />
+                            da zemer uḥunuz.</l>
+                        <l n="5" xml:id="Ps-098-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זמרו </foreign>
+                            Zemer uḥunuz H-ɣa qobuz byla qobuz byla
+                            <milestone unit="line" n="18" />
+                            da zemer avazy byla.</l>
+                        <l n="6" xml:id="Ps-098-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בחצוצרות </foreign>
+                            Byrɣylar byla da šofar avazy byla
+                            <milestone unit="line" n="19" />
+                            qycqyrynyz alnynda ol bijnin H-nyn.</l>
+                        <l n="7" xml:id="Ps-098-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ירעם </foreign>
+                            Qaltrasyn ol tengiz
+                            <milestone unit="line" n="20" />
+                            da tolusu anyn dunja da olturuvcular anda.</l>
+                        <l n="8" xml:id="Ps-098-008"><addSpan spanTo="#add001" /><emph><foreign
+                                    xml:lang="he" style="unicode-bidi: embed;">נההרות </foreign>
+                                Ezenler qaɣarlar uvucqa birden tavlar sarnarlar.</emph><anchor
+                                xml:id="add001" /></l>
+                        <l n="9" xml:id="Ps-098-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לפני </foreign>
+                            Alnynda
+                            <milestone unit="line" n="21" />
+                            H-nyn ki kelir tere etme ol jerni da tere eter ol dunjany
+                            <milestone unit="line" n="22" />
+                            rastlyq byla da uluslarny tizlikler byla.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

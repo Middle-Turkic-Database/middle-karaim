@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 143</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 143</title>
+                        <milestone unit="line" xml:id="Ps143-P74v-L14" n="14"
+                            prev="ADub.III.84.001.142.xml#Ps142-P74v-L14" />
+                        <l xml:id="Ps-143-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קמג׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">מזמור לדוד ה שמע
+                                תפלתי</foreign>
+                            )
+                            <milestone unit="line" n="15" />
+                            Mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-143-001">E H esitkin tefilemni qajyrɣyn esitivinni menim
+                            <milestone unit="line" n="16" />
+                            jalbarmaqlaryma qajjamlyɣyn byla qaruv bergin mana rastlyɣyn byla.</l>
+                        <l n="2" xml:id="Ps-143-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואל</foreign>
+                            <milestone unit="line" n="17" />
+                            Da kelmegin terege qulun byla ki rast cyqmasty alnynda senin birde
+                            <milestone unit="line" n="18" />
+                            tiri.</l>
+                        <l n="3" xml:id="Ps-143-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki quvdu dusman ʒanymny jancty jerge tirligimni
+                            <milestone unit="line" n="19" />
+                            olturɣuzdu meni qaranɣy orunlarda elilerin kibik dunjanyn.</l>
+                        <milestone unit="line" n="20" />
+                        <l n="4" xml:id="Ps-143-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותתעטף </foreign>
+                            Da talcyɣady icimde ʒanym ortamda qajɣyrady
+                            <milestone unit="line" n="21" />
+                            jüregim.</l>
+                        <l n="5" xml:id="Ps-143-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכרתי </foreign>
+                            Saɣynamen avalɣy künlerni sözlejmen bar tamasa
+                            <milestone unit="line" n="22" />
+                            islerinni jaratylmysyn qudratlarynnyn qotaramen.</l>
+                        <l n="6" xml:id="Ps-143-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פרשתי </foreign>
+                            Jajamen
+                            <milestone unit="line" n="23" />
+                            uvuclarymny sana ʒanym menim telmeredi sana telmergenlej aryɣan
+                            <milestone unit="line" n="24" />
+                            jer jamɣurɣa.</l>
+                        <l n="7" xml:id="Ps-143-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מהר </foreign>
+                            Ʒaḥtlaɣyn qaruv bergin ma<supplied reason="lost">na</supplied> e H
+                            ezelenedi ʒanym
+                            <milestone unit="line" n="25" />
+                            jasyrmaɣyn qyblalarynny menden maɣat tenesimen enivciler byla gerge.</l>
+                        <milestone unit="page" n="75r" />
+                        <milestone unit="line" n="1" />
+                        <l n="8" xml:id="Ps-143-008"><supplied reason="lost"><foreign xml:lang="he"
+                                    style="unicode-bidi: embed;">השמיעני</foreign>
+                            </supplied> Esittirgin mana erten byla savaɣatynny ki sana isanamen bildirgin
+                            <milestone unit="line" n="2" />
+                            mana bu jolnu ki jürigejmen anyn byla ki sana isanamen ʒanym byla.</l>
+                        <milestone unit="line" n="3" />
+                        <l n="9" xml:id="Ps-143-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הצילני </foreign>
+                            Qutqarɣyn meni dusmanlarymdan e H sana isanamen.</l>
+                        <l n="10" xml:id="Ps-143-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למדני</foreign>
+                            <milestone unit="line" n="4" />
+                            Ivretkin mana qylma kleginni ki sensen Tenrim da alḥemin senin jaḥsydy
+                            <milestone unit="line" n="5" />
+                            köndergin meni tiz jerde.</l>
+                        <l n="11" xml:id="Ps-143-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למען </foreign>
+                            Šemin ücün e H tiri tutqun meni
+                            <milestone unit="line" n="6" />
+                            rastlyɣyn byla cyɣarɣyn tarlyqtan ʒanymny.</l>
+                        <l n="12" xml:id="Ps-143-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובחסדך </foreign>
+                            Da savaɣatyn byla
+                            <milestone unit="line" n="7" />
+                            keskin dusmanlarymny da tas etkin bar tar berivcilerin ʒanymnyn ki men-
+                            <milestone unit="line" xml:id="Ps143-P75r-L8" n="8"
+                                next="ADub.III.84.001.144.xml#Ps144-P75r-L8" />
+                            men qulun senin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

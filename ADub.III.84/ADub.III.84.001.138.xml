@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 138</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 138</title>
+                        <milestone unit="line" n="15" />
+                        <l xml:id="Ps-138-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קלח׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">לדוד אודך בכל
+                                לבי</foreign>
+                            )
+                            <milestone unit="line" n="16" />
+                            Mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-138-001">Šükür etemen sana tügel jürek byla utruna senin
+                            <milestone unit="line" n="17" />
+                            e Tenri zemer uḥujmen.</l>
+                        <l n="2" xml:id="Ps-138-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אשתחוה </foreign>
+                            Bas uramen aziz heḫalyna da
+                            <milestone unit="line" n="18" />
+                            šükür etemen šemine savaɣatyn ücün da körtiligin ücün ki
+                            <milestone unit="line" n="19" />
+                            ulɣajttyn šemin ücün ajtmaɣynny.</l>
+                        <l n="3" xml:id="Ps-138-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ביום </foreign>
+                            Ne künnü caɣyrsam
+                            <milestone unit="line" n="20" />
+                            qaruv bergin mana küplegin ʒanymny küc byla.</l>
+                        <l n="4" xml:id="Ps-138-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יודוך </foreign>
+                            Šükür
+                            <milestone unit="line" n="21" />
+                            etediler sana e H bar bijleri jernin ki esittiler ajtmaqlaryn
+                            <milestone unit="line" n="22" />
+                            bujruɣunnun.</l>
+                        <l n="5" xml:id="Ps-138-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישירו </foreign>
+                            Da šira uḥujdular jirijdoɣan jollary byla H-nyn
+                            <milestone unit="line" n="23" />
+                            ki ulludu šeḫinasy H-nyn.</l>
+                        <l n="6" xml:id="Ps-138-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki bijikti H da juvuznu keredi da
+                            <milestone unit="line" n="24" />
+                            bijikni jyraqtan <addSpan spanTo="#add001" /><addSpan spanTo="#add001"
+                                 />biledi<anchor xml:id="add001" /><anchor xml:id="add002" />
+                            <addSpan spanTo="#add003" />uvaltady<anchor xml:id="add003" />.</l>
+                        <l n="7" xml:id="Ps-138-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger jirisem ortasynda tarlyqnyn
+                            <milestone unit="page" n="73r" />
+                            <milestone unit="line" n="1" />
+                            tiri tutqun meni ham dusmanlarym istine sunɣun ḥyssymynny da
+                            <milestone unit="line" n="2" />
+                            qutqarsyn meni on qudratyn senin.</l>
+                        <l n="8" xml:id="Ps-138-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H tügelice savaɣatyn
+                            <milestone unit="line" n="3" />
+                            ijdi mana e H savaɣatyn qajjamdy emirgedejin jaratylmysyn qudrat-
+                            <milestone unit="line" xml:id="Ps138-P73r-L4" n="4"
+                                next="ADub.III.84.001.139.xml#Ps139-P73r-L4" />
+                            larynnyn jebermegin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

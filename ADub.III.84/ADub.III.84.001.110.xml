@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 110</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 110</title>
+                        <milestone unit="line" n="6" />
+                        <l xml:id="Ps-110-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קי׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">לדוד מזמור נאם ה
+                                לאדוני</foreign>
+                            )
+                            <milestone unit="line" n="7" />
+                            Mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-110-001">Alaj ajtady H bijim ücün isanɣyn on qudratyma
+                            <milestone unit="line" n="8" />
+                            negince ki qojarmen dusmanlarynny basymcaɣy tibine ajaqlarynnyn.</l>
+                        <milestone unit="line" n="9" />
+                        <l n="2" xml:id="Ps-110-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מטה </foreign>
+                            Küc da quvat ijer H Cijondan erklengin ortasynda dusman-
+                            <milestone unit="line" n="10" />
+                            larynnyn.</l>
+                        <l n="3" xml:id="Ps-110-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עמך </foreign>
+                            Ulusun juvutadylar ʒomartlyqlar cörüv
+                            <milestone unit="line" n="11" />
+                            küninde aziz hermetler byla cyqqanynda qursaqtan sahar jolduzu
+                            <milestone unit="line" n="12" />
+                            kibik balqydy sana cyɣy tuvmaɣynnyn.</l>
+                        <l n="4" xml:id="Ps-110-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">נשבע </foreign>
+                            Ant etti H da
+                            <milestone unit="line" n="13" />
+                            fasman etmesti ki bolusen dunjaɣadejin bij anyn sezi byla rast
+                            <milestone unit="line" n="14" />
+                            bijsen.</l>
+                        <l n="5" xml:id="Ps-110-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            E H isanyp on qudratyna kesersen acuvlanɣan
+                            <milestone unit="line" n="15" />
+                            kininde bijlerni.</l>
+                        <l n="6" xml:id="Ps-110-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ידין </foreign>
+                            Jarɣu jarar ḥanlyqlarny köp gevdeler
+                            <milestone unit="line" n="16" />
+                            byla keser köp bas jer istine.</l>
+                        <l n="7" xml:id="Ps-110-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מנחל </foreign>
+                            <addSpan spanTo="#add001" />Qyjasa<anchor xml:id="add001" /> özenden jolda
+                            <milestone unit="line" n="17" />
+                            icer anyn ücün ketirir bas.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

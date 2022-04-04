@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 131</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 131</title>
+                        <milestone unit="line" xml:id="Ps131-P70r-L19" n="19"
+                            prev="ADub.III.84.001.130.xml#Ps130-P70r-L19" />
+                        <l xml:id="Ps-131-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קלא׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר המעלות לדוד ה
+                                לא גבה לבי</foreign>
+                            )
+                            <milestone unit="line" n="20" />
+                            Širasy ol jergelernin Davidge.</l>
+                        <l n="1" xml:id="Ps-131-001">E H ektemlenmedi jüregim da
+                            <milestone unit="line" n="21" />
+                            bijik baqmadylar közlerim da jürimejmen ulluluqlar byla da tamasalyqlar
+                            <milestone unit="line" n="22" />
+                            byla ezimden.</l>
+                        <l n="2" xml:id="Ps-131-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Ezge tisli tüvül ancaq tenestiremen
+                            <milestone unit="line" n="23" />
+                            da usatamen ʒanymny emcekten ajrylɣan ulanɣa anasyndan
+                            <milestone unit="line" n="24" />
+                            emcekten ajrylɣan ulan kibikti icimde ʒanym.</l>
+                        <l n="3" xml:id="Ps-131-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יחל </foreign>
+                            Isanɣyn
+                            <milestone unit="page" n="70v" />
+                            <milestone unit="line" n="1" />
+                            e Jisraʾel H-ɣa haliden dunjaɣadejin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

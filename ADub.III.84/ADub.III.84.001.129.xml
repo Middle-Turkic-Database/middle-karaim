@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 129</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 129</title>
+                        <milestone unit="line" n="24" />
+                        <l xml:id="Ps-129-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קכט׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר המעלוה רבת
+                                צררוני מנעורי</foreign>
+                            )
+                            <milestone unit="page" n="70r" />
+                            <milestone unit="line" n="1" />
+                            Širasy ol jergelernin.</l>
+                        <l n="1" xml:id="Ps-129-001">Köp zaman tar ettiler mana jaslyqlarym
+                            <milestone unit="line" n="2" />
+                            dan ajtsyn endi Jisraʾel.</l>
+                        <l n="2" xml:id="Ps-129-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רבת </foreign>
+                            Köp zaman tar ettiler mana jas-
+                            <milestone unit="line" n="3" />
+                            lyqlarymdan daɣy jenelmediler meni.</l>
+                        <l n="3" xml:id="Ps-129-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">על </foreign>
+                            Arqam istine saban
+                            <milestone unit="line" n="4" />
+                            sirdiler saban sirivcüler uzarttylar sabanlaryn ezlerinin.</l>
+                        <l n="4" xml:id="Ps-129-004">ה
+                            <milestone unit="line" n="5" />
+                            H rastty keser snurlaryn rašaʿlarnyn.</l>
+                        <l n="5" xml:id="Ps-129-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יבושו </foreign>
+                            Ujatly bolsunlar da
+                            <milestone unit="line" n="6" />
+                            kedergi ketsinler astry bar dusmanlary Cijonnun.</l>
+                        <l n="6" xml:id="Ps-129-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יהיו </foreign>
+                            Bolsunlar
+                            <milestone unit="line" n="7" />
+                            jesilligi kibik <addSpan spanTo="#add001" /><addSpan spanTo="#add001"
+                                 />baɣlarnyn<anchor xml:id="add001" /><anchor xml:id="add002" />
+                            cardaqlarnyn ki kesilmeqten burun qurujdu.</l>
+                        <l n="7" xml:id="Ps-129-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שלא </foreign>
+                            Ki
+                            <milestone unit="line" n="8" />
+                            tolturmady qolun oruvcu da bilegin kilte bavlavcu.</l>
+                        <l n="8" xml:id="Ps-129-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולא </foreign>
+                            Da
+                            <milestone unit="line" n="9" />
+                            ajtmadylar ol asuvcular alɣysy H-nyn istinizge alɣyslajbiz sizni
+                            <milestone unit="line" xml:id="Ps129-P70r-L10" n="10"
+                                next="ADub.III.84.001.130.xml#Ps130-P70r-L10" />
+                            šemi byla H-nyn.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

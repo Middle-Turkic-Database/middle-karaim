@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 139</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 139</title>
+                        <milestone unit="line" xml:id="Ps139-P73r-L4" n="4"
+                            prev="ADub.III.84.001.138.xml#Ps138-P73r-L4" />
+                        <l xml:id="Ps-139-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קלט </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">למנצח לדוד
+                                מזמור</foreign>
+                            )
+                            <milestone unit="line" n="5" />
+                            Berilgen ojnavcuɣa mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-139-001">E H tergedin meni da
+                            <milestone unit="line" n="6" />
+                            bilesen.</l>
+                        <l n="2" xml:id="Ps-139-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen bilesen olturusumnu da turusumnu anladyn
+                            <milestone unit="line" n="7" />
+                            fikirimni burundan.</l>
+                        <l n="3" xml:id="Ps-139-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ארחי </foreign>
+                            Jirisimni da izimni qarys byla sen
+                            <milestone unit="line" n="8" />
+                            elcedin da bar jollarymny fajdaly ettin.</l>
+                        <l n="4" xml:id="Ps-139-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki joḥtu söz
+                            <milestone unit="line" n="9" />
+                            avzumda e H sen bilesen barysyn.</l>
+                        <l n="5" xml:id="Ps-139-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אחור </foreign>
+                            Alyndan da arttan
+                            <milestone unit="line" n="10" />
+                            tuʒurdun meni da qojdun istime qudratynny.</l>
+                        <l n="6" xml:id="Ps-139-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פליאה </foreign>
+                            Tamasady
+                            <milestone unit="line" n="11" />
+                            aqyl menden küclüdü bolalmajmen bilme any.</l>
+                        <l n="7" xml:id="Ps-139-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנה </foreign>
+                            Qajry barajym
+                            <milestone unit="line" n="12" />
+                            alheminden da qajry alnyndan senin qacajym.</l>
+                        <l n="8" xml:id="Ps-139-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger ucsam
+                            <milestone unit="line" n="13" />
+                            köklerge anda sensen da tesensem gerge munadyr sen.</l>
+                        <l n="9" xml:id="Ps-139-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אשא</foreign>
+                            <milestone unit="line" n="14" />
+                            Kötirsem ezimni <supplied reason="lost">s</supplied>aḥar<ref
+                                target="#fn1" type="noteAnchor" /> qanatlary byla toḥtasam tengiz
+                            artyna.</l>
+                        <milestone unit="line" n="15" />
+                        <l n="10" xml:id="Ps-139-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גם </foreign>
+                            Daɣy andada qudratyn könderir meni da küpler meni on
+                            <milestone unit="line" n="16" />
+                            qudratyn.</l>
+                        <l n="11" xml:id="Ps-139-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואומר </foreign>
+                            Da ajtsam tek qaranɣylyq vatyr meni muna
+                            <milestone unit="line" n="17" />
+                            kecede jaryjdy mana.</l>
+                        <l n="12" xml:id="Ps-139-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גם </foreign>
+                            Daɣy qaranɣylyq qaranɣy etmejdi
+                            <milestone unit="line" n="18" />
+                            senden da kecede kün kibik jarytady necik qaranɣylyqta alaj
+                            <milestone unit="line" n="19" />
+                            jaryqta.</l>
+                        <l n="13" xml:id="Ps-139-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki sen jarattyn bivreklerimni alacyq qyldyn mana
+                            <milestone unit="line" n="20" />
+                            qursaɣynda anamnyn.</l>
+                        <l n="14" xml:id="Ps-139-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אודך </foreign>
+                            Šükür etemen sana anyn ücün
+                            <milestone unit="line" n="21" />
+                            ki qorqunclu isler byla tamasa boldum tamasadylar islerin senin
+                            <milestone unit="line" n="22" />
+                            da ʒanym süvedi astry.</l>
+                        <l n="15" xml:id="Ps-139-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                            Jasyryn tüvüldi kensiligim
+                            <milestone unit="line" n="23" />
+                            senden ki qysyldym jasyryn orunda naɣyslandym tebengi orunla-
+                            <milestone unit="line" n="24" />
+                            rynda jernin.</l>
+                        <l n="16" xml:id="Ps-139-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גלמי </foreign>
+                            Golemimni<ref target="#fn2" type="noteAnchor" /> kördiler ʿenajatlaryn
+                            senin da
+                            <milestone unit="page" n="73v" />
+                            <milestone unit="line" n="1" />
+                            bitigin istine barlary jazylɣandylar künler ki jaratyldylar
+                            <milestone unit="line" n="2" />
+                            joḥtu birde muftqa alarda.</l>
+                        <l n="17" xml:id="Ps-139-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולי </foreign>
+                            Da mana ne abajly boldular
+                            <milestone unit="line" n="3" />
+                            fikirlerin e Tenri ne küclü boldular baslyqlary alarnyn.</l>
+                        <l n="18" xml:id="Ps-139-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אספרם</foreign>
+                            <milestone unit="line" n="4" />
+                            Sanasam alarny qumdan artyqtylar ojansam da hanuz men birgene.</l>
+                        <milestone unit="line" n="5" />
+                        <l n="19" xml:id="Ps-139-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Eger kessen rašaʿny da qan tegivcü el ketiniz menden.</l>
+                        <l n="20" xml:id="Ps-139-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אשר</foreign>
+                            <milestone unit="line" n="6" />
+                            Ki bijikliginni qotaradylar jerenci saɣys byla ant etediler
+                            <milestone unit="line" n="7" />
+                            muftqa dusmanlaryn senin.</l>
+                        <l n="21" xml:id="Ps-139-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הלא </foreign>
+                            Muna dusmanlaryna e H dusmanmen
+                            <milestone unit="line" n="8" />
+                            da utru turuvcularyn byla talasamen.</l>
+                        <l n="22" xml:id="Ps-139-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תכלית </foreign>
+                            Tigelice ḥorluq
+                            <milestone unit="line" n="9" />
+                            ḥor ettim alarny dusmanlarɣa boldular mana.</l>
+                        <l n="23" xml:id="Ps-139-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חקרני </foreign>
+                            Tergegin
+                            <milestone unit="line" n="10" />
+                            meni e Tenri da bilgin esimni synaɣyn meni da bilgin fikirlerim-
+                            <milestone unit="line" n="11" />
+                            ni.</l>
+                        <l n="24" xml:id="Ps-139-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וראה </foreign>
+                            Da körgün eger acyrɣandyrmaq jol bardy ese mende
+                            <milestone unit="line" n="12" />
+                            da köndergin meni jolu byla tizliknin dunjaɣadejin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">ADub.III.84: <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שַחַר</foreign>
+                            ; probably a scribal error or a hypercorrect form.</note>
+                        <note xml:id="fn2" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גֹּלֶם </foreign>
+                            ‘inchoate object, amorphous mass’.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

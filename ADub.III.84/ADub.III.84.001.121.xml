@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 121</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 121</title>
+                        <milestone unit="line" xml:id="Ps121-P68r-L22" n="22"
+                            prev="ADub.III.84.001.120.xml#Ps120-P68r-L22" />
+                        <l xml:id="Ps-121-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קכא׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר למעלות אשא
+                                עיני</foreign>
+                            )
+                            <milestone unit="page" n="68v" />
+                            <milestone unit="line" n="1" />
+                            kelir bolusluɣum menim.</l>
+                        <l n="2" xml:id="Ps-121-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עזרי </foreign>
+                            Bolusluɣum menim keledi H-dan jaratuvcudan
+                            <milestone unit="line" n="2" />
+                            köklerni da jerni.</l>
+                        <l n="3" xml:id="Ps-121-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Bermesti tajma ajaɣyna cyrym etmesti
+                            <milestone unit="line" n="3" />
+                            saqlavcu seni.</l>
+                        <l n="4" xml:id="Ps-121-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנה </foreign>
+                            Muna cyrym etmejdi da juqlamajdy saqlavcu
+                            <milestone unit="line" n="4" />
+                            Jisraʾelni.</l>
+                        <l n="5" xml:id="Ps-121-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H saqlavcu seni H kelegedi sana on janynda.</l>
+                        <l n="6" xml:id="Ps-121-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יוםם</foreign>
+                            <milestone unit="line" n="5" />
+                            Kingiz ol qujas vatmasty seni da aj kece byla.</l>
+                        <l n="7" xml:id="Ps-121-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H saqlar seni
+                            <milestone unit="line" n="6" />
+                            bar jamandan saqlar ʒanynny.</l>
+                        <l n="8" xml:id="Ps-121-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ה </foreign>
+                            H saqlar cyɣysynny da kelisinni haliden
+                            <milestone unit="line" xml:id="Ps121-P68v-L7" n="7"
+                                next="ADub.III.84.001.122.xml#Ps122-P68v-L7" />
+                            da dunjaɣadejin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 123</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 123</title>
+                        <milestone unit="line" n="18" />
+                        <l xml:id="Ps-123-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קכג׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">שיר המעלות אליך
+                                נשאתי</foreign>
+                            )
+                            <milestone unit="line" n="19" />
+                            Širasy ol jergelernin.</l>
+                        <l n="1" xml:id="Ps-123-001">Sana kötiremen közlerimni e olturuvcu
+                            <milestone unit="line" n="20" />
+                            bijik köklerde.</l>
+                        <l n="2" xml:id="Ps-123-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנה </foreign>
+                            Muna necik közleri qullarnyn telmeredi-
+                            <milestone unit="line" n="21" />
+                            ler qoluna bijlerinin necik közleri qaravasnyn telmerediler
+                            <milestone unit="line" n="22" />
+                            qoluna bijcesinin alaj közlerimiz telmerediler H Tenrimizge negince
+                            <milestone unit="line" n="23" />
+                            ki ḥajifsingej bizni.</l>
+                        <l n="3" xml:id="Ps-123-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חננו </foreign>
+                            Ḥajifsingin bizni e H ḥajifsingin bizni
+                            <milestone unit="page" n="69r" />
+                            <milestone unit="line" n="1" />
+                            ki kebisi tojduq ḥorluqtan.</l>
+                        <l n="4" xml:id="Ps-123-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רבת </foreign>
+                            Köp zaman tojdu ʒanymyz
+                            <milestone unit="line" n="2" />
+                            eliginden ol tync elnin ḥorluɣundan ektemlernin.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

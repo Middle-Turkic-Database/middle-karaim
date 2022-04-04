@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 112</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 112</title>
+                        <milestone unit="line" n="8" />
+                        <l xml:id="Ps-112-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קיב׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">הללויה אשרי איש ירא
+                                את ה</foreign>
+                            ) <foreign xml:lang="he" style="unicode-bidi: embed;">ליום כד׳</foreign>
+                        </l>
+                        <milestone unit="line" n="9" />
+                        <l n="1" xml:id="Ps-112-001">Maḥtav beriniz Tenrige sandyr andij kisige ki
+                            qorqsa H-dan micvalaryn
+                            <milestone unit="line" n="10" />
+                            anyn sivse astry.</l>
+                        <l n="2" xml:id="Ps-112-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גבור </foreign>
+                            Baɣatyr bolur jerde urluɣu anyn doru
+                            <milestone unit="line" n="11" />
+                            tüzlernin alɣyslanyr.</l>
+                        <l n="3" xml:id="Ps-112-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הון </foreign>
+                            Mal da ḥoʒalyq bolur üvünde
+                            <milestone unit="line" n="12" />
+                            da rastlyɣy qajjam bolur emirgedejin.</l>
+                        <l n="4" xml:id="Ps-112-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זרח </foreign>
+                            Balqyjdy qaranɣylyqta
+                            <milestone unit="line" n="13" />
+                            jaryq tüzlerge ḥajifsinedi da raḥmetlejdi da rastty.</l>
+                        <l n="5" xml:id="Ps-112-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">טוב</foreign>
+                            <milestone unit="line" n="14" />
+                            Jaḥsydy kisige ki ḥajifsinse miskinni da etkinc berse anar
+                            <milestone unit="line" n="15" />
+                            syjyndyrsa sözlerin kem byla.</l>
+                        <l n="6" xml:id="Ps-112-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki dunjaɣadejin tajmasty
+                            <milestone unit="line" n="16" />
+                            emirlik saɣyncqa bolur cadiq.</l>
+                        <l n="7" xml:id="Ps-112-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">משמועה </foreign>
+                            Jaman ḥabardan qorqmas-
+                            <milestone unit="line" n="17" />
+                            ty tüzilgendi jüregi anyn isanady H-ɣa.</l>
+                        <l n="8" xml:id="Ps-112-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">סמוך </foreign>
+                            Küpti jüregi
+                            <milestone unit="line" n="18" />
+                            qorqmajdy negince ki keredi jamanyn tar berivcilerinin.</l>
+                        <l n="9" xml:id="Ps-112-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פזר</foreign>
+                            <milestone unit="line" n="19" />
+                            Jem beredi miskinlerge rastlyɣy qajjamdy emirgedejin dövleti
+                            <milestone unit="line" n="20" />
+                            kötiriledi syj byla.</l>
+                        <l n="10" xml:id="Ps-112-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רשע </foreign>
+                            Rašaʿ köredi da jüreklenedi daɣyn
+                            <milestone unit="line" n="21" />
+                            tisleri byla cyɣyrdatady da irijdi küsenci rašaʿlarnyn tas-
+                            <milestone unit="line" xml:id="Ps112-P61v-L22" n="22"
+                                next="ADub.III.84.001.113.xml#Ps113-P61v-L22" />
+                            polady.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

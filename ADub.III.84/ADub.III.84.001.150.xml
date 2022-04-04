@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 150</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 150</title>
+                        <milestone unit="line" xml:id="Ps150-P77v-L11" n="11"
+                            prev="ADub.III.84.001.149.xml#Ps149-P77v-L11" />
+                        <l xml:id="Ps-150-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קנ׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Ps-150-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללויה הללו אל בקדשו</foreign>
+                            <milestone unit="line" n="12" />
+                            Maḥtav beriniz Tenrige maḥtav beriniz Tenrige aziz köklerinde
+                            <milestone unit="line" n="13" />
+                            maḥtav beriniz anar quvatly raqijaʿsynda.</l>
+                        <l n="2" xml:id="Ps-150-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללוהו </foreign>
+                            Maḥtav beriniz
+                            <milestone unit="line" n="14" />
+                            anar qotaradoɣac baɣatyrlyqlaryn maḥtav beriniz anar ullu quvatyna
+                            <milestone unit="line" n="15" />
+                            köre.</l>
+                        <l n="3" xml:id="Ps-150-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללוהו </foreign>
+                            Maḥtav beriniz anar tar<emph><addSpan spanTo="#add001" />t<anchor
+                                    xml:id="add001" /></emph>maq byla šofarɣa maḥtav
+                            <milestone unit="line" n="16" />
+                            beriniz anar qyʒaq byla da qobuz byla.</l>
+                        <l n="4" xml:id="Ps-150-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללוהו </foreign>
+                            Maḥtav beriniz
+                            <milestone unit="line" n="17" />
+                            anar tof byla da tanec byla maḥtav beriniz anar orɣanlar byla
+                            <milestone unit="line" n="18" />
+                            da ʿuɣav<ref target="#fn1" type="noteAnchor" /> byla.</l>
+                        <l n="5" xml:id="Ps-150-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללוהו </foreign>
+                            Maḥtav beriniz anar cymballar byla avaz
+                            <milestone unit="line" n="19" />
+                            esittiredoɣanlar maḥtav beriniz anar cymballar byla kötirivci-
+                            <milestone unit="line" n="20" />
+                            ler bijik avaz.</l>
+                        <l n="6" xml:id="Ps-150-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Har syjly ʒan maḥtav beredi Tenrige
+                            <milestone unit="line" n="21" />
+                            maḥtav beriniz Tenrige. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כֹל הַנְשָמָה תְהַלֵל יָה
+                                הַלְלוּיָה</foreign>
+                            <milestone unit="line" n="22" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תם ונשלם ספר תהלים׃
+                                בעורת יו֘י אל אלים׃ ב֮רד</foreign>
+                            <milestone unit="line" n="23" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תם ונשלם תהלה ושבח
+                                לבורא עולם</foreign>
+                        </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עוּגָב </foreign>
+                            ‘pipe organ’.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

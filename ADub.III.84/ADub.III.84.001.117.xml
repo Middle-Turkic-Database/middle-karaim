@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 117</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 117</title>
+                        <milestone unit="line" xml:id="Ps117-P63r-L14" n="14"
+                            prev="ADub.III.84.001.116.xml#Ps116-P63r-L14" />
+                        <l xml:id="Ps-117-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קיז׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Ps-117-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללו את ה כל גוים</foreign>
+                            <milestone unit="line" n="15" />
+                            Maḥtav beriniz H-ɣa bar ḥanlyqlar ševaḥ<ref target="#fn1"
+                                type="noteAnchor" /> uḥunuz anar bar ol umalar.</l>
+                        <milestone unit="line" n="16" />
+                        <l n="2" xml:id="Ps-117-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki kicejdi biznin istine savaɣaty anyn da kertiligi H-nyn qajjam-
+                            <milestone unit="line" n="17" />
+                            dy dunjaɣadejin maḥtav beriniz Tenrige.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שֶׁבַח </foreign>
+                            ‘praise’.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 145</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 145</title>
+                        <milestone unit="line" n="7" />
+                        <l xml:id="Ps-145-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קמה׳ </foreign>
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">תהלה לדוד ארוממך
+                                אלהי המלך</foreign>
+                            ) <foreign xml:lang="he" style="unicode-bidi: embed;">ליום ל׳</foreign>
+                            <milestone unit="line" n="8" />
+                            Maḥtavlu mizmoru Davidnin.</l>
+                        <l n="1" xml:id="Ps-145-001">Bijikliginni qotaramen senin Tenrim ol meleḫ
+                            <milestone unit="line" n="9" />
+                            da maḥtav beremen šemine senin dunjaɣadejin da emirgedejin.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="2" xml:id="Ps-145-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בכל </foreign>
+                            Har kün maḥtav beremen sana da halel<ref target="#fn1" type="noteAnchor"
+                             /> uḥujmen šemine senin dunja-
+                            <milestone unit="line" n="11" />
+                            ɣadejin da emirgedejin.</l>
+                        <l n="3" xml:id="Ps-145-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גדול </foreign>
+                            Ulludur H da maḥtavludur astry
+                            <milestone unit="line" n="12" />
+                            da ulluluɣuna anyn joḥtu tergev.</l>
+                        <l n="4" xml:id="Ps-145-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דור </foreign>
+                            Har dor maḥtav byla
+                            <milestone unit="line" n="13" />
+                            qotarady islerinni da baɣatyrlyqlarynny anlatady.</l>
+                        <l n="5" xml:id="Ps-145-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הדר</foreign>
+                            <milestone unit="line" n="14" />
+                            Hermetin syjly šeḫinannyn da baɣatyrlyqlarynny anlatady.</l>
+                        <l n="6" xml:id="Ps-145-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועזוז</foreign>
+                            <milestone unit="line" n="15" />
+                            Da küclü da qorqunclu islerinni ajtadylar da ulluluɣunnu
+                            <milestone unit="line" n="16" />
+                            qotaramen any.</l>
+                        <l n="7" xml:id="Ps-145-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכר </foreign>
+                            Saɣyncyn köp jaḥsylyɣynnyn sözlejdiler
+                            <milestone unit="line" n="17" />
+                            da rastlyɣynny sarnajdylar.</l>
+                        <l n="8" xml:id="Ps-145-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חנון </foreign>
+                            Ḥajifsinivcidi H da raḥmet-
+                            <milestone unit="line" n="18" />
+                            levcidi H uzaq acuvlu da köp savaɣatly.</l>
+                        <l n="9" xml:id="Ps-145-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">טוב </foreign>
+                            Jaḥsydy H barynar
+                            <milestone unit="line" n="19" />
+                            da raḥmetleri anyn bar jaratylmyslary istine.</l>
+                        <l n="10" xml:id="Ps-145-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יודוך </foreign>
+                            Šükür
+                            <milestone unit="line" n="20" />
+                            etediler sana e H bar jaratylmyslaryn senin da ḥasidlerin maḥtav
+                            <milestone unit="line" n="21" />
+                            berediler sana.</l>
+                        <l n="11" xml:id="Ps-145-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כבוד </foreign>
+                            Syjyn bijliginnin ajtadylar da baɣatyrlyɣynny
+                            <milestone unit="line" n="22" />
+                            sözlejdiler.</l>
+                        <l n="12" xml:id="Ps-145-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">להודיע </foreign>
+                            Bildirme adam ulanlaryna baɣatyrlyqlaryn
+                            <milestone unit="line" n="23" />
+                            da syjyn hermetinin bijliginin anyn.</l>
+                        <l n="13" xml:id="Ps-145-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מלכותך </foreign>
+                            Bijligin senin bijligidi
+                            <milestone unit="line" n="24" />
+                            emirliknin da erklenmegin senin har bir dorda.</l>
+                        <l n="14" xml:id="Ps-145-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">סומך </foreign>
+                            Kiplejdi
+                            <milestone unit="line" n="25" />
+                            H bar ol jyɣylɣanlarny da bijik kötiredi bar ol bigilgenlerni.</l>
+                        <l n="15" xml:id="Ps-145-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עיני</foreign>
+                            <milestone unit="page" n="76r" />
+                            <milestone unit="line" n="1" />
+                            Közleri barynyn sana telmerediler da sen beresen alarɣa osol jemlerin
+                            <milestone unit="line" n="2" />
+                            vaḥtynda.</l>
+                        <l n="16" xml:id="Ps-145-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פותח </foreign>
+                            Acasen osol qudratynny da tojdurasen bar
+                            <milestone unit="line" n="3" />
+                            tirige klegin.</l>
+                        <l n="17" xml:id="Ps-145-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">צדיק </foreign>
+                            Rastty H bar jollaryn<addSpan spanTo="#add001" />da<anchor
+                                xml:id="add001" /> da savaɣatlydy bar
+                            <milestone unit="line" n="4" />
+                            islerinde.</l>
+                        <l n="18" xml:id="Ps-145-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קרוב </foreign>
+                            Juvuqtu H bar caɣyruvcularyna barca kimge
+                            <milestone unit="line" n="5" />
+                            ki caɣyrsalar anar kertilik byla.</l>
+                        <l n="19" xml:id="Ps-145-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רצון </foreign>
+                            Klegin qorquvcularynyn
+                            <milestone unit="line" n="6" />
+                            qylady da osol jalbarmaqlaryn esitedi da qutqarady alarny.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="20" xml:id="Ps-145-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שומר </foreign>
+                            Saqlajdy H bar süvüvcülerin da bar rašaʿlarny tas etedi.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="21" xml:id="Ps-145-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תהלת </foreign>
+                            Maḥtavun H-nyn sözlejdi avzum da maḥtav berir bar ten <addSpan
+                                spanTo="#add002" />aziz<anchor xml:id="add002" /> šemine
+                            <milestone unit="line" n="9" />
+                            anyn dunjaɣadejin da emirgedejin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הַלֵל </foreign>
+                            ‘praise’.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

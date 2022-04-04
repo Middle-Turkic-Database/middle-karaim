@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Psalm 149</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Psalm 149</title>
+                        <milestone unit="line" n="22" />
+                        <l xml:id="Ps-149-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >קמט׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Ps-149-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הללויה שירו לה שיר חדש</foreign>
+                            <milestone unit="line" n="23" />
+                            Maḥtav beriniz Tenrige šira uḥunuz H-ɣa janɣy šira maḥtavun
+                            <milestone unit="line" n="24" />
+                            anyn qotarynyz qahalynda ḥasidlernin.</l>
+                        <l n="2" xml:id="Ps-149-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישמח </foreign>
+                            Bijensin Jisraʾel
+                            <milestone unit="page" n="77v" />
+                            <milestone unit="line" n="1" />
+                            jaratuvcusu byla ulanlary Cijonnun quvansynlar bijleri byla.</l>
+                        <l n="3" xml:id="Ps-149-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יהללו</foreign>
+                            <milestone unit="line" n="2" />
+                            Maḥtav bersinler šemine anyn tanec byla tof byla da qobuz byla
+                            <milestone unit="line" n="3" />
+                            zemer uḥusunlar anar.</l>
+                        <l n="4" xml:id="Ps-149-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki süvedi H ulusun körkejtedi
+                            <milestone unit="line" n="4" />
+                            juvaslarny jarlyɣas byla.</l>
+                        <l n="5" xml:id="Ps-149-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יעלזו </foreign>
+                            Quvansynlar ḥasidler syj byla
+                            <milestone unit="line" n="5" />
+                            sarnasynlar jatadoɣac tesekleri istine.</l>
+                        <l n="6" xml:id="Ps-149-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רוממות </foreign>
+                            Bijikligi
+                            <milestone unit="line" n="6" />
+                            Tenrinin avuzlarynda da qylyc eki itili qollarynda.</l>
+                        <l n="7" xml:id="Ps-149-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לעשות</foreign>
+                            <milestone unit="line" n="7" />
+                            Qylma ec ḥanlyqlarda karanjalar umalarda.</l>
+                        <l n="8" xml:id="Ps-149-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לאסור </foreign>
+                            Tutqunlama
+                            <milestone unit="line" n="8" />
+                            bijlerin alarnyn buɣovlar icine da syjly aɣalyqlaryn temirli
+                            <milestone unit="line" n="9" />
+                            buɣovlar icine.</l>
+                        <l n="9" xml:id="Ps-149-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לעשות </foreign>
+                            Qylma alarɣa rast tere ki necik
+                            <milestone unit="line" n="10" />
+                            jazylɣandy torada hermetti ol bar ḥasidlerine maḥtav beriniz
+                            <milestone unit="line" xml:id="Ps149-P77v-L11" n="11"
+                                next="ADub.III.84.001.150.xml#Ps150-P77v-L11" />
+                            Tenrige.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
