@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Ecclesiastes 1</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Ecclesiastes 1</title>
+                        <milestone unit="line" n="1" />
+                        <l xml:id="Eccles-001-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובשם האל אשר לו הגבורה
+                                והיכולת</foreign>
+                            <milestone unit="line" n="2" />
+                            <ref target="#fn1" type="noteAnchor" /><seg type="commented"
+                                corresp="#seg002" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אכתוב פשט למגילת קהלת׃</foreign>
+                            <milestone unit="line" n="3" />
+                            <ref target="#fn2" type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דברי קהלת בן דוד מלך בירושלם</foreign>
+                            <anchor type="commented" xml:id="seg002" /></l>
+                        <milestone unit="line" n="4" />
+                        <l n="1" xml:id="Eccles-001-001">Sözleri Qoheletnin uvlunun Davidnin ki oldu
+                            ol Šelomo
+                            <milestone unit="line" n="5" />
+                            hameleḥ jystyruvcu uslarny da bilivci alarny
+                            <milestone unit="line" n="6" />
+                            ki edi ḥan Jerušalajimde.</l>
+                        <l n="2" xml:id="Eccles-001-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הבל </foreign>
+                            Hecligi hecliklernin ajtty
+                            <milestone unit="line" n="7" />
+                            Qohelet hicligidi hicliklernin ol barysy hecti.</l>
+                        <l n="3" xml:id="Eccles-001-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מה </foreign>
+                            Ne fajda
+                            <milestone unit="line" n="8" />
+                            bardy adamɣa bar zaḥmetinden ezinin ki zaḥmet cegedi ol qujas
+                            <milestone unit="line" n="9" />
+                            tibine.</l>
+                        <l n="4" xml:id="Eccles-001-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דור </foreign>
+                            Bir dor bardy da ekinci dor keledi vale ol
+                            <milestone unit="line" n="10" />
+                            jer dunjaɣadejin qajjam turady.</l>
+                        <l n="4" xml:id="Eccles-001-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וזרח </foreign>
+                            Da balqyjdy ol qujas
+                            <milestone unit="line" n="11" />
+                            enedi ol kujas da ornuna ezinin baɣady ki balqyɣaj ol anda.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="6" xml:id="Eccles-001-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הולך </foreign>
+                            Barady tarafyna daromnun da da ajlanady tarafyna cafonnun civre
+                            <milestone unit="line" n="13" />
+                            civre qursajdy da barady ol jel da civrelerine özünin qajtady
+                            <milestone unit="line" n="14" />
+                            ol jel.</l>
+                        <l n="7" xml:id="Eccles-001-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar ol ezenler baradylar ol tengizge da ol
+                            <milestone unit="line" n="15" />
+                            tengiz tüvüldi tolu ne orunɣa ki ol ezenler baradylar
+                            <milestone unit="line" n="16" />
+                            ari alar qajtadylar barma.</l>
+                        <l n="8" xml:id="Eccles-001-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar ol sözler jadavlydylar
+                            <milestone unit="line" n="17" />
+                            bolalmajdy kisi sözleme tojmajdy köz körmekten da tolmajdy qulaq
+                            <milestone unit="line" n="18" />
+                            esitmekten.</l>
+                        <l n="9" xml:id="Eccles-001-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מה </foreign>
+                            Ne ki edi oldu ne ki bolur da ne ki
+                            <milestone unit="line" n="19" />
+                            qylyndy oldu ne ki qylynyr da joḥtu hec janɣy nerse ol qujaš
+                            <milestone unit="line" n="20" />
+                            tübine.</l>
+                        <l n="10" xml:id="Eccles-001-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יש </foreign>
+                            Bardy nerse ki ajtady adam körgin bunu janɣydy
+                            <milestone unit="line" n="21" />
+                            ol körtiden muna ize edi ol dunjalarda ki ediler burun bizden.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="11" xml:id="Eccles-001-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אין </foreign>
+                            Necik joḥtu saɣync burunɣularɣa alaj daɣyn sondraɣylarɣa da ki
+                            <milestone unit="line" n="23" />
+                            bolsalar bolmasty alarɣa kim byla ki bolurlar sondraɣy dorɣa.</l>
+                        <milestone unit="page" n="155v" />
+                        <milestone unit="line" n="1" />
+                        <l n="12" xml:id="Eccles-001-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אני </foreign>
+                            Men Šelomo hameleḥ indelgen Qohelet edim ḥan Jisraʾel istine
+                            <milestone unit="line" n="2" />
+                            Jerušalajimde.</l>
+                        <l n="13" xml:id="Eccles-001-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתתי </foreign>
+                            Da berdim osol kelnimni izleme da
+                            <milestone unit="line" n="3" />
+                            sajlama usnu bary ücün ne ki qylyndy ol kökler tübüne da
+                            <milestone unit="line" n="4" />
+                            muna ol jaman zabavady ki berdi Tenri Adam ulanlaryna zabavlecetme
+                            <milestone unit="line" n="5" />
+                            anyn byla.</l>
+                        <l n="14" xml:id="Eccles-001-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ראיתי </foreign>
+                            Kördim osol ol bar islerni ki qylyndylar
+                            <milestone unit="line" n="6" />
+                            ol qujas tibine da muna ol bary hecti da jel kitividi.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="15" xml:id="Eccles-001-015"><ref target="#fn3" type="noteAnchor"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">מעוות </foreign>
+                            Qynɣyrajɣan bolalmasty tiz etilme da eksiklik
+                            <milestone unit="line" n="8" />
+                            bolalmasty sanalma.</l>
+                        <l n="16" xml:id="Eccles-001-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דברתי </foreign>
+                            Sözledim men kölnime ajtadoɣac
+                            <milestone unit="line" n="9" />
+                            men muna ulɣajdym da arttyrdym us bary istine ne ki edi
+                            <milestone unit="line" n="10" />
+                            burun menden Jerušalajimde da kölnim menim anlady köp us da biliv.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="17" xml:id="Eccles-001-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתנה </foreign>
+                            Da berdim kelnimni bilme usnu da bilme molahajlyq-
+                            <milestone unit="line" n="12" />
+                            ny da telilikni bilemen ki daɣyn budu ol jel kütüvidi.</l>
+                        <l n="18" xml:id="Eccles-001-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי</foreign>
+                            <milestone unit="line" n="13" />
+                            Ki köplügü byla usnun köp acyrɣanmaqty da kim arttyr-
+                            <milestone unit="line" n="14" />
+                            sa biliv arttyrady syzlav.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. ‘And in the name of God who is the
+                            only strength and power I will write the translation/interpretation of
+                            the Scroll of Qohelet’.</note>
+                        <note xml:id="fn2" type="footnote">Ecc. 1.1. in Heb.</note>
+                        <note xml:id="fn3" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מעות</foreign>
+                            .</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
