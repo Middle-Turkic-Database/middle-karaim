@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Esther 10</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title><supplied reason="lost">Esther 10</supplied></title>
+                        <milestone unit="line" n="4" />
+                        <l n="1" xml:id="Est-010-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישם </foreign>
+                            Da qojdu ol meleḫ Aḥašveroš jasaq ol jer istine
+                            <milestone unit="line" n="5" />
+                            da otraclary istine ol tengiznin.</l>
+                        <l n="2" xml:id="Est-010-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar isi
+                            <milestone unit="line" n="6" />
+                            köpliginin anyn da baɣatyrlyɣynyn anyn da belgirtilmegi
+                            <milestone unit="line" n="7" />
+                            ulluɣunun anyn ki ulɣajtty any ol meleḫ muna alar jazylɣan-
+                            <milestone unit="line" n="8" />
+                            dylar seferi istine islerinin ol künlernin bijlerine Madaj-
+                            <milestone unit="line" n="9" />
+                            nyn da Parasnyn.</l>
+                        <l n="3" xml:id="Est-010-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki Mardeḫaj ol Jisraʾel ekinci edi
+                            <milestone unit="line" n="10" />
+                            meleḫke Aḥašveroška da syjly edi Jisraʾellerge da süvilgen
+                            <milestone unit="line" n="11" />
+                            edi köpsi qaryndašlaryna izleredi jaḥsyny ulusuna da
+                            <milestone unit="line" n="12" />
+                            sözleredi bazlyqny bar urluɣuna.
+                            <milestone unit="line" n="13" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כִּי מָרְדֵ֕כַי
+                                הַיְהוּדִי מִשְנֶה לֶַמֶ֕לֶךְ אֲחַשְ֔וֵרוֺש וְגָדד֕ול</foreign>
+                            <milestone unit="line" n="14" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לַיְהוּדִ֔ים
+                                וְרָצ֕וּי לְרוֺב אֶחָ֔יו דוֺרֵש טֹוב לְעַמ֕וֺ וְדוֺבֵר</foreign>
+                            <milestone unit="line" n="15" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">שָלֹום לְכָל
+                                זַרְע֕וֺ׃</foreign>
+                            <milestone unit="line" n="16" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">נשלמה גם מגילת אסתר׃
+                                בעזרת נעתר לעותר׃</foreign>
+                            <seg type="commented" corresp="#seg002" /><ref target="#fn1"
+                                type="noteAnchor" /></l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. ‘The Scroll of Ester has also been
+                            completed. With His assistance given to the petitioner’.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

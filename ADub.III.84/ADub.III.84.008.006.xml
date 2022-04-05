@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Esther 6</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Esther 6</title>
+                        <milestone unit="line" n="9" />
+                        <l xml:id="Est-006-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ו׳ בלי֒לה הה֒וא נד֒דה שנ</foreign>
+                            <supplied reason="lost"><foreign xml:lang="he"
+                                    style="unicode-bidi: embed;">ת המל</foreign>
+                            </supplied>ך<ref target="#fn1" type="noteAnchor" /></l>
+                        <milestone unit="line" n="10" />
+                        <l n="1" xml:id="Est-006-001">Ol köcede ol bireldi juqusu ol meleḫnin da ajtty
+                            <milestone unit="line" n="11" />
+                            költirme osol bitigin islerinin saɣynclyqlarynyn ol
+                            <milestone unit="line" n="12" />
+                            künlernin da uḥulurediler alnynda ol meleḫnin.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="2" xml:id="Est-006-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימצא </foreign>
+                            Da tabuldu jazylɣan ki anlatty <addSpan spanTo="#add001"
+                                 />Mardeḫaj<anchor xml:id="add001" /> Bigtana<ref target="#fn2"
+                                type="noteAnchor" /> da Tereš ücün
+                            <milestone unit="line" n="14" />
+                            eki vezirleri ücün ol meleḫnin saqlavcularyndan ol odver-
+                            <milestone unit="line" n="15" />
+                            janyn ki klediler sunma qol bijge Aḥašverošqa.</l>
+                        <l n="3" xml:id="Est-006-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
+                            <milestone unit="line" n="16" />
+                            Da ajtty ol bij nendij abajlyq da ulluq qylyndymo Mardeḫaj -
+                            <milestone unit="line" n="17" />
+                            ɣa bunun ücün da ajttylar negerleri ol bijnin jumusculary
+                            <milestone unit="line" n="18" />
+                            anyn qylynmady birgesine anyn nemede.</l>
+                        <l n="4" xml:id="Est-006-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty ol
+                            <milestone unit="line" n="19" />
+                            ḥan kim bardy kaḥrada da Haman keldi qaḥrasyna üvünin ol
+                            <milestone unit="line" n="20" />
+                            meleḫnin ol tysqarɣy ajtma bijge asma osol Mardeḫajny ol
+                            <milestone unit="line" n="21" />
+                            asqyc istine ki hadirledi anar.</l>
+                        <l n="5" xml:id="Est-006-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar
+                            <milestone unit="line" n="22" />
+                            negerleri ol bijnin anar muna Haman turady kaḥrada da ajtty
+                            <milestone unit="line" n="23" />
+                            ol meleḫ kölsin ickiri.</l>
+                        <l n="6" xml:id="Est-006-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבוא </foreign>
+                            Da keldi Haman da ajtty
+                            <milestone unit="line" n="24" />
+                            ol meleḫ anar ne usajdy qylma küsige ki ol meleḫ klejdi
+                            <milestone unit="page" n="172v" />
+                            <milestone unit="line" n="1" />
+                            körme abajlyɣyn anyn da saɣyš etti Haman kelninde kimge
+                            <milestone unit="line" n="2" />
+                            klejdi ol meleḫ qylma abajlyq artyq menden.</l>
+                        <l n="7" xml:id="Est-006-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da
+                            <milestone unit="line" n="3" />
+                            ajtty Haman ol meleḫke kisi ki ol bij klejdi körme
+                            <milestone unit="line" n="4" />
+                            abajlyɣyn anyn.</l>
+                        <l n="8" xml:id="Est-006-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יביאו </foreign>
+                            Keltirsinler bijlik upraqny ki
+                            <milestone unit="line" n="5" />
+                            kijdi any ol meleḫ da atny ki atlandy anyn istine ol
+                            <milestone unit="line" n="6" />
+                            meleḫ ol zamanny ki necik berildi bijlik taʒ basynda anyn.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="9" xml:id="Est-006-009"><ref target="#fn3" type="noteAnchor"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">ונתון את </foreign>
+                            Da berme osol upraqny da osol ol atny
+                            <milestone unit="line" n="8" />
+                            qoluna ol bir küsünin ol aɣaraqlaryndan ol meleḫnin ol
+                            <milestone unit="line" n="9" />
+                            alpavutlardan da küjindirsinler osol ol küsini ki ol meleḫ
+                            <milestone unit="line" n="10" />
+                            klejdi körme abajlyɣyn anyn da atlanḫyzdyrsynlar any ol
+                            <milestone unit="line" n="11" />
+                            at istine oramynda ol saharnyn da caɣyrsynlar alnynda
+                            <milestone unit="line" n="12" />
+                            anyn bulaj qylynady kisige ki ol meleḫ klejdi körme abajlyɣyn
+                            <milestone unit="line" n="13" />
+                            anyn.</l>
+                        <l n="10" xml:id="Est-006-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty ol meleḫ Hamanɣa ʒaḥtlaɣyn alɣyn
+                            <milestone unit="line" n="14" />
+                            osol ol upraqny da osol ol atny ki necik sözledin da
+                            <milestone unit="line" n="15" />
+                            qylɣyn alaj Mardeḫajɣa ol Jisraʾelge ol olturuvcu qabaɣynda
+                            <milestone unit="line" n="16" />
+                            ol meleḫnin eksitmegin birde söz barca neden ki sözledin.
+                            <milestone unit="line" n="17" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וי֒קח המ֒ן
+                            </foreign>
+                        </l>
+                        <l n="11" xml:id="Est-006-011">Da aldy Haman osol ol upraqny da
+                            <milestone unit="line" n="18" />
+                            osol ol atny da kijindirdi osol Mardeḫajny da atlanḫyz-
+                            <milestone unit="line" n="19" />
+                            dyrdy any oramynda ol saharnyn da caɣyrdy alnynda anyn
+                            <milestone unit="line" n="20" />
+                            bulaj qylynady küšige ki ol meleḫ klejdi körme abajlyɣyn
+                            <milestone unit="line" n="21" />
+                            anyn.</l>
+                        <l n="12" xml:id="Est-006-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישב </foreign>
+                            Da qajtty Mardeḫaj qabaɣyna ol meleḫnin da
+                            <milestone unit="line" n="22" />
+                            Haman taberildi üvüne jasly da jabuq basly.</l>
+                        <l n="13" xml:id="Est-006-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויספר</foreign>
+                            <milestone unit="line" n="23" />
+                            Da qotardy Haman Zereške qatynyna da bar süverlerine
+                            <milestone unit="line" n="24" />
+                            özünin osol neni ki ucrady anar da ajttylar anar
+                            <milestone unit="page" n="173r" />
+                            <milestone unit="line" n="1" />
+                            uslulary anyn da Zereš qatyny anyn eger urluɣundandy ese
+                            <milestone unit="line" n="2" />
+                            ol Jisraʾellernin Mardeḫaj ki basladyn tüsme alnynda anyn
+                            <milestone unit="line" n="3" />
+                            jenelmessen any ki tisme tisersen alnynda anyn.</l>
+                        <l n="14" xml:id="Est-006-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עודם</foreign>
+                            <milestone unit="line" n="4" />
+                            Hanuz alar sözlerediler birgesine anyn da vezirleri ol meleḫ-
+                            <milestone unit="line" n="5" />
+                            nin jettiler da tüzlettiler keltirme osol Hamanny ol
+                            <milestone unit="line" n="6" />
+                            ickige ki qyldy Ester.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">The incipit is partially illegible due to
+                            damaged paper.</note>
+                        <note xml:id="fn2" type="footnote">ADub.III.84: Bigtan; a scribal error, cf.
+                            Heb. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >בִּגְתָנָא</foreign>
+                            .</note>
+                        <note xml:id="fn3" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתון הלבוש</foreign>
+                            .</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
