@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Ezra 10</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Ezra 10</title>
+                        <milestone unit="line" n="3" />
+                        <l xml:id="Ezra-010-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ו׳ וכהתפלל עזרא</foreign>
+                        </l>
+                        <milestone unit="line" n="4" />
+                        <l n="1" xml:id="Ezra-010-001">Da necik tefila etti ʿEzra da mode bolɣanynda
+                            jazyqlaryn Jisraʾelnin
+                            <milestone unit="line" n="5" />
+                            jylamaq byla da tisip jatyredi utrusuna üvünün ol Tenrinin
+                            <milestone unit="line" n="6" />
+                            ystyryndylar anar Jisraʾelden köp qahal astry erenler qatynlar da
+                            <milestone unit="line" n="7" />
+                            ulanlar ki jyladylar ol ulus ullu jylamaq.</l>
+                        <l n="2" xml:id="Ezra-010-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויען </foreign>
+                            Da qaruv berdi
+                            <milestone unit="line" n="8" />
+                            Šeḫanja uvlu Jiḥiʾelnin uvullaryndan ʿElamnyn da ajtty ʿEzraɣa biz tandyq
+                            <milestone unit="line" n="9" />
+                            Tenrimizge biznin da qajta aldyq jat qatynlar uluslaryndan ol jernin
+                            <milestone unit="line" n="10" />
+                            da haligine bardy isanc Tenrige bunun ücün Jisraʾelden.</l>
+                        <l n="3" xml:id="Ezra-010-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה</foreign>
+                            <milestone unit="line" n="11" />
+                            Da haligine kesejik sert Tenrimizge biznin cyɣarma bar qatynlarny da ol
+                            <milestone unit="line" n="12" />
+                            tuvɣanny alardan kenesi byla H-nyn da ol qaltravcularnyn sözüne bujruɣuna
+                            <milestone unit="line" n="13" />
+                            Tenrimiznin biznin da Toraɣa köre qylynyz.</l>
+                        <l n="4" xml:id="Ezra-010-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קום </foreign>
+                            Turɣun ki senin istine-
+                            <milestone unit="line" n="14" />
+                            di ol is da bizde qylarbiz birgene senin kücejgin da qylɣyn.</l>
+                        <l n="5" xml:id="Ezra-010-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקם</foreign>
+                            <milestone unit="line" n="15" />
+                            Da turdu ʿEzra da antettirdi osol aɣaraqlaryn ol kohenlernin da ol
+                            <milestone unit="line" n="16" />
+                            Levili<addSpan spanTo="#add001" />ler<anchor xml:id="add001" />nin<ref
+                                target="#fn1" type="noteAnchor" /> da bar Jisraʾelnin qylma uspu
+                                üs<ref target="#fn2" type="noteAnchor" /> kübük<ref target="#fn3"
+                                type="noteAnchor" /> da antettiler.</l>
+                        <milestone unit="line" n="17" />
+                        <l n="6" xml:id="Ezra-010-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקם </foreign>
+                            Da turdu ʿEzra alnyndan üvünün ol Tenrinin da bardy ḥuʒura-
+                            <milestone unit="line" n="18" />
+                            syna Johoḥanannyn uvlunun Eljašivnin da bardy ary etmek asamady da suvlar
+                            <milestone unit="line" n="19" />
+                            icmedi ki jasly edi tanmaq jazyɣy ücün ol olʒa elnin.</l>
+                        <l n="7" xml:id="Ezra-010-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעבירו</foreign>
+                            <milestone unit="line" n="20" />
+                            Da asyrdylar avaz Juhudada da Jerušalajimde bar ol olʒa elge
+                            <milestone unit="line" n="21" />
+                            ystyrynmma Jerušalajimge.</l>
+                        <l n="8" xml:id="Ezra-010-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar qajsy kelmese üc ol künlerge
+                            <milestone unit="line" n="22" />
+                            kenesine köre ol aɣaraqlarnyn da ol qartlarnyn ḥerem etilir bar maly
+                            anyn da
+                            <milestone unit="line" n="23" />
+                            ol özüde ajrylyr qahalyndan ol olʒa elnin.</l>
+                        <l n="9" xml:id="Ezra-010-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקבצו </foreign>
+                            Da ysty-
+                            <milestone unit="line" n="24" />
+                            ryndylar bar eli Juhudanyn da Binjaminnin Jerušalajimge üc künlerge ol
+                            <milestone unit="page" n="210v" />
+                            <milestone unit="line" n="1" />
+                            toɣuzuncu ajda egirminci kününde janɣajnyn da olturdular bar ol
+                            <milestone unit="line" n="2" />
+                            ulus oramynda üvünün ol Tenrinin qaltravcular ol is ücün da
+                            <milestone unit="line" n="3" />
+                            barmaɣy ücün ol jamɣurlarnyn.</l>
+                        <l n="10" xml:id="Ezra-010-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקם </foreign>
+                            Da turdu ʿEzra ol kohen da ajtty
+                            <milestone unit="line" n="4" />
+                            alarɣa siz tandynyz da qajtyp aldynyz jat qatynlar arttyrma fašmanlyq
+                            <milestone unit="line" n="5" />
+                            jazyɣy üstüne Jisraʾelnin.</l>
+                        <l n="11" xml:id="Ezra-010-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da haligine beriniz šükürlük
+                            <milestone unit="line" n="6" />
+                            Tenrisine Jisraʾelnin Tenrisine atalarymyznyn da qylynyz klegin anyn da ajyryndylar
+                            <milestone unit="line" n="7" />
+                            uluslaryndan ol jernin da ol jat qatynlardan.</l>
+                        <l n="12" xml:id="Ezra-010-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויענו </foreign>
+                            Da qaruv berdiler
+                            <milestone unit="line" n="8" />
+                            bar ol qahal da ajttylar ullu avaz byla alaj sözlerinizge köre
+                                süznin<ref target="#fn4" type="noteAnchor" /> alajdy
+                            <milestone unit="line" n="9" />
+                            ol borctu bizin üstüne qylma.</l>
+                        <l n="13" xml:id="Ezra-010-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אבל </foreign>
+                            Ancaq ol ulus köptü a ol
+                            <milestone unit="line" n="10" />
+                            vaḥt jamɣurludu da joḥtu küc turma oramda da ol <addSpan
+                                spanTo="#add002" />is<anchor xml:id="add002" /> tüvüldü bir künge
+                            <milestone unit="line" n="11" />
+                            any eki künge ki artyrdyq tanma uspu üst<supplied reason="lost"
+                                >e</supplied><ref target="#fn5" type="noteAnchor" />.</l>
+                        <l n="14" xml:id="Ezra-010-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יעמדו </foreign>
+                            Tursunlar
+                            <milestone unit="line" n="12" />
+                            aɣaraqlarymyz biznin bar ol qahalqatyna da barysy qatyna qajsylar saharymyzda
+                            <milestone unit="line" n="13" />
+                            ol qajta aluvcular jat qatynlar har birisi kelsin hadirlengen vaḥtlarɣa
+                            <milestone unit="line" n="14" />
+                            da birgelerine alarnyn qartlary har bir saharnyn da terecileride alarnyn
+                            <milestone unit="line" n="15" />
+                            qajtarmaqqadejin qabunmaɣyn qaḥyrynyn Tenrimiznin biznin bizden uspu iske-
+                            <milestone unit="line" n="16" />
+                            dejin.</l>
+                        <l n="15" xml:id="Ezra-010-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אך </foreign>
+                            Tek Jonatan uvlu ʿAsaʾelnin da Jiḥizja uvlu Tiqvanyn turdular
+                            <milestone unit="line" n="17" />
+                            bunun üstüne da Mešulam da Šabtaj ol Levili boluštular alarɣa.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="16" xml:id="Ezra-010-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעשו </foreign>
+                            Da qyldylar alaj ol olʒa el da ajyryndylar ʿEzra ol kohen
+                            <milestone unit="line" n="19" />
+                            erenler qartlary ol atalarnyn üvü sajyn atalarynyn da barlary ediler
+                            <milestone unit="line" n="20" />
+                            bilivliler atlar byla da olturdular burunɣu kününde ol onuncu
+                            <milestone unit="line" n="21" />
+                            janɣajnyn tergeme ol isni.</l>
+                        <l n="17" xml:id="Ezra-010-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויכלו </foreign>
+                            Da tügettiler üsni<ref target="#fn6" type="noteAnchor" /> har
+                            <milestone unit="line" n="22" />
+                            erenler byla ol qajta aluvcular byla jat qatynlar burunɣu künü-
+                            <milestone unit="line" n="23" />
+                            nedejin ol burunɣu janɣajnyn.</l>
+                        <l n="18" xml:id="Ezra-010-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימצא </foreign>
+                            Da tabuldu uvullaryndan ol
+                            <milestone unit="line" n="24" />
+                            kohenlernin qajsylar qajta aldylar jat qatynlar uvullaryndan Ješuaʿnyn
+                            <milestone unit="page" n="211r" />
+                            <milestone unit="line" n="1" />
+                            uvlunun Johocadaqnyn da qaryndašlarynyn anyn Maʿaseja da Eliʿezer da
+                            <milestone unit="line" n="2" />
+                            Jariv da Gedalja.</l>
+                        <l n="19" xml:id="Ezra-010-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתנו </foreign>
+                            Da berdiler qollaryn cyɣarmaq ücün
+                            <milestone unit="line" n="3" />
+                            qatynlaryn özlerinin da ašamly qarban keltirme üvüne H-nyn qocqa-
+                            <milestone unit="line" n="4" />
+                            ryn qojnun fašmanlyq jazyqlary ücün özlerinin.</l>
+                        <l n="44" xml:id="Ezra-010-044"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל</foreign>
+                            <ref target="#fn7" type="noteAnchor" /> Bar bular
+                            <milestone unit="line" n="5" />
+                            aldylar jat qatynlar da bardy birlerinden ki qojdular alar byla
+                            <milestone unit="line" n="6" />
+                            ulanlar.
+                            <milestone unit="line" n="7" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תם ספר עזרא׃ תהלה
+                                לאל נורא׃</foreign>
+                            <milestone unit="line" n="8" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בר֮ד׃</foreign>
+                            .</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">ADub.III.84: <emph>Levilirenin</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn2" type="footnote">Hypercorrect form of
+                            <emph>is</emph>.</note>
+                        <note xml:id="fn3" type="footnote">Hypercorrect form of
+                            <emph>kibik</emph>.</note>
+                        <note xml:id="fn4" type="footnote">Hypercorrect form of
+                            <emph>siznin</emph>.</note>
+                        <note xml:id="fn5" type="footnote">ADub.III.84: <emph>üstü</emph>; a scribal
+                            error. The form <emph>üste</emph> is a hypercorrect form of
+                                <emph>iste</emph>.</note>
+                        <note xml:id="fn6" type="footnote">Hypercorrect form of
+                            <emph>isni</emph>.</note>
+                        <note xml:id="fn7" type="footnote">Verses Ezra 9–43 (the ennumeration of the
+                            names of the heads of the families and their sons) were omitted by the
+                            copyist.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
