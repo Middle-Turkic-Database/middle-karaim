@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Joshua 6</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Joshua 6</title>
+                        <milestone unit="line" n="18" />
+                        <l xml:id="Josh-006-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ו׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Josh-006-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויריחו </foreign>
+                            Da Jeriḥo beklik sahar edi da beklenip oltururedi
+                            <milestone unit="line" n="19" />
+                            alnyndan uvullarynyn Jisraʾelnin joɣedi cyɣuvcu ani joɣedi kelevci.</l>
+                        <l n="2" xml:id="Josh-006-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty
+                            <milestone unit="line" n="20" />
+                            H Johošuʿaɣa ker berdim qoluna senin osol Jeriḥonu da osol meleḫin anyn
+                            ol tuvuslu
+                            <milestone unit="line" n="21" />
+                            baɣatyrlarny.</l>
+                        <l n="3" xml:id="Josh-006-003"><ref target="#fn1" type="noteAnchor"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">וסבותם </foreign>
+                            Da qursanyz osol ol saharny bar eli ol cerivnin qursama
+                            <milestone unit="line" n="22" />
+                            ol saharny bir keret bulaj qylɣyn alty kinler.</l>
+                        <l n="4" xml:id="Josh-006-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושבעה </foreign>
+                            Da jedi kohenler etlsinler
+                            <milestone unit="line" n="23" />
+                            jedi byrɣylaryn ol jovellernin alnynda ol aronnun da ol jedinci kinde qursanyz
+                            <milestone unit="line" n="24" />
+                            ol saḥarny jedi keretler da ol kohenler tartsynlar byrɣylarɣa.</l>
+                        <l n="5" xml:id="Josh-006-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolɣaj
+                            <milestone unit="line" n="25" />
+                            tartqanda mivizine ol jovelnin esitkeninizde osol avazyn ol byrɣynyn qycqyr-
+                            <milestone unit="line" n="26" />
+                            synlar bar ol ulus ullu qycqyrmaq da tiser qalasy ol saharnyn ornunda
+                            <milestone unit="line" n="27" />
+                            da baryrlar ol ulus kisi qarsysyna.</l>
+                        <l n="6" xml:id="Josh-006-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקרא </foreign>
+                            Da caɣɣrdy Johošuʿa uvlu Nunnun
+                            <milestone unit="line" n="28" />
+                            ol kohenlerge da ajtty alarɣa alynyz aronun ol sertnin da jedi kohenler alsynlar
+                            <milestone unit="page" n="5r" />
+                            <milestone unit="line" n="1" />
+                            jedi byrɣylaryn jovellernin alnynda aronunun H-nyn.</l>
+                        <l n="7" xml:id="Josh-006-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar
+                            <milestone unit="line" n="2" />
+                            ol ulusqa asynyz da qursanyz osol ol saharny da ol jasanɣan uvullary
+                            <milestone unit="line" n="3" />
+                            Ruʿuven da Gadnyn da jarysy ševeti ol Menasenin assynlar alyndan alnynda
+                            <milestone unit="line" n="4" />
+                            aronunun H-nyn.</l>
+                        <l n="8" xml:id="Josh-006-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da edi ajtqacoq Johošuʿa ol ulusqa da jedi ol
+                            <milestone unit="line" n="5" />
+                            kohenler eltivciler jedi byrɣylaryn ol jovellernin alnynda H-nyn astylar
+                            <milestone unit="line" n="6" />
+                            da tarttylar da aron serti H-nyn baryredi alar artyna.</l>
+                        <l n="9" xml:id="Josh-006-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והחלוץ</foreign>
+                            <milestone unit="line" n="7" />
+                            Da ol jasanɣan baryredi alnynda ol kohenlernin tartuvcularnyn ol byrɣylarnyn
+                            <milestone unit="line" n="8" />
+                            da ol ystyruvcu baryredi ol aron artyna bara da tarta byrɣylarɣa.</l>
+                        <milestone unit="line" n="9" />
+                        <l n="10" xml:id="Josh-006-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואת </foreign>
+                            Da osol ol ulusqa zynharlady Johošuʿa ajtadoɣac qycqyrmanyz
+                            <milestone unit="line" n="10" />
+                            ani <supplied reason="lost">esittirmeniz</supplied><ref target="#fn2"
+                                type="noteAnchor" /> avazynyzny ani cyqmasyn avzunuzdan sez ajtqan kinime-
+                            <milestone unit="line" n="11" />
+                            dejin sizge qycqyrynyz da qycqyrysiz.</l>
+                        <l n="11" xml:id="Josh-006-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסב </foreign>
+                            Da qursady aronu H-nyn osol
+                            <milestone unit="line" n="12" />
+                            ol saharny qursama bir keret da keldiler ol avulɣa da kondular
+                            avulda.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="12" xml:id="Josh-006-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישכם </foreign>
+                            Da kinlej turdu Johošuʿa ertenbylada elttiler ol kohenler osol
+                            <milestone unit="line" n="14" />
+                            aronyn H-nyn.</l>
+                        <l n="13" xml:id="Josh-006-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושבעה </foreign>
+                            Da jedi ol kohenler eltivciler jedi byrɣylaryn ol
+                            <milestone unit="line" n="15" />
+                            jovellernin alnynda aronunun H-nyn baryrediler bara da tartarediler byrɣylarɣa
+                            <milestone unit="line" n="16" />
+                            da ol jasanɣan baryrediler alynlarynda alarnyn da ol ystyruvcu baryredi aronu
+                            <milestone unit="line" n="17" />
+                            artyna H-nyn bara da tarta byɣylarɣa.</l>
+                        <l n="14" xml:id="Josh-006-014"><ref target="#fn3" type="noteAnchor"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">ויסובו </foreign>
+                            Da qursadylar osol ol saharny
+                            <milestone unit="line" n="18" />
+                            ol ekinci kinde bir keret da qajttylar ol avulɣa bulaj qyldylar alty
+                            <milestone unit="line" n="19" />
+                            kinler.</l>
+                        <l n="15" xml:id="Josh-006-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi ol jedinci kinde da kinlej turdular <supplied reason="lost"
+                                >ketiringende</supplied><ref target="#fn4" type="noteAnchor" /> ol
+                            <milestone unit="line" n="20" />
+                            saḥar da qursadylar osol ol saharny ol uspu kecinmekke kere jedi keretler
+                            <milestone unit="line" n="21" />
+                            tek ol kinde ol qursadylar osol ol saharny jedi keretler.</l>
+                        <l n="16" xml:id="Josh-006-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi ol
+                            <milestone unit="line" n="22" />
+                            jedinci kerette tarttylar ol kohenler byrɣylarɣa da ajtty Johošuʿa ol ulusqa
+                            <milestone unit="line" n="23" />
+                            qycqyrynyz ki berdi H sizge osol ol saharny.</l>
+                        <l n="17" xml:id="Josh-006-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיתה </foreign>
+                            Da bolsun ol sahar ḥerem ol
+                            <milestone unit="line" n="24" />
+                            da barca ne ki anda H-ɣa tek Raḥab ol ḥarc satuvcu qatyn tiri bolsun ol
+                            da bar
+                            <milestone unit="line" n="25" />
+                            kim ki birgesine anyn ickiride ki jasyndyrdy osol ol elcilerni ki
+                            ijdik.</l>
+                        <milestone unit="line" n="26" />
+                        <l n="18" xml:id="Josh-006-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ורק </foreign>
+                            Da tek siz saqlanyz ezinizni ol ḥeremden maɣat ḥerem etersiz ezinizni
+                            <milestone unit="line" n="27" />
+                            da elesiz ol ḥeremden da qojarsiz osol avulun Jisraʾelnin ḥeremge da
+                            cajparsiz any.</l>
+                        <milestone unit="line" n="28" />
+                        <l n="19" xml:id="Josh-006-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                            Da bar kimis da altyn da tuʒlu savutlar da temirli azizdi ol H-ɣa ḥaznasyna
+                            <milestone unit="page" n="5v" />
+                            <milestone unit="line" n="1" />
+                            H-nyn kelsin.</l>
+                        <l n="20" xml:id="Josh-006-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירע </foreign>
+                            Da qycqyrdy ol ulus da tarttylar byrɣylarɣa da edi
+                            <milestone unit="line" n="2" />
+                            esitkecoq ol ulus osol avazyn ol byrɣynyn da qycqyrdylar ol ulus
+                            <milestone unit="line" n="3" />
+                            ullu qycqyrmaq da tisti ol qala ornunda batty jerge da bardy ol ulus
+                            <milestone unit="line" n="4" />
+                            ol saharɣa biri biri artyna kisi qarsysyna da tu<addSpan
+                                spanTo="#add001" />t<anchor xml:id="add001" />tular osol ol
+                            saharny.</l>
+                        <milestone unit="line" n="5" />
+                        <l n="21" xml:id="Josh-006-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחרימו </foreign>
+                            Da veren ettiler osol bar neni ki saharda kisiden qatynɣadejin
+                            <milestone unit="line" n="6" />
+                            ulandan da qartqadejin da egizgedejin da qojɣadejin da esekkedejin qylyc
+                            avzundan.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="22" xml:id="Josh-006-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולשנים </foreign>
+                            Da eki ol erenlerge ol cajsylavcularɣa osol ol jerni ajtty
+                            <milestone unit="line" n="8" />
+                            Johošuʿa keliniz ivine ol qatynnyn ol ḥarc satuvcunun da cyɣarynyz andan
+                            <milestone unit="line" n="9" />
+                            osol ol qatynny da osol bar neni ki anar ki necik ant ettiniz anar.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="23" xml:id="Josh-006-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבאו </foreign>
+                            Da keldiler ol negerler ol cajsylavcular da cyɣardylar osol Raḥabny
+                            <milestone unit="line" n="11" />
+                            da osol atasyn anyn da osol anasyn da osol qaryndaslaryn da osol bar
+                            neni ki anar
+                            <milestone unit="line" n="12" />
+                            da osol bar uruvlaryn anyn cyɣardylar da toḥtattylar alarny tysqartyn
+                            <milestone unit="line" n="13" />
+                            avulɣa ki Jisraʾelnin.</l>
+                        <l n="24" xml:id="Josh-006-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והעיר </foreign>
+                            Da ol saharny kivdirdiler otta da bar neni ki
+                            <milestone unit="line" n="14" />
+                            anda tek ol kimisni da ol altynny da ol tuʒlu savutlarny da ol temirni
+                            <milestone unit="line" n="15" />
+                            <supplied reason="lost">berdiler</supplied><ref target="#fn5"
+                                type="noteAnchor" /> ḥaznasyna ivinin H-nyn.</l>
+                        <l n="25" xml:id="Josh-006-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואת </foreign>
+                            Da osol Raḥabny ol ḥarc satuvcu
+                            <milestone unit="line" n="16" />
+                            qatynny da osol elin ivinin atasynyn da osol bar kimni ki anar tiri tuttu
+                            <milestone unit="line" n="17" />
+                            Johošuʿa da olturdu ortasynda Jisraʾelnin ol uspu <supplied
+                                reason="lost">kingedejin</supplied><ref target="#fn6"
+                                type="noteAnchor" /> ki jasyndyrdy
+                            <milestone unit="line" n="18" />
+                            osol ol elcilerni ki ijdi Johošuʿa cajsylama osol Jeriḥonu.</l>
+                        <l n="26" xml:id="Josh-006-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישבע </foreign>
+                            Da ant
+                            <milestone unit="line" n="19" />
+                            ettirdi Johošuʿa ol vaḥtta ol ajtadoɣac qarɣysly bolur ol kisi alnynda
+                            <milestone unit="line" n="20" />
+                            H-nyn ki tursa da qondarsa osol ol saharny ol uspu osol Jeriḥonu tunɣucu
+                            <milestone unit="line" n="21" />
+                            byla bunjat eter any da kicirek uvlu byla turɣuzur esiklerin anyn.</l>
+                        <l n="27" xml:id="Josh-006-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי</foreign>
+                            <milestone unit="line" n="22" />
+                            Da edi bolusluɣu H-nyn Johošuʿa byla da edi šemi syjynyn anyn bilingen
+                            bar ol jerde.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="fn1" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וסבתם</foreign>
+                            .</note>
+                        <note xml:id="fn2" type="footnote">TKow.02: <emph>isittirmeniz</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn3" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסבו</foreign>
+                            .</note>
+                        <note xml:id="fn4" type="footnote">TKow.02: <emph>ketirinigenede</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn5" type="footnote">TKow.02: <emph>berideler</emph>; a
+                            scribal error.</note>
+                        <note xml:id="fn6" type="footnote">TKow.02: <emph>kinigdejin</emph>; a
+                            scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
