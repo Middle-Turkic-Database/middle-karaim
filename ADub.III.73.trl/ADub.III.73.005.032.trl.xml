@@ -1,4 +1,469 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader><fileDesc><titleStmt><title ana="#no"/><author ana="#no"/></titleStmt><publicationStmt><publisher>Uppsala University, Department of linguistics and philology</publisher><pubPlace>Uppsala, Sweden</pubPlace><date>2020</date><availability status="restricted"><licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence></availability></publicationStmt><sourceDesc><msDesc><msIdentifier><settlement>Warsaw, Poland</settlement><repository>Private archive</repository><idno>ADub.III.73</idno></msIdentifier><msContents><summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary></msContents></msDesc></sourceDesc></fileDesc><profileDesc><abstract><p><lg><l>Deuteronomy 32</l></lg></p></abstract></profileDesc></teiHeader><text><body><div type="edition"><div type="textpart" subtype="chapter"><ab><title><supplied reason="lost">Deuteronomy 32</supplied></title><milestone unit="line" n="4"/><l><emph>Parashat Haazinu</emph></l><milestone unit="line" n="5"/><l n="1">‘Give ear, oh you skies,<milestone unit="line" n="6"/>so I may speak, and let the earth hear<milestone unit="line" n="7"/>what my mouth says.</l><l n="2">Let my mind drop like rain,<milestone unit="line" n="8"/>let my speech drip like dew, like the small rain<milestone unit="line" n="9"/>on grass and like great rains on herbs.</l><milestone unit="line" n="10"/><l n="3">When I call the name of the Lord, praise, you too,<milestone unit="line" n="11"/>the greatness of our God.</l><l n="4">The work of the Creator<milestone unit="line" n="12"/>is perfect, for all his ways are judgement. An eternal God,<milestone unit="line" n="13"/>and he makes no wickedness, just and right is he.</l><l n="5"><milestone unit="line" n="14"/><seg type="commented" corresp="#seg001"/>Israel has destroyed itself because they were not called<milestone unit="line" n="15"/>the children of God, this has become their blemish because<milestone unit="line" n="16"/>they are a defiant and cunning generation.<anchor type="commented" xml:id="seg001"/><ref target="#fn1" type="noteAnchor"/></l><l n="6">Is it to the Lord<milestone unit="line" n="17"/>that you repay such a payment? Wastrel people and unwise! Lo,<milestone unit="line" n="18"/>he is your father who brought you into existence, he created you and<milestone unit="line" n="19"/>built you.</l><l n="7">Remember the days of old.<milestone unit="page" n="336v"/><milestone unit="line" n="1"/>Take heed of the years of every generation. Ask your father, and he will tell<milestone unit="line" n="2"/>you, your elders, and they will say to you:</l><l n="8"><milestone unit="line" n="3"/>When the high God divided to the kingdoms their inheritance, when he separated the children of mankind<ref target="#fn2" type="noteAnchor"/>,<milestone unit="line" n="4"/>he set the borders of the people according to the number of the children of Israel.</l><milestone unit="line" n="5"/><l n="9">For the Lord’s portion is his people. Jacob is his allotted<milestone unit="line" n="6"/>portion.</l><l n="10">He gave him affluence in a<milestone unit="line" n="7"/>wilderness land and in a desolated desert. He encircled him <seg type="commented" corresp="#seg002"/>with his cloud<anchor type="commented" xml:id="seg002"/><ref target="#fn3" type="noteAnchor"/>,<milestone unit="line" n="8"/>he instructed him <seg type="commented" corresp="#seg003"/>with his Law<anchor type="commented" xml:id="seg003"/><ref target="#fn4" type="noteAnchor"/>, he kept him <seg type="commented" corresp="#seg004"/>with his commandments<anchor type="commented" xml:id="seg004"/><ref target="#fn5" type="noteAnchor"/> like<milestone unit="line" n="9"/><seg type="commented" corresp="#seg005"/>the man keeps<anchor type="commented" xml:id="seg005"/><ref target="#fn6" type="noteAnchor"/> the apple<ref target="#fn7" type="noteAnchor"/> of his eye.</l><l n="11">Like an eagle uncovers<milestone unit="line" n="10"/>its nest, flutters over its young, spreads out its wings, takes<milestone unit="line" n="11"/>it, bears it on its wings,</l><l n="12">So the Lord<milestone unit="line" n="12"/>alone led Israel <seg type="commented" corresp="#seg006"/>in the wilderness<anchor type="commented" xml:id="seg006"/><ref target="#fn8" type="noteAnchor"/>, and there was no<milestone unit="line" n="13"/>strange god with him.</l><l n="13">He made him ride over the high<milestone unit="line" n="14"/>places of the earth, and he ate the produce of the fields,<milestone unit="line" n="15"/>and he suckled him with honey out of the rock, and oil out of the diamond<ref target="#fn9" type="noteAnchor"/> rock,</l><milestone unit="line" n="16"/><l n="14">Butter of the cattle, and milk of the flock,<milestone unit="line" n="17"/>with fat of lambs, and rams of the breed of Bashan, and he-goats<milestone unit="line" n="18"/>with the fat of their kidneys, of the wheat, and from grape’s blood<milestone unit="line" n="19"/>you will drink red wine.</l><l n="15">And Israel grew fat,<milestone unit="line" n="20"/>and was defiant — you grew fat, you are grown thick, fat covered your mind —<milestone unit="line" n="21"/>and it forsook the <supplied reason="lost">service</supplied> of God who created him, and disdained<milestone unit="page" n="337r"/><milestone unit="line" n="1"/>the word of his gracious creator.</l><l n="16"><milestone unit="line" n="2"/>They made him jealous by serving foreign gods,<milestone unit="line" n="3"/>with repulsive things they made him annoyed.</l><l n="17"><milestone unit="line" n="4"/>They sacrificed to devils, not to God, to gods<milestone unit="line" n="5"/>whom they had not known, new ones |that| came in the close past,<milestone unit="line" n="6"/>whom your fathers feared not.</l><l n="18">You have left the service<milestone unit="line" n="7"/>of the Creator who created you, and have forgotten the command<milestone unit="line" n="8"/>of God who brought you into existence from nothing.</l><l n="19">And the Lord saw<milestone unit="line" n="9"/>and was annoyed, because of the annoyance of his sons<milestone unit="line" n="10"/>and his daughters.</l><l n="20">And he said, “Let me hide my directions<milestone unit="line" n="11"/>from them. Let me see what their end will be. For<milestone unit="line" n="12"/>they are a defiant generation, children in whom is no faith.</l><l n="21"><milestone unit="line" n="13"/>They made me jealous with serving not God,<milestone unit="line" n="14"/>they have annoyed me with their own <supplied reason="lost">vanities</supplied>.<milestone unit="line" n="15"/>And I: I will make them jealous with no-people,<milestone unit="line" n="16"/>I will annoy them with a wastrel kingdom.</l><l n="22">For<milestone unit="line" n="17"/>a fire went out in my anger and burned to the lowest grave<milestone unit="line" n="18"/>and consumed the earth with its produce and set on fire the foundations<milestone unit="line" n="19"/>of the mountains.</l><l n="23">I said, “Let me execute<milestone unit="line" n="20"/>all the evils over them, I will exhaust my arrows on them,</l><milestone unit="line" n="21"/><l n="24">Dead by famine, devoured by birds<ref target="#fn10" type="noteAnchor"/>,<milestone unit="page" n="337v"/><milestone unit="line" n="1"/>and bitter blows. And I will send the teeth of evil wild |animals| on them,<milestone unit="line" n="2"/>with the poison of those who wallow in the dust.</l><l n="25"><milestone unit="line" n="3"/>Outside: the sword will bereave, and throughout the chambers: terror, both young man<milestone unit="line" n="4"/>and the virgin, the nursing child with the man of grey hairs.”</l><milestone unit="line" n="5"/><l n="26">I said, “Let me scatter them into all directions,<milestone unit="line" n="6"/>let me make the remembrance of them cease from among men.”</l><l n="27"><milestone unit="line" n="7"/>If I did not fear the enemy’s annoyance, lest<milestone unit="line" n="8"/>their enemies should not acknowledge, lest they should say,<milestone unit="line" n="9"/>“Our hand is growing stronger, and it was not the Lord who did all this.”</l><milestone unit="line" n="10"/><l n="28">For the enemies are a kingdom of a lost counsel,<milestone unit="line" n="11"/>and there is no reason in them.</l><l n="29">If they were wise,<milestone unit="line" n="12"/>they would took note of this, that would even understand<milestone unit="line" n="13"/>their own end!</l><l n="30">How should one man chase<milestone unit="line" n="14"/>a thousand, and two make ten thousand flee,<milestone unit="line" n="15"/>if not that their creator had sold them,<milestone unit="line" n="16"/>and that the Lord had given them up?</l><l n="31">For<milestone unit="line" n="17"/>their gods are not as our Creator, and our enemies<milestone unit="line" n="18"/>themselves are judges in this matter.</l><l n="32">For their vine<milestone unit="line" n="19"/>is from the vine of Sodom and from the fields of Gomorrah.<milestone unit="line" n="20"/>Their grapes are grapes of poison: bitter bunches<milestone unit="line" n="21"/>for them.</l><l n="33">Their wine is a poison of serpents,<milestone unit="page" n="338r"/><milestone unit="line" n="1"/>and merciless poison of serpents.</l><l n="34">“Lo,<milestone unit="line" n="2"/>he is buried by my side, and sealed up in my treasures.</l><milestone unit="line" n="3"/><l n="35">To me belongs vengeance and<milestone unit="line" n="4"/>recompense when their foot shall slide, for<milestone unit="line" n="5"/>the day of their calamity is close and comes fast: future things |prepared| for them.”</l><milestone unit="line" n="6"/><l n="36">For the Lord will judge his people<milestone unit="line" n="7"/>and have compassion on his servants when he sees that<milestone unit="line" n="8"/>the strength of their hand is gone, and there is no treasure and livestock. <seg type="commented" corresp="#seg007"/>(<emph>A second translation</emph><milestone unit="line" n="9"/><supplied reason="lost">of the verse</supplied> ‘<emph>For </emph><supplied reason="lost">the Lord</supplied><emph> will judge…</emph>’) (For the Lord will judge his people<milestone unit="line" n="10"/>and then he will have compassion on his servants because of their enemies.)</l><milestone unit="line" n="11"/><l n="37"><seg type="commented" corresp="#seg008"/>Because the enemy of the people<milestone unit="line" n="12"/>of Israel<anchor type="commented" xml:id="seg008"/><ref target="#fn11" type="noteAnchor"/> would say, “Where are their gods, a creator<milestone unit="line" n="13"/>in whom they trusted?</l><l n="38">Who ate the fat of their sacrifices<milestone unit="line" n="14"/>and drank the wine of their drink offerings? Let them rise up<milestone unit="line" n="15"/>and help you, may it be your<milestone unit="line" n="16"/>shelter to save you from our hands.”</l><l n="39"><seg type="commented" corresp="#seg009"/>And<milestone unit="line" n="17"/>then I will say:<anchor type="commented" xml:id="seg009"/><ref target="#fn12" type="noteAnchor"/> “Look now that I am he, and there is no<milestone unit="line" n="18"/>god besides me. I will kill, and I will make alive.<milestone unit="line" n="19"/>If I cut, I will heal. And there is no<milestone unit="line" n="20"/>deliverer from my hand,</l><l n="40">When I lift up my hand to the skies,<milestone unit="line" n="21"/>and say, “I am eternal, forever.</l><l n="41"><milestone unit="page" n="338v"/><milestone unit="line" n="1"/>Indeed, the time will come when I will know the edge of my sword, and<milestone unit="line" n="2"/>my hand will take hold on judgment, I will give back vengeance to my enemies and<milestone unit="line" n="3"/>to those who seized you strongly. <seg type="commented" corresp="#seg010"/>I will pay back an evil payment.<anchor type="commented" xml:id="seg010"/><ref target="#fn13" type="noteAnchor"/></l><l n="42">I will give my arrows<milestone unit="line" n="4"/>blood to drink, and my sword will eat flesh from the blood of the dead and<milestone unit="line" n="5"/>of the captives, from the main |leaders| of the enemy.””</l><l n="43">Rejoice,<milestone unit="line" n="6"/>kingdom, its people who are called tribes of Israel,<milestone unit="line" n="7"/>for he will avenge the blood of his servants, and will give back vengeance<milestone unit="line" n="8"/>to the enemies of Israel, and will redeem the land and his people.’</l><milestone unit="line" n="9"/><l n="44">And Moses came and spoke all the words<milestone unit="line" n="10"/>of this song in the ears of the people, he and<milestone unit="line" n="11"/>Hoshea, son of Nun.</l><l n="45">And Moses finished speaking<milestone unit="line" n="12"/>all these words to all Israel.</l><milestone unit="line" n="13"/><l n="46">And he said to them, ‘Take heed of all the words<milestone unit="line" n="14"/>which I testify regarding you today, that<milestone unit="line" n="15"/>you shall command your children to be watchful to do,<milestone unit="line" n="16"/>all the words of this Law.</l><l n="47">Because<milestone unit="line" n="17"/>it is not a vain word about you, because it is your life. And through this<milestone unit="line" n="18"/>word you shall prolong your days on the land to which you<milestone unit="line" n="19"/>you are crossing the Jordan to inherit it.’</l><l n="48"><milestone unit="line" n="20"/>And the Lord spoke to Moses that very same day,<milestone unit="line" n="21"/>saying,</l><l n="49">‘Go up to this <seg type="commented" corresp="#seg011"/>mountain of encampments<anchor type="commented" xml:id="seg011"/><ref target="#fn14" type="noteAnchor"/>,<milestone unit="page" n="339r"/><milestone unit="line" n="1"/>to the Mount Nebo, which is in the land of Moab, which is facing<milestone unit="line" n="2"/>Jericho, and see the land of Canaan, which I am giving<milestone unit="line" n="3"/>to the children of Israel for a possession.</l><l n="50">And<milestone unit="line" n="4"/>you will die in the mountain to which you are going up, and be gathered<milestone unit="line" n="5"/>to your people, as Aaron, your brother, died in Mount Hor<milestone unit="line" n="6"/>and was gathered to his people,</l><l n="51">Because<milestone unit="line" n="7"/>you rebelled against my word in the midst of the children of Israel<milestone unit="line" n="8"/>at the waters of <seg type="commented" corresp="#seg012"/>quarrel<anchor type="commented" xml:id="seg012"/><ref target="#fn15" type="noteAnchor"/> of Kadesh of the wilderness of Zin, because<milestone unit="line" n="9"/>you did not show my holiness in the midst<milestone unit="line" n="10"/>of the children of Israel.</l><l n="52">Because you will see the land from opposite,<milestone unit="line" n="11"/>but you will not come there, to the land which I am giving<milestone unit="line" n="12"/>to the children of Israel.’</l></ab></div></div><div type="apparatus"><listApp><app><note xml:id="fn1" type="footnote">An interpretative translation of Deu 32:5.</note><note xml:id="fn2" type="footnote">Or: <emph>Adam</emph>.</note><note xml:id="fn3" type="footnote">An interpretative addition to Deu 32:10.</note><note xml:id="fn4" type="footnote">An interpretative addition to Deu 32:10.</note><note xml:id="fn5" type="footnote">An interpretative addition to Deu 32:10.</note><note xml:id="fn6" type="footnote">An interpretative addition to Deu 32:10.</note><note xml:id="fn7" type="footnote">Lit. ‘pupil’.</note><note xml:id="fn8" type="footnote">An interpretative addition to Deu 32:12.</note><note xml:id="fn9" type="footnote">Corrected into <emph>waterproof</emph> by another hand.</note><note xml:id="fn10" type="footnote">K: <emph>qušnun</emph>; either a translation influenced by the Septuagint — possibly via (Old Church) Slavonic translations; or a mistranslation of BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף </foreign>‘flame = plague, pestilence’ (Koehler &amp; Baumgartner 1985: 911) influenced by Med.Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף </foreign>‘1. glow, flame, spark; 2. bird (of prey)’ (Jastrow 1903: 1502; Klein 1987: 631); or a mistranslation being the result of misinterpreting Kar. <emph>učqun</emph> ‘spark’ (used in this verse in other Karaim manuscripts) as a word meaning ‘bird’ caused by the fact that <emph>učqun</emph> is a <emph>-qun</emph> derivative of <emph>uč-</emph> ‘to fly’ (see A. Zajączkowski 1932: 81, Berta 1996: 402) and influenced by the medieval meaning of Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף</foreign>. The latter would suggest that the translation was based on another Karaim manuscript. Repeated in H. Translated ‘spark’ in C, M, E, and R. | BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף </foreign>‘flame = plague, pestilence’. | Sept. <emph>ὀρνέων</emph> ‘birds’. | OCS. <emph>птицъ</emph> ‘birds (<emph>gen.</emph>)’.</note><note xml:id="fn11" type="footnote">An interpretative addition to Deu 32:37.</note><note xml:id="fn12" type="footnote">An interpretative addition to Deu 32:39.</note><note xml:id="fn13" type="footnote">An interpretative addition to Deu 32:41.</note><note xml:id="fn14" type="footnote">A literal translation of Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">הַר הָעֲבָרִים </foreign>‘mountain of the Abarim’. | TKow.01: <emph>mountain of encampments</emph>. | H: <emph>mountain of encampments</emph>. | C: <emph>mountain of encampments</emph>. | R: <emph>mountain of encampments</emph>.</note><note xml:id="fn15" type="footnote">A literal translation of Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">מְרִיבָה </foreign>‘1. Meribah; 2. strife, contention’. | TKow.01: <emph>quarrel</emph>. | H: <emph>quarrel</emph>. | C: <emph>quarrel</emph>. | R: <emph>quarrel</emph>.</note></app></listApp></div></body></text></TEI>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Deuteronomy 32</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title><supplied reason="lost">Deuteronomy 32</supplied></title>
+                        <milestone unit="line" n="4" />
+                        <l><emph>Parashat Haazinu</emph></l>
+                        <milestone unit="line" n="5" />
+                        <l n="1">‘Give ear, oh you skies,
+                            <milestone unit="line" n="6" />
+                            so I may speak, and let the earth hear
+                            <milestone unit="line" n="7" />
+                            what my mouth says.</l>
+                        <l n="2">Let my mind drop like rain,
+                            <milestone unit="line" n="8" />
+                            let my speech drip like dew, like the small rain
+                            <milestone unit="line" n="9" />
+                            on grass and like great rains on herbs.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="3">When I call the name of the Lord, praise, you too,
+                            <milestone unit="line" n="11" />
+                            the greatness of our God.</l>
+                        <l n="4">The work of the Creator
+                            <milestone unit="line" n="12" />
+                            is perfect, for all his ways are judgement. An eternal God,
+                            <milestone unit="line" n="13" />
+                            and he makes no wickedness, just and right is he.</l>
+                        <l n="5">
+                            <milestone unit="line" n="14" />
+                            <seg type="commented" corresp="#Deut-032-seg001_trl" />Israel has
+                            destroyed itself because they were not called
+                            <milestone unit="line" n="15" />
+                            the children of God, this has become their blemish because
+                            <milestone unit="line" n="16" />
+                            they are a defiant and cunning generation.<anchor type="commented"
+                                xml:id="Deut-032-seg001_trl" /><ref n="1" target="#Deut-032-fn1_trl"
+                                type="noteAnchor" /></l>
+                        <l n="6">Is it to the Lord
+                            <milestone unit="line" n="17" />
+                            that you repay such a payment? Wastrel people and unwise! Lo,
+                            <milestone unit="line" n="18" />
+                            he is your father who brought you into existence, he created you and
+                            <milestone unit="line" n="19" />
+                            built you.</l>
+                        <l n="7">Remember the days of old.
+                            <milestone unit="page" n="336v" />
+                            <milestone unit="line" n="1" />
+                            Take heed of the years of every generation. Ask your father, and he will tell
+                            <milestone unit="line" n="2" />
+                            you, your elders, and they will say to you:</l>
+                        <l n="8">
+                            <milestone unit="line" n="3" />
+                            When the high God divided to the kingdoms their inheritance, when he
+                            separated the children of mankind<ref n="2" target="#Deut-032-fn2_trl"
+                                type="noteAnchor" />,
+                            <milestone unit="line" n="4" />
+                            he set the borders of the people according to the number of the children
+                            of Israel.</l>
+                        <milestone unit="line" n="5" />
+                        <l n="9">For the Lord’s portion is his people. Jacob is his allotted
+                            <milestone unit="line" n="6" />
+                            portion.</l>
+                        <l n="10">He gave him affluence in a
+                            <milestone unit="line" n="7" />
+                            wilderness land and in a desolated desert. He encircled him <seg
+                                type="commented" corresp="#Deut-032-seg002_trl" />with his
+                                cloud<anchor type="commented" xml:id="Deut-032-seg002_trl" /><ref
+                                n="3" target="#Deut-032-fn3_trl" type="noteAnchor" />,
+                            <milestone unit="line" n="8" />
+                            he instructed him <seg type="commented" corresp="#Deut-032-seg003_trl"
+                             />with his Law<anchor type="commented" xml:id="Deut-032-seg003_trl"
+                                 /><ref n="4" target="#Deut-032-fn4_trl" type="noteAnchor" />, he
+                            kept him <seg type="commented" corresp="#Deut-032-seg004_trl" />with his
+                                commandments<anchor type="commented" xml:id="Deut-032-seg004_trl"
+                                 /><ref n="5" target="#Deut-032-fn5_trl" type="noteAnchor" /> like
+                            <milestone unit="line" n="9" />
+                            <seg type="commented" corresp="#Deut-032-seg005_trl" />the man
+                                keeps<anchor type="commented" xml:id="Deut-032-seg005_trl" /><ref
+                                n="6" target="#Deut-032-fn6_trl" type="noteAnchor" /> the apple<ref
+                                n="7" target="#Deut-032-fn7_trl" type="noteAnchor" /> of his
+                            eye.</l>
+                        <l n="11">Like an eagle uncovers
+                            <milestone unit="line" n="10" />
+                            its nest, flutters over its young, spreads out its wings, takes
+                            <milestone unit="line" n="11" />
+                            it, bears it on its wings,</l>
+                        <l n="12">So the Lord
+                            <milestone unit="line" n="12" />
+                            alone led Israel <seg type="commented" corresp="#Deut-032-seg006_trl"
+                             />in the wilderness<anchor type="commented"
+                                xml:id="Deut-032-seg006_trl" /><ref n="8" target="#Deut-032-fn8_trl"
+                                type="noteAnchor" />, and there was no
+                            <milestone unit="line" n="13" />
+                            strange god with him.</l>
+                        <l n="13">He made him ride over the high
+                            <milestone unit="line" n="14" />
+                            places of the earth, and he ate the produce of the fields,
+                            <milestone unit="line" n="15" />
+                            and he suckled him with honey out of the rock, and oil out of the
+                                diamond<ref n="9" target="#Deut-032-fn9_trl" type="noteAnchor" />
+                            rock,</l>
+                        <milestone unit="line" n="16" />
+                        <l n="14">Butter of the cattle, and milk of the flock,
+                            <milestone unit="line" n="17" />
+                            with fat of lambs, and rams of the breed of Bashan, and he-goats
+                            <milestone unit="line" n="18" />
+                            with the fat of their kidneys, of the wheat, and from grape’s blood
+                            <milestone unit="line" n="19" />
+                            you will drink red wine.</l>
+                        <l n="15">And Israel grew fat,
+                            <milestone unit="line" n="20" />
+                            and was defiant — you grew fat, you are grown thick, fat covered your
+                            mind —
+                            <milestone unit="line" n="21" />
+                            and it forsook the <supplied reason="lost">service</supplied> of God who
+                            created him, and disdained
+                            <milestone unit="page" n="337r" />
+                            <milestone unit="line" n="1" />
+                            the word of his gracious creator.</l>
+                        <l n="16">
+                            <milestone unit="line" n="2" />
+                            They made him jealous by serving foreign gods,
+                            <milestone unit="line" n="3" />
+                            with repulsive things they made him annoyed.</l>
+                        <l n="17">
+                            <milestone unit="line" n="4" />
+                            They sacrificed to devils, not to God, to gods
+                            <milestone unit="line" n="5" />
+                            whom they had not known, new ones |that| came in the close past,
+                            <milestone unit="line" n="6" />
+                            whom your fathers feared not.</l>
+                        <l n="18">You have left the service
+                            <milestone unit="line" n="7" />
+                            of the Creator who created you, and have forgotten the command
+                            <milestone unit="line" n="8" />
+                            of God who brought you into existence from nothing.</l>
+                        <l n="19">And the Lord saw
+                            <milestone unit="line" n="9" />
+                            and was annoyed, because of the annoyance of his sons
+                            <milestone unit="line" n="10" />
+                            and his daughters.</l>
+                        <l n="20">And he said, “Let me hide my directions
+                            <milestone unit="line" n="11" />
+                            from them. Let me see what their end will be. For
+                            <milestone unit="line" n="12" />
+                            they are a defiant generation, children in whom is no faith.</l>
+                        <l n="21">
+                            <milestone unit="line" n="13" />
+                            They made me jealous with serving not God,
+                            <milestone unit="line" n="14" />
+                            they have annoyed me with their own <supplied reason="lost"
+                                >vanities</supplied>.
+                            <milestone unit="line" n="15" />
+                            And I: I will make them jealous with no-people,
+                            <milestone unit="line" n="16" />
+                            I will annoy them with a wastrel kingdom.</l>
+                        <l n="22">For
+                            <milestone unit="line" n="17" />
+                            a fire went out in my anger and burned to the lowest grave
+                            <milestone unit="line" n="18" />
+                            and consumed the earth with its produce and set on fire the foundations
+                            <milestone unit="line" n="19" />
+                            of the mountains.</l>
+                        <l n="23">I said, “Let me execute
+                            <milestone unit="line" n="20" />
+                            all the evils over them, I will exhaust my arrows on them,</l>
+                        <milestone unit="line" n="21" />
+                        <l n="24">Dead by famine, devoured by birds<ref n="10"
+                                target="#Deut-032-fn10_trl" type="noteAnchor" />,
+                            <milestone unit="page" n="337v" />
+                            <milestone unit="line" n="1" />
+                            and bitter blows. And I will send the teeth of evil wild |animals| on them,
+                            <milestone unit="line" n="2" />
+                            with the poison of those who wallow in the dust.</l>
+                        <l n="25">
+                            <milestone unit="line" n="3" />
+                            Outside: the sword will bereave, and throughout the chambers: terror,
+                            both young man
+                            <milestone unit="line" n="4" />
+                            and the virgin, the nursing child with the man of grey hairs.”</l>
+                        <milestone unit="line" n="5" />
+                        <l n="26">I said, “Let me scatter them into all directions,
+                            <milestone unit="line" n="6" />
+                            let me make the remembrance of them cease from among men.”</l>
+                        <l n="27">
+                            <milestone unit="line" n="7" />
+                            If I did not fear the enemy’s annoyance, lest
+                            <milestone unit="line" n="8" />
+                            their enemies should not acknowledge, lest they should say,
+                            <milestone unit="line" n="9" />
+                            “Our hand is growing stronger, and it was not the Lord who did all
+                            this.”</l>
+                        <milestone unit="line" n="10" />
+                        <l n="28">For the enemies are a kingdom of a lost counsel,
+                            <milestone unit="line" n="11" />
+                            and there is no reason in them.</l>
+                        <l n="29">If they were wise,
+                            <milestone unit="line" n="12" />
+                            they would took note of this, that would even understand
+                            <milestone unit="line" n="13" />
+                            their own end!</l>
+                        <l n="30">How should one man chase
+                            <milestone unit="line" n="14" />
+                            a thousand, and two make ten thousand flee,
+                            <milestone unit="line" n="15" />
+                            if not that their creator had sold them,
+                            <milestone unit="line" n="16" />
+                            and that the Lord had given them up?</l>
+                        <l n="31">For
+                            <milestone unit="line" n="17" />
+                            their gods are not as our Creator, and our enemies
+                            <milestone unit="line" n="18" />
+                            themselves are judges in this matter.</l>
+                        <l n="32">For their vine
+                            <milestone unit="line" n="19" />
+                            is from the vine of Sodom and from the fields of Gomorrah.
+                            <milestone unit="line" n="20" />
+                            Their grapes are grapes of poison: bitter bunches
+                            <milestone unit="line" n="21" />
+                            for them.</l>
+                        <l n="33">Their wine is a poison of serpents,
+                            <milestone unit="page" n="338r" />
+                            <milestone unit="line" n="1" />
+                            and merciless poison of serpents.</l>
+                        <l n="34">“Lo,
+                            <milestone unit="line" n="2" />
+                            he is buried by my side, and sealed up in my treasures.</l>
+                        <milestone unit="line" n="3" />
+                        <l n="35">To me belongs vengeance and
+                            <milestone unit="line" n="4" />
+                            recompense when their foot shall slide, for
+                            <milestone unit="line" n="5" />
+                            the day of their calamity is close and comes fast: future things
+                            |prepared| for them.”</l>
+                        <milestone unit="line" n="6" />
+                        <l n="36">For the Lord will judge his people
+                            <milestone unit="line" n="7" />
+                            and have compassion on his servants when he sees that
+                            <milestone unit="line" n="8" />
+                            the strength of their hand is gone, and there is no treasure and
+                            livestock. <seg type="commented" corresp="#Deut-032-seg007_trl"
+                                 />(<emph>A second translation</emph>
+                            <milestone unit="line" n="9" />
+                            <supplied reason="lost">of the verse</supplied> ‘<emph>For
+                                </emph><supplied reason="lost">the Lord</supplied><emph> will
+                                judge…</emph>’) (For the Lord will judge his people
+                            <milestone unit="line" n="10" />
+                            and then he will have compassion on his servants because of their
+                            enemies.)</l>
+                        <milestone unit="line" n="11" />
+                        <l n="37"><seg type="commented" corresp="#Deut-032-seg008_trl" />Because the
+                            enemy of the people
+                            <milestone unit="line" n="12" />
+                            of Israel<anchor type="commented" xml:id="Deut-032-seg008_trl" /><ref
+                                n="11" target="#Deut-032-fn11_trl" type="noteAnchor" /> would say,
+                            “Where are their gods, a creator
+                            <milestone unit="line" n="13" />
+                            in whom they trusted?</l>
+                        <l n="38">Who ate the fat of their sacrifices
+                            <milestone unit="line" n="14" />
+                            and drank the wine of their drink offerings? Let them rise up
+                            <milestone unit="line" n="15" />
+                            and help you, may it be your
+                            <milestone unit="line" n="16" />
+                            shelter to save you from our hands.”</l>
+                        <l n="39"><seg type="commented" corresp="#Deut-032-seg009_trl" />And
+                            <milestone unit="line" n="17" />
+                            then I will say:<anchor type="commented" xml:id="Deut-032-seg009_trl"
+                                 /><ref n="12" target="#Deut-032-fn12_trl" type="noteAnchor" />
+                            “Look now that I am he, and there is no
+                            <milestone unit="line" n="18" />
+                            god besides me. I will kill, and I will make alive.
+                            <milestone unit="line" n="19" />
+                            If I cut, I will heal. And there is no
+                            <milestone unit="line" n="20" />
+                            deliverer from my hand,</l>
+                        <l n="40">When I lift up my hand to the skies,
+                            <milestone unit="line" n="21" />
+                            and say, “I am eternal, forever.</l>
+                        <l n="41">
+                            <milestone unit="page" n="338v" />
+                            <milestone unit="line" n="1" />
+                            Indeed, the time will come when I will know the edge of my sword, and
+                            <milestone unit="line" n="2" />
+                            my hand will take hold on judgment, I will give back vengeance to my
+                            enemies and
+                            <milestone unit="line" n="3" />
+                            to those who seized you strongly. <seg type="commented"
+                                corresp="#Deut-032-seg010_trl" />I will pay back an evil
+                                payment.<anchor type="commented" xml:id="Deut-032-seg010_trl" /><ref
+                                n="13" target="#Deut-032-fn13_trl" type="noteAnchor" /></l>
+                        <l n="42">I will give my arrows
+                            <milestone unit="line" n="4" />
+                            blood to drink, and my sword will eat flesh from the blood of the dead and
+                            <milestone unit="line" n="5" />
+                            of the captives, from the main |leaders| of the enemy.””</l>
+                        <l n="43">Rejoice,
+                            <milestone unit="line" n="6" />
+                            kingdom, its people who are called tribes of Israel,
+                            <milestone unit="line" n="7" />
+                            for he will avenge the blood of his servants, and will give back vengeance
+                            <milestone unit="line" n="8" />
+                            to the enemies of Israel, and will redeem the land and his people.’</l>
+                        <milestone unit="line" n="9" />
+                        <l n="44">And Moses came and spoke all the words
+                            <milestone unit="line" n="10" />
+                            of this song in the ears of the people, he and
+                            <milestone unit="line" n="11" />
+                            Hoshea, son of Nun.</l>
+                        <l n="45">And Moses finished speaking
+                            <milestone unit="line" n="12" />
+                            all these words to all Israel.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="46">And he said to them, ‘Take heed of all the words
+                            <milestone unit="line" n="14" />
+                            which I testify regarding you today, that
+                            <milestone unit="line" n="15" />
+                            you shall command your children to be watchful to do,
+                            <milestone unit="line" n="16" />
+                            all the words of this Law.</l>
+                        <l n="47">Because
+                            <milestone unit="line" n="17" />
+                            it is not a vain word about you, because it is your life. And through this
+                            <milestone unit="line" n="18" />
+                            word you shall prolong your days on the land to which you
+                            <milestone unit="line" n="19" />
+                            you are crossing the Jordan to inherit it.’</l>
+                        <l n="48">
+                            <milestone unit="line" n="20" />
+                            And the Lord spoke to Moses that very same day,
+                            <milestone unit="line" n="21" />
+                            saying,</l>
+                        <l n="49">‘Go up to this <seg type="commented"
+                                corresp="#Deut-032-seg011_trl" />mountain of encampments<anchor
+                                type="commented" xml:id="Deut-032-seg011_trl" /><ref n="14"
+                                target="#Deut-032-fn14_trl" type="noteAnchor" />,
+                            <milestone unit="page" n="339r" />
+                            <milestone unit="line" n="1" />
+                            to the Mount Nebo, which is in the land of Moab, which is facing
+                            <milestone unit="line" n="2" />
+                            Jericho, and see the land of Canaan, which I am giving
+                            <milestone unit="line" n="3" />
+                            to the children of Israel for a possession.</l>
+                        <l n="50">And
+                            <milestone unit="line" n="4" />
+                            you will die in the mountain to which you are going up, and be gathered
+                            <milestone unit="line" n="5" />
+                            to your people, as Aaron, your brother, died in Mount Hor
+                            <milestone unit="line" n="6" />
+                            and was gathered to his people,</l>
+                        <l n="51">Because
+                            <milestone unit="line" n="7" />
+                            you rebelled against my word in the midst of the children of Israel
+                            <milestone unit="line" n="8" />
+                            at the waters of <seg type="commented" corresp="#Deut-032-seg012_trl"
+                                 />quarrel<anchor type="commented" xml:id="Deut-032-seg012_trl"
+                                 /><ref n="15" target="#Deut-032-fn15_trl" type="noteAnchor" /> of
+                            Kadesh of the wilderness of Zin, because
+                            <milestone unit="line" n="9" />
+                            you did not show my holiness in the midst
+                            <milestone unit="line" n="10" />
+                            of the children of Israel.</l>
+                        <l n="52">Because you will see the land from opposite,
+                            <milestone unit="line" n="11" />
+                            but you will not come there, to the land which I am giving
+                            <milestone unit="line" n="12" />
+                            to the children of Israel.’</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Deut-032-fn1_trl" type="footnote">An interpretative
+                            translation of Deu 32:5.</note>
+                        <note xml:id="Deut-032-fn2_trl" type="footnote">Or:
+                            <emph>Adam</emph>.</note>
+                        <note xml:id="Deut-032-fn3_trl" type="footnote">An interpretative addition
+                            to Deu 32:10.</note>
+                        <note xml:id="Deut-032-fn4_trl" type="footnote">An interpretative addition
+                            to Deu 32:10.</note>
+                        <note xml:id="Deut-032-fn5_trl" type="footnote">An interpretative addition
+                            to Deu 32:10.</note>
+                        <note xml:id="Deut-032-fn6_trl" type="footnote">An interpretative addition
+                            to Deu 32:10.</note>
+                        <note xml:id="Deut-032-fn7_trl" type="footnote">Lit. ‘pupil’.</note>
+                        <note xml:id="Deut-032-fn8_trl" type="footnote">An interpretative addition
+                            to Deu 32:12.</note>
+                        <note xml:id="Deut-032-fn9_trl" type="footnote">Corrected into
+                                <emph>waterproof</emph> by another hand.</note>
+                        <note xml:id="Deut-032-fn10_trl" type="footnote">K: <emph>qušnun</emph>;
+                            either a translation influenced by the Septuagint — possibly via (Old
+                            Church) Slavonic translations; or a mistranslation of BHeb. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף </foreign>
+                            ‘flame = plague, pestilence’ (Koehler &amp; Baumgartner 1985: 911)
+                            influenced by Med.Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רֶשֶׁף </foreign>
+                            ‘1. glow, flame, spark; 2. bird (of prey)’ (Jastrow 1903: 1502; Klein
+                            1987: 631); or a mistranslation being the result of misinterpreting Kar.
+                                <emph>učqun</emph> ‘spark’ (used in this verse in other Karaim
+                            manuscripts) as a word meaning ‘bird’ caused by the fact that
+                                <emph>učqun</emph> is a <emph>-qun</emph> derivative of
+                                <emph>uč-</emph> ‘to fly’ (see A. Zajączkowski 1932: 81, Berta 1996:
+                            402) and influenced by the medieval meaning of Heb. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף</foreign>
+                            . The latter would suggest that the translation was based on another
+                            Karaim manuscript. Repeated in H. Translated ‘spark’ in C, M, E, and R.
+                            | BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;">רֶשֶׁף </foreign>
+                            ‘flame = plague, pestilence’. | Sept. <emph>ὀρνέων</emph> ‘birds’. |
+                            OCS. <emph>птицъ</emph> ‘birds (<emph>gen.</emph>)’.</note>
+                        <note xml:id="Deut-032-fn11_trl" type="footnote">An interpretative addition
+                            to Deu 32:37.</note>
+                        <note xml:id="Deut-032-fn12_trl" type="footnote">An interpretative addition
+                            to Deu 32:39.</note>
+                        <note xml:id="Deut-032-fn13_trl" type="footnote">An interpretative addition
+                            to Deu 32:41.</note>
+                        <note xml:id="Deut-032-fn14_trl" type="footnote">A literal translation of
+                            Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">הַר הָעֲבָרִים </foreign>
+                            ‘mountain of the Abarim’. | TKow.01: <emph>mountain of
+                                encampments</emph>. | H: <emph>mountain of encampments</emph>. | C:
+                                <emph>mountain of encampments</emph>. | R: <emph>mountain of
+                                encampments</emph>.</note>
+                        <note xml:id="Deut-032-fn15_trl" type="footnote">A literal translation of
+                            Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">מְרִיבָה </foreign>
+                            ‘1. Meribah; 2. strife, contention’. | TKow.01: <emph>quarrel</emph>. |
+                            H: <emph>quarrel</emph>. | C: <emph>quarrel</emph>. | R:
+                                <emph>quarrel</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

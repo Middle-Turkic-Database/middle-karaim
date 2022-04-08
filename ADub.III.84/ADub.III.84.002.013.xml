@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +31,7 @@
         <profileDesc>
             <abstract>
                 <p><lg>
-                        <l>Proverb 13</l>
+                        <l>Proverbs 13</l>
                     </lg></p>
             </abstract>
         </profileDesc>
@@ -41,7 +39,7 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>Proverb 13</title>
+                    <ab><title>Proverbs 13</title>
                         <milestone unit="line" n="10" />
                         <l xml:id="Prov-013-x001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">יג׳ </foreign>
@@ -49,166 +47,169 @@
                         <l n="1" xml:id="Prov-013-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">בן</foreign>
                             <milestone unit="line" n="11" />
-                            Uslu uvul qabul etedi tyjuvun atanyn vale elikci
+                             Uslu uvul qabul etedi tyjuvun atanyn vale elikci
                             <milestone unit="line" n="12" />
-                            tynlamajdy qaḥirlenmekni.</l>
+                             tynlamajdy qaḥirlenmekni.</l>
                         <l n="2" xml:id="Prov-013-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מפרי </foreign>
-                            Jemisinden avzunun jaḥsy
+                             Jemisinden avzunun jaḥsy
                             <milestone unit="line" n="13" />
-                            kisi tojady jaḥsydan vale ʒany tanuvcularyn begevrer
+                             kisi tojady jaḥsydan vale ʒany tanuvcularyn begevrer
                             <milestone unit="line" n="14" />
-                            avanlyqtan.</l>
+                             avanlyqtan.</l>
                         <l n="3" xml:id="Prov-013-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">נוצר</foreign>
-                            <ref target="#fn1" type="noteAnchor" /> Abravcu avzun saqlajdy ʒanyn vale
+                            <ref n="1" target="#Prov-013-fn1" type="noteAnchor" /> Abravcu avzun
+                            saqlajdy ʒanyn vale
                             <milestone unit="line" n="15" />
-                            acuvcu erinlerin kemsiz synyqlyqty anar.</l>
+                             acuvcu erinlerin kemsiz synyqlyqty anar.</l>
                         <l n="4" xml:id="Prov-013-004"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מתאוה</foreign>
                             <milestone unit="line" n="16" />
-                            Küsenedi da joḥtu küsenci ʒanynyn erinceknin vale ʒany
+                             Küsenedi da joḥtu küsenci ʒanynyn erinceknin vale ʒany
                             <milestone unit="line" n="17" />
-                            jetizlernin begevrejdi.</l>
+                             jetizlernin begevrejdi.</l>
                         <l n="5" xml:id="Prov-013-005"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">דבר</foreign>
-                            <ref target="#fn2" type="noteAnchor" /> Jalɣan sözni ḥorlajdy cadik vale
+                            <ref n="2" target="#Prov-013-fn2" type="noteAnchor" /> Jalɣan sözni
+                            ḥorlajdy cadik vale
                             <milestone unit="line" n="18" />
-                            raša ujatly ettiredi da rusvajly ettiredi.</l>
+                             raša ujatly ettiredi da rusvajly ettiredi.</l>
                         <l n="6" xml:id="Prov-013-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">צדקה</foreign>
                             <milestone unit="line" n="19" />
-                            Cedaka bermek abrajdy tügel jolunnu vale qynɣyrlyɣy
+                             Cedaka bermek abrajdy tügel jolunnu vale qynɣyrlyɣy
                             <milestone unit="line" n="20" />
-                            qynɣyrajtady avancy kisini.</l>
+                             qynɣyrajtady avancy kisini.</l>
                         <l n="7" xml:id="Prov-013-007"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">יש </foreign>
-                            Bardy ḥoʒalanmus
+                             Bardy ḥoʒalanmus
                             <milestone unit="line" n="21" />
-                            boluvcu da joḥtu nemede da bardy jarlylanmus boluvcu
+                             boluvcu da joḥtu nemede da bardy jarlylanmus boluvcu
                             <milestone unit="line" n="22" />
-                            da köp mal bardy.</l>
+                             da köp mal bardy.</l>
                         <l n="8" xml:id="Prov-013-008"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כופר</foreign>
-                            <ref target="#fn3" type="noteAnchor" /> Juluvu ʒanynyn kisinin ḥoʒalyɣydy
+                            <ref n="3" target="#Prov-013-fn3" type="noteAnchor" /> Juluvu ʒanynyn
+                            kisinin ḥoʒalyɣydy
                             <milestone unit="line" n="23" />
-                            anyn vale jarly kisi esitmejdi bir tirli qaḥirni.</l>
+                             anyn vale jarly kisi esitmejdi bir tirli qaḥirni.</l>
                         <l n="9" xml:id="Prov-013-009"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אור</foreign>
                             <milestone unit="line" n="24" />
-                            Jaryɣy cadiklernin artady bijenc byla vale cyraɣy raša-
+                             Jaryɣy cadiklernin artady bijenc byla vale cyraɣy raša-
                             <milestone unit="line" n="25" />
-                            larnyn sönedi.</l>
+                             larnyn sönedi.</l>
                         <l n="10" xml:id="Prov-013-010"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">רק </foreign>
-                            Tek cejalyq is ücün baslanady
+                             Tek cejalyq is ücün baslanady
                             <milestone unit="line" n="26" />
-                            talas vale osol kenesciler bylady us.</l>
+                             talas vale osol kenesciler bylady us.</l>
                         <l n="11" xml:id="Prov-013-011"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הון </foreign>
-                            Mal
+                             Mal
                             <milestone unit="page" n="89r" />
                             <milestone unit="line" n="1" />
-                            Heclik byla ystyrɣan azarady vale ystyruvcu azar azar
+                             Heclik byla ystyrɣan azarady vale ystyruvcu azar azar
                             <milestone unit="line" n="2" />
-                            öz zaḥmetinden artady.</l>
+                             öz zaḥmetinden artady.</l>
                         <l n="12" xml:id="Prov-013-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">תוחלת </foreign>
-                            Isanc uzak tartylɣan
+                             Isanc uzak tartylɣan
                             <milestone unit="line" n="3" />
-                            syzlavydy üreknin vale tirlik aɣac kibikti küsenc kelgen
+                             syzlavydy üreknin vale tirlik aɣac kibikti küsenc kelgen
                             <milestone unit="line" n="4" />
-                            zaraz.</l>
+                             zaraz.</l>
                         <l n="13" xml:id="Prov-013-013"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">בז </foreign>
-                            Ḥorlavcu micva sözün cajpalmaq kelir anar vale
+                             Ḥorlavcu micva sözün cajpalmaq kelir anar vale
                             <milestone unit="line" n="5" />
-                            qorquvcu micva sözünden ol qabul eter jaḥsy telev.</l>
+                             qorquvcu micva sözünden ol qabul eter jaḥsy telev.</l>
                         <l n="14" xml:id="Prov-013-014"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">תורת</foreign>
                             <milestone unit="line" n="6" />
-                            Ivretivi ḥaḫamnyn coɣaraɣydy tirliknin kötme tuzaqlaryndan
+                             Ivretivi ḥaḫamnyn coɣaraɣydy tirliknin kötme tuzaqlaryndan
                             <milestone unit="line" n="7" />
-                            elimnin.</l>
+                             elimnin.</l>
                         <l n="15" xml:id="Prov-013-015"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">שכל </foreign>
-                            Jaḥsy aqyl beredi sirinlik vale jolu tanuv-
+                             Jaḥsy aqyl beredi sirinlik vale jolu tanuv-
                             <milestone unit="line" n="8" />
-                            cularnyn küclidi.</l>
+                             cularnyn küclidi.</l>
                         <l n="16" xml:id="Prov-013-016"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כל </foreign>
-                            Har ustat qylady biliv byla vale
+                             Har ustat qylady biliv byla vale
                             <milestone unit="line" n="9" />
-                            teli belgirtedi teliligin özünin.</l>
+                             teli belgirtedi teliligin özünin.</l>
                         <l n="17" xml:id="Prov-013-017"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מלאך </foreign>
-                            Qynɣyr elci
+                             Qynɣyr elci
                             <milestone unit="line" n="10" />
-                            tisedi jamanɣa vale inamly elci onɣalmaqty.</l>
+                             tisedi jamanɣa vale inamly elci onɣalmaqty.</l>
                         <l n="18" xml:id="Prov-013-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ריש </foreign>
-                            Jarlylyq
+                             Jarlylyq
                             <milestone unit="line" n="11" />
-                            da ḥorluq buzady tyjuvnu vale saqlavcu igitni syjlanady.</l>
+                             da ḥorluq buzady tyjuvnu vale saqlavcu igitni syjlanady.</l>
                         <l n="19" xml:id="Prov-013-019"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">תאוה</foreign>
                             <milestone unit="line" n="12" />
-                            Küsenc bolunɣan zaraz ceber bolady ʒanɣa vale jerenci
+                             Küsenc bolunɣan zaraz ceber bolady ʒanɣa vale jerenci
                             <milestone unit="line" n="13" />
-                            etkenidi telilernin ketme jamandan.</l>
+                             etkenidi telilernin ketme jamandan.</l>
                         <l n="20" xml:id="Prov-013-020"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הולך </foreign>
-                            Ürivcü osol
+                             Ürivcü osol
                             <milestone unit="line" n="14" />
-                            uslular byla usajady vale dostlasuvcu teliler byla jancylady.</l>
+                             uslular byla usajady vale dostlasuvcu teliler byla jancylady.</l>
                         <milestone unit="line" n="15" />
                         <l n="21" xml:id="Prov-013-021"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">חטאים </foreign>
-                            Jazyqlylarny quvdurur jamanlyqlary alarnyn vale cadiklerge
+                             Jazyqlylarny quvdurur jamanlyqlary alarnyn vale cadiklerge
                             <milestone unit="line" n="16" />
-                            töler jaḥsy telev.</l>
+                             töler jaḥsy telev.</l>
                         <l n="22" xml:id="Prov-013-022"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">טוב </foreign>
-                            Jaḥsy kisi ilis beredi malyn
+                             Jaḥsy kisi ilis beredi malyn
                             <milestone unit="line" n="17" />
-                            özünün ulanlaryna ulanlarnyn vale astralɣandy cadikke maly
+                             özünün ulanlaryna ulanlarnyn vale astralɣandy cadikke maly
                             <milestone unit="line" n="18" />
-                            jazyqlynyn.</l>
+                             jazyqlynyn.</l>
                         <l n="23" xml:id="Prov-013-023"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">רב </foreign>
-                            Köp birtik artady saban sirmeginden jarlylarnyn
+                             Köp birtik artady saban sirmeginden jarlylarnyn
                             <milestone unit="line" n="19" />
-                            vale bardy ḥoʒalyq taspoluvcu baqmajyn kömün qulluɣunun jernin.</l>
+                             vale bardy ḥoʒalyq taspoluvcu baqmajyn kömün qulluɣunun jernin.</l>
                         <milestone unit="line" n="20" />
                         <l n="24" xml:id="Prov-013-024"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">חושך </foreign>
-                            Ajavcu cybyɣyn ulanyndan ḥorlajdy any vale süvüvcü
+                             Ajavcu cybyɣyn ulanyndan ḥorlajdy any vale süvüvcü
                             <milestone unit="line" n="21" />
-                            any izlejdi anar tyjuv.</l>
+                             any izlejdi anar tyjuv.</l>
                         <l n="25" xml:id="Prov-013-025"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">צדיק </foreign>
-                            Cadik asajdy tojḥunca ʒany
+                             Cadik asajdy tojḥunca ʒany
                             <milestone unit="line" n="22" />
-                            anyn vale qursaɣy rašalarnyn eksikti közlerinde alarnyn.</l>
+                             anyn vale qursaɣy rašalarnyn eksikti közlerinde alarnyn.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Prov-013-fn1" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">נצר</foreign>
-                            .</note>
-                        <note xml:id="fn2" type="footnote">Heb. <foreign xml:lang="he"
+                             .</note>
+                        <note xml:id="Prov-013-fn2" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">דברש </foreign>
-                            (<foreign xml:lang="he" style="unicode-bidi: embed;">דברש־קר</foreign>
-                            ). Cf. Aleppo Codex: <foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >דבר</foreign>
-                            -<foreign xml:lang="he" style="unicode-bidi: embed;">שקר</foreign>
-                            .</note>
-                        <note xml:id="fn3" type="footnote">Heb. <foreign xml:lang="he"
+                             (<foreign xml:lang="he" style="unicode-bidi: embed;">דברש־קר</foreign>
+                             ). Cf. Aleppo Codex: <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דבר</foreign>
+                             -<foreign xml:lang="he" style="unicode-bidi: embed;">שקר</foreign>
+                             .</note>
+                        <note xml:id="Prov-013-fn3" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כפר</foreign>
-                            .</note>
+                             .</note>
                     </app>
                 </listApp>
             </div>

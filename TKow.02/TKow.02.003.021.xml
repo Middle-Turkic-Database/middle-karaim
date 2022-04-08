@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>2 Samuel 21</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>2 Samuel 21</title>
+                        <milestone unit="line" n="8" />
+                        <l xml:id="Sam2-021-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כא׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Sam2-021-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi aclyq binlerinde Davidnin
+                            <milestone unit="line" n="9" />
+                            ic jyllar jyl jyl artyna da qoldu David osol qyblalaryn H-nyn da ajtty H Šaʾul
+                            <milestone unit="line" n="10" />
+                            icin da ol qanly išli iv icin anyn icin ki eltirdi osol ol
+                            Giveʿonlularny.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="2" xml:id="Sam2-021-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקרא </foreign>
+                            Da caɣyrdy ol meleḫ Giveʿonlularny da ajtty alarɣa da ol Giveʿonlular
+                            <milestone unit="line" n="12" />
+                            tivil ediler uvullaryndan Jisraʾelnin alar ki ancaq qaldyɣyndan ol
+                            Emorinin da
+                            <milestone unit="line" n="13" />
+                            uvullary Jisraʾelnin ant ettiler alarɣa da kledi Šaʾul ta<supplied
+                                reason="lost">s</supplied><ref n="1" target="#Sam2-021-fn1"
+                                type="noteAnchor" /> etme alarny
+                            <milestone unit="line" n="14" />
+                            kinilegeninde uvullaryna Jisraʾelnin da Juhudanyn.</l>
+                        <l n="3" xml:id="Sam2-021-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty David ol
+                            <milestone unit="line" n="15" />
+                            Giveʿonlularɣa ne qylajym sizge da ne byla bosatlyq qolajym da alɣyslanyz
+                            <milestone unit="line" n="16" />
+                            osol ilisin H-nyn.</l>
+                        <l n="4" xml:id="Sam2-021-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar anar ol Giveʿonlular joḥtu bizge klek
+                            <milestone unit="line" n="17" />
+                            alma kimis da altyn uruvundan Šaʾulnun da elinden ivinin any joḥtu bizge
+                            <milestone unit="line" n="18" />
+                            klek eltirme kisini Jisraʾelde da ajtty David ne siz ajtsanyz qylarmen
+                            sizge.</l>
+                        <milestone unit="line" n="19" />
+                        <l n="5" xml:id="Sam2-021-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar ol meleḫke ol kisi ki tavustu bizni da ki saɣys etti ek-
+                            <milestone unit="line" n="20" />
+                            sitme bizni taspolduq turmaqtan bar ceginde Jisraʾelnin.</l>
+                        <l n="6" xml:id="Sam2-021-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יתן </foreign>
+                            Berilsin
+                            <milestone unit="line" n="21" />
+                            bizge jedi erenler uvullaryndan anyn da tirilej qazajyq alarny H-ɣa qaja-
+                            <milestone unit="line" n="22" />
+                            synda Šaʾulnun sajlanmusunun H-nyn da ajtty ol meleḫ men berimen.</l>
+                        <l n="7" xml:id="Sam2-021-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחמול</foreign>
+                            <milestone unit="line" n="23" />
+                            Da ḥajifsindi ol meleḫ Mefivošet istine uvlu istine Jonatannyn uvlunun
+                            <milestone unit="line" n="24" />
+                            Šaʾulnun anty icin H-nyn ki aralarynda alarnyn arasyna Davidnin da arasyna
+                            <milestone unit="line" n="25" />
+                            Jonatannyn uvlunun Šaʾulnun.</l>
+                        <l n="8" xml:id="Sam2-021-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקח </foreign>
+                            Da aldy ol eki uvullaryn Ricpanyn
+                            <milestone unit="line" n="26" />
+                            qyzynyn Ajanyn ki tuvdurdu Šaʾulɣa osol Armonini da osol Mefivošetni da osol
+                            <milestone unit="line" n="27" />
+                            bes uvullaryn Miḫalnyn qyzynyn Šaʾulnun ki e<supplied reason="lost"
+                                >s</supplied>tirdi<ref n="2" target="#Sam2-021-fn2"
+                                type="noteAnchor" /> ʿAdriʾelge uvluna Varzilajnyn
+                            <milestone unit="page" n="96v" />
+                            <milestone unit="line" n="1" />
+                            ol Meḥolatlynyn.</l>
+                        <l n="9" xml:id="Sam2-021-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתנם </foreign>
+                            Da berdi alarny qoluna ol Giveʿonlularnyn da
+                            <milestone unit="line" n="2" />
+                            tirilej qazdylar alarny tavda alnynda H-nyn da tištiler jedisileride
+                            birden da
+                            <milestone unit="line" n="3" />
+                            alar eltirildiler kinlerinde oraqnyn burunɣu ajda baslyɣynda oraɣynyn
+                            <milestone unit="line" n="4" />
+                            arpalarnyn.</l>
+                        <l n="10" xml:id="Sam2-021-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותקח </foreign>
+                            Da aldy Ricpa qyzy Ajanyn osol kijizni da qurdu any ezine
+                            <milestone unit="line" n="5" />
+                            ol sqala qatyna baslyɣyndan oraqnyn negince aqty suvlar alar istine ol keklerden
+                            <milestone unit="line" n="6" />
+                            da bermedi qusuna ol keklernin toḥtama alar istine kingiz da osol
+                            kijigine ol
+                            <milestone unit="line" n="7" />
+                            tiznin kece byla.</l>
+                        <l n="11" xml:id="Sam2-021-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויוגד </foreign>
+                            Da anlatyldy Davidge osol ne ki qyldy Ricpa qyzy
+                            <milestone unit="line" n="8" />
+                            Ajanyn qumasy Šaʾulnun.</l>
+                        <l n="12" xml:id="Sam2-021-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וילך </foreign>
+                            Da bardy David da aldy osol siveklerin Šaʾulnun
+                            <milestone unit="line" n="9" />
+                            da osol siveklerin ol tirilej qazylɣanlarnyn da osol siveklerin
+                            Jonatannyn uvlunun
+                            <milestone unit="line" n="10" />
+                            Šaʾulnun osol jesilerinden Javeš Gileʿadnyn ki urladylar alarny
+                            oramyndan Bet Šannyn ki
+                            <milestone unit="line" n="11" />
+                            taqtylar alarny anda ol Pelištimler vatqan kinde Pelištim osol Šaʾulnu Gilboʿa-
+                            <milestone unit="line" n="12" />
+                            da.</l>
+                        <l n="13" xml:id="Sam2-021-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעל </foreign>
+                            Da aldy andan osol siveklerin Šaʾulnun da osol siveklerin Jonatan-
+                            <milestone unit="line" n="13" />
+                            nyn uvlunun da ystyrdylar osol siveklerin ol tirilej qazylɣanlarnyn.</l>
+                        <l n="14" xml:id="Sam2-021-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקברו</foreign>
+                            <milestone unit="line" n="14" />
+                            Da astradylar osol siveklerin Šaʾulnun da siveklerin Jonatan uvlunun jerinde
+                            <milestone unit="line" n="15" />
+                            Binjaminnin Celaʿda zeretinde Qišnin atasynyn da qyldylar bar neni ki
+                            bujurdu ol
+                            <milestone unit="line" n="16" />
+                            meleḫ da qabul etti Tenri qoltqasyn Jisraʾelnin jeri icin andan sortun
+                            alaj.</l>
+                        <milestone unit="line" n="17" />
+                        <l n="15" xml:id="Sam2-021-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותהי </foreign>
+                            Da edi daɣyn ceriv Pelištimge Jisraʾel byla da endi David da qullary anyn
+                            <milestone unit="line" n="18" />
+                            birgesine anyn da orustular Pelištim byla da arydy David.</l>
+                        <l n="16" xml:id="Sam2-021-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישבי </foreign>
+                            Da Jišbi
+                            <milestone unit="line" n="19" />
+                            Novda ki ulanlarynda ol Rafanyn da elcevi singisinin ic iz mitqal
+                            <milestone unit="line" n="20" />
+                            tuʒ da ol bajlanɣan endi janɣy ceriv savutlary byla da saɣys etti vatma
+                            <milestone unit="line" n="21" />
+                            osol Davidni.</l>
+                        <l n="17" xml:id="Sam2-021-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעזר </foreign>
+                            Da bolustu anar Avišaj uvlu Cerujanyn da vatty
+                            <milestone unit="line" n="22" />
+                            osol ol Pelištini da eltirdi any ol vaḥtta ant ettiler
+                            <milestone unit="line" n="23" />
+                            eli Davidnin anar ajtadoɣac cyqmassen artyq birgemizge cerivge
+                            <milestone unit="line" n="24" />
+                            da sendirmegin cyraɣyn Jisraʾelnin.</l>
+                        <l n="19" xml:id="Sam2-021-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי</foreign>
+                            <ref n="3" target="#Sam2-021-fn3" type="noteAnchor" /> Da edi andan
+                            sortun alaj da edi
+                            <milestone unit="line" n="25" />
+                            daɣyn ol ceriv Govda Pelištim byla da vatty Elḥanan uvlu Jaʿarinin toḥuv-
+                            <milestone unit="line" n="26" />
+                            culardan Bet ol Leḥemli osol Galjatny ol Gatlyny da aɣacy singisinin navoju
+                            <milestone unit="line" n="27" />
+                            kibik toḥuvcularnyn.</l>
+                        <l n="20" xml:id="Sam2-021-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותהי </foreign>
+                            Da edi daɣyn ol ceriv Gatta da edi elcevli
+                            <milestone unit="page" n="97r" />
+                            <milestone unit="line" n="1" />
+                            kisi da barmaqlary qollarynyn da barmaqlary ajaqlarynyn altysar altysar egirmi
+                            <milestone unit="line" n="2" />
+                            dert sanɣa da daɣyn olda tuvduruldu ol Rafaɣa.</l>
+                        <l n="21" xml:id="Sam2-021-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחרף </foreign>
+                            Da rusvajlady
+                            <milestone unit="line" n="3" />
+                            osol Jisraʾelni da vatty any Jonatan uvlu Šimeʿanyn qaryndasynyn
+                            Davidnin.</l>
+                        <milestone unit="line" n="4" />
+                        <l n="22" xml:id="Sam2-021-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">את </foreign>
+                            Osol dert bular tuvduruldular ol Rafaɣa Gatta da tistiler qoluna
+                            <milestone unit="line" xml:id="Sam2021-P97r-L5" n="5"
+                                next="TKow.02.003.022.xml#Sam2022-P97r-L5" />
+                            Davidnin da qoluna qullarynyn.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Sam2-021-fn1" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">טַש</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Sam2-021-fn2" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אֶשְטִירְדִי</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Sam2-021-fn3" type="footnote">TKow.02: verse 2 Sam 21:18 is
+                            omitted.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

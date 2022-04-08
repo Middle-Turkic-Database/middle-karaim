@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Daniel 4</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Daniel 4</title>
+                        <milestone unit="line" n="11" />
+                        <l xml:id="Dan-004-x001">Men Nevuḫadnecar tync edim ivimde da jasaradoɣan
+                            sarajymda.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="2" xml:id="Dan-004-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חלם </foreign>
+                             Tüs kördüm tüs da śeśkendirdi meni da saɣyšlar
+                            <milestone unit="line" n="13" />
+                             keldiler mana tešegim istine da körimleri basymnyn
+                            <milestone unit="line" n="14" />
+                             alɣa<supplied reason="lost">s</supplied>attylar<ref n="1"
+                                target="#Dan-004-fn1" type="noteAnchor" /> meni.</l>
+                        <l n="3" xml:id="Dan-004-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומני </foreign>
+                             Da menden özümden qojuldu
+                            <milestone unit="line" n="15" />
+                             keneš da qadaɣa keltirme alnyma menim bar uslularyn Bavelnin
+                            <milestone unit="line" n="16" />
+                             qajsylar jorasyn tišnin bildirgejler mana.</l>
+                        <l n="4" xml:id="Dan-004-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">באדין </foreign>
+                             Ol vaḥtta
+                            <milestone unit="line" n="17" />
+                             keldiler bildeciler ʒadular Kasdimliler da jolduzlarɣa baɣuv-
+                            <milestone unit="line" n="18" />
+                             cular da ajttym men tisimni alynlarynda alarnyn da jorasyn
+                            <milestone unit="line" n="19" />
+                             anyn anlatmadylar mana.</l>
+                        <l n="5" xml:id="Dan-004-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועד </foreign>
+                             Az negince keldi alnyma
+                            <milestone unit="line" n="20" />
+                             menim Daniʾel qajsynyn aty anyn edi Beltešacar aty kibik Tenrim-
+                            <milestone unit="line" n="21" />
+                             nin menim da qajsynda bardy alhemi Tenrisinin ol aziz malaḫlarnyn
+                            <milestone unit="line" n="22" />
+                             da tüsnü alnynda anyn ajttym.</l>
+                        <l n="6" xml:id="Dan-004-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בלטשאצר </foreign>
+                             Beltešacar
+                            <milestone unit="line" n="23" />
+                             aɣaraɣy bildecilernin qajsyn men bilemen ki alhemi aziz Tenrisinin
+                            <milestone unit="line" n="24" />
+                             ol aziz malaḫlarnyn bardy sende qacan bir türlü jasyryn nerse
+                            <milestone unit="page" n="184r" />
+                            <milestone unit="line" n="1" />
+                             jasyryn tüvildi senden körümün tüsnin qajsyn tüs kördim
+                            <milestone unit="line" n="2" />
+                             ajtqyn.</l>
+                        <l n="7" xml:id="Dan-004-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחזוי </foreign>
+                             Da körimi basymnyn jatadoɣan töšegim
+                            <milestone unit="line" n="3" />
+                             istine budu ol körim köreredim da muna aɣac ortasynda
+                            <milestone unit="line" n="4" />
+                             jernin da bijikligi anyn ullu.</l>
+                        <l n="8" xml:id="Dan-004-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רבה </foreign>
+                             Ullu aɣac da küclü
+                            <milestone unit="line" n="5" />
+                             da bijikligi anyn jeteredi köklerge da körümü anyn edi
+                            <milestone unit="line" n="6" />
+                             sofunadejin ol jernin.</l>
+                        <l n="9" xml:id="Dan-004-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עפיה </foreign>
+                             Butaqlary anyn körklü da
+                            <milestone unit="line" n="7" />
+                             jemisi anyn kebisi da as barysyna edi anda tübün özünün
+                            <milestone unit="line" n="8" />
+                             qylaredi kelege bar tijiklerine ormannyn da butaqlary <addSpan
+                                spanTo="#Dan-004-add001" />istine<anchor xml:id="Dan-004-add001"
+                                type="addSpan" /> anyn
+                            <milestone unit="line" n="9" />
+                             toḥtarediler quslary ol köklernin da andan beslenirediler bar
+                            <milestone unit="line" n="10" />
+                             guflu nerseler.</l>
+                        <l n="10" xml:id="Dan-004-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חזי </foreign>
+                             Keredoɣan köreredim körüminde
+                            <milestone unit="line" n="11" />
+                             basymnyn tösegim istine da muna ojanuvcu da aziz
+                            <milestone unit="line" n="12" />
+                             malaḫ köklerden eneredi.</l>
+                        <l n="11" xml:id="Dan-004-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קרא </foreign>
+                             Caɣyrdy küc byla da
+                            <milestone unit="line" n="13" />
+                             alaj ajtty kesiniz aɣacny da kesersiz daɣyn butaqlarynda
+                            <milestone unit="line" n="14" />
+                             anyn taslanyz incke butaqlarynda anyn tozdurunuz jemisin
+                            <milestone unit="line" n="15" />
+                             anyn ki bir<supplied reason="lost">e</supplied>lgejler<ref n="2"
+                                target="#Dan-004-fn2" type="noteAnchor" /> kijikler anyn tübünden da
+                            quslar butaq-
+                            <milestone unit="line" n="16" />
+                             laryndan anyn.</l>
+                        <l n="12" xml:id="Dan-004-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברם </foreign>
+                             Ancaq ṕeńi anyn qorenleribyla qalsynlar
+                            <milestone unit="line" n="17" />
+                             jerde da temirli buɣovlar ücüne da tuʒlu tüzdegi keget
+                            <milestone unit="line" n="18" />
+                             istine da köktegi cyq byla juvunur da tijikler byla bolsun
+                            <milestone unit="line" n="19" />
+                             ilisi anyn kögeti istine jernin.</l>
+                        <l n="13" xml:id="Dan-004-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבבה </foreign>
+                             Jüregi anyn
+                            <milestone unit="line" n="20" />
+                             elden tivsirilgen bolur da jüregi kijiknin berilgen bolur anar
+                            <milestone unit="line" n="21" />
+                             da jedi jyllar asarlar anyn istine.</l>
+                        <l n="14" xml:id="Dan-004-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בגזרת </foreign>
+                             Bujruɣu byla
+                            <milestone unit="line" n="22" />
+                             ojanuvcularnyn bolur isi anyn da sözine köre aziz malaḫ-
+                            <milestone unit="line" n="23" />
+                             larnyn bolur klegi anyn anyn ücün ki bilgejler tiriler ki joɣarɣy
+                            <milestone unit="line" n="24" />
+                             Tenri erklenedi malḫutunda erenlernin da kimni ki klese
+                            <milestone unit="page" n="184v" />
+                            <milestone unit="line" n="1" />
+                             turɣuzady anyn istine.</l>
+                        <l n="15" xml:id="Dan-004-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דנה </foreign>
+                             Bunu kördim men tisimde
+                            <milestone unit="line" n="2" />
+                             ezimnin meleḫ Nevuḫadnecar da sen e Beltešacar jorasyn anyn
+                            <milestone unit="line" n="3" />
+                             ajtqyn qacan ki bar uslulary malḫutumnun menim bolalmajdylar
+                            <milestone unit="line" n="4" />
+                             jorasyn anyn bildirme mana körtiden sen bolalysen ki alhemi
+                            <milestone unit="line" n="5" />
+                             Tenrisinin aziz malaḫlarnyn tabulady sende.</l>
+                        <l n="16" xml:id="Dan-004-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אדין </foreign>
+                             Ol
+                            <milestone unit="line" n="6" />
+                             vaḥtta Daniʾel qajsynyn aty anyn Beltešacar tamaša eterdi
+                            <milestone unit="line" n="7" />
+                             necik bir <supplied reason="lost">s</supplied>ahatqa<ref n="3"
+                                target="#Dan-004-fn3" type="noteAnchor" /> ki saɣyslary anyn
+                                alɣa<supplied reason="lost">s</supplied>attylar<ref n="4"
+                                target="#Dan-004-fn4" type="noteAnchor" /> any qaruv berdi
+                            <milestone unit="line" n="8" />
+                             meleḫ da ajtty e Beltešacar tüs da jorasy anyn alɣasatma-
+                            <milestone unit="line" n="9" />
+                             synlar seni qaruv berdi Beltešacar da ajtty e bijim menim
+                            <milestone unit="line" n="10" />
+                             tüs ajtylɣaj körelmevcilerine senin da jorasy anyn dušman-
+                            <milestone unit="line" n="11" />
+                             laryna senin.</l>
+                        <l n="17" xml:id="Dan-004-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אילנא </foreign>
+                             Aɣac qajsyn kördün ullu da küclü da
+                            <milestone unit="line" n="12" />
+                             bijik jetedoɣan köklerge da körümü anyn bar jerge.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="18" xml:id="Dan-004-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועפיה </foreign>
+                             Da butaqlary anyn körklü da jemisi anyn köbüsü
+                            <milestone unit="line" n="14" />
+                             da asy barysynyn bardy anda anyn tübüne edi toḥtamaɣy
+                            <milestone unit="line" n="15" />
+                             tüzdegi kijiklernin da butaqlarynda anyn toḥtajdylar qušu ol
+                            <milestone unit="line" n="16" />
+                             köklernin.</l>
+                        <l n="19" xml:id="Dan-004-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנתה </foreign>
+                             Sensen ol meleḫ ol ullu da ol küclü
+                            <milestone unit="line" n="17" />
+                             da ullu<supplied reason="lost">lu</supplied>ɣun<ref n="5"
+                                target="#Dan-004-fn5" type="noteAnchor" /> senin ulɣajdy negince ki
+                            jetti köklerge da
+                            <milestone unit="line" n="18" />
+                             erklenmegin senin sofunadejin jernin.</l>
+                        <l n="20" xml:id="Dan-004-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ודי </foreign>
+                             Da qacan kördü
+                            <milestone unit="line" n="19" />
+                             meleḫ ojanuvcu da aziz malaḫny enedoɣan köklerden qajsy
+                            <milestone unit="line" n="20" />
+                             ajtty kesiniz aɣacny da cajpanyz any ancaq penni qorenleri
+                            <milestone unit="line" n="21" />
+                             byla qaldyrynyz jerde da temirli buɣovlar ücüne da tuʒlu
+                            <milestone unit="line" n="22" />
+                             kögeti istine tiznin da cyɣybyla köklernin juvunur da
+                            <milestone unit="line" n="23" />
+                             kijigi byla tiznin bolur ilisi anyn negince ki jedi zamanlar
+                            <milestone unit="line" n="24" />
+                             asarlar anyn istine.</l>
+                        <l n="21" xml:id="Dan-004-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דנה </foreign>
+                             Budu jorasy anyn e meleḫ-
+                            <milestone unit="page" n="185r" />
+                            <milestone unit="line" n="1" />
+                             ki bujruɣudu joɣarɣy Tenrinin ol qajsy keledi bijim istine ol
+                            <milestone unit="line" n="2" />
+                             meleḫ istine.</l>
+                        <l n="22" xml:id="Dan-004-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולך </foreign>
+                             Ki seni köterirler elden da tijigi
+                            <milestone unit="line" n="3" />
+                             byla tiznin bolur bolusun senin da köget byla tuvarny kibik
+                            <milestone unit="line" n="4" />
+                             beslerler seni da cyɣyndan köklernin juvarlar seni da jedi vaḥtlar
+                            <milestone unit="line" n="5" />
+                             asarlar senin istine<ref n="6" target="#Dan-004-fn6" type="noteAnchor"
+                             /> negince ki bilgejsen ki erklenedi joɣarɣy
+                            <milestone unit="line" n="6" />
+                             Tenri malḫutu istine erenlernin da kimge ki klese beredi
+                            <milestone unit="line" n="7" />
+                             any.</l>
+                        <l n="23" xml:id="Dan-004-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ודי </foreign>
+                             Da qacan ajttylar qaldyrma penni qorenleri byla
+                            <milestone unit="line" n="8" />
+                             anyn ki aɣacy malḫutunnun senin senin ücün qajjam bolur necik
+                            <milestone unit="line" n="9" />
+                             anlasan ki erklenmek köklerdendi.</l>
+                        <l n="24" xml:id="Dan-004-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">להן </foreign>
+                             Anyn ücün e
+                            <milestone unit="line" n="10" />
+                             meleḫ kenešim menim ceber bolsun alnynda senin da jazyqlarynny ezinnin
+                            <milestone unit="line" n="11" />
+                             rastlyqbyla juluɣun da qynɣyr islerinni ḥajifsinmek byla ol
+                            <milestone unit="line" n="12" />
+                             miskinlerni bu bolur onɣalmaq tynclyɣyna senin.</l>
+                        <l n="25" xml:id="Dan-004-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כלא</foreign>
+                            <milestone unit="line" n="13" />
+                             Barysy keldi Nevuḫadnecar istine ol meleḫ istine.</l>
+                        <l n="26" xml:id="Dan-004-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומקצת</foreign>
+                            <milestone unit="line" n="14" />
+                             Sofuna on eki ajlarnyn sarajy asyra malḫutnun qajsy edi
+                            <milestone unit="line" n="15" />
+                             Bavelde jüriredi.</l>
+                        <l n="27" xml:id="Dan-004-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ענה </foreign>
+                             Qaruv berdi meleḫ da ajtty tivildimo
+                            <milestone unit="line" n="16" />
+                             bu ol Bavel ullu qajsyn men qondardym any malḫut üvge kici
+                            <milestone unit="line" n="17" />
+                             byla ullu<supplied reason="lost">lu</supplied>ɣumnun<ref n="7"
+                                target="#Dan-004-fn7" type="noteAnchor" /> menim da abajlyɣyna
+                            hermetimnin menim.</l>
+                        <l n="28" xml:id="Dan-004-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עוד</foreign>
+                            <milestone unit="line" n="18" />
+                             Hanuz söz edi avzunda meleḫnin avaz köklerden tüstü sana
+                            <milestone unit="line" n="19" />
+                             ajtadylar e Nevuḫadnecar meleḫ malḫut ketti senden.</l>
+                        <l n="29" xml:id="Dan-004-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומן</foreign>
+                            <milestone unit="line" n="20" />
+                             Ki erenler arasyndan seni sürediler da kijigi byla tiznin
+                            <milestone unit="line" n="21" />
+                             bolur bolusun senin köget tuvar kibik asattyryrlar sana da
+                            <milestone unit="line" n="22" />
+                             jedi vaḥtlar asarlar senin üstine negince ki bilgejsen ki erk-
+                            <milestone unit="line" n="23" />
+                             lenedi joɣarɣy Tenri malḫutu istine elnin da kimge ki klese
+                            <milestone unit="line" n="24" />
+                             beredi any.</l>
+                        <l n="30" xml:id="Dan-004-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בה שעתא </foreign>
+                             Olze <supplied reason="lost">s</supplied>aʿatta<ref n="8"
+                                target="#Dan-004-fn8" type="noteAnchor" /> oldu söz Nevuḫadnecar
+                            <milestone unit="page" n="185v" />
+                            <milestone unit="line" n="1" />
+                             istine ki erenlerden sirindi da köget tuvar kibik asady
+                            <milestone unit="line" n="2" />
+                             cyɣy byla köklernin gufun özünin juvdu negince ki cacy anyn
+                            <milestone unit="line" n="3" />
+                             cacy kibik nešerlernin esti da tyrnaqlaryda anyn qušlarda kibik.</l>
+                        <milestone unit="line" n="4" />
+                        <l n="31" xml:id="Dan-004-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקצת </foreign>
+                             Da sofundan ol künlernin men Nevuḫadnecar közlerimni
+                            <milestone unit="line" n="5" />
+                             köklerge kötürdim da aqylym menim mana qajtty da joɣarɣy
+                            <milestone unit="line" n="6" />
+                             Tenrige maḥtav berdim da emirgi qajjam Tenrinin ševaḥyn ajttym
+                            <milestone unit="line" n="7" />
+                             da hermetin anyn qotardym qajsynyn erklenmegi emirlik erk-
+                            <milestone unit="line" n="8" />
+                             lenmekti da malḫutu anyn har bir dor bylady.</l>
+                        <l n="32" xml:id="Dan-004-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                             Da bar
+                            <milestone unit="line" n="9" />
+                             boluvculary jernin joq kibik saɣyšlanadylar utru ullu<supplied
+                                reason="lost">lu</supplied>ɣuna<ref n="9" target="#Dan-004-fn9"
+                                type="noteAnchor" /> anyn da
+                            <milestone unit="line" n="10" />
+                             klegine köre qylady cörivinde köklernin da toḥtavcularynda jernin
+                            <milestone unit="line" n="11" />
+                             da joḥtu kim ki tyjɣaj qudratlaryn anyn da ajtqaj anar ne qylasen.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="33" xml:id="Dan-004-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בה </foreign>
+                             Olze zamanny aqylymny qajtardy mana da abajly malḫutuma
+                            <milestone unit="line" n="13" />
+                             menim qajttym hermetim da balquvum menim qajtty mana kenescilerim
+                            <milestone unit="line" n="14" />
+                             da kśonzelerim menim qolarediler meni da malḫutum istine
+                            <milestone unit="line" n="15" />
+                             kücejdim da daɣy artyq ullu<supplied reason="lost">lu</supplied>q<ref
+                                n="10" target="#Dan-004-fn10" type="noteAnchor" /> jetti mana.</l>
+                        <l n="34" xml:id="Dan-004-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כען </foreign>
+                             Haligine
+                            <milestone unit="line" n="16" />
+                             men Nevuḫadnecar ševaḥ ajtamen da bijikligim qotaramen da hermetin
+                            <milestone unit="line" n="17" />
+                             sarnajmen bijinin köklernin ki bar isleri anyn körtidi da jollary
+                            <milestone unit="line" n="18" />
+                             anyn rast tere bylady ah kümler ki jüritediler özlerin ektem-
+                            <milestone unit="line" n="19" />
+                             lik byla bolalady juvuz etme.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Dan-004-fn1" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;"
+                                >אַלְגַשַטְטִילָר</foreign>
+                             ; a hypercorrect form.</note>
+                        <note xml:id="Dan-004-fn2" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;"
+                                >בִירִילְגֵייְלֵיר</foreign>
+                             ; a scribal error.</note>
+                        <note xml:id="Dan-004-fn3" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">שַהַטְקָא</foreign>
+                             ; a scribal error or a hypercorrect form.</note>
+                        <note xml:id="Dan-004-fn4" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;"
+                                >אַלְגַשַטְטִילָר</foreign>
+                             ; a hypercorrect form.</note>
+                        <note xml:id="Dan-004-fn5" type="footnote">ADub.III.84: spelled
+                                <emph>ulluɣun</emph>; a scribal error.</note>
+                        <note xml:id="Dan-004-fn6" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אִישְטְינֵיא</foreign>
+                             ; a scribal error.</note>
+                        <note xml:id="Dan-004-fn7" type="footnote">ADub.III.84: spelled
+                                <emph>ulluɣun</emph>; a scribal error.</note>
+                        <note xml:id="Dan-004-fn8" type="footnote">ADub.III.84: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">שָעָתְטָא</foreign>
+                             ; a scribal error or a hypercorrect form.</note>
+                        <note xml:id="Dan-004-fn9" type="footnote">ADub.III.84: spelled
+                                <emph>ulluɣuna</emph>; a scribal error.</note>
+                        <note xml:id="Dan-004-fn10" type="footnote">ADub.III.84: spelled
+                                <emph>ulluq</emph>; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Chronicle 26</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Chronicle 26</title>
+                        <milestone unit="line" n="22" />
+                        <l n="1" xml:id="Chron1-026-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למחלקות </foreign>
+                            <milestone unit="line" n="25" />
+                            Zevadjahu ol icinci Jatniʾel ol dertinci.</l>
+                        <l n="3" xml:id="Chron1-026-003">ʿElam ol besinci Johoḥanan ol altyncy
+                            <milestone unit="page" n="181r" />
+                            <milestone unit="line" n="2" />
+                            da Šemaʿjaɣa uvluna anyn tuvduruldu uvullar ol erklenivciler ivi sajyn atalarynyn
+                            <milestone unit="line" n="12" />
+                            qabaqqa.</l>
+                        <l n="14" xml:id="Chron1-026-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויפול </foreign>
+                            Da tisti ol goral mizraḥ sartyn Šelemjahuɣa da Zeḫarjahuɣa kini etivcige
+                            <milestone unit="line" n="20" />
+                            qabaqcylarnyn uvullaryna ol Qoraḥnyn da uvullaryna Merarinin.</l>
+                        <l n="20" xml:id="Chron1-026-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והלויים </foreign>
+                            Da ol Levililer
+                            <milestone unit="line" n="25" />
+                            ʿUziʾelge.</l>
+                        <l n="24" xml:id="Chron1-026-024">Da Ševuʾel uvlu Geršomnun uvlunun Mošenin
+                            aɣaraq edi ol ḥaznalar
+                            <milestone unit="page" n="181v" />
+                            <milestone unit="line" n="2" />
+                            aziz etti David ol melek da aɣaraqlary ol atalarnyn aɣaraqlary sajyn ol
+                            minlernin da ol
+                            <milestone unit="line" n="12" />
+                            jedi iz aɣaraqlary ol atalarnyn da vakilledi alarny David ol melek
+                            sebeti istine ol Ruʾuvennin</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

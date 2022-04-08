@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,151 +39,155 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>Deuteronomy 1<supplied reason="lost">3</supplied><ref target="#fn1"
-                                type="noteAnchor" /></title>
-                        <milestone unit="line" xml:id="Deut013-P303v-L4_trl" n="4" prev="ADub.III.73.005.012.trl.xml#Deut012-P303v-L4_trl" />
+                    <ab><title>Deuteronomy 1<supplied reason="lost">3</supplied><ref n="1"
+                                target="#Deut-013-fn1_trl" type="noteAnchor" /></title>
+                        <milestone unit="line" xml:id="Deut013-P303v-L4_trl" n="4"
+                            prev="ADub.III.73.005.012.trl.xml#Deut012-P303v-L4_trl" />
                         <l n="1">Every word I command you:
                             <milestone unit="line" n="5" />
-                            you shall be watchful to do it. You shall not add to it or
+                             you shall be watchful to do it. You shall not add to it or
                             <milestone unit="line" n="6" />
-                            take away from it.</l>
+                             take away from it.</l>
                         <l n="2">If a prophet arises among you,
                             <milestone unit="line" n="7" />
-                            or a dreamer of dreams, and gives you a sign or
+                             or a dreamer of dreams, and gives you a sign or
                             <milestone unit="line" n="8" />
-                            a wonder,</l>
+                             a wonder,</l>
                         <l n="3">And the sign or wonder
                             <milestone unit="line" n="9" />
-                            of which he spoke to — saying, “Let us go after the service of
+                             of which he spoke to — saying, “Let us go after the service of
                             <milestone unit="line" n="10" />
-                            other gods,” whom you have not known, “and let us serve
+                             other gods,” whom you have not known, “and let us serve
                             <milestone unit="line" n="11" />
-                            them,” — comes,</l>
+                             them,” — comes,</l>
                         <l n="4">You shall not listen to the words of that prophet or
                             <milestone unit="line" n="12" />
-                            that dreamer of dreams, because the Lord your God is testing you,
+                             that dreamer of dreams, because the Lord your God is testing you,
                             <milestone unit="line" n="13" />
-                            to know whether you love the service of the Lord your God
+                             to know whether you love the service of the Lord your God
                             <milestone unit="line" n="14" />
-                            with all your heart and with all your soul.</l>
+                             with all your heart and with all your soul.</l>
                         <l n="5">
                             <milestone unit="line" n="15" />
-                            You shall walk after the Lord your God’s order and
+                             You shall walk after the Lord your God’s order and
                             <milestone unit="line" n="16" />
-                            fear him and keep his commandments and listen his voice,
+                             fear him and keep his commandments and listen his voice,
                             <milestone unit="line" n="17" />
-                            and you shall serve him and cling to his Law.</l>
+                             and you shall serve him and cling to his Law.</l>
                         <milestone unit="line" n="18" />
                         <l n="6">And that prophet or that dreamer
                             <milestone unit="line" n="19" />
-                            of dreams shall be put to death, because he has spoken words of contradiction
+                             of dreams shall be put to death, because he has spoken words of
+                            contradiction
                             <milestone unit="line" n="20" />
-                            about the Lord, about your God who brought you out from the land
+                             about the Lord, about your God who brought you out from the land
                             <milestone unit="line" n="21" />
-                            of Egypt and who redeemed you out of the reign of slaves,
+                             of Egypt and who redeemed you out of the reign of slaves,
                             <milestone unit="page" n="304r" />
                             <milestone unit="line" n="1" />
-                            to make you go astray from the way which the Lord your God commanded you
-                            to walk
+                             to make you go astray from the way which the Lord your God commanded
+                            you to walk
                             <milestone unit="line" n="2" />
-                            in. So you shall remove the evil from among you.</l>
+                             in. So you shall remove the evil from among you.</l>
                         <milestone unit="line" n="3" />
                         <l n="7">If your brother, the son of your mother, or
                             <milestone unit="line" n="4" />
-                            your son or your daughter or the wife of your bosom or
+                             your son or your daughter or the wife of your bosom or
                             <milestone unit="line" n="5" />
-                            your friend, who is like you, entices you secretly, saying,
+                             your friend, who is like you, entices you secretly, saying,
                             <milestone unit="line" n="6" />
-                            “Let us go and serve other gods,” which you have not known, you
+                             “Let us go and serve other gods,” which you have not known, you
                             <milestone unit="line" n="7" />
-                            and your fathers,</l>
+                             and your fathers,</l>
                         <l n="8">From the gods of the people
                             <milestone unit="line" n="8" />
-                            who are all around you, near to you or far off
+                             who are all around you, near to you or far off
                             <milestone unit="line" n="9" />
-                            from you, from the one edge of the earth even to the other edge of the
+                             from you, from the one edge of the earth even to the other edge of the
                             earth,</l>
                         <l n="9">
                             <milestone unit="line" n="10" />
-                            You shall not want to consent to his enticement and you shall not listen
+                             You shall not want to consent to his enticement and you shall not
+                            listen
                             <milestone unit="line" n="11" />
-                            to him, and your eye shall not pity him,
+                             to him, and your eye shall not pity him,
                             <milestone unit="line" n="12" />
-                            and you shall not regret or conceal his iniquity.</l>
+                             and you shall not regret or conceal his iniquity.</l>
                         <l n="10">But
                             <milestone unit="line" n="13" />
-                            you shall surely kill him. Your hand shall be first on him
+                             you shall surely kill him. Your hand shall be first on him
                             <milestone unit="line" n="14" />
-                            to put him to death, and the hand of all the people thereafter.</l>
+                             to put him to death, and the hand of all the people thereafter.</l>
                         <milestone unit="line" n="15" />
                         <l n="11">And you shall stone him with stones, and
                             <milestone unit="line" n="16" />
-                            he shall die, because he has sought to make you go astray from the
+                             he shall die, because he has sought to make you go astray from the
                             service of the Lord
                             <milestone unit="line" n="17" />
-                            your God who brought you out from the land of Egypt, from the reign of
+                             your God who brought you out from the land of Egypt, from the reign of
                             slaves.</l>
                         <milestone unit="line" n="18" />
                         <l n="12">And all Israel shall hear, and
                             <milestone unit="line" n="19" />
-                            they shall fear, and the shall not continue to do a bad thing
+                             they shall fear, and the shall not continue to do a bad thing
                             <milestone unit="line" n="20" />
-                            like this among you.</l>
+                             like this among you.</l>
                         <l n="13">If you hear in one
                             <milestone unit="line" n="21" />
-                            of your cities which the Lord your God has given you to dwell there
+                             of your cities which the Lord your God has given you to dwell there
                             <milestone unit="page" n="304v" />
                             <milestone unit="line" n="1" />
-                            anyone saying,</l>
+                             anyone saying,</l>
                         <l n="14">“Certain men, worthless people, have gone out
                             <milestone unit="line" n="2" />
-                            from among you and have made the inhabitants of their city go astray,
+                             from among you and have made the inhabitants of their city go astray,
                             <milestone unit="line" n="3" />
-                            saying, “Let us go and serve other gods,”
+                             saying, “Let us go and serve other gods,”
                             <milestone unit="line" n="4" />
-                            which you have not known:”</l>
+                             which you have not known:”</l>
                         <l n="15">And you shall make search and inquire,
                             <milestone unit="line" n="5" />
-                            and ask well, and, lo, the thing is true —
+                             and ask well, and, lo, the thing is true —
                             <milestone unit="line" n="6" />
-                            that abominable thing was done among you —</l>
+                             that abominable thing was done among you —</l>
                         <l n="16">You shall surely
                             <milestone unit="line" n="7" />
-                            strike the inhabitants of that city with the edge of the sword:
+                             strike the inhabitants of that city with the edge of the sword:
                             <milestone unit="line" n="8" />
-                            you shall destroy it and all that is in it
+                             you shall destroy it and all that is in it
                             <milestone unit="line" n="9" />
-                            and its cattle with the edge of the sword.</l>
+                             and its cattle with the edge of the sword.</l>
                         <l n="17">And
                             <milestone unit="line" n="10" />
-                            you shall gather all the goods of it to the middle of its street and
+                             you shall gather all the goods of it to the middle of its street and
                             <milestone unit="line" n="11" />
-                            you shall burn in fire the city and all its goods
+                             you shall burn in fire the city and all its goods
                             <milestone unit="line" n="12" />
-                            entirely to the Lord your God, and it shall be an eternal
+                             entirely to the Lord your God, and it shall be an eternal
                             <milestone unit="line" n="13" />
-                            heap. It shall not be built again.</l>
+                             heap. It shall not be built again.</l>
                         <l n="18">And nothing
                             <milestone unit="line" n="14" />
-                            of the devoted thing shall cling to your hand, so that the Lord may turn
+                             of the devoted thing shall cling to your hand, so that the Lord may
+                            turn
                             <milestone unit="line" n="15" />
-                            from his furious anger and show you mercy. And he shall have mercy
+                             from his furious anger and show you mercy. And he shall have mercy
                             <milestone unit="line" n="16" />
-                            on you and multiply you as he has sworn to your fathers,</l>
+                             on you and multiply you as he has sworn to your fathers,</l>
                         <milestone unit="line" n="17" />
                         <l n="19">If you listen to the voice of the Lord your God to keep
                             <milestone unit="line" n="18" />
-                            all his commandments which I command you today, to do
+                             all his commandments which I command you today, to do
                             <milestone unit="line" n="19" />
-                            what seems right in the eyes of the Lord your God.</l>
+                             what seems right in the eyes of the Lord your God.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">K: erroneously indicated as Deuteronomy
-                            12.</note>
+                        <note xml:id="Deut-013-fn1_trl" type="footnote">K: erroneously indicated as
+                            Deuteronomy 12.</note>
                     </app>
                 </listApp>
             </div>

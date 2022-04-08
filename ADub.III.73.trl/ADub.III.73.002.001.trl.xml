@@ -1,146 +1,169 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>ADub.III.73</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Exodus 1</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Exodus 1</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
 
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>Exodus 1</title>
-            <milestone unit="page" n="87r" />
-            <milestone unit="line" n="1" />
-            <l>Book of Exodus</l>
-            <milestone unit="line" n="2" />
-            <l n="1">And these are the names
-              <milestone unit="line" n="3" />of the sons of Israel, who came to Egypt.
-              <milestone unit="line" n="4" />With Jacob, each came with the people of his house:
-            </l>
-            <l n="2">
-              <milestone unit="line" n="5" />Reuben, Simeon, Levi, and Judah,
-            </l>
-            <l n="3">Issachar, Zebulun, and
-              <milestone unit="line" n="6" />Benjamin,
-            </l>
-            <l n="4">Dan, and Naphtali, Gad, and Asher.</l>
-            <l n="5">And
-              <milestone unit="line" n="7" />all souls who came out from Jacob’s thigh were seventy souls, with Joseph
-              <milestone unit="line" n="8" />who was in Egypt.
-            </l>
-            <l n="6">And Joseph died, and all
-              <milestone unit="line" n="9" />his brothers, and all that generation.
-            </l>
-            <l n="7">And the sons of Israel
-              <milestone unit="line" n="10" />spread, and multiplied, and increased, and grew very, very strong,
-              <milestone unit="line" n="11" />and the land was filled with them.
-            </l>
-            <l n="8">And a new king rose
-              <milestone unit="line" n="12" />over Egypt, who knew not Joseph.
-            </l>
-            <l n="9">
-              <milestone unit="line" n="13" />And he said to his people, ‘Lo, the people of the sons of Israel
-              <milestone unit="line" n="14" />are more and stronger than we.
-            </l>
-            <l n="10">Come,
-              <milestone unit="line" n="15" />let us deal wisely with them, maybe it will increase, and it shall be
-              <milestone unit="line" n="16" />if war befall us, and it, too, will be added to our enemies,
-              <milestone unit="line" n="17" />and the will fight against us and will go out from the land.’
-            </l>
-            <milestone unit="line" n="18" />
-            <l n="11">And they set over them tax collector, rulers
-              <milestone unit="line" n="19" />to oppress them with their burdens. And they built
-              <milestone unit="line" n="20" />for Pharaoh treasure cities, Pithom and Raamses.
-              <milestone unit="page" n="87v" />
-            </l>
-            <milestone unit="line" n="1" />
-            <l n="12">But the more they oppressed them, the more they multiplied
-              <milestone unit="line" n="2" />and the more spread. And they weakened before the sons of Israel.
-            </l>
-            <milestone unit="line" n="3" />
-            <l n="13">And the Egyptians made the
-              <milestone unit="line" n="4" />sons of Israel to serve oppressively.
-            </l>
-            <l n="14">And
-              <milestone unit="line" n="5" />they made their lives bitter with hard service, in clay,
-              <milestone unit="line" n="6" />and in brick, and in all manner of hard service in the field:
-              <milestone unit="line" n="7" />all their service, in which they made them serve, was oppressive.
-            </l>
-            <l n="15">
-              <milestone unit="line" n="8" />And the king of Egypt spoke to the Hebrew
-              <milestone unit="line" n="9" />midwives, of whom the name of one was Shiphrah, and the name of the
-              <milestone unit="line" n="10" />second was Puah,
-            </l>
-            <l n="16">And Pharaoh said, ‘When you make Hebrew women give birth,
-              <milestone unit="line" n="11" />and see them in the place for giving birth:
-              <milestone unit="line" n="12" />if it is a son, then you shall kill him, and
-              <milestone unit="line" n="13" />if it is a daughter, then she shall live.’
-            </l>
-            <l n="17">But
-              <milestone unit="line" n="14" />the midwives feared God, and did not as
-              <milestone unit="line" n="15" />the king of Egypt spoke to them, and they kept alive
-              <milestone unit="line" n="16" />also the male children.
-            </l>
-            <l n="18">And the king of Egypt called for the midwives,
-              <milestone unit="line" n="17" />and he said to them, ‘Why have you done this thing,
-              <milestone unit="line" n="18" />and have let the male children alive?’
-            </l>
-            <l n="19">
-              <milestone unit="line" n="19" />And the midwives said to Pharaoh, ‘Because the
-              <milestone unit="line" n="20" />Hebrew women are not like the Egyptian women, because they are healthy,
-              <milestone unit="line" n="21" />they give birth before the midwife comes to them.’
-            </l>
-            <l n="20">And
-              <milestone unit="page" n="88r" />
-              <milestone unit="line" n="1" />God dealt well with the midwives. And the people multiplied, and grew
-              <milestone unit="line" n="2" />very strong,
-            </l>
-            <l n="21">And it was because the midwives feared
-              <milestone unit="line" n="3" />God, and he gave them rest.
-            </l>
-            <l n="22">And
-              <milestone unit="line" n="4" />Pharaoh commanded all his people, saying, ‘Every son who
-              <milestone unit="line" n="5" />is born: you shall cast into the Nile. And every daughter you shall keep alive.’
-            </l>
-          </ab>
-        </div>
-      </div>
-    </body>
-  </text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Exodus 1</title>
+                        <milestone unit="page" n="87r" />
+                        <milestone unit="line" n="1" />
+                        <l>Book of Exodus</l>
+                        <milestone unit="line" n="2" />
+                        <l n="1">And these are the names
+                            <milestone unit="line" n="3" />
+                            of the sons of Israel, who came to Egypt.
+                            <milestone unit="line" n="4" />
+                            With Jacob, each came with the people of his house: </l>
+                        <l n="2">
+                            <milestone unit="line" n="5" />
+                            Reuben, Simeon, Levi, and Judah, </l>
+                        <l n="3">Issachar, Zebulun, and
+                            <milestone unit="line" n="6" />
+                            Benjamin, </l>
+                        <l n="4">Dan, and Naphtali, Gad, and Asher.</l>
+                        <l n="5">And
+                            <milestone unit="line" n="7" />
+                            all souls who came out from Jacob’s thigh were seventy souls, with
+                            Joseph
+                            <milestone unit="line" n="8" />
+                            who was in Egypt. </l>
+                        <l n="6">And Joseph died, and all
+                            <milestone unit="line" n="9" />
+                            his brothers, and all that generation. </l>
+                        <l n="7">And the sons of Israel
+                            <milestone unit="line" n="10" />
+                            spread, and multiplied, and increased, and grew very, very strong,
+                            <milestone unit="line" n="11" />
+                            and the land was filled with them. </l>
+                        <l n="8">And a new king rose
+                            <milestone unit="line" n="12" />
+                            over Egypt, who knew not Joseph. </l>
+                        <l n="9">
+                            <milestone unit="line" n="13" />
+                            And he said to his people, ‘Lo, the people of the sons of Israel
+                            <milestone unit="line" n="14" />
+                            are more and stronger than we. </l>
+                        <l n="10">Come,
+                            <milestone unit="line" n="15" />
+                            let us deal wisely with them, maybe it will increase, and it shall be
+                            <milestone unit="line" n="16" />
+                            if war befall us, and it, too, will be added to our enemies,
+                            <milestone unit="line" n="17" />
+                            and the will fight against us and will go out from the land.’ </l>
+                        <milestone unit="line" n="18" />
+                        <l n="11">And they set over them tax collector, rulers
+                            <milestone unit="line" n="19" />
+                            to oppress them with their burdens. And they built
+                            <milestone unit="line" n="20" />
+                            for Pharaoh treasure cities, Pithom and Raamses.
+                            <milestone unit="page" n="87v" />
+                        </l>
+                        <milestone unit="line" n="1" />
+                        <l n="12">But the more they oppressed them, the more they multiplied
+                            <milestone unit="line" n="2" />
+                            and the more spread. And they weakened before the sons of Israel. </l>
+                        <milestone unit="line" n="3" />
+                        <l n="13">And the Egyptians made the
+                            <milestone unit="line" n="4" />
+                            sons of Israel to serve oppressively. </l>
+                        <l n="14">And
+                            <milestone unit="line" n="5" />
+                            they made their lives bitter with hard service, in clay,
+                            <milestone unit="line" n="6" />
+                            and in brick, and in all manner of hard service in the field:
+                            <milestone unit="line" n="7" />
+                            all their service, in which they made them serve, was oppressive. </l>
+                        <l n="15">
+                            <milestone unit="line" n="8" />
+                            And the king of Egypt spoke to the Hebrew
+                            <milestone unit="line" n="9" />
+                            midwives, of whom the name of one was Shiphrah, and the name of the
+                            <milestone unit="line" n="10" />
+                            second was Puah, </l>
+                        <l n="16">And Pharaoh said, ‘When you make Hebrew women give birth,
+                            <milestone unit="line" n="11" />
+                            and see them in the place for giving birth:
+                            <milestone unit="line" n="12" />
+                            if it is a son, then you shall kill him, and
+                            <milestone unit="line" n="13" />
+                            if it is a daughter, then she shall live.’ </l>
+                        <l n="17">But
+                            <milestone unit="line" n="14" />
+                            the midwives feared God, and did not as
+                            <milestone unit="line" n="15" />
+                            the king of Egypt spoke to them, and they kept alive
+                            <milestone unit="line" n="16" />
+                            also the male children. </l>
+                        <l n="18">And the king of Egypt called for the midwives,
+                            <milestone unit="line" n="17" />
+                            and he said to them, ‘Why have you done this thing,
+                            <milestone unit="line" n="18" />
+                            and have let the male children alive?’ </l>
+                        <l n="19">
+                            <milestone unit="line" n="19" />
+                            And the midwives said to Pharaoh, ‘Because the
+                            <milestone unit="line" n="20" />
+                            Hebrew women are not like the Egyptian women, because they are healthy,
+                            <milestone unit="line" n="21" />
+                            they give birth before the midwife comes to them.’ </l>
+                        <l n="20">And
+                            <milestone unit="page" n="88r" />
+                            <milestone unit="line" n="1" />
+                            God dealt well with the midwives. And the people multiplied, and grew
+                            <milestone unit="line" n="2" />
+                            very strong, </l>
+                        <l n="21">And it was because the midwives feared
+                            <milestone unit="line" n="3" />
+                            God, and he gave them rest. </l>
+                        <l n="22">And
+                            <milestone unit="line" n="4" />
+                            Pharaoh commanded all his people, saying, ‘Every son who
+                            <milestone unit="line" n="5" />
+                            is born: you shall cast into the Nile. And every daughter you shall keep
+                            alive.’ </l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

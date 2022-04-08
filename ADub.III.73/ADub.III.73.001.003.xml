@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
 <teiHeader>
         <fileDesc>
@@ -51,80 +49,88 @@
                         <milestone unit="line" n="7" />
                         <l n="1" xml:id="Gen-003-001">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">והנחש </foreign>
-                             Da ol jylan edi ustatraq bar <seg type="commented" corresp="#seg001"
-                                 />kijigin<supplied reason="lost">d́an ol</supplied><anchor
-                                type="commented" xml:id="seg001" /><ref target="#fn1"
-                                type="noteAnchor" />
+                             Da ol jylan edi ustatraq bar <seg type="commented"
+                                corresp="#Gen-003-seg001" />kijigin<supplied reason="lost">d́an
+                                ol</supplied><anchor type="commented" xml:id="Gen-003-seg001" /><ref
+                                n="1" target="#Gen-003-fn1" type="noteAnchor" />
                             <milestone unit="line" n="8" />
-                             tüznün ki jaratty Adonaj Tenri da ajtty ol <seg type="commented" corresp="#seg002" />qatyn<supplied reason="lost">ɣa ham</supplied>
+                             tüznün ki jaratty Adonaj Tenri da ajtty ol <seg type="commented"
+                                corresp="#Gen-003-seg002" />qatyn<supplied reason="lost">ɣa
+                                ham</supplied>
                             <milestone unit="line" n="9" />
-                             ki<anchor type="commented" xml:id="seg002" /><ref target="#fn2"
-                                type="noteAnchor" /> ajtty Tenri ašamajyz bar jemišind́an aɣačynyn
-                            ol <supplied reason="lost">baɣnyn</supplied><ref target="#fn3"
-                                type="noteAnchor" />. </l>
+                             ki<anchor type="commented" xml:id="Gen-003-seg002" /><ref n="2"
+                                target="#Gen-003-fn2" type="noteAnchor" /> ajtty Tenri ašamajyz bar
+                            jemišind́an aɣačynyn ol <supplied reason="lost">baɣnyn</supplied><ref
+                                n="3" target="#Gen-003-fn3" type="noteAnchor" />. </l>
                         <milestone unit="line" n="10" />
                         <l n="2" xml:id="Gen-003-002">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר </foreign>
-                             Da ajtty ol qatyn ol jylanɣa <seg type="commented" corresp="#seg003"
-                                 />jemišin<supplied reason="lost">d́an aɣa-</supplied>
+                             Da ajtty ol qatyn ol jylanɣa <seg type="commented"
+                                corresp="#Gen-003-seg003" />jemišin<supplied reason="lost">d́an
+                                aɣa-</supplied>
                             <milestone unit="line" n="11" />
-                             čynyn<anchor type="commented" xml:id="seg003" /><ref target="#fn4"
-                                type="noteAnchor" /> ol baɣnyn ašajbiz. </l>
+                             čynyn<anchor type="commented" xml:id="Gen-003-seg003" /><ref n="4"
+                                target="#Gen-003-fn4" type="noteAnchor" /> ol baɣnyn ašajbiz. </l>
                         <l n="3" xml:id="Gen-003-003">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ומפרי </foreign>
-                             Da jemišind́a<supplied reason="lost">n ol</supplied><ref target="#fn5"
-                                type="noteAnchor" />
+                             Da jemišind́a<supplied reason="lost">n ol</supplied><ref n="5"
+                                target="#Gen-003-fn5" type="noteAnchor" />
                             <milestone unit="line" n="12" />
                              aɣačnyn ki ortasynda ol baɣnyn ajtty Tenri aša<supplied reason="lost"
-                                >majyz</supplied><ref target="#fn6" type="noteAnchor" />
+                                >majyz</supplied><ref n="6" target="#Gen-003-fn6" type="noteAnchor" />
                             <milestone unit="line" n="13" />
                              andan da tijmejiz anar maɣat ölersiz. </l>
                         <l n="4" xml:id="Gen-003-004">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            <supplied reason="lost">Da</supplied><ref target="#fn7"
+                            <supplied reason="lost">Da</supplied><ref n="7" target="#Gen-003-fn7"
                                 type="noteAnchor" />
                             <milestone unit="line" n="14" />
-                            ajtty ol jylan ol qatynɣa ölḿa ölmessiz. <supplied reason="lost">
+                             ajtty ol jylan ol qatynɣa ölḿa ölmessiz. <supplied reason="lost">
                                 <foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign>
-                            </supplied><ref target="#fn8" type="noteAnchor" />. </l>
+                            </supplied><ref n="8" target="#Gen-003-fn8" type="noteAnchor" />. </l>
                         <l n="5" xml:id="Gen-003-005">
                             <milestone unit="line" n="15" />
                              Ki biledi Tenri ki ašaɣan künüjüzd́a andan da ačy<supplied
-                                reason="lost">lyrlar</supplied><ref target="#fn9" type="noteAnchor" />
+                                reason="lost">lyrlar</supplied><ref n="9" target="#Gen-003-fn9"
+                                type="noteAnchor" />
                             <milestone unit="line" n="16" />
                              közlerijiz da bolursiz malaḫlar kibik bilüvčüĺar <supplied
-                                reason="lost">jaḥšyny</supplied><ref target="#fn10"
+                                reason="lost">jaḥšyny</supplied><ref n="10" target="#Gen-003-fn10"
                                 type="noteAnchor" />
                             <milestone unit="line" n="17" />
                              da jamanny. </l>
                         <l n="6" xml:id="Gen-003-006">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ותרא </foreign>
                              Da kördü ol qatyn ki ja<supplied reason="lost">ḥšydy</supplied><ref
-                                target="#fn11" type="noteAnchor" />
+                                n="11" target="#Gen-003-fn11" type="noteAnchor" />
                             <milestone unit="line" n="18" />
-                             ol aɣač jemǵa da ki küsenčlidi ol közlerǵa <seg type="commented" corresp="#seg005" />
+                             ol aɣač jemǵa da ki küsenčlidi ol közlerǵa <seg type="commented"
+                                corresp="#Gen-003-seg005" />
                             <supplied reason="lost">da suq-</supplied>
                             <milestone unit="line" n="19" />
-                             lančydy<anchor type="commented" xml:id="seg005" /><ref target="#fn12"
-                                type="noteAnchor" /> ol aɣač anlama da aldy jemišind́an da <seg
-                                type="commented" corresp="#seg006" />aša<supplied reason="lost">dy
-                                da</supplied><anchor type="commented" xml:id="seg006" /><ref
-                                target="#fn13" type="noteAnchor" />
+                             lančydy<anchor type="commented" xml:id="Gen-003-seg005" /><ref n="12"
+                                target="#Gen-003-fn12" type="noteAnchor" /> ol aɣač anlama da aldy
+                            jemišind́an da <seg type="commented" corresp="#Gen-003-seg006"
+                                 />aša<supplied reason="lost">dy da</supplied><anchor
+                                type="commented" xml:id="Gen-003-seg006" /><ref n="13"
+                                target="#Gen-003-fn13" type="noteAnchor" />
                             <milestone unit="line" n="20" />
                              berdi daɣyn erined́a birgesińa da ašady. </l>
                         <l n="7" xml:id="Gen-003-007">
                             <supplied reason="lost">
                                 <foreign xml:lang="he" style="unicode-bidi: embed;">ותפקחנה
                                 </foreign>
-                            </supplied><ref target="#fn14" type="noteAnchor" />
+                            </supplied><ref n="14" target="#Gen-003-fn14" type="noteAnchor" />
                             <milestone unit="line" n="21" />
-                             Da ačyldylar közĺari eksilerinind́a da bildiĺar <seg type="commented" corresp="#seg007" />
+                             Da ačyldylar közĺari eksilerinind́a da bildiĺar <seg type="commented"
+                                corresp="#Gen-003-seg007" />
                             <supplied reason="lost">ki jalan-</supplied>
                             <milestone unit="page" n="5v" />
                             <milestone unit="line" n="1" />
                             <supplied reason="lost">ɣačtyl</supplied>ar<anchor type="commented"
-                                xml:id="seg007" /><ref target="#fn15" type="noteAnchor" /> alar da
-                            tiktiĺar japraɣyn inǯirliknin da qyldylar
+                                xml:id="Gen-003-seg007" /><ref n="15" target="#Gen-003-fn15"
+                                type="noteAnchor" /> alar da tiktiĺar japraɣyn inǯirliknin da
+                            qyldylar
                             <milestone unit="line" n="2" />
                              özlerińa fartuḥlar. </l>
                         <l n="8" xml:id="Gen-003-008">
@@ -160,8 +166,9 @@
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
                              Da ajtty ol adam ol
                             <milestone unit="line" n="12" />
-                             qatyn ki berdi<supplied reason="lost">j</supplied><ref target="#fn16"
-                                type="noteAnchor" /> qatymda ol berdi maja jemišind́an ol
+                             qatyn ki berdi<supplied reason="lost">j</supplied><ref n="16"
+                                target="#Gen-003-fn16" type="noteAnchor" /> qatymda ol berdi maja
+                            jemišind́an ol
                             <milestone unit="line" n="13" />
                              aɣačnyn da ašadym. </l>
                         <l n="13" xml:id="Gen-003-013">
@@ -193,7 +200,7 @@
                             <milestone unit="page" n="6r" />
                             <milestone unit="line" n="1" />
                              Ol qatynɣa ajtty arttyrma arttyrymen qyjynyjny <supplied reason="lost"
-                                >da</supplied><ref target="#fn17" type="noteAnchor" />
+                                >da</supplied><ref n="17" target="#Gen-003-fn17" type="noteAnchor" />
                             <milestone unit="line" n="2" />
                              ḥamilalyɣyjny qyjynbyla törerśan ulanlar da erija özele-
                             <milestone unit="line" n="3" />
@@ -207,8 +214,8 @@
                              jemišind́an ki zynharladym saja ajtadoɣač ašamaɣyn andan
                             <milestone unit="line" n="6" />
                              qarɣyšly bolur ol jer senin sibbajdan qyjynbyla ašarsen bitiši
-                                <supplied reason="lost">n</supplied><ref target="#fn18"
-                                type="noteAnchor" />
+                                <supplied reason="lost">n</supplied><ref n="18"
+                                target="#Gen-003-fn18" type="noteAnchor" />
                             <milestone unit="line" n="7" />
                              anyn bar tirlik künlerijd́a. </l>
                         <l n="18" xml:id="Gen-003-018">
@@ -220,16 +227,16 @@
                              ol tüznün. </l>
                         <l n="19" xml:id="Gen-003-019">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">בזעת </foreign>
-                             Teribyla burnujnun ašarsen <seg type="commented" corresp="#seg008"
-                                 />ö<supplied reason="lost">t</supplied>-
+                             Teribyla burnujnun ašarsen <seg type="commented"
+                                corresp="#Gen-003-seg008" />ö<supplied reason="lost">t</supplied>-
                             <milestone unit="line" n="10" />
-                             mek<anchor type="commented" xml:id="seg008" /><ref target="#fn19"
-                                type="noteAnchor" /> qajtqanyjadejin ol jerǵa ki andan alyndyj ki
-                                <seg type="commented" corresp="#seg009" />topraqty<supplied reason="lost"
-                                >r</supplied>
+                             mek<anchor type="commented" xml:id="Gen-003-seg008" /><ref n="19"
+                                target="#Gen-003-fn19" type="noteAnchor" /> qajtqanyjadejin ol jerǵa
+                            ki andan alyndyj ki <seg type="commented" corresp="#Gen-003-seg009"
+                                 />topraqty<supplied reason="lost">r</supplied>
                             <milestone unit="line" n="11" />
-                             sen<anchor type="commented" xml:id="seg009" /><ref target="#fn20"
-                                type="noteAnchor" /> da topraqqa qajtyrsen. </l>
+                             sen<anchor type="commented" xml:id="Gen-003-seg009" /><ref n="20"
+                                target="#Gen-003-fn20" type="noteAnchor" /> da topraqqa qajtyrsen. </l>
                         <l n="20" xml:id="Gen-003-020">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
                              Da atady ol
@@ -265,9 +272,11 @@
                              kün tuvušu sartyn bostanɣa ošol ol keruvimni da
                             <milestone unit="page" n="6v" />
                             <milestone unit="line" n="1" />
-                            <supplied reason="lost">o</supplied>šol<ref target="#fn21"
-                                type="noteAnchor" /> itisin ol qylyčnyn ol ajlandoɣanny saqlama ošol
-                            <milestone unit="line" xml:id="Gen003-P6r-L2" n="2" next="ADub.III.73.001.004.xml#Gen004-P6r-L2" />
+                            <supplied reason="lost">o</supplied>šol<ref n="21"
+                                target="#Gen-003-fn21" type="noteAnchor" /> itisin ol qylyčnyn ol
+                            ajlandoɣanny saqlama ošol
+                            <milestone unit="line" xml:id="Gen003-P6r-L2" n="2"
+                                next="ADub.III.73.001.004.xml#Gen004-P6r-L2" />
                              jolun aɣačynyn ol tirliknin. </l>
                     </ab>
                 </div>
@@ -275,56 +284,60 @@
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">TKow.01: <emph>kijigind́an ol</emph>. |
-                            H: <emph>kijiginden ol</emph>. | C: <emph>kijigindän</emph>. </note>
-                        <note xml:id="fn2" type="footnote">TKow.01: <emph>qatynɣa ham</emph>. | H:
-                                <emph>qatynɣa ham ki ajtty</emph>; <emph>ham ki</emph>
+                        <note xml:id="Gen-003-fn1" type="footnote">TKow.01: <emph>kijigind́an
+                                ol</emph>. | H: <emph>kijiginden ol</emph>. | C:
+                                <emph>kijigindän</emph>. </note>
+                        <note xml:id="Gen-003-fn2" type="footnote">TKow.01: <emph>qatynɣa
+                            ham</emph>. | H: <emph>qatynɣa ham ki ajtty</emph>; <emph>ham ki</emph>
                             <emph>ajtty </emph>~ <emph>hem ki ajtty</emph> calques Heb. <foreign
                                 xml:lang="he" style="unicode-bidi: embed;">אַף כִּי־אָמַר </foreign>
-                            ‘Yea, has God said’. | C: <emph>ḫatynɣa daɣyn ki ajttymy</emph>. </note>
-                        <note xml:id="fn3" type="footnote">TKow.01: <emph>baɣnyn</emph>. | H:
-                                <emph>baɣnyn</emph>. | C: <emph>baɣnyŋ</emph>. </note>
-                        <note xml:id="fn4" type="footnote">TKow.01: <emph>jemišind́an</emph>. | H:
-                                <emph>jemisinden aɣacynyn</emph>. | C: <emph>jemišindän
-                                aɣačynyŋ</emph>. </note>
-                        <note xml:id="fn5" type="footnote">TKow.01: <emph>jemišind́an ol</emph>. |
-                            H: <emph>jemisinden ol</emph>. | C: <emph>jemišindän ol</emph>. </note>
-                        <note xml:id="fn6" type="footnote">TKow.01: <emph>ašamajyz</emph>. | H:
-                                <emph>asamanyz</emph>. | C: <emph>ašamaŋyz</emph>. </note>
-                        <note xml:id="fn7" type="footnote">TKow.01: <emph>da</emph>. | H:
+                             ‘Yea, has God said’. | C: <emph>ḫatynɣa daɣyn ki ajttymy</emph>. </note>
+                        <note xml:id="Gen-003-fn3" type="footnote">TKow.01: <emph>baɣnyn</emph>. |
+                            H: <emph>baɣnyn</emph>. | C: <emph>baɣnyŋ</emph>. </note>
+                        <note xml:id="Gen-003-fn4" type="footnote">TKow.01:
+                            <emph>jemišind́an</emph>. | H: <emph>jemisinden aɣacynyn</emph>. | C:
+                                <emph>jemišindän aɣačynyŋ</emph>. </note>
+                        <note xml:id="Gen-003-fn5" type="footnote">TKow.01: <emph>jemišind́an
+                                ol</emph>. | H: <emph>jemisinden ol</emph>. | C: <emph>jemišindän
+                                ol</emph>. </note>
+                        <note xml:id="Gen-003-fn6" type="footnote">TKow.01: <emph>ašamajyz</emph>. |
+                            H: <emph>asamanyz</emph>. | C: <emph>ašamaŋyz</emph>. </note>
+                        <note xml:id="Gen-003-fn7" type="footnote">TKow.01: <emph>da</emph>. | H:
                                 <emph>da</emph>. | C: <emph>da</emph>. </note>
-                        <note xml:id="fn8" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Gen-003-fn8" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כִּי</foreign>
-                            . </note>
-                        <note xml:id="fn9" type="footnote">TKow.01: <emph>ačylyrlar</emph>. | H:
-                                <emph>acylyrlar</emph>. | C: <emph>ačylyrlar</emph>. </note>
-                        <note xml:id="fn10" type="footnote">TKow.01: <emph>jaḥšyny</emph>. | H:
-                                <emph>jaḥsyny</emph>. | C: <emph>jaḫšyny</emph>. </note>
-                        <note xml:id="fn11" type="footnote">TKow.01: <emph>jaḥšydy</emph>. | H:
-                                <emph>jaḥsydy</emph>. | C: <emph>jaḫšydyr</emph>. </note>
-                        <note xml:id="fn12" type="footnote">TKow.01: <emph>da suqlančydy</emph>. |
-                            H: <emph>da suqlancydy</emph>. | C: <emph>da</emph>
+                             . </note>
+                        <note xml:id="Gen-003-fn9" type="footnote">TKow.01: <emph>ačylyrlar</emph>.
+                            | H: <emph>acylyrlar</emph>. | C: <emph>ačylyrlar</emph>. </note>
+                        <note xml:id="Gen-003-fn10" type="footnote">TKow.01: <emph>jaḥšyny</emph>. |
+                            H: <emph>jaḥsyny</emph>. | C: <emph>jaḫšyny</emph>. </note>
+                        <note xml:id="Gen-003-fn11" type="footnote">TKow.01: <emph>jaḥšydy</emph>. |
+                            H: <emph>jaḥsydy</emph>. | C: <emph>jaḫšydyr</emph>. </note>
+                        <note xml:id="Gen-003-fn12" type="footnote">TKow.01: <emph>da
+                                suqlančydy</emph>. | H: <emph>da suqlancydy</emph>. | C:
+                                <emph>da</emph>
                             <emph>suqlančlydyr</emph>. </note>
-                        <note xml:id="fn13" type="footnote">TKow.01: <emph>ašady da</emph>. | H:
-                                <emph>asady da</emph>. | C: <emph>ašady da</emph>. </note>
-                        <note xml:id="fn14" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Gen-003-fn13" type="footnote">TKow.01: <emph>ašady da</emph>.
+                            | H: <emph>asady da</emph>. | C: <emph>ašady da</emph>. </note>
+                        <note xml:id="Gen-003-fn14" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וַתִּפָּקַחְנָה</foreign>
-                            . </note>
-                        <note xml:id="fn15" type="footnote">TKow.01: <emph>ki jalanɣačtylar</emph>.
-                            | H: <emph>ki jalanɣactylar</emph>. | C: <emph>ki jalanɣačtyrlar</emph>. </note>
-                        <note xml:id="fn16" type="footnote">K: <emph>berdi</emph>; a scribal error.
-                            | TKow.01: <emph>berdij</emph>. | H: <emph>berdin</emph>. | C:
+                             . </note>
+                        <note xml:id="Gen-003-fn15" type="footnote">TKow.01: <emph>ki
+                                jalanɣačtylar</emph>. | H: <emph>ki jalanɣactylar</emph>. | C:
+                                <emph>ki jalanɣačtyrlar</emph>. </note>
+                        <note xml:id="Gen-003-fn16" type="footnote">K: <emph>berdi</emph>; a scribal
+                            error. | TKow.01: <emph>berdij</emph>. | H: <emph>berdin</emph>. | C:
                                 <emph>berdiŋ</emph>. </note>
-                        <note xml:id="fn17" type="footnote">TKow.01: <emph>da</emph>. | H:
+                        <note xml:id="Gen-003-fn17" type="footnote">TKow.01: <emph>da</emph>. | H:
                                 <emph>da</emph>. | C: <emph>da</emph>. </note>
-                        <note xml:id="fn18" type="footnote">TKow.01: <emph>bitišin</emph>. | H:
-                                <emph>bitisin</emph>. | C: <emph>any</emph>. </note>
-                        <note xml:id="fn19" type="footnote">TKow.01: <emph>ötmek</emph>. | H:
-                                <emph>etmek</emph>. | C: <emph>ötmäk</emph>. </note>
-                        <note xml:id="fn20" type="footnote">Cf. Gen. 3:14. | TKow.01:
+                        <note xml:id="Gen-003-fn18" type="footnote">TKow.01: <emph>bitišin</emph>. |
+                            H: <emph>bitisin</emph>. | C: <emph>any</emph>. </note>
+                        <note xml:id="Gen-003-fn19" type="footnote">TKow.01: <emph>ötmek</emph>. |
+                            H: <emph>etmek</emph>. | C: <emph>ötmäk</emph>. </note>
+                        <note xml:id="Gen-003-fn20" type="footnote">Cf. Gen. 3:14. | TKow.01:
                                 <emph>topraqtyrsen</emph>. | H: <emph>topraq sensen</emph>. | C:
                                 <emph>topraqtyrsen</emph>. </note>
-                        <note xml:id="fn21" type="footnote">TKow.01: <emph>ošol</emph>. | H:
+                        <note xml:id="Gen-003-fn21" type="footnote">TKow.01: <emph>ošol</emph>. | H:
                                 <emph>osol</emph>. | C: <emph>šol</emph>. </note>
                     </app>
                 </listApp>

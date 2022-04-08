@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,62 +43,63 @@
                         <milestone unit="line" n="15" />
                         <l xml:id="Ps-082-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
                                 >פב׳ </foreign>
-                            (<foreign xml:lang="he" style="unicode-bidi: embed;">מזמור לאסף אלהים
+                             (<foreign xml:lang="he" style="unicode-bidi: embed;">מזמור לאסף אלהים
                                 נצב</foreign>
-                            )
+                             )
                             <milestone unit="line" n="16" />
-                            Mizmoru Asafnyn.</l>
+                             Mizmoru Asafnyn.</l>
                         <l n="1" xml:id="Ps-082-001">Šeḫinasy Tenrinin ʒymatynda tenrilik elnin
                             <milestone unit="line" n="17" />
-                            ortasynda terecilernin töre etedi.</l>
+                             ortasynda terecilernin töre etedi.</l>
                         <l n="2" xml:id="Ps-082-002"><supplied reason="lost"><foreign xml:lang="he"
                                     style="unicode-bidi: embed;">עד</foreign>
-                            </supplied><ref target="#fn1" type="noteAnchor" /> Qacanɣadejin
+                            </supplied><ref n="1" target="#Ps-082-fn1" type="noteAnchor" />
+                            Qacanɣadejin
                             <milestone unit="line" n="18" />
-                            tere etersiz avanlyq byla da jüzlerine rašaʿlarnyn jiz etersiz
+                             tere etersiz avanlyq byla da jüzlerine rašaʿlarnyn jiz etersiz
                             <milestone unit="line" n="19" />
-                            hammeše.</l>
+                             hammeše.</l>
                         <l n="3" xml:id="Ps-082-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">שפטו </foreign>
-                            Tere etiniz töresin jarlylarnyn da eksiz-
+                             Tere etiniz töresin jarlylarnyn da eksiz-
                             <milestone unit="line" n="20" />
-                            nin miskinni da jarlyny rast etiniz.</l>
+                             nin miskinni da jarlyny rast etiniz.</l>
                         <l n="4" xml:id="Ps-082-004"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">פלטו </foreign>
-                            Qutqarynyz miskinni
+                             Qutqarynyz miskinni
                             <milestone unit="line" n="21" />
-                            da jarlyny jolunuz alarny qolundan rašaʿlarnyn.</l>
+                             da jarlyny jolunuz alarny qolundan rašaʿlarnyn.</l>
                         <l n="5" xml:id="Ps-082-005"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לא </foreign>
-                            Bilmejdiler any
+                             Bilmejdiler any
                             <milestone unit="line" n="22" />
-                            anlamajdylar qaranɣylyqta jirijdiler tajadylar bar bunjatlary
+                             anlamajdylar qaranɣylyqta jirijdiler tajadylar bar bunjatlary
                             jernin.</l>
                         <milestone unit="line" n="23" />
                         <l n="6" xml:id="Ps-082-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אני </foreign>
-                            Men ajttym tenrilik elsiz siz da ulanlary joɣarɣy Tenrinin
+                             Men ajttym tenrilik elsiz siz da ulanlary joɣarɣy Tenrinin
                             <milestone unit="line" n="24" />
-                            barlarynyz.</l>
+                             barlarynyz.</l>
                         <l n="7" xml:id="Ps-082-007"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אכן </foreign>
-                            Körtiden har adam kibik elersiz da birisi kibik
+                             Körtiden har adam kibik elersiz da birisi kibik
                             <milestone unit="page" n="45v" />
                             <milestone unit="line" n="1" />
-                            ol aɣalyqlarnyn tisersiz.</l>
+                             ol aɣalyqlarnyn tisersiz.</l>
                         <l n="8" xml:id="Ps-082-008"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">קומה </foreign>
-                            Kücünnü körgizgin e Tenri
+                             Kücünnü körgizgin e Tenri
                             <milestone unit="line" n="2" />
-                            tere etkin ol jerni ki sen ilis berdin any bar ol ḥanlyqlarɣa.</l>
+                             tere etkin ol jerni ki sen ilis berdin any bar ol ḥanlyqlarɣa.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">The letters in the incipit are illegible.
-                            Corrected based on the Hebrew Bible.</note>
+                        <note xml:id="Ps-082-fn1" type="footnote">The letters in the incipit are
+                            illegible. Corrected based on the Hebrew Bible.</note>
                     </app>
                 </listApp>
             </div>

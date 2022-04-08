@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Song of Solomon 6</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Song of Solomon 6</title>
+                        <milestone unit="line" n="23" />
+                        <l xml:id="Song-006-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ו׳</foreign>
+                        </l>
+                        <milestone unit="line" n="24" />
+                        <l n="1" xml:id="Song-006-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אנה הלך </foreign>
+                             Qajri bardy süverin senin e körklirek qatynlar
+                            <milestone unit="page" n="148v" />
+                            <milestone unit="line" n="1" />
+                             arasyna qajri qajryldy süverin senin ki izlegejbiz any birgene
+                            <milestone unit="line" n="2" />
+                             senin.</l>
+                        <l n="2" xml:id="Song-006-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דודי </foreign>
+                             Süverim endi baɣyna ezinin jergesine ol
+                            <milestone unit="line" n="3" />
+                             ijisli kegetlernin tütilme baɣlarda da jystyrma <supplied reason="lost"
+                                >gilefliklerni. </supplied></l>
+                        <l n="3" xml:id="Song-006-003"><supplied reason="lost">
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">אני לדודי </foreign>
+                                 Men sivermen siver Tenrime da siver Tenrim siverdi mana ol
+                                titivci</supplied><ref n="1" target="#Song-006-fn1"
+                                type="noteAnchor" /> gilefler
+                            <milestone unit="line" n="4" />
+                             arasyna.</l>
+                        <l n="4" xml:id="Song-006-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יפה </foreign>
+                             Körklü sensen dostcam menim tirca kibik cebersen
+                            <milestone unit="line" n="5" />
+                             sen Jerušalajim kibik qorqunclu alamlanɣan avullar kibik.</l>
+                        <l n="5" xml:id="Song-006-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הסבי</foreign>
+                            <milestone unit="line" n="6" />
+                             Qajyrɣyn közlerinni qarsymdan menim ki alar kücejtediler meni cacyn
+                            <milestone unit="line" n="7" />
+                             senin belegi kibikti ol eckilernin qajsylaryn qyrqtylar tavyndan
+                            <milestone unit="line" n="8" />
+                             Gileʿadnyn.</l>
+                        <l n="6" xml:id="Song-006-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שניך </foreign>
+                             Tislerin senin belegi kibikti ol qojlarnyn qajsylar
+                            <milestone unit="line" n="9" />
+                             cyqtylar ol juvunmaqtan ki barlary egizeklejdiler da tuv etmek
+                            <milestone unit="line" n="10" />
+                             joḥtu alarda.</l>
+                        <l n="7" xml:id="Song-006-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כפלח </foreign>
+                             Kesegi kibikti ol granatovyj almanyn
+                            <milestone unit="line" n="11" />
+                             ceken senin ortasyndan kuderlerinnin senin.</l>
+                        <l n="8" xml:id="Song-006-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ששים </foreign>
+                             Altymysty
+                            <milestone unit="line" n="12" />
+                             alar malkalar da seksendi ḥupasyz qatynlar da qyzlar sansyz.</l>
+                        <milestone unit="line" n="13" />
+                        <l n="9" xml:id="Song-006-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אחת </foreign>
+                             Birdi ol tigircinim menim tigelcem birdi ol anasyna
+                            <milestone unit="line" n="14" />
+                             ezinin aruvdu ol tuvduruvcusuna kördiler any qyzlar da sanly
+                            <milestone unit="line" n="15" />
+                             ettiler any da ḥupasyz qatynlar da maḥtadylar any.</l>
+                        <l n="10" xml:id="Song-006-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מי</foreign>
+                            <milestone unit="line" n="16" />
+                             Kimdi bu ol baɣynuvcu šaḥar kibik körklü aj kibik aruv qujaš
+                            <milestone unit="line" n="17" />
+                             kibik qorqunclu alamlanɣan avullar kibik.</l>
+                        <l n="11" xml:id="Song-006-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                             Baɣyna qoznun
+                            <milestone unit="line" n="18" />
+                             endim körme bitislerin ol enislernin körme japraqlandymo
+                            <milestone unit="line" n="19" />
+                             ol vina aɣacy ceceklendilermo ol granatovyj almalar.</l>
+                        <l n="12" xml:id="Song-006-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא</foreign>
+                            <milestone unit="line" n="20" />
+                             Bilmejmen ʒanym menim qojdu meni markavlary kibik ʒomart ulusumnun.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Song-006-fn1" type="footnote">The last word of 6.2 and the
+                            major part of 6.3 is missing apart from the last two words which were
+                            appended to 6.2. Noteworthy, the same omission we find in the manuscript
+                            TKow.03 (fol. 145vo) also drown up by Joshua Joseph Mordkowicz, as well
+                            as in ADub.III.102.07 which was copied by an unidentified copyist. The
+                            omitted part has been reconstructed based on TKow.04 (fol. 124ro) in
+                            which the verse was originally also missing and added later on the left
+                            margin (perhaps by Mordkowicz himself).</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

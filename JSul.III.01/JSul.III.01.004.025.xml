@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,70 +40,79 @@
             <div type="edition">
                 <div type="textpart" subtype="chapter">
                     <ab><title>Numbers 25</title>
-                        <milestone unit="line" xml:id="Num025-P173r-L17" n="17" prev="JSul.III.01.004.024.xml#Num024-P173r-L17" />
+                        <milestone unit="line" xml:id="Num025-P173r-L17" n="17"
+                            prev="JSul.III.01.004.024.xml#Num024-P173r-L17" />
                         <l xml:id="Num-025-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
                                 >כה׳</foreign>
                         </l>
                         <milestone unit="line" n="18" />
                         <l n="1" xml:id="Num-025-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וישב </foreign>
-                            Da olturdu Jisraʾel Šitimde da baslady ol ulus
+                             Da olturdu Jisraʾel Šitimde da baslady ol ulus
                             <milestone unit="line" n="19" />
-                            azma qyzlaryna Moʾavnyn.</l><l n="2" xml:id="Num-025-002"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותקראן </foreign>
-                            Da indediler ulusnu
+                             azma qyzlaryna Moʾavnyn.</l>
+                        <l n="2" xml:id="Num-025-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותקראן </foreign>
+                             Da indediler ulusnu
                             <milestone unit="line" n="20" />
-                            debeḥalaryna abaqlarynyn da asady ol ulus da basurdular abaqlary-
+                             debeḥalaryna abaqlarynyn da asady ol ulus da basurdular abaqlary-
                             <milestone unit="line" n="21" />
-                            na alarnyn.</l><l n="3" xml:id="Num-025-003"><foreign xml:lang="he"
+                             na alarnyn.</l>
+                        <l n="3" xml:id="Num-025-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויצמד </foreign>
-                            Da qosuldu Jisraʾel abaɣyna Peʿornun da qabundu
+                             Da qosuldu Jisraʾel abaɣyna Peʿornun da qabundu
                             <milestone unit="line" n="22" />
-                            acuvu H-nyn Jisraʾelde.</l><l n="4" xml:id="Num-025-004"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty H Mošege<ref target="#fn1" type="noteAnchor" /> alɣyn osol
+                             acuvu H-nyn Jisraʾelde.</l>
+                        <l n="4" xml:id="Num-025-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty H Mošege<ref n="1" target="#Num-025-fn1" type="noteAnchor" />
+                            alɣyn osol
                             <milestone unit="line" n="23" />
-                            bar aɣaraqlaryn ol ulusnun da tirilej qazɣyn osol ol jazyqly
+                             bar aɣaraqlaryn ol ulusnun da tirilej qazɣyn osol ol jazyqly
                             <milestone unit="line" n="24" />
-                            boluvcularny H-ɣa qarsysyna ol qujasnyn qaḥir acuvu
+                             boluvcularny H-ɣa qarsysyna ol qujasnyn qaḥir acuvu
                             <milestone unit="line" n="25" />
-                            H-nyn Jisraʾelden.</l><l n="5" xml:id="Num-025-005"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty Moše terecilerine Jisraʾelnin
+                             H-nyn Jisraʾelden.</l>
+                        <l n="5" xml:id="Num-025-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Moše terecilerine Jisraʾelnin
                             <milestone unit="line" n="26" />
-                            eltiriniz kisi erenlerin özünin ol qosuluvcularny abaɣɣna
+                             eltiriniz kisi erenlerin özünin ol qosuluvcularny abaɣɣna
                             <milestone unit="line" n="27" />
-                            Peʿornun.</l><l n="6" xml:id="Num-025-006"><foreign xml:lang="he"
+                             Peʿornun.</l>
+                        <l n="6" xml:id="Num-025-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">והנה </foreign>
-                            Da muna kisi uvullaryndan Jisraʾelnin keldi
+                             Da muna kisi uvullaryndan Jisraʾelnin keldi
                             <milestone unit="page" n="173v" />
                             <milestone unit="line" n="1" />
-                            da juvuttu qaryndaslaryna osol ol Midjanly qatynny közlerice
+                             da juvuttu qaryndaslaryna osol ol Midjanly qatynny közlerice
                             <milestone unit="line" n="2" />
-                            Mošenin da közlerice bar ʒymatynyn uvullarynyn Jisraʾelnin da alar
+                             Mošenin da közlerice bar ʒymatynyn uvullarynyn Jisraʾelnin da alar
                             <milestone unit="line" n="3" />
-                            jylarediler esiginde ohel moʿednin.</l><l n="7" xml:id="Num-025-007"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">וירא </foreign>
-                            Da kördü Pinḥas
+                             jylarediler esiginde ohel moʿednin.</l>
+                        <l n="7" xml:id="Num-025-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירא </foreign>
+                             Da kördü Pinḥas
                             <milestone unit="line" n="4" />
-                            uvlu Eleʿazarnyn uvlunun Aharonnun ol kohennin da turdu ortasyn-
+                             uvlu Eleʿazarnyn uvlunun Aharonnun ol kohennin da turdu ortasyn-
                             <milestone unit="line" n="5" />
-                            dan ol ʒymatnyn da aldy singi qoluna.</l><l n="8" xml:id="Num-025-008"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויבוא </foreign>
-                            Da keldi Jisraʾel
+                             dan ol ʒymatnyn da aldy singi qoluna.</l>
+                        <l n="8" xml:id="Num-025-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבוא </foreign>
+                             Da keldi Jisraʾel
                             <milestone unit="line" n="6" />
-                            kisi artyna ol ḥuʒuraɣa da cancty osol eksilerinde
+                             kisi artyna ol ḥuʒuraɣa da cancty osol eksilerinde
                             <milestone unit="line" n="7" />
-                            osol Jisraʾel kisisin da osol ol qatynny aqsynyna da beklendi
+                             osol Jisraʾel kisisin da osol ol qatynny aqsynyna da beklendi
                             <milestone unit="line" n="8" />
-                            ol qyranc uvullary istinden Jisraʾelnin.</l><l n="9"
-                            xml:id="Num-025-009"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויהיו </foreign>
-                            Da ediler
+                             ol qyranc uvullary istinden Jisraʾelnin.</l>
+                        <l n="9" xml:id="Num-025-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהיו </foreign>
+                             Da ediler
                             <milestone unit="line" n="9" />
-                            ol elgenler qyrancta egirmi dert min.
+                             ol elgenler qyrancta egirmi dert min.
                             <milestone unit="line" n="10" />
-                            פפפ
+                             פפפ
                             <milestone unit="line" n="11" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">פרשת פינחס</foreign>
                             <milestone unit="line" n="12" />
@@ -115,74 +122,83 @@
                         <milestone unit="line" n="13" />
                         <l n="10" xml:id="Num-025-010">Da sözledi H Mošege ajtadoɣac. <foreign
                                 xml:lang="he" style="unicode-bidi: embed;">פינחס</foreign>
-                            .</l><l n="11" xml:id="Num-025-011">Pinḥas uvlu
+                             .</l>
+                        <l n="11" xml:id="Num-025-011">Pinḥas uvlu
                             <milestone unit="line" n="14" />
-                            Eleʿazarnyn uvlunun Aharonnun ol kohennin qajtardy osol qaḥirimni
+                             Eleʿazarnyn uvlunun Aharonnun ol kohennin qajtardy osol qaḥirimni
                             <milestone unit="line" n="15" />
-                            uvulary istinden Jisraʾelnin kinilegeninde osol kinilemegimni
+                             uvulary istinden Jisraʾelnin kinilegeninde osol kinilemegimni
                             <milestone unit="line" n="16" />
-                            ortalarynda alarnyn da tavusmadym osol uvullaryn Jisraʾelnin kinile-
+                             ortalarynda alarnyn da tavusmadym osol uvullaryn Jisraʾelnin kinile-
                             <milestone unit="line" n="17" />
-                            megim byla.</l><l n="12" xml:id="Num-025-012"><foreign xml:lang="he"
+                             megim byla.</l>
+                        <l n="12" xml:id="Num-025-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לכן </foreign>
-                            Anyn ücün ajtqyn muna men berimen anar osol
+                             Anyn ücün ajtqyn muna men berimen anar osol
                             <milestone unit="line" n="18" />
-                            sertimni bazlyqny.</l><l n="13" xml:id="Num-025-013"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">והיתה </foreign>
-                            Da bolur anar da urluɣuna anyn andan
+                             sertimni bazlyqny.</l>
+                        <l n="13" xml:id="Num-025-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיתה </foreign>
+                             Da bolur anar da urluɣuna anyn andan
                             <milestone unit="line" n="19" />
-                            sortun serti emirlik kohenliknin ol jal ücün ki kiniledi Tenrisi
+                             sortun serti emirlik kohenliknin ol jal ücün ki kiniledi Tenrisi
                             <milestone unit="line" n="20" />
-                            ücün da bosatlyq qoldu uvullary ücün Jisraʾelnin.</l><l n="14"
-                            xml:id="Num-025-014"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ושם </foreign>
-                            Da aty
+                             ücün da bosatlyq qoldu uvullary ücün Jisraʾelnin.</l>
+                        <l n="14" xml:id="Num-025-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושם </foreign>
+                             Da aty
                             <milestone unit="line" n="21" />
-                            Jisraʾel kisinin ol vatylɣan ki vatyldy ol Midjanly qatyn byla Zimri
+                             Jisraʾel kisinin ol vatylɣan ki vatyldy ol Midjanly qatyn byla Zimri
                             <milestone unit="line" n="22" />
-                            uvlu Saluʾnun nasisi ivinin atanyn Šimeʿonige.</l><l n="15"
-                            xml:id="Num-025-015"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ושם </foreign>
-                            Da aty
+                             uvlu Saluʾnun nasisi ivinin atanyn Šimeʿonige.</l>
+                        <l n="15" xml:id="Num-025-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושם </foreign>
+                             Da aty
                             <milestone unit="line" n="23" />
-                            ol Midjanly qatynnyn ol eltirilgen Kazbi qyzy Curnun aɣaraɣy uma-
+                             ol Midjanly qatynnyn ol eltirilgen Kazbi qyzy Curnun aɣaraɣy uma-
                             <milestone unit="line" n="24" />
-                            larnyn ivinin atanyn Midjanda ol.</l><l n="16" xml:id="Num-025-016"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>
-                            Da sözledi H Mošege
+                             larnyn ivinin atanyn Midjanda ol.</l>
+                        <l n="16" xml:id="Num-025-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                             Da sözledi H Mošege
                             <milestone unit="line" n="25" />
-                            ajtadoɣac.</l><l n="17" xml:id="Num-025-017"><foreign xml:lang="he"
+                             ajtadoɣac.</l>
+                        <l n="17" xml:id="Num-025-017"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">צרור </foreign>
-                            Tar etkin osol ol Midjanlylarɣa da vatynyz
+                             Tar etkin osol ol Midjanlylarɣa da vatynyz
                             <milestone unit="line" n="26" />
-                            alarny.</l><l n="18" xml:id="Num-025-018"><foreign xml:lang="he"
+                             alarny.</l>
+                        <l n="18" xml:id="Num-025-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כי </foreign>
-                            Ki tar etediler alar sizge jaman saɣyslary byla ki jaman
+                             Ki tar etediler alar sizge jaman saɣyslary byla ki jaman
                             <milestone unit="line" n="27" />
-                            saɣys ettiler sizge isi ücün Peʿornun da isi ücün Kazbinin
+                             saɣys ettiler sizge isi ücün Peʿornun da isi ücün Kazbinin
                             <milestone unit="page" n="174r" />
                             <milestone unit="line" n="1" />
-                            qyzynyn nasisinin Midjannyn tuvduqlarynyn elernin ol vatylɣan ol qyranc
+                             qyzynyn nasisinin Midjannyn tuvduqlarynyn elernin ol vatylɣan ol qyranc
                             <milestone unit="line" n="2" />
-                            künde isi ücün Peʿornun.</l><l n="19" xml:id="Num-025-019"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
-                            Da edi ol qyranctan
-                            <milestone unit="line" xml:id="Num025-P174r-L3" n="3" next="JSul.III.01.004.026.xml#Num026-P174r-L3" />
-                            sortun.<ref target="#fn2" type="noteAnchor" /><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">פסקא באמצע פסוק</foreign>
-                        </l></ab>
+                             künde isi ücün Peʿornun.</l>
+                        <l n="19" xml:id="Num-025-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                             Da edi ol qyranctan
+                            <milestone unit="line" xml:id="Num025-P174r-L3" n="3"
+                                next="JSul.III.01.004.026.xml#Num026-P174r-L3" />
+                             sortun.<ref n="2" target="#Num-025-fn2" type="noteAnchor" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">פסקא באמצע פסוק</foreign>
+                        </l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Underlined in pencil. The Hebrew remark
-                                <emph>baʿal Peʿor</emph> on the left margin refers most propbably to
-                            the line above (see, <emph>abaɣyna Peʿornun</emph>).</note>
-                        <note xml:id="fn2" type="footnote">Heb. ‘A passage in the middle of/inside
-                            this passage’. Traditionally the 19th verse of the chapter 25, i.e.
-                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי אחרי המגפה </foreign>
-                            is attached to Num 25.18, however, it is logically integrated with Num
+                        <note xml:id="Num-025-fn1" type="footnote">Underlined in pencil. The Hebrew
+                            remark <emph>baʿal Peʿor</emph> on the left margin refers most propbably
+                            to the line above (see, <emph>abaɣyna Peʿornun</emph>).</note>
+                        <note xml:id="Num-025-fn2" type="footnote">Heb. ‘A passage in the middle
+                            of/inside this passage’. Traditionally the 19th verse of the chapter 25,
+                            i.e. <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי אחרי המגפה </foreign>
+                             is attached to Num 25.18, however, it is logically integrated with Num
                             26.1. Therefore in the Bible translations this verse is usually moved to
                             the next chapter.</note>
                     </app>

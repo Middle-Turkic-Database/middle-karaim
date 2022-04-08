@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,201 +39,225 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title><supplied reason="lost">Deuteronomy 24</supplied><ref target="#fn1"
-                                type="noteAnchor" /></title>
+                    <ab><title><supplied reason="lost">Deuteronomy 24</supplied><ref n="1"
+                                target="#Deut-024-fn1" type="noteAnchor" /></title>
                         <milestone unit="line" n="13" />
                         <l n="1" xml:id="Deut-024-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כי </foreign>
-                            Ki alsa kiši qatyn da erlik etse anar
+                             Ki alsa kiši qatyn da erlik etse anar
                             <milestone unit="line" n="14" />
-                            da bolɣaj eger tapmasa širinlik közlerinde anyn
+                             da bolɣaj eger tapmasa širinlik közlerinde anyn
                             <milestone unit="line" n="15" />
-                            ki tapsa anda ajipli nerse da jazsyn anar get bi-
+                             ki tapsa anda ajipli nerse da jazsyn anar get bi-
                             <milestone unit="line" n="16" />
-                            tigi da bersin qoluna anyn da sürsün any üvün-
+                             tigi da bersin qoluna anyn da sürsün any üvün-
                             <milestone unit="line" n="17" />
-                            den.</l><l n="2" xml:id="Deut-024-002"><foreign xml:lang="he"
+                             den.</l>
+                        <l n="2" xml:id="Deut-024-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויצאה </foreign>
-                            Da čyqsa üvünden anyn da barsa
+                             Da čyqsa üvünden anyn da barsa
                             <milestone unit="line" n="18" />
-                            da bolsa özge kišige.</l><l n="3" xml:id="Deut-024-003"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ושנאה </foreign>
-                            Da ḥorlasa
+                             da bolsa özge kišige.</l>
+                        <l n="3" xml:id="Deut-024-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושנאה </foreign>
+                             Da ḥorlasa
                             <milestone unit="line" n="19" />
-                            any ol sonraɣy kiši da jazsa anar get bitigi da
+                             any ol sonraɣy kiši da jazsa anar get bitigi da
                             <milestone unit="line" n="20" />
-                            berse qoluna anyn da sürse any üvünden
+                             berse qoluna anyn da sürse any üvünden
                             <milestone unit="line" n="21" />
-                            jemese ki ölse ol sonraɣy kiši ki aldy any özüne
+                             jemese ki ölse ol sonraɣy kiši ki aldy any özüne
                             <milestone unit="page" n="320r" />
                             <milestone unit="line" n="1" />
-                            <supplied reason="lost">qaty</supplied>nlyqqa<ref target="#fn2"
-                                type="noteAnchor" />.</l><l n="4" xml:id="Deut-024-004"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לא </foreign>
-                            Bolalmasyn eri anyn ol burunɣu ki ij-
+                            <supplied reason="lost">qaty</supplied>nlyqqa<ref n="2"
+                                target="#Deut-024-fn2" type="noteAnchor" />.</l>
+                        <l n="4" xml:id="Deut-024-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                             Bolalmasyn eri anyn ol burunɣu ki ij-
                             <milestone unit="line" n="2" />
-                            di any qajtma alma any özüne qatynlyqqa andan
+                             di any qajtma alma any özüne qatynlyqqa andan
                             <milestone unit="line" n="3" />
-                            sortun ki jaramas bolundu ki jerenči išti ol alnyn-
+                             sortun ki jaramas bolundu ki jerenči išti ol alnyn-
                             <milestone unit="line" n="4" />
-                            da Adonajnyn da jazyqly etmegin ošol ol jerni ki Adonaj
+                             da Adonajnyn da jazyqly etmegin ošol ol jerni ki Adonaj
                             <milestone unit="line" n="5" />
-                            Tenrij beredi saja ülüš.</l><l n="5" xml:id="Deut-024-005"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-                            Ki alsa kiši janɣy
+                             Tenrij beredi saja ülüš.</l>
+                        <l n="5" xml:id="Deut-024-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                             Ki alsa kiši janɣy
                             <milestone unit="line" n="6" />
-                            qatyn čyqmasyn čerüvge da ašmasyn anyn ašyra heč
+                             qatyn čyqmasyn čerüvge da ašmasyn anyn ašyra heč
                             <milestone unit="line" n="7" />
-                            nemede könü bolsun üvünde bir jyl da bijendir-
+                             nemede könü bolsun üvünde bir jyl da bijendir-
                             <milestone unit="line" n="8" />
-                            sin ošol qatynyn ki aldy.</l><l n="6" xml:id="Deut-024-006"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לא </foreign>
-                            Tusnaq almasyn
+                             sin ošol qatynyn ki aldy.</l>
+                        <l n="6" xml:id="Deut-024-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                             Tusnaq almasyn
                             <milestone unit="line" n="9" />
-                            kiši üsttašyn tijirmennin da tüptašyn tijirmen-
+                             kiši üsttašyn tijirmennin da tüptašyn tijirmen-
                             <milestone unit="line" n="10" />
-                            nin ki jemin ǯannyn ol tusnaq aldy.</l><l n="7" xml:id="Deut-024-007"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-                            Ki tabul-
+                             nin ki jemin ǯannyn ol tusnaq aldy.</l>
+                        <l n="7" xml:id="Deut-024-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                             Ki tabul-
                             <milestone unit="line" n="11" />
-                            sa kiši urlavču ǯanny qaryndašlaryndan ulanlaryndan
+                             sa kiši urlavču ǯanny qaryndašlaryndan ulanlaryndan
                             <milestone unit="line" n="12" />
-                            Jisraʾelnin da savut išibyla jumušlansa anda da sat-
+                             Jisraʾelnin da savut išibyla jumušlansa anda da sat-
                             <milestone unit="line" n="13" />
-                            sa any da ölsün ol uru da eksitkin ol jaman-
+                             sa any da ölsün ol uru da eksitkin ol jaman-
                             <milestone unit="line" n="14" />
-                            ny ortajdan.</l><l n="8" xml:id="Deut-024-008"><foreign xml:lang="he"
+                             ny ortajdan.</l>
+                        <l n="8" xml:id="Deut-024-008"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">השמר </foreign>
-                            Saqlanɣyn özüje ḥastalyɣyn-
+                             Saqlanɣyn özüje ḥastalyɣyn-
                             <milestone unit="line" n="15" />
-                            dan ol caraʿatnyn saqlama astry da qylma barča ne-
+                             dan ol caraʿatnyn saqlama astry da qylma barča ne-
                             <milestone unit="line" n="16" />
-                            čik ki üvretseler sizni ol kohenler ol Levililer ki
+                             čik ki üvretseler sizni ol kohenler ol Levililer ki
                             <milestone unit="line" n="17" />
-                            nečik bujurdum alarɣa saqlajyz qylma.</l><l n="9" xml:id="Deut-024-009"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">זכור </foreign>
-                            Saɣyn-
+                             nečik bujurdum alarɣa saqlajyz qylma.</l>
+                        <l n="9" xml:id="Deut-024-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זכור </foreign>
+                             Saɣyn-
                             <milestone unit="line" n="18" />
-                            ɣyn ošol ne ki qyldy Adonaj Tenri Mirjamɣa jolda
+                             ɣyn ošol ne ki qyldy Adonaj Tenri Mirjamɣa jolda
                             <milestone unit="line" n="19" />
-                            čyqqanyjyzda Micriden.</l><l n="10" xml:id="Deut-024-010"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-                            Ki borčqa bersej dostu-
+                             čyqqanyjyzda Micriden.</l>
+                        <l n="10" xml:id="Deut-024-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                             Ki borčqa bersej dostu-
                             <milestone unit="line" n="20" />
-                            ja nendijde borč kelmegin üvüne anyn tusnaq
+                             ja nendijde borč kelmegin üvüne anyn tusnaq
                             <milestone unit="line" n="21" />
-                            alma tusnaɣyn.</l><l n="11" xml:id="Deut-024-011"><foreign xml:lang="he"
+                             alma tusnaɣyn.</l>
+                        <l n="11" xml:id="Deut-024-011"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">בחוץ </foreign>
-                            Tyšqaryda turɣun da ol
+                             Tyšqaryda turɣun da ol
                             <milestone unit="page" n="320v" />
                             <milestone unit="line" n="1" />
-                            kiši ki sen borčqa beresen anar čyɣarsyn saja ol tusnaqny ol
+                             kiši ki sen borčqa beresen anar čyɣarsyn saja ol tusnaqny ol
                             <milestone unit="line" n="2" />
-                            tyšqaryɣa.</l><l n="12" xml:id="Deut-024-012"><foreign xml:lang="he"
+                             tyšqaryɣa.</l>
+                        <l n="12" xml:id="Deut-024-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואם </foreign>
-                            Da eger miskin kiši ese ol jat-
+                             Da eger miskin kiši ese ol jat-
                             <milestone unit="line" n="3" />
-                            maɣyn tusnaɣybyla anyn.</l><l n="13" xml:id="Deut-024-013"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">השב </foreign>
-                            Qajtarma qajtarɣyn anar
+                             maɣyn tusnaɣybyla anyn.</l>
+                        <l n="13" xml:id="Deut-024-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">השב </foreign>
+                             Qajtarma qajtarɣyn anar
                             <milestone unit="line" n="4" />
-                            ošol ol tusnaqny engečoq ol qujaš da jatsyn upraɣyby-
+                             ošol ol tusnaqny engečoq ol qujaš da jatsyn upraɣyby-
                             <milestone unit="line" n="5" />
-                            la da alɣyšlar seni da saja bolur zeḫut alnynda Adonaj-
+                             la da alɣyšlar seni da saja bolur zeḫut alnynda Adonaj-
                             <milestone unit="line" n="6" />
-                            nyn Tenrijnin.</l><l n="14" xml:id="Deut-024-014"><foreign xml:lang="he"
+                             nyn Tenrijnin.</l>
+                        <l n="14" xml:id="Deut-024-014"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לא </foreign>
-                            Zulumlamaɣyn jalyn jalčynyn miskin-
+                             Zulumlamaɣyn jalyn jalčynyn miskin-
                             <milestone unit="line" n="7" />
-                            nin da jarlynyn qaryndašlaryjdan jemese ɣaripdan ki jerij-
+                             nin da jarlynyn qaryndašlaryjdan jemese ɣaripdan ki jerij-
                             <milestone unit="line" n="8" />
-                            de šaharlaryjda.</l><l n="15" xml:id="Deut-024-015"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ביומו </foreign>
-                            Kününde bergin anar
+                             de šaharlaryjda.</l>
+                        <l n="15" xml:id="Deut-024-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ביומו </foreign>
+                             Kününde bergin anar
                             <milestone unit="line" n="9" />
-                            jalyn da enmesin anyn üstüne ol qujaš ki miskin-
+                             jalyn da enmesin anyn üstüne ol qujaš ki miskin-
                             <milestone unit="line" n="10" />
-                            dir ol da anar ol išandyrdy <addSpan spanTo="#add001"
-                                 /><emph>ošol</emph><anchor xml:id="add001" /><ref target="#fn3"
-                                type="noteAnchor" /> ǯanyn özünün da čaɣyr-
+                             dir ol da anar ol išandyrdy <addSpan spanTo="#Deut-024-add001"
+                                 /><emph>ošol</emph><anchor xml:id="Deut-024-add001" type="addSpan"
+                                 /><ref n="3" target="#Deut-024-fn3" type="noteAnchor" /> ǯanyn
+                            özünün da čaɣyr-
                             <milestone unit="line" n="11" />
-                            masyn ü<addSpan spanTo="#add002" />s<anchor xml:id="add002" />tüje
-                            Adonajɣa da bolur sende jazyq.</l><l n="16" xml:id="Deut-024-016"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לא</foreign>
+                             masyn ü<addSpan spanTo="#Deut-024-add002" />s<anchor
+                                xml:id="Deut-024-add002" type="addSpan" />tüje Adonajɣa da bolur
+                            sende jazyq.</l>
+                        <l n="16" xml:id="Deut-024-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא</foreign>
                             <milestone unit="line" n="12" />
-                            Öltürülmesinler atalar ulanlar üčün da ulanlar
+                             Öltürülmesinler atalar ulanlar üčün da ulanlar
                             <milestone unit="line" n="13" />
-                            öltürülmesinler atalar üčün har kiši öz jazyɣy
+                             öltürülmesinler atalar üčün har kiši öz jazyɣy
                             <milestone unit="line" n="14" />
-                            üčün öltürülsü<addSpan spanTo="#add003" />n<anchor xml:id="add003"
-                             />ler.</l><l n="17" xml:id="Deut-024-017"><foreign xml:lang="he"
+                             üčün öltürülsü<addSpan spanTo="#Deut-024-add003" />n<anchor
+                                xml:id="Deut-024-add003" type="addSpan" />ler.</l>
+                        <l n="17" xml:id="Deut-024-017"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לא </foreign>
-                            Tajdyrmaɣyn töresin ɣari<supplied reason="lost">pnin</supplied><ref
-                                target="#fn4" type="noteAnchor" />
+                             Tajdyrmaɣyn töresin ɣari<supplied reason="lost">pnin</supplied><ref
+                                n="4" target="#Deut-024-fn4" type="noteAnchor" />
                             <milestone unit="line" n="15" />
-                            da öksüznün da tusnaq almaɣyn upraɣyn tulnun.</l>
+                             da öksüznün da tusnaq almaɣyn upraɣyn tulnun.</l>
                         <milestone unit="line" n="16" />
                         <l n="18" xml:id="Deut-024-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וזכרת </foreign>
-                            Da saɣynɣyn ki qul edij jerinde Micrinin
+                             Da saɣynɣyn ki qul edij jerinde Micrinin
                             <milestone unit="line" n="17" />
-                            da juludu seni Adonaj Tenrij andan anyn üčün men bujuramen
+                             da juludu seni Adonaj Tenrij andan anyn üčün men bujuramen
                             <milestone unit="line" n="18" />
-                            saja qylma ošol ol išni ošpunu.</l><l n="19" xml:id="Deut-024-019"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-                            Ki or-
+                             saja qylma ošol ol išni ošpunu.</l>
+                        <l n="19" xml:id="Deut-024-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                             Ki or-
                             <milestone unit="line" n="19" />
-                            saj ormaɣyjny tüzüjde da unutsaj külte <addSpan spanTo="#add004"
-                                 /><emph>tüzde</emph><anchor xml:id="add004" /><ref target="#fn5"
-                                type="noteAnchor" /> qajtmaɣyn
+                             saj ormaɣyjny tüzüjde da unutsaj külte <addSpan
+                                spanTo="#Deut-024-add004" /><emph>tüzde</emph><anchor
+                                xml:id="Deut-024-add004" type="addSpan" /><ref n="5"
+                                target="#Deut-024-fn5" type="noteAnchor" /> qajtmaɣyn
                             <milestone unit="line" n="20" />
-                            alma any ɣaripke öksüzge da tulɣa bolsun
+                             alma any ɣaripke öksüzge da tulɣa bolsun
                             <milestone unit="line" n="21" />
-                            anyn üčün ki alɣyšlaɣaj seni Adonaj Tenrij bar išinde
+                             anyn üčün ki alɣyšlaɣaj seni Adonaj Tenrij bar išinde
                             <milestone unit="page" n="321r" />
                             <milestone unit="line" n="1" />
-                            qollaryjnyn.</l><l n="20" xml:id="Deut-024-020"><foreign xml:lang="he"
+                             qollaryjnyn.</l>
+                        <l n="20" xml:id="Deut-024-020"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כי </foreign>
-                            Ki qaqsaj zejtunujnu inčkelemegin ö-
+                             Ki qaqsaj zejtunujnu inčkelemegin ö-
                             <milestone unit="line" n="2" />
-                            züjartyna ɣaripge öksüzge da tulɣa bolsun.</l>
+                             züjartyna ɣaripge öksüzge da tulɣa bolsun.</l>
                         <milestone unit="line" n="3" />
                         <l n="21" xml:id="Deut-024-021"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כי </foreign>
-                            Ki jyštyrsaj borlalyɣyjny čirkillemegin özüj-
+                             Ki jyštyrsaj borlalyɣyjny čirkillemegin özüj-
                             <milestone unit="line" n="4" />
-                            artyna ɣaripge öksüzge da tulɣa bolsun.</l>
+                             artyna ɣaripge öksüzge da tulɣa bolsun.</l>
                         <milestone unit="line" n="5" />
                         <l n="22" xml:id="Deut-024-022"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וזכרת </foreign>
-                            Da saɣynɣyn ki qul edi<supplied reason="lost">j</supplied><ref
-                                target="#fn6" type="noteAnchor" /> jerinde Micrinin
+                             Da saɣynɣyn ki qul edi<supplied reason="lost">j</supplied><ref n="6"
+                                target="#Deut-024-fn6" type="noteAnchor" /> jerinde Micrinin
                             <milestone unit="line" n="6" />
-                            anyn üčün men bujuramen saja <addSpan spanTo="#add005" />qylma<anchor
-                                xml:id="add005" /> ošol ol išni ošpunu.</l></ab>
+                             anyn üčün men bujuramen saja <addSpan spanTo="#Deut-024-add005"
+                                 />qylma<anchor xml:id="Deut-024-add005" type="addSpan" /> ošol ol
+                            išni ošpunu.</l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">K: The chapter number is not indicated. |
-                            TKow.01: Deu 24. | H: The chapter number is not indicated. | C: Deu 24.
-                            | Hebrew Bible: Deu 24.</note>
-                        <note xml:id="fn2" type="footnote">Catchword: <emph>qatynlyqqa</emph>. |
-                            TKow.01: <emph>qatynlyqqa</emph>; unvocalized text. | H:
-                                <emph>qatynlyqqa</emph>. | C: <emph>ḫatynlyqqa</emph>.</note>
-                        <note xml:id="fn3" type="footnote">Marginal insertion by another hand. |
-                            TKow.01: deest; unvocalized text. | H: <emph>osol</emph>. | C:
+                        <note xml:id="Deut-024-fn1" type="footnote">K: The chapter number is not
+                            indicated. | TKow.01: Deu 24. | H: The chapter number is not indicated.
+                            | C: Deu 24. | Hebrew Bible: Deu 24.</note>
+                        <note xml:id="Deut-024-fn2" type="footnote">Catchword:
+                                <emph>qatynlyqqa</emph>. | TKow.01: <emph>qatynlyqqa</emph>;
+                            unvocalized text. | H: <emph>qatynlyqqa</emph>. | C:
+                                <emph>ḫatynlyqqa</emph>.</note>
+                        <note xml:id="Deut-024-fn3" type="footnote">Marginal insertion by another
+                            hand. | TKow.01: deest; unvocalized text. | H: <emph>osol</emph>. | C:
                                 <emph>šol</emph>.</note>
-                        <note xml:id="fn4" type="footnote">TKow.01: <emph>ɣaripnin</emph>;
+                        <note xml:id="Deut-024-fn4" type="footnote">TKow.01: <emph>ɣaripnin</emph>;
                             unvocalized text. | H: <emph>garipnin</emph>. | C:
                             <emph>ɣaripniŋ</emph>.</note>
-                        <note xml:id="fn5" type="footnote">Marginal insertion by another hand. |
-                            TKow.01: <emph>tüzde</emph>; unvocalized text. | H: <emph>tizde</emph>.
-                            | C: <emph>tarlovda</emph>.</note>
-                        <note xml:id="fn6" type="footnote">K: <emph>edi</emph>; a scribal error. |
-                            TKow.01: <emph>edij</emph>; unvocalized text. | H: <emph>edin</emph>. |
-                            C: <emph>ediŋ</emph>.</note>
+                        <note xml:id="Deut-024-fn5" type="footnote">Marginal insertion by another
+                            hand. | TKow.01: <emph>tüzde</emph>; unvocalized text. | H:
+                                <emph>tizde</emph>. | C: <emph>tarlovda</emph>.</note>
+                        <note xml:id="Deut-024-fn6" type="footnote">K: <emph>edi</emph>; a scribal
+                            error. | TKow.01: <emph>edij</emph>; unvocalized text. | H:
+                                <emph>edin</emph>. | C: <emph>ediŋ</emph>.</note>
                     </app>
                 </listApp>
             </div>

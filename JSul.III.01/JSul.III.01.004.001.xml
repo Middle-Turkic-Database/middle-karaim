@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -44,14 +42,15 @@
                     <ab><title>Numbers 1</title>
                         <milestone unit="page" n="141r" />
                         <milestone unit="line" n="1" />
-                        <l xml:id="Num-001-x001"><seg type="commented" corresp="#seg001" /><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ובעזרת יהוה אלהינו המושל
-                                בכל רודים׃ ומניח נעים ונדים׃</foreign>
+                        <l xml:id="Num-001-x001"><seg type="commented" corresp="#Num-001-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">ובעזרת יהוה
+                                אלהינו המושל בכל רודים׃ ומניח נעים ונדים׃</foreign>
                             <milestone unit="line" n="2" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אחל לכתוב בפשט את
                                 ספר במדבר שהוא חומש הפקודים׃</foreign>
                             <milestone unit="line" n="3" />
-                            <ref target="#fn1" type="noteAnchor" /><seg type="commented" corresp="#seg002" />
+                            <ref n="1" target="#Num-001-fn1" type="noteAnchor" /><seg
+                                type="commented" corresp="#Num-001-seg002" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">והוא יתעלה יסייעני
                                 ויחזיק ידי הכבדים׃ וזה החלי</foreign>
                             <milestone unit="line" n="4" />
@@ -62,316 +61,347 @@
                                 סיני באהל מועד</foreign>
                         </l>
                         <milestone unit="line" n="3" />
-                        <l n="1" xml:id="Num-001-001">Da sözledi H Mošege midbarynda Sinajnyn ohel moʿedde
+                        <l n="1" xml:id="Num-001-001">Da sözledi H Mošege midbarynda Sinajnyn ohel
+                            moʿedde
                             <milestone unit="line" n="4" />
-                            burunɣu küninde ol ekinci ajnyn ol ekinci
+                             burunɣu küninde ol ekinci ajnyn ol ekinci
                             <milestone unit="line" n="5" />
-                            jylda cyqmaqlaryna jerinden Micrinin ajtadoɣac.</l><l n="2"
-                            xml:id="Num-001-002"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >שאו </foreign>
-                            Sanyn
+                             jylda cyqmaqlaryna jerinden Micrinin ajtadoɣac.</l>
+                        <l n="2" xml:id="Num-001-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שאו </foreign>
+                             Sanyn
                             <milestone unit="line" n="6" />
-                            alynyz osol sanyn basynyn bar ʒymatynyn uvullarynyn Jisraʾelnin
+                             alynyz osol sanyn basynyn bar ʒymatynyn uvullarynyn Jisraʾelnin
                             <milestone unit="line" n="7" />
-                            uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn bar erkekni
+                             uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn bar erkekni
                             <milestone unit="line" n="8" />
-                            baslary sajyn.</l><l n="3" xml:id="Num-001-003"><foreign xml:lang="he"
+                             baslary sajyn.</l>
+                        <l n="3" xml:id="Num-001-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מבן </foreign>
-                            Egirmi jastan da joɣarraq bar cyɣuvcunu
+                             Egirmi jastan da joɣarraq bar cyɣuvcunu
                             <milestone unit="line" n="9" />
-                            cerivge Jisraʾelde sananyz alarny cerivleri sajyn sen da Aharon.</l>
+                             cerivge Jisraʾelde sananyz alarny cerivleri sajyn sen da Aharon.</l>
                         <milestone unit="line" n="10" />
                         <l n="4" xml:id="Num-001-004"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואתכם </foreign>
-                            Da birgenizge siznin bolsunlar birer kisi ševetke aɣaraq
+                             Da birgenizge siznin bolsunlar birer kisi ševetke aɣaraq
                             <milestone unit="line" n="11" />
-                            kisi ivi sajyn atalarynyn ol.</l><l n="5" xml:id="Num-001-005"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ואלה </foreign>
-                            Da bulardylar atlary ol
+                             kisi ivi sajyn atalarynyn ol.</l>
+                        <l n="5" xml:id="Num-001-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואלה </foreign>
+                             Da bulardylar atlary ol
                             <milestone unit="line" n="12" />
-                            erenlernin ki turɣajlar birgenizge siznin Reʾuvenge Elicur uvlu
+                             erenlernin ki turɣajlar birgenizge siznin Reʾuvenge Elicur uvlu
                             <milestone unit="line" n="13" />
-                            Šedeʾurnun.</l><l n="6" xml:id="Num-001-006"><foreign xml:lang="he"
+                             Šedeʾurnun.</l>
+                        <l n="6" xml:id="Num-001-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לשמעון </foreign>
-                            Šimeʿonɣa Šelumiʾel uvlu Curišadajnyn.</l>
+                             Šimeʿonɣa Šelumiʾel uvlu Curišadajnyn.</l>
                         <milestone unit="line" n="14" />
                         <l n="7" xml:id="Num-001-007"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ליהודה </foreign>
-                            Juhudaɣa Naḥšon uvlu ʿAminadavnyn.</l>
+                             Juhudaɣa Naḥšon uvlu ʿAminadavnyn.</l>
                         <milestone unit="line" n="15" />
                         <l n="8" xml:id="Num-001-008"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ליששכר </foreign>
-                            Jissaḫarɣa
+                             Jissaḫarɣa
                             <milestone unit="page" n="141v" />
                             <milestone unit="line" n="1" />
-                            Netanʾel uvlu Cuʿarnyn.</l><l n="9" xml:id="Num-001-009"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לזבולן </foreign>
-                            Zevulunɣa Eliʾav uvlu Ḥelonnun.</l>
+                             Netanʾel uvlu Cuʿarnyn.</l>
+                        <l n="9" xml:id="Num-001-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לזבולן </foreign>
+                             Zevulunɣa Eliʾav uvlu Ḥelonnun.</l>
                         <milestone unit="line" n="2" />
                         <l n="10" xml:id="Num-001-010"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Josefnin Efrajimge Elišamaʾ uvlu ʾAmihudnun
+                             Uvullaryna Josefnin Efrajimge Elišamaʾ uvlu ʾAmihudnun
                             <milestone unit="line" n="3" />
-                            Menašege Gamliʾel uvlu Pedahcurnun.</l><l n="11" xml:id="Num-001-011"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לבנימן </foreign>
-                            Binjaminge Avidan
+                             Menašege Gamliʾel uvlu Pedahcurnun.</l>
+                        <l n="11" xml:id="Num-001-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבנימן </foreign>
+                             Binjaminge Avidan
                             <milestone unit="line" n="4" />
-                            uvlu Gideʿoninin.</l><l n="12" xml:id="Num-001-012"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לדן </foreign>
-                            Danɣa Aḥiʿezer uvlu ʿAmišadajnyn.</l><l n="13" xml:id="Num-001-013"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לאשר</foreign>
+                             uvlu Gideʿoninin.</l>
+                        <l n="12" xml:id="Num-001-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לדן </foreign>
+                             Danɣa Aḥiʿezer uvlu ʿAmišadajnyn.</l>
+                        <l n="13" xml:id="Num-001-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לאשר</foreign>
                             <milestone unit="line" n="5" />
-                            Ašerge Paɣʿiʾel uvlu Akrannyn.</l><l n="14" xml:id="Num-001-014"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לגד </foreign>
-                            Gadɣa Elijasaf uvlu
+                             Ašerge Paɣʿiʾel uvlu Akrannyn.</l>
+                        <l n="14" xml:id="Num-001-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לגד </foreign>
+                             Gadɣa Elijasaf uvlu
                             <milestone unit="line" n="6" />
-                            Deʿuʾelnin.</l><l n="15" xml:id="Num-001-015"><foreign xml:lang="he"
+                             Deʿuʾelnin.</l>
+                        <l n="15" xml:id="Num-001-015"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לנפתלי </foreign>
-                            Naftalige Aḥiraʿ uvlu ʿEnannyn.</l><l n="16" xml:id="Num-001-016"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
-                            Bular-
+                             Naftalige Aḥiraʿ uvlu ʿEnannyn.</l>
+                        <l n="16" xml:id="Num-001-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אלה </foreign>
+                             Bular-
                             <milestone unit="line" n="7" />
-                            dylar indelmisleri ol ʒymatnyn nasileri ševetlerinin atalarynyn
+                             dylar indelmisleri ol ʒymatnyn nasileri ševetlerinin atalarynyn
                             <milestone unit="line" n="8" />
-                            aɣaraqlary minlerinin Jisraʾelnin alar.</l><l n="17"
-                            xml:id="Num-001-017"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויקח </foreign>
-                            Da aldy Moše da Aharon
+                             aɣaraqlary minlerinin Jisraʾelnin alar.</l>
+                        <l n="17" xml:id="Num-001-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקח </foreign>
+                             Da aldy Moše da Aharon
                             <milestone unit="line" n="9" />
-                            osol ol erenlerni ol uspularny ki belgilendiler atlar byla.</l>
+                             osol ol erenlerni ol uspularny ki belgilendiler atlar byla.</l>
                         <milestone unit="line" n="10" />
                         <l n="18" xml:id="Num-001-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואת </foreign>
-                            Da osol ol bar ʒymatny ystyrttylar burunɣu küninde
+                             Da osol ol bar ʒymatny ystyrttylar burunɣu küninde
                             <milestone unit="line" n="11" />
-                            ol ekinci ajnyn da jaḥaslandylar uruvlary sajyn ivi sajyn atalarynyn
+                             ol ekinci ajnyn da jaḥaslandylar uruvlary sajyn ivi sajyn atalarynyn
                             <milestone unit="line" n="12" />
-                            sany byla atlarnyn egirmi jastan da joɣarraq baslary sajyn.</l><l n="19"
-                            xml:id="Num-001-019"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >כאשר</foreign>
+                             sany byla atlarnyn egirmi jastan da joɣarraq baslary sajyn.</l>
+                        <l n="19" xml:id="Num-001-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כאשר</foreign>
                             <milestone unit="line" n="13" />
-                            Ki necik bujurdu H Mošege da sanady alarny midbarynda Sinajnyn.</l>
+                             Ki necik bujurdu H Mošege da sanady alarny midbarynda Sinajnyn.</l>
                         <milestone unit="line" n="14" />
                         <l n="20" xml:id="Num-001-020"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהיו </foreign>
-                            Da ediler uvullary Reʾuvennin tunɣucunun Jisraʾelnin
+                             Da ediler uvullary Reʾuvennin tunɣucunun Jisraʾelnin
                             <milestone unit="line" n="15" />
-                            tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla
+                             tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla
                             <milestone unit="line" n="16" />
-                            atlarnyn baslary sajyn bar erkek egirmi jastan da joɣarraq bar cyɣuvcu
+                             atlarnyn baslary sajyn bar erkek egirmi jastan da joɣarraq bar cyɣuvcu
                             <milestone unit="line" n="17" />
-                            cerivge.</l><l n="21" xml:id="Num-001-021"><foreign xml:lang="he"
+                             cerivge.</l>
+                        <l n="21" xml:id="Num-001-021"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn Reʾuvennin qyrq
+                             Sanalɣanlary alarnyn ševeti sajyn Reʾuvennin qyrq
                             <milestone unit="line" n="18" />
-                            alty min da bes iz.</l><l n="22" xml:id="Num-001-022"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Šimeʿonnun tuvmuslary
-                            <milestone unit="line" n="19" />
-                            alarnyn uruvlary sajyn ivi sajyn atalarynyn sanalɣanlary anyn sany byla
-                            <milestone unit="line" n="20" />
-                            atlarnyn baslary sajyn bar erkek egirmi jastan da joɣarraq bar
-                            <milestone unit="line" n="21" />
-                            cyɣuvcu cerivge.</l><l n="23" xml:id="Num-001-023"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn Šimeʿon-
-                            <milestone unit="line" n="22" />
-                            nun enli toɣuz min da ic iz.</l><l n="24" xml:id="Num-001-024"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Gadnyn tuvmus-
-                            <milestone unit="line" n="23" />
-                            lary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn
-                            <milestone unit="line" n="24" />
-                            egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l><l n="25"
-                            xml:id="Num-001-025"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >פקודיהם</foreign>
-                            <milestone unit="line" n="25" />
-                            Sanalɣanlary alarnyn ševeti sajyn Gadnyn qyrq bes min da alty iz da
-                            <milestone unit="line" n="26" />
-                            enli.</l><l n="26" xml:id="Num-001-026"><foreign xml:lang="he"
+                             alty min da bes iz.</l>
+                        <l n="22" xml:id="Num-001-022"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Juhudanyn tuvmuslary alarnyn uruvlary
+                             Uvullaryna Šimeʿonnun tuvmuslary
+                            <milestone unit="line" n="19" />
+                             alarnyn uruvlary sajyn ivi sajyn atalarynyn sanalɣanlary anyn sany byla
+                            <milestone unit="line" n="20" />
+                             atlarnyn baslary sajyn bar erkek egirmi jastan da joɣarraq bar
+                            <milestone unit="line" n="21" />
+                             cyɣuvcu cerivge.</l>
+                        <l n="23" xml:id="Num-001-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti sajyn Šimeʿon-
+                            <milestone unit="line" n="22" />
+                             nun enli toɣuz min da ic iz.</l>
+                        <l n="24" xml:id="Num-001-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna Gadnyn tuvmus-
+                            <milestone unit="line" n="23" />
+                             lary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn
+                            <milestone unit="line" n="24" />
+                             egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="25" xml:id="Num-001-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם</foreign>
+                            <milestone unit="line" n="25" />
+                             Sanalɣanlary alarnyn ševeti sajyn Gadnyn qyrq bes min da alty iz da
+                            <milestone unit="line" n="26" />
+                             enli.</l>
+                        <l n="26" xml:id="Num-001-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna Juhudanyn tuvmuslary alarnyn uruvlary
                             <milestone unit="line" n="27" />
-                            sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da
+                             sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da
                             <milestone unit="page" n="142r" />
                             <milestone unit="line" n="1" />
-                            joɣarraq bar cyɣuvcu cerivge.</l><l n="27" xml:id="Num-001-027"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti
+                             joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="27" xml:id="Num-001-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti
                             <milestone unit="line" n="2" />
-                            sajyn Juhudanyn jetmis dert min da alty iz.</l><l n="28"
-                            xml:id="Num-001-028"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >לבני </foreign>
-                            Uvullaryna
+                             sajyn Juhudanyn jetmis dert min da alty iz.</l>
+                        <l n="28" xml:id="Num-001-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna
                             <milestone unit="line" n="3" />
-                            Jissaḫarnyn tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany
+                             Jissaḫarnyn tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany
                             <milestone unit="line" n="4" />
-                            byla atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l>
+                             byla atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l>
                         <milestone unit="line" n="5" />
                         <l n="29" xml:id="Num-001-029"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn Jissaḫarnyn enli dert min da
+                             Sanalɣanlary alarnyn ševeti sajyn Jissaḫarnyn enli dert min da
                             <milestone unit="line" n="6" />
-                            dert iz.</l><l n="30" xml:id="Num-001-030"><foreign xml:lang="he"
+                             dert iz.</l>
+                        <l n="30" xml:id="Num-001-030"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Zevulunnun tuvmuslary alarnyn uruv-
+                             Uvullaryna Zevulunnun tuvmuslary alarnyn uruv-
                             <milestone unit="line" n="7" />
-                            lary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da
+                             lary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da
                             <milestone unit="line" n="8" />
-                            joɣarraq bar cyɣuvcu cerivge.</l><l n="31" xml:id="Num-001-031"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti
+                             joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="31" xml:id="Num-001-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti
                             <milestone unit="line" n="9" />
-                            sajyn Zevulunnun enli jedi min da der iz.</l><l n="32"
-                            xml:id="Num-001-032"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >לבני </foreign>
-                            Uvullaryna
+                             sajyn Zevulunnun enli jedi min da der iz.</l>
+                        <l n="32" xml:id="Num-001-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna
                             <milestone unit="line" n="10" />
-                            Josefnin uvullaryna Efrajimnin tuvmuslary alarnyn uruvlary sajyn
+                             Josefnin uvullaryna Efrajimnin tuvmuslary alarnyn uruvlary sajyn
                             <milestone unit="line" n="11" />
-                            ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da joɣarraq
+                             ivi sajyn atalarynyn sany byla atlarnyn egirmi jastan da joɣarraq
                             <milestone unit="line" n="12" />
-                            bar cyɣuvcu cerivge.</l><l n="33" xml:id="Num-001-033"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn
+                             bar cyɣuvcu cerivge.</l>
+                        <l n="33" xml:id="Num-001-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti sajyn
                             <milestone unit="line" n="13" />
-                            Efrajimnin qyrq min da bes iz.</l><l n="34" xml:id="Num-001-034"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Menašenin
+                             Efrajimnin qyrq min da bes iz.</l>
+                        <l n="34" xml:id="Num-001-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna Menašenin
                             <milestone unit="line" n="14" />
-                            tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla
+                             tuvmuslary alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla
                             <milestone unit="line" n="15" />
-                            atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l><l n="35"
-                            xml:id="Num-001-035"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >פקודיהם</foreign>
+                             atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="35" xml:id="Num-001-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם</foreign>
                             <milestone unit="line" n="16" />
-                            Sanalɣanlary alarnyn ševeti sajyn Menašenin otuz eki min da eki iz.</l>
+                             Sanalɣanlary alarnyn ševeti sajyn Menašenin otuz eki min da eki iz.</l>
                         <milestone unit="line" n="17" />
                         <l n="36" xml:id="Num-001-036"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Binjaminnin tuvmuslary alarnyn uruvlary sajyn ivi
+                             Uvullaryna Binjaminnin tuvmuslary alarnyn uruvlary sajyn ivi
                             <milestone unit="line" n="18" />
-                            sajyn atalarynyn sany byla atlarnyn egirmi jastan da joɣarraq bar
+                             sajyn atalarynyn sany byla atlarnyn egirmi jastan da joɣarraq bar
                             <milestone unit="line" n="19" />
-                            cyɣuvcu cerivge.</l><l n="37" xml:id="Num-001-037"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn Binjaminnin
-                            <milestone unit="line" n="20" />
-                            otuz bez min da dert iz.</l><l n="38" xml:id="Num-001-038"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Dannyn tuvmuslary
-                            <milestone unit="line" n="21" />
-                            alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi
-                            <milestone unit="line" n="22" />
-                            jastan da joɣarraq bar cyɣuvcu cerivge.</l><l n="39"
-                            xml:id="Num-001-039"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >פקודיהם </foreign>
-                            Sanalɣanlary
-                            <milestone unit="line" n="23" />
-                            alarnyn ševeti sajyn Dannyn altymys eki min da jedi iz.</l><l n="40"
-                            xml:id="Num-001-040"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >לבני</foreign>
-                            <milestone unit="line" n="24" />
-                            Uvullaryna Ašernin tuvmuslary alarnyn uruvlary sajyn ivi sajyn ata-
-                            <milestone unit="line" n="25" />
-                            larynyn sany byla atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu
-                            <milestone unit="line" n="26" />
-                            cerivge.</l><l n="41" xml:id="Num-001-041"><foreign xml:lang="he"
+                             cyɣuvcu cerivge.</l>
+                        <l n="37" xml:id="Num-001-037"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti sajyn Ašernin qyrq bir
-                            <milestone unit="line" n="27" />
-                            min da bez iz.</l><l n="42" xml:id="Num-001-042"><foreign xml:lang="he"
+                             Sanalɣanlary alarnyn ševeti sajyn Binjaminnin
+                            <milestone unit="line" n="20" />
+                             otuz bez min da dert iz.</l>
+                        <l n="38" xml:id="Num-001-038"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לבני </foreign>
-                            Uvullaryna Naftalinin tuvmuslary alarnyn
+                             Uvullaryna Dannyn tuvmuslary
+                            <milestone unit="line" n="21" />
+                             alarnyn uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi
+                            <milestone unit="line" n="22" />
+                             jastan da joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="39" xml:id="Num-001-039"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary
+                            <milestone unit="line" n="23" />
+                             alarnyn ševeti sajyn Dannyn altymys eki min da jedi iz.</l>
+                        <l n="40" xml:id="Num-001-040"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני</foreign>
+                            <milestone unit="line" n="24" />
+                             Uvullaryna Ašernin tuvmuslary alarnyn uruvlary sajyn ivi sajyn ata-
+                            <milestone unit="line" n="25" />
+                             larynyn sany byla atlarnyn egirmi jastan da joɣarraq bar cyɣuvcu
+                            <milestone unit="line" n="26" />
+                             cerivge.</l>
+                        <l n="41" xml:id="Num-001-041"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti sajyn Ašernin qyrq bir
+                            <milestone unit="line" n="27" />
+                             min da bez iz.</l>
+                        <l n="42" xml:id="Num-001-042"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לבני </foreign>
+                             Uvullaryna Naftalinin tuvmuslary alarnyn
                             <milestone unit="page" n="142v" />
                             <milestone unit="line" n="1" />
-                            uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi egirmi
+                             uruvlary sajyn ivi sajyn atalarynyn sany byla atlarnyn egirmi egirmi
                             jastan da
                             <milestone unit="line" n="2" />
-                            joɣarraq bar cyɣuvcu cerivge.</l><l n="43" xml:id="Num-001-043"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">פקודיהם </foreign>
-                            Sanalɣanlary alarnyn ševeti
+                             joɣarraq bar cyɣuvcu cerivge.</l>
+                        <l n="43" xml:id="Num-001-043"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פקודיהם </foreign>
+                             Sanalɣanlary alarnyn ševeti
                             <milestone unit="line" n="3" />
-                            sajyn Naftalinin enli ic min da dert iz.</l><l n="44"
-                            xml:id="Num-001-044"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >אלה </foreign>
-                            Bulardylar ol
+                             sajyn Naftalinin enli ic min da dert iz.</l>
+                        <l n="44" xml:id="Num-001-044"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אלה </foreign>
+                             Bulardylar ol
                             <milestone unit="line" n="4" />
-                            aanalɣanlar ki sanady Moše da Aharon da nasileri Jisraʾelnin on eki
+                             aanalɣanlar ki sanady Moše da Aharon da nasileri Jisraʾelnin on eki
                             <milestone unit="line" n="5" />
-                            kisi birer kisi ivi sajyn atalarynyn ediler.</l><l n="45"
-                            xml:id="Num-001-045"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויהיו </foreign>
-                            Da ediler bar
+                             kisi birer kisi ivi sajyn atalarynyn ediler.</l>
+                        <l n="45" xml:id="Num-001-045"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהיו </foreign>
+                             Da ediler bar
                             <milestone unit="line" n="6" />
-                            sanalɣanlary uvullarynyn Jisraʾelnin ivi sajyn atalarynyn egirmi jastan da
+                             sanalɣanlary uvullarynyn Jisraʾelnin ivi sajyn atalarynyn egirmi jastan
+                            da
                             <milestone unit="line" n="7" />
-                            joɣarraq bar cyɣuvcu cerivge Jisraʾelde.</l><l n="46"
-                            xml:id="Num-001-046"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויהיו </foreign>
-                            Da ediler bar ol
+                             joɣarraq bar cyɣuvcu cerivge Jisraʾelde.</l>
+                        <l n="46" xml:id="Num-001-046"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהיו </foreign>
+                             Da ediler bar ol
                             <milestone unit="line" n="8" />
-                            sanalɣanlar alty iz min da ic minler da bes iz da enli.</l><l n="47"
-                            xml:id="Num-001-047"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >והלוײם</foreign>
+                             sanalɣanlar alty iz min da ic minler da bes iz da enli.</l>
+                        <l n="47" xml:id="Num-001-047"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והלוײם</foreign>
                             <milestone unit="line" n="9" />
-                            Da ol Levililer ševeti sajyn atalarynyn sanalmadylar ortalarynda
+                             Da ol Levililer ševeti sajyn atalarynyn sanalmadylar ortalarynda
                             alarnyn.</l>
                         <milestone unit="line" n="10" />
                         <l n="48" xml:id="Num-001-048"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וידבר </foreign>
-                            Da sözledi H Mošege ajdadoɣac.</l><l n="49" xml:id="Num-001-049"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">אך </foreign>
-                            Tek osol ševeti
+                             Da sözledi H Mošege ajdadoɣac.</l>
+                        <l n="49" xml:id="Num-001-049"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אך </foreign>
+                             Tek osol ševeti
                             <milestone unit="line" n="11" />
-                            Levinin sanamaɣyn da osol sanyn baslarynyn almaɣyn ortasynda uvullarynyn
+                             Levinin sanamaɣyn da osol sanyn baslarynyn almaɣyn ortasynda
+                            uvullarynyn
                             <milestone unit="line" n="12" />
-                            Jisraʾelnin.</l><l n="50" xml:id="Num-001-050"><foreign xml:lang="he"
+                             Jisraʾelnin.</l>
+                        <l n="50" xml:id="Num-001-050"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואתה </foreign>
-                            Da sen vakillegin osol ol Levililerni miškany isti-
+                             Da sen vakillegin osol ol Levililerni miškany isti-
                             <milestone unit="line" n="13" />
-                            ne ol sarajatnyn da bar savutlary istine anyn da barca ne istine
+                             ne ol sarajatnyn da bar savutlary istine anyn da barca ne istine
                             <milestone unit="line" n="14" />
-                            ki anar alar eltsinler osol ol miškanny da osol bar savutlaryn anyn
+                             ki anar alar eltsinler osol ol miškanny da osol bar savutlaryn anyn
                             <milestone unit="line" n="15" />
-                            da alar jumus etsinler anar da civre miškanɣa toḥtasynlar.</l>
+                             da alar jumus etsinler anar da civre miškanɣa toḥtasynlar.</l>
                         <milestone unit="line" n="16" />
                         <l n="51" xml:id="Num-001-051"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ובנסוע </foreign>
-                            Da keckende ol miškan endirsinler any ol Levililer
+                             Da keckende ol miškan endirsinler any ol Levililer
                             <milestone unit="line" n="17" />
-                            da toḥtaɣanda ol miškan turɣuzsunlar any ol Levililer da ol jat
+                             da toḥtaɣanda ol miškan turɣuzsunlar any ol Levililer da ol jat
                             <milestone unit="line" n="18" />
-                            ol juvuvcu eltirilsin.</l><l n="52" xml:id="Num-001-052"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">וחנו </foreign>
-                            Da toḥtasynlar uvullary Jisraʾel-
+                             ol juvuvcu eltirilsin.</l>
+                        <l n="52" xml:id="Num-001-052"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחנו </foreign>
+                             Da toḥtasynlar uvullary Jisraʾel-
                             <milestone unit="line" n="19" />
-                            nin kisi avulu qatyna da kisi alamy qatyna cerivleri sajyn.</l><l n="53"
-                            xml:id="Num-001-053"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >והלוים</foreign>
+                             nin kisi avulu qatyna da kisi alamy qatyna cerivleri sajyn.</l>
+                        <l n="53" xml:id="Num-001-053"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והלוים</foreign>
                             <milestone unit="line" n="20" />
-                            Da ol Levilililer toḥtasynlar civre miškanyna ol sarajatnyn da
+                             Da ol Levilililer toḥtasynlar civre miškanyna ol sarajatnyn da
                             <milestone unit="line" n="21" />
-                            bolmasyn acuv ʒymaty istine uvullarynyn Jisraʾelnin da saqlasynlar
+                             bolmasyn acuv ʒymaty istine uvullarynyn Jisraʾelnin da saqlasynlar
                             <milestone unit="line" n="22" />
-                            ol Levililer osol saqlavun miškanynyn ol sarajatnyn.</l><l n="54"
-                            xml:id="Num-001-054"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויעשו </foreign>
-                            Da qyldy
+                             ol Levililer osol saqlavun miškanynyn ol sarajatnyn.</l>
+                        <l n="54" xml:id="Num-001-054"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעשו </foreign>
+                             Da qyldy
                             <milestone unit="line" n="23" />
-                            uvullary Jisraʾelnin barca necik ki bujurdu H Mošege alaj
-                        qyldylar.</l></ab>
+                             uvullary Jisraʾelnin barca necik ki bujurdu H Mošege alaj qyldylar.</l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Heb. ‘With the help of H, our God, the
-                            ruler of all rulers. And the one who bestows beauty and comfort. I will
-                            start to write the translation of the Book of Numbers which is the book
-                            (one of the Pentateuch books) of commandments. And He, may [He] be
-                            exalted, will help me and strengthen burdened hands. And here it
-                            begins’.</note>
+                        <note xml:id="Num-001-fn1" type="footnote">Heb. ‘With the help of H, our
+                            God, the ruler of all rulers. And the one who bestows beauty and
+                            comfort. I will start to write the translation of the Book of Numbers
+                            which is the book (one of the Pentateuch books) of commandments. And He,
+                            may [He] be exalted, will help me and strengthen burdened hands. And
+                            here it begins’.</note>
                     </app>
                 </listApp>
             </div>

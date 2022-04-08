@@ -1,136 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>ADub.III.73</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Leviticus 17</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Leviticus 17</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
 
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>Leviticus 17</title>
-            <milestone unit="line" n="18" />
-            <l n="1">And the Lord spoke to Moses, saying,</l>
-            <l n="2">
-              <milestone unit="line" n="19" />‘Speak to Aaron and to his children and to all the children of Israel,
-              <milestone unit="line" n="20" />and say to them: “This is the word which the Lord has commanded,
-              <milestone unit="line" n="21" />saying,
-            </l>
-            <l n="3">“Any man of the house of Israel who slaughters
-              <milestone unit="page" n="188r" />
-              <milestone unit="line" n="1" />a cattle or a lamb or a goat in the camp, or who slaughters
-              <milestone unit="line" n="2" />|it| outside the camp,
-            </l>
-            <l n="4">And if he does not bring it to the door of the tent of meeting
-              <milestone unit="line" n="3" />to bring forward an offering to the Lord before the tabernacle of the Lord,
-              <milestone unit="line" n="4" />bloodshed will be counted to that man, as if he shed the blood of a man,
-              <milestone unit="line" n="5" />and that man will be cut off from among his people.
-            </l>
-            <milestone unit="line" n="6" />
-            <l n="5">So that the children of Israel may bring
-              <milestone unit="line" n="7" />their sacrifices which they offer over the surface of the
-              <milestone unit="line" n="8" />fields, and that they may bring them to the Lord, to the door
-              <milestone unit="line" n="9" />of the tent of meeting, to the priest, and sacrifice them for peace offerings
-              <milestone unit="line" n="10" />to the Lord.
-            </l>
-            <l n="6">And the priest shall sprinkle the
-              <milestone unit="line" n="11" />blood on the altar of the Lord at the door of the tent
-              <milestone unit="line" n="12" />of meeting and bring forward the fat for a pleasing aroma to the Lord.
-            </l>
-            <milestone unit="line" n="13" />
-            <l n="7">And they shall no more sacrifice their sacrifices to other
-              <milestone unit="line" n="14" />devils, after whom they went astray.
-              <milestone unit="line" n="15" />This shall be a statute forever to them throughout their generations.””
-            </l>
-            <l n="8">And
-              <milestone unit="line" n="16" />you shall say to them: “Any man from the house of Israel or from the strangers who
-              <milestone unit="line" n="17" />live among them who offer a burnt offering or sacrifice,
-            </l>
-            <milestone unit="line" n="18" />
-            <l n="9">And does not bring it to the door of the tent of meeting to make it
-              <milestone unit="line" n="19" />to the Lord: that man will be cut off from among his people.
-            </l>
-            <l n="10">
-              <milestone unit="line" n="20" />And if any man from the house of Israel or from the strangers who live
-              <milestone unit="line" n="21" />among you eats any blood: then I will set my wrath
-              <milestone unit="page" n="188v" />
-              <milestone unit="line" n="1" />against that soul that eats blood, and I will cut him off
-              <milestone unit="line" n="2" />from among his people.
-            </l>
-            <l n="11">Because the life of the flesh is in the blood,
-              <milestone unit="line" n="3" />and I have given it to you on the altar to ask for atonement
-              <milestone unit="line" n="4" />for your souls, because it is the blood that askes for atonement for the soul.
-            </l>
-            <l n="12">
-              <milestone unit="line" n="5" />On account of this I have said to the children of Israel: “No soul among you shall eat blood,
-              <milestone unit="line" n="6" />nor shall the stranger that lives among you eat blood.”
-            </l>
-            <milestone unit="line" n="7" />
-            <l n="13">And any man from the children of Israel or from the strangers
-              <milestone unit="line" n="8" />who live among you who hunts game, animal or
-              <milestone unit="line" n="9" />bird that is eaten: he shall pour out the blood thereof and cover it
-              <milestone unit="line" n="10" />with earth.
-            </l>
-            <l n="14">Because the life of all flesh is its blood: it is in the life of it.
-              <milestone unit="line" n="11" />And I said to the children of Israel: “You shall not eat the blood of any flesh,
-              <milestone unit="line" n="12" />because the life of all flesh is the blood of it. Every one of those who eat it
-              <milestone unit="line" n="13" />will be cut off.”
-            </l>
-            <l n="15">And any soul that eats that which died, or
-              <milestone unit="line" n="14" />that which was torn up, whether it be <supplied reason="lost">a native</supplied><ref target="#fn1" type="noteAnchor" /> or a stranger, he shall wash his clothes
-              <milestone unit="line" n="15" />and shall wash himself in water and shall be unclean until the evening:
-              <milestone unit="line" n="16" />and he will be clean.
-            </l>
-            <l n="16">But if he does not wash them or
-              <milestone unit="line" n="17" />wash his flesh, then he shall bear his punishment.”’
-            </l>
-          </ab>
-        </div>
-      </div>
-      <div type="apparatus">
-        <listApp>
-          <app>
-            <note xml:id="fn1" type="footnote">K: ‘poor’; a scribal error; cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">בָּאֶזְרָח </foreign>‘of a native of your own country’; cf. also Exo 12:19, Exo 12:48, Exo 12:49, and Lev 16:29.
-            </note>
-          </app>
-        </listApp>
-      </div>
-    </body>
-  </text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Leviticus 17</title>
+                        <milestone unit="line" n="18" />
+                        <l n="1">And the Lord spoke to Moses, saying,</l>
+                        <l n="2">
+                            <milestone unit="line" n="19" />
+                            ‘Speak to Aaron and to his children and to all the children of Israel,
+                            <milestone unit="line" n="20" />
+                            and say to them: “This is the word which the Lord has commanded,
+                            <milestone unit="line" n="21" />
+                            saying, </l>
+                        <l n="3">“Any man of the house of Israel who slaughters
+                            <milestone unit="page" n="188r" />
+                            <milestone unit="line" n="1" />
+                            a cattle or a lamb or a goat in the camp, or who slaughters
+                            <milestone unit="line" n="2" />
+                            |it| outside the camp, </l>
+                        <l n="4">And if he does not bring it to the door of the tent of meeting
+                            <milestone unit="line" n="3" />
+                            to bring forward an offering to the Lord before the tabernacle of the
+                            Lord,
+                            <milestone unit="line" n="4" />
+                            bloodshed will be counted to that man, as if he shed the blood of a man,
+                            <milestone unit="line" n="5" />
+                            and that man will be cut off from among his people. </l>
+                        <milestone unit="line" n="6" />
+                        <l n="5">So that the children of Israel may bring
+                            <milestone unit="line" n="7" />
+                            their sacrifices which they offer over the surface of the
+                            <milestone unit="line" n="8" />
+                            fields, and that they may bring them to the Lord, to the door
+                            <milestone unit="line" n="9" />
+                            of the tent of meeting, to the priest, and sacrifice them for peace
+                            offerings
+                            <milestone unit="line" n="10" />
+                            to the Lord. </l>
+                        <l n="6">And the priest shall sprinkle the
+                            <milestone unit="line" n="11" />
+                            blood on the altar of the Lord at the door of the tent
+                            <milestone unit="line" n="12" />
+                            of meeting and bring forward the fat for a pleasing aroma to the Lord. </l>
+                        <milestone unit="line" n="13" />
+                        <l n="7">And they shall no more sacrifice their sacrifices to other
+                            <milestone unit="line" n="14" />
+                            devils, after whom they went astray.
+                            <milestone unit="line" n="15" />
+                            This shall be a statute forever to them throughout their generations.”” </l>
+                        <l n="8">And
+                            <milestone unit="line" n="16" />
+                            you shall say to them: “Any man from the house of Israel or from the
+                            strangers who
+                            <milestone unit="line" n="17" />
+                            live among them who offer a burnt offering or sacrifice, </l>
+                        <milestone unit="line" n="18" />
+                        <l n="9">And does not bring it to the door of the tent of meeting to make it
+                            <milestone unit="line" n="19" />
+                            to the Lord: that man will be cut off from among his people. </l>
+                        <l n="10">
+                            <milestone unit="line" n="20" />
+                            And if any man from the house of Israel or from the strangers who live
+                            <milestone unit="line" n="21" />
+                            among you eats any blood: then I will set my wrath
+                            <milestone unit="page" n="188v" />
+                            <milestone unit="line" n="1" />
+                            against that soul that eats blood, and I will cut him off
+                            <milestone unit="line" n="2" />
+                            from among his people. </l>
+                        <l n="11">Because the life of the flesh is in the blood,
+                            <milestone unit="line" n="3" />
+                            and I have given it to you on the altar to ask for atonement
+                            <milestone unit="line" n="4" />
+                            for your souls, because it is the blood that askes for atonement for the
+                            soul. </l>
+                        <l n="12">
+                            <milestone unit="line" n="5" />
+                            On account of this I have said to the children of Israel: “No soul among
+                            you shall eat blood,
+                            <milestone unit="line" n="6" />
+                            nor shall the stranger that lives among you eat blood.” </l>
+                        <milestone unit="line" n="7" />
+                        <l n="13">And any man from the children of Israel or from the strangers
+                            <milestone unit="line" n="8" />
+                            who live among you who hunts game, animal or
+                            <milestone unit="line" n="9" />
+                            bird that is eaten: he shall pour out the blood thereof and cover it
+                            <milestone unit="line" n="10" />
+                            with earth. </l>
+                        <l n="14">Because the life of all flesh is its blood: it is in the life of
+                            it.
+                            <milestone unit="line" n="11" />
+                            And I said to the children of Israel: “You shall not eat the blood of
+                            any flesh,
+                            <milestone unit="line" n="12" />
+                            because the life of all flesh is the blood of it. Every one of those who
+                            eat it
+                            <milestone unit="line" n="13" />
+                            will be cut off.” </l>
+                        <l n="15">And any soul that eats that which died, or
+                            <milestone unit="line" n="14" />
+                            that which was torn up, whether it be <supplied reason="lost">a
+                                native</supplied><ref n="1" target="#Lev-017-fn1_trl"
+                                type="noteAnchor" /> or a stranger, he shall wash his clothes
+                            <milestone unit="line" n="15" />
+                            and shall wash himself in water and shall be unclean until the evening:
+                            <milestone unit="line" n="16" />
+                            and he will be clean. </l>
+                        <l n="16">But if he does not wash them or
+                            <milestone unit="line" n="17" />
+                            wash his flesh, then he shall bear his punishment.”’ </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Lev-017-fn1_trl" type="footnote">K: ‘poor’; a scribal error;
+                            cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">בָּאֶזְרָח </foreign>
+                            ‘of a native of your own country’; cf. also Exo 12:19, Exo 12:48, Exo
+                            12:49, and Lev 16:29. </note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>

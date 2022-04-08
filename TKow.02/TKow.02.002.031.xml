@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Samuel 31</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Samuel 31</title>
+                        <milestone unit="page" n="74v" />
+                        <milestone unit="line" n="1" />
+                        <l xml:id="Sam1-031-x001">Da Pelištim orusurediler Jisraʾel byla da qactylar
+                            eli Jisraʾelnin alnyndan Pelištimnin
+                            <milestone unit="line" n="2" />
+                            da tistiler qyranlar tavynda Gilboʿanyn.</l>
+                        <l n="2" xml:id="Sam1-031-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבקו </foreign>
+                            Da jettiler Pelištim osol
+                            <milestone unit="line" n="3" />
+                            Šaʾulnu da osol uvullaryn anyn da vattylar Pelištim osol Jonatanny da
+                            osol Avinadavny
+                            <milestone unit="line" n="4" />
+                            da osol Malkišuʿany uvullaryn Šaʾulnun.</l>
+                        <l n="3" xml:id="Sam1-031-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותכבד </foreign>
+                            Da kicejdi ol ceriv Šaʾul istine
+                            <milestone unit="line" n="5" />
+                            da joluqtular any ol erenler ol atuvcular jajdan da šeškendi astry ol
+                            <milestone unit="line" n="6" />
+                            atuvculardan.</l>
+                        <l n="4" xml:id="Sam1-031-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty Šaʾul eltivcige savutlaryn suvurɣun qylycynny
+                            <milestone unit="line" n="7" />
+                            da cancqyn meni anyn byla maɣat kelirler ol aqlaflylar ol uspular da
+                            cancarlar meni
+                            <milestone unit="line" n="8" />
+                            da jengillik qylarlar mende da klemedi eltivci savutlaryn ki qorqtu
+                            astry da
+                            <milestone unit="line" n="9" />
+                            aldy Šaʾul osol ol qylycny da tišti anyn istine.</l>
+                        <l n="5" xml:id="Sam1-031-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירא </foreign>
+                            Da kerdi eltivci
+                            <milestone unit="line" n="10" />
+                            savutlaryn anyn ki eldi Šaʾul da tišti daɣyn olda qylycy istine da eldi birgesine
+                            <milestone unit="line" n="11" />
+                            anyn.</l>
+                        <l n="6" xml:id="Sam1-031-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימת </foreign>
+                            Da eldi Šaʾul da ic uvullary anyn da eltivci savutlaryn anyn daɣyn
+                            <milestone unit="line" n="12" />
+                            bar erenleri anyn ol kinde ol birden.</l>
+                        <l n="7" xml:id="Sam1-031-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויראו </foreign>
+                            Da kerdiler eli Jisraʾelnin ki
+                            <milestone unit="line" n="13" />
+                            kecivinde ol enisnin da ki kecivinde ol Jardennin ki qactylar eli
+                            Jisraʾelnin da
+                            <milestone unit="line" n="14" />
+                            ki eldiler Šaʾul da uvullary anyn da kemistiler osol ol saharlarny da
+                                qac<addSpan spanTo="#Sam1-031-add001" />t<anchor
+                                xml:id="Sam1-031-add001" type="addSpan" />ylar
+                            <milestone unit="line" n="15" />
+                            da keldiler Pelištimler da olturdular alarda.</l>
+                        <l n="8" xml:id="Sam1-031-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi tanbyladan da keldiler
+                            <milestone unit="line" n="16" />
+                            Pelištim cesindirme osol ol qyranlarny da taptylar osol Šaʾulnu da osol ic
+                            <milestone unit="line" n="17" />
+                            uvullaryn anyn tiškenlerni tavynda ol Gilboʿanyn.</l>
+                        <l n="9" xml:id="Sam1-031-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויכרתו </foreign>
+                            Da ke<supplied reason="lost">s</supplied>tiler<ref n="1"
+                                target="#Sam1-031-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="18" />
+                            osol basyn anyn da cesindirttiler osol savutlaryn anyn da ijdiler jerinde
+                            <milestone unit="line" n="19" />
+                            Pelištimnin civre ḥabar berme ivinde abaqlarynyn da osol ol ulusqa.</l>
+                        <l n="10" xml:id="Sam1-031-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישימו</foreign>
+                            <milestone unit="line" n="20" />
+                            Da qojdular osol savutlaryn anyn ivinde ʿAštarotnun da osol gevdesin anyn
+                            <milestone unit="line" n="21" />
+                            astylar qalasynda Bet Šannyn.</l>
+                        <l n="11" xml:id="Sam1-031-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישמעו </foreign>
+                            Da esittiler anyn icin olturuvculary
+                            <milestone unit="line" n="22" />
+                            Javeš Gileʿadnyn osol neni ki qyldylar Pelištim Šaʾulɣa.</l>
+                        <l n="12" xml:id="Sam1-031-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקומו </foreign>
+                            Da turdular bar ceriv
+                            <milestone unit="line" n="23" />
+                            jesisi da bardylar bar ol keceni da aldylar osol gevdesin Šaʾulnun da
+                            osol gevdele-
+                            <milestone unit="line" n="24" />
+                            rin uvullarynyn qalasyndan Bet Šannyn da keldiler Javeške da ḥanot
+                            ettiler alarny
+                            <milestone unit="line" n="25" />
+                            anda.</l>
+                        <l n="13" xml:id="Sam1-031-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקחו </foreign>
+                            Da aldylar osol siveklerin alarnyn da astradylar ol terek
+                            <milestone unit="line" n="26" />
+                            tibine Javešte da oruc tuttular jedi kinler jaslajdoɣac Šaʾul icin.
+                            <milestone unit="line" n="27" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תם שמואל
+                                א׳</foreign>
+                        </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Sam1-031-fn1" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כֶישְטִילֶיר</foreign>
+                            ; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
