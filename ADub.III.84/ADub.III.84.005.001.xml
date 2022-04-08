@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -43,151 +41,155 @@
                 <div type="textpart" subtype="chapter">
                     <ab><title>Song of Solomon 1</title>
                         <milestone unit="line" n="1" />
-                        <l xml:id="Song-001-x001"><seg type="commented" corresp="#seg001" /><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">בעזרת אלהי
+                        <l xml:id="Song-001-x001"><seg type="commented" corresp="#Song-001-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">בעזרת אלהי
                                 העברים</foreign>
                             <milestone unit="line" n="2" />
-                            <ref target="#fn1" type="noteAnchor" /><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">אכתוב פשטו של מגילת שיר
+                            <ref n="1" target="#Song-001-fn1" type="noteAnchor" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אכתוב פשטו של מגילת שיר
                                 השירים׃</foreign>
-                            <anchor type="commented" xml:id="seg001" />
+                            <anchor type="commented" xml:id="Song-001-seg001" />
                             <milestone unit="line" n="3" />
-                            <ref target="#fn2" type="noteAnchor" /><seg type="commented"
-                                corresp="#seg002" /><foreign xml:lang="he"
+                            <ref n="2" target="#Song-001-fn2" type="noteAnchor" /><seg
+                                type="commented" corresp="#Song-001-seg002" /><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">שיר השירים אשר לשלמה׃</foreign>
-                            <anchor type="commented" xml:id="seg002" /></l>
+                            <anchor type="commented" xml:id="Song-001-seg002" /></l>
                         <milestone unit="line" n="4" />
                         <l n="1" xml:id="Song-001-001">Širasy ol širalarnyn qajsy <addSpan
-                                spanTo="#add001" />ki<anchor xml:id="add001" /> Šelomonun.</l>
+                                spanTo="#Song-001-add001" />ki<anchor xml:id="Song-001-add001"
+                                type="addSpan" /> Šelomonun.</l>
                         <l n="2" xml:id="Song-001-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ישקני </foreign>
-                            Epkej
+                             Epkej
                             <milestone unit="line" n="5" />
-                            meni epmeklerinden avzunun ezinin ki jaḥsy-
+                             meni epmeklerinden avzunun ezinin ki jaḥsy-
                             <milestone unit="line" n="6" />
-                            raqtylar süverliklerin senin vinadan.</l>
+                             raqtylar süverliklerin senin vinadan.</l>
                         <l n="3" xml:id="Song-001-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לריח </foreign>
-                            Ijisi ücün
+                             Ijisi ücün
                             <milestone unit="line" n="7" />
-                            olijoklarynnyn senin naj jaḥsyraqlar oliva kibikti bosatylɣan
+                             olijoklarynnyn senin naj jaḥsyraqlar oliva kibikti bosatylɣan
                             <milestone unit="line" n="8" />
-                            atyn senin anyn ücün qyzlar sivediler seni.</l>
+                             atyn senin anyn ücün qyzlar sivediler seni.</l>
                         <l n="4" xml:id="Song-001-004"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">משכני </foreign>
-                            Qolamen
+                             Qolamen
                             <milestone unit="line" n="9" />
-                            tartqyn meni ezin artyna juvurajik küvürdü meni ol meleḫ
+                             tartqyn meni ezin artyna juvurajik küvürdü meni ol meleḫ
                             <milestone unit="line" n="10" />
-                            ḥuʒuralaryna ezinin quvanyrbiz da bijenirbiz senin byla saɣyndyrybiz
+                             ḥuʒuralaryna ezinin quvanyrbiz da bijenirbiz senin byla saɣyndyrybiz
                             <milestone unit="line" n="11" />
-                            <supplied reason="lost">siverliklerinni</supplied><ref target="#fn3"
-                                type="noteAnchor" /> senin edirek vinadan tizler sivediler seni.</l>
+                            <supplied reason="lost">siverliklerinni</supplied><ref n="3"
+                                target="#Song-001-fn3" type="noteAnchor" /> senin edirek vinadan
+                            tizler sivediler seni.</l>
                         <milestone unit="line" n="12" />
                         <l n="5" xml:id="Song-001-005"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">שחורה </foreign>
-                            Ḥotej qara menmen catyrlary kibik tatarnyn vale
+                             Ḥotej qara menmen catyrlary kibik tatarnyn vale
                             <milestone unit="line" n="13" />
-                            körklü menmen enleri kibik Šelomonun.</l>
+                             körklü menmen enleri kibik Šelomonun.</l>
                         <l n="6" xml:id="Song-001-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אל </foreign>
-                            Baɣɣnmanyz menim
+                             Baɣɣnmanyz menim
                             <milestone unit="line" n="14" />
-                            istine ḥotej qara menmen ki tivdirdi meni ol qujas uvullary
+                             istine ḥotej qara menmen ki tivdirdi meni ol qujas uvullary
                             <milestone unit="line" n="15" />
-                            anamnyn epkelendiler menim istine qojdular meni saqlavcu osol
+                             anamnyn epkelendiler menim istine qojdular meni saqlavcu osol
                             <milestone unit="line" n="16" />
-                            ol baḥcalarny da ol jat borlalyqlarny borlalyɣymny ki menim saqlajal-
+                             ol baḥcalarny da ol jat borlalyqlarny borlalyɣymny ki menim saqlajal-
                             <milestone unit="line" n="17" />
-                            madym.</l>
+                             madym.</l>
                         <l n="7" xml:id="Song-001-007"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הגידה </foreign>
-                            Anlatqyn mana qajdady ol qajsyn süvedi ʒanym
+                             Anlatqyn mana qajdady ol qajsyn süvedi ʒanym
                             <milestone unit="line" n="18" />
-                            menim qajda titesen qajda jattyrɣyzysen ol qojnu jarym künde
+                             menim qajda titesen qajda jattyrɣyzysen ol qojnu jarym künde
                             <milestone unit="line" n="19" />
-                            a ne ücün bolajim jabusuvcu kibik belekleri qatyna
+                             a ne ücün bolajim jabusuvcu kibik belekleri qatyna
                             <milestone unit="line" n="20" />
-                            ḥaverlerinnin senin.</l>
+                             ḥaverlerinnin senin.</l>
                         <l n="8" xml:id="Song-001-008"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אם </foreign>
-                            Bilmejmosen e naj körklirek
+                             Bilmejmosen e naj körklirek
                             <milestone unit="line" n="21" />
-                            qatynlar arasyna cyqqyn izine yzlary byla ol qojnun da
+                             qatynlar arasyna cyqqyn izine yzlary byla ol qojnun da
                             <milestone unit="line" n="22" />
-                            titkin osol ulaqlarynny senin toḥtar orunlary qatyna ol
+                             titkin osol ulaqlarynny senin toḥtar orunlary qatyna ol
                             <milestone unit="line" n="23" />
-                            titivcilernin.</l>
-                        <l n="9" xml:id="Song-001-009"><ref target="#fn4" type="noteAnchor"
-                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">לסוסתי </foreign>
-                            Atlaryna markavlarynyn parʿonun
+                             titivcilernin.</l>
+                        <l n="9" xml:id="Song-001-009"><ref n="4" target="#Song-001-fn4"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לסוסתי </foreign>
+                             Atlaryna markavlarynyn parʿonun
                             <milestone unit="line" n="24" />
-                            ukšattym seni dostcam menim.</l>
+                             ukšattym seni dostcam menim.</l>
                         <l n="10" xml:id="Song-001-010"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">נאוו </foreign>
-                            Körklü boldular
+                             Körklü boldular
                             <milestone unit="page" n="145v" />
                             <milestone unit="line" n="1" />
-                            jajaqlaryn senin azbardaɣy tigircinler byla bojnun senin lancuḥlar
+                             jajaqlaryn senin azbardaɣy tigircinler byla bojnun senin lancuḥlar
                             byla.</l>
                         <milestone unit="line" n="2" />
                         <l n="11" xml:id="Song-001-011"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">תורי </foreign>
-                            Altynly tigircinler qylarbiz sana kimisli birtikler
+                             Altynly tigircinler qylarbiz sana kimisli birtikler
                             <milestone unit="line" n="3" />
-                            byla.</l>
+                             byla.</l>
                         <l n="12" xml:id="Song-001-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">עד </foreign>
-                            Hanuz edi ol meleḫ sarajynda ezinin a neredim
+                             Hanuz edi ol meleḫ sarajynda ezinin a neredim
                             <milestone unit="line" n="4" />
-                            menim berdi isijin ezinin.</l>
+                             menim berdi isijin ezinin.</l>
                         <l n="13" xml:id="Song-001-013"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">צרור </foreign>
-                            Tibincigi kibik ol mirnin
+                             Tibincigi kibik ol mirnin
                             <milestone unit="line" n="5" />
-                            edi siverim menim mana arasyna teslerimnin menim toḥtaredi.</l>
+                             edi siverim menim mana arasyna teslerimnin menim toḥtaredi.</l>
                         <milestone unit="line" n="6" />
-                        <l n="14" xml:id="Song-001-014"><ref target="#fn5" type="noteAnchor"
-                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">אשכול </foreign>
-                            Solqunu kibik ol kanfornun boldu siverim menim mana
+                        <l n="14" xml:id="Song-001-014"><ref n="5" target="#Song-001-fn5"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אשכול </foreign>
+                             Solqunu kibik ol kanfornun boldu siverim menim mana
                             <milestone unit="line" n="7" />
-                            arasyna teslerimnin menim borlalyqlarynda En Gedinin.</l>
+                             arasyna teslerimnin menim borlalyqlarynda En Gedinin.</l>
                         <milestone unit="line" n="8" />
                         <l n="15" xml:id="Song-001-015"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הנך </foreign>
-                            Muna sen körklisen dosčam menim muna sen körklüsen
+                             Muna sen körklisen dosčam menim muna sen körklüsen
                             <milestone unit="line" n="9" />
-                            közlerin senin közleri kibikti tügürcinlernin.</l>
+                             közlerin senin közleri kibikti tügürcinlernin.</l>
                         <l n="16" xml:id="Song-001-016"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הנך </foreign>
-                            Muna
+                             Muna
                             <milestone unit="line" n="10" />
-                            sen körklüsen e süverim menim ham ceber daɣyn krovatymyz da biznin
+                             sen körklüsen e süverim menim ham ceber daɣyn krovatymyz da biznin
                             <milestone unit="line" n="11" />
-                            jasaradoɣandy.</l>
+                             jasaradoɣandy.</l>
                         <l n="17" xml:id="Song-001-017"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">קרות </foreign>
-                            Stenalary ivlerimiznin biznin cedra
+                             Stenalary ivlerimiznin biznin cedra
                             <milestone unit="line" n="12" />
-                            aɣaclaryndandy a daḥlarymyz biznin jadlyna aɣaclaryndandy.</l>
+                             aɣaclaryndandy a daḥlarymyz biznin jadlyna aɣaclaryndandy.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Heb. ‘With the help of the God of the
-                            Israelites I will write the translation/interpretation of the scroll of
-                            the Song of Songs’.</note>
-                        <note xml:id="fn2" type="footnote">Heb. incipit of Song 1.1.</note>
-                        <note xml:id="fn3" type="footnote">ADub.III.83:
-                            <emph>sivirliklerinni</emph>; a scribal error.</note>
-                        <note xml:id="fn4" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Song-001-fn1" type="footnote">Heb. ‘With the help of the God
+                            of the Israelites I will write the translation/interpretation of the
+                            scroll of the Song of Songs’.</note>
+                        <note xml:id="Song-001-fn2" type="footnote">Heb. incipit of Song 1.1.</note>
+                        <note xml:id="Song-001-fn3" type="footnote">ADub.III.83:
+                                <emph>sivirliklerinni</emph>; a scribal error.</note>
+                        <note xml:id="Song-001-fn4" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לססתי</foreign>
-                            .</note>
-                        <note xml:id="fn5" type="footnote">Heb. <foreign xml:lang="he"
+                             .</note>
+                        <note xml:id="Song-001-fn5" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אשכל</foreign>
-                            .</note>
+                             .</note>
                     </app>
                 </listApp>
             </div>

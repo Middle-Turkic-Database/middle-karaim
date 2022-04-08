@@ -1,301 +1,277 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
   <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ana="#no" />
-        <author ana="#no" />
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Uppsala University, Department of linguistics and philology</publisher>
-        <pubPlace>Uppsala, Sweden</pubPlace>
-        <date>2020</date>
-        <availability status="restricted">
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
-            Attribution 4.0 International</licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <settlement>Warsaw, Poland</settlement>
-            <repository>Private archive</repository>
-            <idno>ADub.III.84</idno>
-          </msIdentifier>
-          <msContents>
-            <summary ana="#no">A Karaim translation of the Torah and the
-              Haftarah</summary>
-          </msContents>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <abstract>
-        <p>
-          <lg>
-            <l>Proverbs 1</l>
-          </lg>
-        </p>
-      </abstract>
-    </profileDesc>
-  </teiHeader><text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.84</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Proverbs 1</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
 
-    <body>
-      <div type="edition">
-        <div type="textpart" subtype="chapter">
-          <ab>
-            <title>Proverbs 1</title>
-            <milestone unit="line" n="1" />
-            <l xml:id="Prov-001-x001">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ובעזרת האל אשר כבודו מכל העולם מלא׃
-                אכתוב בשם</foreign>
-              <milestone unit="line" n="2" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">פשטו גם את ספר
-                משלי׃</foreign>
-              <ref target="#fn1" type="noteAnchor" />
-              <seg type="commented" corresp="#seg003" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">וזה תחלי ואלהי ישמעי יהיה
-                בכסלי</foreign>
-              <milestone unit="line" n="3" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויעזרני כפי מחשבתי
-                ומשאלי אכי״ר</foreign>
-              <anchor type="commented" xml:id="seg003" /><ref target="#fn2" type="noteAnchor" />
-            </l>
-            <l n="1" xml:id="Prov-001-001">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">משלי שלמה בן־דוד מלך ישראל</foreign>
-              <milestone unit="line" n="4" />
-              Mašallary Šelomonun uvlunun Davidnin bijinin Jisraʾelnin.
-            </l>
-            <l n="2" xml:id="Prov-001-002">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">לדעת</foreign>
-              <milestone unit="line" n="5" />
-              Bilme alardan usnu da tyjuwnu anlama ajtmaqlarnyn
-              <milestone unit="line" n="6" />
-              aqylnyn.
-            </l>
-            <l n="3" xml:id="Prov-001-003">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">לקחת </foreign>
-              Qabul etme tyjuvun anlamaqnyn rastlyqny da
-              <milestone unit="line" n="7" />
-              tereni da tüzliklerni.
-            </l>
-            <l n="4" xml:id="Prov-001-004">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">לתת </foreign>
-              Berme tenteklerge ustatlyq
-              <milestone unit="line" n="8" />
-              ulanɣa biliv da jaḥsy saɣys.
-            </l>
-            <l n="5" xml:id="Prov-001-005">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ישמע </foreign>
-              Esitir uslu da arttyryr
-              <milestone unit="line" n="9" />
-              aqyl da akylly kisi ustatlyqlarny qabul eter.
-            </l>
-            <l n="6" xml:id="Prov-001-006">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">להבין </foreign>
-              Anlama
-              <milestone unit="line" n="10" />
-              mašalny da ceber sözni sözlerin ḥaḫamlarnyn da ḥiʒetlerin alarnyn.
-              <milestone unit="line" n="11" />
-            </l>
-            <l n="7" xml:id="Prov-001-007">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">יראת </foreign>
-              Qorqmaq H-dan baslyɣydy bilivnin usnu da tyjuvnu teliler ḥor
-              <milestone unit="line" n="12" />
-              ettiler.
-            </l>
-            <l n="8" xml:id="Prov-001-008">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">שמע </foreign>
-              Tynlaɣyn uvlum tyjuvun atannyn da kemismegin
-              <milestone unit="line" n="13" />
-              ivretivin ana
-              <addSpan spanTo="#add001" />n
-              <anchor xml:id="add001" />nyn.
-            </l>
-            <l n="9" xml:id="Prov-001-009">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-              Ki sirin vinec kibikti alar basyna
-              <milestone unit="line" n="14" />
-              senin da boj munʒekler kibikti bojnuna senin.
-            </l>
-            <l n="10" xml:id="Prov-001-010">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
-              E uvlum
-              <milestone unit="line" n="15" />
-              eger jeldeseler seni jazyqlylar klemegin.
-            </l>
-            <l n="11" xml:id="Prov-001-011">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אם </foreign>
-              Eger ajtsalar
-              <milestone unit="line" n="16" />
-              kelgin birgemizge andyjyq muft qanɣa qarajyq kini kisige muft.
-              <milestone unit="line" n="17" />
-            </l>
-            <l n="12" xml:id="Prov-001-012">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">נבלעם </foreign>
-              Jutarbiz alarny ger kibik tirilej da tügellerni enivcü-
-              <milestone unit="line" n="18" />
-              lerni kibik görge.
-            </l>
-            <l n="13" xml:id="Prov-001-013">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
-              Bar abajly malny tabarbiz tolturubiz
-              <milestone unit="line" n="19" />
-              ivlerimizni olʒadan.
-            </l>
-            <l n="14" xml:id="Prov-001-014">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">גורלך </foreign>
-              Goralynny salarsen ortamyzda
-              <milestone unit="line" n="20" />
-              biznin bir jancyq bolur barlarymyzɣa.
-            </l>
-            <l n="15" xml:id="Prov-001-015">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
-              E uvlum barmaɣyn
-              <milestone unit="line" n="21" />
-              birgelerine alarnyn ajaɣyn ajaɣynny yzlaryndan alarnyn.
-            </l>
-            <l n="16" xml:id="Prov-001-016">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign>
-              <milestone unit="line" n="22" />
-              Ki ajaqlary alarnyn jamanɣa juvuradylar da ʒaḥtlajdylar tekme
-              <milestone unit="line" n="23" />
-              kini qan.
-            </l>
-            <l n="17" xml:id="Prov-001-017">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-              Ki muftmo jajylɣandy ol av közlerinde bar
-              <milestone unit="line" n="24" />
-              qanatly qusnun.
-            </l>
-            <l n="18" xml:id="Prov-001-018">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">והם </foreign>
-              Körtiden alar qanlaryna alarnyn
-              <milestone unit="page" n="79v" />
-              <milestone unit="line" n="1" />
-              andijdylar baɣadylar alma ʒanlaryn alarnyn.
-            </l>
-            <l n="19" xml:id="Prov-001-019">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כן </foreign>
-              Alajdy yzlary
-              <milestone unit="line" n="2" />
-              bar ystyruvcunun qynɣyrlyq mal osol ʒanyn jesisinin alady.
-              <milestone unit="line" n="3" />
-            </l>
-            <l n="20" xml:id="Prov-001-020">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">חכמות </foreign>
-              Uslar har birisi tysqaryda sarnajdy oramlarda beredi
-              <milestone unit="line" n="4" />
-              awazyn ezinin.
-            </l>
-            <l n="21" xml:id="Prov-001-021">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">בראש </foreign>
-              Basynda bazarlarnyn caɣyrady esikle-
-              <milestone unit="line" n="5" />
-              rinde qabaqlarnyn saharda ajtmaqlaryn ezinin ajtady.
-            </l>
-            <l n="22" xml:id="Prov-001-022">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">עד </foreign>
-              Qacan-
-              <milestone unit="line" n="6" />
-              ɣadejin tentekler siversiz tenteklikni da elikciler eliklikni
-              <milestone unit="line" n="7" />
-              suqlandylar ezlerine da teliler ḥor ettiler bilivni.
-              <milestone unit="line" n="8" />
-            </l>
-            <l n="23" xml:id="Prov-001-023">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">תשובו </foreign>
-              Qajtynyz igitime muna anlatamen sizge klegimni
-              <milestone unit="line" n="9" />
-              <supplied reason="lost">bildirejim</supplied><ref target="#fn3" type="noteAnchor" /> sözlerimni sizge.
-            </l>
-            <l n="24" xml:id="Prov-001-024">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">יען </foreign>
-              Anyn ücün ki caɣyrdym
-              <milestone unit="line" n="10" />
-              da klemediniz qajyrdym tyjuvumnu da joɣedi qulaq saluvcu.
-              <milestone unit="line" n="11" />
-            </l>
-            <l n="25" xml:id="Prov-001-025">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ותפרעו </foreign>
-              Da artqary kettiniz bar kenesimden da osol igi-
-              <milestone unit="line" n="12" />
-              timni klemediniz.
-            </l>
-            <l n="26" xml:id="Prov-001-026">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">גם </foreign>
-              Daɣyn men de zavalynyzɣa söznin
-              <milestone unit="line" n="13" />
-              kilermen elik etermen kelgende qorquvunuz.
-            </l>
-            <l n="27" xml:id="Prov-001-027"><ref target="#fn4" type="noteAnchor" />
-              <foreign xml:lang="he" style="unicode-bidi: embed;">בבוא</foreign>
-              <milestone unit="line" n="14" />
-              Kelgende cuv kibik qorquvunuz siznin da zavalynyz tavul kibik
-              <milestone unit="line" n="15" />
-              kelir kelgende siznin istine tarlyq da qysyqlyq.
-            </l>
-            <l n="28" xml:id="Prov-001-028">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">אז</foreign>
-              <milestone unit="line" n="16" />
-              Ol vaḥtta caɣyryrlar mana da qaruv bermemen izlerler meni
-              <milestone unit="line" n="17" />
-              da tapmaslar meni.
-            </l>
-            <l n="29" xml:id="Prov-001-029">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">תחת </foreign>
-              Anyn ücün ki ḥorladylar bilivni
-              <milestone unit="line" n="18" />
-              da qorquvun H-nyn sajlamadylar.
-            </l>
-            <l n="30" xml:id="Prov-001-030">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">לא </foreign>
-              Klemediler tynlama kenesim-
-              <milestone unit="line" n="19" />
-              ni buzdular bar igitimni.
-            </l>
-            <l n="31" xml:id="Prov-001-031">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ויאכלו </foreign>
-              Da asarlar jemisinden jollarynyn
-              <milestone unit="line" n="20" />
-              da keneslerinden tojarlar.
-            </l>
-            <l n="31" xml:id="Prov-001-032">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-              Ki tersligi tenteklernin
-              <milestone unit="line" n="21" />
-              eltirir alarny da tynclyɣy telilernin tas <supplied reason="lost">eter</supplied><ref target="#fn5" type="noteAnchor" /> alarny.
-            </l>
-            <l n="32" xml:id="Prov-001-033">
-              <foreign xml:lang="he" style="unicode-bidi: embed;">ושמע</foreign>
-              <milestone unit="line" n="22" />
-              Vale tynlavcu mana toḥtar eminlik byla da tync bolur jaman
-              <milestone unit="line" n="23" />
-              qorquvdan.
-            </l>
-          </ab>
-        </div>
-      </div>
-      <div type="apparatus">
-        <listApp>
-          <app>
-            <note xml:id="fn1" type="footnote">Heb. ‘In the name and with the help of
-              God that the whole earth is full of His glory. I will write also the
-              translation/interpretation of the Book of Proverbs.’</note>
-            <note xml:id="fn2" type="footnote">Heb. ‘And here it begins and the God will
-              hear and be my confiance, and will help me when I have thoughts and
-              questions. Amen, may it be (His) will’.</note>
-            <note xml:id="fn3" type="footnote">ADb.III.84: <emph>bilderejim</emph>; a
-              scribal error.</note>
-            <note xml:id="fn4" type="footnote">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">בבא</foreign>
-              .</note>
-            <note xml:id="fn5" type="footnote">ADub.III.84: <emph>etir</emph>; a scribal
-              error.</note>
-          </app>
-        </listApp>
-      </div>
-    </body>
-  </text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Proverbs 1</title>
+                        <milestone unit="line" n="1" />
+                        <l xml:id="Prov-001-x001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ובעזרת האל אשר כבודו
+                                מכל העולם מלא׃ אכתוב בשם</foreign>
+                            <milestone unit="line" n="2" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">פשטו גם את ספר
+                                משלי׃</foreign>
+                            <ref n="1" target="#Prov-001-fn1" type="noteAnchor" />
+                            <seg type="commented" corresp="#Prov-001-seg003" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וזה תחלי ואלהי ישמעי
+                                יהיה בכסלי</foreign>
+                            <milestone unit="line" n="3" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויעזרני כפי מחשבתי
+                                ומשאלי אכי״ר</foreign>
+                            <anchor type="commented" xml:id="Prov-001-seg003" /><ref n="2"
+                                target="#Prov-001-fn2" type="noteAnchor" />
+                        </l>
+                        <l n="1" xml:id="Prov-001-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">משלי שלמה בן־דוד מלך
+                                ישראל</foreign>
+                            <milestone unit="line" n="4" />
+                             Mašallary Šelomonun uvlunun Davidnin bijinin Jisraʾelnin. </l>
+                        <l n="2" xml:id="Prov-001-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לדעת</foreign>
+                            <milestone unit="line" n="5" />
+                             Bilme alardan usnu da tyjuwnu anlama ajtmaqlarnyn
+                            <milestone unit="line" n="6" />
+                             aqylnyn. </l>
+                        <l n="3" xml:id="Prov-001-003">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לקחת </foreign>
+                             Qabul etme tyjuvun anlamaqnyn rastlyqny da
+                            <milestone unit="line" n="7" />
+                             tereni da tüzliklerni. </l>
+                        <l n="4" xml:id="Prov-001-004">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לתת </foreign>
+                             Berme tenteklerge ustatlyq
+                            <milestone unit="line" n="8" />
+                             ulanɣa biliv da jaḥsy saɣys. </l>
+                        <l n="5" xml:id="Prov-001-005">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ישמע </foreign>
+                             Esitir uslu da arttyryr
+                            <milestone unit="line" n="9" />
+                             aqyl da akylly kisi ustatlyqlarny qabul eter. </l>
+                        <l n="6" xml:id="Prov-001-006">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">להבין </foreign>
+                             Anlama
+                            <milestone unit="line" n="10" />
+                             mašalny da ceber sözni sözlerin ḥaḫamlarnyn da ḥiʒetlerin alarnyn.
+                            <milestone unit="line" n="11" />
+                        </l>
+                        <l n="7" xml:id="Prov-001-007">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">יראת </foreign>
+                             Qorqmaq H-dan baslyɣydy bilivnin usnu da tyjuvnu teliler ḥor
+                            <milestone unit="line" n="12" />
+                             ettiler. </l>
+                        <l n="8" xml:id="Prov-001-008">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">שמע </foreign>
+                             Tynlaɣyn uvlum tyjuvun atannyn da kemismegin
+                            <milestone unit="line" n="13" />
+                             ivretivin ana <addSpan spanTo="#Prov-001-add001" />n <anchor
+                                xml:id="Prov-001-add001" type="addSpan" />nyn. </l>
+                        <l n="9" xml:id="Prov-001-009">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
+                             Ki sirin vinec kibikti alar basyna
+                            <milestone unit="line" n="14" />
+                             senin da boj munʒekler kibikti bojnuna senin. </l>
+                        <l n="10" xml:id="Prov-001-010">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
+                             E uvlum
+                            <milestone unit="line" n="15" />
+                             eger jeldeseler seni jazyqlylar klemegin. </l>
+                        <l n="11" xml:id="Prov-001-011">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אם </foreign>
+                             Eger ajtsalar
+                            <milestone unit="line" n="16" />
+                             kelgin birgemizge andyjyq muft qanɣa qarajyq kini kisige muft.
+                            <milestone unit="line" n="17" />
+                        </l>
+                        <l n="12" xml:id="Prov-001-012">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">נבלעם </foreign>
+                             Jutarbiz alarny ger kibik tirilej da tügellerni enivcü-
+                            <milestone unit="line" n="18" />
+                             lerni kibik görge. </l>
+                        <l n="13" xml:id="Prov-001-013">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כל </foreign>
+                             Bar abajly malny tabarbiz tolturubiz
+                            <milestone unit="line" n="19" />
+                             ivlerimizni olʒadan. </l>
+                        <l n="14" xml:id="Prov-001-014">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">גורלך </foreign>
+                             Goralynny salarsen ortamyzda
+                            <milestone unit="line" n="20" />
+                             biznin bir jancyq bolur barlarymyzɣa. </l>
+                        <l n="15" xml:id="Prov-001-015">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בני </foreign>
+                             E uvlum barmaɣyn
+                            <milestone unit="line" n="21" />
+                             birgelerine alarnyn ajaɣyn ajaɣynny yzlaryndan alarnyn. </l>
+                        <l n="16" xml:id="Prov-001-016">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign>
+                            <milestone unit="line" n="22" />
+                             Ki ajaqlary alarnyn jamanɣa juvuradylar da ʒaḥtlajdylar tekme
+                            <milestone unit="line" n="23" />
+                             kini qan. </l>
+                        <l n="17" xml:id="Prov-001-017">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
+                             Ki muftmo jajylɣandy ol av közlerinde bar
+                            <milestone unit="line" n="24" />
+                             qanatly qusnun. </l>
+                        <l n="18" xml:id="Prov-001-018">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">והם </foreign>
+                             Körtiden alar qanlaryna alarnyn
+                            <milestone unit="page" n="79v" />
+                            <milestone unit="line" n="1" />
+                             andijdylar baɣadylar alma ʒanlaryn alarnyn. </l>
+                        <l n="19" xml:id="Prov-001-019">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כן </foreign>
+                             Alajdy yzlary
+                            <milestone unit="line" n="2" />
+                             bar ystyruvcunun qynɣyrlyq mal osol ʒanyn jesisinin alady.
+                            <milestone unit="line" n="3" />
+                        </l>
+                        <l n="20" xml:id="Prov-001-020">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">חכמות </foreign>
+                             Uslar har birisi tysqaryda sarnajdy oramlarda beredi
+                            <milestone unit="line" n="4" />
+                             awazyn ezinin. </l>
+                        <l n="21" xml:id="Prov-001-021">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בראש </foreign>
+                             Basynda bazarlarnyn caɣyrady esikle-
+                            <milestone unit="line" n="5" />
+                             rinde qabaqlarnyn saharda ajtmaqlaryn ezinin ajtady. </l>
+                        <l n="22" xml:id="Prov-001-022">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">עד </foreign>
+                             Qacan-
+                            <milestone unit="line" n="6" />
+                             ɣadejin tentekler siversiz tenteklikni da elikciler eliklikni
+                            <milestone unit="line" n="7" />
+                             suqlandylar ezlerine da teliler ḥor ettiler bilivni.
+                            <milestone unit="line" n="8" />
+                        </l>
+                        <l n="23" xml:id="Prov-001-023">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תשובו </foreign>
+                             Qajtynyz igitime muna anlatamen sizge klegimni
+                            <milestone unit="line" n="9" />
+                            <supplied reason="lost">bildirejim</supplied><ref n="3"
+                                target="#Prov-001-fn3" type="noteAnchor" /> sözlerimni sizge. </l>
+                        <l n="24" xml:id="Prov-001-024">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">יען </foreign>
+                             Anyn ücün ki caɣyrdym
+                            <milestone unit="line" n="10" />
+                             da klemediniz qajyrdym tyjuvumnu da joɣedi qulaq saluvcu.
+                            <milestone unit="line" n="11" />
+                        </l>
+                        <l n="25" xml:id="Prov-001-025">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ותפרעו </foreign>
+                             Da artqary kettiniz bar kenesimden da osol igi-
+                            <milestone unit="line" n="12" />
+                             timni klemediniz. </l>
+                        <l n="26" xml:id="Prov-001-026">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">גם </foreign>
+                             Daɣyn men de zavalynyzɣa söznin
+                            <milestone unit="line" n="13" />
+                             kilermen elik etermen kelgende qorquvunuz. </l>
+                        <l n="27" xml:id="Prov-001-027"><ref n="4" target="#Prov-001-fn4"
+                                type="noteAnchor" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בבוא</foreign>
+                            <milestone unit="line" n="14" />
+                             Kelgende cuv kibik qorquvunuz siznin da zavalynyz tavul kibik
+                            <milestone unit="line" n="15" />
+                             kelir kelgende siznin istine tarlyq da qysyqlyq. </l>
+                        <l n="28" xml:id="Prov-001-028">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אז</foreign>
+                            <milestone unit="line" n="16" />
+                             Ol vaḥtta caɣyryrlar mana da qaruv bermemen izlerler meni
+                            <milestone unit="line" n="17" />
+                             da tapmaslar meni. </l>
+                        <l n="29" xml:id="Prov-001-029">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תחת </foreign>
+                             Anyn ücün ki ḥorladylar bilivni
+                            <milestone unit="line" n="18" />
+                             da qorquvun H-nyn sajlamadylar. </l>
+                        <l n="30" xml:id="Prov-001-030">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">לא </foreign>
+                             Klemediler tynlama kenesim-
+                            <milestone unit="line" n="19" />
+                             ni buzdular bar igitimni. </l>
+                        <l n="31" xml:id="Prov-001-031">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאכלו </foreign>
+                             Da asarlar jemisinden jollarynyn
+                            <milestone unit="line" n="20" />
+                             da keneslerinden tojarlar. </l>
+                        <l n="31" xml:id="Prov-001-032">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
+                             Ki tersligi tenteklernin
+                            <milestone unit="line" n="21" />
+                             eltirir alarny da tynclyɣy telilernin tas <supplied reason="lost"
+                                >eter</supplied><ref n="5" target="#Prov-001-fn5" type="noteAnchor"
+                             /> alarny. </l>
+                        <l n="32" xml:id="Prov-001-033">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ושמע</foreign>
+                            <milestone unit="line" n="22" />
+                             Vale tynlavcu mana toḥtar eminlik byla da tync bolur jaman
+                            <milestone unit="line" n="23" />
+                             qorquvdan. </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Prov-001-fn1" type="footnote">Heb. ‘In the name and with the
+                            help of God that the whole earth is full of His glory. I will write also
+                            the translation/interpretation of the Book of Proverbs.’</note>
+                        <note xml:id="Prov-001-fn2" type="footnote">Heb. ‘And here it begins and the
+                            God will hear and be my confiance, and will help me when I have thoughts
+                            and questions. Amen, may it be (His) will’.</note>
+                        <note xml:id="Prov-001-fn3" type="footnote">ADb.III.84:
+                                <emph>bilderejim</emph>; a scribal error.</note>
+                        <note xml:id="Prov-001-fn4" type="footnote">Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בבא</foreign>
+                             .</note>
+                        <note xml:id="Prov-001-fn5" type="footnote">ADub.III.84: <emph>etir</emph>;
+                            a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>

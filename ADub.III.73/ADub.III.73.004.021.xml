@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,7 +39,8 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>Numbers 21<ref target="#fn1" type="noteAnchor" /></title>
+                    <ab><title>Numbers 21<ref n="1" target="#Num-020-fn1" type="noteAnchor"
+                             /></title>
                         <l n="1" xml:id="Num-020-029">Da kördüĺar
                             <milestone unit="page" n="248v" />
                             <milestone unit="line" n="1" />
@@ -53,8 +52,9 @@
                                 style="unicode-bidi: embed;">וישמע </foreign>
                              Da ešitti ol
                             <milestone unit="line" n="3" />
-                             Kenaʿani bij<supplied reason="lost">i</supplied><ref target="#fn2"
-                                type="noteAnchor" /> ʿAradnyn olturuvčusu ol tüšlüknün ki keldi
+                             Kenaʿani bij<supplied reason="lost">i</supplied><ref n="2"
+                                target="#Num-020-fn2" type="noteAnchor" /> ʿAradnyn olturuvčusu ol
+                            tüšlüknün ki keldi
                             <milestone unit="line" n="4" />
                              Jisraʾel jolubyla ol čajsylavčularnyn da uruštu Jisraʾel
                             <milestone unit="line" n="5" />
@@ -201,13 +201,15 @@
                         <l n="21" xml:id="Num-021-020"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ומבמות</foreign>
                             <milestone unit="line" n="8" />
-                             Da Bamottan köčtüĺar ol <seg type="commented" corresp="#seg001" />Gajʾ
-                            ünd́aladoɣan orunɣa<anchor type="commented" xml:id="seg001" /><ref
-                                target="#fn3" type="noteAnchor" /> ki
+                             Da Bamottan köčtüĺar ol <seg type="commented" corresp="#Num-020-seg001"
+                             />Gajʾ ünd́aladoɣan orunɣa<anchor type="commented"
+                                xml:id="Num-020-seg001" /><ref n="3" target="#Num-020-fn3"
+                                type="noteAnchor" /> ki
                             <milestone unit="line" n="9" />
                              tüzünd́a Moʾavnyn bašyna ol singirnin da körünüre-
                             <milestone unit="line" n="10" />
-                             di alnyna ol Ješimonnun<ref target="#fn4" type="noteAnchor" />.</l>
+                             di alnyna ol Ješimonnun<ref n="4" target="#Num-020-fn4"
+                                type="noteAnchor" />.</l>
                         <l n="22" xml:id="Num-021-021"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וישלח </foreign>
                              Da ijdi Jisraʾel elči-
@@ -229,8 +231,9 @@
                             <milestone unit="line" n="16" />
                              Siḥon ošol bar ulusun özünün da čyqty uturusuna
                             <milestone unit="line" n="17" />
-                             Jisraʾel<addSpan spanTo="#add001" />nin<anchor xml:id="add001" /> ol
-                            midbarɣa da keldi Jahcaɣa da uruštu
+                             Jisraʾel<addSpan spanTo="#Num-020-add001" />nin<anchor
+                                xml:id="Num-020-add001" type="addSpan" /> ol midbarɣa da keldi
+                            Jahcaɣa da uruštu
                             <milestone unit="line" n="18" />
                              Jisraʾelbyla.</l>
                         <l n="25" xml:id="Num-021-024"><foreign xml:lang="he"
@@ -240,13 +243,13 @@
                              da meŕasĺadi ošol jerin anyn bašlap Arnondan Jaboqqadejin ulan-
                             <milestone unit="line" n="20" />
                              larynadejin ʿAmonnun ki küčlü edi čegi ulanlarynyn ʿAmonnun <seg
-                                type="commented" corresp="#seg002" />anyn
+                                type="commented" corresp="#Num-020-seg002" />anyn
                             <milestone unit="line" n="21" />
                              üčün bolalmady ol Emori alma artyq jerind́an ulanlary-
                             <milestone unit="page" n="250r" />
                             <milestone unit="line" n="1" />
-                             nyn ʿAmonnun<anchor type="commented" xml:id="seg002" /><ref
-                                target="#fn5" type="noteAnchor" />.</l>
+                             nyn ʿAmonnun<anchor type="commented" xml:id="Num-020-seg002" /><ref
+                                n="5" target="#Num-020-fn5" type="noteAnchor" />.</l>
                         <l n="26" xml:id="Num-021-025"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויקח </foreign>
                              Da aldy Jisraʾel ošol bar ol šahar-
@@ -258,8 +261,9 @@
                                 style="unicode-bidi: embed;">כי </foreign>
                              Ki
                             <milestone unit="line" n="4" />
-                             Ḥešbon edi šahary Siḥon<supplied reason="lost">nun</supplied><ref
-                                target="#fn6" type="noteAnchor" /> bijinin ol Emorinin ol da ol
+                             Ḥešbon edi šahary Siḥon<supplied reason="lost">nun</supplied><ref n="6"
+                                target="#Num-020-fn6" type="noteAnchor" /> bijinin ol Emorinin ol da
+                            ol
                             <milestone unit="line" n="5" />
                              uruštu ol burunɣu bijibyla Moʾavnyn da aldy ošol bar
                             <milestone unit="line" n="6" />
@@ -350,30 +354,30 @@
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">K: Num 20:29 is copied as Num 21:1; a
-                            scribal error. | TKow.01: Num 21 begins here. | H: Num 21 begins here. |
-                            ADub.III.82: Num 21 begins here. | C: Num 21 begins here. | M: Num 21
-                            begins here. | R: Num 21 begins here. | Hebrew Bible: Num 21 begins
-                            here.</note>
-                        <note xml:id="fn2" type="footnote">K: <emph>bij</emph>; a scribal error. |
-                            TKow.01: unvocalized text. | H: <emph>biji</emph>. | C:
+                        <note xml:id="Num-020-fn1" type="footnote">K: Num 20:29 is copied as Num
+                            21:1; a scribal error. | TKow.01: Num 21 begins here. | H: Num 21 begins
+                            here. | ADub.III.82: Num 21 begins here. | C: Num 21 begins here. | M:
+                            Num 21 begins here. | R: Num 21 begins here. | Hebrew Bible: Num 21
+                            begins here.</note>
+                        <note xml:id="Num-020-fn2" type="footnote">K: <emph>bij</emph>; a scribal
+                            error. | TKow.01: unvocalized text. | H: <emph>biji</emph>. | C:
                                 <emph>ḫany</emph>.</note>
-                        <note xml:id="fn3" type="footnote">A mistranslation. | TKow.01: <emph>Gajʾ
-                                ündeledoɣan orunɣa</emph>; unvocalized text. | H: <emph>Gaj
-                                indeledoɣan orunɣa</emph>. | C: <emph>gajʾaɣa</emph>. | R:
+                        <note xml:id="Num-020-fn3" type="footnote">A mistranslation. | TKow.01:
+                                <emph>Gajʾ ündeledoɣan orunɣa</emph>; unvocalized text. | H:
+                                <emph>Gaj indeledoɣan orunɣa</emph>. | C: <emph>gajʾaɣa</emph>. | R:
                                 <emph>Gajɣa</emph>. | Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הַגַּיְא </foreign>
                              ‘the valley’.</note>
-                        <note xml:id="fn4" type="footnote">A mistranslation. | TKow.01:
+                        <note xml:id="Num-020-fn4" type="footnote">A mistranslation. | TKow.01:
                                 <emph>Ješimonnun</emph>; unvocalized text. | H:
                                 <emph>Ješimonnun</emph>. | C: <emph>jabannyŋ</emph>. | R:
                                 <emph>midbarnyn</emph>. | Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הַיְשִׁימֹן </foreign>
                              ‘the wasteland’.</note>
-                        <note xml:id="fn5" type="footnote">Interpretative addition to the standard
-                            text.</note>
-                        <note xml:id="fn6" type="footnote">K: <emph>Siḥon</emph>; a scribal error. |
-                            TKow.01: <emph>Siḥonnun</emph>; unvocalized text. | H:
+                        <note xml:id="Num-020-fn5" type="footnote">Interpretative addition to the
+                            standard text.</note>
+                        <note xml:id="Num-020-fn6" type="footnote">K: <emph>Siḥon</emph>; a scribal
+                            error. | TKow.01: <emph>Siḥonnun</emph>; unvocalized text. | H:
                                 <emph>Siḥonnun</emph>. | C: <emph>Siḥonnyŋ</emph>.</note>
                     </app>
                 </listApp>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -43,32 +41,32 @@
                 <div type="textpart" subtype="chapter">
                     <ab><title>Psalm 59</title>
                         <l xml:id="Ps-059-x001">
-                            <milestone unit="line" xml:id="Ps059-P30r-L21" n="21" prev="ADub.III.84.001.058.xml#Ps058-P30r-L21" />
-                            <foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >נט׳</foreign>
+                            <milestone unit="line" xml:id="Ps059-P30r-L21" n="21"
+                                prev="ADub.III.84.001.058.xml#Ps058-P30r-L21" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">נט׳</foreign>
                             <milestone unit="line" n="22" />
-                        <foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ליום יב׳ למנח אל תשחת לדוד</foreign>
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ליום יב׳ למנח אל
+                                תשחת לדוד</foreign>
                             <milestone unit="line" n="23" />
-                            Berilgen ojnavcuɣa ceber mizmoru Davidnin ki jalbardy Tenrige
+                             Berilgen ojnavcuɣa ceber mizmoru Davidnin ki jalbardy Tenrige
                             <milestone unit="page" n="30v" />
                             <milestone unit="line" n="1" />
                         </l>
-                            tar berivciden ki mufttu jarlyɣasy adamnyn.
+                         tar berivciden ki mufttu jarlyɣasy adamnyn.
                         <l n="14" xml:id="Ps-059-014"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">באלהים</foreign>
-                            <ref target="#fn1" type="noteAnchor" /> Tenrige
+                            <ref n="1" target="#Ps-059-fn1" type="noteAnchor" /> Tenrige
                             <milestone unit="line" n="2" />
-                            isanyp onartabiz tuvusluq da ol tepter etedi tar beriv-
+                             isanyp onartabiz tuvusluq da ol tepter etedi tar beriv-
                             <milestone unit="line" n="3" />
-                            cülerimizni.</l>
+                             cülerimizni.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Psalm 59:1-18 and 60:1-13 is
+                        <note xml:id="Ps-059-fn1" type="footnote">Psalm 59:1-18 and 60:1-13 is
                             missing.</note>
                     </app>
                 </listApp>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,185 +40,193 @@
             <div type="edition">
                 <div type="textpart" subtype="chapter">
                     <ab><title><supplied reason="lost">Deuteronomy 16</supplied></title>
-                        <milestone unit="line" xml:id="Deut016-P307v-L18_trl" n="18" prev="ADub.III.73.005.015.trl.xml#Deut015-P307v-L18_trl" />
+                        <milestone unit="line" xml:id="Deut016-P307v-L18_trl" n="18"
+                            prev="ADub.III.73.005.015.trl.xml#Deut015-P307v-L18_trl" />
                         <l n="1">
                             <milestone unit="line" n="19" />
-                            Observe the month <emph>Baš Qusqan</emph>, and you shall make the a
+                             Observe the month <emph>Baš Qusqan</emph>, and you shall make the a
                             Passover sacrifice
                             <milestone unit="line" n="20" />
-                            to the Lord your God, because in the month <emph>Baš Qusqan</emph>
+                             to the Lord your God, because in the month <emph>Baš Qusqan</emph>
                             <milestone unit="line" n="21" />
-                            the Lord your God brought you out from Egypt at night.</l>
+                             the Lord your God brought you out from Egypt at night.</l>
                         <l n="2">And
                             <milestone unit="page" n="308r" />
                             <milestone unit="line" n="1" />
-                            you shall make a Passover sacrifice to the Lord your God, sheep
+                             you shall make a Passover sacrifice to the Lord your God, sheep
                             <milestone unit="line" n="2" />
-                            and cattle, for the sacrifice of the peace offering, in the place which
+                             and cattle, for the sacrifice of the peace offering, in the place which
                             <milestone unit="line" n="3" />
-                            the Lord shall choose to cause his name to dwell there.</l>
+                             the Lord shall choose to cause his name to dwell there.</l>
                         <l n="3">
                             <milestone unit="line" n="4" />
-                            You shall not eat leavened bread with it. Seven days
+                             You shall not eat leavened bread with it. Seven days
                             <milestone unit="line" n="5" />
-                            you shall eat unleavened bread with it, the bread of affliction, because
+                             you shall eat unleavened bread with it, the bread of affliction,
+                            because
                             <milestone unit="line" n="6" />
-                            you went out from <addSpan spanTo="#add001" /><emph>the land</emph>
-                            <emph>of</emph><anchor xml:id="add001" /> Egypt in haste —
+                             you went out from <addSpan spanTo="#Deut-016-add001_trl" /><emph>the
+                                land</emph>
+                            <emph>of</emph><anchor type="addSpan" xml:id="Deut-016-add001_trl" />
+                            Egypt in haste —
                             <milestone unit="line" n="7" />
-                            <seg type="commented" corresp="#seg001" />so that you
+                            <seg type="commented" corresp="#Deut-016-seg001_trl" />so that you
                             <milestone unit="line" n="8" />
-                            shall remember the day when you went out from the land of Egypt<anchor
-                                type="commented" xml:id="seg001" /><ref target="#fn1"
-                                type="noteAnchor" /> all
+                             shall remember the day when you went out from the land of Egypt<anchor
+                                type="commented" xml:id="Deut-016-seg001_trl" /><ref n="1"
+                                target="#Deut-016-fn1_trl" type="noteAnchor" /> all
                             <milestone unit="line" n="9" />
-                            the days of your life.</l>
+                             the days of your life.</l>
                         <l n="4">And you shall not have leaven appear
                             <milestone unit="line" n="10" />
-                            within all your borders for seven days, and none of the meat
+                             within all your borders for seven days, and none of the meat
                             <milestone unit="line" n="11" />
-                            that you will sacrifice in the evening on the first day shall remain
+                             that you will sacrifice in the evening on the first day shall remain
                             <milestone unit="line" n="12" />
-                            until dawn.</l>
+                             until dawn.</l>
                         <l n="5">You may not sacrifice the
                             <milestone unit="line" n="13" />
-                            Passover sacrifice within any of your cities which the Lord your God
+                             Passover sacrifice within any of your cities which the Lord your God
                             <milestone unit="line" n="14" />
-                            is giving you.</l>
+                             is giving you.</l>
                         <l n="6">But at the place which
                             <milestone unit="line" n="15" />
-                            the Lord your God shall choose to cause his name to dwell there
+                             the Lord your God shall choose to cause his name to dwell there
                             <milestone unit="line" n="16" />
-                            you shall sacrifice the Passover sacrifice at evening,
+                             you shall sacrifice the Passover sacrifice at evening,
                             <milestone unit="line" n="17" />
-                            at the going down of the sun, at the time that you went out from
+                             at the going down of the sun, at the time that you went out from
                             Egypt.</l>
                         <milestone unit="line" n="18" />
                         <l n="7">And you shall roast and eat it in the place which
                             <milestone unit="line" n="19" />
-                            the Lord your God shall choose. And you shall turn at dawn,
+                             the Lord your God shall choose. And you shall turn at dawn,
                             <milestone unit="line" n="20" />
-                            and you shall go to your tents.</l>
+                             and you shall go to your tents.</l>
                         <l n="8">Six days you shall eat
                             <milestone unit="line" n="21" />
-                            unleavened bread. And on the seventh day: a solemn assembly to the Lord
+                             unleavened bread. And on the seventh day: a solemn assembly to the Lord
                             your God.
                             <milestone unit="page" n="308v" />
                             <milestone unit="line" n="1" />
-                            You shall do no work |therein|.</l>
+                             You shall do no work |therein|.</l>
                         <l n="9">Seven weeks you shall number to you:
                             <milestone unit="line" n="2" />
-                            From the time the sickle begins to be <supplied reason="lost"
+                             From the time the sickle begins to be <supplied reason="lost"
                                 >elevated</supplied> over the standing grain, you shall begin to
                             number the seven weeks.</l>
                         <milestone unit="line" n="3" />
-                        <l n="10"><seg type="commented" corresp="#seg002" />And after you have numbered
-                            seven weeks:<anchor type="commented" xml:id="seg002" /><ref
-                                target="#fn2" type="noteAnchor" /> then
+                        <l n="10"><seg type="commented" corresp="#Deut-016-seg002_trl" />And after
+                            you have numbered seven weeks:<anchor type="commented"
+                                xml:id="Deut-016-seg002_trl" /><ref n="2" target="#Deut-016-fn2_trl"
+                                type="noteAnchor" /> then
                             <milestone unit="line" n="4" />
-                            you shall make for yourself the feast of Shavuot before the Lord your God,
+                             you shall make for yourself the feast of Shavuot before the Lord your
+                            God,
                             <milestone unit="line" n="5" />
-                            to the best of the abilities of the freewill offering of your hand,
+                             to the best of the abilities of the freewill offering of your hand,
                             which you shall give as
                             <milestone unit="line" n="6" />
-                            the Lord your God blesses you.</l>
+                             the Lord your God blesses you.</l>
                         <l n="11">And you shall rejoice before
                             <milestone unit="line" n="7" />
-                            the Lord your God — you and your son and your daughter and your servant
+                             the Lord your God — you and your son and your daughter and your servant
                             and your maidservant
                             <milestone unit="line" n="8" />
-                            and the Levite who is in your cities and the stranger and the orphan
+                             and the Levite who is in your cities and the stranger and the orphan
                             <milestone unit="line" n="9" />
-                            and the widow who are among you — in the place which the Lord
+                             and the widow who are among you — in the place which the Lord
                             <milestone unit="line" n="10" />
-                            your God will choose to cause his name to dwell there.</l>
+                             your God will choose to cause his name to dwell there.</l>
                         <l n="12">And
                             <milestone unit="line" n="11" />
-                            you shall remember that you were a slave in the land of Egypt, and you
+                             you shall remember that you were a slave in the land of Egypt, and you
                             shall keep and do
                             <milestone unit="line" n="12" />
-                            these statutes.</l>
+                             these statutes.</l>
                         <l n="13">Make yourself the feast of Sukkot,
                             <milestone unit="line" n="13" />
-                            seven days long, when you gather from your threshing-floor and
+                             seven days long, when you gather from your threshing-floor and
                             <milestone unit="line" n="14" />
-                            your winepress.</l>
+                             your winepress.</l>
                         <l n="14">And you shall rejoice when you keep the feast — you and
                             <milestone unit="line" n="15" />
-                            your son and your daughter and your servant and your maidservant and the
-                            Levite and the stranger
+                             your son and your daughter and your servant and your maidservant and
+                            the Levite and the stranger
                             <milestone unit="line" n="16" />
-                            and the orphan and the widow who are within your cities.</l>
+                             and the orphan and the widow who are within your cities.</l>
                         <l n="15">Seven days
                             <milestone unit="line" n="17" />
-                            you shall keep the feast before the Lord your God in the place which the
-                            Lord will choose,
+                             you shall keep the feast before the Lord your God in the place which
+                            the Lord will choose,
                             <milestone unit="line" n="18" />
-                            because the Lord your God will bless you in all your produce and in all
+                             because the Lord your God will bless you in all your produce and in all
                             the works
                             <milestone unit="line" n="19" />
-                            of your hands, and you shall just be happy.</l>
+                             of your hands, and you shall just be happy.</l>
                         <l n="16">Three times
                             <milestone unit="line" n="20" />
-                            in a year all your males shall appear before the directions of the Lord
+                             in a year all your males shall appear before the directions of the Lord
                             <milestone unit="line" n="21" />
-                            your God in the place which he will choose: on the feast of Unleavened Bread,
+                             your God in the place which he will choose: on the feast of Unleavened
+                            Bread,
                             <milestone unit="page" n="309r" />
                             <milestone unit="line" n="1" />
-                            and on the feast of Shavuot and on the feast of Sukkot. And
+                             and on the feast of Shavuot and on the feast of Sukkot. And
                             <milestone unit="line" n="2" />
-                            they shall not appear before the directions of the Lord empty:</l>
+                             they shall not appear before the directions of the Lord empty:</l>
                         <l n="17">
                             <milestone unit="line" n="3" />
-                            each man according to the gift of his hand, according to the blessing of
-                            the Lord
+                             each man according to the gift of his hand, according to the blessing
+                            of the Lord
                             <milestone unit="line" n="4" />
-                            your God which he has given you.
+                             your God which he has given you.
                             <milestone unit="line" n="5" />
                             <emph>Parashat Shoftim</emph></l>
                         <milestone unit="line" n="6" />
                         <l n="18">You shall put judges and
                             <milestone unit="line" n="7" />
-                            overseers in all your cities
+                             overseers in all your cities
                             <milestone unit="line" n="8" />
-                            which the Lord your God gives you, according to your tribes, and
+                             which the Lord your God gives you, according to your tribes, and
                             <milestone unit="line" n="9" />
-                            they shall judge the people with just judgment.</l>
+                             they shall judge the people with just judgment.</l>
                         <milestone unit="line" n="10" />
                         <l n="19">You shall not reject a judgment; you shall not favour,
                             <milestone unit="line" n="11" />
-                            and you shall not take a bribe, because a bribe blinds the eyes
+                             and you shall not take a bribe, because a bribe blinds the eyes
                             <milestone unit="line" n="12" />
-                            of the wise and distorts the words of the righteous.</l>
+                             of the wise and distorts the words of the righteous.</l>
                         <l n="20">
                             <milestone unit="line" n="13" />
-                            Justice, justice you shall follow, that you may live
+                             Justice, justice you shall follow, that you may live
                             <milestone unit="line" n="14" />
-                            and inherit the land which the Lord your God
+                             and inherit the land which the Lord your God
                             <milestone unit="line" n="15" />
-                            is giving you.</l>
-                        <l n="21">You shall not plant any tree as an Asherah<ref target="#fn3"
-                                type="noteAnchor" />
+                             is giving you.</l>
+                        <l n="21">You shall not plant any tree as an Asherah<ref n="3"
+                                target="#Deut-016-fn3_trl" type="noteAnchor" />
                             <milestone unit="line" n="16" />
-                            beside the altar of the Lord your God that you shall make for
+                             beside the altar of the Lord your God that you shall make for
                             yourself.</l>
                         <milestone unit="line" n="17" />
                         <l n="22">And you shall not set up a pillar which
-                            <milestone unit="line" xml:id="Deut016-P309r-L18_trl" n="18" next="ADub.III.73.005.017.trl.xml#Deut017-P309r-L18_trl" />
-                            the Lord your God rejects.</l>
+                            <milestone unit="line" xml:id="Deut016-P309r-L18_trl" n="18"
+                                next="ADub.III.73.005.017.trl.xml#Deut017-P309r-L18_trl" />
+                             the Lord your God rejects.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Copied twice; a scribal error. The
-                            redundant repetition was crossed out by the copyist.</note>
-                        <note xml:id="fn2" type="footnote">An interpretative addition to Deu
-                            16:10.</note>
-                        <note xml:id="fn3" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Deut-016-fn1_trl" type="footnote">Copied twice; a scribal
+                            error. The redundant repetition was crossed out by the copyist.</note>
+                        <note xml:id="Deut-016-fn2_trl" type="footnote">An interpretative addition
+                            to Deu 16:10.</note>
+                        <note xml:id="Deut-016-fn3_trl" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אֲשֵׁרָה </foreign>
-                            ‘Asherah; name of a sacred tree or pole’.</note>
+                             ‘Asherah; name of a sacred tree or pole’.</note>
                     </app>
                 </listApp>
             </div>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,111 +39,120 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title><supplied reason="lost">Deuteronomy 34</supplied><ref target="#fn1"
-                                type="noteAnchor" /></title>
-                        <milestone unit="line" xml:id="Deut034-P341v-L9" n="9" prev="ADub.III.73.005.033.xml#Deut033-P341v-L9" />
+                    <ab><title><supplied reason="lost">Deuteronomy 34</supplied><ref n="1"
+                                target="#Deut-034-fn1" type="noteAnchor" /></title>
+                        <milestone unit="line" xml:id="Deut034-P341v-L9" n="9"
+                            prev="ADub.III.73.005.033.xml#Deut033-P341v-L9" />
                         <l n="1" xml:id="Deut-034-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויעל</foreign>
                             <milestone unit="line" n="10" />
-                            Da mindi Moše jylɣalyqlaryndan Moʾavnyn tavyna Nevo-
+                             Da mindi Moše jylɣalyqlaryndan Moʾavnyn tavyna Nevo-
                             <milestone unit="line" n="11" />
-                            nun bašyna ol singirnin ki alnynda Jeriḥonun da
+                             nun bašyna ol singirnin ki alnynda Jeriḥonun da
                             <milestone unit="line" n="12" />
-                            körgüzdü anar Adonaj ol bar jerni bašlap ol Gilʿad-
+                             körgüzdü anar Adonaj ol bar jerni bašlap ol Gilʿad-
                             <milestone unit="line" n="13" />
-                            dan Danɣadejin.</l><l n="2" xml:id="Deut-034-002"><foreign xml:lang="he"
+                             dan Danɣadejin.</l>
+                        <l n="2" xml:id="Deut-034-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואת </foreign>
-                            Da ošol bar jerin Naftalinin
+                             Da ošol bar jerin Naftalinin
                             <milestone unit="line" n="14" />
-                            da ošol jerin Efrajimnin da Menašenin da ošol
+                             da ošol jerin Efrajimnin da Menašenin da ošol
                             <milestone unit="line" n="15" />
-                            bar jerin Juhudanyn ol maʿarav sarɣy tengizge dejin.</l>
+                             bar jerin Juhudanyn ol maʿarav sarɣy tengizge dejin.</l>
                         <milestone unit="line" n="16" />
                         <l n="3" xml:id="Deut-034-003"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואת </foreign>
-                            Da ošol ol tüšlüknü da ošol ol maj-
+                             Da ošol ol tüšlüknü da ošol ol maj-
                             <milestone unit="line" n="17" />
-                            danny enišin Jeriḥonun šaharyn ol temarimnin ki anda
+                             danny enišin Jeriḥonun šaharyn ol temarimnin ki anda
                             <milestone unit="line" n="18" />
-                            tabulurediler <seg type="commented" corresp="#seg001" />artyqsy ḥurma
-                            terekleri da Coʿar-
+                             tabulurediler <seg type="commented" corresp="#Deut-034-seg001"
+                             />artyqsy ḥurma terekleri da Coʿar-
                             <milestone unit="line" n="19" />
-                            ɣadejin<anchor type="commented" xml:id="seg001" /><ref target="#fn2"
-                                type="noteAnchor" />.</l><l n="4" xml:id="Deut-034-004"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty Adonaj anar budur ol
+                             ɣadejin<anchor type="commented" xml:id="Deut-034-seg001" /><ref n="2"
+                                target="#Deut-034-fn2" type="noteAnchor" />.</l>
+                        <l n="4" xml:id="Deut-034-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty Adonaj anar budur ol
                             <milestone unit="line" n="20" />
-                            jer ki antettim Avrahamɣa Jicḥaqqa da
+                             jer ki antettim Avrahamɣa Jicḥaqqa da
                             <milestone unit="line" n="21" />
-                            Jaʿaqovɣa ajtadoɣač <supplied reason="lost">ur</supplied>luɣuja<ref
-                                target="#fn3" type="noteAnchor" /> berirmen any kör-
+                             Jaʿaqovɣa ajtadoɣač <supplied reason="lost">ur</supplied>luɣuja<ref
+                                n="3" target="#Deut-034-fn3" type="noteAnchor" /> berirmen any kör-
                             <milestone unit="page" n="342r" />
                             <milestone unit="line" n="1" />
-                            güzemen saja baqqyn közlerijbyla da ary ašmassen.</l>
+                             güzemen saja baqqyn közlerijbyla da ary ašmassen.</l>
                         <milestone unit="line" n="2" />
                         <l n="5" xml:id="Deut-034-005"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וימת </foreign>
-                            Da öldü anda Moše qulu Adonajnyn jerin-
+                             Da öldü anda Moše qulu Adonajnyn jerin-
                             <milestone unit="line" n="3" />
-                            de Moʾavnyn bujruɣuna köre Adonajnyn.</l><l n="6" xml:id="Deut-034-006"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויקבר</foreign>
+                             de Moʾavnyn bujruɣuna köre Adonajnyn.</l>
+                        <l n="6" xml:id="Deut-034-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקבר</foreign>
                             <milestone unit="line" n="4" />
-                            Da astrady özü özün <seg type="commented" corresp="#seg002" />Gajʾ ündeledoɣan orun-
+                             Da astrady özü özün <seg type="commented" corresp="#Deut-034-seg002"
+                             />Gajʾ ündeledoɣan orun-
                             <milestone unit="line" n="5" />
-                            da<anchor type="commented" xml:id="seg002" /><ref target="#fn4"
-                                type="noteAnchor" /> jerinde Moʾavnyn uturusuna Bet Poʿornun
+                             da<anchor type="commented" xml:id="Deut-034-seg002" /><ref n="4"
+                                target="#Deut-034-fn4" type="noteAnchor" /> jerinde Moʾavnyn
+                            uturusuna Bet Poʿornun
                             <milestone unit="line" n="6" />
-                            da bilmedi kišide ošol zeretin anyn ošpu künge-
+                             da bilmedi kišide ošol zeretin anyn ošpu künge-
                             <milestone unit="line" n="7" />
-                            dejin.</l><l n="7" xml:id="Deut-034-007"><foreign xml:lang="he"
+                             dejin.</l>
+                        <l n="7" xml:id="Deut-034-007"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ומשה </foreign>
-                            Da Moše jüz egirmi jašar edi
+                             Da Moše jüz egirmi jašar edi
                             <milestone unit="line" n="8" />
-                            ölgeninde tunmady nuru közünün da sönmedi
+                             ölgeninde tunmady nuru közünün da sönmedi
                             <milestone unit="line" n="9" />
-                            balquvu jüzünün.</l><l n="8" xml:id="Deut-034-008"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויבכו </foreign>
-                            Da jyladylar ulanlary Jisraʾel-
+                             balquvu jüzünün.</l>
+                        <l n="8" xml:id="Deut-034-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבכו </foreign>
+                             Da jyladylar ulanlary Jisraʾel-
                             <milestone unit="line" n="10" />
-                            nin Moše üčün jylɣalyqlarynda Moʾavnyn otuz kün
+                             nin Moše üčün jylɣalyqlarynda Moʾavnyn otuz kün
                             <milestone unit="line" n="11" />
-                            da tüǵandiĺar jylamaq künĺari jasynyn Mošenin.</l>
+                             da tüǵandiĺar jylamaq künĺari jasynyn Mošenin.</l>
                         <milestone unit="line" n="12" />
                         <l n="9" xml:id="Deut-034-009"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהושע </foreign>
-                            Da Johošuaʿ uvlu Nunnun tolu edi alhe-
+                             Da Johošuaʿ uvlu Nunnun tolu edi alhe-
                             <milestone unit="line" n="13" />
-                            minden usnun ki sundu Moše ošol qollaryn özü-
+                             minden usnun ki sundu Moše ošol qollaryn özü-
                             <milestone unit="line" n="14" />
-                            nün alɣyš byla anyn üstüne da tynladylar anar
+                             nün alɣyš byla anyn üstüne da tynladylar anar
                             <milestone unit="line" n="15" />
-                            ulanlary Jisraʾelnin da qyldylar ki nečik bujurdu Adonaj
+                             ulanlary Jisraʾelnin da qyldylar ki nečik bujurdu Adonaj
                             <milestone unit="line" n="16" />
-                            Mošege.</l><l n="10" xml:id="Deut-034-010"><foreign xml:lang="he"
+                             Mošege.</l>
+                        <l n="10" xml:id="Deut-034-010"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ולא </foreign>
-                            Da turmady artyq navi Jisraʾelde
+                             Da turmady artyq navi Jisraʾelde
                             <milestone unit="line" n="17" />
-                            Moše kibik ki bildi any Adonaj aqyl aqylɣa.</l><l n="11"
-                            xml:id="Deut-034-011"><foreign xml:lang="he"
+                             Moše kibik ki bildi any Adonaj aqyl aqylɣa.</l>
+                        <l n="11" xml:id="Deut-034-011"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לכל</foreign>
                             <milestone unit="line" n="18" />
-                            Bar ol belgilerge köre da ol nišanlarɣa köre
+                             Bar ol belgilerge köre da ol nišanlarɣa köre
                             <milestone unit="line" n="19" />
-                            ki ijdi any Adonaj qylma jerind́a Micrinin parʿo-
+                             ki ijdi any Adonaj qylma jerind́a Micrinin parʿo-
                             <milestone unit="line" n="20" />
-                            ɣa da bar qullaryna da bar jerine anyn.</l><l n="12"
-                            xml:id="Deut-034-012"><foreign xml:lang="he"
+                             ɣa da bar qullaryna da bar jerine anyn.</l>
+                        <l n="12" xml:id="Deut-034-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ולכל</foreign>
                             <milestone unit="line" n="21" />
-                            Da bar ol küčlü qudratqa köŕa da bar ol ullu
+                             Da bar ol küčlü qudratqa köŕa da bar ol ullu
                             <milestone unit="page" n="342v" />
                             <milestone unit="line" n="1" />
-                            qorquvɣa köre ki qyldy Moše közleriče bar Jisraʾelnin.
+                             qorquvɣa köre ki qyldy Moše közleriče bar Jisraʾelnin.
                             <milestone unit="line" n="2" />
-                            <seg type="commented" corresp="seg003" /><foreign xml:lang="he"
+                            <seg type="commented" corresp="#Deut-034-" /><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">בריך רחמנא דסייען</foreign>
-                            <anchor type="commented" xml:id="seg003" /><ref target="#fn5"
-                                type="noteAnchor" /> ׳
+                            <anchor type="commented" xml:id="Deut-034-seg003" /><ref n="5"
+                                target="#Deut-034-fn5" type="noteAnchor" /> ׳
                             <milestone unit="line" n="3" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ישתבח שם האל הגדול
                                 הגבור והנורא ׳ אשר עמיה</foreign>
@@ -184,27 +191,27 @@
                                 בחיי העולם הבא שכלו אורה ׳</foreign>
                             <milestone unit="line" n="15" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אבי֒ר</foreign>
-                            <ref target="#fn6" type="noteAnchor" />
+                            <ref n="6" target="#Deut-034-fn6" type="noteAnchor" />
                             <milestone unit="line" n="16" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">והיתה התחלת הכתיבה
                                 יום א֔ לסדר ולהורות את בני ישראל</foreign>
                             <milestone unit="line" n="17" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">את כל החקים ׳ טו֔
                                 לר֔ח</foreign>
-                            <ref target="#fn7" type="noteAnchor" />
+                            <ref n="7" target="#Deut-034-fn7" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אדר שני דשנת </foreign>
-                            <seg type="commented" corresp="#seg004" /><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ודע֒ת קדושים</foreign>
+                            <seg type="commented" corresp="#Deut-034-seg004" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">ודע֒ת קדושים</foreign>
                             <milestone unit="page" n="343r" />
                             <milestone unit="line" n="1" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">תמצא</foreign>
-                            <anchor type="commented" xml:id="seg004" /><ref target="#fn8"
-                                type="noteAnchor" />
+                            <anchor type="commented" xml:id="Deut-034-seg004" /><ref n="8"
+                                target="#Deut-034-fn8" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">לפ֒ק</foreign>
-                            <ref target="#fn9" type="noteAnchor" />
+                            <ref n="9" target="#Deut-034-fn9" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">׳ ונשלמה יום ה֒
                                 לס׳</foreign>
-                            <ref target="#fn10" type="noteAnchor" />
+                            <ref n="10" target="#Deut-034-fn10" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אלה החקים
                                 והמשפטים</foreign>
                             <milestone unit="line" n="2" />
@@ -213,183 +220,193 @@
                             <milestone unit="line" n="3" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">העומר דשנה
                                 הנ֒ל</foreign>
-                            <ref target="#fn11" type="noteAnchor" />
+                            <ref n="11" target="#Deut-034-fn11" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">׳ ע֒י</foreign>
-                            <ref target="#fn12" type="noteAnchor" />
+                            <ref n="12" target="#Deut-034-fn12" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">הפועל כמלאכת הקדש
                                 הצעיר</foreign>
                             <milestone unit="line" n="4" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ליראי ה֜ וחושבי שמו
                                 אנכי שמחה בלא֔א</foreign>
-                            <ref target="#fn13" type="noteAnchor" />
+                            <ref n="13" target="#Deut-034-fn13" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">כמ֒ע</foreign>
-                            <ref target="#fn14" type="noteAnchor" />
+                            <ref n="14" target="#Deut-034-fn14" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">הננאל</foreign>
                             <milestone unit="line" n="5" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">יעמ֒ש</foreign>
-                            <ref target="#fn15" type="noteAnchor" />
+                            <ref n="15" target="#Deut-034-fn15" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">׳ ש֔ץ</foreign>
-                            <ref target="#fn16" type="noteAnchor" />
+                            <ref n="16" target="#Deut-034-fn16" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">לע֔ע</foreign>
-                            <ref target="#fn17" type="noteAnchor" />
+                            <ref n="17" target="#Deut-034-fn17" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">פה ק֒ק</foreign>
-                            <ref target="#fn18" type="noteAnchor" />
+                            <ref n="18" target="#Deut-034-fn18" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">קוקיזוב אלהים יכוננה
                                 עע֒ס</foreign>
-                            <ref target="#fn19" type="noteAnchor" /> ׳
+                            <ref n="19" target="#Deut-034-fn19" type="noteAnchor" /> ׳
                             <milestone unit="line" n="6" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אמן</foreign>
                             <milestone unit="line" n="7" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ברוך נותן ליעף כח ׳
                                 ולאין אונים עצמה ירבה ׳</foreign>
                             <milestone unit="line" n="8" />
-                            <seg type="commented" corresp="#seg005" />
+                            <seg type="commented" corresp="#Deut-034-seg005" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">לה הארץ ומלואה
                                 תו֔ב</foreign>
-                            <ref target="#fn20" type="noteAnchor" />
-                            <anchor type="commented" xml:id="seg005"/>    
-                            <ref target="#fn21"
-                                type="noteAnchor" />
+                            <ref n="20" target="#Deut-034-fn20" type="noteAnchor" />
+                            <anchor type="commented" xml:id="Deut-034-seg005" />
+                            <ref n="21" target="#Deut-034-fn21" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ולי אני הצעיר עבדוא
                                 חנן בזה החומש פפשט</foreign>
-                            <ref target="#fn22" type="noteAnchor" />
+                            <ref n="22" target="#Deut-034-fn22" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">שקניתי
                                 במיטב</foreign>
                             <milestone unit="line" n="9" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">כספי בדמים יקרים
                                 ושלימים מידי כ֔מ</foreign>
-                            <ref target="#fn23" type="noteAnchor" />
+                            <ref n="23" target="#Deut-034-fn23" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">יוסף בכ֔מע</foreign>
-                            <ref target="#fn24" type="noteAnchor" />
+                            <ref n="24" target="#Deut-034-fn24" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">יאודה זל֔</foreign>
-                            <ref target="#fn25" type="noteAnchor" />
+                            <ref n="25" target="#Deut-034-fn25" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">שהיה נשאר לו
                                 בירושה</foreign>
                             <milestone unit="line" n="10" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">מן אביו
                                 הי֔ד</foreign>
-                            <ref target="#fn26" type="noteAnchor" />
+                            <ref n="26" target="#Deut-034-fn26" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">הנ֔ל וכבר סלקתי לידו
                                 הדמים עד הפרוטה האחרונה ע֔כ</foreign>
-                            <ref target="#fn27" type="noteAnchor" />
+                            <ref n="27" target="#Deut-034-fn27" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">אני חותם</foreign>
                             <milestone unit="line" n="11" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">שמי נאם זכריא בל֮אא
                                 כמ֔ר</foreign>
-                            <ref target="#fn28" type="noteAnchor" />
+                            <ref n="28" target="#Deut-034-fn28" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">שלום נ֔ע</foreign>
-                            <ref target="#fn29" type="noteAnchor" />
+                            <ref n="29" target="#Deut-034-fn29" type="noteAnchor" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ויום קנייתי היום יום
                                 ב׳ לסדר בוא אל פועה כ֔ח</foreign>
                             <milestone unit="line" n="12" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">לר֔ח טבת דשנתינו זו
                                 תק֔כח לפ֔ק ׳</foreign>
-                        </l></ab>
+                        </l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">K: The chapter number is not indicated. |
-                            TKow.01: Deu 34. | H: Deu 34. | C: Deu 34.</note>
-                        <note xml:id="fn2" type="footnote">This fragment is not vocalized.</note>
-                        <note xml:id="fn3" type="footnote">TKow.01: <emph>urluɣuja</emph>;
+                        <note xml:id="Deut-034-fn1" type="footnote">K: The chapter number is not
+                            indicated. | TKow.01: Deu 34. | H: Deu 34. | C: Deu 34.</note>
+                        <note xml:id="Deut-034-fn2" type="footnote">This fragment is not
+                            vocalized.</note>
+                        <note xml:id="Deut-034-fn3" type="footnote">TKow.01: <emph>urluɣuja</emph>;
                             unvocalized text. | H: <emph>urluɣuna</emph>. | C:
                             <emph>urlyɣyŋa</emph>.</note>
-                        <note xml:id="fn4" type="footnote">A mistranslation. |TKow.01: <emph>Gajʾ
-                                ündeledoɣan orunda</emph>. | H: <emph>Gajda</emph>. | C:
+                        <note xml:id="Deut-034-fn4" type="footnote">A mistranslation. |TKow.01:
+                                <emph>Gajʾ ündeledoɣan orunda</emph>. | H: <emph>Gajda</emph>. | C:
                                 <emph>Gajda</emph>. | R: <emph>Gajda</emph>. | Heb. <foreign
                                 xml:lang="he" style="unicode-bidi: embed;">בַגַּי </foreign>
-                            ‘in the valley’.</note>
-                        <note xml:id="fn5" type="footnote">A quotation from <emph>Mishneh
+                             ‘in the valley’.</note>
+                        <note xml:id="Deut-034-fn5" type="footnote">A quotation from <emph>Mishneh
                                 Torah</emph>, <emph>Sefer Taharah</emph> (Tumat Ochalin
                             15:10).</note>
-                        <note xml:id="fn6" type="footnote">Probably an abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">אָמֵן בִּמְהֵרָה כֵּן
-                                יְהִי רָצוֹן </foreign>
-                            ‘Amen! May it will God’s will speedily!’.</note>
-                        <note xml:id="fn7" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לְרֹאשׁ־חֹדֶשׁ </foreign>
-                            ‘of (the beginning of) the month’.</note>
-                        <note xml:id="fn8" type="footnote">Heb. <foreign xml:lang="he"
+                        <note xml:id="Deut-034-fn6" type="footnote">Probably an abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">אָמֵן בִּמְהֵרָה
+                                כֵּן יְהִי רָצוֹן </foreign>
+                             ‘Amen! May it will God’s will speedily!’.</note>
+                        <note xml:id="Deut-034-fn7" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">לְרֹאשׁ־חֹדֶשׁ </foreign>
+                             ‘of (the beginning of) the month’.</note>
+                        <note xml:id="Deut-034-fn8" type="footnote">Heb. <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וְדַעַת קְדֹשִׁים </foreign>
-                            ‘the knowledge of the Holy One’, a quotation from Proverbs 9:10 or
+                             ‘the knowledge of the Holy One’, a quotation from Proverbs 9:10 or
                             Proverbs 30:3 blended with Proverbs 2:5, i.e., with <foreign
                                 xml:lang="he" style="unicode-bidi: embed;">וְדַעַת אֱלֹהִים
                                 תִּמְצָא</foreign>
-                            , which tends to happen in the Hebrew religious literature. The first
+                             , which tends to happen in the Hebrew religious literature. The first
                             word of the quotation, i.e., <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ודע֒ת</foreign>
-                            , encloses the date, i.e., <emph>waw</emph> + <emph>daleth</emph> +
+                             , encloses the date, i.e., <emph>waw</emph> + <emph>daleth</emph> +
                                 <emph>ayin</emph> + <emph>taw</emph> = 6 + 4 + 70 + 400 = (5)480,
                             A.M. (1720, A.D.).</note>
-                        <note xml:id="fn9" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לִפְרָט קָטָן </foreign>
-                            ‘by the abbreviated counting’.</note>
-                        <note xml:id="fn10" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לְסֵפֶר </foreign>
-                            ‘of the weekly portion of the Torah’.</note>
-                        <note xml:id="fn11" type="footnote">An abbreviation of either Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">הַנִּזְכָּר לְעֵיל </foreign>
-                            ‘the above-mentioned or <foreign xml:lang="he"
+                        <note xml:id="Deut-034-fn9" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">לִפְרָט קָטָן </foreign>
+                             ‘by the abbreviated counting’.</note>
+                        <note xml:id="Deut-034-fn10" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">לְסֵפֶר </foreign>
+                             ‘of the weekly portion of the Torah’.</note>
+                        <note xml:id="Deut-034-fn11" type="footnote">An abbreviation of either Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">הַנִּזְכָּר
+                                לְעֵיל </foreign>
+                             ‘the above-mentioned or <foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הַנִּמְצָא לְעֵל </foreign>
-                            ‘found above’.</note>
-                        <note xml:id="fn12" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">עַל יְדֵי </foreign>
-                            ‘through this, by this’.</note>
-                        <note xml:id="fn13" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">בֶן לַאֲדוֹנִי אָבִי </foreign>
-                            ‘the son of my master, my father’.</note>
-                        <note xml:id="fn14" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד מְנוּחָתוֹ עֵֽדֶן </foreign>
-                            ‘[<emph>the</emph>
+                             ‘found above’.</note>
+                        <note xml:id="Deut-034-fn12" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">עַל יְדֵי </foreign>
+                             ‘through this, by this’.</note>
+                        <note xml:id="Deut-034-fn13" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">בֶן לַאֲדוֹנִי
+                                אָבִי </foreign>
+                             ‘the son of my master, my father’.</note>
+                        <note xml:id="Deut-034-fn14" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד
+                                מְנוּחָתוֹ עֵֽדֶן </foreign>
+                             ‘[<emph>the</emph>
                             <emph>person’s name</emph>] whose honourable repose is Eden’ (used after
                                 <emph>the son of</emph>).</note>
-                        <note xml:id="fn15" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">יָנוּחַ עַל מִשְׁכָּבוֹ
-                                שָׁלוֹם </foreign>
-                            ‘may he rest in peace; may peace rest on his place of repose’.</note>
-                        <note xml:id="fn16" type="footnote">An abbreviation of Hebr. שׁ<foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ְלִיחַ צִבּ</foreign>
-                            וּ<foreign xml:lang="he" style="unicode-bidi: embed;">ר </foreign>
-                            ‘the prayer leader of the community’.</note>
-                        <note xml:id="fn17" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">לְעוֹלְמֵי עַד </foreign>
-                            ‘for ever’.</note>
-                        <note xml:id="fn18" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">קְהִלָּה קְדוֹשָׁה </foreign>
-                            ‘holy community’.</note>
-                        <note xml:id="fn19" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">עַד עוֹלָם סֶלָה </foreign>
-                            ‘for ever Selah!’.</note>
-                        <note xml:id="fn20" type="footnote">An abbreviation of Hebr. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">תֵּבֵ֗ל וְיֹשְׁבֵי בָהּ </foreign>
-                            ‘the world and those who dwell therein’, see Psalm 24:1.</note>
-                        <note xml:id="fn21" type="footnote">Pslam 24:1.</note>
-                        <note xml:id="fn22" type="footnote">Unclear form.</note>
-                        <note xml:id="fn23" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד מַעֲלַת </foreign>
-                            ‘his honour’.</note>
-                        <note xml:id="fn24" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">בֶּן כְּבוֹד מְנוּחָתוֹ
-                                עֵֽדֶן </foreign>
-                            ‘the son of (<emph>the</emph>
+                        <note xml:id="Deut-034-fn15" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">יָנוּחַ עַל
+                                מִשְׁכָּבוֹ שָׁלוֹם </foreign>
+                             ‘may he rest in peace; may peace rest on his place of repose’.</note>
+                        <note xml:id="Deut-034-fn16" type="footnote">An abbreviation of Hebr.
+                                שׁ<foreign xml:lang="he" style="unicode-bidi: embed;">ְלִיחַ
+                                צִבּ</foreign>
+                             וּ<foreign xml:lang="he" style="unicode-bidi: embed;">ר </foreign>
+                             ‘the prayer leader of the community’.</note>
+                        <note xml:id="Deut-034-fn17" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">לְעוֹלְמֵי עַד </foreign>
+                             ‘for ever’.</note>
+                        <note xml:id="Deut-034-fn18" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">קְהִלָּה
+                                קְדוֹשָׁה </foreign>
+                             ‘holy community’.</note>
+                        <note xml:id="Deut-034-fn19" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">עַד עוֹלָם סֶלָה </foreign>
+                             ‘for ever Selah!’.</note>
+                        <note xml:id="Deut-034-fn20" type="footnote">An abbreviation of Hebr.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">תֵּבֵ֗ל
+                                וְיֹשְׁבֵי בָהּ </foreign>
+                             ‘the world and those who dwell therein’, see Psalm 24:1.</note>
+                        <note xml:id="Deut-034-fn21" type="footnote">Pslam 24:1.</note>
+                        <note xml:id="Deut-034-fn22" type="footnote">Unclear form.</note>
+                        <note xml:id="Deut-034-fn23" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד מַעֲלַת </foreign>
+                             ‘his honour’.</note>
+                        <note xml:id="Deut-034-fn24" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">בֶּן כְּבוֹד
+                                מְנוּחָתוֹ עֵֽדֶן </foreign>
+                             ‘the son of (<emph>the</emph>
                             <emph>person’s name</emph>), whose honourable repose is Eden’.</note>
-                        <note xml:id="fn25" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">זִכְרוֹנוֹ לִבְרָכָה </foreign>
-                            ‘may his memory be a blessing’.</note>
-                        <note xml:id="fn26" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">הַשֵּׁם יִקֹּם דָּמוֹ </foreign>
-                            ‘may the Lord avenge his blood’.</note>
-                        <note xml:id="fn27" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">עַד כָּאן </foreign>
-                            ‘so far, up to this point’.</note>
-                        <note xml:id="fn28" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד מוֹרֵנוּ רַבִּי </foreign>
-                            ‘our honourable teacher, Rabbi’.</note>
-                        <note xml:id="fn29" type="footnote">An abbreviation of Heb. <foreign
-                                xml:lang="he" style="unicode-bidi: embed;">נִשְׁמַתוֹ עֵדֶן </foreign>
-                            ‘may his soul rest in Eden’.</note>
+                        <note xml:id="Deut-034-fn25" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">זִכְרוֹנוֹ
+                                לִבְרָכָה </foreign>
+                             ‘may his memory be a blessing’.</note>
+                        <note xml:id="Deut-034-fn26" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">הַשֵּׁם יִקֹּם
+                                דָּמוֹ </foreign>
+                             ‘may the Lord avenge his blood’.</note>
+                        <note xml:id="Deut-034-fn27" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">עַד כָּאן </foreign>
+                             ‘so far, up to this point’.</note>
+                        <note xml:id="Deut-034-fn28" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">כְּבוֹד מוֹרֵנוּ
+                                רַבִּי </foreign>
+                             ‘our honourable teacher, Rabbi’.</note>
+                        <note xml:id="Deut-034-fn29" type="footnote">An abbreviation of Heb.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">נִשְׁמַתוֹ עֵדֶן </foreign>
+                             ‘may his soul rest in Eden’.</note>
                     </app>
                 </listApp>
             </div>

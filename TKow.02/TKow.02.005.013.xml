@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>2 Kings 13</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>2 Kings 13</title>
+                        <milestone unit="line" xml:id="Kings2013-P145r-L6" n="6"
+                            prev="TKow.02.005.012.xml#Kings2012-P145r-L6" />
+                        <l xml:id="Kings2-013-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יג׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Kings2-013-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בשנת</foreign>
+                            <milestone unit="line" n="7" />
+                            Egirmi icinci jylda Joʾašqa uvluna Aḥazjahu meleḫinin Juhudanyn bij
+                            boldu Johoʾaḥaz
+                            <milestone unit="line" n="8" />
+                            uvlu Jehuʾnun Jisraʾel istine Šomeronda on jedi jyl.</l>
+                        <l n="2" xml:id="Kings2-013-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy ol jaman keringenni
+                            <milestone unit="line" n="9" />
+                            ʿenajatlarynda H-<addSpan spanTo="#Kings2-013-add001" />nyn<anchor
+                                xml:id="Kings2-013-add001" type="addSpan" /> da bardy jazyqlary
+                            artyna Jaravʿamnyn uvlunun <addSpan spanTo="#Kings2-013-add002"
+                                 />Nevatnyn<anchor xml:id="Kings2-013-add002" type="addSpan" /> ki
+                            jazyqly ettir-
+                            <milestone unit="line" n="10" />
+                            di osol Jisraʾelni ketmedi andan.</l>
+                        <l n="3" xml:id="Kings2-013-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחר </foreign>
+                            Da qabundu qaḥiri H-nyn Jisraʾelde da berdi alarny
+                            <milestone unit="line" n="11" />
+                            qoluna Ḥazaʾelnin meleḫinin Aramnyn da qoluna Ben Hadadnyn uvlunun
+                            Ḥazaʾelnin bar ol kinlerni.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="4" xml:id="Kings2-013-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחל </foreign>
+                            Da qoldu Johoʾaḥaz osol qyblalaryn H-nyn da esitti qoltqasyn anyn H ki
+                            kerdi osol
+                            <milestone unit="line" n="13" />
+                            qysyqlyɣyn Jisraʾelnin ki qysyqlyq etti alarɣa meleḫi Aramnyn.</l>
+                        <l n="5" xml:id="Kings2-013-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתן </foreign>
+                            Da berdi H Jisraʾel-
+                            <milestone unit="line" n="14" />
+                            ge jarlyɣaslatuvcu da cyqtylar erki tibinden Aramnyn da olturdular uvullary
+                            <milestone unit="line" n="15" />
+                            Jisraʾelnin catyrlarynda kinelej biri kinlej.</l>
+                        <l n="6" xml:id="Kings2-013-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אך </foreign>
+                            Tek ketmediler jazyqlaryndan
+                            <milestone unit="line" n="16" />
+                            ivinin Jaravʿamnyn ki jazyqly ettirdi osol Jisraʾelni anyn byla jiridi
+                            da daɣyn
+                            <milestone unit="line" n="17" />
+                            ol Ašera turdu Šomeronda.</l>
+                        <l n="7" xml:id="Kings2-013-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki qaldyrmady Johoʾaḥazɣa ulus ki ancaq enli
+                            <milestone unit="line" n="18" />
+                            jalan atlylar da on markav da on min ceriv jajav ta<supplied
+                                reason="lost">s</supplied>etti<ref n="1" target="#Kings2-013-fn1"
+                                type="noteAnchor" /> alarny meleḫi Aramnyn da
+                            <milestone unit="line" n="19" />
+                            qojdu alarny topraqny kibik jancma.</l>
+                        <l n="8" xml:id="Kings2-013-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתר </foreign>
+                            Da qaldyq sezleri Johoʾaḥaznyn da bar ne
+                            <milestone unit="line" n="20" />
+                            ki qyldy da baɣatyrlyɣy anyn muna alar jazy<supplied reason="lost"
+                                >l</supplied>ɣandylar<ref n="2" target="#Kings2-013-fn2"
+                                type="noteAnchor" /> seferi istine islerinin ol kin-
+                            <milestone unit="line" n="21" />
+                            lernin meleḫlerine Jisraʾelnin.</l>
+                        <l n="9" xml:id="Kings2-013-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישכב </foreign>
+                            Da Johoʾaḥaz jatty atalary byla da astradylar
+                            <milestone unit="line" n="22" />
+                            any Šomeronda da bij boldu Joʾaš uvlu anyn anyn ornuna.</l>
+                        <l n="10" xml:id="Kings2-013-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בשנת </foreign>
+                            Otuz jedinci
+                            <milestone unit="line" n="23" />
+                            jylda Joʾašqa meleḫine Juhudanyn bij boldu Johoʾaš uvlu Johoʾaḥaznyn
+                            Jisraʾel istine
+                            <milestone unit="line" n="24" />
+                            Šomeronda on alty jyl.</l>
+                        <l n="11" xml:id="Kings2-013-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעשה </foreign>
+                            Da qyldy ol jaman keringenni ʿenajatlarynda H-nyn
+                            <milestone unit="line" n="25" />
+                            ketmedi bar jazyqlaryndan Jaravʿamnyn uvlunun Nevatnyn ki jazyqly
+                            ettirdi Jisraʾelde
+                            <milestone unit="line" n="26" />
+                            anyn byla jiridi.</l>
+                        <l n="12" xml:id="Kings2-013-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתר </foreign>
+                            Da qaldyq sezleri Joʾašnyn da bar ki qyldy da baɣatyrlyɣy anyn
+                            <milestone unit="line" n="27" />
+                            ki orustu Amacja byla meleḫi byla Juhudanyn muna alar jazylɣandylar
+                            seferi istine
+                            <milestone unit="page" n="145v" />
+                            <milestone unit="line" n="1" />
+                            islerinin ol kinlernin meleḫlerine Jisraʾelnin.</l>
+                        <l n="13" xml:id="Kings2-013-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישכב </foreign>
+                            Da jatty Joʾaš atalary
+                            <milestone unit="line" n="2" />
+                            byla Jaravʿam olturdu taḥty istine anyn da astraldy Joʾaš Šomeronda meleḫ-
+                            <milestone unit="line" n="3" />
+                            leri byla Jisraʾelnin.</l>
+                        <l n="14" xml:id="Kings2-013-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואלישע </foreign>
+                            Da Elišaʿ ḥastalandy osol ḥastalyɣyna ki eldi
+                            <milestone unit="line" n="4" />
+                            andan da endi anar Joʾaš meleḫi Jisraʾel<addSpan
+                                spanTo="#Kings2-013-add003" />nin<anchor xml:id="Kings2-013-add003"
+                                type="addSpan" /> da jylady alnynda anyn da ajtty atam atam
+                            <milestone unit="line" n="5" />
+                            markavy Jisraʾelnin da jalan atlylary anyn.</l>
+                        <l n="15" xml:id="Kings2-013-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty anar Elišaʿ alɣyn jaj da
+                            <milestone unit="line" n="6" />
+                            oqlar da aldy anar jaj da oqlar.</l>
+                        <l n="16" xml:id="Kings2-013-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty meleḫine Jisraʾelnin atlanɣyzdyrɣyn
+                            <milestone unit="line" n="7" />
+                            qolunnu ol jaj istine da atlanɣyzdyrdy qolun da qojdu Elišaʿ qolun qollary
+                            <milestone unit="line" n="8" />
+                            <addSpan spanTo="#Kings2-013-add004" /><emph><foreign xml:lang="he"
+                                    style="unicode-bidi: embed;">יט׳</foreign>
+                            </emph><anchor xml:id="Kings2-013-add004" type="addSpan" /> istine ol
+                            meleḫnin.</l>
+                        <l n="17" xml:id="Kings2-013-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty acqyn ol tereʒeni mizraḥ sartyn da acty
+                            <milestone unit="line" n="9" />
+                            da ajtty Elišaʿ atqyn da atty da ajtty jarlyɣasly oq H-ɣa da jarlyɣasly oq
+                            <milestone unit="line" n="10" />
+                            Aramda da vatysen osol Aramny Afeqte tavusmaqqadejin.</l>
+                        <l n="18" xml:id="Kings2-013-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty alɣyn ol
+                            <milestone unit="line" n="11" />
+                            oqlarny da aldy da ajtty meleḫine Jisraʾelnin vatqyn jerge da vatty ic keretler
+                            <milestone unit="line" n="12" />
+                            da qaldy vatmaqtan.</l>
+                        <l n="19" xml:id="Kings2-013-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקצוף </foreign>
+                            Da qaḥirlendi anyn istine navisi ol Tenrisinin
+                            <milestone unit="line" n="13" />
+                            da ajtty kerek edi vatma bes jemese alty keretler ol vaḥtta vatqyjdyn
+                            <milestone unit="line" n="14" />
+                            osol Aramny tavusmaqqadejin da haligine ic keretler vatysen osol
+                            Aramny.</l>
+                        <l n="20" xml:id="Kings2-013-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימת</foreign>
+                            <milestone unit="line" n="15" />
+                            Da eldi Elišaʿ da astradylar any da jyjynlary Moʾavnyn kelirediler jerge ol
+                            <milestone unit="line" n="16" />
+                            kelesi jylda.</l>
+                        <l n="21" xml:id="Kings2-013-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi alar astrarediler kisini da muna kerdiler osol
+                            <milestone unit="line" n="17" />
+                            <addSpan spanTo="#Kings2-013-add005" /><emph><foreign xml:lang="he"
+                                    style="unicode-bidi: embed;">כ׳</foreign>
+                            </emph><anchor xml:id="Kings2-013-add005" type="addSpan" /> ol jyjynny
+                            da tasladylar osol ol kisin<supplied reason="lost">i</supplied><ref
+                                n="3" target="#Kings2-013-fn3" type="noteAnchor" /> zeretine
+                            Elišaʿnyn da bardy da
+                            <milestone unit="line" n="18" />
+                            tijdi ol kisi siveklerine Elišaʿnyn da tirildi da turdu ajaqlary
+                            istine.</l>
+                        <l n="22" xml:id="Kings2-013-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחזאל</foreign>
+                            <milestone unit="line" n="19" />
+                            Da Ḥazaʾel meleḫi Aramnyn qysyqlyq etti Jisraʾelge bar kinlerinde
+                            Johoʾaḥaznyn.</l>
+                        <l n="23" xml:id="Kings2-013-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחן</foreign>
+                            <milestone unit="line" n="20" />
+                            Da ḥajifsindi H alarny da raḥmetledi alarny da qajryldy alarɣa serti
+                            icin osol
+                            <milestone unit="line" n="21" />
+                            Avraham byla Jicḥaq byla da Jaʿaqov byla da klemedi cajpama alarny da
+                            taslamady alarny
+                            <milestone unit="line" n="22" />
+                            qyblalary alnyndan halig<supplied reason="lost">e</supplied>dejin<ref
+                                n="4" target="#Kings2-013-fn4" type="noteAnchor" />.</l>
+                        <l n="24" xml:id="Kings2-013-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימת </foreign>
+                            Da eldi Ḥazaʾel meleḫi Aramnyn da bij boldu
+                            <milestone unit="line" n="23" />
+                            Ben Hadad uvlu anyn anyn ornuna.</l>
+                        <l n="25" xml:id="Kings2-013-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישב </foreign>
+                            Da qajtty Joʾaš uvlu Johoʾaḥaznyn da aldy
+                            <milestone unit="line" n="24" />
+                            osol ol saharlarny qolundan Ben Hadadnyn uvlunun Ḥazaʾelnin ki aldy qolundan
+                            <milestone unit="line" n="25" />
+                            Johoʾaḥaznyn atasynyn cerivde ic keretler vatty any Joʾaš da qajta
+                            <milestone unit="line" xml:id="Kings2013-P145v-L26" n="26"
+                                next="TKow.02.005.014.xml#Kings2014-P145v-L26" />
+                            aldy osol saharlaryn Jisraʾelnin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Kings2-013-fn1" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">טַשְאֶיטְטִי</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Kings2-013-fn2" type="footnote">TKow.02: spelled
+                                <emph>jazyɣandylar</emph>; a scribal error.</note>
+                        <note xml:id="Kings2-013-fn3" type="footnote">TKow.02: spelled
+                                <emph>kisine</emph>; a scribal error.</note>
+                        <note xml:id="Kings2-013-fn4" type="footnote">TKow.02: spelled
+                                <emph>haligidejin</emph>; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,259 +1,337 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
 	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title ana="#no" />
-				<author ana="#no" />
-			</titleStmt>
-			<publicationStmt>
-				<publisher>Uppsala University, Department of linguistics and philology</publisher>
-				<pubPlace>Uppsala, Sweden</pubPlace>
-				<date>2020</date>
-				<availability status="restricted">
-					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<settlement>Warsaw, Poland</settlement>
-						<repository>Private archive</repository>
-						<idno>ADub.III.73</idno>
-					</msIdentifier>
-					<msContents>
-						<summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
-					</msContents>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc>
-			<abstract>
-				<p>
-					<lg>
-						<l>Leviticus 27</l>
-					</lg>
-				</p>
-			</abstract>
-		</profileDesc>
-	</teiHeader><text>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.73</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Leviticus 27</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
 
-		<body>
-			<div type="edition">
-				<div type="textpart" subtype="chapter">
-					<ab>
-						<title>Leviticus 27</title>
-						<milestone unit="line" xml:id="Lev027-P205v-L13_trl" n="13" prev="ADub.III.73.003.026.trl.xml#Lev026-P205v-L13_trl" />
-						<l n="1">And the Lord spoke to Moses,
-							<milestone unit="line" n="14" />saying,
-						</l>
-						<l n="2">‘Speak to the children of Israel, and say
-							<milestone unit="line" n="15" />to them, “When a man will separate a special vow by your valuation of persons for the Lord,
-						</l>
-						<l n="3">
-							<milestone unit="line" n="16" />Then your valuation shall be: A male from twenty years old even up to sixty years old:
-							<milestone unit="line" n="17" />your valuation shall be fifty mithqals of silver, by the mithqal
-							<milestone unit="line" n="18" />of the Holy.
-						</l>
-						<l n="4">And if it is a female, then your valuation shall be
-							<milestone unit="line" n="19" />thirty mithqals.
-						</l>
-						<l n="5">And if it is from five years |old| even up to twenty years |old|,
-							<milestone unit="line" n="20" />then your valuation shall be: |for| a male twenty mithqals, and for a female
-							<milestone unit="line" n="21" />ten mithqals.
-						</l>
-						<l n="6">And if it is from a month old up to five years |old|,
-							<milestone unit="page" n="206r" />
-							<milestone unit="line" n="1" />then your valuation shall be |for| the male five mithqals of silver and for a female
-							<milestone unit="line" n="2" />three mithqals of silver.
-						</l>
-						<l n="7">And if it is from sixty years old
-							<milestone unit="line" n="3" />and above: if it is a male, then your valuation shall be fifteen
-							<milestone unit="line" n="4" />mithqals, and for the female ten mithqals.
-						</l>
-						<l n="8">But if he is poorer
-							<milestone unit="line" n="5" />than your valuation, then one shall stand him before the priest, and
-							<milestone unit="line" n="6" />the priest shall value him. According to what the power of the hand
-							<milestone unit="line" n="7" />of the one that vowed can attain shall the priest value him.
-						</l>
-						<l n="9">And if
-							<milestone unit="line" n="8" />it is such an animal from which offering is brought forward to the Lord, all
-							<milestone unit="line" n="9" />that is given of it to the Lord shall be holy.
-						</l>
-						<l n="10">He shall not exchange it or
-							<milestone unit="line" n="10" />change it, good for bad or bad for good.
-							<milestone unit="line" n="11" />And if he shall at all exchange animal for animal, then
-							<milestone unit="line" n="12" />it and the one exchanged shall be holy.
-						</l>
-						<l n="11">And if
-							<milestone unit="line" n="13" />it is any
-							<addSpan spanTo="#add001" />
-							<emph>unclean</emph>
-							<anchor xml:id="add001" /> animal from which sacrifice is not brought forward to the Lord,
-							<milestone unit="line" n="14" />then one shall stand the animal before the priest.
-						</l>
-						<milestone unit="line" n="15" />
-						<l n="12">And the priest shall value it, between good and
-							<milestone unit="line" n="16" />bad: according to your valuation, oh priest, so shall it be.
-						</l>
-						<l n="13">And
-							<milestone unit="line" n="17" />if its owner will at all redeem it, then he shall add a fifth
-							<milestone unit="line" n="18" />part of it to your valuation.
-						</l>
-						<l n="14">And a man who
-							<milestone unit="line" n="19" />consecrates his house |to be| holy to the Lord, then the priest shall value it,
-							<milestone unit="line" n="20" />between good and bad: as the priest values,
-							<milestone unit="line" n="21" />it so shall it stand.
-						</l>
-						<l n="15">And if the one who consecrates
-							<milestone unit="page" n="206v" />
-							<milestone unit="line" n="1" />it redeems his own house, then he shall add the fifth part of the silver
-							<milestone unit="line" n="2" />of your valuation to it, and it shall be his.
-						</l>
-						<l n="16">And if
-							<milestone unit="line" n="3" />a man hallows to the Lord some part of a field of his possession,
-							<milestone unit="line" n="4" />then your valuation shall be according to its seed: the sown seed of
-							<milestone unit="line" n="5" />a homer of barley for fifty mithqals of silver.
-						</l>
-						<l n="17">If
-							<milestone unit="line" n="6" />he consecrates his field from the year of jubilee, it shall stand, oh priest, according to your valuation.
-						</l>
-						<milestone unit="line" n="7" />
-						<l n="18">But if he consecrates
-							<milestone unit="line" n="8" />his field after the jubilee, then the priest shall calculate
-							<milestone unit="line" n="9" />the silver for him according to the years that remain,
-							<milestone unit="line" n="10" />until the year of the jubilee, and it shall be reduced from your valuation.
-						</l>
-						<l n="19">And
-							<milestone unit="line" n="11" />if the one who consecrates the field will indeed redeem it,
-							<milestone unit="line" n="12" />then he shall add the fifth part of the silver of your valuation
-							<milestone unit="line" n="13" />to it, and it shall stand as his.
-						</l>
-						<l n="20">And if
-							<milestone unit="line" n="14" />he does not redeem the field, and if he sells the field
-							<milestone unit="line" n="15" />to another man, it shall not be redeemed anymore.
-						</l>
-						<l n="21">And
-							<milestone unit="line" n="16" />when the field goes out in the jubilee, it |shall be| holy to the Lord, like a devoted field;
-							<milestone unit="line" n="17" />his possession shall be the priest’s.
-						</l>
-						<l n="22">And
-							<milestone unit="line" n="18" />if a man hallows a field which he has bought, that is not from the fields
-							<milestone unit="line" n="19" />of his possession, to the Lord,
-						</l>
-						<l n="23">Then
-							<milestone unit="line" n="20" />the priest shall calculate for him the amount of your valuation, up to the year of the jubilee,
-							<milestone unit="line" n="21" />and he shall give your valuation in that day, a holy |thing| to the Lord.
-						</l>
-						<milestone unit="page" n="207r" />
-						<milestone unit="line" n="1" />
-						<l n="24">In the year of the jubilee the field shall return to him from whom it was bought,
-							<milestone unit="line" n="2" />to whom the possession of the land belongs.
-						</l>
-						<l n="25">And
-							<milestone unit="line" n="3" />all your valuations shall be by the mithqal of the Holy: twenty <emph>gög</emph><ref target="#fn1" type="noteAnchor" /> shall be
-							<milestone unit="line" n="4" />the mithqal.
-						</l>
-						<l n="26">Just: the firstborn of the animals: if a firstborn is born to the Lord
-							<milestone unit="line" n="5" />no man shall consecrate it. Whether an ox, or sheep:
-							<milestone unit="line" n="6" />it is the Lord’s.
-						</l>
-						<l n="27">And if a firstborn is born
-							<milestone unit="line" n="7" />to an unclean animal, then he shall redeem it according to your valuation, and shall add
-							<milestone unit="line" n="8" />a fifth part to it. And if it is not redeemed, then,
-							<milestone unit="line" n="9" />oh priest, it shall be sold according to your valuation.
-						</l>
-						<l n="28">Just: any devoted thing
-							<milestone unit="line" n="10" />that a man shall devote to the Lord of all that he has — from human
-							<milestone unit="line" n="11" />or animal or from a field of his possession — shall not be sold
-							<milestone unit="line" n="12" />nor redeemed: every devoted thing is a holy of holies to the Lord.
-						</l>
-						<milestone unit="line" n="13" />
-						<l n="29">Anyone devoted who is devoted from humans shall not be redeemed.
-							<milestone unit="line" n="14" />He shall surely be put to death.
-						</l>
-						<l n="30">And all the tithe of the land, from of the seed
-							<milestone unit="line" n="15" />of the land, from the fruit of the tree: to is the Lord’s. It is holy
-							<milestone unit="line" n="16" />to the Lord.
-						</l>
-						<l n="31">And if a man will at all redeem
-							<milestone unit="line" n="17" />any of his tithes, he shall add to it the fifth part of it.
-						</l>
-						<milestone unit="line" n="18" />
-						<l n="32">And all the tithe of the cattle or of the flock, everything that
-							<milestone unit="line" n="19" />passes under the rod, the tenth shall be holy to the Lord.
-						</l>
-						<milestone unit="line" n="20" />
-						<l n="33">He shall not inspect whether it be good or bad. And he shall not exchange
-							<milestone unit="line" n="21" />it: and if he exchanges it at all, then both it and the one exchanged
-							<milestone unit="page" n="207v" />
-							<milestone unit="line" n="1" />for it shall be holy. It shall not be redeemed.”’
-						</l>
-						<l n="34">These are the commandments
-							<milestone unit="line" n="2" />which the Lord commanded Moses to teach to the children of Israel.
-							<milestone unit="line" n="3" />
-							<seg type="commented" corresp="#seg001" />And the Lord commanded these commandments to Moses
-							<anchor type="commented" xml:id="seg001" /><ref target="#fn2" type="noteAnchor" /> on Mount Sinai.
-							<milestone unit="line" n="4" />
-							<emph>And praise be to the great and awesome God with whom light dwells, and with his help –</emph>
-							<milestone unit="line" n="5" />
-							<emph>may He be blessed whose name is He Who Dwells Between the Cherubim – the peshatim of the Book of Leviticus are completed.</emph>
-							<milestone unit="line" n="6" />
-							<emph>In the name of Him who gives rest to wanderers and vagabonds and strengthens the hand of the poor</emph>
-							<milestone unit="line" n="7" />
-							<emph>and seats them in His only home I will start to write the peshat of the book of Pentateuch – of the Book of Numbers.</emph>
-							<milestone unit="line" n="8" />
-							<seg type="commented" corresp="#seg002" />
-							<emph>The day of birth of my beloved young son Zecharia: the 6th day of the parashat Ki Tavo, </emph>
-							<seg type="commented" corresp="#seg003" />
-							<emph>the 22nd</emph>
-							<emph>of the</emph>
-							<emph>month Elul</emph>
-							<milestone unit="line" n="9" />|of the|<emph> year 549 by the abbreviated counting</emph>
-							<anchor type="commented" xml:id="seg003" /><ref target="#fn3" type="noteAnchor" />
-							<emph>, may God let him grow up for the Torah, for the commandments and for good deeds. Amen, and may it be God’s will!</emph>
-							<anchor type="commented" xml:id="seg002" /><ref target="#fn4" type="noteAnchor" />
-							<milestone unit="line" n="10" />
-							<seg type="commented" corresp="#seg004" />
-							<emph>The day of birth of my beloved daughter, the young girl Malka </emph>
-							<gap reason="lost" extent="unknown" />
-							<emph>, the 5th day of the parashat Nitzavim, </emph>
-							<seg type="commented" corresp="#seg005" />
-							<emph>the 26th of the month</emph>
-							<milestone unit="line" n="11" />
-							<emph>Elul </emph>|of the|<emph> year 552 by the abbreviated counting.</emph>
-							<anchor type="commented" xml:id="seg005" /><ref target="#fn5" type="noteAnchor" />
-							<milestone unit="line" n="12" /><ref target="#fn6" type="noteAnchor" />
-							<milestone unit="line" n="13" />
-							<emph>The day of birth of my beloved daughter, the young girl Esther </emph>
-							<gap reason="lost" extent="unknown" />
-							<emph>, the 7th day of the parashat</emph>
-							<milestone unit="line" n="14" />
-							<emph>Shoftim, </emph>
-							<seg type="commented" corresp="#seg006" />
-							<emph>the 7th of the month Elul </emph>|of the|<emph> year 555 by the abbreviated counting.</emph>
-							<anchor type="commented" xml:id="seg006" /><ref target="#fn7" type="noteAnchor" />
-							<anchor type="commented" xml:id="seg004" /><ref target="#fn8" type="noteAnchor" />
-						</l>
-					</ab>
-				</div>
-			</div>
-			<div type="apparatus">
-				<listApp>
-					<app>
-						<note xml:id="fn1" type="footnote">Unidentified unit of weight.</note>
-						<note xml:id="fn2" type="footnote">An interpretative addition to Lev 27:34.</note>
-						<note xml:id="fn3" type="footnote">I.e., <emph>13 September 1789</emph>.</note>
-						<note xml:id="fn4" type="footnote">Inserted by another hand in Hebrew.</note>
-						<note xml:id="fn5" type="footnote">I.e., <emph>13 September 1792</emph>.</note>
-						<note xml:id="fn6" type="footnote">A catchword was written in this line.</note>
-						<note xml:id="fn7" type="footnote">I.e., <emph>9 August 1795</emph>.</note>
-						<note xml:id="fn8" type="footnote">Inserted by yet another hand (except the catchword in line 12) in Hebrew.</note>
-					</app>
-				</listApp>
-			</div>
-		</body>
-	</text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Leviticus 27</title>
+                        <milestone unit="line" xml:id="Lev027-P205v-L13_trl" n="13"
+                            prev="ADub.III.73.003.026.trl.xml#Lev026-P205v-L13_trl" />
+                        <l n="1">And the Lord spoke to Moses,
+                            <milestone unit="line" n="14" />
+                            saying, </l>
+                        <l n="2">‘Speak to the children of Israel, and say
+                            <milestone unit="line" n="15" />
+                            to them, “When a man will separate a special vow by your valuation of
+                            persons for the Lord, </l>
+                        <l n="3">
+                            <milestone unit="line" n="16" />
+                            Then your valuation shall be: A male from twenty years old even up to
+                            sixty years old:
+                            <milestone unit="line" n="17" />
+                            your valuation shall be fifty mithqals of silver, by the mithqal
+                            <milestone unit="line" n="18" />
+                            of the Holy. </l>
+                        <l n="4">And if it is a female, then your valuation shall be
+                            <milestone unit="line" n="19" />
+                            thirty mithqals. </l>
+                        <l n="5">And if it is from five years |old| even up to twenty years |old|,
+                            <milestone unit="line" n="20" />
+                            then your valuation shall be: |for| a male twenty mithqals, and for a
+                            female
+                            <milestone unit="line" n="21" />
+                            ten mithqals. </l>
+                        <l n="6">And if it is from a month old up to five years |old|,
+                            <milestone unit="page" n="206r" />
+                            <milestone unit="line" n="1" />
+                            then your valuation shall be |for| the male five mithqals of silver and
+                            for a female
+                            <milestone unit="line" n="2" />
+                            three mithqals of silver. </l>
+                        <l n="7">And if it is from sixty years old
+                            <milestone unit="line" n="3" />
+                            and above: if it is a male, then your valuation shall be fifteen
+                            <milestone unit="line" n="4" />
+                            mithqals, and for the female ten mithqals. </l>
+                        <l n="8">But if he is poorer
+                            <milestone unit="line" n="5" />
+                            than your valuation, then one shall stand him before the priest, and
+                            <milestone unit="line" n="6" />
+                            the priest shall value him. According to what the power of the hand
+                            <milestone unit="line" n="7" />
+                            of the one that vowed can attain shall the priest value him. </l>
+                        <l n="9">And if
+                            <milestone unit="line" n="8" />
+                            it is such an animal from which offering is brought forward to the Lord,
+                            all
+                            <milestone unit="line" n="9" />
+                            that is given of it to the Lord shall be holy. </l>
+                        <l n="10">He shall not exchange it or
+                            <milestone unit="line" n="10" />
+                            change it, good for bad or bad for good.
+                            <milestone unit="line" n="11" />
+                            And if he shall at all exchange animal for animal, then
+                            <milestone unit="line" n="12" />
+                            it and the one exchanged shall be holy. </l>
+                        <l n="11">And if
+                            <milestone unit="line" n="13" />
+                            it is any <addSpan spanTo="#Lev-027-add001_trl" />
+                            <emph>unclean</emph>
+                            <anchor type="addSpan" xml:id="Lev-027-add001_trl" /> animal from which
+                            sacrifice is not brought forward to the Lord,
+                            <milestone unit="line" n="14" />
+                            then one shall stand the animal before the priest. </l>
+                        <milestone unit="line" n="15" />
+                        <l n="12">And the priest shall value it, between good and
+                            <milestone unit="line" n="16" />
+                            bad: according to your valuation, oh priest, so shall it be. </l>
+                        <l n="13">And
+                            <milestone unit="line" n="17" />
+                            if its owner will at all redeem it, then he shall add a fifth
+                            <milestone unit="line" n="18" />
+                            part of it to your valuation. </l>
+                        <l n="14">And a man who
+                            <milestone unit="line" n="19" />
+                            consecrates his house |to be| holy to the Lord, then the priest shall
+                            value it,
+                            <milestone unit="line" n="20" />
+                            between good and bad: as the priest values,
+                            <milestone unit="line" n="21" />
+                            it so shall it stand. </l>
+                        <l n="15">And if the one who consecrates
+                            <milestone unit="page" n="206v" />
+                            <milestone unit="line" n="1" />
+                            it redeems his own house, then he shall add the fifth part of the silver
+                            <milestone unit="line" n="2" />
+                            of your valuation to it, and it shall be his. </l>
+                        <l n="16">And if
+                            <milestone unit="line" n="3" />
+                            a man hallows to the Lord some part of a field of his possession,
+                            <milestone unit="line" n="4" />
+                            then your valuation shall be according to its seed: the sown seed of
+                            <milestone unit="line" n="5" />
+                            a homer of barley for fifty mithqals of silver. </l>
+                        <l n="17">If
+                            <milestone unit="line" n="6" />
+                            he consecrates his field from the year of jubilee, it shall stand, oh
+                            priest, according to your valuation. </l>
+                        <milestone unit="line" n="7" />
+                        <l n="18">But if he consecrates
+                            <milestone unit="line" n="8" />
+                            his field after the jubilee, then the priest shall calculate
+                            <milestone unit="line" n="9" />
+                            the silver for him according to the years that remain,
+                            <milestone unit="line" n="10" />
+                            until the year of the jubilee, and it shall be reduced from your
+                            valuation. </l>
+                        <l n="19">And
+                            <milestone unit="line" n="11" />
+                            if the one who consecrates the field will indeed redeem it,
+                            <milestone unit="line" n="12" />
+                            then he shall add the fifth part of the silver of your valuation
+                            <milestone unit="line" n="13" />
+                            to it, and it shall stand as his. </l>
+                        <l n="20">And if
+                            <milestone unit="line" n="14" />
+                            he does not redeem the field, and if he sells the field
+                            <milestone unit="line" n="15" />
+                            to another man, it shall not be redeemed anymore. </l>
+                        <l n="21">And
+                            <milestone unit="line" n="16" />
+                            when the field goes out in the jubilee, it |shall be| holy to the Lord,
+                            like a devoted field;
+                            <milestone unit="line" n="17" />
+                            his possession shall be the priest’s. </l>
+                        <l n="22">And
+                            <milestone unit="line" n="18" />
+                            if a man hallows a field which he has bought, that is not from the
+                            fields
+                            <milestone unit="line" n="19" />
+                            of his possession, to the Lord, </l>
+                        <l n="23">Then
+                            <milestone unit="line" n="20" />
+                            the priest shall calculate for him the amount of your valuation, up to
+                            the year of the jubilee,
+                            <milestone unit="line" n="21" />
+                            and he shall give your valuation in that day, a holy |thing| to the
+                            Lord. </l>
+                        <milestone unit="page" n="207r" />
+                        <milestone unit="line" n="1" />
+                        <l n="24">In the year of the jubilee the field shall return to him from whom
+                            it was bought,
+                            <milestone unit="line" n="2" />
+                            to whom the possession of the land belongs. </l>
+                        <l n="25">And
+                            <milestone unit="line" n="3" />
+                            all your valuations shall be by the mithqal of the Holy: twenty
+                                <emph>gög</emph><ref n="1" target="#Lev-027-fn1_trl"
+                                type="noteAnchor" /> shall be
+                            <milestone unit="line" n="4" />
+                            the mithqal. </l>
+                        <l n="26">Just: the firstborn of the animals: if a firstborn is born to the
+                            Lord
+                            <milestone unit="line" n="5" />
+                            no man shall consecrate it. Whether an ox, or sheep:
+                            <milestone unit="line" n="6" />
+                            it is the Lord’s. </l>
+                        <l n="27">And if a firstborn is born
+                            <milestone unit="line" n="7" />
+                            to an unclean animal, then he shall redeem it according to your
+                            valuation, and shall add
+                            <milestone unit="line" n="8" />
+                            a fifth part to it. And if it is not redeemed, then,
+                            <milestone unit="line" n="9" />
+                            oh priest, it shall be sold according to your valuation. </l>
+                        <l n="28">Just: any devoted thing
+                            <milestone unit="line" n="10" />
+                            that a man shall devote to the Lord of all that he has — from human
+                            <milestone unit="line" n="11" />
+                            or animal or from a field of his possession — shall not be sold
+                            <milestone unit="line" n="12" />
+                            nor redeemed: every devoted thing is a holy of holies to the Lord. </l>
+                        <milestone unit="line" n="13" />
+                        <l n="29">Anyone devoted who is devoted from humans shall not be redeemed.
+                            <milestone unit="line" n="14" />
+                            He shall surely be put to death. </l>
+                        <l n="30">And all the tithe of the land, from of the seed
+                            <milestone unit="line" n="15" />
+                            of the land, from the fruit of the tree: to is the Lord’s. It is holy
+                            <milestone unit="line" n="16" />
+                            to the Lord. </l>
+                        <l n="31">And if a man will at all redeem
+                            <milestone unit="line" n="17" />
+                            any of his tithes, he shall add to it the fifth part of it. </l>
+                        <milestone unit="line" n="18" />
+                        <l n="32">And all the tithe of the cattle or of the flock, everything that
+                            <milestone unit="line" n="19" />
+                            passes under the rod, the tenth shall be holy to the Lord. </l>
+                        <milestone unit="line" n="20" />
+                        <l n="33">He shall not inspect whether it be good or bad. And he shall not
+                            exchange
+                            <milestone unit="line" n="21" />
+                            it: and if he exchanges it at all, then both it and the one exchanged
+                            <milestone unit="page" n="207v" />
+                            <milestone unit="line" n="1" />
+                            for it shall be holy. It shall not be redeemed.”’ </l>
+                        <l n="34">These are the commandments
+                            <milestone unit="line" n="2" />
+                            which the Lord commanded Moses to teach to the children of Israel.
+                            <milestone unit="line" n="3" />
+                            <seg type="commented" corresp="#Lev-027-seg001_trl" />And the Lord
+                            commanded these commandments to Moses <anchor type="commented"
+                                xml:id="Lev-027-seg001_trl" /><ref n="2" target="#Lev-027-fn2_trl"
+                                type="noteAnchor" /> on Mount Sinai.
+                            <milestone unit="line" n="4" />
+                            <emph>And praise be to the great and awesome God with whom light dwells,
+                                and with his help –</emph>
+                            <milestone unit="line" n="5" />
+                            <emph>may He be blessed whose name is He Who Dwells Between the Cherubim
+                                – the peshatim of the Book of Leviticus are completed.</emph>
+                            <milestone unit="line" n="6" />
+                            <emph>In the name of Him who gives rest to wanderers and vagabonds and
+                                strengthens the hand of the poor</emph>
+                            <milestone unit="line" n="7" />
+                            <emph>and seats them in His only home I will start to write the peshat
+                                of the book of Pentateuch – of the Book of Numbers.</emph>
+                            <milestone unit="line" n="8" />
+                            <seg type="commented" corresp="#Lev-027-seg002_trl" />
+                            <emph>The day of birth of my beloved young son Zecharia: the 6th day of
+                                the parashat Ki Tavo, </emph>
+                            <seg type="commented" corresp="#Lev-027-seg003_trl" />
+                            <emph>the 22nd</emph>
+                            <emph>of the</emph>
+                            <emph>month Elul</emph>
+                            <milestone unit="line" n="9" />
+                            |of the|<emph> year 549 by the abbreviated counting</emph>
+                            <anchor type="commented" xml:id="Lev-027-seg003_trl" /><ref n="3"
+                                target="#Lev-027-fn3_trl" type="noteAnchor" />
+                            <emph>, may God let him grow up for the Torah, for the commandments and
+                                for good deeds. Amen, and may it be God’s will!</emph>
+                            <anchor type="commented" xml:id="Lev-027-seg002_trl" /><ref n="4"
+                                target="#Lev-027-fn4_trl" type="noteAnchor" />
+                            <milestone unit="line" n="10" />
+                            <seg type="commented" corresp="#Lev-027-seg004_trl" />
+                            <emph>The day of birth of my beloved daughter, the young girl Malka </emph>
+                            <gap reason="lost" extent="unknown" />
+                            <emph>, the 5th day of the parashat Nitzavim, </emph>
+                            <seg type="commented" corresp="#Lev-027-seg005_trl" />
+                            <emph>the 26th of the month</emph>
+                            <milestone unit="line" n="11" />
+                            <emph>Elul </emph>|of the|<emph> year 552 by the abbreviated
+                                counting.</emph>
+                            <anchor type="commented" xml:id="Lev-027-seg005_trl" /><ref n="5"
+                                target="#Lev-027-fn5_trl" type="noteAnchor" />
+                            <milestone unit="line" n="12" />
+                            <ref n="6" target="#Lev-027-fn6_trl" type="noteAnchor" />
+                            <milestone unit="line" n="13" />
+                            <emph>The day of birth of my beloved daughter, the young girl Esther </emph>
+                            <gap reason="lost" extent="unknown" />
+                            <emph>, the 7th day of the parashat</emph>
+                            <milestone unit="line" n="14" />
+                            <emph>Shoftim, </emph>
+                            <seg type="commented" corresp="#Lev-027-seg006_trl" />
+                            <emph>the 7th of the month Elul </emph>|of the|<emph> year 555 by the
+                                abbreviated counting.</emph>
+                            <anchor type="commented" xml:id="Lev-027-seg006_trl" /><ref n="7"
+                                target="#Lev-027-fn7_trl" type="noteAnchor" />
+                            <anchor type="commented" xml:id="Lev-027-seg004_trl" /><ref n="8"
+                                target="#Lev-027-fn8_trl" type="noteAnchor" />
+                        </l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Lev-027-fn1_trl" type="footnote">Unidentified unit of
+                            weight.</note>
+                        <note xml:id="Lev-027-fn2_trl" type="footnote">An interpretative addition to
+                            Lev 27:34.</note>
+                        <note xml:id="Lev-027-fn3_trl" type="footnote">I.e., <emph>13 September
+                                1789</emph>.</note>
+                        <note xml:id="Lev-027-fn4_trl" type="footnote">Inserted by another hand in
+                            Hebrew.</note>
+                        <note xml:id="Lev-027-fn5_trl" type="footnote">I.e., <emph>13 September
+                                1792</emph>.</note>
+                        <note xml:id="Lev-027-fn6_trl" type="footnote">A catchword was written in
+                            this line.</note>
+                        <note xml:id="Lev-027-fn7_trl" type="footnote">I.e., <emph>9 August
+                                1795</emph>.</note>
+                        <note xml:id="Lev-027-fn8_trl" type="footnote">Inserted by yet another hand
+                            (except the catchword in line 12) in Hebrew.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text>
 </TEI>

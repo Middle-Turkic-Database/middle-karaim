@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,8 +52,8 @@
                              doɣac.</l>
                         <l n="2" xml:id="Ex-020-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אנכי </foreign>
-                             Mendir<ref target="#fn1" type="noteAnchor" /> men H Tenrin senin ki
-                            cyɣardym seni<ref target="#fn2" type="noteAnchor" />
+                             Mendir<ref n="1" target="#Ex-020-fn1" type="noteAnchor" /> men H Tenrin
+                            senin ki cyɣardym seni<ref n="2" target="#Ex-020-fn2" type="noteAnchor" />
                             <milestone unit="line" n="13" />
                              jerinden Micrinin qulluq erkinden.</l>
                         <l n="3" xml:id="Ex-020-003"><foreign xml:lang="he"
@@ -216,11 +214,11 @@
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">A small circle above the first letter
-                            marks a beginning of a commandment (see also verses Ex 20.3, 7, 8, 12,
-                            13, 14).</note>
-                        <note xml:id="fn2" type="footnote">Lines where a commandment begins are
-                            numbered on the outer margin with Hebrew letters.</note>
+                        <note xml:id="Ex-020-fn1" type="footnote">A small circle above the first
+                            letter marks a beginning of a commandment (see also verses Ex 20.3, 7,
+                            8, 12, 13, 14).</note>
+                        <note xml:id="Ex-020-fn2" type="footnote">Lines where a commandment begins
+                            are numbered on the outer margin with Hebrew letters.</note>
                     </app>
                 </listApp>
             </div>

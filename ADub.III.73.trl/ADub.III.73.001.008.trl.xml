@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,38 +40,40 @@
             <div type="edition">
                 <div type="textpart" subtype="chapter">
                     <ab><title>Genesis 8</title>
-                        <milestone unit="line" xml:id="Gen008-P10v-L18_trl" n="18" prev="ADub.III.73.001.007.trl.xml#Gen007-P10v-L18_trl"/>
+                        <milestone unit="line" xml:id="Gen008-P10v-L18_trl" n="18"
+                            prev="ADub.III.73.001.007.trl.xml#Gen007-P10v-L18_trl" />
                         <l n="1">And God remembered Noah,
                             <milestone unit="line" n="19" />
-                            and every wild animal, and all the livestock that
+                             and every wild animal, and all the livestock that
                             <milestone unit="line" n="20" />
-                            were with him in the ship. And God made a wind to pass over the earth
+                             were with him in the ship. And God made a wind to pass over the earth
                             <milestone unit="line" n="21" />
-                            and the waters were suppressed.</l>
+                             and the waters were suppressed.</l>
                         <l n="2">And
                             <milestone unit="page" n="11r" />
                             <milestone unit="line" n="1" />
                             <supplied reason="lost">the springs of the deep and the windows of the
                                 skies were closed, and the rain</supplied>
                             <milestone unit="line" n="2" />
-                            from heaven <supplied reason="lost">was restrained</supplied>.</l>
+                             from heaven <supplied reason="lost">was restrained</supplied>.</l>
                         <l n="3">And the waters returned
                             <milestone unit="line" n="3" />
-                            from off <supplied reason="lost">the earth</supplied>, going back
+                             from off <supplied reason="lost">the earth</supplied>, going back
                             continually, and the waters decreased
                             <milestone unit="line" n="4" />
-                            in the course of one hundred and fifty days.</l>
+                             in the course of one hundred and fifty days.</l>
                         <l n="4">And the ship rested
                             <milestone unit="line" n="5" />
-                            in <supplied reason="lost">the seventh</supplied> month, on the
-                            seventeenth day of the month, <supplied reason="lost">on</supplied> the mountains
+                             in <supplied reason="lost">the seventh</supplied> month, on the
+                            seventeenth day of the month, <supplied reason="lost">on</supplied> the
+                            mountains
                             <milestone unit="line" n="6" />
-                            of Ararat.</l>
+                             of Ararat.</l>
                         <l n="5">And the waters went on
                             <milestone unit="line" n="7" />
-                            and decreased until the tenth month. In the tenth month,
+                             and decreased until the tenth month. In the tenth month,
                             <milestone unit="line" n="8" />
-                            on the <supplied reason="lost">first</supplied> day of the month the
+                             on the <supplied reason="lost">first</supplied> day of the month the
                             tops of the mountains appeared.</l>
                         <milestone unit="line" n="9" />
                         <l n="6">And it was in the course of forty days that Noah opened the
@@ -85,27 +85,27 @@
                             <supplied reason="lost">raven</supplied>, and it went forth to and fro,
                             until the waters were dried up
                             <milestone unit="line" n="12" />
-                            from off the earth.</l>
+                             from off the earth.</l>
                         <l n="8">And he sent forth a dove |to go|
                             <milestone unit="line" n="13" />
-                            from him to see whether the waters were subsided from off the face
+                             from him to see whether the waters were subsided from off the face
                             <milestone unit="line" n="14" />
-                            of the earth.</l>
+                             of the earth.</l>
                         <l n="9">But the dove found no rest
                             <milestone unit="line" n="15" />
-                            for the <supplied reason="lost">sole of its foot</supplied>, and it
+                             for the <supplied reason="lost">sole of its foot</supplied>, and it
                             returned to him to the ship, for the waters
                             <milestone unit="line" n="16" />
                             <supplied reason="lost">were</supplied> on the face of the whole earth,
                             and he reached out his hand, and took
                             <milestone unit="line" n="17" />
-                            it and brought it to him to the ship.</l>
+                             it and brought it to him to the ship.</l>
                         <l n="10">And he waited yet
                             <milestone unit="line" n="18" />
-                            another seven days, and again he sent forth the <supplied reason="lost"
+                             another seven days, and again he sent forth the <supplied reason="lost"
                                 >dove</supplied>
                             <milestone unit="line" n="19" />
-                            from the ship.</l>
+                             from the ship.</l>
                         <l n="11">And the dove came to him at evening
                             <milestone unit="line" n="20" />
                             <supplied reason="lost">time</supplied>, and, lo, there was an olive
@@ -117,70 +117,74 @@
                         <milestone unit="line" n="1" />
                         <l n="12">And he waited yet another seven days, and sent forth
                             <milestone unit="line" n="2" />
-                            the dove; and it did not return to him anymore.</l>
+                             the dove; and it did not return to him anymore.</l>
                         <milestone unit="line" n="3" />
-                        <l n="13">And it was in the six hundredth and first year, in the first month,
+                        <l n="13">And it was in the six hundredth and first year, in the first
+                            month,
                             <milestone unit="line" n="4" />
-                            on the first day of the month: the waters decreased <addSpan
-                                spanTo="#add001" /><emph>dried up</emph><anchor xml:id="add001" />
-                            from off the face
+                             on the first day of the month: the waters decreased <addSpan
+                                spanTo="#Gen-008-add001_trl" /><emph>dried up</emph><anchor
+                                type="addSpan" xml:id="Gen-008-add001_trl" /> from off the face
                             <milestone unit="line" n="5" />
-                            of the earth. And Noah removed the covering of the ship,
+                             of the earth. And Noah removed the covering of the ship,
                             <milestone unit="line" n="6" />
-                            and looked, and lo, the face of the ground had dried.</l>
+                             and looked, and lo, the face of the ground had dried.</l>
                         <milestone unit="line" n="7" />
                         <l n="14">And in the second month, on the twenty-seventh <supplied
                                 reason="lost">day</supplied>
                             <milestone unit="line" n="8" />
-                            of the month, was the earth dried up.</l>
+                             of the month, was the earth dried up.</l>
                         <l n="15">And God spoke
                             <milestone unit="line" n="9" />
-                            to Noah, saying,</l>
+                             to Noah, saying,</l>
                         <l n="16">‘Go out from the ship, <supplied reason="lost">you</supplied>,
                             <milestone unit="line" n="10" />
-                            and your wife, and your sons, and your sons’ wives with <supplied
+                             and your wife, and your sons, and your sons’ wives with <supplied
                                 reason="lost">you</supplied>.</l>
                         <milestone unit="line" n="11" />
-                        <l n="17">Every living thing that is with you, of all flesh, both birds and livestock
+                        <l n="17">Every living thing that is with you, of all flesh, both birds and
+                            livestock
                             <milestone unit="line" n="12" />
-                            and creeping animals that creep on the earth:
+                             and creeping animals that creep on the earth:
                             <milestone unit="line" n="13" />
-                            Take |them| out with you that they may breed in the earth, spread, and
+                             Take |them| out with you that they may breed in the earth, spread, and
                             <milestone unit="line" n="14" />
-                            multiply <delSpan spanTo="#del001" />there<anchor xml:id="del001" />
-                            <addSpan spanTo="#add002" /><emph>on the earth</emph><anchor
-                                xml:id="add002" />.’</l>
+                             multiply <delSpan spanTo="#Gen-008-del001_trl" />there<anchor
+                                type="delSpan" xml:id="Gen-008-del001_trl" />
+                            <addSpan spanTo="#Gen-008-add002_trl" /><emph>on the earth</emph><anchor
+                                type="addSpan" xml:id="Gen-008-add002_trl" />.’</l>
                         <l n="18">And Noah came out, and his sons,
                             <milestone unit="line" n="15" />
-                            and his wife, and his sons’ wives with him.</l>
+                             and his wife, and his sons’ wives with him.</l>
                         <l n="19">
                             <milestone unit="line" n="16" />
-                            Every wild animal, every creeping animal, and every bird, everything
+                             Every wild animal, every creeping animal, and every bird, everything
                             that moves
                             <milestone unit="line" n="17" />
-                            on the earth went out by families from the ship.</l>
+                             on the earth went out by families from the ship.</l>
                         <milestone unit="line" n="18" />
                         <l n="20">And Noah built an altar to the Lord and took of every clean
                             <milestone unit="line" n="19" />
-                            animal, and of every clean bird, and offered burnt offerings on the
+                             animal, and of every clean bird, and offered burnt offerings on the
                             altar.</l>
                         <milestone unit="line" n="20" />
                         <l n="21">And the Lord accepted the pleasing aroma, and
                             <milestone unit="line" n="21" />
-                            the Lord said in his thoughts, ‘I will not go on to curse <supplied
+                             the Lord said in his thoughts, ‘I will not go on to curse <supplied
                                 reason="lost">the ground</supplied>
                             <milestone unit="page" n="12r" />
                             <milestone unit="line" n="1" />
-                            for man’s sake any more, because the inclination of the man’s heart
+                             for man’s sake any more, because the inclination of the man’s heart
                             <milestone unit="line" n="2" />
-                            is evil from his youth, and I will not go on to punish
+                             is evil from his youth, and I will not go on to punish
                             <milestone unit="line" n="3" />
-                            every living creature again as I have done.</l>
+                             every living creature again as I have done.</l>
                         <l n="22">Even in all the days
                             <milestone unit="line" n="4" />
-                            of <supplied reason="lost">the</supplied> earth, sowing time and
+                             of <supplied reason="lost">the</supplied> earth, sowing time and
                             harvest, and cold and heat, and summer
-                            <milestone unit="line" xml:id="Gen008-P12r-L5_trl" n="5" next="ADub.III.73.001.009.trl.xml#Gen009-P12r-L5_trl"/>
+                            <milestone unit="line" xml:id="Gen008-P12r-L5_trl" n="5"
+                                next="ADub.III.73.001.009.trl.xml#Gen009-P12r-L5_trl" />
                             <supplied reason="lost">and</supplied> winter, day and night will not
                             cease.’</l>
                     </ab>

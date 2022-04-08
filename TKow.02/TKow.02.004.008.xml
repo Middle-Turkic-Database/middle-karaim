@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Kings 8</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Kings 8</title>
+                        <milestone unit="line" n="10" />
+                        <l xml:id="Kings1-008-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ח׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Kings1-008-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta ystyrtty Šelomo osol
+                            <milestone unit="line" n="11" />
+                            zaqenlerin Jisraʾelnin da osol bar aɣaraqlaryn ol ševetlernin nasilerin
+                            ol atalar-
+                            <milestone unit="line" n="12" />
+                            nyn uvullarynyn Jisraʾelnin ol meleḫke Šelomoɣa Jerušalajimge eltme osol aron
+                            <milestone unit="line" n="13" />
+                            sertin H-nyn saharyndan Davidnin oldu Cijon.</l>
+                        <l n="2" xml:id="Kings1-008-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקהלו </foreign>
+                            Da ystyryndylar ol meleḫke
+                            <milestone unit="line" n="14" />
+                            Šelomoɣa bar eli Jisraʾelnin ajynda ol kiclilernin ḥicda oldu ol jedinci
+                            <milestone unit="line" n="15" />
+                            aj ajy tišrinin.</l>
+                        <l n="3" xml:id="Kings1-008-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבואו </foreign>
+                            Da keldiler bar zaqenleri Jisraʾelnin da aldylar ol kohenler
+                            <milestone unit="line" n="16" />
+                            osol aronnu.</l>
+                        <l n="4" xml:id="Kings1-008-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעלו </foreign>
+                            Da aldylar osol aron H-nyn da osol ohel moʿedni da osol bar
+                            <milestone unit="line" n="17" />
+                            ol aziz savutlarny ki catyrda da elttiler alarny ol kohenler da ol
+                            Levililer.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="5" xml:id="Kings1-008-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והמלך </foreign>
+                            Da ol meleḫ Šelomo da bar ʒymaty Jisraʾel<addSpan
+                                spanTo="#Kings1-008-add001" />nin<anchor xml:id="Kings1-008-add001"
+                                type="addSpan" /> ol jomuluvcular anar birgesine
+                            <milestone unit="line" n="19" />
+                            anyn alnynda ol aronnun debeḥa eterediler qoj da syɣyr ki sanalmadylar
+                            <milestone unit="line" n="20" />
+                            any ḥa<supplied reason="lost">s</supplied>eblenmediler<ref n="1"
+                                target="#Kings1-008-fn1" type="noteAnchor" /> keplikten.</l>
+                        <l n="6" xml:id="Kings1-008-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויביאו </foreign>
+                            Da kivirdiler ol kohenler osol
+                            <milestone unit="line" n="21" />
+                            aron sertin H-nyn ornuna anyn devirine ol ivnin qodeš qadašim indele-
+                            <milestone unit="line" n="22" />
+                            doɣan orunɣa qanatlary tibine ol keruvimlernin ki qanatlary alarnyn jetere-
+                            <milestone unit="line" n="23" />
+                            diler farsttan farstqa ol qylynɣanlar zejtun aɣaclaryndan.</l>
+                        <l n="7" xml:id="Kings1-008-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki
+                            <milestone unit="line" n="24" />
+                            ol keruvimler jajarediler qanatlar ornuna ol aronnun da qapladylar ol
+                            <milestone unit="line" n="25" />
+                            keruvimler ol aron istine da tutquclary istine anyn joɣartyn.</l>
+                        <l n="8" xml:id="Kings1-008-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאריכו</foreign>
+                            <milestone unit="line" n="26" />
+                            Da uzardylar ol tutquclar da kerindiler baslary ol tutquclarnyn ol qodeš-
+                            <milestone unit="line" n="27" />
+                            ten alnyna ol devirnin da kerinmedile<addSpan
+                                spanTo="#Kings1-008-add002" />r<anchor xml:id="Kings1-008-add002"
+                                type="addSpan" /> ol tysqaryɣa ol heḫalɣa da ediler
+                            <milestone unit="page" n="111r" />
+                            <milestone unit="line" n="1" />
+                            anda ol uspu kingedejin.</l>
+                        <l n="9" xml:id="Kings1-008-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אין </foreign>
+                            Joɣedi aronda tek eki luḥotlar ol
+                            <milestone unit="line" n="2" />
+                            tasly ki toḥta<addSpan spanTo="#Kings1-008-add003" />t<anchor
+                                xml:id="Kings1-008-add003" type="addSpan" />ty anda Moše Ḥorevde ki
+                                ke<supplied reason="lost">s</supplied>ti<ref n="2"
+                                target="#Kings1-008-fn2" type="noteAnchor" /> H sert uvullary
+                            <milestone unit="line" n="3" />
+                            byla Jisraʾelnin cyqqanlarynda jerinden Micrinin.</l>
+                        <l n="10" xml:id="Kings1-008-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi cyqqanda
+                            <milestone unit="line" n="4" />
+                            ol kohenler ol qodešten da ol bulut toldu ivinden H-nyn.</l>
+                        <l n="11" xml:id="Kings1-008-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולא </foreign>
+                            Da bolalmadylar
+                            <milestone unit="line" n="5" />
+                            ol kohenler turma jumus etme alnyndan ol bulutnun ki toldu šeḫinasy
+                            <milestone unit="line" n="6" />
+                            H-nyn ivinden H-nyn.</l>
+                        <l n="12" xml:id="Kings1-008-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta ajtty Šelomo H ajtty šeḫinasyna
+                            <milestone unit="line" n="7" />
+                            toḥtama bu tumanly dunjada.</l>
+                        <l n="13" xml:id="Kings1-008-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בנה </foreign>
+                            Qondarma qondardym iv orun sana
+                            <milestone unit="line" n="8" />
+                            tiziv qajjamlyɣyna senin emirgedejin.</l>
+                        <l n="14" xml:id="Kings1-008-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסב </foreign>
+                            Da qajyrdy ol meleḫ osol iz-
+                            <milestone unit="line" n="9" />
+                            lerin da alɣyslady osol qahalyn Jisraʾelnin da bar qahaly Jisraʾelnin
+                            turaredi.</l>
+                        <l n="15" xml:id="Kings1-008-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
+                            <milestone unit="line" n="10" />
+                            Da ajtty maḥtavludur H Tenrisi Jisraʾelnin ki sezledi bujruɣu byla Davidge
+                            <milestone unit="line" n="11" />
+                            atama da qudraty byla tigelledi ajtadoɣac.</l>
+                        <l n="16" xml:id="Kings1-008-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מן </foreign>
+                            Ol kinden ki cyɣardym
+                            <milestone unit="line" n="12" />
+                            osol ulusumnu osol Jisraʾelni Micriden sajlamadym birde saharda ševetlerin-
+                            <milestone unit="line" n="13" />
+                            den Jisraʾelnin qondarma iv bolma šemim menim anda da sajladym Davidni bolma
+                            <milestone unit="line" n="14" />
+                            aɣaraq ulusum Jisraʾel istine.</l>
+                        <l n="17" xml:id="Kings1-008-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi esinde Davidnin atamnyn
+                            <milestone unit="line" n="15" />
+                            qondarma iv šemine H-nyn Tenrisinin Jisraʾelnin.</l>
+                        <l n="18" xml:id="Kings1-008-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty H Davidge
+                            <milestone unit="line" n="16" />
+                            atama anyn icin ki edi esinde senin qondarma iv šemime menim jaḥsy
+                            <milestone unit="line" n="17" />
+                            ettin ki edi bu esinde senin.</l>
+                        <l n="19" xml:id="Kings1-008-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רק </foreign>
+                            Tek sen qondarmassen ol ivni ki ancaq
+                            <milestone unit="line" n="18" />
+                            uvlun senin ol cyɣuvcu bellerinden senin ol qondaryr ol ivni šemime
+                            menim.</l>
+                        <milestone unit="line" n="19" />
+                        <l n="20" xml:id="Kings1-008-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקם </foreign>
+                            Da qajjam etti H osol sezin ezinin ki sezledi da turdum David atam ornuna
+                            <milestone unit="line" n="20" />
+                            da olturdum taḥty istine Jisraʾelnin ki necik sezledi H da qondardym ol ivni
+                            <milestone unit="line" n="21" />
+                            šemine H-nyn Tenrisinin Jisraʾelnin.</l>
+                        <l n="21" xml:id="Kings1-008-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואשים </foreign>
+                            Da qojdum anda orun aronɣa ki anda
+                            <milestone unit="line" n="22" />
+                            serti H-nyn ki ke<supplied reason="lost">s</supplied>ti<ref n="3"
+                                target="#Kings1-008-fn3" type="noteAnchor" /> atalarymyz byla
+                            cyɣarɣanynda alarny jerinde Micrinin.</l>
+                        <milestone unit="line" n="23" />
+                        <l n="22" xml:id="Kings1-008-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעמוד </foreign>
+                            Da turdu Šelomo alnynda mizbeaḥnyn H-nyn qarsysyna bar qahalynyn Jisraʾelnin
+                            <milestone unit="line" n="24" />
+                            da jajdy uvuclaryn ol keklerge.</l>
+                        <l n="23" xml:id="Kings1-008-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty e H Tenrisi Jisraʾelnin
+                            <milestone unit="line" n="25" />
+                            joḥtur senin kibik Tenri keklerde joɣartyn da ol jer istine asaɣartyn saqlavcu
+                            <milestone unit="line" n="26" />
+                            ol sertni da ol savaɣatny qullaryna senin ol jirivcilerge alnynda senin bar
+                            <milestone unit="line" n="27" />
+                            jirekleri byla.</l>
+                        <l n="24" xml:id="Kings1-008-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אשר </foreign>
+                            Ki saqladyn quluna Davidge atama osol neni ki sezledin
+                            <milestone unit="page" n="111v" />
+                            <milestone unit="line" n="1" />
+                            anar da sezledin bujruɣun byla da qudratyn byla tigelledin ol uspu kin
+                            kibik.</l>
+                        <milestone unit="line" n="2" />
+                        <l n="25" xml:id="Kings1-008-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da haligine e H Tenrisi Jisraʾelnin saqlaɣyn quluna Davidge atama osol
+                            neni ki
+                            <milestone unit="line" n="3" />
+                            sezledin anar ajtadoɣac eksilmesti sana kisi alnymdan menim olturuvcu taḥty
+                            <milestone unit="line" n="4" />
+                            istine Jisraʾelnin tek eger saqlasalar uvullaryn senin osol jollaryn
+                            jirime alnymda
+                            <milestone unit="line" n="5" />
+                            menim ki necik jiridin sen alnymda menim.</l>
+                        <l n="26" xml:id="Kings1-008-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da haligine Tenrisi Jisraʾelnin inamly
+                            <milestone unit="line" n="6" />
+                            bolsun haligine sezin senin ki sezledin quluna Davidge atama.</l>
+                        <l n="27" xml:id="Kings1-008-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki kertidenmo
+                            <milestone unit="line" n="7" />
+                            olturur Tenri ol jer istine muna ol kekler da qatlary ol keklernin syjyn-
+                            <milestone unit="line" n="8" />
+                            dyrajalmajdylar seni ham ki ol iv ol uspu ki qondardym.</l>
+                        <l n="28" xml:id="Kings1-008-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ופנית </foreign>
+                            Da qajrylɣyn
+                            <milestone unit="line" n="9" />
+                            tefilesine qulunnun da jalbarmaɣyna anyn e H Tenrim esitme ol sarnavɣa
+                            da ol tefilege
+                            <milestone unit="line" n="10" />
+                            ki qulun senin tefile etedi alnynda senin bigin.</l>
+                        <l n="29" xml:id="Kings1-008-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">להיות </foreign>
+                            Bolma ʿenajatlaryn senin
+                            <milestone unit="line" n="11" />
+                            acyqlar ol ivge ol uspu kecede da kinde ol orunɣa ki ajttyn bolur šemim menim
+                            <milestone unit="line" n="12" />
+                            anda esitme ol tefilege ki tefile etse qulun senin ol orunɣa ol
+                            uspu.</l>
+                        <l n="30" xml:id="Kings1-008-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושמעת</foreign>
+                            <milestone unit="line" n="13" />
+                            Da tynlaɣyn jalbarmaɣyna qulunnun da ulusunnun Jisraʾelnin ki tefile
+                            etseler ol uspu
+                            <milestone unit="line" n="14" />
+                            orunda da sen esitkin qajjam toḥtar ornuna ol keklerge da esitkin da
+                            bosatqyn.</l>
+                        <milestone unit="line" n="15" />
+                        <l n="31" xml:id="Kings1-008-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">את </foreign>
+                            Osol neni ki jazyqly bolsa kisi dostuna da borclu etse any ant antet-
+                            <milestone unit="line" n="16" />
+                            tirme any da kelse ant alnyna mizbeaḥynnyn ol uspu ivde.</l>
+                        <l n="32" xml:id="Kings1-008-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה </foreign>
+                            Da sen
+                            <milestone unit="line" n="17" />
+                            esi<addSpan spanTo="#Kings1-008-add004" />t<anchor
+                                xml:id="Kings1-008-add004" type="addSpan" />kin ol keklerden da
+                            qylɣyn da tere etkin osol qullarynny qynɣyrajtma
+                            <milestone unit="line" n="18" />
+                            qynɣyrny berme televin jolunun basynda anyn da rast etme rastny berme anar
+                            <milestone unit="line" n="19" />
+                            televin rastlyɣyna kere anyn.</l>
+                        <l n="33" xml:id="Kings1-008-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בהנגף </foreign>
+                            Ḥastalanɣanda ulusun senin Jisraʾel alnynda
+                            <milestone unit="line" n="20" />
+                            dusmannyn ki jazyqly bolsalar sana da qajtsalar sana da sikir berseler
+                            šemine senin da
+                            <milestone unit="line" n="21" />
+                            tefile etseler da jalbarsalar sana ol uspu ivde.</l>
+                        <l n="34" xml:id="Kings1-008-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה </foreign>
+                            Da sen esitkin ol kek-
+                            <milestone unit="line" n="22" />
+                            lerden da bosatqyn jazyɣyna ulusunnun Jisraʾelnin da qajtarɣyn alarny ol
+                            jerge ki
+                            <milestone unit="line" n="23" />
+                            berdin atalaryna alarnyn.</l>
+                        <l n="35" xml:id="Kings1-008-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בהעצר </foreign>
+                            Beklengende kekler da bolmasa jamɣur ki jazyqly
+                            <milestone unit="line" n="24" />
+                            bolsalar sana da tefile etseler ol orunɣa ol uspu da sikir etseler osol
+                            <milestone unit="line" n="25" />
+                            šemine senin da jazyqlaryndan qajtsalar ki qaruv bergejsen alarɣa.</l>
+                        <l n="36" xml:id="Kings1-008-036"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה </foreign>
+                            Da sen esitkin
+                            <milestone unit="line" n="26" />
+                            ol keklerden da bosatqyn jazyɣyna qullarynnyn da ulusunnun Jisraʾelnin
+                            ki ivretkejsen
+                            <milestone unit="line" n="27" />
+                            alarɣa osol ol jolnu ol jaḥsy ki jirigejler anyn byla da bergin jamɣur
+                            jerin istine
+                            <milestone unit="page" n="112r" />
+                            <milestone unit="line" n="1" />
+                            ki berdin ulusuna iliske.</l>
+                        <l n="37" xml:id="Kings1-008-037"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רעב </foreign>
+                            Aclyq ki bolsa jerde elet ki bolsa
+                            <milestone unit="line" n="2" />
+                            sarylyq jesillik cegirtke ḥasyl ki bolsa ki tar etse anar dusmany anyn jerinde
+                            <milestone unit="line" n="3" />
+                            qabaqlarynyn bar ḥastalyq bar syzlav.</l>
+                        <l n="38" xml:id="Kings1-008-038"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar tefile bar jalbarmaq ki bolsa bar ol
+                            <milestone unit="line" n="4" />
+                            adamɣa bar ulusuna Jisraʾelge ki bilseler kisi ḥastalyɣyn jireginin da jajsa
+                            <milestone unit="line" n="5" />
+                            uvuclaryn ol ivge ol uspu.</l>
+                        <l n="39" xml:id="Kings1-008-039"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה </foreign>
+                            Da sen esitkin ol keklerge tizin qajjam ornu-
+                            <milestone unit="line" n="6" />
+                            na da bosatqyn da qylɣyn da bergin kisige bar jollaryna kere anyn ki
+                            bilesen osol jiregin anyn
+                            <milestone unit="line" n="7" />
+                            ki bilesen ol jiregin bar adam ulanlarynyn sen jalɣyz ezin joḥtu tensi
+                            sana.</l>
+                        <l n="40" xml:id="Kings1-008-040"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למען </foreign>
+                            Anyn
+                            <milestone unit="line" n="8" />
+                            icin qor<addSpan spanTo="#Kings1-008-add005" />q<anchor
+                                xml:id="Kings1-008-add005" type="addSpan" />qajlar senden bar ol
+                            kinlerni ki alar tiri bolsalar izleri istine ol jernin ki berdin
+                            <milestone unit="line" n="9" />
+                            atalarymyzɣa biznin.</l>
+                        <l n="41" xml:id="Kings1-008-041"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וגם </foreign>
+                            Da daɣyn ol jat umalyɣa ki tivildi ulusundan Jisraʾelden
+                            <milestone unit="line" n="10" />
+                            ol da kelse jyraq jerden šemin icin senin.</l>
+                        <l n="42" xml:id="Kings1-008-042"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki esitseler osol šeminni senin ol
+                            <milestone unit="line" n="11" />
+                            ullu da osol qudratynny ol kicli da quvatynny ol sunulɣan da kelse da tefile
+                            <milestone unit="line" n="12" />
+                            etse ol ivge ol uspu qojup kavvanasyn.</l>
+                        <l n="43" xml:id="Kings1-008-043"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתה </foreign>
+                            Sen esitkin ol keklerden tiziv
+                            <milestone unit="line" n="13" />
+                            qajjam ornundan da qylɣyn barca necik ki caɣyrsa sana ol jat umaly kisi anyn
+                            <milestone unit="line" n="14" />
+                            icin bilgejler bar uluslary ol jernin osol šeminni senin qorqma senden ulusun
+                            <milestone unit="line" n="15" />
+                            Jisraʾel kibik da bilme ki šemin senin ataldy ol iv istine ol uspu ki
+                            qondardym.</l>
+                        <milestone unit="line" n="16" />
+                        <l n="44" xml:id="Kings1-008-044"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki cyqsa ulusun senin cerivge dusmany istine jolbyla ki ijsen alarny da
+                            <milestone unit="line" n="17" />
+                            tefile etseler H-ɣa jolu byla ol saharnyn ki sajladyn any da ol ivnin ki qondardym
+                            <milestone unit="line" n="18" />
+                            šemine senin.</l>
+                        <l n="45" xml:id="Kings1-008-045"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושמעת </foreign>
+                            Da tynlaɣyn ol keklerge osol tefilelerin da osol jalbarmaq-
+                            <milestone unit="line" n="19" />
+                            laryn alarnyn da qylɣyn terelerin alarnyn.</l>
+                        <l n="46" xml:id="Kings1-008-046"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki jazyqly bolsalar sana ki joḥtu adam
+                            <milestone unit="line" n="20" />
+                            ki jazyqly bolmaɣaj da qaḥirlensen alarda da bersen alarny alnynda
+                            dusmannyn da
+                            <milestone unit="line" n="21" />
+                            jesir etseler alarny jesir etivcileri alarnyn jerine ol dusmannyn jyraq jemese
+                            <milestone unit="line" n="22" />
+                            juvuq.</l>
+                        <l n="47" xml:id="Kings1-008-047"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והשיבו </foreign>
+                            Da qajtarsalar eslerine jerde ki jesirlendiler anda da qajtsalar
+                            <milestone unit="line" n="23" />
+                            da jalbarsalar sana jerinde jesir etivcilerinin ajtadoɣac jazyqly bolduq qynɣyr
+                            <milestone unit="line" n="24" />
+                            isler qyldyq da jollarymyzny qynɣyrajttyq.</l>
+                        <l n="48" xml:id="Kings1-008-048"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושבו </foreign>
+                            Da qajtsalar sana bar jirekleri
+                            <milestone unit="line" n="25" />
+                            byla da bar ʒanlary byla jerinde dusmanlarynyn ki jesir ettiler alarny da
+                            <milestone unit="line" n="26" />
+                            tefile etseler sana jolu byla jerlerinin ki berdin atalaryna alarnyn ol
+                            saharnyn ki
+                            <milestone unit="line" n="27" />
+                            sajladyn da ol ivnin ki qondardym šemine senin.</l>
+                        <l n="49" xml:id="Kings1-008-049"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושמעת </foreign>
+                            Da esitkin ol keklerden
+                            <milestone unit="page" n="112v" />
+                            <milestone unit="line" n="1" />
+                            tiziv qajjam ornundan osol tefilelerin da osol jalbarmaqlaryn alarnyn da qylɣyn
+                            <milestone unit="line" n="2" />
+                            terelerin alarnyn.</l>
+                        <l n="50" xml:id="Kings1-008-050"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וסלחת </foreign>
+                            Da bosatqyn ulusuna ki jazyqly boldular sana da bar
+                            <milestone unit="line" n="3" />
+                            tanmaqlaryna ki tandylar sana da bergin alarny raḥmetlerge alnynda jesir etiv-
+                            <milestone unit="line" n="4" />
+                            cilerinin da raḥmetlesinler alarny.</l>
+                        <l n="51" xml:id="Kings1-008-051"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki ulusundu da ilisindi senin alar
+                            <milestone unit="line" n="5" />
+                            ki cyɣardyn Micriden ortasyndan ol temirli ḥalasnyn.</l>
+                        <l n="52" xml:id="Kings1-008-052"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">להיות </foreign>
+                            Bolma ʿenaj-
+                            <milestone unit="line" n="6" />
+                            atlaryn senin acyqlar jalbarmaɣyna qulunnun da jalbarmaɣyna ulusunnun Jisraʾelnin
+                            <milestone unit="line" n="7" />
+                            tynlama alarɣa bar caɣyrɣan vaḥtlarynda sana.</l>
+                        <l n="53" xml:id="Kings1-008-053"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki sen ajyrdyn alarny ezine
+                            <milestone unit="line" n="8" />
+                            iliške bar uluslaryndan ol jernin ki necik sezledin naviligi asyra
+                            <milestone unit="line" n="9" />
+                            Mošenin qulunnun cyɣarɣanynda osol atalarymyzny Micriden e Adonaj
+                            Tenri.</l>
+                        <milestone unit="line" n="10" />
+                        <l n="54" xml:id="Kings1-008-054"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi tigellegecoq Šelomo tefile etme H-ɣa osol bar ol tefileni
+                            <milestone unit="line" n="11" />
+                            da ol jalbarmaqny ol uspu turdu alnyndan mizbeaḥynyn H-nyn cekmekten tiz-
+                            <milestone unit="line" n="12" />
+                            leri istine da uvuclary anyn jajylɣan ediler ol keklerge.</l>
+                        <l n="55" xml:id="Kings1-008-055"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעמוד</foreign>
+                            <milestone unit="line" n="13" />
+                            Da turdu da alɣyslady osol bar qahalyn Jisraʾelnin ullu avaz byla
+                            ajtadoɣac.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="56" xml:id="Kings1-008-056"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברוך </foreign>
+                            Maḥtavludur H ki berdi tynclyq ulusuna Jisraʾelge barca necik ki sezledi
+                            <milestone unit="line" n="15" />
+                            eksimedi bir sezde bar sezinden anyn ol jaḥsy ki sezledi naviligi asyra
+                            <milestone unit="line" n="16" />
+                            Mošenin qulunun.</l>
+                        <l n="57" xml:id="Kings1-008-057"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יהי </foreign>
+                            Bolɣaj bolusluɣu H-nyn Tenrimiznin birgemizge biznin alaj
+                            <milestone unit="line" n="17" />
+                            necik edi atalarymyz byla kemismegej bizni da taslamaɣaj bizni.</l>
+                        <l n="58" xml:id="Kings1-008-058"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">להטות </foreign>
+                            Qajyrma
+                            <milestone unit="line" n="18" />
+                            jiregimizni ezine jirime bar jollary byla anyn da saqlama micvalaryn da resim-
+                            <milestone unit="line" n="19" />
+                            lerin da terelerin anyn ki zynharlady atalarymyzɣa.</l>
+                        <l n="59" xml:id="Kings1-008-059"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהיו </foreign>
+                            Da bolɣajlar sezlerim
+                            <milestone unit="line" n="20" />
+                            menim bular ki jalbardym alnynda H-nyn juvuqlar H-ɣa Tenrimizge kinde da kecede
+                            <milestone unit="line" n="21" />
+                            qylma carasyn qulunun da carasyn ulusunun Jisraʾelnin kemin kinnin
+                            kininde.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="60" xml:id="Kings1-008-060"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">למען </foreign>
+                            Bilmek icin bar uluslary ol jernin ki H oldur ol Tenri joḥtur
+                            <milestone unit="line" n="23" />
+                            artyq.</l>
+                        <l n="61" xml:id="Kings1-008-061"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolsun jireginiz alnynda H-nyn Tenrimiznin jirime resimleri
+                            <milestone unit="line" n="24" />
+                            byla da saqlama micvalaryn anyn ol uspu kin kibik.</l>
+                        <l n="62" xml:id="Kings1-008-062"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והמלך </foreign>
+                            Da ol meleḫ da bar
+                            <milestone unit="line" n="25" />
+                            Jisraʾel birgesine anyn debeḥa eterediler debeḥa alnynda H-nyn.</l>
+                        <l n="63" xml:id="Kings1-008-063"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויזבח</foreign>
+                            <milestone unit="line" n="26" />
+                            Da debeḥa etti Šelomo osol debeḥasyn ol šelamimlernin ki debeḥa etti
+                            <milestone unit="line" n="27" />
+                            H-ɣa syɣyr egirmi eki min da qoj iz egirmi min da qutladylar osol ivin
+                            <milestone unit="page" n="113r" />
+                            <milestone unit="line" n="1" />
+                            H-nyn ol meleḫ da bar uvullary Jisraʾelnin.</l>
+                        <l n="64" xml:id="Kings1-008-064"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ביום </foreign>
+                            Ol kinde ol aziz etti
+                            <milestone unit="line" n="2" />
+                            ol meleḫ osol ortasyn ol qaḥranyn ki alnynda ivinin H-nyn ki qyldy anda
+                            <milestone unit="line" n="3" />
+                            osol ol ʿolany da osol ol tirkini da osol javlaryn ol šelamimlernin ki
+                            <milestone unit="line" n="4" />
+                            ol tuclu mizbeaḥ kici edi qajsy turaredi alnynda H-nyn syjyndyrmaqtan anyn
+                            <milestone unit="line" n="5" />
+                            istine osol ol ʿolany da osol ol tirkini da osol ol javlaryn ol šelamim-
+                            <milestone unit="line" n="6" />
+                            lernin.</l>
+                        <l n="65" xml:id="Kings1-008-065"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy Šelomo ol vaḥtta ol osol ol ḥyʒny ḥyʒyn sukotnun
+                            <milestone unit="line" n="7" />
+                            da bar Jisraʾel birgesine anyn ullu qahal ystyryndylar baslap kelivinden Ḥamat-
+                            <milestone unit="line" n="8" />
+                            nyn ezeninedejin Micrinin alnynda H Tenrimiznin jedi kinler qutlamaɣyn ol
+                            <milestone unit="line" n="9" />
+                            aziz ivnin Da jedi kinler ḥyʒyn sukotnun on dert kin.</l>
+                        <l n="66" xml:id="Kings1-008-066"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ביום </foreign>
+                            Ol segizinci
+                            <milestone unit="line" n="10" />
+                            kinde šemini ʿaceret kininde ijdi ol ulusnu da alɣysladylar ol meleḫni
+                            <milestone unit="line" n="11" />
+                            da bardylar catyrlaryna ki Jerušalajimde bijenedoɣanlar da satyr
+                            jirekliler bar ol
+                            <milestone unit="line" xml:id="Kings1008-P113r-L12" n="12"
+                                next="TKow.02.004.009.xml#Kings1009-P113r-L12" />
+                            jaḥsy icin ki qyldy H Davidge quluna da Jisraʾelge ulusuna.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Kings1-008-fn1" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;"
+                                >חַשֵבְלֶינְמֶדִילֶיר</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Kings1-008-fn2" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כֶשְטִי</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Kings1-008-fn3" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כֶישְטִי</foreign>
+                            ; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

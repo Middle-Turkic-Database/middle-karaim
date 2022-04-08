@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>2 Samuel 9</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>2 Samuel 9</title>
+                        <milestone unit="line" n="13" />
+                        <l xml:id="Sam2-009-x001">Da ajtty David kertiden bardymo hanuz kim ki
+                            qaldyryldy ivine Šaʾulnun
+                            <milestone unit="line" n="14" />
+                            da qylarmen birgesine anyn savaɣat Jonatan icin.</l>
+                        <l n="2" xml:id="Sam2-009-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולבית </foreign>
+                            Da ivine Šaʾulnun
+                            <milestone unit="line" n="15" />
+                            qul da aty anyn Civa da caɣyrdylar any Davidge da ajtty anar ol meleḫ
+                            <milestone unit="line" n="16" />
+                            senmusen Civa da ajtty qulun senin.</l>
+                        <l n="3" xml:id="Sam2-009-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty ol meleḫ joḥtumo
+                            <milestone unit="line" n="17" />
+                            daɣyn kisi ivine Šaʾulnun da qylarmen birgesine anyn savaɣatyn Tenrinin
+                            da ajtty
+                            <milestone unit="line" n="18" />
+                            Civa ol meleḫke hanuz bardy uvul Jonatanɣa aqsaq ajaqly.</l>
+                        <l n="4" xml:id="Sam2-009-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
+                            <milestone unit="line" n="19" />
+                            Da ajtty anar ol meleḫ qajdady ol da ajtty Civa ol meleḫke muna ol
+                            <milestone unit="line" n="20" />
+                            ivinde Maḫirnin uvlunun ʿAmiʾelnin Lo Davarda.</l>
+                        <l n="5" xml:id="Sam2-009-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישלח </foreign>
+                            Da ijdi ol meleḫ
+                            <milestone unit="line" n="21" />
+                            David da aldy any ivinden Maḫirnin uvlunun ʿAmiʾelnin Lo Davardan.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="6" xml:id="Sam2-009-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבוא </foreign>
+                            Da keldi Mefivošet uvlu Jonatannyn uvlunun Šaʾulnun Davidge da
+                            <milestone unit="line" n="23" />
+                            tišti <addSpan spanTo="#Sam2-009-add001" />izleri<anchor
+                                xml:id="Sam2-009-add001" type="addSpan" /> istine da basurdu da
+                            ajtty David Mefivošet da ajtty munady
+                            <milestone unit="line" n="24" />
+                            qulun senin.</l>
+                        <l n="7" xml:id="Sam2-009-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty anar David qorqmaɣyn ki qylma qylarmen
+                            <milestone unit="line" n="25" />
+                            birgene senin savaɣat Jonatan atan icin da qajtarymen sana osol bar tizin
+                            <milestone unit="line" n="26" />
+                            Šaʾulnun atannyn da sen asarsen etmek stolum istine hammese.</l>
+                        <milestone unit="line" n="27" />
+                        <l n="8" xml:id="Sam2-009-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישתחו </foreign>
+                            Da basurdu da ajtty nedi qulun senin ki qajryldyn ol eli
+                            <milestone unit="page" n="82v" />
+                            <milestone unit="line" n="1" />
+                            itke ki menim kibik.</l>
+                        <l n="9" xml:id="Sam2-009-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקרא </foreign>
+                            Da caɣyrdy ol meleḫ Civaɣa negerine
+                            <milestone unit="line" n="2" />
+                            Šaʾulnun da ajtty anar bar neni ki edi Šaʾulnun da elinin ivinin barysyn
+                            <milestone unit="line" n="3" />
+                            berdim uvluna bijinnin.</l>
+                        <l n="10" xml:id="Sam2-009-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועבדת </foreign>
+                            Da islegin anar osol ol tizni sen da
+                            <milestone unit="line" n="4" />
+                            uvullaryn senin da qullaryn senin da keltirgin da bolur uvluna bijinnin etmek
+                            <milestone unit="line" n="5" />
+                            da asar any da Mefivošet uvlu bijinnin asar hammese etmek stolum istine
+                            <milestone unit="line" n="6" />
+                            da Civaɣa on bes uvullar da egirmi qullar.</l>
+                        <l n="11" xml:id="Sam2-009-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty Civa
+                            <milestone unit="line" n="7" />
+                            ol meleḫke barca necik ki bujursa bijim ol meleḫ osol quluna alaj qylar
+                            <milestone unit="line" n="8" />
+                            qulun senin da Mefivošet asar etmek stolum istine bir kibik uvul-
+                            <milestone unit="line" n="9" />
+                            laryndan ol meleḫnin.</l>
+                        <l n="12" xml:id="Sam2-009-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולמפיבושת </foreign>
+                            Da Mefivošetke kici uvul da aty anyn
+                            <milestone unit="line" n="10" />
+                            Miḫa da bar olturusu ivinin Civanyn qullar ediler Mefivošetke.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="13" xml:id="Sam2-009-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומפיבושת </foreign>
+                            Da Mefivošet oltururedi Jerušalajimde ki stolu istine ol
+                            <milestone unit="line" n="12" />
+                            meleḫnin ol asaredi hammese da ol aqsaq edi ekside ajaqlaryna.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,358 +40,399 @@
             <div type="edition">
                 <div type="textpart" subtype="chapter">
                     <ab><title>Genesis 27</title>
-                        <milestone unit="line" xml:id="Gen027-P40v-L8" n="8" prev="ADub.III.73.001.026.xml#Gen026-P40v-L8" />
+                        <milestone unit="line" xml:id="Gen027-P40v-L8" n="8"
+                            prev="ADub.III.73.001.026.xml#Gen026-P40v-L8" />
                         <l n="1" xml:id="Gen-027-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהי </foreign>
-                            Da edi ki nečik qartajdy
+                             Da edi ki nečik qartajdy
                             <milestone unit="line" n="9" />
-                            Jicḥaq da tundular közĺari anyn körmekt́an da ündedi <addSpan
-                                spanTo="#add001" />ošol<anchor xml:id="add001" />
+                             Jicḥaq da tundular közĺari anyn körmekt́an da ündedi <addSpan
+                                spanTo="#Gen-027-add001" />ošol<anchor xml:id="Gen-027-add001"
+                                type="addSpan" />
                             <milestone unit="line" n="10" />
-                            ʿEsavny uvlun özünün ol aɣaraqny da ajtty anar uvlum da
+                             ʿEsavny uvlun özünün ol aɣaraqny da ajtty anar uvlum da
                             <milestone unit="line" n="11" />
-                            ajtty anar munadyr men.</l><l n="2" xml:id="Gen-027-002"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty muna
+                             ajtty anar munadyr men.</l>
+                        <l n="2" xml:id="Gen-027-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty muna
                             <milestone unit="line" n="12" />
-                            men qartajdym bilmejmen ölgen künümnü.</l><l n="3" xml:id="Gen-027-003"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ועתה </foreign>
-                            Da
+                             men qartajdym bilmejmen ölgen künümnü.</l>
+                        <l n="3" xml:id="Gen-027-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                             Da
                             <milestone unit="line" n="13" />
-                            haligińa alɣyn endi savutlaryjny qylyčyjny da jajny da
+                             haligińa alɣyn endi savutlaryjny qylyčyjny da jajny da
                             <milestone unit="line" n="14" />
-                            čyqqyn ol tüzǵa da avlaɣyn maja avlamaq.</l><l n="4"
-                            xml:id="Gen-027-004"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ועשה </foreign>
-                            Da
+                             čyqqyn ol tüzǵa da avlaɣyn maja avlamaq.</l>
+                        <l n="4" xml:id="Gen-027-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועשה </foreign>
+                             Da
                             <milestone unit="line" n="15" />
-                            qylɣyn maja tatly ašlar ki nečik süvemen da keltirgin maja
+                             qylɣyn maja tatly ašlar ki nečik süvemen da keltirgin maja
                             <milestone unit="line" n="16" />
-                            da ašajym anyn üčün ki alɣyšlaɣaj seni ǯanym ölmegimd́an
+                             da ašajym anyn üčün ki alɣyšlaɣaj seni ǯanym ölmegimd́an
                             <milestone unit="line" n="17" />
-                            burun.</l><l n="5" xml:id="Gen-027-005"><foreign xml:lang="he"
+                             burun.</l>
+                        <l n="5" xml:id="Gen-027-005"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ורבקה </foreign>
-                            Da Riveqa ešitiredi sözlegend́a Jicḥaq
+                             Da Riveqa ešitiredi sözlegend́a Jicḥaq
                             <milestone unit="line" n="18" />
-                            ʿEsavɣa uvluna da bardy ʿEsav ol tüzǵa avlama avlamaq
+                             ʿEsavɣa uvluna da bardy ʿEsav ol tüzǵa avlama avlamaq
                             <milestone unit="line" n="19" />
-                            keltirḿa.</l><l n="6" xml:id="Gen-027-006"><foreign xml:lang="he"
+                             keltirḿa.</l>
+                        <l n="6" xml:id="Gen-027-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ורבקה </foreign>
-                            Da Riveqa ajtty Jaʿaqovɣa uvluna
+                             Da Riveqa ajtty Jaʿaqovɣa uvluna
                             <milestone unit="line" n="20" />
-                            ajtadoɣač muna ešittim ošol atajny sözlejdoɣanny ʿEsav-
+                             ajtadoɣač muna ešittim ošol atajny sözlejdoɣanny ʿEsav-
                             <milestone unit="line" n="21" />
-                            ɣa qaryndašyja ajtadoɣač.</l><l n="7" xml:id="Gen-027-007"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">הביאה </foreign>
-                            Keltirgin maja avlamaq
+                             ɣa qaryndašyja ajtadoɣač.</l>
+                        <l n="7" xml:id="Gen-027-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הביאה </foreign>
+                             Keltirgin maja avlamaq
                             <milestone unit="page" n="41r" />
                             <milestone unit="line" n="1" />
-                            da qylɣyn tatly ašlar da ašajym da alɣyšlajym seni alnyn-
+                             da qylɣyn tatly ašlar da ašajym da alɣyšlajym seni alnyn-
                             <milestone unit="line" n="2" />
-                            da Adonajnyn ölmegim alnyna.</l><l n="8" xml:id="Gen-027-008"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ועתה </foreign>
-                            Da haligińa
+                             da Adonajnyn ölmegim alnyna.</l>
+                        <l n="8" xml:id="Gen-027-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                             Da haligińa
                             <milestone unit="line" n="3" />
-                            uvlum tynlaɣyn sözüḿa qylma any neki men bujuramen saja.</l>
+                             uvlum tynlaɣyn sözüḿa qylma any neki men bujuramen saja.</l>
                         <milestone unit="line" n="4" />
                         <l n="9" xml:id="Gen-027-009"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">לך </foreign>
-                            Barɣyn endi ol qojɣa da alɣyn maja andan eki
+                             Barɣyn endi ol qojɣa da alɣyn maja andan eki
                             <milestone unit="line" n="5" />
-                            ulaqlaryn ečkilernin jaḥšylarny da qylajym alardan tatly
+                             ulaqlaryn ečkilernin jaḥšylarny da qylajym alardan tatly
                             <milestone unit="line" n="6" />
-                            ašlar ataja ki nečik süvdü.</l><l n="10" xml:id="Gen-027-010"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">והבאת </foreign>
-                            Da keltir-
+                             ašlar ataja ki nečik süvdü.</l>
+                        <l n="10" xml:id="Gen-027-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והבאת </foreign>
+                             Da keltir-
                             <milestone unit="line" n="7" />
-                            gin ataja da ašasyn anyn üčün ki alɣyšlaɣaj seni ölme-
+                             gin ataja da ašasyn anyn üčün ki alɣyšlaɣaj seni ölme-
                             <milestone unit="line" n="8" />
-                            gi alnyna.</l><l n="11" xml:id="Gen-027-011"><foreign xml:lang="he"
+                             gi alnyna.</l>
+                        <l n="11" xml:id="Gen-027-011"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty Jaʿaqov Riveqaɣa anasy-
+                             Da ajtty Jaʿaqov Riveqaɣa anasy-
                             <milestone unit="line" n="9" />
-                            na muna ʿEsav qaryndašym tüklü kišidi da men jalan kišimen.</l>
+                             na muna ʿEsav qaryndašym tüklü kišidi da men jalan kišimen.</l>
                         <milestone unit="line" n="10" />
                         <l n="12" xml:id="Gen-027-012"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">אולי </foreign>
-                            Šeme qarmar meni atam da bolurmen közlerind́a
+                             Šeme qarmar meni atam da bolurmen közlerind́a
                             <milestone unit="line" n="11" />
-                            anyn azaštyruvču kibik da keltirirmen üstüḿa qarɣyš
+                             anyn azaštyruvču kibik da keltirirmen üstüḿa qarɣyš
                             <milestone unit="line" n="12" />
-                            da tüvül alɣyš.</l><l n="13" xml:id="Gen-027-013"><foreign xml:lang="he"
+                             da tüvül alɣyš.</l>
+                        <l n="13" xml:id="Gen-027-013"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ותאמר </foreign>
-                            Da ajtty anar anasy
+                             Da ajtty anar anasy
                             <milestone unit="line" n="13" />
-                            anyn üstüḿa bolur qarɣyšyj uvlum <seg type="commented" corresp="#seg001" />ki
-                            eger tanysa
+                             anyn üstüḿa bolur qarɣyšyj uvlum <seg type="commented"
+                                corresp="#Gen-027-seg001" />ki eger tanysa
                             <milestone unit="line" n="14" />
-                            seni ataj ajtyrsen ki men bujurdum saja qylma bunu<anchor
-                                type="commented" xml:id="seg001" /><ref target="#fn1"
-                                type="noteAnchor" /> tek
+                             seni ataj ajtyrsen ki men bujurdum saja qylma bunu<anchor
+                                type="commented" xml:id="Gen-027-seg001" /><ref n="1"
+                                target="#Gen-027-fn1" type="noteAnchor" /> tek
                             <milestone unit="line" n="15" />
-                            sen tynlaɣyn sözüḿa da barɣyn alɣyn maja.</l><l n="14"
-                            xml:id="Gen-027-014"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >וילך </foreign>
-                            Da bardy
+                             sen tynlaɣyn sözüḿa da barɣyn alɣyn maja.</l>
+                        <l n="14" xml:id="Gen-027-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וילך </foreign>
+                             Da bardy
                             <milestone unit="line" n="16" />
-                            da aldy da keltirdi anasyna da qyldy anasy anyn tatly
+                             da aldy da keltirdi anasyna da qyldy anasy anyn tatly
                             <milestone unit="line" n="17" />
-                            ašlar ki nečik süvdü atasy anyn.</l><l n="15" xml:id="Gen-027-015"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ותקח </foreign>
-                            Da aldy
+                             ašlar ki nečik süvdü atasy anyn.</l>
+                        <l n="15" xml:id="Gen-027-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותקח </foreign>
+                             Da aldy
                             <milestone unit="line" n="18" />
-                            Riveqa ošol upraqlaryn ʿEsavnyn uvlunun ol aɣaraqnyn ol
+                             Riveqa ošol upraqlaryn ʿEsavnyn uvlunun ol aɣaraqnyn ol
                             <milestone unit="line" n="19" />
-                            suqlančylarny ki birgesińa üvd́a da kijdirdi Jaʿaqovɣa
+                             suqlančylarny ki birgesińa üvd́a da kijdirdi Jaʿaqovɣa
                             <milestone unit="line" n="20" />
-                            uvluna ol kičirekke.</l><l n="16" xml:id="Gen-027-016"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ואת </foreign>
-                            Da ošol teriĺarin ulaqla-
+                             uvluna ol kičirekke.</l>
+                        <l n="16" xml:id="Gen-027-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואת </foreign>
+                             Da ošol teriĺarin ulaqla-
                             <milestone unit="line" n="21" />
-                            rynyn ol ečkilernin kijdirdi qollary üstüńa da jalan
+                             rynyn ol ečkilernin kijdirdi qollary üstüńa da jalan
                             <milestone unit="page" n="41v" />
                             <milestone unit="line" n="1" />
-                            ornu üstüńa bojunlaryna.</l><l n="17" xml:id="Gen-027-017"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותתן </foreign>
-                            Da berdi ošol ol
+                             ornu üstüńa bojunlaryna.</l>
+                        <l n="17" xml:id="Gen-027-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותתן </foreign>
+                             Da berdi ošol ol
                             <milestone unit="line" n="2" />
-                            tatly ašlarny da ošol ol ötmekni ki qyldy qoluna Jaʿaqov-
+                             tatly ašlarny da ošol ol ötmekni ki qyldy qoluna Jaʿaqov-
                             <milestone unit="line" n="3" />
-                            nun uvlunun.</l><l n="18" xml:id="Gen-027-018"><foreign xml:lang="he"
+                             nun uvlunun.</l>
+                        <l n="18" xml:id="Gen-027-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויבוא </foreign>
-                            Da keldi atasyna da ajtty atam
+                             Da keldi atasyna da ajtty atam
                             <milestone unit="line" n="4" />
-                            da ajtty munadyrmen kim sen sen uvlum.</l><l n="19" xml:id="Gen-027-019"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da
-                            <milestone unit="line" n="5" />
-                            ajtty Jaʿaqov atasyna menmen ʿEsav tunɣučuj qyldym barčany
-                            <milestone unit="line" n="6" />
-                            ki sözledij maja turɣun endi da olturɣun da ašaɣyn av-
-                            <milestone unit="line" n="7" />
-                            lamaɣymdan anyn üčün alɣyšlar meni ǯanyj.</l><l n="20"
-                            xml:id="Gen-027-020"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר </foreign>
-                            Da
-                            <milestone unit="line" n="8" />
-                            ajtty Jicḥaq uvluna ne bu ǯaḥ<addSpan spanTo="#add002" />t<anchor
-                                xml:id="add002" />ladyj tapma uvlum da ajtty
-                            <milestone unit="line" n="9" />
-                            ki učratty Adonaj Tenrij alnymda.</l><l n="21" xml:id="Gen-027-021"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty
-                            <milestone unit="line" n="10" />
-                            Jicḥaq Jaʿaqovɣa juvuɣun endi da qarmajym seni uvlum senmusen
-                            <milestone unit="line" n="11" />
-                            bu uvlum ʿEsav jemese joq.</l><l n="22" xml:id="Gen-027-022"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויגש </foreign>
-                            Da juvudu Jaʿaqov Jicḥaq-
-                            <milestone unit="line" n="12" />
-                            qa atasyna da qarmady any da ajtty ol avaz avazy Jaʿaqov-
-                            <milestone unit="line" n="13" />
-                            nun da ol qollar qollary ʿEsavnyn.</l><l n="23" xml:id="Gen-027-023"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ולא </foreign>
-                            Da tanymady any
-                            <milestone unit="line" n="14" />
-                            ki ediĺar qollary anyn qollary kibik ʿEsavnyn qaryndašynyn tüklü-
-                            <milestone unit="line" n="15" />
-                            ĺar da alɣyšlady any.</l><l n="24" xml:id="Gen-027-024"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty senmusen bu
-                            <milestone unit="line" n="16" />
-                            uvlum ʿEsav da ajtty menmen.</l><l n="25" xml:id="Gen-027-025"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty juvut-
-                            <milestone unit="line" n="17" />
-                            qun maja da ašajym avlamaɣyndan uvlumnun anyn üčün alɣyš-
-                            <milestone unit="line" n="18" />
-                            lar seni ǯanym da juvuttu anar da ašady da keltirdi anar
-                            <milestone unit="line" n="19" />
-                            čaɣyr da ičti.</l><l n="26" xml:id="Gen-027-026"><foreign xml:lang="he"
+                             da ajtty munadyrmen kim sen sen uvlum.</l>
+                        <l n="19" xml:id="Gen-027-019"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty anar Jicḥaq atasy
+                             Da
+                            <milestone unit="line" n="5" />
+                             ajtty Jaʿaqov atasyna menmen ʿEsav tunɣučuj qyldym barčany
+                            <milestone unit="line" n="6" />
+                             ki sözledij maja turɣun endi da olturɣun da ašaɣyn av-
+                            <milestone unit="line" n="7" />
+                             lamaɣymdan anyn üčün alɣyšlar meni ǯanyj.</l>
+                        <l n="20" xml:id="Gen-027-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da
+                            <milestone unit="line" n="8" />
+                             ajtty Jicḥaq uvluna ne bu ǯaḥ<addSpan spanTo="#Gen-027-add002"
+                                 />t<anchor xml:id="Gen-027-add002" type="addSpan" />ladyj tapma
+                            uvlum da ajtty
+                            <milestone unit="line" n="9" />
+                             ki učratty Adonaj Tenrij alnymda.</l>
+                        <l n="21" xml:id="Gen-027-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty
+                            <milestone unit="line" n="10" />
+                             Jicḥaq Jaʿaqovɣa juvuɣun endi da qarmajym seni uvlum senmusen
+                            <milestone unit="line" n="11" />
+                             bu uvlum ʿEsav jemese joq.</l>
+                        <l n="22" xml:id="Gen-027-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויגש </foreign>
+                             Da juvudu Jaʿaqov Jicḥaq-
+                            <milestone unit="line" n="12" />
+                             qa atasyna da qarmady any da ajtty ol avaz avazy Jaʿaqov-
+                            <milestone unit="line" n="13" />
+                             nun da ol qollar qollary ʿEsavnyn.</l>
+                        <l n="23" xml:id="Gen-027-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולא </foreign>
+                             Da tanymady any
+                            <milestone unit="line" n="14" />
+                             ki ediĺar qollary anyn qollary kibik ʿEsavnyn qaryndašynyn tüklü-
+                            <milestone unit="line" n="15" />
+                             ĺar da alɣyšlady any.</l>
+                        <l n="24" xml:id="Gen-027-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty senmusen bu
+                            <milestone unit="line" n="16" />
+                             uvlum ʿEsav da ajtty menmen.</l>
+                        <l n="25" xml:id="Gen-027-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty juvut-
+                            <milestone unit="line" n="17" />
+                             qun maja da ašajym avlamaɣyndan uvlumnun anyn üčün alɣyš-
+                            <milestone unit="line" n="18" />
+                             lar seni ǯanym da juvuttu anar da ašady da keltirdi anar
+                            <milestone unit="line" n="19" />
+                             čaɣyr da ičti.</l>
+                        <l n="26" xml:id="Gen-027-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty anar Jicḥaq atasy
                             <milestone unit="line" n="20" />
-                            anyn juvuɣun maja da öpkün meni uvlum.</l><l n="27" xml:id="Gen-027-027"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויגש </foreign>
-                            Da
+                             anyn juvuɣun maja da öpkün meni uvlum.</l>
+                        <l n="27" xml:id="Gen-027-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויגש </foreign>
+                             Da
                             <milestone unit="line" n="21" />
-                            juvudu da öptü any da ijiskedi ošol ijisin upraqlarynyn
+                             juvudu da öptü any da ijiskedi ošol ijisin upraqlarynyn
                             <milestone unit="page" n="42r" />
                             <milestone unit="line" n="1" />
-                            da alɣyšlady any da ajtty körun ijisin uvlumnun ijisi
+                             da alɣyšlady any da ajtty körun ijisin uvlumnun ijisi
                             <milestone unit="line" n="2" />
-                            kibik tüznün ki alɣyšlady any Adonaj.</l><l n="28" xml:id="Gen-027-028"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויתן </foreign>
-                            Da berǵaj
+                             kibik tüznün ki alɣyšlady any Adonaj.</l>
+                        <l n="28" xml:id="Gen-027-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתן </foreign>
+                             Da berǵaj
                             <milestone unit="line" n="3" />
-                            saja ol Tenri čyɣyndan ol köklernin da semizliklerind́an
+                             saja ol Tenri čyɣyndan ol köklernin da semizliklerind́an
                             <milestone unit="line" n="4" />
-                            ol jernin da köp bürtük da šarbet.</l><l n="29" xml:id="Gen-027-029"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">יעבדוך </foreign>
-                            Qulluq
+                             ol jernin da köp bürtük da šarbet.</l>
+                        <l n="29" xml:id="Gen-027-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יעבדוך </foreign>
+                             Qulluq
                             <milestone unit="line" n="5" />
-                            etkejĺar saja uluslar da bašurɣajlar saja ümmetĺar
+                             etkejĺar saja uluslar da bašurɣajlar saja ümmetĺar
                             <milestone unit="line" n="6" />
-                            bolɣajsen aɣaraq qaryndašlaryja da bašurɣajlar saja ulanlary
+                             bolɣajsen aɣaraq qaryndašlaryja da bašurɣajlar saja ulanlary
                             <milestone unit="line" n="7" />
-                            anajnyn qarɣavčularyj qarɣyšlydy da alɣyšlavčularyj alɣyš-
+                             anajnyn qarɣavčularyj qarɣyšlydy da alɣyšlavčularyj alɣyš-
                             <milestone unit="line" n="8" />
-                            lydy.</l><l n="30" xml:id="Gen-027-030"><foreign xml:lang="he"
+                             lydy.</l>
+                        <l n="30" xml:id="Gen-027-030"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהי </foreign>
-                            Da edi ki nečik tügelledi Jicḥaq alɣyšlama
+                             Da edi ki nečik tügelledi Jicḥaq alɣyšlama
                             <milestone unit="line" n="9" />
-                            ošol Jaʿaqovnu da edi tek čyqma čyqty Jaʿaqov alnyndan Jicḥaq-
+                             ošol Jaʿaqovnu da edi tek čyqma čyqty Jaʿaqov alnyndan Jicḥaq-
                             <milestone unit="line" n="10" />
-                            nyn atasynyn da ʿEsav qaryndašy anyn keldi avlamaɣyndan.</l>
+                             nyn atasynyn da ʿEsav qaryndašy anyn keldi avlamaɣyndan.</l>
                         <milestone unit="line" n="11" />
                         <l n="31" xml:id="Gen-027-031"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויעש </foreign>
-                            Da qyldy daɣyn ol da tatly ašlar da keltirdi ata-
+                             Da qyldy daɣyn ol da tatly ašlar da keltirdi ata-
                             <milestone unit="line" n="12" />
-                            syna da ajtty atasyna tursun atam da ašasyn avlama-
+                             syna da ajtty atasyna tursun atam da ašasyn avlama-
                             <milestone unit="line" n="13" />
-                            ɣyndan uvlunun anyn üčün alɣyšlar meni ǯanyj.</l><l n="32"
-                            xml:id="Gen-027-032"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר</foreign>
+                             ɣyndan uvlunun anyn üčün alɣyšlar meni ǯanyj.</l>
+                        <l n="32" xml:id="Gen-027-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
                             <milestone unit="line" n="14" />
-                            Da ajtty anar Jicḥaq atasy anyn kim sen sen da ajtty menmen
+                             Da ajtty anar Jicḥaq atasy anyn kim sen sen da ajtty menmen
                             <milestone unit="line" n="15" />
-                            tunɣuč uvluj ʿEsav.</l><l n="33" xml:id="Gen-027-033"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויחרד </foreign>
-                            Da qaltrady Jicḥaq ullu qalt-
+                             tunɣuč uvluj ʿEsav.</l>
+                        <l n="33" xml:id="Gen-027-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחרד </foreign>
+                             Da qaltrady Jicḥaq ullu qalt-
                             <milestone unit="line" n="16" />
-                            ravuq astryɣadejin <seg type="commented" corresp="#seg002" />ki aškarmady anar
-                            bu nerśa navilik
+                             ravuq astryɣadejin <seg type="commented" corresp="#Gen-027-seg002" />ki
+                            aškarmady anar bu nerśa navilik
                             <milestone unit="line" n="17" />
-                            ašyra<anchor type="commented" xml:id="seg002" /><ref target="#fn2"
-                                type="noteAnchor" /> da ajtty kim edi bunda ol avlavču avlamaq da
+                             ašyra<anchor type="commented" xml:id="Gen-027-seg002" /><ref n="2"
+                                target="#Gen-027-fn2" type="noteAnchor" /> da ajtty kim edi bunda ol
+                            avlavču avlamaq da
                             <milestone unit="line" n="18" />
-                            keltirdi maja da ašadym baryndan neki küsendim kelmesijden
+                             keltirdi maja da ašadym baryndan neki küsendim kelmesijden
                             <milestone unit="line" n="19" />
-                            burun da alɣyšladym any daɣyn alɣyšly bolsun.</l><l n="34"
-                            xml:id="Gen-027-034"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >כשמוע</foreign>
+                             burun da alɣyšladym any daɣyn alɣyšly bolsun.</l>
+                        <l n="34" xml:id="Gen-027-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כשמוע</foreign>
                             <milestone unit="line" n="20" />
-                            Ešitkečoq ʿEsav ošol sözlerin atasynyn da firjat etti
+                             Ešitkečoq ʿEsav ošol sözlerin atasynyn da firjat etti
                             <milestone unit="line" n="21" />
-                            ullu firjat da ačy astryɣadejin da ajtty atasyna alɣyš-
+                             ullu firjat da ačy astryɣadejin da ajtty atasyna alɣyš-
                             <milestone unit="page" n="42v" />
                             <milestone unit="line" n="1" />
-                            laɣyn menid́a daɣyn mend́a uvlujmen atam.</l><l n="35"
-                            xml:id="Gen-027-035"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר </foreign>
-                            Da
+                             laɣyn menid́a daɣyn mend́a uvlujmen atam.</l>
+                        <l n="35" xml:id="Gen-027-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da
                             <milestone unit="line" n="2" />
-                            ajtty Jicḥaq keldi qaryndašyj jaltajlyq byla da aldy
+                             ajtty Jicḥaq keldi qaryndašyj jaltajlyq byla da aldy
                             <milestone unit="line" n="3" />
-                            alɣyšyjny.</l><l n="36" xml:id="Gen-027-036"><foreign xml:lang="he"
+                             alɣyšyjny.</l>
+                        <l n="36" xml:id="Gen-027-036"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty ʿEsav kertid́an atady
+                             Da ajtty ʿEsav kertid́an atady
                             <milestone unit="line" n="4" />
-                            atyn anyn Jaʿaqov da aldady meni bu eki keretĺar ošol
+                             atyn anyn Jaʿaqov da aldady meni bu eki keretĺar ošol
                             <milestone unit="line" n="5" />
-                            tunɣučluɣumnu aldy da muna haligińa aldy ošol alɣy-
+                             tunɣučluɣumnu aldy da muna haligińa aldy ošol alɣy-
                             <milestone unit="line" n="6" />
-                            šymny da ajtty atasyna muna astravyjda qaldyr-
+                             šymny da ajtty atasyna muna astravyjda qaldyr-
                             <milestone unit="line" n="7" />
-                            madyjmo maja alɣyš.</l><l n="37" xml:id="Gen-027-037"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויען </foreign>
-                            Da qaruv berdi Jicḥaq da
+                             madyjmo maja alɣyš.</l>
+                        <l n="37" xml:id="Gen-027-037"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויען </foreign>
+                             Da qaruv berdi Jicḥaq da
                             <milestone unit="line" n="8" />
-                            ajt<supplied reason="lost">t</supplied>y<ref target="#fn3"
-                                type="noteAnchor" /> ʿEsavɣa muna aɣaraq qojdum any saja da ošol
+                             ajt<supplied reason="lost">t</supplied>y<ref n="3"
+                                target="#Gen-027-fn3" type="noteAnchor" /> ʿEsavɣa muna aɣaraq
+                            qojdum any saja da ošol
                             <milestone unit="line" n="9" />
-                            bar qaryndašlaryn berdim qullarɣa da bürtük byla
+                             bar qaryndašlaryn berdim qullarɣa da bürtük byla
                             <milestone unit="line" n="10" />
-                            da šarbet byla kipledim any da saja bunda ne qylajym
+                             da šarbet byla kipledim any da saja bunda ne qylajym
                             <milestone unit="line" n="11" />
-                            uvlum.</l><l n="38" xml:id="Gen-027-038"><foreign xml:lang="he"
+                             uvlum.</l>
+                        <l n="38" xml:id="Gen-027-038"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty ʿEsav atasyna birmo ol
+                             Da ajtty ʿEsav atasyna birmo ol
                             <milestone unit="line" n="12" />
-                            alɣyš edi send́a atam alɣyšlaɣyn menid́a daɣyn mend́a
+                             alɣyš edi send́a atam alɣyšlaɣyn menid́a daɣyn mend́a
                             <milestone unit="line" n="13" />
-                            uvlujmen atam da kötürdü ʿEsav ošol avazyn da jylady.</l>
+                             uvlujmen atam da kötürdü ʿEsav ošol avazyn da jylady.</l>
                         <milestone unit="line" n="14" />
                         <l n="39" xml:id="Gen-027-039"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויען </foreign>
-                            Da qaruv berdi Jicḥaq atasy anyn da ajtty anar
+                             Da qaruv berdi Jicḥaq atasy anyn da ajtty anar
                             <milestone unit="line" n="15" />
-                            muna semiz orunlarynda ol jernin bolur olturušuj
+                             muna semiz orunlarynda ol jernin bolur olturušuj
                             <milestone unit="line" n="16" />
-                            senin da čyɣyndan ol köklernin joɣartyn bolur bögövremegi
+                             senin da čyɣyndan ol köklernin joɣartyn bolur bögövremegi
                             <milestone unit="line" n="17" />
-                            jerijnin.</l><l n="40" xml:id="Gen-027-040"><foreign xml:lang="he"
+                             jerijnin.</l>
+                        <l n="40" xml:id="Gen-027-040"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ועל </foreign>
-                            Da qylyčyjbyla beslenirsen da ošol
+                             Da qylyčyjbyla beslenirsen da ošol
                             <milestone unit="line" n="18" />
-                            qaryndašyja qulluq etersen da bolɣaj ki nečik küčejśaj da
+                             qaryndašyja qulluq etersen da bolɣaj ki nečik küčejśaj da
                             <milestone unit="line" n="19" />
-                            özersen bojunsasyn anyn bojnujüstünd́an.</l><l n="41"
-                            xml:id="Gen-027-041"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >וישטום</foreign>
+                             özersen bojunsasyn anyn bojnujüstünd́an.</l>
+                        <l n="41" xml:id="Gen-027-041"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישטום</foreign>
                             <milestone unit="line" n="20" />
-                            Da dušman boldu ʿEsav Jaʿaqovɣa ol alɣyš üčün ki alɣyš-
+                             Da dušman boldu ʿEsav Jaʿaqovɣa ol alɣyš üčün ki alɣyš-
                             <milestone unit="line" n="21" />
-                            lady any atasy anyn da ajtty ʿEsav kölnünd́a juvusalar
+                             lady any atasy anyn da ajtty ʿEsav kölnünd́a juvusalar
                             <milestone unit="page" n="43r" />
                             <milestone unit="line" n="1" />
-                            jas künleri atamnyn öltürürmen Jaʿaqovnu qaryndašym-
+                             jas künleri atamnyn öltürürmen Jaʿaqovnu qaryndašym-
                             <milestone unit="line" n="2" />
-                            ny.</l><l n="42" xml:id="Gen-027-042"><foreign xml:lang="he"
+                             ny.</l>
+                        <l n="42" xml:id="Gen-027-042"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויגד </foreign>
-                            Da anlatyldy Riveqaɣa ošol sözleri ʿEsav-
+                             Da anlatyldy Riveqaɣa ošol sözleri ʿEsav-
                             <milestone unit="line" n="3" />
-                            nyn ol aɣaraq uvlunun da ijdi da ündedi ošol Jaʿaqov-
+                             nyn ol aɣaraq uvlunun da ijdi da ündedi ošol Jaʿaqov-
                             <milestone unit="line" n="4" />
-                            nu uvlun ol kičirekni da ajtty anar muna ʿEsav qaryn-
+                             nu uvlun ol kičirekni da ajtty anar muna ʿEsav qaryn-
                             <milestone unit="line" n="5" />
-                            dašyj maḥtanady üstüja öltürḿa seni.</l><l n="43" xml:id="Gen-027-043"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ועתה</foreign>
+                             dašyj maḥtanady üstüja öltürḿa seni.</l>
+                        <l n="43" xml:id="Gen-027-043"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה</foreign>
                             <milestone unit="line" n="6" />
-                            Da haligińa e uvlum tynlaɣyn sözüḿa da turɣun qač-
+                             Da haligińa e uvlum tynlaɣyn sözüḿa da turɣun qač-
                             <milestone unit="line" n="7" />
-                            qyn özüja Lavanɣa qaryndašyma Ḥaranɣa.</l><l n="44" xml:id="Gen-027-044"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">וישבת </foreign>
-                            Da
+                             qyn özüja Lavanɣa qaryndašyma Ḥaranɣa.</l>
+                        <l n="44" xml:id="Gen-027-044"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישבת </foreign>
+                             Da
                             <milestone unit="line" n="8" />
-                            olturɣun birgesińa bir zamanlar neginče ki qajtqaj
+                             olturɣun birgesińa bir zamanlar neginče ki qajtqaj
                             <milestone unit="line" n="9" />
-                            qaḥiri qaryndašyjnyn.</l><l n="45" xml:id="Gen-027-045"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">עד </foreign>
-                            Qajtqynča ačuvu qaryndašyj-
+                             qaḥiri qaryndašyjnyn.</l>
+                        <l n="45" xml:id="Gen-027-045"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עד </foreign>
+                             Qajtqynča ačuvu qaryndašyj-
                             <milestone unit="line" n="10" />
-                            nyn send́an da unutsa ošol neki qyldyj anar da ijermen
+                             nyn send́an da unutsa ošol neki qyldyj anar da ijermen
                             <milestone unit="line" n="11" />
-                            da alyrmen seni andan nek tuv bolurmen eksijizdend́a
+                             da alyrmen seni andan nek tuv bolurmen eksijizdend́a
                             <milestone unit="line" n="12" />
-                            bir künd́a <seg type="commented" corresp="#seg003" />ki nečik ol öltürse seni
-                            daɣyn anyda
+                             bir künd́a <seg type="commented" corresp="#Gen-027-seg003" />ki nečik
+                            ol öltürse seni daɣyn anyda
                             <milestone unit="line" n="13" />
-                            öltürürĺar<anchor type="commented" xml:id="seg003" /><ref target="#fn4"
-                                type="noteAnchor" />.</l><l n="46" xml:id="Gen-027-046"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותאמר </foreign>
-                            Da ajtty Riveqa Jicḥaqqa
+                             öltürürĺar<anchor type="commented" xml:id="Gen-027-seg003" /><ref n="4"
+                                target="#Gen-027-fn4" type="noteAnchor" />.</l>
+                        <l n="46" xml:id="Gen-027-046"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותאמר </foreign>
+                             Da ajtty Riveqa Jicḥaqqa
                             <milestone unit="line" n="14" />
-                            jadadym tirliklerimd́an alnyndan qyzlarynyn Ḥetnin eger
+                             jadadym tirliklerimd́an alnyndan qyzlarynyn Ḥetnin eger
                             <milestone unit="line" n="15" />
-                            aladese Jaʿaqov qatyn qyzlaryndan Ḥetnin bularny kibik qyzla-
-                            <milestone unit="line" xml:id="Gen027-P43r-L16" n="16" next="ADub.III.73.001.028.xml#Gen028-P43r-L16" />
-                            ryndan ol jernin negedi maja tirlik.</l></ab>
+                             aladese Jaʿaqov qatyn qyzlaryndan Ḥetnin bularny kibik qyzla-
+                            <milestone unit="line" xml:id="Gen027-P43r-L16" n="16"
+                                next="ADub.III.73.001.028.xml#Gen028-P43r-L16" />
+                             ryndan ol jernin negedi maja tirlik.</l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Interpretative addition to the standard
-                            text.</note>
-                        <note xml:id="fn2" type="footnote">Interpretative addition to the standard
-                            text.</note>
-                        <note xml:id="fn3" type="footnote">K: <emph>ajty</emph>; a scribal error. |
-                            TKow.01: <emph>ajtty</emph>. | H: <emph>ajtty</emph>. | C:
+                        <note xml:id="Gen-027-fn1" type="footnote">Interpretative addition to the
+                            standard text.</note>
+                        <note xml:id="Gen-027-fn2" type="footnote">Interpretative addition to the
+                            standard text.</note>
+                        <note xml:id="Gen-027-fn3" type="footnote">K: <emph>ajty</emph>; a scribal
+                            error. | TKow.01: <emph>ajtty</emph>. | H: <emph>ajtty</emph>. | C:
                                 <emph>ajtty</emph>.</note>
-                        <note xml:id="fn4" type="footnote">Interpretative addition to the standard
-                            text.</note>
+                        <note xml:id="Gen-027-fn4" type="footnote">Interpretative addition to the
+                            standard text.</note>
                     </app>
                 </listApp>
             </div>

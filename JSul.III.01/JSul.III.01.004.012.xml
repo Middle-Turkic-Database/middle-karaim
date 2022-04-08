@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -42,122 +40,130 @@
             <div type="edition">
                 <div type="textpart" subtype="chapter">
                     <ab><title>Numbers 12</title>
-                        <milestone unit="line" xml:id="Num012-P157r-L22" n="22" prev="JSul.III.01.004.011.xml#Num011-P157r-L22" />
+                        <milestone unit="line" xml:id="Num012-P157r-L22" n="22"
+                            prev="JSul.III.01.004.011.xml#Num011-P157r-L22" />
                         <l xml:id="Num-012-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
                                 >יב׳ </foreign>
-                        </l><l n="1" xml:id="Num-012-001"><foreign xml:lang="he"
+                        </l>
+                        <l n="1" xml:id="Num-012-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ותדבר</foreign>
                             <milestone unit="line" n="23" />
-                            Da cajnav sözledi Mirjam da Aharon Moše ücün isleri ücün ol
+                             Da cajnav sözledi Mirjam da Aharon Moše ücün isleri ücün ol
                             <milestone unit="line" n="24" />
-                            Kušlu qatynnyn ki aldy ki Kušlu qatyn alybedi.</l><l n="2"
-                            xml:id="Num-012-002"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמרו </foreign>
-                            Da ajttylar
+                             Kušlu qatynnyn ki aldy ki Kušlu qatyn alybedi.</l>
+                        <l n="2" xml:id="Num-012-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                             Da ajttylar
                             <milestone unit="line" n="25" />
-                            tek jalɣyz Moše bylamo sözlejdi H muna daɣyn biznin bylada sözlejdi
+                             tek jalɣyz Moše bylamo sözlejdi H muna daɣyn biznin bylada sözlejdi
                             <milestone unit="line" n="26" />
-                            da ajrylmadyn sen qatynyndan ani men ajrylmadym erimden da esitti
+                             da ajrylmadyn sen qatynyndan ani men ajrylmadym erimden da esitti
                             <milestone unit="line" n="27" />
-                            sözlerin alarnyn H.</l><l n="3" xml:id="Num-012-003"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">והאיש </foreign>
-                            Da ol navi Moše juvus edi astry
+                             sözlerin alarnyn H.</l>
+                        <l n="3" xml:id="Num-012-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והאיש </foreign>
+                             Da ol navi Moše juvus edi astry
                             <milestone unit="page" n="157v" />
                             <milestone unit="line" n="1" />
-                            juvasraq bar ol adamdan ki izleri istine ol jernin.</l><l n="4"
-                            xml:id="Num-012-004"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר</foreign>
+                             juvasraq bar ol adamdan ki izleri istine ol jernin.</l>
+                        <l n="4" xml:id="Num-012-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
                             <milestone unit="line" n="2" />
-                            Da ajtty H kenetelej Mošege da Aharonɣa da Mirjamɣa cyɣynyz
+                             Da ajtty H kenetelej Mošege da Aharonɣa da Mirjamɣa cyɣynyz
                             <milestone unit="line" n="3" />
-                            icsilerinizde ohel moʿedge da cyqtylar icsileride.</l><l n="5"
-                            xml:id="Num-012-005"><supplied reason="lost"><foreign xml:lang="he"
+                             icsilerinizde ohel moʿedge da cyqtylar icsileride.</l>
+                        <l n="5" xml:id="Num-012-005"><supplied reason="lost"><foreign xml:lang="he"
                                     style="unicode-bidi: embed;">וירד </foreign>
-                                Da endi šeḫinasy H-nyn baɣanasy byla bulutnun da turdu esiginde ol
+                                 Da endi šeḫinasy H-nyn baɣanasy byla bulutnun da turdu esiginde ol
                                 catyrnyn da caɣyrdy Aharonnu da Mirjamny da cyqtylar
-                                eksileride</supplied><ref target="#fn1" type="noteAnchor" /></l><l
-                            n="6" xml:id="Num-012-006"><foreign xml:lang="he"
+                                eksileride</supplied><ref n="1" target="#Num-012-fn1"
+                                type="noteAnchor" /></l>
+                        <l n="6" xml:id="Num-012-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר</foreign>
                             <milestone unit="line" n="4" />
-                            Da ajtty tynlanyz endi sözlerimni eger bolsa navi sizden men
+                             Da ajtty tynlanyz endi sözlerimni eger bolsa navi sizden men
                             <milestone unit="line" n="5" />
-                            H körim byla anar bilinirmen tis asyra sözlermen anyn byla.</l><l n="7"
-                            xml:id="Num-012-007"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >לא</foreign>
+                             H körim byla anar bilinirmen tis asyra sözlermen anyn byla.</l>
+                        <l n="7" xml:id="Num-012-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא</foreign>
                             <milestone unit="line" n="6" />
-                            Tivildi alaj qulum Moše bar ivimde inamlydy ol.</l><l n="8"
-                            xml:id="Num-012-008"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >פה </foreign>
-                            Aqyl
+                             Tivildi alaj qulum Moše bar ivimde inamlydy ol.</l>
+                        <l n="8" xml:id="Num-012-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פה </foreign>
+                             Aqyl
                             <milestone unit="line" n="7" />
-                            aqylɣa sözlermen anyn byla da körim byla da tivil hiʒetler
+                             aqylɣa sözlermen anyn byla da körim byla da tivil hiʒetler
                             <milestone unit="line" n="8" />
-                            byla da qajjamlyɣyn šeḫinasynyn H-nyn baɣady aqyllyq közü byla da
+                             byla da qajjamlyɣyn šeḫinasynyn H-nyn baɣady aqyllyq közü byla da
                             <milestone unit="line" n="9" />
-                            ne ücün qorqmadynyz sözleme qulum Moše ücün.</l><l n="9"
-                            xml:id="Num-012-009"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויחר</foreign>
+                             ne ücün qorqmadynyz sözleme qulum Moše ücün.</l>
+                        <l n="9" xml:id="Num-012-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחר</foreign>
                             <milestone unit="line" n="10" />
-                            Da qabundu acuvu H-nyn alarda da bardy.</l><l n="10"
-                            xml:id="Num-012-010"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >והענן </foreign>
-                            Da ol bulut
+                             Da qabundu acuvu H-nyn alarda da bardy.</l>
+                        <l n="10" xml:id="Num-012-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והענן </foreign>
+                             Da ol bulut
                             <milestone unit="line" n="11" />
-                            ketti ol catyr istinden da muna Mirjam caraʿatly qar kibik da
+                             ketti ol catyr istinden da muna Mirjam caraʿatly qar kibik da
                             <milestone unit="line" n="12" />
-                            qajryldy Aharon Mirjamɣa da muna caraʿatlydy.</l><l n="11"
-                            xml:id="Num-012-011"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר </foreign>
-                            Da ajtty
+                             qajryldy Aharon Mirjamɣa da muna caraʿatlydy.</l>
+                        <l n="11" xml:id="Num-012-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty
                             <milestone unit="line" n="13" />
-                            Aharon Mošege qoltqa byla bijim qojmaɣyn endi bizin istine jazyq
+                             Aharon Mošege qoltqa byla bijim qojmaɣyn endi bizin istine jazyq
                             <milestone unit="line" n="14" />
-                            anyn ki telilik ettik da ki jazyqly bolduq.</l><l n="12"
-                            xml:id="Num-012-012"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >אל</foreign>
+                             anyn ki telilik ettik da ki jazyqly bolduq.</l>
+                        <l n="12" xml:id="Num-012-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל</foreign>
                             <milestone unit="line" n="15" />
-                            Qoltqa byla bolmasyn Mirjam tuvduɣumuz eli kibik ki cyqqanynda
+                             Qoltqa byla bolmasyn Mirjam tuvduɣumuz eli kibik ki cyqqanynda
                             <milestone unit="line" n="16" />
-                            qursaɣyndan anasynyn da tavusulady jarym gufu anyn.</l><l n="13"
-                            xml:id="Num-012-013"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויצעק </foreign>
-                            Da
+                             qursaɣyndan anasynyn da tavusulady jarym gufu anyn.</l>
+                        <l n="13" xml:id="Num-012-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצעק </foreign>
+                             Da
                             <milestone unit="line" n="17" />
-                            tefile etti Moše alnynda H-nyn ajtadoɣac e küclü Tenri onɣalt-
+                             tefile etti Moše alnynda H-nyn ajtadoɣac e küclü Tenri onɣalt-
                             <milestone unit="line" n="18" />
-                            qyn endi any haligine.</l><l n="14" xml:id="Num-012-014"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty H Mošege da atasy
+                             qyn endi any haligine.</l>
+                        <l n="14" xml:id="Num-012-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty H Mošege da atasy
                             <milestone unit="line" n="19" />
-                            anyn titirme titirsijdi jizlerine anyn jimenmegijdimo jedi
+                             anyn titirme titirsijdi jizlerine anyn jimenmegijdimo jedi
                             <milestone unit="line" n="20" />
-                            künler beklensin jedi künler tysqartyn avulɣa da andan sortun
+                             künler beklensin jedi künler tysqartyn avulɣa da andan sortun
                             <milestone unit="line" n="21" />
-                            ystyrynyr caraʿatyndan.</l><l n="15" xml:id="Num-012-015"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותסגר </foreign>
-                            Da bekledi Mirjam tysqartyn
+                             ystyrynyr caraʿatyndan.</l>
+                        <l n="15" xml:id="Num-012-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותסגר </foreign>
+                             Da bekledi Mirjam tysqartyn
                             <milestone unit="line" n="22" />
-                            avulɣa jedi künler da ol ulus kecmedi ystyrynɣynca Mirjam
+                             avulɣa jedi künler da ol ulus kecmedi ystyrynɣynca Mirjam
                             <milestone unit="line" n="23" />
-                            caraʿatyndan.</l><l n="16" xml:id="Num-012-016"><foreign xml:lang="he"
+                             caraʿatyndan.</l>
+                        <l n="16" xml:id="Num-012-016"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואחר </foreign>
-                            Da andan sortun kectiler ol ulus Ḥacerot-
+                             Da andan sortun kectiler ol ulus Ḥacerot-
                             <milestone unit="line" n="24" />
-                            tan da toḥtadylar midbarynda Parannyn.
+                             tan da toḥtadylar midbarynda Parannyn.
                             <milestone unit="line" n="25" />
-                            פפפ
+                             פפפ
                             <milestone unit="line" n="26" />
                             <foreign xml:lang="he" style="unicode-bidi: embed;">פרשת שלח לך
                             </foreign>
-                        </l></ab>
+                        </l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">Num 12.5 is missing. ADub.III.73:
+                        <note xml:id="Num-012-fn1" type="footnote">Num 12.5 is missing. ADub.III.73:
                                 (<foreign xml:lang="he" style="unicode-bidi: embed;">וירד</foreign>
-                            ) [5] <emph>Da endi šeḫinasy Adonajnyn baɣanasy byla bulutnun da turdu
+                             ) [5] <emph>Da endi šeḫinasy Adonajnyn baɣanasy byla bulutnun da turdu
                                 ešiginďa ol catyrnyn da caɣyrdy Aharonnuda Mirjamny da cyqtylar
                                 eksileriďa</emph>.</note>
                     </app>

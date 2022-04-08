@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,7 +43,8 @@
                 <div type="textpart" subtype="chapter">
                     <ab>
                         <title>Genesis 9</title>
-                        <milestone unit="line" xml:id="Gen009-P9v-L2" n="2" prev="JSul.III.01.001.008.xml#Gen008-P9v-L2" />
+                        <milestone unit="line" xml:id="Gen009-P9v-L2" n="2"
+                            prev="JSul.III.01.001.008.xml#Gen008-P9v-L2" />
                         <l xml:id="Gen-009-x001">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ט׳ </foreign>
                         </l>
@@ -229,7 +228,8 @@
                         <l n="29" xml:id="Gen-009-029">
                             <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
                              Da edi bar künleri Noaḥnyn
-                             <milestone unit="line" xml:id="Gen009-P10r-L24" n="24" next="JSul.III.01.001.010.xml#Gen010-P10r-L24" />
+                            <milestone unit="line" xml:id="Gen009-P10r-L24" n="24"
+                                next="JSul.III.01.001.010.xml#Gen010-P10r-L24" />
                              toɣuz iz jyl da enli jyl da eldi.</l>
                     </ab>
                 </div>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,312 +39,352 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>Genesis 1<supplied reason="lost">9</supplied><ref target="#fn1"
-                                type="noteAnchor" /></title>
-                        <milestone unit="line" xml:id="Gen019-P25r-L17" n="17" prev="ADub.III.73.001.018.xml#Gen018-P25r-L17"/>
+                    <ab><title>Genesis 1<supplied reason="lost">9</supplied><ref n="1"
+                                target="#Gen-019-fn1" type="noteAnchor" /></title>
+                        <milestone unit="line" xml:id="Gen019-P25r-L17" n="17"
+                            prev="ADub.III.73.001.018.xml#Gen018-P25r-L17" />
                         <l n="1" xml:id="Gen-019-001"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויבאו </foreign>
-                            Da keldiĺar eki ol elčiĺar
+                             Da keldiĺar eki ol elčiĺar
                             <milestone unit="line" n="18" />
-                            Sedomɣa ingird́a da Lot oltururedi qabaɣynda Sedomnun
+                             Sedomɣa ingird́a da Lot oltururedi qabaɣynda Sedomnun
                             <milestone unit="line" n="19" />
-                            da kördü Lot da turdu utrularyna alarnyn da bašurdu
+                             da kördü Lot da turdu utrularyna alarnyn da bašurdu
                             <milestone unit="line" n="20" />
-                            jüzleribyla jerǵa.</l><l n="2" xml:id="Gen-019-002"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty muna qoltqabyla
+                             jüzleribyla jerǵa.</l>
+                        <l n="2" xml:id="Gen-019-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty muna qoltqabyla
                             <milestone unit="line" n="21" />
-                            bijlerim qajyrylyjyz <addSpan spanTo="#add001" />endi<anchor
-                                xml:id="add001" /> üvüńa qulujuznun da qonujuz da juvujuz
+                             bijlerim qajyrylyjyz <addSpan spanTo="#Gen-019-add001" />endi<anchor
+                                xml:id="Gen-019-add001" type="addSpan" /> üvüńa qulujuznun da
+                            qonujuz da juvujuz
                             <milestone unit="page" n="25v" />
                             <milestone unit="line" n="1" />
-                            ajaqlaryjyzny da tünlej turarsiz da baryrsiz jolujuzɣa da
+                             ajaqlaryjyzny da tünlej turarsiz da baryrsiz jolujuzɣa da
                             <milestone unit="line" n="2" />
-                            ajttylar joq ki oramda qonarbiz.</l><l n="3" xml:id="Gen-019-003"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויפצר </foreign>
-                            Da qystady
+                             ajttylar joq ki oramda qonarbiz.</l>
+                        <l n="3" xml:id="Gen-019-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויפצר </foreign>
+                             Da qystady
                             <milestone unit="line" n="3" />
-                            alarny astry da qajyryldylar anar da keldiĺar üvüńa
+                             alarny astry da qajyryldylar anar da keldiĺar üvüńa
                             <milestone unit="line" n="4" />
-                            anyn da qyldy alarɣa ički da jajmalar biširdi da aša-
+                             anyn da qyldy alarɣa ički da jajmalar biširdi da aša-
                             <milestone unit="line" n="5" />
-                            dylar.</l><l n="4" xml:id="Gen-019-004"><foreign xml:lang="he"
+                             dylar.</l>
+                        <l n="4" xml:id="Gen-019-004"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">טרם </foreign>
-                            Jatmaslaryndan burun da eli ol šaharnyn eli
+                             Jatmaslaryndan burun da eli ol šaharnyn eli
                             <milestone unit="line" n="6" />
-                            Sedomnun quršadylar ol üv üstüńa ulandan da qartqa-
+                             Sedomnun quršadylar ol üv üstüńa ulandan da qartqa-
                             <milestone unit="line" n="7" />
-                            dejin bar ol ulus učtan.</l><l n="5" xml:id="Gen-019-005"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויקראו </foreign>
-                            Da ündediler
+                             dejin bar ol ulus učtan.</l>
+                        <l n="5" xml:id="Gen-019-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקראו </foreign>
+                             Da ündediler
                             <milestone unit="line" n="8" />
-                            Lotnu da ajttylar anar qajdady ol erenĺar ki keldiĺar
+                             Lotnu da ajttylar anar qajdady ol erenĺar ki keldiĺar
                             <milestone unit="line" n="9" />
-                            saja bu kečeni čyɣarɣyn alarny bizǵa da qyjnajyq alarny.</l>
+                             saja bu kečeni čyɣarɣyn alarny bizǵa da qyjnajyq alarny.</l>
                         <milestone unit="line" n="10" />
                         <l n="6" xml:id="Gen-019-006"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויצא </foreign>
-                            Da čyqty alarɣa Lot ol ešiḱḱa da ol qapa-
+                             Da čyqty alarɣa Lot ol ešiḱḱa da ol qapa-
                             <milestone unit="line" n="11" />
-                            qny bekĺadi özü artyna.</l><l n="7" xml:id="Gen-019-007"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty qolt-
+                             qny bekĺadi özü artyna.</l>
+                        <l n="7" xml:id="Gen-019-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty qolt-
                             <milestone unit="line" n="12" />
-                            qabyla qa<addSpan spanTo="#add002" />ry<anchor xml:id="add002"
-                             />ndašlarym jaman etmejiz.</l><l n="8" xml:id="Gen-019-008"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">הנה </foreign>
-                            Muna endi
+                             qabyla qa<addSpan spanTo="#Gen-019-add002" />ry<anchor
+                                xml:id="Gen-019-add002" type="addSpan" />ndašlarym jaman
+                            etmejiz.</l>
+                        <l n="8" xml:id="Gen-019-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנה </foreign>
+                             Muna endi
                             <milestone unit="line" n="13" />
-                            maja eki qyzlar ki bilmediĺar kišini čyɣarajym endi alarny
+                             maja eki qyzlar ki bilmediĺar kišini čyɣarajym endi alarny
                             <milestone unit="line" n="14" />
-                            sizǵa da qylyjyz alarɣa nečik jaḥšy <addSpan spanTo="#add003"
-                                 />körünse<anchor xml:id="add003" /> közlerijizd́a ančaq
+                             sizǵa da qylyjyz alarɣa nečik jaḥšy <addSpan spanTo="#Gen-019-add003"
+                                 />körünse<anchor xml:id="Gen-019-add003" type="addSpan" />
+                            közlerijizd́a ančaq
                             <milestone unit="line" n="15" />
-                            ošpu erenĺarǵa qylmajyz neḿade anyn <addSpan spanTo="#add004"
-                                 />üčün<anchor xml:id="add004" /> qačan ki keldiĺar
+                             ošpu erenĺarǵa qylmajyz neḿade anyn <addSpan spanTo="#Gen-019-add004"
+                                 />üčün<anchor xml:id="Gen-019-add004" type="addSpan" /> qačan ki
+                            keldiĺar
                             <milestone unit="line" n="16" />
-                            syjynma kölegesind́a farstymnyn.</l><l n="9" xml:id="Gen-019-009"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty-
+                             syjynma kölegesind́a farstymnyn.</l>
+                        <l n="9" xml:id="Gen-019-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                             Da ajtty-
                             <milestone unit="line" n="17" />
-                            lar juvuɣun arraq da ajttylar ol bir keldi tirilḿa da
+                             lar juvuɣun arraq da ajttylar ol bir keldi tirilḿa da
                             <milestone unit="line" n="18" />
-                            töŕa etti töŕa etḿa haligińa jamanraq eterbiz
+                             töŕa etti töŕa etḿa haligińa jamanraq eterbiz
                             <milestone unit="line" n="19" />
-                            saja alardan da qystadylar kišini Lotnu <addSpan spanTo="#add005"
-                                 />astry<anchor xml:id="add005" /> da juvudular syndyrma
+                             saja alardan da qystadylar kišini Lotnu <addSpan
+                                spanTo="#Gen-019-add005" />astry<anchor xml:id="Gen-019-add005"
+                                type="addSpan" /> da juvudular syndyrma
                             <milestone unit="line" n="20" />
-                            ol ešikni.</l><l n="10" xml:id="Gen-019-010"><foreign xml:lang="he"
+                             ol ešikni.</l>
+                        <l n="10" xml:id="Gen-019-010"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וישלחו </foreign>
-                            Da sundular ol erenĺar ošol
+                             Da sundular ol erenĺar ošol
                             <milestone unit="line" n="21" />
-                            qollaryn da keltirdiĺar ošol Lotnu özĺarińa ol ič-
+                             qollaryn da keltirdiĺar ošol Lotnu özĺarińa ol ič-
                             <milestone unit="page" n="26r" />
                             <milestone unit="line" n="1" />
-                            keriǵa da ošol qapqačyn ol ešiknin beklediĺar.</l><l n="11"
-                            xml:id="Gen-019-011"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ואת</foreign>
+                             keriǵa da ošol qapqačyn ol ešiknin beklediĺar.</l>
+                        <l n="11" xml:id="Gen-019-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואת</foreign>
                             <milestone unit="line" n="2" />
-                            Da ošol ol erenlerni ki ešigind́a ol üvnün urdu-
+                             Da ošol ol erenlerni ki ešigind́a ol üvnün urdu-
                             <milestone unit="line" n="3" />
-                            lar soqurluqlar byla bašlap kičid́an da ulluɣadejin da jadady-
+                             lar soqurluqlar byla bašlap kičid́an da ulluɣadejin da jadady-
                             <milestone unit="line" n="4" />
-                            lar tapma ol ešikni.</l><l n="12" xml:id="Gen-019-012"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויאמרו </foreign>
-                            Da ajttylar ol e-
+                             lar tapma ol ešikni.</l>
+                        <l n="12" xml:id="Gen-019-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                             Da ajttylar ol e-
                             <milestone unit="line" n="5" />
-                            renler Lotqa daɣyn kim bardy saja bunda küjöv<addSpan spanTo="#add006"
-                                 />nü<anchor xml:id="add006" /> da
+                             renler Lotqa daɣyn kim bardy saja bunda küjöv<addSpan
+                                spanTo="#Gen-019-add006" />nü<anchor xml:id="Gen-019-add006"
+                                type="addSpan" /> da
                             <milestone unit="line" n="6" />
-                            uvullaryjny da qyzlaryjny da barysyn ne ki bardy senin
+                             uvullaryjny da qyzlaryjny da barysyn ne ki bardy senin
                             <milestone unit="line" n="7" />
-                            šaharda čyɣarɣyn ol orundan.</l><l n="13" xml:id="Gen-019-013"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">כי </foreign>
-                            Ki čejpajdyr biz
+                             šaharda čyɣarɣyn ol orundan.</l>
+                        <l n="13" xml:id="Gen-019-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                             Ki čejpajdyr biz
                             <milestone unit="line" n="8" />
-                            ošol ol orunnu ošpunu ki ullu boldu firjatlary
+                             ošol ol orunnu ošpunu ki ullu boldu firjatlary
                             <milestone unit="line" n="9" />
-                            alarnyn alnynda Adonajnyn da ijdi bizni Adonaj čejpama
+                             alarnyn alnynda Adonajnyn da ijdi bizni Adonaj čejpama
                             <milestone unit="line" n="10" />
-                            any.</l><l n="14" xml:id="Gen-019-014"><foreign xml:lang="he"
+                             any.</l>
+                        <l n="14" xml:id="Gen-019-014"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויצא </foreign>
-                            Da čyqty Lot da sözledi küjövlerińa
+                             Da čyqty Lot da sözledi küjövlerińa
                             <milestone unit="line" n="11" />
-                            aluvčularɣa qyzlaryn da ajtty turujuz čyɣyjyz ol orundan
+                             aluvčularɣa qyzlaryn da ajtty turujuz čyɣyjyz ol orundan
                             <milestone unit="line" n="12" />
-                            ošpu ki čejpajdy Adonaj <addSpan spanTo="#add007" /><supplied
-                                reason="lost">o</supplied>šol<anchor xml:id="add007" /><ref
-                                target="#fn2" type="noteAnchor" /> ol šaharny da edi kültkü
+                             ošpu ki čejpajdy Adonaj <addSpan spanTo="#Gen-019-add007" /><supplied
+                                reason="lost">o</supplied>šol<anchor xml:id="Gen-019-add007"
+                                type="addSpan" /><ref n="2" target="#Gen-019-fn2" type="noteAnchor"
+                             /> ol šaharny da edi kültkü
                             <milestone unit="line" n="13" />
-                            külüvčü kibik közlerind́a küjövlerinin.</l><l n="15"
-                            xml:id="Gen-019-015"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >וכמו </foreign>
-                            Da
+                             külüvčü kibik közlerind́a küjövlerinin.</l>
+                        <l n="15" xml:id="Gen-019-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכמו </foreign>
+                             Da
                             <milestone unit="line" n="14" />
-                            nečik ol šaḥar kötürüldü da ǯaḥtlattylar ol elči-
+                             nečik ol šaḥar kötürüldü da ǯaḥtlattylar ol elči-
                             <milestone unit="line" n="15" />
-                            ĺar Lotnu ajtadoɣač turɣun alɣyn ošol qatynyjny da ošol
+                             ĺar Lotnu ajtadoɣač turɣun alɣyn ošol qatynyjny da ošol
                             <milestone unit="line" n="16" />
-                            eki qyzlaryjny ol tabulɣanlarny maɣat taspolursen güneḥi
+                             eki qyzlaryjny ol tabulɣanlarny maɣat taspolursen güneḥi
                             <milestone unit="line" n="17" />
-                            üčün ol šaharnyn.</l><l n="16" xml:id="Gen-019-016"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויתמהמה </foreign>
-                            Da kečikti da tu-
+                             üčün ol šaharnyn.</l>
+                        <l n="16" xml:id="Gen-019-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתמהמה </foreign>
+                             Da kečikti da tu-
                             <milestone unit="line" n="18" />
-                            ttular ol erenĺar qolundan anyn da qolundan qatynyn da qolun-
+                             ttular ol erenĺar qolundan anyn da qolundan qatynyn da qolun-
                             <milestone unit="line" n="19" />
-                            dan eki qyzlarynyn ḥajifsinḿagi byla Adonajnyn anyn üstü-
+                             dan eki qyzlarynyn ḥajifsinḿagi byla Adonajnyn anyn üstü-
                             <milestone unit="line" n="20" />
-                            ńa da čyɣardylar any da qojdular any tyšqartyn šaha<addSpan
-                                spanTo="#add008" />r<anchor xml:id="add008" />ɣa.</l>
+                             ńa da čyɣardylar any da qojdular any tyšqartyn šaha<addSpan
+                                spanTo="#Gen-019-add008" />r<anchor xml:id="Gen-019-add008"
+                                type="addSpan" />ɣa.</l>
                         <milestone unit="line" n="21" />
                         <l n="17" xml:id="Gen-019-017"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהי </foreign>
-                            Da edi čyɣarɣanlaryndačoq alar alarny ol tyšqa-
+                             Da edi čyɣarɣanlaryndačoq alar alarny ol tyšqa-
                             <milestone unit="page" n="26v" />
                             <milestone unit="line" n="1" />
-                            ryɣa ajtty qutulɣun ǯanyjbyla baqmaɣyn özüj artyna
+                             ryɣa ajtty qutulɣun ǯanyjbyla baqmaɣyn özüj artyna
                             <milestone unit="line" n="2" />
-                            da toḥtamaɣyn bar ol majdanda ol tavsary qutulɣun maɣat
+                             da toḥtamaɣyn bar ol majdanda ol tavsary qutulɣun maɣat
                             <milestone unit="line" n="3" />
-                            taspolursen.</l><l n="18" xml:id="Gen-019-018"><foreign xml:lang="he"
+                             taspolursen.</l>
+                        <l n="18" xml:id="Gen-019-018"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויאמר </foreign>
-                            Da ajtty Lot alarɣa qoltqabyla
+                             Da ajtty Lot alarɣa qoltqabyla
                             <milestone unit="line" n="4" />
-                            bijlerim.</l><l n="19" xml:id="Gen-019-019"><foreign xml:lang="he"
+                             bijlerim.</l>
+                        <l n="19" xml:id="Gen-019-019"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">הנה </foreign>
-                            Muna endi tapty quluj širinlik közle-
+                             Muna endi tapty quluj širinlik közle-
                             <milestone unit="line" n="5" />
-                            rijd́a da ulɣajtyj šavaɣatyjny ki qyldyj birǵaḿa tiri
+                             rijd́a da ulɣajtyj šavaɣatyjny ki qyldyj birǵaḿa tiri
                             <milestone unit="line" n="6" />
-                            qaldyrma ošol ǯanymny da men bolalmanmen qutulma ol
+                             qaldyrma ošol ǯanymny da men bolalmanmen qutulma ol
                             <milestone unit="line" n="7" />
-                            tavsary maɣat jeter meni ol jamanlyq da ölerḿan.</l><l n="20"
-                            xml:id="Gen-019-020"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >הנה</foreign>
+                             tavsary maɣat jeter meni ol jamanlyq da ölerḿan.</l>
+                        <l n="20" xml:id="Gen-019-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנה</foreign>
                             <milestone unit="line" n="8" />
-                            Muna endi ol šahar <addSpan spanTo="#add009" />ošpu<anchor
-                                xml:id="add009" /> juvuqtu qačma ary da kičidi qutalajym
+                             Muna endi ol šahar <addSpan spanTo="#Gen-019-add009" />ošpu<anchor
+                                xml:id="Gen-019-add009" type="addSpan" /> juvuqtu qačma ary da
+                            kičidi qutalajym
                             <milestone unit="line" n="9" />
-                            endi ary muna kičidi ol da tiri qalsyn ǯanym.</l><l n="21"
-                            xml:id="Gen-019-021"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויאמר</foreign>
+                             endi ary muna kičidi ol da tiri qalsyn ǯanym.</l>
+                        <l n="21" xml:id="Gen-019-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר</foreign>
                             <milestone unit="line" n="10" />
-                            Da ajtty anar ol elči muna jüz ettim jüzlerija daɣyn
+                             Da ajtty anar ol elči muna jüz ettim jüzlerija daɣyn
                             <milestone unit="line" n="11" />
-                            ošpuda išḱa aḥtarmasqa men ošol ol šaharny ki söz-
+                             ošpuda išḱa aḥtarmasqa men ošol ol šaharny ki söz-
                             <milestone unit="line" n="12" />
-                            ledij.</l><l n="22" xml:id="Gen-019-022"><foreign xml:lang="he"
+                             ledij.</l>
+                        <l n="22" xml:id="Gen-019-022"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מהר </foreign>
-                            Ǯaḥtlaɣyn qutulɣun ary ki bolalmanmen qylma
+                             Ǯaḥtlaɣyn qutulɣun ary ki bolalmanmen qylma
                             <milestone unit="line" n="13" />
-                            neḿad́a kelgenija dejin ary anyn üčün atady atyn <seg type="commented" corresp="#seg001" /><delSpan spanTo="#del001" />anyn<anchor
-                                xml:id="del001" />
-                            <addSpan spanTo="#add010" /><emph>ol šaharnyn</emph><anchor
-                                xml:id="add010" /><anchor type="commented" xml:id="seg001" /><ref
-                                target="#fn3" type="noteAnchor" /> Coʿar.</l>
+                             neḿad́a kelgenija dejin ary anyn üčün atady atyn <seg type="commented"
+                                corresp="#Gen-019-seg001" /><delSpan spanTo="#Gen-019-del001"
+                                 />anyn<anchor xml:id="Gen-019-del001" type="delSpan" />
+                            <addSpan spanTo="#Gen-019-add010" /><emph>ol šaharnyn</emph><anchor
+                                xml:id="Gen-019-add010" type="addSpan" /><anchor type="commented"
+                                xml:id="Gen-019-seg001" /><ref n="3" target="#Gen-019-fn3"
+                                type="noteAnchor" /> Coʿar.</l>
                         <milestone unit="line" n="14" />
                         <l n="23" xml:id="Gen-019-023"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">השמש </foreign>
-                            Ol qujaš balqydy ol jer üstüńa da Lot
+                             Ol qujaš balqydy ol jer üstüńa da Lot
                             <milestone unit="line" n="15" />
-                            keldi Coʿarɣa.</l><l n="24" xml:id="Gen-019-024"><foreign xml:lang="he"
+                             keldi Coʿarɣa.</l>
+                        <l n="24" xml:id="Gen-019-024"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ויהוה </foreign>
-                            Da Adonaj javdurdu Sedom üs-
+                             Da Adonaj javdurdu Sedom üs-
                             <milestone unit="line" n="16" />
-                            tüńa da ʿAmora üstüńa gügürt da ot alnyndan
+                             tüńa da ʿAmora üstüńa gügürt da ot alnyndan
                             <milestone unit="line" n="17" />
-                            Adonajnyn ol köklerd́an.</l><l n="25" xml:id="Gen-019-025"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויהפך </foreign>
-                            Da aḥtardy ošol
+                             Adonajnyn ol köklerd́an.</l>
+                        <l n="25" xml:id="Gen-019-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהפך </foreign>
+                             Da aḥtardy ošol
                             <milestone unit="line" n="18" />
-                            ol šaharlarny ošpularny da ošol bar ol majdanny da ošol
+                             ol šaharlarny ošpularny da ošol bar ol majdanny da ošol
                             <milestone unit="line" n="19" />
-                            bar olturuvčularyn ol šaharlarnyn da bitišin ol jernin.</l>
+                             bar olturuvčularyn ol šaharlarnyn da bitišin ol jernin.</l>
                         <milestone unit="line" n="20" />
                         <l n="26" xml:id="Gen-019-026"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ותבט </foreign>
-                            Da baqty qatyny anyn artyndan anyn da boldu tuzlu
+                             Da baqty qatyny anyn artyndan anyn da boldu tuzlu
                             <milestone unit="line" n="21" />
-                            stolp.</l><l n="27" xml:id="Gen-019-027"><foreign xml:lang="he"
+                             stolp.</l>
+                        <l n="27" xml:id="Gen-019-027"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">וישכם </foreign>
-                            Da tünlej turdu Avraham ertenbylada
+                             Da tünlej turdu Avraham ertenbylada
                             <milestone unit="page" n="27r" />
                             <milestone unit="line" n="1" />
-                            ol orunɣa ki turdu anda alnynda Adonaj<addSpan spanTo="#add011"
-                                 />nyn<anchor xml:id="add011" />.</l><l n="28" xml:id="Gen-019-028"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">וישקף</foreign>
+                             ol orunɣa ki turdu anda alnynda Adonaj<addSpan spanTo="#Gen-019-add011"
+                                 />nyn<anchor xml:id="Gen-019-add011" type="addSpan" />.</l>
+                        <l n="28" xml:id="Gen-019-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישקף</foreign>
                             <milestone unit="line" n="2" />
-                            Da baqty alnyna Sedomnun da ʿAmoranyn da alnyna bar
+                             Da baqty alnyna Sedomnun da ʿAmoranyn da alnyna bar
                             <milestone unit="line" n="3" />
-                            jerinin ol majdannyn da kördü da muna kötürüldü qoju tütünü
+                             jerinin ol majdannyn da kördü da muna kötürüldü qoju tütünü
                             <milestone unit="line" n="4" />
-                            ol jernin tütünü kibik ol kiŕač ṕečinin.</l><l n="29"
-                            xml:id="Gen-019-029"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויהי </foreign>
-                            Da edi
+                             ol jernin tütünü kibik ol kiŕač ṕečinin.</l>
+                        <l n="29" xml:id="Gen-019-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                             Da edi
                             <milestone unit="line" n="5" />
-                            čajpaɣanda Tenri ošol šaharlarny ol majdannyn da saɣyndy
+                             čajpaɣanda Tenri ošol šaharlarny ol majdannyn da saɣyndy
                             <milestone unit="line" n="6" />
-                            Tenri ošol Avrahamny da ijdi ošol Lotnu ortasyndan
+                             Tenri ošol Avrahamny da ijdi ošol Lotnu ortasyndan
                             <milestone unit="line" n="7" />
-                            ol aḥtarylmaqnyn aḥtarɣanda ošol ol šaharla<addSpan spanTo="#add012"
-                                 />r<anchor xml:id="add012" />ny ki biri-
+                             ol aḥtarylmaqnyn aḥtarɣanda ošol ol šaharla<addSpan
+                                spanTo="#Gen-019-add012" />r<anchor xml:id="Gen-019-add012"
+                                type="addSpan" />ny ki biri-
                             <milestone unit="line" n="8" />
-                            sind́a alardan olturdu Lot.</l><l n="30" xml:id="Gen-019-030"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ויעל </foreign>
-                            Da bardy Lot Co-
+                             sind́a alardan olturdu Lot.</l>
+                        <l n="30" xml:id="Gen-019-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעל </foreign>
+                             Da bardy Lot Co-
                             <milestone unit="line" n="9" />
-                            ʿardan da olturdu tavda da eki qyzlary anyn birǵasińa
+                             ʿardan da olturdu tavda da eki qyzlary anyn birǵasińa
                             <milestone unit="line" n="10" />
-                            ki qorqtu olturma Coʿarda da olturdu ṕečorada
+                             ki qorqtu olturma Coʿarda da olturdu ṕečorada
                             <milestone unit="line" n="11" />
-                            ol da eki qyzlary anyn.</l><l n="31" xml:id="Gen-019-031"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותאמר </foreign>
-                            Da ajtty ol aɣaraq
+                             ol da eki qyzlary anyn.</l>
+                        <l n="31" xml:id="Gen-019-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותאמר </foreign>
+                             Da ajtty ol aɣaraq
                             <milestone unit="line" n="12" />
-                            ol kičireḱḱa atamyz qartty da kiši joḥtur jerd́a
+                             ol kičireḱḱa atamyz qartty da kiši joḥtur jerd́a
                             <milestone unit="line" n="13" />
-                            kelḿa bizǵa jolu kibik bar ol jernin.</l><l n="32" xml:id="Gen-019-032"
-                                ><foreign xml:lang="he" style="unicode-bidi: embed;">לכה </foreign>
-                            Kel
+                             kelḿa bizǵa jolu kibik bar ol jernin.</l>
+                        <l n="32" xml:id="Gen-019-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לכה </foreign>
+                             Kel
                             <milestone unit="line" n="14" />
-                            ičiŕajik atamyzɣa čaɣyr da jatajyq birǵasińa da tirgi-
+                             ičiŕajik atamyzɣa čaɣyr da jatajyq birǵasińa da tirgi-
                             <milestone unit="line" n="15" />
-                            źajik atamyzdan urluq.</l><l n="33" xml:id="Gen-019-033"><foreign
-                                xml:lang="he" style="unicode-bidi: embed;">ותשקין </foreign>
-                            Da ičirdiĺar atasy-
-                            <milestone unit="line" n="16" />
-                            na özĺarinin čaɣyr ol keč́ani da keldi ol aɣaraq da jatty
-                            <milestone unit="line" n="17" />
-                            atasy byla da bilḿadi jatqanynda da turɣanynda.</l><l n="34"
-                            xml:id="Gen-019-034"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ויהי</foreign>
-                            <milestone unit="line" n="18" />
-                            Da edi tanbyladan da ajtty ol aɣaraq ol kičiŕaḱḱa muna
-                            <milestone unit="line" n="19" />
-                            jattym bigeč́a atambyla ičiŕajik anar čaɣyr daɣyn buda
-                            <milestone unit="line" n="20" />
-                            keč́ani da kelgin jatqyn birǵasińa da tirgiźajik atamyzdan
-                            <milestone unit="line" n="21" />
-                            urluq.</l><l n="35" xml:id="Gen-019-035"><foreign xml:lang="he"
+                             źajik atamyzdan urluq.</l>
+                        <l n="33" xml:id="Gen-019-033"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ותשקין </foreign>
-                            Da ičirdiĺar daɣyn ol da keč́ani atasy-
+                             Da ičirdiĺar atasy-
+                            <milestone unit="line" n="16" />
+                             na özĺarinin čaɣyr ol keč́ani da keldi ol aɣaraq da jatty
+                            <milestone unit="line" n="17" />
+                             atasy byla da bilḿadi jatqanynda da turɣanynda.</l>
+                        <l n="34" xml:id="Gen-019-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי</foreign>
+                            <milestone unit="line" n="18" />
+                             Da edi tanbyladan da ajtty ol aɣaraq ol kičiŕaḱḱa muna
+                            <milestone unit="line" n="19" />
+                             jattym bigeč́a atambyla ičiŕajik anar čaɣyr daɣyn buda
+                            <milestone unit="line" n="20" />
+                             keč́ani da kelgin jatqyn birǵasińa da tirgiźajik atamyzdan
+                            <milestone unit="line" n="21" />
+                             urluq.</l>
+                        <l n="35" xml:id="Gen-019-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותשקין </foreign>
+                             Da ičirdiĺar daɣyn ol da keč́ani atasy-
                             <milestone unit="page" n="27v" />
                             <milestone unit="line" n="1" />
-                            na özlerinin čaɣyr da turdu ol kičiŕak da jatty birgesi-
+                             na özlerinin čaɣyr da turdu ol kičiŕak da jatty birgesi-
                             <milestone unit="line" n="2" />
-                            ńa da bilmedi jatqanynda da turɣanynda.</l><l n="36"
-                            xml:id="Gen-019-036"><foreign xml:lang="he" style="unicode-bidi: embed;"
-                                >ותהרין</foreign>
+                             ńa da bilmedi jatqanynda da turɣanynda.</l>
+                        <l n="36" xml:id="Gen-019-036"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ותהרין</foreign>
                             <milestone unit="line" n="3" />
-                            Da ḥamila boldular eki qyzlary Lotnun atasyndan özlerinin.</l>
+                             Da ḥamila boldular eki qyzlary Lotnun atasyndan özlerinin.</l>
                         <milestone unit="line" n="4" />
                         <l n="37" xml:id="Gen-019-037"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ותלד </foreign>
-                            Da töredi ol aɣaraq uvul da atady atyn
+                             Da töredi ol aɣaraq uvul da atady atyn
                             <milestone unit="line" n="5" />
-                            anyn Moʾav ol edi atasy Moʾavnyn ol küngedejin.</l>
+                             anyn Moʾav ol edi atasy Moʾavnyn ol küngedejin.</l>
                         <milestone unit="line" n="6" />
                         <l n="38" xml:id="Gen-019-038"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">והצעירה </foreign>
-                            Da ol kičiŕak daɣyn olda töredi uvul
+                             Da ol kičiŕak daɣyn olda töredi uvul
                             <milestone unit="line" n="7" />
-                            da atady <addSpan spanTo="#add013" />atyn<anchor xml:id="add013" /> anyn
-                            Ben ʿAmi ol edi atasy ulanlarynyn ʿAmonnun ol
-                            <milestone unit="line" xml:id="Gen019-P27v-L8" n="8" next="ADub.III.73.001.020.xml#Gen020-P27v-L8"/>
-                            küngedejin.</l></ab>
+                             da atady <addSpan spanTo="#Gen-019-add013" />atyn<anchor
+                                xml:id="Gen-019-add013" type="addSpan" /> anyn Ben ʿAmi ol edi atasy
+                            ulanlarynyn ʿAmonnun ol
+                            <milestone unit="line" xml:id="Gen019-P27v-L8" n="8"
+                                next="ADub.III.73.001.020.xml#Gen020-P27v-L8" />
+                             küngedejin.</l>
+                    </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">K: Gen 18; a scribal error. | TKow.01:
-                            Gen 19. | H: Gen 19. | C: Gen 19.</note>
-                        <note xml:id="fn2" type="footnote">TKow.01: <emph>ošol</emph>. | H:
+                        <note xml:id="Gen-019-fn1" type="footnote">K: Gen 18; a scribal error. |
+                            TKow.01: Gen 19. | H: Gen 19. | C: Gen 19.</note>
+                        <note xml:id="Gen-019-fn2" type="footnote">TKow.01: <emph>ošol</emph>. | H:
                                 <emph>osol</emph>. | C: <emph>šol</emph>.</note>
-                        <note xml:id="fn3" type="footnote">Correction by another hand. | TKow.01:
-                                <emph>ol šaharnyn</emph>. | H: <emph>ol saharnyn</emph>. | C:
+                        <note xml:id="Gen-019-fn3" type="footnote">Correction by another hand. |
+                            TKow.01: <emph>ol šaharnyn</emph>. | H: <emph>ol saharnyn</emph>. | C:
                                 <emph>ol šäḥärniŋ</emph>.</note>
                     </app>
                 </listApp>

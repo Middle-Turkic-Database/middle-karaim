@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>2 Kings 1</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>2 Kings 1</title>
+                        <milestone unit="line" n="7" />
+                        <l xml:id="Kings2-001-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתחיל ספר מלכים ב׳</foreign>
+                        </l>
+                        <milestone unit="line" n="8" />
+                        <l n="1" xml:id="Kings2-001-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויפשע מואב בישראל</foreign>
+                            <milestone unit="line" n="9" />
+                            Da tandy Moʾav Jisraʾelde elip sortun Aḥʾav.</l>
+                        <l n="2" xml:id="Kings2-001-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויפול </foreign>
+                            Da jyɣyldy Aḥazjahu
+                            <milestone unit="line" n="10" />
+                            ol grata asyra cardaɣynda ki Šomeronda da ḥastalandy da ijdi elciler da
+                            <milestone unit="line" n="11" />
+                            ajtty alarɣa barynyz sorunuz Vaʿal Zevuvdan tenrisinden ʿEqronnun savluɣu-
+                            <milestone unit="line" n="12" />
+                            menmo bu ḥastalyqtan.</l>
+                        <l n="3" xml:id="Kings2-001-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומלאך </foreign>
+                            Da malaḫy H-nyn sezledi Elijaɣa ol Tišbilige
+                            <milestone unit="line" n="13" />
+                            turɣun barɣyn utrusuna elcilerinin meleḫinin Šomeronnun da sezlegin
+                            alarɣa Tenri-
+                            <milestone unit="line" n="14" />
+                            mo joɣundan Jisraʾelde siz barasiz sorma Vaʿal Zevuvdan tenrisinden
+                            ʿEqronnun.</l>
+                        <milestone unit="line" n="15" />
+                        <l n="4" xml:id="Kings2-001-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולכן </foreign>
+                            Da anyn icin bulaj ajtty H ol tesek ki mindin ary enmessen andan
+                            <milestone unit="line" n="16" />
+                            ki elme elersen da bardy Elija.</l>
+                        <l n="5" xml:id="Kings2-001-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישובו </foreign>
+                            Da qajttylar ol elciler anar
+                            <milestone unit="line" n="17" />
+                            da ajtty alarɣa <supplied reason="lost">ne bu</supplied><ref n="1"
+                                target="#Kings2-001-fn1" type="noteAnchor" /> qajttynyz.</l>
+                        <l n="6" xml:id="Kings2-001-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar kisi cyqty
+                            <milestone unit="line" n="18" />
+                            utrumuzɣa da ajtty bizge barynyz qajtynyz ol meleḫke ki ijdi sizni da
+                            <milestone unit="line" n="19" />
+                            sezleniz anar bulaj ajtty H Tenrimo joɣundan Jisraʾelde sen ijesen sorma
+                            <milestone unit="line" n="20" />
+                            Vaʿal Zevuvdan tenrisinden ʿEqronnun anyn icin ol tesek ki mindin anyn
+                            <milestone unit="line" n="21" />
+                            istine anda enmessen andan ki elme elersen.</l>
+                        <l n="7" xml:id="Kings2-001-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sezledi alarɣa
+                            <milestone unit="page" n="132r" />
+                            <milestone unit="line" n="1" />
+                            nedi boju ol kisi<addSpan spanTo="#Kings2-001-add001" />nin<anchor
+                                xml:id="Kings2-001-add001" type="addSpan" /> ol ki cyqty utrunuzɣa
+                            siznin da sezledi sizge osol
+                            <milestone unit="line" n="2" />
+                            ol sezlerni ol uspularny.</l>
+                        <l n="8" xml:id="Kings2-001-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמרו </foreign>
+                            Da ajttylar anar kisi cac jesisi da
+                            <milestone unit="line" n="3" />
+                            terili belibav bajlanɣan bellerinde anyn da ajtty Elijady ol Tišbili
+                            <milestone unit="line" n="4" />
+                            ol.</l>
+                        <l n="9" xml:id="Kings2-001-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישלח </foreign>
+                            Da ijdi anar aɣaraɣyn enlilernin da enli kisisin anyn da mindi
+                            <milestone unit="line" n="5" />
+                            anar da muna olturady basy istine ol tavnyn da sezledi anar e navisi
+                            <milestone unit="line" n="6" />
+                            ol Tenrinin ol meleḫ sezledi engin.</l>
+                        <l n="10" xml:id="Kings2-001-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויענה </foreign>
+                            Da qaruv berdi Elijahu da sezledi
+                            <milestone unit="line" n="7" />
+                            aɣaraɣyna ol enlilernin da eger navisi Tenrinin ese men ensin ot ol
+                            <milestone unit="line" n="8" />
+                            keklerden da ertesin seni da osol enlilerinni senin da endi ot ol keklerden
+                            <milestone unit="line" n="9" />
+                            da ertedi any da osol enli kisisin anyn.</l>
+                        <l n="11" xml:id="Kings2-001-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישב </foreign>
+                            Da qajtty da ijdi anar
+                            <milestone unit="line" n="10" />
+                            aɣaraɣyn enlinin ekincini da enli kisisin anyn da qaruv berdi da sezledi anar
+                            <milestone unit="line" n="11" />
+                            e navisi ol Tenrinin bulaj ajtty ol meleḫ ʒaḥtlaɣyn engin.</l>
+                        <l n="12" xml:id="Kings2-001-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויען </foreign>
+                            Da
+                            <milestone unit="line" n="12" />
+                            qaruv berdi Elija da sezledi alarɣa eger navisi Tenrinin ese men ensin ot
+                            <milestone unit="line" n="13" />
+                            ol keklerden da ertesin seni da osol enli kisilerinni senin da endi ullu
+                            <milestone unit="line" n="14" />
+                            ot ol keklerden da ertedi any da osol enli kisilerin anyn.</l>
+                        <l n="13" xml:id="Kings2-001-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישב</foreign>
+                            <milestone unit="line" n="15" />
+                            Da qajtty da ijdi anar aɣaraɣyn enlilernin icincini da enli kisisin anyn
+                            <milestone unit="line" n="16" />
+                            da bardy da keldi aɣaraɣy ol enlilernin ol icinci da cekti tizleri
+                            <milestone unit="line" n="17" />
+                            istine utrusuna Elijahunun da jalbardy anar da sezledi anar e navisi
+                            <milestone unit="line" n="18" />
+                            ol Tenrinin abajly bolsun endi ʒanym menim da ʒany qullarynnyn bularnyn
+                            <milestone unit="line" n="19" />
+                            enlinin kezlerinde senin.</l>
+                        <l n="14" xml:id="Kings2-001-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנה </foreign>
+                            Muna endi ot ol keklerden da ertedi
+                            <milestone unit="line" n="20" />
+                            osol eki aɣaraqlaryn ol enlilernin ol burunɣularny da osol enlilerin
+                            <milestone unit="line" n="21" />
+                            alarnyn da haligine abajly bolsun ʒanym kezlerinde senin.</l>
+                        <l n="15" xml:id="Kings2-001-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sezledi
+                            <milestone unit="line" n="22" />
+                            malaḫy H-nyn Elijahuɣa engin anyn byla qorqmaɣyn alnyndan anyn da turdu
+                            <milestone unit="line" n="23" />
+                            da endi anyn byla ol meleḫke.</l>
+                        <l n="16" xml:id="Kings2-001-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sezledi anar bulaj ajtty H
+                            <milestone unit="line" n="24" />
+                            anyn icin ki ijdin elciler sorma Vaʿal Zevuvdan tenrisinden ʿEqronnun
+                            <milestone unit="line" n="25" />
+                            Tenrimo joɣundan Jisraʾelde sorma sezinden anyn anyn icin ol tesek
+                            <milestone unit="line" n="26" />
+                            ki mindin ary enmessen andan ki elme eler⟨e⟩sen<ref n="2"
+                                target="#Kings2-001-fn2" type="noteAnchor" />.</l>
+                        <l n="17" xml:id="Kings2-001-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימת </foreign>
+                            Da eldi sezine
+                            <milestone unit="line" n="27" />
+                            kere H-nyn ki sezledi Elijahu da bij boldu Johoram anyn ornuna ekinci jylda
+                            <milestone unit="page" n="132v" />
+                            <milestone unit="line" n="1" />
+                            Johoramɣa uvluna Johošafatnyn meleḫinin Juhudanyn ki joɣedi anar
+                            uvul.</l>
+                        <milestone unit="line" n="2" />
+                        <l n="18" xml:id="Kings2-001-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויתר </foreign>
+                            Da qaldyq sezleri Aḥazjahunun ki qyldy muna alar jazylɣandylar
+                            <milestone unit="line" n="3" />
+                            seferi istine islerinin ol kinlernin bijlerine Jisraʾelnin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Kings2-001-fn1" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">נֵיבוּ</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Kings2-001-fn2" type="footnote">TKow.02: spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">אֶילֶירֶסֶן</foreign>
+                            ; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,131 +43,133 @@
                         <milestone unit="line" n="7" />
                         <l xml:id="Neh-010-x001">(<foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ובכל זאת אנחנו </foreign>
-                            <ref target="#fn1" type="noteAnchor" /><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">כורתים אמנה</foreign>
-                            ) <foreign xml:lang="he" style="unicode-bidi: embed;">יוד</foreign>
+                            <ref n="1" target="#Neh-010-fn1" type="noteAnchor" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כורתים אמנה</foreign>
+                             ) <foreign xml:lang="he" style="unicode-bidi: embed;">יוד</foreign>
                             <milestone unit="line" n="8" />
-                            Da bar bunluq byla biz kesebiz sert inamlyq byla <addSpan
-                                spanTo="#add001" />da jazabyz<anchor xml:id="add001" /> da mohorlajbiz
+                             Da bar bunluq byla biz kesebiz sert inamlyq byla <addSpan
+                                spanTo="#Neh-010-add001" />da jazabyz<anchor xml:id="Neh-010-add001"
+                                type="addSpan" /> da mohorlajbiz
                             <milestone unit="line" n="9" />
-                            atlarymyzny biz aɣaraqlarymyz Levililerimiz da kohenlerimiz.</l>
+                             atlarymyzny biz aɣaraqlarymyz Levililerimiz da kohenlerimiz.</l>
                         <l n="2" xml:id="Neh-010-002"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ועל</foreign>
                             <milestone unit="line" n="10" />
-                            Da bulardylar ol mohorlavcular Neḥemja ol tiršata uvlu Ḥaḫaljanyn
+                             Da bulardylar ol mohorlavcular Neḥemja ol tiršata uvlu Ḥaḫaljanyn
                             <milestone unit="line" n="11" />
-                            da Cidkijja.</l>
+                             da Cidkijja.</l>
                         <l n="29" xml:id="Neh-010-029"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ושאר </foreign>
-                            Da qaldyq ol kohenler da ol Levililer da ol qabaqcylar
+                             Da qaldyq ol kohenler da ol Levililer da ol qabaqcylar
                             <milestone unit="line" n="12" />
-                            ol šira uḥuvcular ol netinimliler da bar ol ajrylɣan uluslaryndan
+                             ol šira uḥuvcular ol netinimliler da bar ol ajrylɣan uluslaryndan
                             <milestone unit="line" n="13" />
-                            ol jerlernin Torasyna ol Tenrinin qatynlary alarnyn uvullary <addSpan
-                                spanTo="#add002" />da qyzlary<anchor xml:id="add002" /> alarnyn bar
+                             ol jerlernin Torasyna ol Tenrinin qatynlary alarnyn uvullary <addSpan
+                                spanTo="#Neh-010-add002" />da qyzlary<anchor xml:id="Neh-010-add002"
+                                type="addSpan" /> alarnyn bar
                             <milestone unit="line" n="14" />
-                            bilivcü da anlavcu.</l>
+                             bilivcü da anlavcu.</l>
                         <l n="30" xml:id="Neh-010-030"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">מחזיקים </foreign>
-                            Kücejtirediler qaryndašlaryn ezleri-
+                             Kücejtirediler qaryndašlaryn ezleri-
                             <milestone unit="line" n="15" />
-                            nin ol qartraqlar alardan da kijirirediler alarny antqa da qarɣysqa
+                             nin ol qartraqlar alardan da kijirirediler alarny antqa da qarɣysqa
                             <milestone unit="line" n="16" />
-                            jürime Torasy byla ol Tenrinin ki berildi qolu asyra Mošenin
+                             jürime Torasy byla ol Tenrinin ki berildi qolu asyra Mošenin
                             <milestone unit="line" n="17" />
-                            navisinin ol Tenrinin da saqlama da qylma osol barca neni ki bujurdu
+                             navisinin ol Tenrinin da saqlama da qylma osol barca neni ki bujurdu
                             <milestone unit="line" n="18" />
-                            H bijimiz biznin da terelerin anyn da resimlerin anyn.</l>
+                             H bijimiz biznin da terelerin anyn da resimlerin anyn.</l>
                         <l n="31" xml:id="Neh-010-031"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואשר </foreign>
-                            Da
+                             Da
                             <milestone unit="line" n="19" />
-                            ki bermegejbiz osol qyzlarymyzny uluslaryna ol jerlernin da osol
+                             ki bermegejbiz osol qyzlarymyzny uluslaryna ol jerlernin da osol
                             <milestone unit="line" n="20" />
-                            qyzlaryn alarnyn almaɣajbiz uvullarymyzɣa.</l>
+                             qyzlaryn alarnyn almaɣajbiz uvullarymyzɣa.</l>
                         <l n="32" xml:id="Neh-010-032"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ועמי </foreign>
-                            Da uluslary ol
+                             Da uluslary ol
                             <milestone unit="line" n="21" />
-                            jernin ol keltirivciler ol qumaslaryny da bar birtikni ol šabbat
+                             jernin ol keltirivciler ol qumaslaryny da bar birtikni ol šabbat
                             <milestone unit="line" n="22" />
-                            künde satma almaɣajbiz alardan šabbatta da aziz moʿedlerde da ki
+                             künde satma almaɣajbiz alardan šabbatta da aziz moʿedlerde da ki
                             <milestone unit="line" n="23" />
-                            šemita qylɣajbiz ol jedinci jylda da kemiskejbiz borcqa bermegin
+                             šemita qylɣajbiz ol jedinci jylda da kemiskejbiz borcqa bermegin
                             <milestone unit="line" n="24" />
-                            qolumuznun.</l>
+                             qolumuznun.</l>
                         <l n="33" xml:id="Neh-010-033"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">והעמדנו </foreign>
-                            Da turɣuzduq özümiz istinde micvalar
+                             Da turɣuzduq özümiz istinde micvalar
                             <milestone unit="page" n="221r" />
                             <milestone unit="line" n="1" />
-                            berme biz icinci helegin ol mitqalnyn jylda qulluɣuna üvünün
+                             berme biz icinci helegin ol mitqalnyn jylda qulluɣuna üvünün
                             <milestone unit="line" n="2" />
-                            Tenrimiznin.</l>
+                             Tenrimiznin.</l>
                         <l n="34" xml:id="Neh-010-034"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ללחם </foreign>
-                            Etmegine ol tüzüvnün da ol hammeselik
+                             Etmegine ol tüzüvnün da ol hammeselik
                             <milestone unit="line" n="3" />
-                            tirkige da ol hammeselik ʿolaɣa da ʿolalaryna ol šabbatlarnyn da
+                             tirkige da ol hammeselik ʿolaɣa da ʿolalaryna ol šabbatlarnyn da
                             <milestone unit="line" n="4" />
-                            ol janɣajlarnyn moʿedler sajyn da ḥatatlar sajyn bosatlyq
+                             ol janɣajlarnyn moʿedler sajyn da ḥatatlar sajyn bosatlyq
                             <milestone unit="line" n="5" />
-                            qolma Jisraʾel ücün da bar isine üvünün tenrimiznin.</l>
+                             qolma Jisraʾel ücün da bar isine üvünün tenrimiznin.</l>
                         <l n="35" xml:id="Neh-010-035"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">והגוררלות</foreign>
                             <milestone unit="line" n="6" />
-                            Da ol ɣorallarny saldyq qarbany ücün ol aɣaclarnyn ol kohenler da ol
+                             Da ol ɣorallarny saldyq qarbany ücün ol aɣaclarnyn ol kohenler da ol
                             <milestone unit="line" n="7" />
-                            Levililer da ol ulus keltirme üvüne Tenrimiznin üvüne
+                             Levililer da ol ulus keltirme üvüne Tenrimiznin üvüne
                             <milestone unit="line" n="8" />
-                            atalarymyznyn belgili vaḥtlarda har bir jylda jandyrma mizbeaḥy istine
+                             atalarymyznyn belgili vaḥtlarda har bir jylda jandyrma mizbeaḥy istine
                             <milestone unit="line" n="9" />
-                            H Tenrimiznin jazylɣanɣa köre Torada.</l>
+                             H Tenrimiznin jazylɣanɣa köre Torada.</l>
                         <l n="36" xml:id="Neh-010-036"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ולהביא </foreign>
-                            Da keltirme osol
+                             Da keltirme osol
                             <milestone unit="line" n="10" />
-                            jetismeklerin jerimiznin da jetismeklerin bar jemisin bar aɣacnyn har
+                             jetismeklerin jerimiznin da jetismeklerin bar jemisin bar aɣacnyn har
                             <milestone unit="line" n="11" />
-                            bir jylda üvüne H-nyn.</l>
+                             bir jylda üvüne H-nyn.</l>
                         <l n="37" xml:id="Neh-010-037"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואת </foreign>
-                            Da osol tunɣuclaryn uvullarymyznyn
+                             Da osol tunɣuclaryn uvullarymyznyn
                             <milestone unit="line" n="12" />
-                            da tuvarlarymyznyn jazylɣanɣa köre Torada da osol tunɣuclaryn
+                             da tuvarlarymyznyn jazylɣanɣa köre Torada da osol tunɣuclaryn
                             <milestone unit="line" n="13" />
-                            syɣyrymyznyn da qojumuznun keltirme üvüne Tenrimiznin kohenler-
+                             syɣyrymyznyn da qojumuznun keltirme üvüne Tenrimiznin kohenler-
                             <milestone unit="line" n="14" />
-                            ge ol jumus etivcilerge üvünde Tenrimiznin.</l>
+                             ge ol jumus etivcilerge üvünde Tenrimiznin.</l>
                         <l n="38" xml:id="Neh-010-038"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">ואת </foreign>
-                            Da osol
+                             Da osol
                             <milestone unit="line" n="15" />
-                            ilkin ḥamurlarymyznyn da terumalarymyznyn da jemisin bar aɣacnyn bar
+                             ilkin ḥamurlarymyznyn da terumalarymyznyn da jemisin bar aɣacnyn bar
                             <milestone unit="line" n="16" />
-                            serbetnin da sajnyn keltiribiz kohenlerge ḥuʒuralaryna üvünün
+                             serbetnin da sajnyn keltiribiz kohenlerge ḥuʒuralaryna üvünün
                             <milestone unit="line" n="17" />
-                            Tenrimiznin da oncasy jerimiznin Levililerge da alardylar ol
+                             Tenrimiznin da oncasy jerimiznin Levililerge da alardylar ol
                             <milestone unit="line" n="18" />
-                            Levililer ol oncalavcular bar saharlarynda qulluɣumuznun.</l>
+                             Levililer ol oncalavcular bar saharlarynda qulluɣumuznun.</l>
                         <l n="39" xml:id="Neh-010-039"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">והיה </foreign>
-                            Da
+                             Da
                             <milestone unit="line" n="19" />
-                            bolsun ol kohen uvlu Aharonnun ol Levililer byla oncany alɣanda ol
+                             bolsun ol kohen uvlu Aharonnun ol Levililer byla oncany alɣanda ol
                             <milestone unit="line" n="20" />
-                            Levilier da ol Levililer eltsinler ol oncasyn ol oncanyn üvüne
+                             Levilier da ol Levililer eltsinler ol oncasyn ol oncanyn üvüne
                             <milestone unit="line" n="21" />
-                            Tenrimiznin ol ḥuʒuralarɣa üvüne ol oncanyn.</l>
+                             Tenrimiznin ol ḥuʒuralarɣa üvüne ol oncanyn.</l>
                         <l n="40" xml:id="Neh-010-040"><foreign xml:lang="he"
                                 style="unicode-bidi: embed;">כי </foreign>
-                            Ki ol
+                             Ki ol
                             <milestone unit="line" n="22" />
-                            ḥuʒuralarɣa keltirirediler uvullary Jisraʾelnin da uvullary ol Levinin
+                             ḥuʒuralarɣa keltirirediler uvullary Jisraʾelnin da uvullary ol Levinin
                             <milestone unit="line" n="23" />
-                            osol ol terumasyn ol birtiknin ol serbetnin da ol sajnyn da anda
+                             osol ol terumasyn ol birtiknin ol serbetnin da ol sajnyn da anda
                             <milestone unit="line" n="24" />
-                            savutlary ol miqdašnyn da ol kohenler ol jumus etivciler da ol
+                             savutlary ol miqdašnyn da ol kohenler ol jumus etivciler da ol
                             <milestone unit="page" n="221v" />
                         </l>
                     </ab>
@@ -178,9 +178,9 @@
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="fn1" type="footnote">In Hebrew Bible: <foreign xml:lang="he"
-                                style="unicode-bidi: embed;">כרתים </foreign>
-                            .</note>
+                        <note xml:id="Neh-010-fn1" type="footnote">In Hebrew Bible: <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כרתים </foreign>
+                             .</note>
                     </app>
                 </listApp>
             </div>
