@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>2 Chronicle 3</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>2 Chronicle 3</title>
+                        <milestone unit="line" n="26" />
+                        <l n="1" xml:id="Chron2-003-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחל </foreign>
+                            Da baslady Šelomo qondarma osol ivin H-nyn Jerušalajimde
+                            <milestone unit="line" n="27" />
+                            tavynda ol Morijanyn ki asqara bolundu ol malak Davidge atasyna anyn ki
+                            <milestone unit="page" n="186r" />
+                            <milestone unit="line" n="1" />
+                            hadirledi ornunda Davidnin yndyrynda ʾornannyn ol Jevuslunun.</l>
+                        <l n="2" xml:id="Chron2-003-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחל </foreign>
+                            Da baslady
+                            <milestone unit="line" n="2" />
+                            qonda<addSpan spanTo="#Chron2-003-add001" />r<anchor
+                                xml:id="Chron2-003-add001" type="addSpan" />ma ol ekinci ajda
+                                eki<addSpan spanTo="#Chron2-003-add002" />nci<anchor
+                                xml:id="Chron2-003-add002" type="addSpan" /> kininde ajnyn dertinci
+                            jylda bij bolmaɣyna
+                            <milestone unit="line" n="3" />
+                            anyn.</l>
+                        <l n="3" xml:id="Chron2-003-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואלה </foreign>
+                            Da bulardylar elcevleri ol ivnin ki bunjat etti Šelomo
+                            <milestone unit="line" n="4" />
+                            qondarma osol ivin ol Tenrinin ol uznluq loqotler burunɣu elcevde
+                            <milestone unit="line" n="5" />
+                            loqotler altymys da kenlik egirmi loqotler.</l>
+                        <l n="4" xml:id="Chron2-003-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והאולם </foreign>
+                            Da ol ʾulam ki alnynda
+                            <milestone unit="line" n="6" />
+                            ol uzunluqnun alnynda kenliginin ol ivnin loqotler egirmi da ol bijiklik
+                            <milestone unit="line" n="7" />
+                            iz egirmi da qaplady any ickirtin aruv altyn byla.</l>
+                        <l n="5" xml:id="Chron2-003-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואת </foreign>
+                            Da osol ol
+                            <milestone unit="line" n="8" />
+                            ullu ivni qaplady beroš<ref n="1" target="#Chron2-003-fn1"
+                                type="noteAnchor" /> aɣaclary byla da qaplady any jaḥsy altyn byla
+                            da cyɣardy
+                            <milestone unit="line" n="9" />
+                            anyn istine ḥurmalar da synʒyrlar.</l>
+                        <l n="6" xml:id="Chron2-003-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצף </foreign>
+                            Da qaplady osol ivni abajly tas byla
+                            <milestone unit="line" n="10" />
+                            kerk icin da ol altyn edi altyny Parvajimnin.</l>
+                        <l n="7" xml:id="Chron2-003-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחף </foreign>
+                            Da qaplady osol ol
+                            <milestone unit="line" n="11" />
+                            ivni ol farstlarny ol odverjalarny da farstlaryn da esiklerin anyn altyn
+                            <milestone unit="line" n="12" />
+                            byla da tucurdu kerubimler ol farstlar istine.</l>
+                        <l n="8" xml:id="Chron2-003-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy osol ivin
+                            <milestone unit="line" n="13" />
+                            qodeš ol qadašimnin uzunluɣu anyn alnynda kenliginin ol ivnin loqotler
+                            <milestone unit="line" n="14" />
+                            egirmi da kenligi anyn loqotler egirmi da qaplady any jaḥsy altyn byla qantar-
+                            <milestone unit="line" n="15" />
+                            lar alty iz.</l>
+                        <l n="9" xml:id="Chron2-003-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומשקל </foreign>
+                            Da elcevi qadavlarnyn mitqallarɣa enli altyn da ol cardaq-
+                            <milestone unit="line" n="16" />
+                            larny qaplady altyn byla.</l>
+                        <l n="10" xml:id="Chron2-003-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy ivinde qodeš ol qadašimnin eki
+                            <milestone unit="line" n="17" />
+                            keruvimler isi ulanlarnyn da qapladylar alarny altyn byla.</l>
+                        <l n="11" xml:id="Chron2-003-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכנפי </foreign>
+                            Da qanat-
+                            <milestone unit="line" n="18" />
+                            lary ol keruvimlernin uzunluqlary alarnyn egirmi loqotler qanaty ol
+                            <milestone unit="line" n="19" />
+                            birnin bes loqotler jeteredi farstyna ol ivnin da ol ekinci qanat bes
+                            <milestone unit="line" n="20" />
+                            loqotler jeteredi qanatyna ol bir kerubnun.</l>
+                        <l n="12" xml:id="Chron2-003-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכנף </foreign>
+                            Da qanaty ol bir keruv-
+                            <milestone unit="line" n="21" />
+                            nun bes loqotler jeteredi farstyna ol ivnin da ol ekinci qanat bes loqot
+                            <milestone unit="line" n="22" />
+                            jabusqan qatyna ol ekinci keruvnun.</l>
+                        <l n="13" xml:id="Chron2-003-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כנפי </foreign>
+                            Qanatlary ol keruvimlernin ol
+                            <milestone unit="line" n="23" />
+                            uspularnyn jajarediler qanatlar egirmi loqotler da alar turarediler ajaqlary
+                            <milestone unit="line" n="24" />
+                            istine da izleri alarnyn ickirige.</l>
+                        <l n="14" xml:id="Chron2-003-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy osol ol faroketni kek
+                            <milestone unit="line" n="25" />
+                            da jipkin da qyrmyzy da kese jip da cyɣardy anyn istine keruvimler isi
+                            <milestone unit="line" n="26" />
+                            ojuvlavcunun.</l>
+                        <l n="15" xml:id="Chron2-003-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy alnynda ol ivnin eki baɣanalar otuz
+                            <milestone unit="line" n="27" />
+                            bes loqot uzunluq da ol qaptel<ref n="2" target="#Chron2-003-fn2"
+                                type="noteAnchor" /> ki basy istine anyn loqotler bes.</l>
+                        <milestone unit="page" n="186v" />
+                        <milestone unit="line" n="1" />
+                        <l n="16" xml:id="Chron2-003-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעש </foreign>
+                            Da qyldy synʒyrlar da berdi da berdi<ref n="3" target="#Chron2-003-fn3"
+                                type="noteAnchor" /> basy istine ol baɣanalarnyn da qyldy
+                            <milestone unit="line" n="2" />
+                            narlar iz da berdi synʒyrlarda.</l>
+                        <l n="17" xml:id="Chron2-003-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקם </foreign>
+                            Da turɣuzdu osol baɣanalarny alnynda ol
+                            <milestone unit="line" n="3" />
+                            sarajnyn birni on jandan da birni son jandan da atady atyn ol on
+                            jandaɣynyn Jaḫin da
+                            <milestone unit="line" n="4" />
+                            atyn ol son jandaɣynyn Boʿaz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Chron2-003-fn1" type="footnote">Cf. with the Hebrew word
+                                בּ<foreign xml:lang="he" style="unicode-bidi: embed;">ְרוֹ</foreign>
+                            שׁ ʿcypressʾ (Klein 1987: 84).</note>
+                        <note xml:id="Chron2-003-fn2" type="footnote">Cf. with the Russian and
+                            Ukrainian words <emph>капитель</emph>.</note>
+                        <note xml:id="Chron2-003-fn3" type="footnote">TKow.02: unvocalised, not
+                            crossed.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

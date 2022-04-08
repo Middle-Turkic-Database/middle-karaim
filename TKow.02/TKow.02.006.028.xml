@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Chronicle 28</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Chronicle 28</title>
+                        <milestone unit="line" n="10" />
+                        <l n="1" xml:id="Chron1-028-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקהל </foreign>
+                            Da ystyrtty David osol bar aɣaraqlaryn
+                            <milestone unit="line" n="13" />
+                            laryn bar malnyn da jyjynynyn meleknin da uvullarynyn ol vezirler byla
+                            da ol baɣatyrlar
+                            <milestone unit="line" n="21" />
+                            sivdi bij etme Jisraʾel istine.</l>
+                        <l n="5" xml:id="Chron1-028-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומכל </foreign>
+                            Da bar uvullarymdan ki kep uvullar
+                            <milestone unit="line" n="26" />
+                            micvalarymny da terelerimni ol uspu kin kibik.</l>
+                        <l n="8" xml:id="Chron1-028-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da haligine kezlerice
+                            <milestone unit="line" n="2" />
+                            bergejsiz uvullarynyzɣa ezinizden sortun dunjaɣadejin.</l>
+                        <l n="9" xml:id="Chron1-028-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה </foreign>
+                            Da sen e
+                            <milestone unit="line" n="13" />
+                            ivinin H-nyn.</l>
+                        <l n="14" xml:id="Chron1-028-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לזהב </foreign>
+                            Altynɣa elcev byla altynɣa bar savutlaryna har bir qulluqnun
+                            <milestone unit="line" n="21" />
+                            qa da ol kimis quboqlarɣa elcev byla har bir quboqqa.</l>
+                        <l n="18" xml:id="Chron1-028-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולמזבח </foreign>
+                            Da mizbeḥina
+                            <milestone unit="line" n="26" />
+                            luna kicejgin da kiplengin da qylɣyn qorqmaɣyn any synyqmaɣyn ki H Tenri
+                            Tenrim menim
+                            <milestone unit="line" n="2" />
+                            ol Levililernin bar qulluɣu sajyn ivinin ol Tenrinin da birgene senin
+                            bar iste tabulady</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

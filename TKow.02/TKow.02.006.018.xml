@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Chronicle 18</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Chronicle 18</title>
+                        <milestone unit="line" n="12" />
+                        <l xml:id="Chron1-018-x001">turɣuzma osol erklenmegin qolunun ezeninde
+                            Peratnyn.</l>
+                        <l n="4" xml:id="Chron1-018-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וילכוד </foreign>
+                            Da tuttu
+                            <milestone unit="line" n="20" />
+                            alarny Jerušalajimge.</l>
+                        <l n="8" xml:id="Chron1-018-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומטבחת </foreign>
+                            Da Tivḥattan da Kundan saharlaryndan Hadar-
+                            <milestone unit="line" n="25" />
+                            Hadoramny uvlun ol melekke Davidge sorma andan bazlyqny da alɣyslama
+                            <milestone unit="page" n="176r" />
+                            <milestone unit="line" n="2" />
+                            ki aldy bar ol ḥanlyqlardan ʾEdomdan da Moʾavdan da uvullaryndan
+                            ʿamonnun</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Chronicle 27</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Chronicle 27</title>
+                        <milestone unit="line" n="14" />
+                        <l n="1" xml:id="Chron1-027-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובני </foreign>
+                            Da uvullary Jisraʾelnin sanlary sajyn aɣaraqlary
+                            <milestone unit="line" n="20" />
+                            laryna ol cerivlernin ol burunɣu ajɣa.</l>
+                        <l n="4" xml:id="Chron1-027-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועל </foreign>
+                            Da ilesinmegi istine ol
+                            <milestone unit="line" n="25" />
+                            otuzuv istine da ilesinmegi anyn ʿAmizavad uvlu anyn.</l>
+                        <l n="7" xml:id="Chron1-027-007">Ol dertinci ol
+                            <milestone unit="page" n="182r" />
+                            <milestone unit="line" n="2" />
+                            ol altyncy ajɣa ʿIraʾ uvlu ʿIqešnin ol Teqoʿaly da ilesinmegi qatyna anyn
+                            <milestone unit="line" n="12" />
+                            ilesinmegi qatyna anyn egirmi dert min.</l>
+                        <l n="16" xml:id="Chron1-027-016">Da sebetleri istine Jisraʾelnin
+                            <milestone unit="line" n="20" />
+                            egirmi jastan da asaɣaraq ki ajtty H arttyrma osol Jisraʾelni jolduzlaryn
+                            <milestone unit="line" n="25" />
+                            Johonatan uvlu ʿUzijahunun.</l>
+                        <l n="26" xml:id="Chron1-027-026">Da aɣaraq qyluvculary istine isin ol
+                            tiznin qulluɣu
+                            <milestone unit="page" n="182v" />
+                            <milestone unit="line" n="2" />
+                            šefelada Baʿal Ḥanan ol Gederili da aɣaraq ḥaznalary istine ol javnyn
+                            Joʿaš.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
