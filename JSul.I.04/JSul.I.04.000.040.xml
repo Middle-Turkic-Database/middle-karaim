@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.I.04</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 40</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 40</title>
+                        <milestone unit="line" />
+                        <l n="1" xml:id="Job-040-001"><seg type="commented" corresp="#Job--seg001"
+                             />Da qaruv berdi H ošol Ijovɣa da ajtty.<anchor type="commented"
+                                xml:id="Job--seg001" /><ref n="1" target="#Job-040-fn1"
+                                type="noteAnchor" /></l>
+                        <l n="2" xml:id="Job-040-002">Talašyrmo kiši küčlü Tenri byla karatetkeni
+                            üčün törelešse Tenri byla qaruv berirmo anar. <seg type="commented"
+                                corresp="#Job--seg002" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ופשט שני </foreign>
+                            Talašma küčlü Tenri byla qylyq modu.<anchor type="commented"
+                                xml:id="Job--seg002" /><ref n="2" target="#Job-040-fn2"
+                                type="noteAnchor" /></l>
+                        <l n="3" xml:id="Job-040-003"><seg type="commented" corresp="#Job--seg003"
+                             />Da qaruv berdi Ijov ošol H-ɣa da ajtty.<anchor type="commented"
+                                xml:id="Job--seg003" /><ref n="3" target="#Job-040-fn3"
+                                type="noteAnchor" /></l>
+                        <l n="4" xml:id="Job-040-004">Muna jengil boldum ne qaruv berejim sana
+                            qolumnu qojdum avzuma.</l>
+                        <milestone unit="page" n="117v" />
+                        <milestone unit="line" />
+                        <l n="5" xml:id="Job-040-005">Bir dep sözledim da qaruv bermemen da eki
+                            ajttym da arttyrmamen.</l>
+                        <l n="6" xml:id="Job-040-006"><seg type="commented" corresp="#Job--seg004"
+                             />Da qaruv berdi H ošol Ijovɣa tavul ašyra da ajtty.<anchor
+                                type="commented" xml:id="Job--seg004" /><ref n="4"
+                                target="#Job-040-fn4" type="noteAnchor" /></l>
+                        <l n="7" xml:id="Job-040-007">Bajlaɣyn endi jigit kibik bellerinni sorajym
+                            senden da bildirgin mana.</l>
+                        <l n="8" xml:id="Job-040-008">Muna buzasen töremni qynɣyr etesen meni ki
+                            rast bolɣajsen.</l>
+                        <l n="9" xml:id="Job-040-009">Da muna kičimo kibik Tenrinin sende da avaz
+                            byla anyn kibik kökretelimusen.</l>
+                        <milestone unit="page" n="118r" />
+                        <milestone unit="line" />
+                        <l n="10" xml:id="Job-040-010">Jasanɣyn endi öktemlik <addSpan
+                                spanTo="#Job-040-add001" /><addSpan spanTo="#Job-040-add001"
+                                 />byla<anchor xml:id="Job-040-add001" type="addSpan" /><anchor
+                                xml:id="Job-040-add002" type="addSpan" /> da ulluluq da syj da
+                            hörmet kijgin.</l>
+                        <l n="11" xml:id="Job-040-011">Tozdurɣun qaḥyrlaryn ačuvunnun da körip bar
+                            öktemni da synyqtyrɣyn any.</l>
+                        <l n="12" xml:id="Job-040-012">Körüp bar öktemni synyqtyrɣyn any da jančqyn
+                            rašaʿlarny orunlarynda.</l>
+                        <l n="13" xml:id="Job-040-013">Kömgün alarny topraq ičine birge jüzlerin
+                                <supplied reason="lost">bajlaɣyn</supplied><ref n="5"
+                                target="#Job-040-fn5" type="noteAnchor" />
+                            <seg type="commented" corresp="#Job--seg005" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            čergegin<anchor type="commented" xml:id="Job--seg005" /><ref n="6"
+                                target="#Job-040-fn6" type="noteAnchor" /> jašyryn jerde.</l>
+                        <milestone unit="page" n="118v" />
+                        <milestone unit="line" />
+                        <l n="14" xml:id="Job-040-014">Da daɣy mende maḥtarmen seni ki qutqarsa seni
+                            küčün.</l>
+                        <l n="15" xml:id="Job-040-015">Muna endi vehemot ki jarattym qatynda köget
+                            syɣyr kibik ašajdy.</l>
+                        <l n="16" xml:id="Job-040-016">Muna endi küčü bellerindedi da quvaty
+                            kindiklerinde qursaɣynyn.</l>
+                        <l n="17" xml:id="Job-040-017">Tiz tebretedi qujruɣun erezni kibik žylalary
+                            jemertqalarynyn butaqlanadylar.</l>
+                        <l n="18" xml:id="Job-040-018">Ullu süvekleri qurč kesekleri kibik kiči
+                            süvekleri temir
+                            <milestone unit="page" n="119r" />
+                            <milestone unit="line" />
+                            tajaqlary kibik.</l>
+                        <l n="19" xml:id="Job-040-019">Oldu bašlyɣy jollarynyn Tenrinin ančaq
+                            jaratuvčusu juvutur anyn üstüne qylyčyn.</l>
+                        <l n="20" xml:id="Job-040-020">Ki tavlar bitiš eltediler anar da bar kijigi
+                            ol tüznün ojnajdylar anda.</l>
+                        <l n="21" xml:id="Job-040-021">Ullu terekler tübüne jatsa syjynčynda
+                            qamušnun da qoɣanyn.</l>
+                        <l n="22" xml:id="Job-040-022">Qaplajdylar any ullu terekler kelege bolma
+                            anar quršajdylar any tallary özennin.</l>
+                        <milestone unit="page" n="119v" />
+                        <milestone unit="line" />
+                        <l n="23" xml:id="Job-040-023">Muna ičse özenni tez aqmas išanadyr ki üzüp
+                            čyɣaryr Jardenni avzuna.</l>
+                        <l n="24" xml:id="Job-040-024">Közleri byla aladyr any ilinčeklerge tešedi
+                            burnun.</l>
+                        <l n="25" xml:id="Job-040-025"><ref n="7" target="#Job-040-fn7"
+                                type="noteAnchor" /> Tartalyrmosen livjatanny qarmaq byla da kruk
+                            byla qadajalymusen tilin.</l>
+                        <l n="26" xml:id="Job-040-026">Qojalymusen qamuš burnuna da tegenek byla
+                            tešelirmusen jajaɣyn.</l>
+                        <l n="27" xml:id="Job-040-027">Arttyryrmo sana jalbarmaqlar jemese sözlermo
+                            sana jymšaq
+                            <milestone unit="page" n="120r" />
+                            <milestone unit="line" />
+                            sözler.</l>
+                        <l n="28" xml:id="Job-040-028">Kesermo šert birgene alalyrmusen any ömürlik
+                            qulluqqa.</l>
+                        <l n="29" xml:id="Job-040-029">Ojnajalyrmosen anyn byla nečik quš byla da
+                            bajlap berimusen any nögerlerine.</l>
+                        <l n="30" xml:id="Job-040-030">Aš jašarlarmo andan joldašlar üleširlermo any
+                            bezirgenler arasyna.</l>
+                        <l n="31" xml:id="Job-040-031">Tolturalymusen bučlarɣa terisin da közüvine
+                            balyqčylarnyn bašyn. <seg type="commented" corresp="#Job--seg006"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">או תאמר פ׳ ב׳ </foreign>
+                            Keselimusen byčaqlarbyla terisin da süngüsü byla balyqlarnyn
+                                bašyn.<anchor type="commented" xml:id="Job--seg006" /><ref n="8"
+                                target="#Job-040-fn8" type="noteAnchor" /></l>
+                        <milestone unit="page" n="120v" />
+                        <milestone unit="line" />
+                        <l n="32" xml:id="Job-040-032">Qojɣunča anyn üstüne uvučunnu saɣynsan
+                            čerivni arttyrmassen.</l>
+                        <l n="33" xml:id="Job-040-033">Muna išančy anyn jalɣandyr muna kergečoq any
+                            jyɣylyr.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Job-040-fn1" type="footnote">JSul.I.04: The Karaim equivalent
+                            of the standard Hebrew Job 40:1 is not included in the text, probably
+                            intentionally, see Job 3:1, 4:1, etc. for similar cases. The text is
+                            reconstructed here on the basis of ms. ADub.III.84. The Hebrew text is
+                            not omitted, see BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וַיַּעַן יְהוָה אֶת־אִיֹּוב וַיֹּאמַר </foreign>
+                            ‘Moreover the Lord answered Job, and said’ (Job 40:1). | C: <emph>Da
+                                ǯoɣap berdi H Ijovɣa da ajtty</emph>. | QB: <emph>Da ǯoɣap berdi H
+                                Ijovɣa da ajtty</emph>. | ADub.III.84: <emph>Da qaruv berdi H osol
+                                Ijovɣa da ajtty</emph>. | Kobeckaitė (2019): <emph>Da qaruv berdi
+                                Tenri Ijovɣa da ajtty</emph>.</note>
+                        <note xml:id="Job-040-fn2" type="footnote">An alternative translation to
+                                <emph>talašyrmo kiši küčlü Tenri byla karatetkeni üčün</emph>, the
+                            equivalent of BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >הֲרֹב עִם־שַׁדַּי יִסֹּור </foreign>
+                            ‘Shall he that contends with the Almighty instruct him?’, added after
+                            Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">ופשט שני </foreign>
+                            ‘and a second interpretation’. | C: <emph>talašma qadir Täŋri bilän
+                                ügütmidir</emph>. | QB: <emph>talašma qadir Täŋri bilän
+                                ügütmidir</emph>. | ADub.III.84: <emph>talasalyrmo kisi küclü Tenri
+                                byla karatetkeni ücün any</emph>
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">פשט שני </foreign>
+                            <emph>talašma</emph>
+                            <emph>küclü Tenri byla qylyq modur</emph>. | Kobeckaitė (2019):
+                                <emph>talašalyr-mo ḱučĺu Tenri byla had́epĺanǵań</emph>.</note>
+                        <note xml:id="Job-040-fn3" type="footnote">JSul.I.04: The Karaim equivalent
+                            of the standard Hebrew Job 40:3 is not included in the text, probably
+                            intentionally, see Job 3:1, 4:1, etc. for similar cases. The text is
+                            reconstructed here on the basis of ADub.III.84. The Hebrew text is not
+                            omitted, see BHeb. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >וַיַּעַן אִיֹּוב אֶת־יְהוָה וַיֹּאמַר </foreign>
+                            ‘Then Job answered the Lord and said’ (Job 40:3). | C: <emph>Da ǯoɣap
+                                berdi Ijov H-ɣa da ajtty</emph>. | QB: <emph>Da ǯoɣap berdi Ijov
+                                H-ɣa da ajtty</emph>. | ADub.III.84: <emph>Da qaruv berdi Ijov osol
+                                H-ɣa da ajtty</emph>. | Kobeckaitė (2019): <emph>Da qaruv berdi Ijov
+                                Tenriǵa da ajtty</emph>.</note>
+                        <note xml:id="Job-040-fn4" type="footnote">JSul.I.04: The Karaim equivalent
+                            of the standard Hebrew Job 40:6 is not included in the text, probably
+                            intentionally, see Job 3:1, 4:1, etc. for similar cases. The text is
+                            reconstructed here on the basis of ms. ADub.III.84. The Hebrew text is
+                            not omitted, see BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וַיַּעַן־יְהוָה אֶת־אִיֹּוב מִן סְעָרָה
+                                וַיֹּאמַר </foreign>
+                            ‘Then answered the Lord unto Job out of the whirlwind, and said.’ (Job
+                            40:6). | C: <emph>Da ǯoɣap berdi H Ijovɣa davuldan da ajtty</emph>. |
+                            QB: <emph>Da ǯoɣap berdi H Ijovɣa davuldan da ajtty</emph>. |
+                            ADub.III.84: <emph>Da qaruv berdi H osol Ijovɣa tavul asyra da
+                                ajtty</emph>. | Kobeckaitė (2019): <emph>Da qaruv berdi Tenri Ijovɣa
+                                ol tavuldan da ajtty</emph>.</note>
+                        <note xml:id="Job-040-fn5" type="footnote">JSul.I.04: <emph>bilegin</emph>;
+                            a scribal error; see next footnote.</note>
+                        <note xml:id="Job-040-fn6" type="footnote">An alternative translation to
+                                <emph>bilegin</emph>, the equivalent of BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חֲבֹשׁ </foreign>
+                            ‘bind’, added after Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            ‘or’. | C: <emph>baɣlaɣyn</emph>. | QB: <emph>baɣlaɣyn</emph>. |
+                            ADub.III.84: <emph>qaplaɣyn</emph>. | Kobeckaitė (2019):
+                                <emph>č́erǵagiń</emph>.</note>
+                        <note xml:id="Job-040-fn7" type="footnote">In the standard Hebrew Bible, Job
+                            41 begins here. In the Karaim tradition of translating the Hebrew Bible,
+                            verses Job 41:1–9 are added to chapter 40. This is the case also in mss.
+                            C, QB, and ADub.III.84. In Kobeckaitė (2019), Job 41:1–8 are added to
+                            chapter 40.</note>
+                        <note xml:id="Job-040-fn8" type="footnote">An alternative translation of Job
+                            40:31; Job 41:7 in the standard Hebrew Bible. Added after Heb. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">או תאמר פ׳ ב׳ </foreign>
+                            ‘or say a second interpretation’. | C: <emph>Kesärmisin pyčaqlar bilän
+                                terisin da kämäči bilän balyqlarnyŋ bašyn</emph>. | QB:
+                                <emph>Kesärmisin pyčaqlar bilän terisin da kämäči bilän balyqlarnyŋ
+                                bašyn</emph>. | ADub.III.84: <emph>keselirmusen byčaqlar byla
+                                terisin da singisi byla balyq{{čy}}larnyn bašyn. </emph><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">פשט שני</foreign>
+                            <emph> tolturalymusen bucqalarɣa basyn da terisin da kamusuna
+                                balcyklarnyn basyn</emph>. | Kobeckaitė (2019): <emph>teš́alirmusun
+                                śunǵu byla terisin da čačḥysy byla balyḥlarnyn bašy</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

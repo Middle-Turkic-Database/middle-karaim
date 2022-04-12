@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.I.04</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 17</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 17</title>
+                        <milestone unit="line" />
+                        <l n="1" xml:id="Job-017-001">Ǯanym čajpaldy künlerim kesildiler zeretler
+                            tözdiler meni.</l>
+                        <l n="2" xml:id="Job-017-002">Kertiden joḥtu aldamaqlar qatymda vale
+                            ačyrɣandyrmaqlaryndan ketti juqusu kezimnin.</l>
+                        <l n="3" xml:id="Job-017-003">Qojɣun endi qošqun meni qatyjda kim ol qoluma
+                            uvuč qaɣar.</l>
+                        <l n="4" xml:id="Job-017-004">Ki jüreklerin alarnyn qapladyn anlamaqtan anyn üčün
+                            <milestone unit="page" n="49v" />
+                            <milestone unit="line" />
+                            kötirmegin.</l>
+                        <l n="5" xml:id="Job-017-005">Jylmalyqny anlatuvču dostlarny da közleri
+                            ulanlarynyn telmersinler.</l>
+                        <l n="6" xml:id="Job-017-006">Da turɣuzdu meni čörčegine uluslarnyn da
+                            aɣalyq burundan edim.</l>
+                        <l n="7" xml:id="Job-017-007">Da tundu ačyrɣanmaqtan közüm da fikilerim <seg
+                                type="commented" corresp="#Job--seg001" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            buvunlarym<anchor type="commented" xml:id="Job--seg001" /><ref n="1"
+                                target="#Job-017-fn1" type="noteAnchor" /> kölege kibik
+                            barčalary.</l>
+                        <l n="8" xml:id="Job-017-008">Da tamaša eterler tüzler bunun üčün da könü
+                            jüz etivčü üstüne ojanyr.</l>
+                        <l n="9" xml:id="Job-017-009">Da
+                            <milestone unit="page" n="50r" />
+                            <milestone unit="line" />
+                            tutar rast kiši jolun da aruv qollu arttyryr kiplenmek.</l>
+                        <l n="10" xml:id="Job-017-010">Da kertiden barynyz qajtynyz keliniz mana
+                            endi ki tapmadym sizde uslu.</l>
+                        <l n="11" xml:id="Job-017-011">Künlerim astylar saɣyšlarym üzüldiler
+                            fikirleri jüregimnin.</l>
+                        <l n="12" xml:id="Job-017-012">Kečeni künge qojdular jaryq juvuqraqtyr
+                            alnyndan qaranɣynyn.</l>
+                        <l n="13" xml:id="Job-017-013">Eger belgilesem görde üvümnü qaranɣyda
+                            töšesem töšeklerimni.</l>
+                        <milestone unit="page" n="50v" />
+                        <milestone unit="line" />
+                        <l n="14" xml:id="Job-017-014">Görde čaɣyrsam atamdyr sen anam da tuvduɣum
+                            qurtqa.</l>
+                        <l n="15" xml:id="Job-017-015">Da qajda bunda bolur išančym da umsunčumnu
+                            kim közlejelir any.</l>
+                        <l n="16" xml:id="Job-017-016">Qaranɣy jerlerine görnin enerler ki birge
+                            topraq üstüne turarbiz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Job-017-fn1" type="footnote">An alternative translation to
+                                <emph>fikirlerim</emph>, the equivalent of BHeb. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וִֽיצֻרַי </foreign>
+                            ‘(and) my members’, written after Heb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            ‘or’. | C: <emph>fikirlärim</emph>. | QB: <emph>fikirlärim</emph>. |
+                            ADub.III.84: <emph>buvunlarym</emph>. | Kobeckaitė (2019):
+                                <emph>buvunlarym</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

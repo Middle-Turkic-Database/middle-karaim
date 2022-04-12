@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.I.04</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 1</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 1</title>
+                        <milestone unit="page" n="1r" />
+                        <milestone unit="line" />
+                        <l n="1" xml:id="Job-001-001">Kiši edi jerinde ʿUcnun Ijov aty anyn da edi
+                            ol kiši ol tügel da tüz jollu da qorquvču Tenriden da ketivčü
+                                jamandan.<ref n="1" target="#Job-001-fn1" type="noteAnchor" /></l>
+                        <l n="2" xml:id="Job-001-002">Da tuvduruldular anar jedi er ulanlar da üč
+                            qyzlar.</l>
+                        <milestone unit="page" n="1v" />
+                        <milestone unit="line" />
+                        <l n="3" xml:id="Job-001-003">Da edi tuvar anyn jedi minler qoj da üč minler
+                            teveler da beš jüzler qoš syɣyr da beš jüzler eseqler da qulluqčuluq köp
+                            astry da edi ol kiši ol ḥoǯaraq bar elinden mizraḥnyn.</l>
+                        <l n="4" xml:id="Job-001-004">Da baryrediler uvullary da qylarediler
+                                üčkü<ref n="2" target="#Job-001-fn2" type="noteAnchor" /> har biri
+                            tuvɣan kününde öz üvünde da ijerediler
+                            <milestone unit="page" n="2r" />
+                            <milestone unit="line" />
+                            da čaɣyryrediler üčsüde tuvduqlaryna ašama da üčme<ref n="3"
+                                target="#Job-001-fn3" type="noteAnchor" /> birgelerine alarnyn.</l>
+                        <l n="5" xml:id="Job-001-005">Da edi ki ajlansajediler künleri ol
+                                üčkünün<ref n="4" target="#Job-001-fn4" type="noteAnchor" /> da
+                            ijeredi Ijov da ajryqsy eteredi alarny da künlej turaredi ertenbylada da
+                            čyɣaryredi ʿolalar sanyča barlarynyn ki ajtyredi Ijov
+                            <milestone unit="page" n="2v" />
+                            <milestone unit="line" />
+                            seme jazyqly boldular uvullarym da kefir boldular Tenrige jüreklerinde
+                            bulaj qylaredi Ijov bar ol künlerni.</l>
+                        <l n="6" xml:id="Job-001-006">Da edi ol künnü da keldiler ol malaḫlar turma
+                            alnynda H-nyn da keldi daɣyn ol šatan ortalarynda alarnyn.</l>
+                        <l n="7" xml:id="Job-001-007">Da ajtty Adonaj ol šatanɣa qajdan kelesen da
+                                <addSpan spanTo="#Job-001-add001" /><addSpan
+                                spanTo="#Job-001-add001" />ajtty<anchor xml:id="Job-001-add001"
+                                type="addSpan" /><anchor xml:id="Job-001-add002" type="addSpan" />
+                            <addSpan spanTo="#Job-001-add003" />qaruv berdi<anchor
+                                xml:id="Job-001-add003" type="addSpan" /> ol šatan ošol H-ɣa da ajtty
+                            <milestone unit="page" n="3r" />
+                            <milestone unit="line" />
+                            közmekten jerde da jürümekten anda.</l>
+                        <l n="8" xml:id="Job-001-008">Da ajtty H ol šatanɣa qojdunmo esinni quluma
+                            Ijovɣa ki joḥtu anyn kibik jerde tügel kiši da tüz jollu qorquvču
+                            Tenriden da ketivčü jamandan.</l>
+                        <l n="9" xml:id="Job-001-009">Da qaruv berdi ol šatan ošol H-ɣa da ajtty
+                            muftmo qorqady Ijov Tenriden.</l>
+                        <milestone unit="page" n="3v" />
+                        <milestone unit="line" />
+                        <l n="10" xml:id="Job-001-010">Muna sen qalqanladyn anyn ašyra da eli ašyra
+                            ivinin da bar ne ašyra ki anar čüvreden išin qollarynyn alɣyšladyn da
+                            tuvary jajyldy jerde.</l>
+                        <l n="11" xml:id="Job-001-011">Da kertiden sunɣun endi ḥyššymynny da tijgin
+                            bar nege ki anar eger alnynda kefir bolmasa sana.</l>
+                        <l n="12" xml:id="Job-001-012">Da ajtty H ol šatanɣa muna bar ne ki anar
+                            erkindedi senin tek anar sunmaɣyn qolunnu da čyqty ol šatan alnyndan
+                            H-nyn.</l>
+                        <milestone unit="page" n="4r" />
+                        <milestone unit="line" />
+                        <l n="13" xml:id="Job-001-013">Da edi ol künnü da uvullary da qyzlary
+                            ašarediler da üčerediler<ref n="5" target="#Job-001-fn5"
+                                type="noteAnchor" /> vina ivinde qaryndašlarynyn ol tunɣuč.</l>
+                        <l n="14" xml:id="Job-001-014">Da elči keldi Ijovɣa da ajtty ol syɣyr saban
+                            sürerediler da ol esekler kütülürediler orunlarynda.</l>
+                        <l n="15" xml:id="Job-001-015">Da tüštü jyjyny Ševaʾnyn da aldy alarny da
+                            ošol ol negerlerni vattylar qylyč avzunda da qutuldum tek men jalɣyz
+                            ezim anlatma sana.</l>
+                        <milestone unit="page" n="4v" />
+                        <milestone unit="line" />
+                        <l n="16" xml:id="Job-001-016">Hanuz bu sözleredi da bu keldi da ajtty otu
+                            Tenrinin tüštü ol köklerden da jandy qojda da negerlerde da ertedi
+                            alarny da qutuldum tek men jalɣyz ezim anlatma sana.</l>
+                        <l n="17" xml:id="Job-001-017">Hanuz bu sözleredi da bu keldi da ajtty
+                            jyjyny Kasdimnin qojdular anduv üč polklar da jajyldylar ol teveler
+                            üstüne da aldylar
+                            <milestone unit="page" n="5r" />
+                            <milestone unit="line" />
+                            alarny da ošol ol negerlerni vattylar qylyč avzunda da qutuldum tek men
+                            jalɣyz ezim anlatma sana.</l>
+                        <l n="18" xml:id="Job-001-018">Neginče bu sözleredi da bu keldi da ajtty
+                            uvullaryn da qyzlaryn ašarediler da ičerediler vina üvünde
+                            qaryndašlarynyn ol tunɣuč.</l>
+                        <l n="19" xml:id="Job-001-019">Da muna ullu jel keldi kečivinden ol
+                            midbarnyn da tüjdü dört müvüzlerine ol üvnün da tüštü ol
+                            <milestone unit="page" n="5v" />
+                            <milestone unit="line" />
+                            ulanlar üstüne da eldiler da qutuldum tek men jalɣyz ezim anlatma
+                            sana.</l>
+                        <l n="20" xml:id="Job-001-020">Da turdu Ijov da jyrtty ošol qaftanyn da
+                            junqtu ošol čačyn bašynyn da tüštü jerge da bašurdu.</l>
+                        <l n="21" xml:id="Job-001-021">Da ajtty jalanɣač čyqtym qursaɣyndan anamnyn
+                            da jalanɣač qajtymen ary H berdi da H aldy bolɣaj šemi H-nyn
+                            maḥtalɣan.</l>
+                        <l n="22" xml:id="Job-001-022">Bar bunun üčün jazyqly bolmady Ijov da
+                            bermedi kefir söz Tenrige.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Job-001-fn1" type="footnote">The manuscript contains the text
+                            of the Book of Job both in Hebrew and Karaim. The respective versions of
+                            each verses are written one after another. This edition contains only
+                            the Karaim text.</note>
+                        <note xml:id="Job-001-fn2" type="footnote">Hypercorrect form of
+                                <emph>ički</emph>.</note>
+                        <note xml:id="Job-001-fn3" type="footnote">Hypercorrect form of
+                                <emph>ičme</emph>.</note>
+                        <note xml:id="Job-001-fn4" type="footnote">Hypercorrect form of
+                                <emph>ičkinin</emph>.</note>
+                        <note xml:id="Job-001-fn5" type="footnote">Hypercorrect form of
+                                <emph>ičerediler</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

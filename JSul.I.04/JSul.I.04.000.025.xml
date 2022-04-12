@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.I.04</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 25</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 25</title>
+                        <milestone unit="line" />
+                        <l n="1" xml:id="Job-025-001"><seg type="commented" corresp="#Job--seg001"
+                                 /><supplied reason="lost">Da qaruv berdi Bildad ol Šuḥi da
+                                ajtty.</supplied><anchor type="commented" xml:id="Job--seg001"
+                                 /><ref n="1" target="#Job-025-fn1" type="noteAnchor" /></l>
+                        <l n="2" xml:id="Job-025-002">Erklenmek da qorquv birgesine qyluvču bazlyq
+                            köklerinde.</l>
+                        <milestone unit="page" n="71v" />
+                        <milestone unit="line" />
+                        <l n="3" xml:id="Job-025-003">Barmodur san jyjynlaryna da kim üstüne
+                            turmajdyr jaryɣy.</l>
+                        <l n="4" xml:id="Job-025-004">Da ne rast bolur kiši Tenri byla da ne aruv
+                            bolur tuvɣan qatyndan.</l>
+                        <l n="5" xml:id="Job-025-005">Muna beklese aj ašyra da balqymajdy da
+                            jolduzlar aruv körünmejdiler ʿenajatlaryna.</l>
+                        <l n="6" xml:id="Job-025-006">Ham ki kiši qurt da adam uvlu qumuz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Job-025-fn1" type="footnote">JSul.I.04: The Karaim equivalent
+                            of the standard Hebrew Job 25:1 is not included in the text, probably
+                            intentionally, see Job 3:1, 4:1, etc. for similar cases. The text is
+                            reconstructed here on the basis of Job 2:11 and ADub.III.84. The Hebrew
+                            text is not omitted, see BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וַיַּעַן בִּלְדַּד הַשֻּׁחִי וַיֹאמַר </foreign>
+                            ‘Then answered Bildad the Shuhite and said’ (Job 8:1). | C: <emph>Da
+                                ǯoɣap berdi Bildad ol Šuvaḥly da ajtty</emph>. | QB: <emph>Da ǯoɣap
+                                berdi Bildad ol Šuvaḥly da ajtty</emph>. | ADub.III.84: <emph>Da
+                                qaruv berdi Bildad ol Šuvaḥly da ajtty</emph>. | Kobeckaitė (2019):
+                                <emph>Da qaruv berdi Bildad ol Šuvaḥly da ajtty</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

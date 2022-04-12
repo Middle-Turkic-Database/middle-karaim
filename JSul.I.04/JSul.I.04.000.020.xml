@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.I.04</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Job 20</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Job 20</title>
+                        <milestone unit="line" />
+                        <l n="1" xml:id="Job-020-001"><seg type="commented" corresp="#Job--seg001"
+                                 /><supplied reason="lost">Da qaruv berdi Cofar ol Naʿamati da
+                                ajtty.</supplied><anchor type="commented" xml:id="Job--seg001"
+                                 /><ref n="1" target="#Job-020-fn1" type="noteAnchor" /></l>
+                        <l n="2" xml:id="Job-020-002">Anyn üčün fikirlerim qaruv qajtaradylar
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">או </foreign>
+                            <seg type="commented" corresp="#Job--seg002" />bujuradyrlar qaruv
+                            qajtarma maja<ref n="2" target="#Job-020-fn2" type="noteAnchor"
+                                 /><anchor type="commented" xml:id="Job--seg002" /><ref n="3"
+                                target="#Job-020-fn3" type="noteAnchor" /> tujɣanym üčün rastlyq
+                            özimde.</l>
+                        <l n="3" xml:id="Job-020-003">Tyjuvun imenčimnin ešitemen da klek aqylymdan
+                            qaruv beredir maja<ref n="4" target="#Job-020-fn4" type="noteAnchor"
+                             />.</l>
+                        <l n="4" xml:id="Job-020-004">Bunumo bilemusen avaldan qojɣan vaḥttan adamny
+                            jer üstüne.</l>
+                        <milestone unit="page" n="56v" />
+                        <milestone unit="line" />
+                        <l n="5" xml:id="Job-020-005">Ki bijenči rašaʿnyn juvuq zamandan da bijenči
+                            jüz etüvčünün köz jumčuɣunadyr.</l>
+                        <l n="6" xml:id="Job-020-006">Eger kötürülse kökke ullu<addSpan
+                                spanTo="#Job-020-add001" />lu<anchor xml:id="Job-020-add001"
+                                type="addSpan" />ɣu da bašy bulutqa jetse.</l>
+                        <l n="7" xml:id="Job-020-007">Jerenčilik kibik ömirgedejin taspolur
+                            körüvčüleri ajtyrlar qajdadyr.</l>
+                        <l n="8" xml:id="Job-020-008">Tüš kibik učar da tabalmaslar any da bürelip
+                            keter körümü kibik kečenin.</l>
+                        <l n="9" xml:id="Job-020-009">Köz ki kördü any da arttyrmas da artyq
+                            közlejelmes any ornu.
+                            <milestone unit="page" n="57r" />
+                            <ref target="#fn5" type="noteAnchor" /></l>
+                        <milestone unit="line" />
+                        <l n="10" xml:id="Job-020-010">Ulanlary qolarlar jarlylarny da qollary
+                            qajtaryrlar avanlyɣyn.</l>
+                        <l n="11" xml:id="Job-020-011">Süvekleri tolarlar jaštaɣy jazyqlaryndan da
+                            birgesine topraq üstüne jatyr.</l>
+                        <l n="12" xml:id="Job-020-012">Eger tatysa avzunda jamanlyq jasyrsa any tili
+                            tübüne.</l>
+                        <l n="13" xml:id="Job-020-013">Ḥajifsinse anyn üstüne da kemišmese any da
+                            ajasa any tili tübüne.</l>
+                        <l n="14" xml:id="Job-020-014">Ašy anyn qursaqlarynda čüvürülür uvuna
+                            <milestone unit="page" n="57v" />
+                            <milestone unit="line" />
+                            až<addSpan spanTo="#Job-020-add002" />da<anchor xml:id="Job-020-add002"
+                                type="addSpan" />halarnyn ičinde.</l>
+                        <l n="15" xml:id="Job-020-015">Malny ki juttu da qusar any qursaɣyndan tas
+                            eter any Tenri.</l>
+                        <l n="16" xml:id="Job-020-016">Uvun aždahalarnyn ömer öltürür any tili
+                            aždahanyn.</l>
+                        <l n="17" xml:id="Job-020-017">Körmestir čyrlaqlarny özenlerin čyjbalnyn da
+                            saryjavnyn.</l>
+                        <l n="18" xml:id="Job-020-018">Qajtarady malny da jutmas malyn kibik
+                            alyšynmaqnyn da bijenmes.</l>
+                        <l n="19" xml:id="Job-020-019">Ki zulumlady da kemisti jarlylarny üvnü ki
+                            talady da qondarmas any.</l>
+                        <milestone unit="page" n="58r" />
+                        <milestone unit="line" />
+                        <l n="20" xml:id="Job-020-020">Ki bilmedi tynčlyqny qursaɣynda suqlančy maly
+                            byla qutqarmas ǯanyn.</l>
+                        <l n="21" xml:id="Job-020-021">Joḥtur <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            bolmas<ref n="6" target="#Job-020-fn6" type="noteAnchor" /> qaldyq
+                            jemine da anyn üčün onarmas jaḥšysy <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            maly<ref n="7" target="#Job-020-fn7" type="noteAnchor" />.</l>
+                        <l n="22" xml:id="Job-020-022">Tügel bolɣanda jetkiligi qysqalyq kelir anar
+                            bar qolu avančynyn kelir anar.</l>
+                        <l n="23" xml:id="Job-020-023">Bolur tolturma qursaɣyn ijer anar qaḥyr
+                            ačuvun da javdyryr alar üstüne ḥyššymy byla.</l>
+                        <l n="24" xml:id="Job-020-024">Qačar temir
+                            <milestone unit="page" n="58v" />
+                            <milestone unit="line" />
+                            savuttan ötkerir any qurč jaja.</l>
+                        <l n="25" xml:id="Job-020-025">Suvurur da čyɣaryr qylyčyn qynyndan da
+                            balquvu etüne öter kelir anyn üstüne qorquvlar.</l>
+                        <l n="26" xml:id="Job-020-026">Bar qaranɣylyq ast<supplied reason="lost"
+                                >ral</supplied>ɣan<ref n="8" target="#Job-020-fn8" type="noteAnchor"
+                             /> bolur ulanlaryna <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >או </foreign>
+                            <seg type="commented" corresp="#Job--seg003" />bar qaranɣy jerde
+                            astralɣan ḥaznalaryn<anchor type="commented" xml:id="Job--seg003" /><ref
+                                n="9" target="#Job-020-fn9" type="noteAnchor" /> örter anyn ot
+                                <supplied reason="lost">ü</supplied>rülmegen<ref n="10"
+                                target="#Job-020-fn10" type="noteAnchor" /> jaman eter qaldyqqa
+                            čatyrynda.</l>
+                        <l n="27" xml:id="Job-020-027">Ašqartyrlar kökler jazyɣyn da jer utru tutar
+                            anar.</l>
+                        <l n="28" xml:id="Job-020-028">Keter
+                            <milestone unit="page" n="59r" />
+                            <milestone unit="line" />
+                            naʿmeti üvünün aɣyp keterler ačuv kününde.</l>
+                        <l n="29" xml:id="Job-020-029">Bundijdir ülüšü rašaʿ adamnyn Tenriden da
+                            tyjyšy öktem etüvčü ezin utru Tenrige.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Job-020-fn1" type="footnote">JSul.I.04: The Karaim equivalent
+                            of the standard Hebrew Job 20:1 is not included in the text, probably
+                            intentionally, see Job 3:1, 4:1, etc. for similar cases. The text is
+                            reconstructed here on the basis of Job 2:11 and ms. ADub.III.84. The
+                            Hebrew text is not omitted, see BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וַיַּעַן צֹפַר הַנַּעֲמָתִי וַיֹּאמַר </foreign>
+                            ‘Then Zophar the Naamathite answered and said’ (Job 20:1). | C: <emph>Da
+                                ǯoɣap berdi Čofar ol Naʿamatly da ajtty</emph>. | QB: <emph>Da ǯoɣap
+                                berdi Čofar ol Naʿamatly da ajtty</emph>. | ADub.III.84: <emph>Da
+                                qaruv berdi Cofar ol Naʿamaly</emph>. | Kobeckaitė (2019): <emph>Da
+                                qaruv berdi Cofar ol Naʿamatly</emph>.</note>
+                        <note xml:id="Job-020-fn2" type="footnote">A North-Western Karaim form; see
+                            also Job 16:9, 19:3, 19:19, 19:21, 20:3, 30:1.</note>
+                        <note xml:id="Job-020-fn3" type="footnote">An alternative translation to
+                                <emph>qaruv qajtaradylar</emph>, the equivalent of BHeb. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">יְשִׁיבוּנִי </foreign>
+                            ‘makes me answer’. | C: <emph>qajtaryrlar maŋa</emph>. | QB:
+                                <emph>qajtaryrlar maŋa</emph>. | ADub.III.84: <emph>ojatadylar qaruv
+                                qajtarma</emph>. | Kobeckaitė (2019): <emph>toḥtatadyrlar
+                                meni</emph>.</note>
+                        <note xml:id="Job-020-fn4" type="footnote">A North-Western Karaim form; see
+                            also Job 16:9, 19:3, 19:19, 19:21, 20:2, 30:1.</note>
+                        <note xml:id="Job-020-fn5" type="footnote">From this page on until page 89
+                            verso the ink used for writing the vowel points is different than the
+                            colour of the ink used for writing the main text. The ink used for
+                            copying the main text remains the same.</note>
+                        <note xml:id="Job-020-fn6" type="footnote">An alternative translation to
+                                <emph>joḥtur</emph>, the equivalent of BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אֵין </foreign>
+                            ‘nothing’. | C: <emph>joqtyr</emph>. | QB: <emph>joqtyr</emph>. |
+                            ADub.III.84: <emph>bolmasty</emph>. | Kobeckaitė (2019):
+                                <emph>bolmast</emph>.</note>
+                        <note xml:id="Job-020-fn7" type="footnote">An alternative translation to
+                                <emph>jaḥšysy</emph>, the equivalent of BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">טוּבֹו </foreign>
+                            ‘his goods; his well-being’. | C: <emph>jaḥšylyɣyn</emph>. | QB:
+                                <emph>jaḥšylyɣyn</emph>. | ADub.III.84: <emph>jaḥsysy</emph>. |
+                            Kobeckaitė (2019): <emph>maly</emph>.</note>
+                        <note xml:id="Job-020-fn8" type="footnote">JSul.I.04:
+                            <emph>astlarɣan</emph>; a scribal error. Cf., however, Job 28:3.</note>
+                        <note xml:id="Job-020-fn9" type="footnote">An alternative translation to
+                                <emph>bar qaranɣylyq ast</emph>[<emph>ral</emph>]<emph>ɣan bolur
+                                ulanlaryna</emph>, the equivalent of BHeb. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כָּל־חֹשֶׁךְ טָמוּן לִצְפּוּנָיו </foreign>
+                            ‘all darkness shall be laid up for his treasures’. | C: <emph>barča
+                                qaraŋɣuluq kömülgändir saqlanmyšlaryna</emph>. | QB: <emph>barča
+                                qaraŋɣuluq kömülgändir saqlanmyšlaryna</emph>. | ADub.III.84:
+                                <emph>bar qaranɣylyq astralɣan bolur ulanlaryna</emph>. | Kobeckaitė
+                            (2019): <emph>Har qaranɣy nerśa ḱoḿulǵan bolur
+                            astravlarynda</emph>.</note>
+                        <note xml:id="Job-020-fn10" type="footnote">JSul.I.04:
+                                <emph>örülmegen</emph>; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
