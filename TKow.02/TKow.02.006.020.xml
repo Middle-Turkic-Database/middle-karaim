@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
-                <title ana="#no" />
-                <author ana="#no" />
+                <title ana="#no"/>
+                <author ana="#no"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>Uppsala University, Department of linguistics and philology</publisher>
@@ -33,7 +30,7 @@
         <profileDesc>
             <abstract>
                 <p><lg>
-                        <l>1 Chronicle 20</l>
+                        <l>Joshua 20</l>
                     </lg></p>
             </abstract>
         </profileDesc>
@@ -41,14 +38,69 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>1 Chronicle 20</title>
-                        <milestone unit="page" n="177r" />
-                        <milestone unit="line" n="2" />
-                        <l xml:id="Chron1-020-x001">kenderdi Joʾav osol jyjynyn ol cerivnin da
-                            cajpady osol jerin uvullarynyn
-                            <milestone unit="line" n="12" />
-                            byla da vatty ʾElḥanan uvlu Jaʿirnin osol Laḥmini qaryndasyn Galjatnyn
-                            ol Gatlinin da</l>
+                    <ab><title>Joshua 20</title>
+                        <milestone unit="line" n="28"/>
+                        <l xml:id="Josh-020-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">כ׳</foreign>
+                        </l>
+                        <milestone unit="page" n="18r"/>
+                        <milestone unit="line" n="1"/>
+                        <l n="1" xml:id="Josh-020-001"><foreign xml:lang="he" style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sezledi H Johošuʿaɣa aj<addSpan spanTo="#Josh-020-add001"/>t<anchor xml:id="Josh-020-add001" type="addSpan"/>adoɣac.</l>
+                        <l n="2" xml:id="Josh-020-002"><foreign xml:lang="he" style="unicode-bidi: embed;">דבר </foreign>
+                            Sezlegin
+                            <milestone unit="line" n="2"/>
+                            uvullaryna Jisraʾelnin ajtadoɣac beriniz ezinizge osol saharlaryn ol miqlatnyn
+                            <milestone unit="line" n="3"/>
+                            ki sezledim sizge naviligi asyra Mošenin.</l>
+                        <l n="3" xml:id="Josh-020-003"><foreign xml:lang="he" style="unicode-bidi: embed;">לנוס </foreign>
+                            Qacma ari qaraqcy vatuvcu
+                            <milestone unit="line" n="4"/>
+                            ʒanny janɣylyslyq byla bilmejince da bolsunlar sizge miqlatqa juvuɣundan
+                            <milestone unit="line" n="5"/>
+                            ol qannyn.</l>
+                        <l n="4" xml:id="Josh-020-004"><foreign xml:lang="he" style="unicode-bidi: embed;">ונס </foreign>
+                            Da qacsyn birge ol saharla<addSpan spanTo="#Josh-020-add002"/>r<anchor xml:id="Josh-020-add002" type="addSpan"/>dan ol uspulardan da tursun esiginde
+                            <milestone unit="line" n="6"/>
+                            qabaɣynyn ol saharnyn da sezlesin qulaqlaryca aɣaraqlarynyn ol <addSpan spanTo="#Josh-020-add003"/>saḥarnyn<anchor xml:id="Josh-020-add003" type="addSpan"/> osol <addSpan spanTo="#Josh-020-add004"/>ol<anchor xml:id="Josh-020-add004" type="addSpan"/> sezlerin ezinin
+                            <milestone unit="line" n="7"/>
+                            da ystyrsynlar any ol saharɣa ezlerine da bersinler anar orun da oltur-
+                            <milestone unit="line" n="8"/>
+                            sun bilgelerine alarnyn.</l>
+                        <l n="5" xml:id="Josh-020-005"><foreign xml:lang="he" style="unicode-bidi: embed;">וכי </foreign>
+                            Da quvsa juvuɣu ol qannyn anyn artyna da
+                            <milestone unit="line" n="9"/>
+                            cyɣara bermesinler any kledim ajtma ol qaraqcyny qoluna anyn ki bilmejin
+                            <milestone unit="line" n="10"/>
+                            vatty osol dostun da tivil edi dusman ol anar kineden biri kinden.</l>
+                        <l n="6" xml:id="Josh-020-006"><foreign xml:lang="he" style="unicode-bidi: embed;">וישב</foreign>
+                            <milestone unit="line" n="11"/>
+                            Da oltursun saharda ol turɣanynadejin alnynda ol ʒymatnyn terege elmegine-
+                            <milestone unit="line" n="12"/>
+                            dejin ol aɣaraq kohennin ki bolsa ol kinlerde alarda ol vaḥtyna qajtsyn ol
+                            <milestone unit="line" n="13"/>
+                            qaraqcy da kelsin saharyna da ivine ezinin ol saharɣa ki qacty
+                            andan.</l>
+                        <l n="7" xml:id="Josh-020-007"><foreign xml:lang="he" style="unicode-bidi: embed;">ויקדשו</foreign>
+                            <milestone unit="line" n="14"/>
+                            Da ajryqsy ettiler osol Qedešni Galilde tavynda Naftalinin da osol Šeḫemni
+                            <milestone unit="line" n="15"/>
+                            tavynda Efrajimnin da osol Qirjat Arbaʿany oldu Ḥevron tavynda
+                            Juhudanyn.</l>
+                        <milestone unit="line" n="16"/>
+                        <l n="8" xml:id="Josh-020-008"><foreign xml:lang="he" style="unicode-bidi: embed;">ומעבר </foreign>
+                            Da kecivinden Jardennin Jeriḥonun mizraḥ sartyn berdiler osol Becerni
+                            <milestone unit="line" n="17"/>
+                            midbarda tiz jerde ševetinden Ruʿuvennin da osol Raʾmotnu Gilʿadda ševetinden
+                            <milestone unit="line" n="18"/>
+                            Gadnyn da osol Golanny Bašanda ševetinden Menašenin.</l>
+                        <l n="9" xml:id="Josh-020-009"><foreign xml:lang="he" style="unicode-bidi: embed;">אלה </foreign>
+                            Bular ediler saharlary
+                            <milestone unit="line" n="19"/>
+                            ol jomulmaqnyn bar uvullaryna Jisraʾelnin da ɣaripge ol tirilivci ortalarynda
+                            <milestone unit="line" n="20"/>
+                            alarnyn qacma ari bar vatuvcu ʒanny janɣylyslyq byla da elmesin qolunda
+                            <milestone unit="line" n="21"/>
+                            juvuɣunun ol qannyn turɣanynadejin alnynda ol ʒymatnyn.</l>
                     </ab>
                 </div>
             </div>
