@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
         <fileDesc>
             <titleStmt>
-                <title ana="#no" />
-                <author ana="#no" />
+                <title ana="#no"/>
+                <author ana="#no"/>
             </titleStmt>
             <publicationStmt>
                 <publisher>Uppsala University, Department of linguistics and philology</publisher>
@@ -33,7 +30,7 @@
         <profileDesc>
             <abstract>
                 <p><lg>
-                        <l>2 Chronicle 5</l>
+                        <l>Judges 5</l>
                     </lg></p>
             </abstract>
         </profileDesc>
@@ -41,129 +38,222 @@
         <body>
             <div type="edition">
                 <div type="textpart" subtype="chapter">
-                    <ab><title>2 Chronicle 5</title>
-                        <milestone unit="line" n="20" />
-                        <l n="1" xml:id="Chron2-005-001"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ותשלם </foreign>
-                            <milestone unit="line" n="21" />
-                            Da tigendi bar ol is ki qyldy Šelomo ivine H-nyn da keltirdi Šelomo
-                            <milestone unit="line" n="22" />
-                            osol qodešlerin Davidnin atasynyn da osol ol kimisni da osol ol altynny
-                            <milestone unit="line" n="23" />
-                            da osol bar ol savutlarny berdi ḥaznalarynda ivinin ol Tenrinin.</l>
-                        <l n="2" xml:id="Chron2-005-002"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">אז </foreign>
-                            <milestone unit="line" n="24" />
-                            Ol vaḥtta ystyrtty Šelomo osol zaqenlerin Jisraʾelnin da osol bar aɣaraq-
-                            <milestone unit="line" n="25" />
-                            laryn Jisraʾelnin nasiʾlerinin ol sebetlernin atalarynyn uvullarynyn
-                            Jisraʾelnin Jerušalajim-
-                            <milestone unit="line" n="26" />
-                            ge alma osol ʾaron sertin H-nyn saharyndan Davidnin oldu Cijon.</l>
-                        <l n="3" xml:id="Chron2-005-003"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויקהלו </foreign>
-                            Da
-                            <milestone unit="line" n="27" />
-                            ystyryndylar ol melekke bar eli Jisraʾelnin ḥyʒda oldu ol jedinci
-                            aj.</l>
-                        <milestone unit="page" n="187v" />
-                        <milestone unit="line" n="1" />
-                        <l n="4" xml:id="Chron2-005-004"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויבואו </foreign>
-                            Da keldiler bar qartlary Jisraʾelnin da aldylar ol Levililer osol ol
-                            <milestone unit="line" n="2" />
-                            ʾaronnu.</l>
-                        <l n="5" xml:id="Chron2-005-005"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויעלו </foreign>
-                            Da elttiler osol ol ʾaronnu da osol ʾohel moʿedni da osol
-                            <milestone unit="line" n="3" />
-                            bar ol aziz savutlarny ki catyrda elttiler alarny ol kohenler ol
-                            Levililer.</l>
-                        <milestone unit="line" n="4" />
-                        <l n="6" xml:id="Chron2-005-006"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">והמלך </foreign>
-                            Da ol melek Šelomo da bar ʒymaty Jisraʾelnin ol jomuluvcular anar alnynda
-                            <milestone unit="line" n="5" />
-                            ol ʾaronnun debeḥa eterediler qoj da syɣyr ki sanalmadylar any
-                                ḥašeblenmediler<ref n="1" target="#Chron2-005-fn1" type="noteAnchor" />
-                            <milestone unit="line" n="6" />
-                            keplikten.</l>
-                        <l n="7" xml:id="Chron2-005-007"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויביאו </foreign>
-                            Da kivirdiler ol kohenler osol ʾaron sertin H-nyn ornuna
-                            <milestone unit="line" n="7" />
-                            anyn devirine ol ivnin qodeš ol qadašimge qanatlary tibine ol zejtunlu keruvim-
-                            <milestone unit="line" n="8" />
-                            lernin ki qanatlary alarnyn jeterediler ajyrma ol debirni ol heḫaldan farst
-                            <milestone unit="line" n="9" />
-                            ornuna ajyryrediler bolma eki orun ajryc biri birisinden.</l>
-                        <l n="8" xml:id="Chron2-005-008"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויהיו </foreign>
-                            Da
-                            <milestone unit="line" n="10" />
-                            ediler ol keruvimler jajuvcular qanatlar ornu qatyna ol ʾaronnun da qapladylar
-                            <milestone unit="line" n="11" />
-                            ol keruvimler ol ʾaron istine da tutquclary istine anyn joɣartyn.</l>
-                        <l n="9" xml:id="Chron2-005-009"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויאריכו</foreign>
-                            <milestone unit="line" n="12" />
-                            Da uzardylar ol tutquclar da kerindiler baslary ol tutquclarnyn ol ʾarondan
-                            <milestone unit="line" n="13" />
-                            alnyna ol debirnin da kerinmediler ol tysqaryɣa ol ekinci sarajɣa da ediler
-                            <milestone unit="line" n="14" />
-                            anda uspu kingedejin.</l>
-                        <l n="10" xml:id="Chron2-005-010"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">אין </foreign>
-                            Joɣedi ʾaronda tek eki ol luḥotlar ki berdi
-                            <milestone unit="line" n="15" />
-                            Moše Ḥorevde ki kesti H sert uvullary byla Jisraʾelnin cyqqanlarynda
-                            Micriden.</l>
-                        <milestone unit="line" n="16" />
-                        <l n="11" xml:id="Chron2-005-011"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויהי </foreign>
-                            Da edi cyqqanda ol kohenler ol qodešten ki bar ol kohenler ol tabulɣanlar
-                            <milestone unit="line" n="17" />
-                            azizlendiler joɣedi zaman tezme vaḥtyn ilesinmeklernin.</l>
-                        <l n="12" xml:id="Chron2-005-012"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">והלויים </foreign>
-                            Da ol Levililer
-                            <milestone unit="line" n="18" />
-                            ol šira uḥuvcular barlary necik ʾAsaf alaj Heman alaj Jedutun da uvullary
-                            <milestone unit="line" n="19" />
-                            da qaryndaslary alarnyn kijingenler kese jipli upraqlarɣa cimballar byla da
-                            <milestone unit="line" n="20" />
-                            qycaqlar byla da qobuzlar byla turarediler mizraḥ sartyn mizbeaḥqa da birge-
-                            <milestone unit="line" n="21" />
-                            lerine alarnyn kohenler iz egirmi tartuvcular byrɣylarɣa.</l>
-                        <l n="13" xml:id="Chron2-005-013"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ויהי </foreign>
-                            Da
-                            <milestone unit="line" n="22" />
-                            edi bir avaz tartuvcularɣa da šira uḥuvcularɣa esittirme
-                            <milestone unit="line" n="23" />
-                            bir avaz maḥtav berme da sikir etme H-ɣa da ketirgecoq avaz byrɣylar
-                            <milestone unit="line" n="24" />
-                            byla da cimballar byla da ol šira savutlary byla da hallel uḥumaq byla H-ɣa
-                            <milestone unit="line" n="25" />
-                            ki jaḥsydy ki dunjaɣadejindi savaɣaty anyn da ol iv toldu buluttan ivi
-                            <milestone unit="line" n="26" />
-                            H-nyn.</l>
-                        <l n="14" xml:id="Chron2-005-014"><foreign xml:lang="he"
-                                style="unicode-bidi: embed;">ולא </foreign>
-                            Da bolalmadylar ol kohenler turma jumus etme alnyndan ol
-                            <milestone unit="line" n="27" />
-                            bulutnun ki toldu šeḫinasy H-nyn osol ivinden ol Tenrinin.
-                            <milestone unit="page" n="188r" />
+                    <ab><title>Judges 5</title>
+                        <milestone unit="line" n="7"/>
+                        <l xml:id="Judg-005-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">ה׳</foreign>
                         </l>
+                        <milestone unit="line" n="8"/>
+                        <l n="1" xml:id="Judg-005-001"><foreign xml:lang="he" style="unicode-bidi: embed;">תשר </foreign>
+                            Da sira uḥudu Devora birden Baraq byla uvlu byla
+                            <milestone unit="line" n="9"/>
+                            Avinoʿamnyn ol kinde ol ajtadoɣac.</l>
+                        <l n="2" xml:id="Judg-005-002"><ref n="1" target="#Judg-005-fn1" type="noteAnchor"/><foreign xml:lang="he" style="unicode-bidi: embed;">בפרוע </foreign>
+                            Ec alɣanda Tenri ecler
+                            <milestone unit="line" n="10"/>
+                            Jisrʾael icin ʒomartlanɣanda ulusu Jisraʾelnin barma cerivge maḥtav
+                            beriniz H-ɣa.
+                            <milestone unit="line" n="11"/>
+                            ()</l>
+                        <l n="3" xml:id="Judg-005-003">Tynlanyz meleḫler qulaq salynyz <supplied reason="lost">aɣaraqlar</supplied><ref n="2" target="#Judg-005-fn2" type="noteAnchor"/> men Devora H-ɣa sira uḥujmen
+                            <milestone unit="line" n="12"/>
+                            men zemer uḥujmen H-ɣa Tenrisine Jisraʾelnin.</l>
+                        <l n="4" xml:id="Judg-005-004"><ref n="3" target="#Judg-005-fn3" type="noteAnchor"/><foreign xml:lang="he" style="unicode-bidi: embed;">ה֘ </foreign>
+                            E H cyqqan vaḥtynda tarafyndan
+                            <milestone unit="line" n="13"/>
+                            Šeʿirnin atlaɣanynda tizinden Edomnun berme Torany Jisraʾelge jer qaltrady
+                            <milestone unit="line" n="14"/>
+                            daɣyn kekler jamɣurlar aqtyrdylar daɣyn bulutlar tamyzdyrdylar
+                            suvlar.</l>
+                        <l n="5" xml:id="Judg-005-005"><foreign xml:lang="he" style="unicode-bidi: embed;">הרים</foreign>
+                            <milestone unit="line" n="15"/>
+                            Tavlar jiridiler alnyndan H-nyn bu tavy Sinajnyn titredi alnyndan H-nyn Tenrisinin
+                            <milestone unit="line" n="16"/>
+                            Jisraʾelnin.</l>
+                        <l n="6" xml:id="Judg-005-006"><foreign xml:lang="he" style="unicode-bidi: embed;">בימי </foreign>
+                            Kinlerinde Šamgarnyn uvlunun ʿAnatnyn kinlerinde Jaʿelnin
+                            <milestone unit="line" n="17"/>
+                            qalybediler jirime tiz yzlar byla qorquvundan dusmannyn da jirivciler
+                            tiz yzlar
+                            <milestone unit="line" n="18"/>
+                            byla jirirediler qynɣyr yzlar byla.</l>
+                        <l n="7" xml:id="Judg-005-007"><foreign xml:lang="he" style="unicode-bidi: embed;">חדלו </foreign>
+                            Qalybediler sala byla olturma
+                            <milestone unit="line" n="19"/>
+                            Jisraʾelde qalybediler negince ki turdum men Devora turdum ana kibik
+                            Jisraʾelde.</l>
+                        <milestone unit="line" n="20"/>
+                        <l n="8" xml:id="Judg-005-008"><foreign xml:lang="he" style="unicode-bidi: embed;">יבחר </foreign>
+                            Sajlasyjdy ezine Jisraʾel janɣy tenriler ol vaḥtta ceriv eksilmesedi
+                            <milestone unit="line" n="21"/>
+                            qabaqlardan vale necik qajtsyjdylar tešuva byla qalqan da singi
+                            kerinmesedi qyrq
+                            <milestone unit="line" n="22"/>
+                            mininde Jisraʾelnin.</l>
+                        <l n="9" xml:id="Judg-005-009"><foreign xml:lang="he" style="unicode-bidi: embed;">לבי </foreign>
+                            Esim menim barady resim qojuvcularɣa Torany
+                            <milestone unit="line" n="23"/>
+                            Jisraʾelde ol ʒomartlanuvcular ulusta barma cerivge maḥtav beriniz
+                            H-ɣa.</l>
+                        <milestone unit="line" n="24"/>
+                        <l n="10" xml:id="Judg-005-010"><ref n="4" target="#Judg-005-fn4" type="noteAnchor"/><foreign xml:lang="he" style="unicode-bidi: embed;">רוכבי </foreign>
+                            Atlanuvcular aq tisi esekler istine olturuvcular jarɣu qatyna
+                            <milestone unit="line" n="25"/>
+                            da jirivciler jolda siz de qotarynyz maḥtavlaryn H-nyn.</l>
+                        <l n="11" xml:id="Judg-005-011"><foreign xml:lang="he" style="unicode-bidi: embed;">רכבי </foreign>
+                            Avazyndan oq
+                            <milestone unit="line" n="26"/>
+                            atuvcularnyn arasyna suv sizivcilernin anda da qotarsynlar rastlyqlaryn H-nyn
+                            <milestone unit="line" n="27"/>
+                            rastlyqlaryn sala byla olturɣuzuvcusunun Jisraʾelde ol vaḥtta erklendiler
+                            <milestone unit="line" n="28"/>
+                            qabaqlarynda dusmanlarnyn ulusu H-nyn.</l>
+                        <l n="12" xml:id="Judg-005-012"><foreign xml:lang="he" style="unicode-bidi: embed;">עורי </foreign>
+                            Ojanɣyn ojanɣyn e Devora ojanɣyn
+                            <milestone unit="line" n="29"/>
+                            ojanɣyn sezlegin sira sezlerin turɣun e Baraq da jesir etkin jesirinni e uvlu
+                            <milestone unit="line" n="30"/>
+                            Avinoʿamnyn.</l>
+                        <l n="13" xml:id="Judg-005-013"><foreign xml:lang="he" style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta erklendi qaldyɣy ulusunun Jisraʾelnin kiclilerinde
+                            <milestone unit="page" n="28r"/>
+                            <milestone unit="line" n="1"/>
+                            ulusnun H erklendirdi meni baɣatyrlar arasyna.</l>
+                        <l n="14" xml:id="Judg-005-014"><foreign xml:lang="he" style="unicode-bidi: embed;">מני </foreign>
+                            Efrajimden tartylady
+                            <milestone unit="line" n="2"/>
+                            korenleri alarnyn Johošuʿa orustu ʿAmalek byla andan sortun Šaʾul ševetinden
+                            <milestone unit="line" n="3"/>
+                            Binjaminnin qyrar qaldyq uluslarny dusmanlaryn Jisraʾelnin Maḫirden endiler
+                            <milestone unit="line" n="4"/>
+                            resim qojuvcular Torany da Zevulundan tartuvcular bahaly qalemi byla
+                            jazyʒynyn.</l>
+                        <milestone unit="line" n="5"/>
+                        <l n="15" xml:id="Judg-005-015"><foreign xml:lang="he" style="unicode-bidi: embed;">ושרי </foreign>
+                            Da aɣaraqlarym menim Jissaḫarda birden Devora byla da necik Jissaḫar
+                            alaj Baraq
+                            <milestone unit="line" n="6"/>
+                            eniste jajav ijindiler quvma dusmanny ajyrylmaqlary icin Ruʾuvennin ullu-
+                            <milestone unit="line" n="7"/>
+                            dular fikirleri jireknin.</l>
+                        <l n="16" xml:id="Judg-005-016"><foreign xml:lang="he" style="unicode-bidi: embed;">למה </foreign>
+                            Nege olturdun ol eki cekler arasyna tynlama
+                            <milestone unit="line" n="8"/>
+                            syzɣyrmaqlaryn beleklernin ajrylmaqlary icin Ruʾuvennin ulludular tergevleri
+                            <milestone unit="line" n="9"/>
+                            jireknin.</l>
+                        <l n="17" xml:id="Judg-005-017"><foreign xml:lang="he" style="unicode-bidi: embed;">גלעד </foreign>
+                            Gilʿad kecivinde ol Jardennin toḥtajdy da Dan nege tiriledi
+                            <milestone unit="line" n="10"/>
+                            gereplerde Ašer olturady boɣozunda tengizlernin da jajylmaqlary istine
+                            <milestone unit="line" n="11"/>
+                            toḥtajdy.</l>
+                        <l n="18" xml:id="Judg-005-018"><foreign xml:lang="he" style="unicode-bidi: embed;">זבלון </foreign>
+                            Zevulun ulus cyɣara berivci ʒanyn elimge da Naftali toḥtajdy
+                            <milestone unit="line" n="12"/>
+                            bijik orunlary istine tiznin.</l>
+                        <l n="19" xml:id="Judg-005-019"><foreign xml:lang="he" style="unicode-bidi: embed;">באו </foreign>
+                            Keldiler meleḫler orustular ol vaḥtta
+                            <milestone unit="line" n="13"/>
+                            orustular meleleri Kenaʿannyn Taʿanaḫta suvlary qatyna Megido<supplied reason="lost">nun</supplied><ref n="5" target="#Judg-005-fn5" type="noteAnchor"/>
+                            fajda kesek
+                            <milestone unit="line" n="14"/>
+                            kimis almadylar.</l>
+                        <l n="20" xml:id="Judg-005-020"><foreign xml:lang="he" style="unicode-bidi: embed;">מן </foreign>
+                            Keklerden orustular ol jolduzlar yzlaryndan orustular
+                            <milestone unit="line" n="15"/>
+                            Sisraʾ byla.</l>
+                        <l n="21" xml:id="Judg-005-021"><foreign xml:lang="he" style="unicode-bidi: embed;">נחל </foreign>
+                            Ezeni Qišonnun bigip eltti alarny avaldaɣy ezen
+                            <milestone unit="line" n="16"/>
+                            ezeni Qišon belgilengen jarlyɣas qylma Jisraʾelge basqyn ʒanym quvat
+                            byla dusmanny.</l>
+                        <milestone unit="line" n="17"/>
+                        <l n="22" xml:id="Judg-005-022"><foreign xml:lang="he" style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta uvaldylar soɣancyqlary atnyn tisnetmeklerinden tisnetmek-
+                            <milestone unit="line" n="18"/>
+                            lerinin kicli atlarynyn.</l>
+                        <l n="23" xml:id="Judg-005-023"><foreign xml:lang="he" style="unicode-bidi: embed;">אורו </foreign>
+                            Qarɣanyz Meroznu ajtady malaḥy H-nyn qarɣanyz
+                            <milestone unit="line" n="19"/>
+                            qarɣama olturuvcularyn anyn anyn icin ki kelemediler bolusluɣuna H-nyn bolus-
+                            <milestone unit="line" n="20"/>
+                            luɣuna H-nyn baɣatyrlar arasyna.</l>
+                        <l n="24" xml:id="Judg-005-024"><ref n="6" target="#Judg-005-fn6" type="noteAnchor"/><foreign xml:lang="he" style="unicode-bidi: embed;">תבורך </foreign>
+                            Alɣyslyraqty qatynlardan Jaʿel
+                            <milestone unit="line" n="21"/>
+                            qatyny Ḥevernin ol Keninin qatynlardan uḥuj olturuvculardan catyrda ol
+                            <milestone unit="line" n="22"/>
+                            alɣyslyraqty.</l>
+                        <l n="25" xml:id="Judg-005-025"><foreign xml:lang="he" style="unicode-bidi: embed;">מים </foreign>
+                            Suv kledi Sisraʾ sit berdi <addSpan spanTo="#Judg-005-add001"/>anar<anchor xml:id="Judg-005-add001" type="addSpan"/><ref n="7" target="#Judg-005-fn7" type="noteAnchor"/> Jaʿel
+                            bahaly savut
+                            <milestone unit="line" n="23"/>
+                            icine juvuttu anar ajdan.</l>
+                        <l n="26" xml:id="Judg-005-026"><foreign xml:lang="he" style="unicode-bidi: embed;">ידה </foreign>
+                            Son qolun qazyqqa sundu da on qolun
+                            <milestone unit="line" n="24"/>
+                            cekicine upraq juvuvcularnyn da uvaltty Sisraʾny jardy basyn
+                            <milestone unit="line" n="25"/>
+                            da kesti ham etkerdi cekesin.</l>
+                        <l n="27" xml:id="Judg-005-027"><foreign xml:lang="he" style="unicode-bidi: embed;">בין </foreign>
+                            Ajaqlary arasyna anyn cekti
+                            <milestone unit="line" n="26"/>
+                            tisti jatty ajaqlary arasyna anyn cekti tisti qajda ki cekti anda
+                            <milestone unit="line" n="27"/>
+                            tisti devletsiz.</l>
+                        <l n="28" xml:id="Judg-005-028"><foreign xml:lang="he" style="unicode-bidi: embed;">בעד </foreign>
+                            Ol tereʒe asyra baɣynyredi da syjyt eteredi
+                            <milestone unit="line" n="28"/>
+                            anasy <addSpan spanTo="#Judg-005-add002"/>Sisraʾ<anchor xml:id="Judg-005-add002" type="addSpan"/><ref n="8" target="#Judg-005-fn8" type="noteAnchor"/>nyn ol pynʒyra<ref n="9" target="#Judg-005-fn9" type="noteAnchor"/> asyra ne icin kecigedi markawy anyn kelme
+                            <milestone unit="page" n="28v"/>
+                            <milestone unit="line" n="1"/>
+                            ne icin kecigediler atlamlary marka<addSpan spanTo="#Judg-005-add003"/>v<anchor xml:id="Judg-005-add003" type="addSpan"/>larynyn.</l>
+                        <l n="29" xml:id="Judg-005-029"><foreign xml:lang="he" style="unicode-bidi: embed;">חכמות </foreign>
+                            Uslu bijceleri anyn
+                            <milestone unit="line" n="2"/>
+                            qaruv berirediler anar ham ol ezi de qaruv qajtaryredi ajtmaqlaryn
+                            <milestone unit="line" n="3"/>
+                            ezine.</l>
+                        <l n="30" xml:id="Judg-005-030"><supplied reason="lost"><foreign xml:lang="he" style="unicode-bidi: embed;">הלא</foreign>
+                            </supplied><ref n="10" target="#Judg-005-fn10" type="noteAnchor"/> Muna taptylar
+                            ilesediler olʒa qyz eki qyz tisti basyna
+                            <milestone unit="line" n="4"/>
+                            jigitnin olʒa rengli Sisraʾɣa olʒa rengili naɣysly rengli naɣysly
+                            <milestone unit="line" n="5"/>
+                            bojunlaryna olʒa.</l>
+                        <l n="31" xml:id="Judg-005-031"><foreign xml:lang="he" style="unicode-bidi: embed;">כן </foreign>
+                            Alaj taspolɣajlar bar dusmanlaryn senin e H da
+                            <milestone unit="line" n="6"/>
+                            sivivcileri anyn balqyɣajlar balqymaɣy kibik ol qujasnyn baɣatyrlyɣynda
+                            da tync
+                            <milestone unit="line" n="7"/>
+                            aldy ol jer qyrq jyl cerivden.</l>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app>
-                        <note xml:id="Chron2-005-fn1" type="footnote">Cf. with the South-Western
-                            Karaim form found in KRPS: <emph>ḥaseplen</emph>- ʿbe countedʾ
-                            (602).</note>
+                        <note xml:id="Judg-005-fn1" type="footnote">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">בפרע</foreign>
+                            .</note>
+                        <note xml:id="Judg-005-fn2" type="footnote">TKow.02: <emph>aɣarqalar</emph>; a
+                            scribal error.</note>
+                        <note xml:id="Judg-005-fn3" type="footnote">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">יהוה</foreign>
+                            .</note>
+                        <note xml:id="Judg-005-fn4" type="footnote">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">רכבי</foreign>
+                            .</note>
+                        <note xml:id="Judg-005-fn5" type="footnote">TKow.02: <emph>Megidonon</emph>; a
+                            scribal error.</note>
+                        <note xml:id="Judg-005-fn6" type="footnote">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">תברך</foreign>
+                            .</note>
+                        <note xml:id="Judg-005-fn7" type="footnote">Added interlinearly in pencil by another
+                            hand.</note>
+                        <note xml:id="Judg-005-fn8" type="footnote">Added by the copyist above a shorter word
+                            which has been ereased.</note>
+                        <note xml:id="Judg-005-fn9" type="footnote">Above the line in pencil in Latin script:
+                                <emph>pndzyra</emph>.</note>
+                        <note xml:id="Judg-005-fn10" type="footnote">The Hebrew incipit of Judg 5.30 is
+                            missing.</note>
                     </app>
                 </listApp>
             </div>

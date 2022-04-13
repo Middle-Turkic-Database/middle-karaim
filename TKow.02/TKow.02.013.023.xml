@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>TKow.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>1 Chronicle 23</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>1 Chronicle 23</title>
+                        <milestone unit="line" n="25" />
+                        <l xml:id="Chron1-023-x001">Bulardan edi aɣaraqlyq etme isi istine ivinin
+                            H-nyn egirmi dert min da tajaq-
+                            <milestone unit="page" n="179r" />
+                            <milestone unit="line" n="2" />
+                            Merarige.</l>
+                        <l n="7" xml:id="Chron1-023-007">Geršonɣa Laʿdan da Šimʿi.</l>
+                        <l n="8" xml:id="Chron1-023-008">Uvullary Laʿdannyn ol aɣaraq Jiḥiʾel da</l>
+                        <milestone unit="line" n="12" />
+                        <l n="17" xml:id="Chron1-023-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהיו </foreign>
+                            Da ediler uvullary ʾEliʿezernin Raḥavja ol aɣaraq da joɣedi ʾEliʿezerge uvullar
+                            <milestone unit="line" n="20" />
+                            qyluvcu ol isni qulluɣu sajyn ivinin H-nyn egirmi jastan da
+                            joɣarraq.</l>
+                        <l n="25" xml:id="Chron1-023-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki ajtty
+                            <milestone unit="line" n="25" />
+                            raq.</l>
+                        <l n="28" xml:id="Chron1-023-028">Ki turusu alarnyn janynda uvullarynyn
+                            ʾAharonnun qulluɣu sajyn ivinin ʾAharonnun ol
+                            <milestone unit="page" n="179v" />
+                            <milestone unit="line" n="2" />
+                            laryna ol macalarnyn da tavlarnyn tirkisine da quvurulɣan tirkige da bar
+                            ickige da elcevge</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
