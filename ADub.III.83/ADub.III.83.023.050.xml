@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Isaiah 50</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Isaiah 50</title>
+                        <milestone unit="line" xml:id="Isa050-P50r-L25" n="25"
+                            prev="ADub.III.83.001.049.xml#Isa049-P50r-L25" />
+                        <l xml:id="Isa-050-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >נ׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Isa-050-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כה</foreign>
+                            <milestone unit="page" n="50v" />
+                            <milestone unit="line" n="1" />
+                            Bulaj ajtty H qajsydy bu get bitigi ananyznyn ki sirdim
+                            <milestone unit="line" n="2" />
+                            any jemese kimdi ol borclulardan<ref n="1" target="#Isa-050-fn1"
+                                type="noteAnchor" /> menim ki sattym sizni anar
+                            <milestone unit="line" n="3" />
+                            muna gineḥleriniz icin satyldynyz galutqa da tanmaqlarynyz icin
+                            <milestone unit="line" n="4" />
+                            get byla sirildi ananyz siznin.</l>
+                        <l n="2" xml:id="Isa-050-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מדוע </foreign>
+                            Ne icin keldim igitleme
+                            <milestone unit="line" n="5" />
+                            jazyqly dornu da joɣedi tynlavcu kisi igitimni caɣyrdym da joɣedi
+                            <milestone unit="line" n="6" />
+                            qaruv berivci jadamamo jadady qudratym menim julumaqtan da
+                            <milestone unit="line" n="7" />
+                            jemese joɣedimo mende kic qutqarma muna qaḥyrym byla qurutamen
+                            <milestone unit="line" n="8" />
+                            tengizni qojamen ezenlerni midbarɣa sasyjdy balyqlary alarnyn
+                            <milestone unit="line" n="9" />
+                            suvlar joɣundan da eledi suvsaplyqtan.</l>
+                        <l n="3" xml:id="Isa-050-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אלביש </foreign>
+                            Kijindiremen keklerge
+                            <milestone unit="line" n="10" />
+                            qaralyqny da tijizni kibik qojamen qara bulutnu qaplavlaryn alarnyn.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="4" xml:id="Isa-050-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אדני </foreign>
+                            H Tenri berdi mana tilin uḥumuslarnyn bilme sebetme
+                            <milestone unit="line" n="12" />
+                            aryɣanɣa sezin Toranyn acady har erten bylada acady mana
+                            <milestone unit="line" n="13" />
+                            qulaq anlama uḥumuslar kibik.</l>
+                        <l n="5" xml:id="Isa-050-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אדני </foreign>
+                            Adonaj Tenri acty mana
+                            <milestone unit="line" n="14" />
+                            qulaq tynlama ivretivin uḥutuvcularymnyn da men tanmadym
+                            <milestone unit="line" n="15" />
+                            ivretivlerine alarnyn kedergi ketmedim.</l>
+                        <l n="6" xml:id="Isa-050-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">גוי </foreign>
+                            Arqamny berdim
+                            <milestone unit="line" n="16" />
+                            vatuvcularɣa da jajaqlarymny julquvcularɣa izlerimni ajamadym
+                            <milestone unit="line" n="17" />
+                            imencliklerden da titirikten.</l>
+                        <l n="7" xml:id="Isa-050-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואדני </foreign>
+                            Da Adonaj Tenri bolustu mana
+                            <milestone unit="line" n="18" />
+                            anyn icin ki imenmedim anyn icin qojdum izlerimni aqmas
+                            <milestone unit="line" n="19" />
+                            skalany kibik da bildim ki ujatly bolmamen.</l>
+                        <l n="8" xml:id="Isa-050-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">קרוב </foreign>
+                            Juvuqtur
+                            <milestone unit="line" n="20" />
+                            rast etivcim menim kim jarɣulasyr birgeme menim turajyq birden kim
+                            <milestone unit="line" n="21" />
+                            tere jesisim menim juvusun mana.</l>
+                        <l n="9" xml:id="Isa-050-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הן </foreign>
+                            Muna H Tenri bolusur mana
+                            <milestone unit="line" n="22" />
+                            kim ol qynɣyrajtyr meni muna barlary upraq kibik upranyrlar
+                            <milestone unit="line" n="23" />
+                            gije asar alarny.</l>
+                        <l n="10" xml:id="Isa-050-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מי </foreign>
+                            Kim bardy sizde qorquvcu H-dan tynlavcu
+                            <milestone unit="line" n="24" />
+                            sezine qulunun kim ki jirijdi qaranɣylyqlarda da joḥtu balquv anar
+                            <milestone unit="line" n="25" />
+                            isansyn šemine H-nyn da tajansyn Tenrisine.</l>
+                        <l n="11" xml:id="Isa-050-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הן </foreign>
+                            Muna barlarynyz
+                            <milestone unit="page" n="51r" />
+                            <milestone unit="line" n="1" />
+                            jandyruvcular ot ucqunlatuvcular ucqunlar barynyz jaryɣy
+                            <milestone unit="line" n="2" />
+                            byla otunuznun da ucqunlar byla ki jandyrdynyz qudratymdan
+                            <milestone unit="line" n="3" />
+                            boldu bu sizge anyn icin ki acyrɣanmaq byla jatqajsiz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Isa-050-fn1" type="footnote">ADub.III.83:
+                                <emph>borclulalardan</emph>; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Isaiah 18</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Isaiah 18</title>
+                        <milestone unit="line" xml:id="Isa018-P18v-L2" n="2"
+                            prev="ADub.III.83.001.017.xml#Isa017-P18v-L2" />
+                        <l xml:id="Isa-018-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >יח</foreign>
+                        </l>
+                        <milestone unit="line" n="3" />
+                        <l n="1" xml:id="Isa-018-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הוי </foreign>
+                            Haj jer ken avlaq kelegeli ki kecivinden
+                            <milestone unit="line" n="4" />
+                            ezenlerinin Kušnun.</l>
+                        <l n="2" xml:id="Isa-018-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">השולח </foreign>
+                            Ol ijivci tengiz byla elciler
+                            <milestone unit="line" n="5" />
+                            da qamuslu savutlar icine izleri istine suvlarnyn ajtadoɣac
+                            <milestone unit="line" n="6" />
+                            alarɣa barynyz jengil elciler ḥanlyqqa tartylɣan avaldan julqunɣan
+                            <milestone unit="line" n="7" />
+                            qollarynda <addSpan spanTo="#Isa-018-add001" />qorqunclu ulusqa avalɣy
+                            zamandandy ol ḥanlyq azar azar da tepter etilgen<anchor
+                                xml:id="Isa-018-add001" type="addSpan" /> savaɣatsyz dusmanlarnyn ki
+                            taladylar ullu bijler ol
+                            <milestone unit="line" n="8" />
+                            uqsatylɣanlar ezenlerge jerin anyn.</l>
+                        <l n="3" xml:id="Isa-018-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar olturuvculary
+                            <milestone unit="line" n="9" />
+                            dunjanyn da toḥtavculary jernin ketirgecoq alam tavlar istine
+                            <milestone unit="line" n="10" />
+                            kerersiz da tartqacoq šofarɣa (<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            byrɣyɣa) esitisiz.</l>
+                        <l n="4" xml:id="Isa-018-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי</foreign>
+                            <milestone unit="line" n="11" />
+                            Ki bulaj ajtty H mana tync alymen qaḥyrymdan da baɣarmen tiziv qajjam
+                            <milestone unit="line" n="12" />
+                            ornumdan hašgaḥam byla balqytma jaryqlyɣyn qyblalarymnyn Jisraʾel
+                            <milestone unit="line" n="13" />
+                            ulusum istine aruv issi kibik jazyn jamɣurdan sortun bulutu
+                            <milestone unit="line" n="14" />
+                            kibik cyqnyn issisinde oraqnyn.</l>
+                        <l n="5" xml:id="Isa-018-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki burun oraq vaḥttan
+                            <milestone unit="line" n="15" />
+                            tigengecoq japraq da jetismegen bitis <addSpan spanTo="#Isa-018-add002"
+                                 />kibik<anchor xml:id="Isa-018-add002" type="addSpan" /> ki jetisse
+                            alaj bolur cecegi
+                            <milestone unit="line" n="16" />
+                            anyn da keser ol incke butaqlarny keskicler byla da osol ol
+                            <milestone unit="line" n="17" />
+                            bazyq butaqlarny keterip izer ki bu remez etedi ki ol Tenri kelesi
+                            <milestone unit="line" n="18" />
+                            zamanda tas etir dusmanlaryn Jisraʾelnin ol ḥalaslarny birden kicliler
+                            <milestone unit="line" n="19" />
+                            byla.</l>
+                        <l n="6" xml:id="Isa-018-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועזבו </foreign>
+                            Kemisilir gevdeleri alarnyn qusuna tavlarnyn da kijigine
+                            <milestone unit="line" n="20" />
+                            ol jernin bolmajyn astravcu alarɣa da jazlar anyn istine ol qus
+                            <milestone unit="line" n="21" />
+                            da bar kijigi ol jernin anyn istine qyslar.</l>
+                        <l n="7" xml:id="Isa-018-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בעת </foreign>
+                            Ol vaḥtta
+                            <milestone unit="line" n="22" />
+                            ol ki necik tigense cerivi Gog Magognun eltinir tirki H-ɣa
+                            <milestone unit="line" n="23" />
+                            jaratuvcusuna cevaʾot ulus tartylɣan avalɣy zamanlardan da julqunɣan
+                            <milestone unit="line" n="24" />
+                            qollarynda savaɣatsyz bijlernin ki acy ettiler tirliklerin alarnyn
+                            <milestone unit="line" n="25" />
+                            avur jasaqlar byla qajsy ol Jisraʾel tartylady ic atalardan da qorqunclu
+                            <milestone unit="page" n="19r" />
+                            <milestone unit="line" n="1" />
+                            ulustandy ol da arraq ḥanlyq azar azar tigengen da basylɣan erki
+                            <milestone unit="line" n="2" />
+                            tibine uluslarnyn ki taladylar ullu bijler uqsatylɣanlar
+                            <milestone unit="line" n="3" />
+                            ezenlerge jerin anyn ornuna šeminin H-nyn jaratuvcusunun cevaʾotnun
+                            <milestone unit="line" xml:id="Isa018-P19r-L4" n="4"
+                                next="ADub.III.83.001.019.xml#Isa019-P19r-L4" />
+                            tavyna Cijonnun.</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

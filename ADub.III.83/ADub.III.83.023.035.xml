@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Isaiah 35</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Isaiah 35</title>
+                        <milestone unit="line" n="6" />
+                        <l xml:id="Isa-035-x001">midbar da suvsaɣan jer da quvanyr jylɣalyq da
+                            jasaryr gileflik kibik.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="2" xml:id="Isa-035-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פרוח </foreign>
+                            Jasarma jasaryr da quvanyr ham bijenir da sarnar syj ol Levanonnun
+                            <milestone unit="line" n="8" />
+                            berilir anar hermeti ol Karmelnin da ol toq jernin alar kererler
+                            <milestone unit="line" n="9" />
+                            šeḫinasyn H-nyn hermetin Tenrimiznin.</l>
+                        <l n="3" xml:id="Isa-035-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חזקו </foreign>
+                            Kicejtiniz sarplaɣan qollary
+                            <milestone unit="line" n="10" />
+                            da siringen tizlerni kipleniz.</l>
+                        <l n="4" xml:id="Isa-035-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אמרו </foreign>
+                            Ajtynyz qavdur jireklilerge kicejiniz
+                            <milestone unit="line" n="11" />
+                            qorqmanyz muna Tenriniz siznin ec alma dusmanlarynyzdan kelir televler
+                            <milestone unit="line" n="12" />
+                            Tenrisi ol kelir da jarlyɣaslatyr sizni.</l>
+                        <l n="5" xml:id="Isa-035-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta acylyrlar
+                            <milestone unit="line" n="13" />
+                            kezleri soqurlarnyn da qulaqlary sandravlarnyn acylyrlar.</l>
+                        <l n="6" xml:id="Isa-035-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אז </foreign>
+                            Ol vaḥtta
+                            <milestone unit="line" n="14" />
+                            sekirir olen kibik aqsaq da sarnar tili tilsiznin ki jarcyqlanyrlar
+                            <milestone unit="line" n="15" />
+                            midbarda suvlar da ezenler jylɣalyqta.</l>
+                        <l n="7" xml:id="Isa-035-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolur ol qurɣan yer
+                            <milestone unit="line" n="16" />
+                            ozeraɣa da suvsaɣan jer kirnicelerine suvlarnyn qajda ki edi ornu
+                            <milestone unit="line" n="17" />
+                            acdaɣalarnyn da jatysy anyn jesillik bolur qamusqa da qoɣaɣa.</l>
+                        <l n="8" xml:id="Isa-035-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה</foreign>
+                            <milestone unit="line" n="18" />
+                            Da bolur anda yz da jol da ol aziz jol atalyr anar asmasty anyn byla
+                            <milestone unit="line" n="19" />
+                            <addSpan spanTo="#Isa-035-add001" />jat<anchor xml:id="Isa-035-add001"
+                                type="addSpan" /> da ol jalɣyz bolur Jisraʾel ulusuna baruvcu ol jol
+                            byla usajyr da
+                            <milestone unit="line" n="20" />
+                            teliler azasmastylar.</l>
+                        <l n="9" xml:id="Isa-035-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                            Bolmasty anda arslan da buzuqcusu kijik-
+                            <milestone unit="line" n="21" />
+                            lernin barmasty anyn byla ani tabulmasty anda da baryrlar
+                            julunmuslar.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="10" xml:id="Isa-035-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ופדויי </foreign>
+                            Da julunmuslary H-nyn qajtyrlar da kelirler Cijonɣa sarnav byla
+                            <milestone unit="line" n="23" />
+                            da emirlik bijenc bolur baslary istine alarnyn quvancny da bijencni</l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
