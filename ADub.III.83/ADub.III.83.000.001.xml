@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Table of contents</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Incipit 1</title>
+                        <milestone unit="page" n="1r" />
+                        <milestone unit="line" n="1" />
+                        <l xml:id="In-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >בשם יהוה</foreign>
+                            <milestone unit="line" n="2" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אלהי האלהים ואדוני
+                                האדונים</foreign>
+                            <milestone unit="line" n="3" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אכתוב בפשט נביאים
+                                אחרונים׃</foreign>
+                            <milestone unit="line" n="4" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ישעיה</foreign>
+                            <milestone unit="line" n="5" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ירמיה</foreign>
+                            <milestone unit="line" n="6" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">יחזקאל</foreign>
+                            <milestone unit="line" n="7" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">הושע</foreign>
+                            <milestone unit="line" n="8" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">יואל</foreign>
+                            <milestone unit="line" n="9" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">עמוס</foreign>
+                            <milestone unit="line" n="10" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">עובדיה</foreign>
+                            <milestone unit="line" n="11" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">יונה</foreign>
+                            <milestone unit="line" n="12" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">מיכה</foreign>
+                            <milestone unit="line" n="13" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">נחום</foreign>
+                            <milestone unit="line" n="14" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">חבקוק</foreign>
+                            <milestone unit="line" n="15" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">צפניה</foreign>
+                            <milestone unit="line" n="16" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">חגי</foreign>
+                            <milestone unit="line" n="17" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">זכריה</foreign>
+                            <milestone unit="line" n="18" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">מלאכי</foreign>
+                        </l>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text></TEI>
