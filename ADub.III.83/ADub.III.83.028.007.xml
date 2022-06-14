@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Hosea 7</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Hosea 7</title>
+                        <milestone unit="line" n="19" />
+                        <l xml:id="Hos-007-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ז׳ </foreign>
+                        </l>
+                        <l n="1" xml:id="Hos-007-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כרפאי </foreign>
+                            Onɣaltqanymdacoq Jisraʾelni da
+                            <milestone unit="line" n="20" />
+                            asqaryldy gineḥi ʾEfrajimnin da jaman isleri Šomer<supplied
+                                reason="lost">o</supplied>nnun<ref n="1" target="#Hos-007-fn1"
+                                type="noteAnchor" /> ki qyldylar jalɣan-
+                            <milestone unit="line" n="21" />
+                            lyqny alaj ki necik uru baslasa urlama kiredi da urlajdy jasyrtynlyq-
+                            <milestone unit="line" n="22" />
+                            ta andan sortun cynyqsa jajylady kingiz jyjynny da qaraqlama tysqa-
+                            <milestone unit="line" n="23" />
+                            ryda.</l>
+                        <l n="2" xml:id="Hos-007-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובל </foreign>
+                            Da saɣys etmejdiler eslerinde ki bar jaman islerin alarnyn
+                            <milestone unit="line" n="24" />
+                            saɣyndym haligini qursadylar alarny jaman isleri alarnyn qarsysyna qybla-
+                            <milestone unit="line" n="25" />
+                            larymnyn ediler.</l>
+                        <l n="3" xml:id="Hos-007-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברעתם </foreign>
+                            Jaman isleri byla bijendirediler meleḫni
+                            <milestone unit="page" n="195v" />
+                            <milestone unit="line" n="1" />
+                            da tanmaqlary byla aɣaraqlarny.</l>
+                        <l n="4" xml:id="Hos-007-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כלם </foreign>
+                            Barlary niʾufluq etivciler
+                            <milestone unit="line" n="2" />
+                            qyzysqan jirekliler niʾufluqqa janadoɣan pec kibik etmek bisirivciden
+                            <milestone unit="line" n="3" />
+                            ki necik jandyrsa jaḥsy qyzdyrady any qalady ojatmaqtan ol oltur-
+                            <milestone unit="line" n="4" />
+                            ɣuzuvcunu basmaq vaḥttan ḥamurnu ketiringeninedejin.</l>
+                        <l n="5" xml:id="Hos-007-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יום </foreign>
+                            Bij bolmaq
+                            <milestone unit="line" n="5" />
+                            kininde bijimiznin basladylar aɣaraqlar icme vinany fleskalardan da
+                            <milestone unit="line" n="6" />
+                            esirttiler ol meleḫni da sundu qolun elikciler byla eliklik etme.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="6" xml:id="Hos-007-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki qyzystyrdylar pecni kibik jireklerin andymaqlary byla niʾufluq
+                            <milestone unit="line" n="8" />
+                            etme bar ol keceni juqlajdy saɣysy alarnyn da ertenbyla da ol
+                            <milestone unit="line" n="9" />
+                            janady jalynly ot kibik qylma ol jerenci isni.</l>
+                        <l n="7" xml:id="Hos-007-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כלם </foreign>
+                            Barlary
+                            <milestone unit="line" n="10" />
+                            qyzysadylar pec kibik da tavustular osol terecilerin bar meleḫleri
+                            <milestone unit="line" n="11" />
+                            alarnyn tistiler joḥtu caɣyruvcu kertilik byla alar da mana.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="8" xml:id="Hos-007-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אפרים </foreign>
+                            ʾEfrajim ol qosuldu jamanny qylma alar kibik ʾEfrajim boldu
+                            <milestone unit="line" n="13" />
+                            jajma kibik cijli bisli ajlandyrmaɣan pecte.</l>
+                        <l n="9" xml:id="Hos-007-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אכלו </foreign>
+                            Asadylar jat
+                            <milestone unit="line" n="14" />
+                            umalar malyn anyn da ol bilmedi daɣyn pirlik birkildi izleri istine
+                            <milestone unit="line" n="15" />
+                            anyn da ol bilmedi.</l>
+                        <l n="10" xml:id="Hos-007-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וענה </foreign>
+                            Da tanyqlyq cyɣar ektemligi Jisraʾelnin
+                            <milestone unit="line" n="16" />
+                            alnynda anyn ki ol sibba etti keltirmegin tirli karanjalarnyn anyn
+                            <milestone unit="line" n="17" />
+                            istine da qajtmadylar H-ɣa Tenrilerine da qolmadylar raḥmetlerin
+                            <milestone unit="line" n="18" />
+                            anyn bar bunluq byla.</l>
+                        <l n="11" xml:id="Hos-007-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da boldu ʾEfrajim kigircin kibik jeldengen
+                            <milestone unit="line" n="19" />
+                            akylsyz Micrini caɣyrdylar bolusluqqa ʾAšurɣa bardylar tirilme.
+                            <milestone unit="line" n="20" />
+                        </l>
+                        <l n="12" xml:id="Hos-007-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כאשר</foreign>
+                            <anchor xml:id="Hos-007-add001" type="addSpan" /> Ki necik barsalar ol
+                            vaḥtta jajarmen alar istine avymny qusun
+                            <milestone unit="line" n="21" />
+                            kibik ol keklernin endirimen alarny jerge ucmaqlaryndan adep-
+                            <milestone unit="line" n="22" />
+                            lermen alarny esittirip jaman ḥabar ʒymatlaryna alarnyn.</l>
+                        <l n="13" xml:id="Hos-007-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אוי</foreign>
+                            <milestone unit="line" n="23" />
+                            Vaj alarɣa ki bireldiler qulluɣumdan synyqlyq alarɣa ki tandylar
+                            <milestone unit="line" n="24" />
+                            mana da men ajttym julurmen alarny galutlaryndan vale alar sezlediler
+                            <milestone unit="line" n="25" />
+                            menim istine aldavlu sezler.</l>
+                        <l n="14" xml:id="Hos-007-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולא </foreign>
+                            Da firjat etmediler mana
+                            <milestone unit="page" n="196r" />
+                            <milestone unit="line" n="1" />
+                            tigel jirekleri byla ki syjyt etkejler tesekleri istine synyɣyp
+                            <milestone unit="line" n="2" />
+                            jazyqlary icin birtiknin da serbetnin eksikligi icin tirilme bardylar
+                            <milestone unit="line" n="3" />
+                            tandylar mana.</l>
+                        <l n="15" xml:id="Hos-007-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואני </foreign>
+                            Da men adepledim alarny da ḥajifsinip alar is-
+                            <milestone unit="line" n="4" />
+                            tine kicejttim bileklerin alarnyn da menim istine saɣys etediler
+                            <milestone unit="line" n="5" />
+                            jamanny.</l>
+                        <l n="16" xml:id="Hos-007-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ישובו </foreign>
+                            Qajtsalarda tešuva byla tivildi qajtmaqlary alarnyn
+                            <milestone unit="line" n="6" />
+                            qabul alnynda joɣarɣy Tenrinin boldular jaltaj jaj kibik tiserler qylyc-
+                            <milestone unit="line" n="7" />
+                            tan aɣaraqlary alarnyn qaḥyryndan tillerinin bu bolur eliklikleri
+                            <milestone unit="line" n="8" />
+                            alarnyn jerinde Micrinin ki kilerler avaldaɣylaj alardan.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Hos-007-fn1" type="footnote">ADub.III.83:
+                                <emph>Šomerunnun</emph>; a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
