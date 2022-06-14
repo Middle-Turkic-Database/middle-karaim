@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Ezekiel 41</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Ezekiel 41</title>
+                        <milestone unit="line" xml:id="Ezek041-P181r-L9" n="9"
+                            prev="ADub.III.83.026.040.xml#Ezek040-P181r-L9" />
+                        <l xml:id="Ezek-041-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מא׳</foreign>
+                        </l>
+                        <milestone unit="line" n="10" />
+                        <l n="1" xml:id="Ezek-041-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויביאני </foreign>
+                            Da keltirdi meni ol sarajɣa da elcedi osol
+                            <milestone unit="line" n="11" />
+                            ol odverjalarny alty lokotler kenlik bu jandan da alty
+                            <milestone unit="line" n="12" />
+                            lokotler kenlik bu jandan kenligi ol catyrnyn.</l>
+                        <l n="2" xml:id="Ezek-041-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ורוחב </foreign>
+                            Da kenligi ol
+                            <milestone unit="line" n="13" />
+                            esiknin on lokotler da taraflary ol esiknin bes lokotler bu jandan
+                            <milestone unit="line" n="14" />
+                            da bes lokotler bu jandan da elcedi uzunluɣun anyn qyrq lokot da
+                            <milestone unit="line" n="15" />
+                            kenlik egirmi lokot.</l>
+                        <l n="3" xml:id="Ezek-041-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובא </foreign>
+                            Da keldi ickirtin da elcedi odver-
+                            <milestone unit="line" n="16" />
+                            jasyn ol esiknin eki lokotler da tesigi ol esiknin alty lokotler
+                            <milestone unit="line" n="17" />
+                            da kenligi ol esiknin jedi lokotler.</l>
+                        <l n="4" xml:id="Ezek-041-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימד </foreign>
+                            Da elcedi osol uzunluɣun
+                            <milestone unit="line" n="18" />
+                            anyn <seg type="commented" corresp="#Ezek-041-seg001" />⟨egirmi
+                                lokot⟩<anchor type="commented" xml:id="Ezek-041-seg001" /><ref n="1"
+                                target="#Ezek-041-fn1" type="noteAnchor" />
+                            <addSpan spanTo="#Ezek-041-add001" />egirmi lokot<anchor
+                                xml:id="Ezek-041-add001" type="addSpan" /> da kenlik egirmi lokot
+                            alnynda ol sarajnyn da
+                            <milestone unit="line" n="19" />
+                            ajtty mana budu ivi qodeš ol qadašimnin.</l>
+                        <l n="5" xml:id="Ezek-041-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וימד </foreign>
+                            Da elcedi farstyn
+                            <milestone unit="line" n="20" />
+                            ol ivnin alty lokotler da kenligi ol ḥuʒuranyn dert lokotler
+                            <milestone unit="line" n="21" />
+                            civre civre ivge civre.</l>
+                        <l n="6" xml:id="Ezek-041-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והצלעות </foreign>
+                            Da ol ḥuʒuralar ḥuʒura
+                            <milestone unit="line" n="22" />
+                            ḥuʒura istine otuz ic ḥuʒuralar otuz ic keretler da
+                            <milestone unit="line" n="23" />
+                            kirerediler farstyna ki ivnin ol ḥuʒuralar civre civre bolma
+                            <milestone unit="line" n="24" />
+                            tutusqanlar da bolmaɣajlar tutunadoɣanlar farstyndan ol ivnin.</l>
+                        <milestone unit="line" n="25" />
+                        <l n="7" xml:id="Ezek-041-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ורחבה </foreign>
+                            Da kenerdi da qursady joɣartyn joɣartyn ḥuʒu<supplied reason="lost"
+                                >ra</supplied>larɣa<ref n="2" target="#Ezek-041-fn2"
+                                type="noteAnchor" /> ki qursamaɣy
+                            <milestone unit="page" n="181v" />
+                            <milestone unit="line" n="1" />
+                            ol ivnin joɣary joɣary civre civre ivge bos edi anyn icin
+                            <milestone unit="line" n="2" />
+                            edi kenlik ivge minme joɣary ḥuʒuralar byla da alaj ol tiptegi
+                            <milestone unit="line" n="3" />
+                            ḥuʒuradan minerediler isttegige jolu byla ol ortancy ḥuʒuranyn.</l>
+                        <milestone unit="line" n="4" />
+                        <l n="8" xml:id="Ezek-041-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וראיתי </foreign>
+                            Da kerdim ivge bijiklik civre civre bunjatlary ol ḥuʒura-
+                            <milestone unit="line" n="5" />
+                            larnyn tolusu ol qamusnun alty lokot syjly orun.</l>
+                        <l n="9" xml:id="Ezek-041-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רוחב</foreign>
+                            <milestone unit="line" n="6" />
+                            Kenligi ol farstnyn ki ḥuʒuraɣa ol tysqarydan bes lokotler
+                            <milestone unit="line" n="7" />
+                            da orun ki qaldyryldy ornu ḥuʒuralarnyn ki ivnin.</l>
+                        <l n="10" xml:id="Ezek-041-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובין </foreign>
+                            Da
+                            <milestone unit="line" n="8" />
+                            arasyna ol ḥuʒuralarnyn kenlik egirmi lokot civre ivge
+                            <milestone unit="line" n="9" />
+                            civre civre.</l>
+                        <l n="11" xml:id="Ezek-041-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ופתח </foreign>
+                            Da esigi ol ḥuʒuranyn edi qaldyrɣan bos
+                            <milestone unit="line" n="10" />
+                            orunda bir esik jolunda cafonnun da bir esik daromdan da
+                            <milestone unit="line" n="11" />
+                            kenligi ol qalɣan orunnun bes lokotler civre civre.</l>
+                        <l n="12" xml:id="Ezek-041-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והבנין</foreign>
+                            <milestone unit="line" n="12" />
+                            Da ol binjan ki alnynda ol beklik sarajnyn tarafynda jolunun ol
+                            <milestone unit="line" n="13" />
+                            maʿaravnyn kenlik jetmis lokot da farsty ol binjannyn bes lokotler
+                            <milestone unit="line" n="14" />
+                            kenlik civre civre da uzunluɣu anyn toqsan lokot.</l>
+                        <l n="13" xml:id="Ezek-041-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומדד </foreign>
+                            Da
+                            <milestone unit="line" n="15" />
+                            elcedi osol ol ivni uzunluq iz lokot da ol bijik saraj da ol
+                            <milestone unit="line" n="16" />
+                            qondarmaq da farstlary anyn uzunluq iz lokot.</l>
+                        <l n="14" xml:id="Ezek-041-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ורוחב </foreign>
+                            Da kenligi
+                            <milestone unit="line" n="17" />
+                            izlerinin ol ivnin da ol syjly sarajnyn mizraḥ sartyn iz lokot.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="15" xml:id="Ezek-041-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומדד </foreign>
+                            Da elcedi uzunluɣun ol binjannyn<ref n="3" target="#Ezek-041-fn3"
+                                type="noteAnchor" /> alnyn<supplied reason="lost">d</supplied>a<ref
+                                n="4" target="#Ezek-041-fn4" type="noteAnchor" /> ⟨alnynda⟩<ref
+                                n="5" target="#Ezek-041-fn5" type="noteAnchor" /> ol
+                            <milestone unit="line" n="19" />
+                            bijik sarajnyn ki tarafyndan maʿaravnyn da ḥuʒuralary anyn bundan da bundan
+                            <milestone unit="line" n="20" />
+                            iz lokot da ol saraj ol ickirgi da ulamlary ol qaḥranyn.</l>
+                        <milestone unit="line" n="21" />
+                        <l n="16" xml:id="Ezek-041-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הסיפים </foreign>
+                            Ol odverjalar da ol tereʒeler ol qaplanɣanlar jaryq
+                            <milestone unit="line" n="22" />
+                            balquvlu taslar byla da ol ḥuʒuralar civre icsilerinede qarsy-
+                            <milestone unit="line" n="23" />
+                            syna ol odverjanyn aɣacly taḥtalar byla qaplanɣan civre civre
+                            <milestone unit="line" n="24" />
+                            da ol jer ol tereʒelergedejin da ol tereʒeler qaplanɣan ediler.</l>
+                        <milestone unit="line" n="25" />
+                        <l n="17" xml:id="Ezek-041-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">על </foreign>
+                            Istrek esiginden ol ivnin da ol ivgedejin ol ickirgi
+                            <milestone unit="page" n="182r" />
+                            <milestone unit="line" n="1" />
+                            da tysqartyn da bar ol farst istine civre civre ickirtin
+                            <milestone unit="line" n="2" />
+                            da tysqartyn har biri elcevlerine kere islengen ediler.</l>
+                        <l n="18" xml:id="Ezek-041-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועשוי</foreign>
+                            <milestone unit="line" n="3" />
+                            Da qylynɣan keruvimler da ḥurmalar da ḥurma arasyna keruvnun keruv byla
+                            <milestone unit="line" n="4" />
+                            da eki izler edi keruvɣa.</l>
+                        <l n="19" xml:id="Ezek-041-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ופני </foreign>
+                            Da izleri adamnyn ol ḥurmaɣa
+                            <milestone unit="line" n="5" />
+                            bu jandan da izleri jigit arslannyn ol ḥurmaɣa bu jandan qylynɣan bar
+                            <milestone unit="line" n="6" />
+                            ol iv istine civre civre.</l>
+                        <l n="20" xml:id="Ezek-041-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מהארץ </foreign>
+                            Ol jerden istrek ol
+                            <milestone unit="line" n="7" />
+                            esikkedejin ol keruvimler da ol ḥurmalar qylynɣan ediler da farsty
+                            <milestone unit="line" n="8" />
+                            istine ol sarajnyn.</l>
+                        <l n="21" xml:id="Ezek-041-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ההיכל </foreign>
+                            Ol sarajnyn odverjalary dert janly
+                            <milestone unit="line" n="9" />
+                            edi da kerimi ol aziz esiknin edi kerimi kibik esiginin qodeš
+                            <milestone unit="line" n="10" />
+                            haqadašimnin ki kerdim burunɣu keriminde naviliknin.</l>
+                        <l n="22" xml:id="Ezek-041-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">המזבח </foreign>
+                            Ol
+                            <milestone unit="line" n="11" />
+                            aɣacly mizbeaḥ ic lokotler bijiklik da uzunluɣu anyn eki lokotler
+                            <milestone unit="line" n="12" />
+                            da uclary mivizlerinin anyn da uzunluɣu anyn da farstlary anyn aɣacly
+                            <milestone unit="line" n="13" />
+                            da sezledi mana ol malʾaḫ da ajtty budur ol stol ki alnynda H-nyn.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="23" xml:id="Ezek-041-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">נשתים </foreign>
+                            Da eki esikler edi sarajɣa da qodeš orunɣa.</l>
+                        <l n="24" xml:id="Ezek-041-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושתים</foreign>
+                            <milestone unit="line" n="15" />
+                            Da eki esikler ekinciler ediler ol esiklerge eki ajlanadoɣan
+                            <milestone unit="line" n="16" />
+                            esikler eki bir esikke da eki esikler ekincige.</l>
+                        <l n="25" xml:id="Ezek-041-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועשויה</foreign>
+                            <milestone unit="line" n="17" />
+                            Da qylynɣan edi alar istine esikleri istine ol sarajnyn keruvim-
+                            <milestone unit="line" n="18" />
+                            ler da ḥurmalar ⟨ki⟩<ref n="6" target="#Ezek-041-fn6" type="noteAnchor" />
+                            <addSpan spanTo="#Ezek-041-add002" />ki<anchor xml:id="Ezek-041-add002"
+                                type="addSpan" /> necik qylynɣan ediler farstlar istine da balqa
+                            <milestone unit="line" n="19" />
+                            aɣacly izleri istine ol ulamnyn ol tysqarydan.</l>
+                        <l n="26" xml:id="Ezek-041-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחלונים </foreign>
+                            Da
+                            <milestone unit="line" n="20" />
+                            tereʒeler qaplanɣanlar bahaly taslar byla da ḥurmalar bu jandan da bu
+                            <milestone unit="line" n="21" />
+                            jandan taraflaryna ol ulamnyn da ḥuʒuralary ol ivnin da ol bazyq
+                            <milestone unit="line" xml:id="Ezek041-P182r-L22" n="22"
+                                next="ADub.III.83.026.042.xml#Ezek042-P182r-L22" />
+                            aɣaclar.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Ezek-041-fn1" type="footnote">ADub.III.83: ink stains make
+                            these two words partially illegible.</note>
+                        <note xml:id="Ezek-041-fn2" type="footnote">ADub.III.83:
+                                <emph>huʒularɣa</emph>; a scribal error.</note>
+                        <note xml:id="Ezek-041-fn3" type="footnote">ADub.III.83:
+                                <emph>binjannynnyn</emph>; a scribal error.</note>
+                        <note xml:id="Ezek-041-fn4" type="footnote">ADub.III.83: an ink stain makes
+                            the word partially illegible.</note>
+                        <note xml:id="Ezek-041-fn5" type="footnote">ADub.III.83: a redundant
+                            repetition crossed out by the copyist.</note>
+                        <note xml:id="Ezek-041-fn6" type="footnote">ADub.III.83: an ink stain makes
+                            the word illegible.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

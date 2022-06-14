@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>ADub.III.83</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Ezekiel 27</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Ezekiel 27</title>
+                        <milestone unit="line" xml:id="Ezek027-P162v-L17" n="17"
+                            prev="ADub.III.83.026.026.xml#Ezek026-P162v-L17" />
+                        <l xml:id="Ezek-027-x001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כז׳</foreign>
+                        </l>
+                        <milestone unit="line" n="18" />
+                        <l n="1" xml:id="Ezek-027-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da boldu navilik sezi H-nyn mana ajtadoɣac.
+                            <milestone unit="line" n="19" />
+                            ⟨(<foreign xml:lang="he" style="unicode-bidi: embed;">ואתה</foreign>
+                            )⟩<ref n="1" target="#Ezek-027-fn1" type="noteAnchor" />
+                            <seg type="commented" corresp="#Ezek-027-seg001" />⟨Da boldu navilik
+                            sezi Adonajnyn mana ajtadoɣac.⟩<anchor type="commented"
+                                xml:id="Ezek-027-seg001" /><ref n="2" target="#Ezek-027-fn2"
+                                type="noteAnchor" /></l>
+                        <l n="2" xml:id="Ezek-027-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתה</foreign>
+                            <milestone unit="line" n="20" />
+                            Da sen e adam uvlu ketirgin Cor icin qina.</l>
+                        <l n="3" xml:id="Ezek-027-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואמרת </foreign>
+                            Da ajtqyn
+                            <milestone unit="line" n="21" />
+                            Corɣa ol olturuvcu kelivleri qatyna tengiznin bezirgencisi ol
+                            <milestone unit="line" n="22" />
+                            uluslarnyn kep otraclarnyn bulaj ajtty Adonaj Tenri e Cor sen ajttyn men tigel
+                            <milestone unit="line" n="23" />
+                            kerklimen.</l>
+                        <l n="4" xml:id="Ezek-027-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בלב </foreign>
+                            Ortasynda tengizlernin ceklerin senin qondaruvcularyn
+                            <milestone unit="line" n="24" />
+                            senin tigellediler kerkinni senin.</l>
+                        <l n="5" xml:id="Ezek-027-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ברושים </foreign>
+                            Beroš aɣaclaryndan Senirnin qondar-
+                            <milestone unit="line" n="25" />
+                            dylar sana osol bar taḥtalaryndan erez Levanondan aldylar qylma mašt senin
+                            <milestone unit="page" n="163r" />
+                            <milestone unit="line" n="1" />
+                            istine.</l>
+                        <l n="6" xml:id="Ezek-027-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אלונים </foreign>
+                            Emenlerinden Bašannyn qyldylar tajfalarynny senin
+                            <milestone unit="line" n="2" />
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">בלשון רוסין </foreign>
+                            kermalar) taḥtanny senin qyldylar fil tisinden ʒymaty
+                            <milestone unit="line" n="3" />
+                            ʾAšurimnin otraclaryndan Kitimnin.</l>
+                        <l n="7" xml:id="Ezek-027-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שש </foreign>
+                            Bezli ketenden naɣysly
+                            <milestone unit="line" n="4" />
+                            kelgen Micriden edi jajmaq maštyn senin bolma sana alamɣa kek
+                            <milestone unit="line" n="5" />
+                            da jipkin otraclaryndan ʾElišanyn (<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פולין בלשון </foreign>
+                            Italija) edi upraqlaryn
+                            <milestone unit="line" n="6" />
+                            senin.</l>
+                        <l n="8" xml:id="Ezek-027-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יושבי </foreign>
+                            Olturuvculary Cidonnun da ʾArvadnyn ediler
+                            <milestone unit="line" n="7" />
+                            ezgekcilerin senin uslularyn senin e Cor ediler sende alardylar
+                            <milestone unit="line" n="8" />
+                            mastcylaryn senin kenderivcileri gemilerinnin.</l>
+                        <l n="9" xml:id="Ezek-027-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זקני </foreign>
+                            Qartlary
+                            <milestone unit="line" n="9" />
+                            Gevalnyn da uslulary anyn ediler sende kiplevciler buzuqluɣunnu
+                            <milestone unit="line" n="10" />
+                            senin bar gerepleri ol tengiznin da ezgekcileri (<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ער בלשון </foreign>
+                            rejizler)
+                            <milestone unit="line" n="11" />
+                            alarnyn ediler sende ik kerme ik kermeginni senin.</l>
+                        <l n="10" xml:id="Ezek-027-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">פרס</foreign>
+                            <milestone unit="line" n="12" />
+                            Paras da Lud da Put ediler cerivinde senin ceriv elin senin qalqan
+                            <milestone unit="line" n="13" />
+                            da berk taqtyrdylar sende alar berdiler hermetinni senin.</l>
+                        <l n="11" xml:id="Ezek-027-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בני</foreign>
+                            <milestone unit="line" n="14" />
+                            Uvullary ʾArvadnyn da cerivin senin qalalaryn istine civre da qysqa
+                            <milestone unit="line" n="15" />
+                            turuslu el (<foreign xml:lang="he" style="unicode-bidi: embed;">פולין
+                                בלשון </foreign>
+                            karlikler) vezalarynda senin ediler qalqanlaryn
+                            <milestone unit="line" n="16" />
+                            taqtyrdylar qalalaryn istine civre alar tigellediler kerkinni
+                            <milestone unit="line" n="17" />
+                            senin.</l>
+                        <l n="12" xml:id="Ezek-027-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">תרשיש </foreign>
+                            Valajaty Taršišnin edi bezirgencin senin kepliginden
+                            <milestone unit="line" n="18" />
+                            bar malnyn kimis byla temir byla cyn byla da qorɣasyn byla berdiler
+                            <milestone unit="line" n="19" />
+                            ḥaznaɣa ystyrɣan malynny senin.</l>
+                        <l n="13" xml:id="Ezek-027-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יון </foreign>
+                            Javan Tuval da Mešeḫ alar ediler
+                            <milestone unit="line" n="20" />
+                            bezirgencilerin senin ʒany byla adamnyn da tuʒlu savutlar berdiler
+                            <milestone unit="line" n="21" />
+                            bezirgenliginni senin.</l>
+                        <l n="14" xml:id="Ezek-027-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">מבית </foreign>
+                            Ivinden Togarmanyn atlar da jalan
+                            <milestone unit="line" n="22" />
+                            atlylar da cuvallar berdiler bezirgenliklerinni senin.</l>
+                        <l n="15" xml:id="Ezek-027-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בני </foreign>
+                            Uvul-
+                            <milestone unit="line" n="23" />
+                            lary Dedannyn bezirgencilerin senin kep otraclar byla edi bezirgenligi
+                            <milestone unit="line" n="24" />
+                            qolunnun tislerin fil tisnin da pavalar qajtardylar bernenni senin.</l>
+                        <milestone unit="line" n="25" />
+                        <l n="16" xml:id="Ezek-027-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ארם </foreign>
+                            Eli byla ʾAramnyn edi bezirgenligin senin kepliginden islerinnin
+                            <milestone unit="page" n="163v" />
+                            <milestone unit="line" n="1" />
+                            sirne tasy byla jipkin da naɣysly upraqlar da kesejip da ramot da
+                            <milestone unit="line" n="2" />
+                            karbankulis tasy berdiler bezirgenliklerinde senin.</l>
+                        <l n="17" xml:id="Ezek-027-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יהודה </foreign>
+                            Juhudanyn
+                            <milestone unit="line" n="3" />
+                            eli da Jisraʾelnin ediler bezirgencilerin senin budajlary byla Minit
+                            <milestone unit="line" n="4" />
+                            indeledoɣan saharnyn da balsam otjamnyn da cijbal da zejtun javyn da tirjaq
+                            <milestone unit="line" n="5" />
+                            berdiler ik kergen bezirgenliginni.</l>
+                        <l n="18" xml:id="Ezek-027-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דמשק </foreign>
+                            Dameseḫ edi bezir-
+                            <milestone unit="line" n="6" />
+                            gencin senin kepligi byla islernin kepliginden bar malnyn vinasy
+                            <milestone unit="line" n="7" />
+                            byla Ḥelbonnun da aq jununun qojlarnyn.</l>
+                        <l n="19" xml:id="Ezek-027-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ודן </foreign>
+                            Da Dan da Javan tez
+                            <milestone unit="line" n="8" />
+                            baradoɣan bezirgenlik berdiler bezirgenliklerinde jaryq temir
+                            <milestone unit="line" n="9" />
+                            gvozdik da qasja bezirgenliginde senin edi.</l>
+                        <l n="20" xml:id="Ezek-027-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דדן </foreign>
+                            Dedan edi bezirgen-
+                            <milestone unit="line" n="10" />
+                            cin senin syjly upraqlar byla markavlarɣa.</l>
+                        <l n="21" xml:id="Ezek-027-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ערב </foreign>
+                            ʿArav da bar
+                            <milestone unit="line" n="11" />
+                            nasileri Tatarnyn alar ediler bezirgencileri qolunnun jigit qozular
+                            <milestone unit="line" n="12" />
+                            byla da qocqarlar byla da tegeler byla alar byla edi bezirgenlik-
+                            <milestone unit="line" n="13" />
+                            lerin senin.</l>
+                        <l n="22" xml:id="Ezek-027-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">רוכלי </foreign>
+                            Bezirgenleri Ševanyn da Raʿmanyn alar ediler
+                            <milestone unit="line" n="14" />
+                            bezirgencilerin senin ilki byla bar otjamnyn da bar abajly tas
+                            <milestone unit="line" n="15" />
+                            byla da altyn byla ki berdiler ḥaznalarynda senin.</l>
+                        <l n="23" xml:id="Ezek-027-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חרן </foreign>
+                            Ḥaran da
+                            <milestone unit="line" n="16" />
+                            da Kane da ʿEden bezirgencileri Ševanyn ʾAšur cynyqqan edi bezir-
+                            <milestone unit="line" n="17" />
+                            genlik etme senin byla.</l>
+                        <l n="24" xml:id="Ezek-027-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">המה </foreign>
+                            Alar ediler bezirgencilerin
+                            <milestone unit="line" n="18" />
+                            senin tigel kerkli upraqlar byla bigisli upraqlar byla kek da
+                            <milestone unit="line" n="19" />
+                            naɣysly da genli sunduqlar byla snurlar byla cergelgenler da
+                            <milestone unit="line" n="20" />
+                            bojunnun muncekleri ediler bezirgenliginde senin.</l>
+                        <l n="25" xml:id="Ezek-027-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אניות </foreign>
+                            <milestone unit="line" n="21" />
+                            Gerepleri Taršišnin keltirirediler jyjynlarynny ik kergen
+                            <milestone unit="line" n="22" />
+                            elinni da toldun maldan da ḥoʒalandyn olturadoɣac ortasynda
+                            <milestone unit="line" n="23" />
+                            tengizlernin.</l>
+                        <l n="26" xml:id="Ezek-027-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">במים </foreign>
+                            Kep suvlar byla keltirdiler seni ol
+                            <milestone unit="line" n="24" />
+                            ezgekciler ol asyruvcular seni ol qadim jeli syndyrdy seni
+                            <milestone unit="line" n="25" />
+                            ortasynda tengizlernin.</l>
+                        <l n="27" xml:id="Ezek-027-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הונך </foreign>
+                            Malynny da ḥaznalarynny ik
+                            <milestone unit="page" n="164r" />
+                            <milestone unit="line" n="1" />
+                            kergej elinni ezgekcilerni (<foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            rejizlerinni) da maštcylarynny
+                            <milestone unit="line" n="2" />
+                            battyryr tengiz kiplevciler buzuqluɣunnu da ik kerivciler ik
+                            <milestone unit="line" n="3" />
+                            kermeginni da bar ceriv elin senin ki sende da bar ystyrynmaɣynda
+                            <milestone unit="line" n="4" />
+                            ki ortanda senin tiserler ortasyna tengizlernin tismek kininde
+                            <milestone unit="line" n="5" />
+                            senin.</l>
+                        <l n="28" xml:id="Ezek-027-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לקול </foreign>
+                            Avazyna firjatynnyn mastcylarynnyn<ref n="3" target="#Ezek-027-fn3"
+                                type="noteAnchor" /> qaltrarlar sirivler
+                            <milestone unit="line" n="6" />
+                            ki civrelerinde ol tengiznin ki anda adam ulanlary olturadylar.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="29" xml:id="Ezek-027-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירדו </foreign>
+                            Da enerler gereplerinden bar tutuvcular esgic bar ol
+                            <milestone unit="line" n="8" />
+                            maštcylar bar jajuvcular snurlar asyruvculary ol tengiznin
+                            <milestone unit="line" n="9" />
+                            ol jer istine turarlar.</l>
+                        <l n="30" xml:id="Ezek-027-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והשמיעו </foreign>
+                            Da esittirirler senin icin
+                            <milestone unit="line" n="10" />
+                            firjat avazlary byla da firjat eterler acy syjyt byla da mindirir-
+                            <milestone unit="line" n="11" />
+                            ler topraq baslary istine til icine avkelenirler.</l>
+                        <milestone unit="line" n="12" />
+                        <l n="31" xml:id="Ezek-027-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והקריחו </foreign>
+                            Da julqarlar senin icin julquv da bavlanyrlar tijizler byla
+                            <milestone unit="line" n="13" />
+                            da jilarlar senin icin acy ʒan byla acy syjyt byla jaslarlar.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="32" xml:id="Ezek-027-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונשאו </foreign>
+                            Da ketirirler senin icin syjytlary byla <addSpan
+                                spanTo="#Ezek-027-add001" />qina<anchor xml:id="Ezek-027-add001"
+                                type="addSpan" /> da qina
+                            <milestone unit="line" n="15" />
+                            uḥurlar senin icin ajtadoɣac kimge boldumo Corɣa kibik ki
+                            <milestone unit="line" n="16" />
+                            ol tisikken kibik endi ortasyna ol tengiznin.</l>
+                        <l n="33" xml:id="Ezek-027-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בצאת</foreign>
+                            <milestone unit="line" n="17" />
+                            Cyqqanda batqan mallaryn senin bohozuna ol tengiznin tojdurdun
+                            <milestone unit="line" n="18" />
+                            kep uluslarny kepligi byla mallarynnyn da ik kermeklerinnin
+                            <milestone unit="line" n="19" />
+                            uluslaryn da meleḫlerin jernin ḥoʒalattyn.</l>
+                        <l n="34" xml:id="Ezek-027-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עת </foreign>
+                            Ne vaḥtny ki
+                            <milestone unit="line" n="20" />
+                            syndyryldyn tengizlerden teren orunlaryna suvlarnyn
+                            <milestone unit="line" n="21" />
+                            tisti ik kergen malyn senin da bar qahalyn senin ortanda senin
+                            <milestone unit="line" n="22" />
+                            tistiler.</l>
+                        <l n="35" xml:id="Ezek-027-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Bar olturuvculary ol otraclarnyn barlary
+                            <milestone unit="line" n="23" />
+                            qajɣyly boldular senin icin da meleḫleri alarnyn tavullandylar
+                            <milestone unit="line" n="24" />
+                            tavullanmaq busurlanyrlar izleri alarnyn.</l>
+                        <l n="36" xml:id="Ezek-027-036"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">סוחרים </foreign>
+                            Bezirgenler
+                            <milestone unit="line" n="25" />
+                            uluslar arasyna syzɣyrdylar senin icin verenligin icin
+                                alɣasavuq<supplied reason="lost">-</supplied>
+                            <milestone unit="page" n="164v" />
+                            <milestone unit="line" xml:id="Ezek027-P164v-L1" n="1"
+                                next="ADub.III.83.026.028.xml#Ezek028-P164v-L1" />
+                            larɣa boldun da joq bolusen dunjaɣadejin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Ezek-027-fn1" type="footnote">ADub.III.83: a redundant
+                            repetition.</note>
+                        <note xml:id="Ezek-027-fn2" type="footnote">ADub.III.83: a redundant
+                            repetition crossed out by the copyist.</note>
+                        <note xml:id="Ezek-027-fn3" type="footnote">ADub.III.83:
+                                <emph>mastcilerinnin</emph>; probably a scribal error.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
