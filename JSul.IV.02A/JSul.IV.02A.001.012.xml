@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Genesis 12</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Genesis 12</title>
+                        <milestone unit="line" n="17" />
+                        <l xml:id="Gen-012-x001"><seg type="commented" corresp="#Gen-012-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁתּ לֶךְ
+                                לךָ</foreign>
+                            <anchor type="commented" xml:id="Gen-012-seg001" /><ref n="1"
+                                target="#Gen-012-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="18" />
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">יב</foreign>
+                            ) <seg type="commented" corresp="#Gen-012-seg002" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">ויאמֶר יוָי אֶל אַבְרָם
+                                לֶךְ לְךָ</foreign>
+                            <anchor type="commented" xml:id="Gen-012-seg002" /><ref n="2"
+                                target="#Gen-012-fn2" type="noteAnchor" /></l>
+                        <l n="1" xml:id="Gen-012-001">Da ajtty YWY Avramɣa varɣyn özüŋä
+                            <milestone unit="line" n="19" />
+                            jeriŋdän da doɣduɣyŋdan da evindän ataŋnyŋ ol jergä ki görgüzürmin saŋa.
+                            <milestone unit="line" n="20" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ואעשׁךְ </foreign>
+                        </l>
+                        <l n="2" xml:id="Gen-012-002">Da qylarmyn seni büjük ulusqa da alɣyšlarmyn
+                            seni da büjütirmin adyŋny
+                            <milestone unit="line" n="21" />
+                            da olursyn alɣyš saḥabu. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואברכה </foreign>
+                        </l>
+                        <l n="3" xml:id="Gen-012-003">Da alɣyšlarmyn alɣyšlavčylaryŋny da qarɣavčyŋny
+                            <milestone unit="line" n="22" />
+                            qarɣarmyn da alɣyšlanyrlar seniŋ bilän ǯümlä sojlary ol jer ḥalqynyŋ.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">וילךְ </foreign>
+                        </l>
+                        <l n="4" xml:id="Gen-012-004">Da vardy
+                            <milestone unit="line" n="23" />
+                            Avram nečik ki sözlädi oŋa YWY da vardy birgäsinä Lot da Avram jetmiš
+                            beš jašar
+                            <milestone unit="page" n="14v" />
+                            <milestone unit="line" n="1" />
+                            kiši edi čyqqanynda Ḥarandan. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקח </foreign>
+                        </l>
+                        <l n="5" xml:id="Gen-012-005">Da aldy Avram Saraj ḫatyny<supplied
+                                reason="lost">n</supplied>y<ref n="3" target="#Gen-012-fn3"
+                                type="noteAnchor" /> da Lotny
+                            <milestone unit="line" n="2" />
+                            qardašynyŋ oɣluny da ǯümlä mallary<supplied reason="lost">n</supplied>y
+                            ki qazandylar da ol ǯanny ki imanɣa
+                            <milestone unit="line" n="3" />
+                            gätirdilär Ḥaranda da čyqtylar varmaɣa jerinä Kenaʿannyŋ da geldilär
+                            jerinä Kenaʿannyŋ.
+                            <milestone unit="line" n="4" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויעבור </foreign>
+                        </l>
+                        <l n="6" xml:id="Gen-012-006">Da gečti Avram ol jerdä jerinä degin Šeḫemniŋ
+                            Elon Moregä degin
+                            <milestone unit="line" n="5" />
+                            zira ol Kenaʿan ol vaqytta idi jerdä. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירא </foreign>
+                        </l>
+                        <l n="7" xml:id="Gen-012-007">Da äškärä oldy kavody YWY-
+                            <milestone unit="line" n="6" />
+                            nyŋ Avramɣa da ajtty urluɣyŋa veri<supplied reason="lost"
+                                >r</supplied>min<ref n="4" target="#Gen-012-fn4" type="noteAnchor"
+                             /> ol ušbu jerni da qondardy orada mizbeaḥ
+                            <milestone unit="line" n="7" />
+                            YWY-ɣa ol äškärä olɣan aŋar. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעתק </foreign>
+                        </l>
+                        <l n="8" xml:id="Gen-012-008">Da göčürdi čadyryny oradan gün doɣušyndan
+                            <milestone unit="line" n="8" />
+                            Betʾelniŋ ol taɣɣa da qurdy čadyry<supplied reason="lost"
+                                >n</supplied>y<ref n="5" target="#Gen-012-fn5" type="noteAnchor" />
+                            Betʾelniŋ gün batyšyndan da ol ʿAj
+                            <milestone unit="line" n="9" />
+                            gün doɣušyndan da qondardy orada mizbeaḥ YWY-ɣa da čaqyrdy ḥalqny
+                            čaqyrmaɣa ady ilän
+                            <milestone unit="line" n="10" />
+                            YWY-nyŋ. <foreign xml:lang="he" style="unicode-bidi: embed;">ויסע
+                            </foreign>
+                        </l>
+                        <l n="9" xml:id="Gen-012-009">Da göčti Avram vara da göče ol qyblaɣa.
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי </foreign>
+                        </l>
+                        <l n="10" xml:id="Gen-012-010">Da oldy qytlyq
+                            <milestone unit="line" n="11" />
+                            ol jerdä da endi Avram Mysyrɣa dirlik idmä orada zira aɣyr edi ol qytlyq
+                            <milestone unit="line" n="12" />
+                            ol jerdä. <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי
+                            </foreign>
+                        </l>
+                        <l n="11" xml:id="Gen-012-011">Da edi nečik ki juvuqlaštyrdy ev ḥalqyny
+                            gelmägä Mysyrɣa
+                            <milestone unit="line" n="13" />
+                            da ajtty Saraj ḫatynyna muna endi bildim čünki dilbär görümli
+                            ḫatyndyrsen. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >והיה</foreign>
+                        </l>
+                        <milestone unit="line" n="14" />
+                        <l n="12" xml:id="Gen-012-012">Da ola ki görsälär seni ol Mysyrlylar da
+                            ajtyrlar ḫatynydyr bu da öldürirlär meni
+                            <milestone unit="line" n="15" />
+                            da seni <seg type="commented" corresp="#Gen-012-seg003" />diri
+                                qaldyry<supplied reason="lost">r</supplied>lar<anchor
+                                type="commented" xml:id="Gen-012-seg003" /><ref n="6"
+                                target="#Gen-012-fn6" type="noteAnchor" />. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אמרי </foreign>
+                        </l>
+                        <l n="13" xml:id="Gen-012-013">Ajtqyn šimdilik ki qyz qardašymdyrsen anyŋ učun
+                            <milestone unit="line" n="16" />
+                            ki jaḫšy olɣaj maŋa seniŋ učun da <seg type="commented"
+                                corresp="#Gen-012-seg004" />diri qalɣ<supplied reason="lost"
+                                >aj</supplied><anchor type="commented" xml:id="Gen-012-seg004"
+                                 /><ref n="7" target="#Gen-012-fn7" type="noteAnchor" /> ǯanym
+                            säbäbiŋdän. <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי
+                            </foreign>
+                        </l>
+                        <l n="14" xml:id="Gen-012-014">Da edi geldigi
+                            <milestone unit="line" n="17" />
+                            gibi Avram Mysyrɣa da gördilär ol Mysyrlylar ol ḫatynny ki dilbärdir ol
+                            <milestone unit="line" n="18" />
+                            ɣajet. <foreign xml:lang="he" style="unicode-bidi: embed;">ויראו
+                            </foreign>
+                        </l>
+                        <l n="15" xml:id="Gen-012-015">Da gördilär any begläri parʿonyŋ da
+                            maḫtadylar ony parʿoɣa da alyndy
+                            <milestone unit="line" n="19" />
+                            ol ḫatyn evinä parʿonyŋ. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולאברם </foreign>
+                        </l>
+                        <l n="16" xml:id="Gen-012-016">Da Avramɣa ejilik etti onyŋ učun ki
+                            <milestone unit="line" n="20" />
+                            edi oŋa qoj da syɣyr da ešäklär da qullar da qaravašlar da diši ešäklär
+                            da develär.
+                            <milestone unit="line" n="21" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וינגע </foreign>
+                        </l>
+                        <l n="17" xml:id="Gen-012-017">Da ḫastalandyrdy YWY parʿony büjük
+                            ḫastalyqlar da ev ḥalqyny säbäbi učun
+                            <milestone unit="line" n="22" />
+                            Saraj ḫatynynyŋ Avramnyŋ. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקא </foreign>
+                        </l>
+                        <l n="18" xml:id="Gen-012-018">Da čaqyrdy parʿo Avramny da ajtty ne
+                            <milestone unit="line" n="23" />
+                            bu qyldyŋ maŋa nučun aŋlatmadyŋ maŋa ki ḫatynyŋdyr ol. <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">למה </foreign>
+                        </l>
+                        <l n="19" xml:id="Gen-012-019">Nučun ajttyŋ
+                            <milestone unit="line" n="24" />
+                            qyz qardašymdyr ol da alyp edim ony özümä ḫatynlyqqa da endi munadyr
+                            <milestone unit="line" n="25" />
+                            ḫatynyŋ al da ket. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויצו </foreign>
+                        </l>
+                        <l n="20" xml:id="Gen-012-020">Da symarlady anyŋ učun parʿo kišilär da
+                            uzattylar ony
+                            <milestone unit="page" n="15r" />
+                            <milestone unit="line" n="1" />
+                            da ḫatyny<supplied reason="lost">n</supplied>y<ref n="8"
+                                target="#Gen-012-fn8" type="noteAnchor" /> da ǯümläni ki onyŋ.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Gen-012-fn1" type="footnote">The weekly Torah portion:
+                            Lech-Lecha (Gen 12:1–17:27).</note>
+                        <note xml:id="Gen-012-fn2" type="footnote">The beginning part of Gen 12:1 in
+                            Biblical Hebrew.</note>
+                        <note xml:id="Gen-012-fn3" type="footnote">JSul.IV.02A:
+                                <emph>ḫatynyŋy</emph>; a scribal error. | BSMS 288:
+                                <emph>ḫatynyn</emph>. | ADub.III.73: <emph>qatynyn</emph>.</note>
+                        <note xml:id="Gen-012-fn4" type="footnote">JSul.IV.02A:
+                            <emph>verimin</emph>; probably a scribal error. | BSMS 288:
+                                <emph>berirmin</emph>. | ADub.III.73: <emph>berirmen</emph>.</note>
+                        <note xml:id="Gen-012-fn5" type="footnote">JSul.IV.02A:
+                                <emph>čadyryŋy</emph>; a scribal error. | BSMS 288:
+                                <emph>čatyryn</emph>. | ADub.III.73: <emph>čatyryn</emph>.</note>
+                        <note xml:id="Gen-012-fn6" type="footnote">JSul.IV.02A: <emph>diri</emph>
+                            <emph>qaldyryllar</emph>; a scribal error. | BSMS 288:
+                                <emph>tirgizirlär</emph>. | ADub.III.73: <emph>tiri
+                            tutarlar</emph>.</note>
+                        <note xml:id="Gen-012-fn7" type="footnote">JSul.IV.02A: <emph>diri</emph>
+                            <emph>qalɣy</emph>; a scribal error. | BSMS 288: <emph>tirilgäj</emph>.
+                            | ADub.III.73: <emph>tiri bolɣaj</emph>.</note>
+                        <note xml:id="Gen-012-fn8" type="footnote">JSul.IV.02A:
+                                <emph>ḫatynyŋy</emph>; a scribal error. | BSMS 288:
+                                <emph>ḫatynyn</emph>. | ADub.III.73: <emph>qatynyn</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
