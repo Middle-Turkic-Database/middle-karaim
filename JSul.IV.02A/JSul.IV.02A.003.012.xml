@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Leviticus 12</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Leviticus 12</title>
+                        <milestone unit="line" n="15" />
+                        <l xml:id="Lev-012-x001"><seg type="commented" corresp="#Lev-012-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פּדשׁתּ
+                                תזריע</foreign>
+                            <anchor type="commented" xml:id="Lev-012-seg001" /><ref n="1"
+                                target="#Lev-012-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="16" />
+                            <seg type="commented" corresp="#Lev-012-seg002" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וַיְדַבר יוָי אֶל משֶׁה
+                                לֵאמר </foreign>
+                            <anchor type="commented" xml:id="Lev-012-seg002" /><ref
+                                n="2" target="#Lev-012-fn2" type="noteAnchor" /></l>
+                        <l n="1" xml:id="Lev-012-001">Da sözlädi YWY Mošegä demä.</l>
+                        <l n="2" xml:id="Lev-012-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דבּר</foreign>
+                            <milestone unit="line" n="17" />
+                            Sözlägin oɣlanlaryna Jisraʾelniŋ demä ḫatyn ki urluq etsä
+                            <milestone unit="line" n="18" />
+                            da doɣursa erkäk da mundar bolsyn jedi günlär günläri gibi arsyzlyɣynyŋ nida-
+                            <milestone unit="line" n="19" />
+                            lyɣynyŋ mundar bolsyn.</l>
+                        <l n="3" xml:id="Lev-012-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וביום </foreign>
+                            Da ol sekizinǯi gündä sünätlänsin eti
+                            <milestone unit="line" n="20" />
+                            aqlafynyŋ.</l>
+                        <l n="4" xml:id="Lev-012-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁלשים </foreign>
+                            Da otuz üč günlär otursyn qanlary bilän temiz-
+                            <milestone unit="line" n="21" />
+                            liqniŋ hič qodešgä tijmäsin da ol miqdašqa gelmäsin tamam bolɣanyna degin
+                            <milestone unit="line" n="22" />
+                            günläri temizliginiŋ.</l>
+                        <l n="5" xml:id="Lev-012-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär tišini doɣursa da mundar bolsyn eki ḥafta
+                            <milestone unit="line" n="23" />
+                            nidalyɣy učun da altmyš alty günlär otursyn qanlary učun
+                            temizliginiŋ.</l>
+                        <milestone unit="line" n="24" />
+                        <l n="6" xml:id="Lev-012-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובמלאת </foreign>
+                            Da tamam bolɣanynda günläri temizliginiŋ oɣulɣa ja qyzɣa getirsin
+                            <milestone unit="line" n="25" />
+                            bir jašar qoj ʿolaɣa da balasyn gügürčinniŋ ja qumru ḥatatqa ešiginä ohel
+                            <milestone unit="page" n="103v" />
+                            <milestone unit="line" n="1" />
+                            moʿedniŋ ol kohengä .</l>
+                        <l n="7" xml:id="Lev-012-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והקריבו </foreign>
+                            Da juvuqlaštyrsyn any aldyna YWY-nyŋ da kapara
+                            <milestone unit="line" n="2" />
+                            ätsin üstünä da aruv bolsyn čoqraɣyndan qanlarynyŋ budyr torasy ol
+                            <milestone unit="line" n="3" />
+                            doɣurɣannyŋ erkäkni ja tišini.</l>
+                        <l n="8" xml:id="Lev-012-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär jetmäsä quvaty qojɣa da alsyn
+                            <milestone unit="line" n="4" />
+                            eki qumrular ja eki balalaryn kögürčinniŋ birni ʿolaɣa da birni ḥatatqa
+                            da kapara
+                            <milestone unit="line" n="5" />
+                            etsin üstünä ol kohen da temiz olur.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Lev-012-fn1" type="footnote">The weekly Torah portion:
+                            Parashot Tazria (Lev 12:1–13:59).</note>
+                        <note xml:id="Lev-012-fn2" type="footnote">Lev 12:1 in Biblical
+                            Hebrew.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Leviticus 25</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Leviticus 25</title>
+                        <milestone unit="line" n="7" />
+                        <l xml:id="Lev-025-x001"><anchor type="commented" xml:id="Lev-025-seg002"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁתּ בהר </foreign>
+                            <ref n="1" target="#Lev-025-fn1" type="noteAnchor" /><seg
+                                type="commented" corresp="#Lev-025-seg001" /></l>
+                        <milestone unit="line" xml:id="Lev025-P117r-L8" n="8"
+                            prev="JSul.IV.02A.003.024.xml#Lev024-P117r-L8" />
+                        <l n="1" xml:id="Lev-025-001">Da sözlädi YWY Mošegä
+                            <milestone unit="line" n="9" />
+                            taɣynda Sinajnyŋ demä.</l>
+                        <l n="2" xml:id="Lev-025-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דבר </foreign>
+                            Sözlägin oɣlanlaryna Jisraʾel-
+                            <milestone unit="line" n="10" />
+                            niŋ da ajtqyn alarɣa ki gelsäŋiz ol jergä ki men ver<supplied
+                                reason="lost">ӓ</supplied>jdirmin<ref n="2" target="#Lev-025-fn2"
+                                type="noteAnchor" /> sizgä da šemita
+                            <milestone unit="line" n="11" />
+                            bolsyn ol jer šemita YWY-ɣa.</l>
+                        <l n="3" xml:id="Lev-025-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">שׁשׁ </foreign>
+                            Alty jyllar sačqyn tarluvuŋny da alty
+                            <milestone unit="line" n="12" />
+                            jyllar butaɣyn borlalyɣyŋny da toplaɣyn maḫsulyny.</l>
+                        <l n="4" xml:id="Lev-025-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובשׁנה </foreign>
+                            Da ol jedinǯi jylda
+                            <milestone unit="line" n="13" />
+                            šabat šabaton bolsyn jergä šemita YWY-ɣa tarlovuŋny sačmaɣyn da borlalyɣyŋny
+                            <milestone unit="line" n="14" />
+                            butamaɣyn.</l>
+                        <l n="5" xml:id="Lev-025-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">את </foreign>
+                            Oraɣyŋnyŋ kijigini ormaɣyn da danelärin borlalaryŋnyŋ
+                            <milestone unit="line" n="15" />
+                            čöplämägin šemita jyly bolsyn jergä.</l>
+                        <l n="6" xml:id="Lev-025-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיתה </foreign>
+                            Da bolsyn šemitasy ol
+                            <milestone unit="line" n="16" />
+                            jerniŋ sizgä ašamaɣa saŋa da quluŋa da qaravašyŋa da yrɣatɣa da müsäfirgä
+                            <milestone unit="line" n="17" />
+                            ol tirilgänlär birgäŋä.</l>
+                        <l n="7" xml:id="Lev-025-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולבהמתךָ </foreign>
+                            Da tuvaryŋa da kijikä ki jerindä bolsyn
+                            <milestone unit="line" n="18" />
+                            ǯümlä taḫyly ašamaɣa.</l>
+                        <l n="8" xml:id="Lev-025-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וספרתּ </foreign>
+                            Da sanaɣyn özüŋä jedi šemitalaryn jyllarnyŋ
+                            <milestone unit="line" n="19" />
+                            jedi jyllar jedi kerätlär da bolarlar saŋa günläri jedi šemitalarynyŋ ol jyllarnyŋ
+                            <milestone unit="line" n="20" />
+                            qyrq toquz jylda.</l>
+                        <l n="9" xml:id="Lev-025-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והעברתּ </foreign>
+                            Da gečirgin qyčqyrmaq šofar sesini ol jedinǯi
+                            <milestone unit="line" n="21" />
+                            ajda onunda ol ajnyŋ ol kipurim günündä gečiriŋiz šofar sesini
+                            <milestone unit="line" n="22" />
+                            ǯümlä jeriŋizdä.</l>
+                        <l n="10" xml:id="Lev-025-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וקדשׁתם </foreign>
+                            Da ajruḫsy etiŋiz ol ellinǯi jylnyŋ senesini
+                            <milestone unit="line" n="23" />
+                            da čaqyryŋyz maʿaflyq jerde ǯümlä oturyvčylaryna joveldir ol bolsyn sizgä
+                            <milestone unit="page" n="117v" />
+                            <milestone unit="line" n="1" />
+                            da qajtyŋyz här kiši tutuvlyɣyna da här kiši mišpaḥasyna qajtyŋyz.</l>
+                        <l n="11" xml:id="Lev-025-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יובל </foreign>
+                            Jovel-
+                            <milestone unit="line" n="2" />
+                            dir ol jyly ol ellinǯi jylnyŋ bolsyn sizgä sačmaŋyz da ormaŋyz kijiklerini
+                            <milestone unit="line" n="3" />
+                            da čöplämäŋiz danälärini (ambarlarɣa<ref n="3" target="#Lev-025-fn3"
+                                type="noteAnchor" />).</l>
+                        <l n="12" xml:id="Lev-025-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki joveldir ol qodeš bolsyn
+                            <milestone unit="line" n="4" />
+                            sizgä ol tarlovdan alyp ašaŋyz kijik maḫsulyny.</l>
+                        <l n="13" xml:id="Lev-025-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בשׁנת </foreign>
+                            Jylynda
+                            <milestone unit="line" n="5" />
+                            ušbu jovelniŋ qajtyŋyz här kiši tutuvlyɣyna.</l>
+                        <l n="14" xml:id="Lev-025-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכי </foreign>
+                            Da egär satsaŋyz satuv
+                            <milestone unit="line" n="6" />
+                            dostuŋa ja satyn alma satyn alsaŋ qolundan dostuŋnyŋ qyjnamaŋyz kiši
+                            <milestone unit="line" n="7" />
+                            qardašyny.</l>
+                        <l n="15" xml:id="Lev-025-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">במספר </foreign>
+                            Sany bilän jyllarnyŋ ol joveldän soŋra satyn alɣyn
+                            <milestone unit="line" n="8" />
+                            (jovelge degin<ref n="4" target="#Lev-025-fn4" type="noteAnchor" />)
+                            qatyndan dostuŋnyŋ sany bilän maḫsul jyllarynyŋ satsyn saŋa.</l>
+                        <milestone unit="line" n="9" />
+                        <l n="16" xml:id="Lev-025-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לפי </foreign>
+                            Čoqlyɣyna görä ol jyllarnyŋ čoq etkin satuvuny da azlyɣyna görä
+                            <milestone unit="line" n="10" />
+                            ol jyllarnyŋ az etkin satuvuny zira satyn maḫsullarnyŋ ol satyjyr
+                            saŋa.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="17" xml:id="Lev-025-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולא </foreign>
+                            Da qyjnamaŋyz kiši qardašydakini da qorqqyn Teŋriŋden zira menmin YWY
+                            <milestone unit="line" n="12" />
+                            Teŋriŋiz.</l>
+                        <l n="18" xml:id="Lev-025-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועשׁיתּם </foreign>
+                            Da qylyŋyz räsimlärimni da šaraʿatlarymny saqlaŋyz da qylyŋyz
+                            <milestone unit="line" n="13" />
+                            alarny da oturyrsyz ol jer üstünä eminlik bilän.</l>
+                        <l n="19" xml:id="Lev-025-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתנה </foreign>
+                            Da verir ol jer
+                            <milestone unit="line" n="14" />
+                            maḫsuluny da ašarsyz tojɣunča da oturursyz eminlik bilän üstünä.</l>
+                        <l n="20" xml:id="Lev-025-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכי</foreign>
+                            <milestone unit="line" n="15" />
+                            Da egär ajtsaŋyz ne ašalym ol jedinǯi jylda muna sačmasaq da toplamasaq
+                            <milestone unit="line" n="16" />
+                            taḫylymyzny.</l>
+                        <l n="21" xml:id="Lev-025-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וצויתי </foreign>
+                            Da symarlarmyn alɣyšymny sizgä ol altynǯy jylda
+                            <milestone unit="line" n="17" />
+                            da qylar ol taḫylny (mamur<ref n="5" target="#Lev-025-fn5"
+                                type="noteAnchor" />) üč ol jyllarɣa.</l>
+                        <l n="22" xml:id="Lev-025-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וזרעתם </foreign>
+                            Da sačarsyn ol sekizinǯi
+                            <milestone unit="line" n="18" />
+                            jylda da ašarsyz ol taḫyldan eskini ol doquzynǯy<ref n="6"
+                                target="#Lev-025-fn6" type="noteAnchor" /> jylɣa degin jeriškinǯä
+                            <milestone unit="line" n="19" />
+                            geleǯäk maḫsuly ašarsyz eskini.</l>
+                        <l n="23" xml:id="Lev-025-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והארץ </foreign>
+                            Da ol jer satylmasyn bašbatra
+                            <milestone unit="line" n="20" />
+                            (ömürlik<ref n="7" target="#Lev-025-fn7" type="noteAnchor" />) zira
+                            menimdir ol jer anǯa ɣariplär gibi da oturašlar gibi (oturyrsyz<ref
+                                n="8" target="#Lev-025-fn8" type="noteAnchor" />)
+                            <milestone unit="line" n="21" />
+                            sizlär birgämä.</l>
+                        <l n="24" xml:id="Lev-025-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובכל </foreign>
+                            Da ǯümlä jerindä tutuvluɣyŋyznyŋ ḫylaslyq veriniz
+                            <milestone unit="line" n="22" />
+                            ol jergä.</l>
+                        <l n="25" xml:id="Lev-025-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki zügürtläsä qardašyŋ da satsa tutuvluɣyndan
+                            <milestone unit="line" n="23" />
+                            da gelsä ḫylas etivčisi ol juvuq aŋar da ḫylas idsin satqanyŋ
+                            qardašynyŋ. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ואישׁ</foreign>
+                            <milestone unit="line" n="24" />
+                            da gelsä ḫylas etivčisi ol juvuq aŋar da ḫylas idsin satqanyŋ
+                            qardašynyŋ. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ואישׁ</foreign>
+                        </l>
+                        <milestone unit="line" n="25" />
+                        <l n="27" xml:id="Lev-025-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחשׁב </foreign>
+                            Da ḥesab etsin jyllaryn satuvunyŋ da qajtarsyn ol artqanny ol kišigä ki
+                            <milestone unit="page" n="118r" />
+                            <milestone unit="line" n="1" />
+                            satty aŋar da qajtsyn tutuvluɣyna.</l>
+                        <l n="28" xml:id="Lev-025-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär jetmäsä quvaty qajtarmaɣa aŋar
+                            <milestone unit="line" n="2" />
+                            da bolsyn satuvu qolunda ol satyn alyvčynyŋ any ol jovel jyly<supplied
+                                reason="lost">n</supplied>a<ref n="9" target="#Lev-025-fn9"
+                                type="noteAnchor" /> degin
+                            <milestone unit="line" n="3" />
+                            da čyqsyn joveldä da qajtsyn tutuvluɣyna.</l>
+                        <l n="29" xml:id="Lev-025-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואישׁ </foreign>
+                            Da kiši ki satsa oturaš ev
+                            <milestone unit="line" n="4" />
+                            qalaly šäḥärdä da bolsyn vaʿdäsi ḫylaslyɣynyŋ tamam bolɣanyna degin jyly satuvunyŋ
+                            <milestone unit="line" n="5" />
+                            bir jyl bolsyn vaʿdäsi ḫylaslyɣynyŋ</l>
+                        <l n="30" xml:id="Lev-025-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär ḫylas olunmasa dolɣynǯa aŋar
+                            <milestone unit="line" n="6" />
+                            tamam jyl da muqam bolsyn ol ev ki ol šäḥärdä ki var aŋar qala bašbatra
+                            <milestone unit="line" n="7" />
+                            (ömürlik) satyn alyvčyɣa any dävürlärinä ḫylas čyqmasyn joveldä.</l>
+                        <l n="31" xml:id="Lev-025-031"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובתי </foreign>
+                            Da evläri
+                            <milestone unit="line" n="8" />
+                            ol salalarnyŋ ki joqtyr alarɣa qala čüpčüvrä tuzu bilän ol jerniŋ sajylyr
+                            <milestone unit="line" n="9" />
+                            ḫylaslyq bolsyn aŋar da joveldä ḫylas čyqsyn.</l>
+                        <l n="32" xml:id="Lev-025-032"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וערי </foreign>
+                            Da šäḥärläri ol Levi-
+                            <milestone unit="line" n="10" />
+                            lilärniŋ evläri šäḥärläriniŋ tutuvlyqlarynyŋ ömürlik <supplied
+                                reason="lost">ḫ</supplied>ylaslyɣy<ref n="10" target="#Lev-025-fn10"
+                                type="noteAnchor" /> bolsyn Levi-
+                            <milestone unit="line" n="11" />
+                            lilärgä.</l>
+                        <l n="33" xml:id="Lev-025-033"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואשׁר </foreign>
+                            Da egär ḫylas idsä birsi ol Levilärdän da ḫylas čyqsyn
+                            <milestone unit="line" n="12" />
+                            satuvu evniŋ da šäḥäri tutuvluɣynyŋ joveldä zira evläri šäḥärläriniŋ ol Levi-
+                            <milestone unit="line" n="13" />
+                            lärniŋ oldyr tutuvlyqlary ortasynda oɣlanlarynyŋ Jisraʾelniŋ.</l>
+                        <l n="34" xml:id="Lev-025-034"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁדה</foreign>
+                            <milestone unit="line" n="14" />
+                            Da tarlovu salasynyŋ šäḥärläriniŋ satylmasyn ki tutuvluɣy dunjanyŋdyr ol
+                            alarɣa.</l>
+                        <milestone unit="line" n="15" />
+                        <l n="35" xml:id="Lev-025-035"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכי </foreign>
+                            Da egär zügürtläsä dindaš qardašyŋ da tajsa qolu birgäŋä da
+                                quvat<supplied reason="lost">l</supplied>andyrɣyn<ref n="11"
+                                target="#Lev-025-fn11" type="noteAnchor" /> any
+                            <milestone unit="line" n="16" />
+                            gerek ɣaripni gerek müsäfirni da gečinsin birgäŋä.</l>
+                        <l n="36" xml:id="Lev-025-036"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אל </foreign>
+                            Almaɣyn janyndan faʾiz ne
+                            <milestone unit="line" n="17" />
+                            mamele faʾizni da qorqqyn Teŋriŋizdän da gečinsin qardašyŋ birgäŋä.</l>
+                        <l n="37" xml:id="Lev-025-037"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">את </foreign>
+                            Aḫčaŋny
+                            <milestone unit="line" n="18" />
+                            vermägin aŋar faʾizgä da fajdaɣa vermägin ašyŋny.</l>
+                        <l n="38" xml:id="Lev-025-038"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אני </foreign>
+                            Menmin YWY Teŋriŋiz
+                            <milestone unit="line" n="19" />
+                            ki čyɣardym sizni Mysyr jerindän vermä sizgä Kenaʿan jerini bolma sizgä
+                            <milestone unit="line" n="20" />
+                            Teŋrigä.</l>
+                        <l n="39" xml:id="Lev-025-039"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכי </foreign>
+                            Da egär zügürtläsä dindaš qardašyŋ ki birgäŋä da satylsa saŋa qullanmaɣyn
+                            <milestone unit="line" n="21" />
+                            any qulluɣyn qulnyŋ.</l>
+                        <l n="40" xml:id="Lev-025-040"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כשׁכיר </foreign>
+                            Yrɣat gibi müsäfir gibi bolsyn birgäŋä jylyna
+                            <milestone unit="line" n="22" />
+                            degin ol jovelniŋ qulluq etsin birgäŋä.</l>
+                        <l n="41" xml:id="Lev-025-041"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצא </foreign>
+                            Da čyqsyn janyndan ol da oɣlanlary
+                            <milestone unit="line" n="23" />
+                            birgäsinä da qajtsyn mišpaḥasyna da tutuvluɣyna atalarynyŋ qajtsyn.</l>
+                        <l n="42" xml:id="Lev-025-042"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Zira
+                            <milestone unit="line" n="24" />
+                            qullarymdyr alar ki čyɣardym alarny Mysyr jerindän satylmasynlar
+                            satylmaɣyn qulnyŋ.</l>
+                        <milestone unit="line" n="25" />
+                        <l n="43" xml:id="Lev-025-043"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                            Erklänmägin aŋar zor bilän da qorqq<supplied reason="lost"
+                                >y</supplied>n<ref n="12" target="#Lev-025-fn12" type="noteAnchor"
+                             /> Teŋriŋizdän.</l>
+                        <l n="44" xml:id="Lev-025-044"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועבדךָ </foreign>
+                            Da quluŋ da qaravašyŋ
+                            <milestone unit="page" n="118v" />
+                            <milestone unit="line" n="1" />
+                            ki bolsalar saŋa janyndan ol uluslarnyŋ ki čüpčüvräläriŋizgä alardan satyn
+                            <milestone unit="line" n="2" />
+                            alyŋyz qul da qaravaš.</l>
+                        <l n="45" xml:id="Lev-025-045"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וגם </foreign>
+                            Da daɣyn oɣlanlaryndan ol oturašlarnyŋ ol tirilgänlär
+                            <milestone unit="line" n="3" />
+                            birgäŋizgä alardan satyn alyŋyz da mišpaḥalaryndan ki birgäŋizgä ki doɣursalar
+                            <milestone unit="line" n="4" />
+                            jeriŋizdä da bolsynlar sizgä tutuvlyqqa.</l>
+                        <l n="46" xml:id="Lev-025-046"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והתנחלתם </foreign>
+                            Da üliš alyp üläširsiz alarny
+                            <milestone unit="line" n="5" />
+                            oɣlanlaryŋyzɣa artyŋyzdan meräslämägä tutuvlyq dunjaɣa degin alarny qullanyŋyz
+                            <milestone unit="line" n="6" />
+                            da qardašlaryŋyzɣa oɣlanlary Jisraʾelniŋ kiši qardašyna erklänmägin aŋar
+                            zor bilän.</l>
+                        <milestone unit="line" n="7" />
+                        <l n="47" xml:id="Lev-025-047"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכי </foreign>
+                            Da aŋar jetsä quvaty ɣaripniŋ ja oturašnyŋ birgäŋä da zügürtläsä
+                            qardašyŋ ki
+                            <milestone unit="line" n="8" />
+                            birgäsinä da satylsa ɣaripkä oturašqa ki birgäŋä ja ɣoj temelinä mišpaḥasyna
+                            <milestone unit="line" n="9" />
+                            ɣaripniŋ.</l>
+                        <l n="48" xml:id="Lev-025-048"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אחרי </foreign>
+                            Satylɣanyndan soŋra ḫylaslyq bolsyn aŋar birsi qardašlaryndan
+                            <milestone unit="line" n="10" />
+                            ḫylas idsin any.</l>
+                        <l n="49" xml:id="Lev-025-049"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">או </foreign>
+                            Ja aɣačasy ja oɣly aɣačasynyŋ ḫylas idsin ja juvuɣyndan
+                            <milestone unit="line" n="11" />
+                            teniniŋ mišpaḥasyndan ḫylas idsin any ja jetsä quvaty da özi ḫylas
+                            ulynsyn.</l>
+                        <l n="50" xml:id="Lev-025-050"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחשׁב</foreign>
+                            <milestone unit="line" n="12" />
+                            Da ḥesap etsin satyn alyvčysy bilän satyldyɣy jylyndan aŋar jylyna degin
+                            ol jovelniŋ
+                            <milestone unit="line" n="13" />
+                            da bolsyn gümüši satuvunyŋ sany bilän jyllarnyŋ günläri gibi yrɣatnyŋ
+                            bolsyn birgäsinä.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="51" xml:id="Lev-025-051"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Egär daɣyn čoq qaldy esä jyllardan alarɣa görä qajtarsyn ḫylaslyɣyny gümüšindän
+                            <milestone unit="line" n="15" />
+                            satuvunyŋ.</l>
+                        <l n="52" xml:id="Lev-025-052"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär az qaldy esä jyllardan jylyna degin ol jovelniŋ da ḥesab
+                            <milestone unit="line" n="16" />
+                            etsin aŋar jyllarɣa görä da qajtarsyn ḫylaslyɣyny.</l>
+                        <l n="53" xml:id="Lev-025-053"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כשׁכיר </foreign>
+                            yrɣat gibi jyldan
+                            <milestone unit="line" n="17" />
+                            jylɣa bolsyn birgäsinä erklänmäsin aŋar zor bilän gözläriŋčä.</l>
+                        <l n="54" xml:id="Lev-025-054"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär
+                            <milestone unit="line" n="18" />
+                            ḫylas olmasa bular bilän da čyqsyn jylynda ol jovelniŋ ol da oɣlanlary
+                            <milestone unit="line" n="19" />
+                            birgäsinä.</l>
+                        <l n="55" xml:id="Lev-025-055"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Zira maŋa oɣlanlary Jisraʾelniŋ qullar qullarymdyr alar
+                            <milestone unit="line" n="20" />
+                            ki čyɣardym alarny Mysyr jerindän menmin YWY Täŋriŋiz.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Lev-025-fn1" type="footnote">The weekly Torah portion:
+                            Parashot Behar (Lev 25:1–26:2).</note>
+                        <note xml:id="Lev-025-fn2" type="footnote">JSul.IV.02A:
+                                <emph>verijdirmin</emph>; probably a scribal error. | BSMS 288:
+                                <emph>berӓjdirmen</emph>. | ADub.III.73:
+                            <emph>beŕamen</emph>.</note>
+                        <note xml:id="Lev-025-fn3" type="footnote">JSul.IV.02A: Unvocalized
+                            text.</note>
+                        <note xml:id="Lev-025-fn4" type="footnote">JSul.IV.02A: Unvocalized
+                            text.</note>
+                        <note xml:id="Lev-025-fn5" type="footnote">JSul.IV.02A: Unvocalized
+                            text.</note>
+                        <note xml:id="Lev-025-fn6" type="footnote">JSul.IV.02A: Unvocalized
+                            text.</note>
+                        <note xml:id="Lev-025-fn7" type="footnote">JSul.IV.02A: A partially
+                            unvocalized text.</note>
+                        <note xml:id="Lev-025-fn8" type="footnote">JSul.IV.02A: A partially
+                            unvocalized text.</note>
+                        <note xml:id="Lev-025-fn9" type="footnote">JSul.IV.02A: <emph>jylyŋa</emph>;
+                            probably a scribal error. | BSMS 288: <emph>jylyna.</emph> |
+                            ADub.III.73: <emph>jylyna</emph>.</note>
+                        <note xml:id="Lev-025-fn10" type="footnote">JSul.IV.02A:
+                                <emph>kilӓsligi</emph>; probably a scribal error. | BSMS 288:
+                                <emph>julovu</emph>. | ADub.III.73: <emph>julumaq</emph>.</note>
+                        <note xml:id="Lev-025-fn11" type="footnote">JSul.IV.02A:
+                                <emph>quvatnandyrɣyn</emph>; a scribal error. | BSMS 288: <emph>kip
+                                tutqyn</emph>. | ADub.III.73: <emph>kipĺagin</emph>.</note>
+                        <note xml:id="Lev-025-fn12" type="footnote">JSul.IV.02A:
+                                <emph>qorqqan</emph>; a scribal error. | BSMS 288:
+                                <emph>qorqqyn</emph>. | ADub.III.73: <emph>qorqqun</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
