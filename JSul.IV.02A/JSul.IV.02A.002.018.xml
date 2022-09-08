@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Exodus 18</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Exodus 18</title>
+                        <milestone unit="line" n="13" />
+                        <l xml:id="Ex-018-x001"><anchor type="commented" xml:id="Ex-018-seg003"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁתּ
+                                יִתרו</foreign>
+                            <seg type="commented" corresp="#Ex-018-seg001" /><ref n="1"
+                                target="#Ex-018-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="14" />
+                            )<foreign xml:lang="he" style="unicode-bidi: embed;">וח</foreign>
+                            <anchor type="commented" xml:id="Ex-018-seg001" /> (<foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וַיִשְׁמַע יִתְּרוֺ </foreign>
+                            כּ<foreign xml:lang="he" style="unicode-bidi: embed;">הֵֹן מִדיָן חוֺתֵן
+                                משֶׁה אֶת </foreign>
+                            כּ</l>
+                        <l n="1" xml:id="Ex-018-001"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ָל אֲשֶׁר עָשָׂהְ אֱלהִֹים</foreign>
+                            <ref n="2" target="#Ex-018-fn2" type="noteAnchor" /><seg
+                                type="commented" corresp="#Ex-018-seg002" />
+                            <milestone unit="line" n="15" />
+                            Da ešitti Jitro väziri Midjannyŋ qajnatasy Mošeniŋ ǯümläni
+                            <milestone unit="line" n="16" />
+                            ki qyldy Täŋri Mošegä da Jisraʾel ulusyna ki čyɣardy YWY Jisraʾelni
+                            Mysyrdan.</l>
+                        <milestone unit="line" n="17" />
+                        <l n="2" xml:id="Ex-018-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקח </foreign>
+                            Da aldy Jitro qajnatasy Mošeniŋ Čiporany ḫatynyn Mošeniŋ jibirgänindän
+                            <milestone unit="line" n="18" />
+                            soŋra any.</l>
+                        <l n="3" xml:id="Ex-018-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתּ </foreign>
+                            Da eki oɣlanlaryny ki ady ol birsiniŋ Geršom ki ajtty
+                            <milestone unit="line" n="19" />
+                            ɣarip oldym jat jerdä.</l>
+                        <l n="4" xml:id="Ex-018-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושם </foreign>
+                            Da ady ol birsiniŋ Eliʿezer ki ajtty Täŋrisi
+                            <milestone unit="line" n="20" />
+                            atamnyŋ edi bolušlyɣymda da qutqardy meni qylyčyndan parʿonyŋ.</l>
+                        <l n="5" xml:id="Ex-018-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבא </foreign>
+                            Da geldi
+                            <milestone unit="line" n="21" />
+                            Jitro qajnatasy Mošeniŋ da oɣlanlary da ḫatyny Mošegä ol jabanɣa ki ol
+                            <milestone unit="line" n="22" />
+                            qonar edi anda taɣynda ol Täŋriniŋ.</l>
+                        <l n="6" xml:id="Ex-018-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty Mošegä men qajnataŋ
+                            <milestone unit="line" n="23" />
+                            Jitro geläjdirmin saŋa da ḫatynyŋ da edi oɣlanlary birgäsinä.</l>
+                        <l n="7" xml:id="Ex-018-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצא </foreign>
+                            Da čyqty Moše
+                            <milestone unit="line" n="24" />
+                            qaršysyna qajnatasynyŋ da baš urdy da öpti any da sordylar biri birsinä
+                            <milestone unit="page" n="69r" />
+                            <milestone unit="line" n="1" />
+                            selam da geldilär ol čadyrɣa.</l>
+                        <l n="8" xml:id="Ex-018-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויםפר </foreign>
+                            Da äkäjät etti Moše qajnatasyna
+                            <milestone unit="line" n="2" />
+                            ǯümläni ki qyldy YWY parʿoɣa da Mysyrlylarɣa säbäbi učun Jisraʾelniŋ
+                            <milestone unit="line" n="3" />
+                            ǯümlä ol emgäkni ki tapty alarny jolda da qutqardy alarny YWY.</l>
+                        <milestone unit="line" n="4" />
+                        <l n="9" xml:id="Ex-018-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחד </foreign>
+                            Da sevindi Jitro ǯümlä ol jaḫšylyq učun ki qyldy YWY Jisraʾelgä qutqardy
+                            <milestone unit="line" n="5" />
+                            any qolundan Mysyrlylarnyŋ.</l>
+                        <l n="10" xml:id="Ex-018-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty Jitro maḫtuvlydyr YWY ki qutqardy
+                            <milestone unit="line" n="6" />
+                            sizni qolundan Mysyrlylarnyŋ da qolundan parʿonyŋ ki qutqardy ol ulusny
+                            <milestone unit="line" n="7" />
+                            jükläri tibindän Mysyrlylarnyŋ. <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עתּ</foreign>
+                            הּ</l>
+                        <l n="11" xml:id="Ex-018-011">Da endi bildim ki bu jüktir YWY ǯümlä
+                            <milestone unit="line" n="8" />
+                            ol malʾaḫlardan ki söz bilän ki čajalyq ettilär qajtardy üstlärinä.</l>
+                        <l n="12" xml:id="Ex-018-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקח</foreign>
+                            <milestone unit="line" n="9" />
+                            Da aldy Jitro qajnatasy Mošeniŋ ʿola da qorbanlar Täŋrigä da geldi
+                            Aharon da ǯümlä
+                            <milestone unit="line" n="10" />
+                            qartlary Jisraʾelniŋ ašama ötmäk qajnatasy bilän Mošeniŋ aldyna ol
+                            <milestone unit="line" n="11" />
+                            Täŋriniŋ.</l>
+                        <l n="13" xml:id="Ex-018-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi taŋdasyndan da oturdy Moše šaraʿat etmä ol ulusqa
+                            <milestone unit="line" n="12" />
+                            da turdy ol ulus Moše aldyna ol ertädän ol ʿaḫšamɣa degin.</l>
+                        <l n="14" xml:id="Ex-018-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירא</foreign>
+                            <milestone unit="line" n="13" />
+                            Da gördi qajnatasy Mošeniŋ ǯümläni ki ol qylajdyr ol ulusqa da ajtty nedir
+                            <milestone unit="line" n="14" />
+                            ušbu iš ki sen qylajdyrsyn ol ulusqa nučun sen oturajdyrsen jalɣyz
+                            <milestone unit="line" n="15" />
+                            da ǯümlä ol ulus turajdyr aldyŋa ärtädän ʿaḫšamɣa degin.</l>
+                        <l n="15" xml:id="Ex-018-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty
+                            <milestone unit="line" n="16" />
+                            Moše qajnatasyna ki gelir maŋa ol ulus turmaɣa jolun Täŋriniŋ.</l>
+                        <l n="16" xml:id="Ex-018-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ja
+                            <milestone unit="line" n="17" />
+                            olsa alarɣa söz gelir maŋa da šaraʿat etärmin arasyna kišiniŋ da arasyna
+                            <milestone unit="line" n="18" />
+                            dostunyŋ da bildiri<supplied reason="lost">r</supplied>min<ref n="3"
+                                target="#Ex-018-fn3" type="noteAnchor" /> räsimlärin ol Täŋriniŋ da
+                            törälärin.</l>
+                        <l n="17" xml:id="Ex-018-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty
+                            <milestone unit="line" n="19" />
+                            qajnatasy Mošeniŋ aŋar jaḫšy dögüldir ol iš ki sen qylajdyrsen.</l>
+                        <l n="18" xml:id="Ex-018-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">נבל</foreign>
+                            <milestone unit="line" n="20" />
+                            Uplarma upralyrsyn daɣyn sen daɣyn ušbu ulus ki birgäŋä ki aɣyrdyr
+                            <milestone unit="line" n="21" />
+                            sendän ol iš bolaj almazsyn qylma any jalɣyz.</l>
+                        <l n="19" xml:id="Ex-018-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">עתּה </foreign>
+                            Endi ešitkin
+                            <milestone unit="line" n="22" />
+                            sözümä keŋäš beräjim saŋa da bolɣaj Täŋri birgäŋä bolɣyn sen ol ulus učun
+                            <milestone unit="line" n="23" />
+                            qaršysyna ol Täŋriniŋ da ketirgin sen ol sözlärni ol Täŋridän.</l>
+                        <l n="20" xml:id="Ex-018-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והזהרתה</foreign>
+                            <milestone unit="line" n="24" />
+                            Da tämbäh idkin alarɣa ol da räsimlärni da ol törälärni da bildirgin
+                            alarɣa ol
+                            <milestone unit="line" n="25" />
+                            jolny ki jürügäjlär anyŋ bilän da ol išni ki qylɣajlar.</l>
+                        <l n="21" xml:id="Ex-018-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואתּה </foreign>
+                            Da sen baqqyn
+                            <milestone unit="line" n="26" />
+                            ǯümlä ol ulustan quvatly kišilär qorquvčylary<ref n="4"
+                                target="#Ex-018-fn4" type="noteAnchor" /> Täŋriniŋ könü kišilär
+                            <milestone unit="page" n="69v" />
+                            <milestone unit="line" n="1" />
+                            ḫor etivčilär ḥaram malny da qojɣyn üstlärinä bijlärin biŋlärniŋ bijlärin
+                            <milestone unit="line" n="2" />
+                            jüzlärniŋ bijlärin ellilärniŋ da bijlärin oɣlanlarnyŋ.</l>
+                        <l n="22" xml:id="Ex-018-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁפטו </foreign>
+                            Da šaraʿat etsinlär
+                            <milestone unit="line" n="3" />
+                            ol ulusqa här vaḫtta da bolɣaj ǯümlä ol büjük išni getirsinlär saŋa
+                            <milestone unit="line" n="4" />
+                            da ǯümlä kiči išni šaraʿat etsinlär alar da jäŋil etkin jükni üstüŋdän
+                            <milestone unit="line" n="5" />
+                            da kötärsinlär birgäŋä.</l>
+                        <l n="23" xml:id="Ex-018-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אם </foreign>
+                            Egär ol ušbu išni qylsaŋ nečiki symarlasa
+                            <milestone unit="line" n="6" />
+                            saŋa Täŋri da bolaj alyrsyn turma da daɣyn ǯümlä ušbu ulus ornyna
+                            <milestone unit="line" n="7" />
+                            gelir esänlik bilän.</l>
+                        <l n="24" xml:id="Ex-018-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישׁמע </foreign>
+                            Da ešitti Moše sözinä qajnatasynyŋ da qyldy
+                            <milestone unit="line" n="8" />
+                            ǯümlä neni ki ajtty.</l>
+                        <l n="25" xml:id="Ex-018-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויבחר </foreign>
+                            Da sajlady Moše quvatly kišilär ǯümlä Jisraʾel-
+                            <milestone unit="line" n="9" />
+                            dän da verdi alar<supplied reason="lost">n</supplied>y<ref n="5"
+                                target="#Ex-018-fn5" type="noteAnchor" /> bašlar ol ulus üstünä
+                            bijläri biŋlärniŋ bijläri
+                            <milestone unit="line" n="10" />
+                            jüzlärniŋ bijläri ellilärniŋ da bijläri onlarnyŋ.</l>
+                        <l n="26" xml:id="Ex-018-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁפטו </foreign>
+                            Da šaraʿat etär edilär
+                            <milestone unit="line" n="11" />
+                            ol ulusqa här vaḫtta ol qaty išni getirir edilär Mošegä da ǯümlä
+                            <milestone unit="line" n="12" />
+                            ol kiči išni šaraʿat etär edilär alar.</l>
+                        <l n="27" xml:id="Ex-018-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישׁלח </foreign>
+                            Da uzatty Moše qajnatasyn
+                            <milestone unit="line" n="13" />
+                            da vardy özünä jerinä.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Ex-018-fn1" type="footnote">The weekly Torah portion: Parashot
+                            Yitro (Exo 18:1–20:22).</note>
+                        <note xml:id="Ex-018-fn2" type="footnote">The beginning part of Exo 18:1 in
+                            Biblical Hebrew.</note>
+                        <note xml:id="Ex-018-fn3" type="footnote">JSul.IV.02A:
+                                <emph>bildirimin</emph>; probably a scribal error. | BSMS 288:
+                                <emph>bildirirmin</emph>. | ADub.III.73:
+                            <emph>bildiremen</emph>.</note>
+                        <note xml:id="Ex-018-fn4" type="footnote">JSul.IV.02A:
+                                <emph>qorquvračylary</emph>; probably a scribal error. | BSMS 288:
+                                <emph>qorquvčylary</emph>. | ADub.III.73:
+                                <emph>qorquvčularyny</emph>.</note>
+                        <note xml:id="Ex-018-fn5" type="footnote">JSul.IV.02A: <emph>alarŋy</emph>;
+                            a scribal error. | BSMS 288: <emph>alarny</emph>. | ADub.III.73:
+                                <emph>alarny</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
