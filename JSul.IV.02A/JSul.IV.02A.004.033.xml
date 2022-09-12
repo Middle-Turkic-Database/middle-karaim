@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Numbers 33</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Numbers 33</title>
+                        <milestone unit="line" n="7" />
+                        <l xml:id="Num-033-x001"><seg type="commented" corresp="#Num-033-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁת
+                                מסעי</foreign>
+                            <anchor type="commented" xml:id="Num-033-seg001" /><ref n="1"
+                                target="#Num-033-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="8" />
+                            (ל<supplied reason="lost">ג</supplied>)<ref n="2" target="#Num-033-fn2"
+                                type="noteAnchor" />
+                            <seg type="commented" corresp="#Num-033-seg002" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אֵלֶה מַסְעֵי בְּנֵי
+                                יִשְׂרָאֵל אֲשֶׁר יָצְאוּ מֵאֶרֶץ מִצְרָיִם לְצִבְאוֹתָם
+                                בְּיַד</foreign>
+                        </l>
+                        <milestone unit="line" xml:id="Num033-P157v-L9" n="9"
+                            prev="JSul.IV.02A.004.032.xml#Num032-P157v-L9" />
+                        <l n="1" xml:id="Num-033-001">Bulardyr göčüvläri Jisraʾel oɣlaŋlarynyŋ
+                            <milestone unit="line" n="10" />
+                            ki čyqtylar Mysyr jerindän ǯyjynlarynǯa qolu bilän Mošeniŋ da
+                            Aharonnyŋ.</l>
+                        <milestone unit="line" n="11" />
+                        <l n="2" xml:id="Num-033-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויכתב </foreign>
+                            Da jazdy Moše bujruɣy bilän YWY-nyŋ čyqmaqlaryny ki alardyr göčüvmäkläri
+                            <milestone unit="line" n="12" />
+                            da bulardyr göčmäkläri čyɣyvlary.</l>
+                        <l n="3" xml:id="Num-033-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Raʿmesesdän ol burunɣy
+                            <milestone unit="line" n="13" />
+                            ajda on bešinǯi günündä ol burunɣy ajnyŋ säbäbindän ol Pesaḥ qorbany-
+                            <milestone unit="line" n="14" />
+                            ŋyznyŋ čyqtylar Jisraʾel oɣlanlary bijik qudrat bilän gözlärinčä ǯümlä
+                            <milestone unit="line" n="15" />
+                            Mysyrlylarnyŋ.</l>
+                        <l n="4" xml:id="Num-033-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ומצרים </foreign>
+                            Da Mysyrlylar göm<supplied reason="lost">ä</supplied>r<ref n="3"
+                                target="#Num-033-fn3" type="noteAnchor" /> edilär kim<supplied
+                                reason="lost">lä</supplied>r<supplied reason="lost"
+                                >n</supplied>i<ref n="4" target="#Num-033-fn4" type="noteAnchor" />
+                            ki urdy YWY
+                            <milestone unit="line" n="16" />
+                            alarda ǯümlä tuŋɣučny da abaqlaryna qyldy YWY šaraʿatlar.</l>
+                        <l n="5" xml:id="Num-033-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="17" />
+                            Jisraʾel oɣlanlary Raʿmesesdän da qondylar Sukotda.</l>
+                        <l n="6" xml:id="Num-033-006"><ref n="5" target="#Num-033-fn5"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Sukotdan
+                            <milestone unit="line" n="18" />
+                            da qondylar Etamda ki qyjyrynda ol jabannyŋ.</l>
+                        <l n="7" xml:id="Num-033-007"><ref n="6" target="#Num-033-fn6"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Etamdan da qajtty <supplied reason="lost">Pi</supplied><ref
+                                n="7" target="#Num-033-fn7" type="noteAnchor" />
+                            <milestone unit="line" n="19" />
+                            aldyna ol Ḥirotnyŋ ki aldyna Baʿal Čeponnyŋ da qondylar aldyna Migdol-
+                            <milestone unit="line" n="20" />
+                            nyŋ.</l>
+                        <l n="8" xml:id="Num-033-008"><ref n="8" target="#Num-033-fn8"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär aldyndan ol Ḥirotnyŋ da gečtilär ortasyndan ol däŋizniŋ
+                            <milestone unit="line" n="21" />
+                            ol jabanɣa da jürüdilär üč günlik ol jabanynda Etamnyŋ da qondylar
+                            Marada.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="9" xml:id="Num-033-009"><ref n="9" target="#Num-033-fn9"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Maradan da geldilär Elimgä da Elimdä on eki čoqraqly suvlarnyŋ
+                            <milestone unit="line" n="23" />
+                            da jetmiš ḫurma teräkläri da qondylar anda.</l>
+                        <l n="10" xml:id="Num-033-010"><ref n="10" target="#Num-033-fn10"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Elimdän da qondylar däŋizi
+                            <milestone unit="line" n="24" />
+                            janyna Sufnyŋ.</l>
+                        <l n="11" xml:id="Num-033-011"><ref n="11" target="#Num-033-fn11"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär däŋizindän Sufnyŋ da qondylar jabanynda Sinniŋ.</l>
+                        <milestone unit="page" n="158r" />
+                        <milestone unit="line" n="1" />
+                        <l n="12" xml:id="Num-033-012"><ref n="12" target="#Num-033-fn12"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär jabanyndan Sinniŋ da qondylar Dopqada.</l>
+                        <l n="13" xml:id="Num-033-013"><ref n="13" target="#Num-033-fn13"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Dofqadan
+                            <milestone unit="line" n="2" />
+                            da qondylar Alušda.</l>
+                        <l n="14" xml:id="Num-033-014"><ref n="14" target="#Num-033-fn14"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Alušdan da qondylar Refidimdä da jogedi
+                            <milestone unit="line" n="3" />
+                            anda suv ol ulusqa ičmägä.</l>
+                        <l n="15" xml:id="Num-033-015"><ref n="15" target="#Num-033-fn15"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Refidimdän da qondylar jabanynda
+                            <milestone unit="line" n="4" />
+                            Sinajnyŋ.</l>
+                        <l n="16" xml:id="Num-033-016"><ref n="16" target="#Num-033-fn16"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär jabanyndan Sinajnyŋ da qondylar Qivrot Taʾavada.</l>
+                        <l n="17" xml:id="Num-033-017"><ref n="17" target="#Num-033-fn17"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="5" />
+                            Qivrot da Taʾavadan da qondylar Ḥačerotda</l>
+                        <l n="18" xml:id="Num-033-018"><ref n="18" target="#Num-033-fn18"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Ḥačerotdan da qondylar
+                            <milestone unit="line" n="6" />
+                            Ritmada.</l>
+                        <l n="19" xml:id="Num-033-019"><ref n="19" target="#Num-033-fn19"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Ritmadan da qondylar Rimon Parečdä.</l>
+                        <l n="20" xml:id="Num-033-020"><ref n="20" target="#Num-033-fn20"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Rimon
+                            <milestone unit="line" n="7" />
+                            Parečdän da qondylar Livnada.</l>
+                        <l n="21" xml:id="Num-033-021"><ref n="21" target="#Num-033-fn21"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Livnadan da qondylar Risada.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="22" xml:id="Num-033-022"><ref n="22" target="#Num-033-fn22"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Risadan da qondylar Qehelatada.</l>
+                        <l n="23" xml:id="Num-033-023"><ref n="23" target="#Num-033-fn23"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Qehelatadan da qondylar
+                            <milestone unit="line" n="9" />
+                            Har Šaperdä.</l>
+                        <l n="24" xml:id="Num-033-024"><ref n="24" target="#Num-033-fn24"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Har Šaperdäŋ da qondylar Ḥaradada.</l>
+                        <l n="25" xml:id="Num-033-025"><ref n="25" target="#Num-033-fn25"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="10" />
+                            Haradadan da qondylar Maqhelotda.</l>
+                        <l n="26" xml:id="Num-033-026"><ref n="26" target="#Num-033-fn26"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Maqhelotdan da qondylar Tahat-
+                            <milestone unit="line" n="11" />
+                            da.</l>
+                        <l n="27" xml:id="Num-033-027"><ref n="27" target="#Num-033-fn27"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Tahatdan da qondylar Teraḥda.</l>
+                        <l n="28" xml:id="Num-033-028"><ref n="28" target="#Num-033-fn28"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Teraḥdan
+                            <milestone unit="line" n="12" />
+                            da qondylar Mitqada.</l>
+                        <l n="29" xml:id="Num-033-029"><ref n="29" target="#Num-033-fn29"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Mitqadan da qondylar Ḥašmonada.</l>
+                        <l n="30" xml:id="Num-033-030"><ref n="30" target="#Num-033-fn30"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="13" />
+                            Ḥašmonadan da qondylar Moserotda.</l>
+                        <l n="31" xml:id="Num-033-031"><ref n="31" target="#Num-033-fn31"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Moserotdan da qondylar Bene
+                            <milestone unit="line" n="14" />
+                            Jaʿaqanda.</l>
+                        <l n="32" xml:id="Num-033-032"><ref n="32" target="#Num-033-fn32"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Bene Jaʿaqandan da qondylar Har ol Gidgadda.</l>
+                        <l n="33" xml:id="Num-033-033"><ref n="33" target="#Num-033-fn33"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="15" />
+                            Har ol Gidgaddan da qondylar Jotvatada.</l>
+                        <l n="34" xml:id="Num-033-034"><ref n="34" target="#Num-033-fn34"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Jotvatadan da qondylar
+                            <milestone unit="line" n="16" />
+                            ʿAvronada.</l>
+                        <l n="35" xml:id="Num-033-035"><ref n="35" target="#Num-033-fn35"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär ʿAvronadan da ɣondylar ʿEčjon Gaverdä.</l>
+                        <l n="36" xml:id="Num-033-036"><ref n="36" target="#Num-033-fn36"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="17" />
+                            ʿEčjon Gaverdän da qondylar jabanynda Činniŋ oldyr Qadeš.</l>
+                        <l n="37" xml:id="Num-033-037"><ref n="37" target="#Num-033-fn37"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Qadešdän
+                            <milestone unit="line" n="18" />
+                            da qondylar Hor Haharda qyjyrynda jeriniŋ Edomnyŋ.</l>
+                        <l n="38" xml:id="Num-033-038"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויעל </foreign>
+                            Da čyqty Aharon
+                            <milestone unit="line" n="19" />
+                            ol kohen Hor Haharɣa bujruɣy bilän YWY-nyŋ da öldi anda ol qyrqynǯy jylda
+                            <milestone unit="line" n="20" />
+                            čyqqanyna Jisraʾel oɣlanlarynyŋ Mysyr jerindä ol bäšinǯi ajda birindä ol
+                            <milestone unit="line" n="21" />
+                            ajnyŋ.</l>
+                        <l n="39" xml:id="Num-033-039"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואהרן </foreign>
+                            Da Aharon jüz jegirmi üč jašar kiši edi ölgänindä <seg type="commented"
+                                corresp="#Num-033-seg003" />H<supplied reason="lost">o</supplied>r
+                                Hah<supplied reason="lost">a</supplied>r-
+                            <milestone unit="line" n="22" />
+                            da<anchor type="commented" xml:id="Num-033-seg003" /><ref n="38"
+                                target="#Num-033-fn38" type="noteAnchor" />.</l>
+                        <l n="40" xml:id="Num-033-040"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וישׁמע </foreign>
+                            Da ešitti ol Kenaʿanly ʿArad ḫany da ol oturyr edi qyblada.
+                            <milestone unit="line" n="23" />
+                            Kenaʿan jerindä gelgändä Jisraʾel oɣlanlary (Hor Hararɣa)<ref n="39"
+                                target="#Num-033-fn39" type="noteAnchor" />.</l>
+                        <l n="41" xml:id="Num-033-041"><ref n="40" target="#Num-033-fn40"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Hor Harardan
+                            <milestone unit="line" n="24" />
+                            da qondylar Čalmonada.</l>
+                        <l n="42" xml:id="Num-033-042"><ref n="41" target="#Num-033-fn41"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Čalmonadan da qondylar Punindä.</l>
+                        <l n="43" xml:id="Num-033-043"><ref n="42" target="#Num-033-fn42"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär
+                            <milestone unit="line" n="25" />
+                            Punindän da qondylar Ovotda.</l>
+                        <l n="44" xml:id="Num-033-044"><ref n="43" target="#Num-033-fn43"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Ovotdan da qondylar synorynda Moʾav-
+                            <milestone unit="line" n="26" />
+                            nyŋ.</l>
+                        <l n="45" xml:id="Num-033-045"><ref n="44" target="#Num-033-fn44"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Ijimdän<ref n="45" target="#Num-033-fn45" type="noteAnchor"
+                             /> da qondylar Divon <supplied reason="lost">Gad</supplied>ɣa<ref
+                                n="46" target="#Num-033-fn46" type="noteAnchor" />.</l>
+                        <l n="46" xml:id="Num-033-046"><ref n="47" target="#Num-033-fn47"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär Divon Gaddan da qondylar ʿAlmon
+                            <milestone unit="page" n="158v" />
+                            <milestone unit="line" n="1" />
+                            Divlataimdä.</l>
+                        <l n="47" xml:id="Num-033-047"><ref n="48" target="#Num-033-fn48"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär ʿAlmon Divlataimdän da qondylar taɣlarynda ol
+                            <milestone unit="line" n="2" />
+                            ol gečivlärniŋ aldyna Nevonyŋ.</l>
+                        <l n="48" xml:id="Num-033-048"><ref n="49" target="#Num-033-fn49"
+                                type="noteAnchor" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויסעו </foreign>
+                            Da göčtilär daɣlaryndan ol gečivlärniŋ da qondylar
+                            <milestone unit="line" n="3" />
+                            tüzlärindä Moʾavnyŋ Jardeni janyna Jereḥonyŋ.</l>
+                        <l n="49" xml:id="Num-033-049"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויחנו </foreign>
+                            Da qondylar ol Jarden
+                            <milestone unit="line" n="4" />
+                            janynda Bet ol Ješimotdan alyp ta Avel Hašitimgä dägin tüzlärindä
+                            <milestone unit="line" n="5" />
+                            Moʾavnyŋ.</l>
+                        <l n="50" xml:id="Num-033-050"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sözlädi YWY Mošegä tüzlärindä Moʾavnyŋ Jardeni janyna
+                            <milestone unit="line" n="6" />
+                            Jereḥonyŋ demä.</l>
+                        <l n="51" xml:id="Num-033-051"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">דבר </foreign>
+                            Sözlägin Jisraʾel oɣlanlaryna da ajtqyn alarɣa saḥi
+                            <milestone unit="line" n="7" />
+                            siz gečäjdirsiz ol Jardenni gečmägä jerinä Kenaʿannyŋ.</l>
+                        <l n="52" xml:id="Num-033-052"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והורשׂתּם </foreign>
+                            Da qajyb itiŋiz
+                            <milestone unit="line" n="8" />
+                            ǯümlä ol jerniŋ oturyɣčylaryny aldyŋyzdan da tas etiŋiz ǯümlä pušamaqly
+                            <milestone unit="line" n="9" />
+                            dašlaryny da ǯümlä dökmä sepatlaryny ǯojuŋyz da ǯümlä öksek ǯamilärini
+                            <milestone unit="line" n="10" />
+                            aḫtaryp ǯojuŋyz.</l>
+                        <l n="53" xml:id="Num-033-053"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והורשׁתם </foreign>
+                            Da meräsläŋiz ol jerni da oturuŋyz anda zira sizgä
+                            <milestone unit="line" n="11" />
+                            verdim ol jerni meräslämägä any.</l>
+                        <l n="54" xml:id="Num-033-054"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והתנחלתם </foreign>
+                            Da üläšiniŋiz ol jerni ček bilän
+                            <milestone unit="line" n="12" />
+                            mišpaḥalaryŋyzɣa čoqqa čoq veriŋiz ülüšini da azɣa az veriŋiz ülüšini nerägä
+                            <milestone unit="line" n="13" />
+                            ki čyqsa aŋar anda ol ček aŋar bolsyn ševetlärinǯä atalaryŋyznyŋ
+                            üläšiniŋiz.</l>
+                        <milestone unit="line" n="14" />
+                        <l n="55" xml:id="Num-033-055"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואם </foreign>
+                            Da egär qajyp idmäsäŋiz ol jerniŋ oturyvčylaryny aldyŋyzdan da bolɣaj ki
+                            <milestone unit="line" n="15" />
+                            qaldyrsaŋyz alardan tegänäklärgä gözläriŋizgä da kičitkänlärgä
+                            janlaryŋyzɣa olyrlar
+                            <milestone unit="line" n="16" />
+                            da tar verirlär sizgä ol jer üstünä ki siz oturajdyrsyz anda.</l>
+                        <l n="56" xml:id="Num-033-056"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolɣaj
+                            <milestone unit="line" n="17" />
+                            nečiki fikir ettim qylmaɣa alarɣa alaj qylarmyn sizgä.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Num-033-fn1" type="footnote">The weekly Torah portion of the
+                            Book: Parashot Masei (Num 33:1–36:13).</note>
+                        <note xml:id="Num-033-fn2" type="footnote">JSul.IV.02A: <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">לה</foreign>
+                            ; scribal error.</note>
+                        <note xml:id="Num-033-fn3" type="footnote">JSul.IV.02A: Spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">גוֹמר</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Num-033-fn4" type="footnote">JSul.IV.02A:
+                                <emph>kimälrägi</emph>; a scribal error.</note>
+                        <note xml:id="Num-033-fn5" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn6" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn7" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                            Pi. | ADub.III.73: Pi.</note>
+                        <note xml:id="Num-033-fn8" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn9" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn10" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn11" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn12" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn13" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn14" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn15" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn16" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn17" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn18" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn19" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn20" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn21" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn22" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn23" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn24" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn25" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn26" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn27" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn28" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn29" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn30" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn31" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn32" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn33" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn34" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn35" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn36" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn37" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn38" type="footnote">JSul.IV.02A: Spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">הׇהרדַה הר</foreign>
+                            ; a scribal error.</note>
+                        <note xml:id="Num-033-fn39" type="footnote">JSul.IV.02A: Unvocalized
+                            text.</note>
+                        <note xml:id="Num-033-fn40" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn41" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn42" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn43" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn44" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn45" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <emph>Ijimdän. </emph>| ADub.III.73:</note>
+                        <note xml:id="Num-033-fn46" type="footnote">JSul.IV.02A:
+                                <emph>Divonɣa</emph>; a scribal error. | BSMS 288: <emph>Divon
+                                Gadda. </emph>| ADub.III.73:</note>
+                        <note xml:id="Num-033-fn47" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn48" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                        <note xml:id="Num-033-fn49" type="footnote">JSul.IV.02A: deest. | BSMS 288:
+                                <foreign xml:lang="he" style="unicode-bidi: embed;">ויסעו</foreign>
+                            . | ADub.III.73: <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויסעו</foreign>
+                            .</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

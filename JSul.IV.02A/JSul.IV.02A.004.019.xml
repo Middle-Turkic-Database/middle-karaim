@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Numbers 19</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Numbers 19</title>
+                        <milestone unit="line" n="3" />
+                        <l xml:id="Num-019-x001"><seg type="commented" corresp="#Num-019-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁת
+                                קרח</foreign>
+                            <anchor type="commented" xml:id="Num-019-seg001" /><ref n="1"
+                                target="#Num-019-fn1" type="noteAnchor" />
+                            <milestone unit="line" n="4" />
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">יט</foreign>)
+                            <seg type="commented" corresp="#Num-019-seg002" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וַיְדַבֵר יוי אֶל משֶׁה
+                                וְאֶל אַהֲרן לֵאמר</foreign>
+                            <anchor type="commented" xml:id="Num-019-seg002" /><ref n="2"
+                                target="#Num-019-fn2" type="noteAnchor" /></l>
+                        <l n="1" xml:id="Num-019-001">Da sözlädi YWY Moše-
+                            <milestone unit="line" n="5" />
+                            gä da Aharonɣa demä.</l>
+                        <l n="2" xml:id="Num-019-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זאת </foreign>
+                            Budyr räsimi ol tora-
+                            <milestone unit="line" n="6" />
+                            nyŋ ki symarlady YWY demä sözlägin Jisraʾel oɣlanlaryna da alsynlar
+                            <milestone unit="line" n="7" />
+                            saŋa saɣlam qyrmyzy inäk ki joqtyr anda ḥillä ki čyqmady
+                            <milestone unit="line" n="8" />
+                            üstünä bojunsa.</l>
+                        <l n="3" xml:id="Num-019-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתּתּם </foreign>
+                            Da veriŋiz any Elʿazar ol kohengä
+                            <milestone unit="line" n="9" />
+                            da čyɣarsyn any avuldan čyḫary da sojsyn any gözläri aldyna.</l>
+                        <l n="4" xml:id="Num-019-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקח</foreign>
+                            <milestone unit="line" n="10" />
+                            Da alsyn Elʿazar ol kohen qanyndan barmaɣy bilän da sačsyn qaršysyna
+                            <milestone unit="line" n="11" />
+                            jüzläriniŋ ohel moʿedniŋ qanyndan jedi kerätlär.</l>
+                        <l n="5" xml:id="Num-019-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁרף </foreign>
+                            Da küjdürsin
+                            <milestone unit="line" n="12" />
+                            ol inäkni özüniŋ gözlärinčä terisini da etini da qanyny tezägi
+                            <milestone unit="line" n="13" />
+                            bilän küjdürsin.</l>
+                        <l n="6" xml:id="Num-019-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקח </foreign>
+                            Da alsyn ol kohen sälvi aɣačy da ezöv da qyrmyzy<ref n="3"
+                                target="#Num-019-fn3" type="noteAnchor" />
+                            <milestone unit="line" n="14" />
+                            iränkli jipek da tašlasyn ortasyna küjgäniniŋ ol inäkniŋ.</l>
+                        <l n="7" xml:id="Num-019-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכבס </foreign>
+                            Da juvsyn ol
+                            <milestone unit="line" n="15" />
+                            kohen upraqlaryny da juvsyn etini suvlar bilän da andan soŋra gelsin ol
+                            <milestone unit="line" n="16" />
+                            avulɣa da mundar bolsyn ol kohen ol aḫšamɣa<ref n="4"
+                                target="#Num-019-fn4" type="noteAnchor" /> degin.</l>
+                        <l n="8" xml:id="Num-019-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והשׁרף </foreign>
+                            Da ol
+                            <milestone unit="line" n="17" />
+                            küjdürgän any juvsyn upraqlaryny suvlar bilän da juvsyn etini suvlar bilän
+                            <milestone unit="line" n="18" />
+                            da mundar bolsyn ol aḫšamɣa<ref n="5" target="#Num-019-fn5"
+                                type="noteAnchor" /> degin.</l>
+                        <l n="9" xml:id="Num-019-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואסף </foreign>
+                            Da čöpläsin temiz kiši ol inäkniŋ
+                            <milestone unit="line" n="19" />
+                            külüni da qojsyn avuldan čyḫary temiz jerdä da bolsyn ǯamaʿatyna oɣlanlarynyŋ
+                            <milestone unit="line" n="20" />
+                            Jisraʾelniŋ saqlovɣa sačylmaq suvlaryna ḥatatdyr ol.</l>
+                        <l n="10" xml:id="Num-019-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכבס </foreign>
+                            Ol
+                            <milestone unit="line" n="21" />
+                            čöplävči ol inäkniŋ külüni jubsyn upraqlaryna da mundar bolsyn ol
+                                aḫšamɣa<ref n="6" target="#Num-019-fn6" type="noteAnchor" />
+                            <milestone unit="line" n="22" />
+                            degin da bolsyn Jisraʾel oɣlanlaryna da dindaš ɣaripkä ol tirilgän ortalarynda
+                            <milestone unit="line" n="23" />
+                            ömürlik räsiminä.</l>
+                        <l n="11" xml:id="Num-019-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הנוגע </foreign>
+                            Ol tijilgän ölügä ǯümlä adam ulusyna
+                            <milestone unit="page" n="143v" />
+                            <milestone unit="line" n="1" />
+                            mundar bolsyn jedi günlär.</l>
+                        <l n="12" xml:id="Num-019-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הוא </foreign>
+                            Ol sačylsyn anyŋ bilän ol üčünǯi gündä
+                            <milestone unit="line" n="2" />
+                            da ol jedinǯi gündä temiz bolsyn da egär sačylmasa ol üčünǯi gündä ol
+                            <milestone unit="line" n="3" />
+                            jedinǯi gündä da temiz bolmaz.</l>
+                        <l n="13" xml:id="Num-019-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כל </foreign>
+                            Ǯümlä ol tijgän ölügä ol adam gövdäsinä
+                            <milestone unit="line" n="4" />
+                            ki ölär sačylmasa YWY-nyŋ miškanyny mundar etti da kesilsin ol ǯan Jisraʾeldän
+                            <milestone unit="line" n="5" />
+                            ki sačylmaq suvlary sačylmady üstünä mundar bolsyn daɣyn mundarlyɣy
+                            üzärindädir.</l>
+                        <milestone unit="line" n="6" />
+                        <l n="14" xml:id="Num-019-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">זאתּ </foreign>
+                            Budyr ol tora adam ki ölsä čadyrda ǯümlä ol girgän ol
+                            <milestone unit="line" n="7" />
+                            čadyrɣa da här ne ki čadyrda mundar bolsyn jedi günlär.</l>
+                        <l n="15" xml:id="Num-019-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                            Ǯümlä
+                            <milestone unit="line" n="8" />
+                            ačyq saɣyt ki qošulɣan qapaq bolmasa üstünä mundardyr ol.</l>
+                        <l n="16" xml:id="Num-019-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל</foreign>
+                            <milestone unit="line" n="9" />
+                            Da här kim ki tijsä jüzü üstünä ol tüzniŋ qylyč lešinä ja ölügä ja
+                            <milestone unit="line" n="10" />
+                            adam süjäginä ja mezarɣa mundar bolsyn jedi günlär.</l>
+                        <l n="17" xml:id="Num-019-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקחו </foreign>
+                            Da alsynlar
+                            <milestone unit="line" n="11" />
+                            mundar učun külündän küjgäniniŋ ol ḥatatnyŋ da versin üstünä tatly
+                            <milestone unit="line" n="12" />
+                            suvlar saɣytqa.</l>
+                        <l n="18" xml:id="Num-019-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקח </foreign>
+                            Da alsyn ezöv da mäŋčsin ol suvɣa temiz kiši da sačsyn
+                            <milestone unit="line" n="13" />
+                            ol čadyr üstünä da ǯümlä ol saɣytlar üstünä da ol ǯanlar üstünä ki
+                            <milestone unit="line" n="14" />
+                            edilär anda da ol tijgän üstünä süjäk<supplied reason="lost"
+                                >k</supplied>ä<ref n="7" target="#Num-019-fn7" type="noteAnchor" />
+                            ja leškä ja ölügä ja mezarɣa.</l>
+                        <milestone unit="line" n="15" />
+                        <l n="19" xml:id="Num-019-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והזה </foreign>
+                            Da sačsyn ol temiz kiši ol mundar üstünä ol üčünǯi gündä
+                            <milestone unit="line" n="16" />
+                            da ol jedinǯi gündä da sačsyn any ol jedinǯi gündä da juvsyn upraqlaryny
+                            <milestone unit="line" n="17" />
+                            da juvsyn viǯuduny suvlar bilän da temiz bolsyn aḫšamɣa<ref n="8"
+                                target="#Num-019-fn8" type="noteAnchor" /> degin.</l>
+                        <l n="20" xml:id="Num-019-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואישׁ </foreign>
+                            Da kiši ki mundar bolsa
+                            <milestone unit="line" n="18" />
+                            da sačylmasa da kesilsin ol ǯan ortasyndan ol qahalnyŋ ki miqdašyn YWY-nyŋ
+                            <milestone unit="line" n="19" />
+                            mundar etti sačylmaq suvlary sačylmady üstünä mudnardyr ol.</l>
+                        <l n="21" xml:id="Num-019-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיתּה</foreign>
+                            <milestone unit="line" n="20" />
+                            Da bolsyn alarɣa ömürlik räsimgä da sačyvčy ol sačylmaq suvlaryny juvsyn
+                            <milestone unit="line" n="21" />
+                            upraqlaryny da ol tijgän ol sačylmaq suvlaryna mundar bolsyn ol
+                                aḫšamɣa<ref n="9" target="#Num-019-fn9" type="noteAnchor" />
+                            <milestone unit="line" n="22" />
+                            degin.</l>
+                        <l n="22" xml:id="Num-019-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וכל </foreign>
+                            Da ǯümlä ki tijsä aŋar ol mundar mundar bolsyn da ol
+                            <milestone unit="line" n="23" />
+                            ǯan ol tijgän mundar bolsyn ol aḫšamɣa<ref n="10" target="#Num-019-fn10"
+                                type="noteAnchor" /> degin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Num-019-fn1" type="footnote">The weekly Torah portion of the
+                            Book: Parashot Chukat (Num 19:1–22:1).</note>
+                        <note xml:id="Num-019-fn2" type="footnote">Num 19:1 in Biblical
+                            Hebrew.</note>
+                        <note xml:id="Num-019-fn3" type="footnote">JSul.IV.02A: Spelled <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">קִירְימִזִי</foreign>
+                            ; probably a scribal error.</note>
+                        <note xml:id="Num-019-fn4" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrɣa</emph>. | ADub.III.73: <emph>ingirǵa</emph>.</note>
+                        <note xml:id="Num-019-fn5" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrɣa</emph>. | ADub.III.73: <emph>ingirǵa</emph>.</note>
+                        <note xml:id="Num-019-fn6" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrɣa</emph>. | ADub.III.73: <emph>ingirǵa</emph>.</note>
+                        <note xml:id="Num-019-fn7" type="footnote">JSul.IV.02A: <emph>süjäkä</emph>;
+                            a scribal error. | BSMS 288: <emph>süjäkkä</emph>. | ADub.III.73:
+                                <emph>süv́akḱa</emph>.</note>
+                        <note xml:id="Num-019-fn8" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrda</emph>. | ADub.III.73: <emph>ingirdá</emph>.</note>
+                        <note xml:id="Num-019-fn9" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrɣa</emph>. | ADub.III.73: <emph>ingirdá</emph>.</note>
+                        <note xml:id="Num-019-fn10" type="footnote">JSul.IV.02A:
+                                <emph>aḫšamaɣa</emph>; probably a scribal error. | BSMS 288:
+                                <emph>ynyrɣa</emph>. | ADub.III.73: <emph>ingirdá</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
