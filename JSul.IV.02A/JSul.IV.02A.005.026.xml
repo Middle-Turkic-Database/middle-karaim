@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Deuteronomy 26</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Deuteronomy 26</title>
+                        <milestone unit="line" n="14" />
+                        <l xml:id="Deut-026-x001"><seg type="commented" corresp="#Deut-026-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁת </foreign>
+                            כּי<ref n="1" target="#Deut-026-fn1" type="noteAnchor" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">תּבוא</foreign>
+                            <anchor type="commented" xml:id="Deut-026-seg001" /><ref n="2"
+                                target="#Deut-026-fn2" type="noteAnchor" />
+                            <milestone unit="line" n="15" />
+                            (<foreign xml:lang="he" style="unicode-bidi: embed;">בו</foreign>
+                            ) <seg type="commented" corresp="#Deut-026-seg002" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וְהָיָה כּֽי תָבוֹא אֶל
+                                הָאָרֶץ אֲשֶׁר יוי אֱלֹהֶיךָ נוֹתֵן לְךָ נַחֲלָה
+                                וִירִשְׁתָּהּ</foreign>
+                            <milestone unit="line" n="17" />
+                            veräjdir saŋa ülüš da meräsläsäŋ any da otursaŋ anda.</l>
+                        <l n="2" xml:id="Deut-026-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקחת </foreign>
+                            Da alɣyn ilkindän
+                            <milestone unit="line" n="18" />
+                            ǯümlä jemišiniŋ ol jerniŋ ki ketirsäŋ jerindän ki YWY Täŋriŋ veräjdir saŋa
+                            <milestone unit="line" n="19" />
+                            da qojɣyn četändä da barɣyn ol jergä ki sajlasa YWY Täŋriŋ toḫtatma atyn
+                            <milestone unit="line" n="20" />
+                            anda.</l>
+                        <l n="3" xml:id="Deut-026-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובאת </foreign>
+                            Da kelgin ol kohengä ki bolsa ol künlärdä da ajtqyn
+                            <milestone unit="line" n="21" />
+                            aŋar aŋlattym bügün YWY Täŋriŋä ki keldim ol jergä ki ant etti
+                            <milestone unit="line" n="22" />
+                            YWY atalarymyzɣa bermä bizgä.</l>
+                        <l n="4" xml:id="Deut-026-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולקח </foreign>
+                            Da alsyn ol kohen ol četänni
+                            <milestone unit="line" n="23" />
+                            qoluŋdan da qojsyn any aldyna mizbeaḥhynyŋ YWY Täŋriŋniŋ.</l>
+                        <l n="5" xml:id="Deut-026-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועניתּ </foreign>
+                            Da ǯoɣap
+                            <milestone unit="line" n="24" />
+                            vergin da ajtqyn aldyna YWY Täŋriŋniŋ Aramda jarly edi atam da endi Mysyrɣa
+                            <milestone unit="page" n="185v" />
+                            <milestone unit="line" n="1" />
+                            da tirildi anda az ḥal<supplied reason="lost">q</supplied><ref n="3"
+                                target="#Deut-026-fn3" type="noteAnchor" /> bilän da boldy anda ulu
+                            ulusqa küčlü da köp.</l>
+                        <milestone unit="line" n="2" />
+                        <l n="6" xml:id="Deut-026-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירעו </foreign>
+                            Da jaman ettilär bizgä ol Mysyrlylar da qyjnadylar bizni da verdilär
+                            <milestone unit="line" n="3" />
+                            üstümizgä qaty qulluq.</l>
+                        <l n="7" xml:id="Deut-026-007"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונצעק </foreign>
+                            Da firjat ettim YWY Täŋrisinä atalarymyznyŋ
+                            <milestone unit="line" n="4" />
+                            da ešitti YWY avazymyzny da kördi qyjnamyzny da emgägimizni da
+                            qystovumyzny.</l>
+                        <milestone unit="line" n="5" />
+                        <l n="8" xml:id="Deut-026-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויוציאנו </foreign>
+                            Da čyɣardy bizni YWY Mysyrdan küčlü qudrat bilän da sunulmyš quvat
+                            <milestone unit="line" n="6" />
+                            bilän da ulu qorquv bilän da nišanlar bilän da belgilär bilän.</l>
+                        <l n="9" xml:id="Deut-026-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויביאנו </foreign>
+                            Da getirdi
+                            <milestone unit="line" n="7" />
+                            bizni ušbu jergä da verdi bizgä ušbu jerni jer aɣaj turɣan süt da
+                            bal.</l>
+                        <milestone unit="line" n="8" />
+                        <l n="10" xml:id="Deut-026-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da endi muna getirdim ilkin jemišiniŋ ol jerniŋ ki verdi maŋa YWY
+                            <milestone unit="line" n="9" />
+                            da qojɣyn any aldyna YWY Täŋriŋniŋ da baš urɣyn aldyna YWY
+                            Täŋriŋniŋ.</l>
+                        <l n="11" xml:id="Deut-026-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ושׁמחת</foreign>
+                            <milestone unit="line" n="10" />
+                            Da sevingin ǯümlä ol jaḫšylyq bilän ki verdi saŋa YWY Täŋriŋ da eviŋä sen
+                            <milestone unit="line" n="11" />
+                            da ol Levi da ol ɣarip ki ortaŋda.</l>
+                        <l n="12" xml:id="Deut-026-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki tavussaŋ ondalama ǯümlä ondasyn
+                            <milestone unit="line" n="12" />
+                            taḫylyŋnyŋ ol üčünǯi jylda jyly ol ondanyŋ da vergin Leviŋä ɣaripkä öksizgä
+                            <milestone unit="line" n="13" />
+                            da tulɣa da ašasynlar šäḥärlärindä da tojsynlar.</l>
+                        <l n="13" xml:id="Deut-026-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואמררתּ </foreign>
+                            Da ajtqyn aldyna YWY
+                            <milestone unit="line" n="14" />
+                            Täŋriŋniŋ eksittim ol qodešni ol evdän da daɣyn verdim any Levigä
+                            <milestone unit="line" n="15" />
+                            da ɣaripkä öksizgä da tulɣa ǯümlä mičvaŋa görä ki symarladyŋ maŋa gečmädim
+                            <milestone unit="line" n="16" />
+                            mičvalaryndan da unutmadym.</l>
+                        <l n="14" xml:id="Deut-026-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא </foreign>
+                            Ašamadym jasly bolɣanymda andan da eksitmädim
+                            <milestone unit="line" n="17" />
+                            andan mundarɣa da vermädim andan ölü učun ešittim sözinä YWY Täŋrimniŋ
+                            <milestone unit="line" n="18" />
+                            qyldym ǯümlä nečiki symarladyŋ maŋa.</l>
+                        <l n="15" xml:id="Deut-026-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">השׁקיפּה </foreign>
+                            Baqqyn ajru<supplied reason="lost">q</supplied>sy<ref n="4"
+                                target="#Deut-026-fn4" type="noteAnchor" /> ornyŋdan ol
+                            <milestone unit="line" n="19" />
+                            göktän da alɣyšlaɣyn ulusyŋ Jisraʾelni da jerni ki verdiŋ bizgä nečiki ant
+                            <milestone unit="line" n="20" />
+                            ettiŋ atalarymyzɣa jer aɣaj turɣan süt da bal.</l>
+                        <l n="16" xml:id="Deut-026-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">היום </foreign>
+                            Ušbu gündä YWY Täŋriŋ
+                            <milestone unit="line" n="21" />
+                            symarlajdyr saŋa qylma ušbu räsimlärni da šaraʿatlarny da saqlaɣyn da
+                            qylɣyn alarny
+                            <milestone unit="line" n="22" />
+                            bar göŋliŋ bilän da bar ǯanyŋ bilän.</l>
+                        <l n="17" xml:id="Deut-026-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">אתּ </foreign>
+                            YWY bijik ettiŋ bügün bolma saŋa
+                            <milestone unit="line" n="23" />
+                            Täŋriŋä da jürümä jollarny bilän da saqlama räsimlärin mičvalaryn da šaraʿatlaryn
+                            <milestone unit="line" n="24" />
+                            da ešitmä sözinä.</l>
+                        <l n="18" xml:id="Deut-026-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויוי </foreign>
+                            Da YWY bijik etti seni bügün bolma özünä onča
+                            <milestone unit="line" n="25" />
+                            ulusqa nečiki sözlädi saŋa da saqlama ǯümlä mičvalaryn.</l>
+                        <l n="19" xml:id="Deut-026-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ולתתךְ</foreign>
+                            <milestone unit="line" n="26" />
+                            Da vermä seni bijik ǯümlä ol uluslar üstünä ki qyldy maḫtovɣa da atlyqqa
+                            <milestone unit="page" n="186r" />
+                            <milestone unit="line" n="1" />
+                            da körkkä da bolma sen ajru<supplied reason="lost">q</supplied>sy<ref
+                                n="5" target="#Deut-026-fn5" type="noteAnchor" /> ulus YWY Täŋriŋä
+                            nečiki sözlädi.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Deut-026-fn1" type="footnote">JSul.IV.02A: deest.</note>
+                        <note xml:id="Deut-026-fn2" type="footnote">The weekly Torah portion of the
+                            Book: Parashot Ki Tavo (Deu 26:1–29:8).</note>
+                        <note xml:id="Deut-026-fn3" type="footnote">JSul.IV.02A: <emph>ḥal/ḥäl;
+                            </emph>probably a scribal error. | BSMS 288:<emph> el.</emph> |
+                            ADub.III.73: <emph>el</emph>.</note>
+                        <note xml:id="Deut-026-fn4" type="footnote">JSul.IV.02A:
+                                <emph>ajruksy/äjrüksi; </emph>probably a scribal error. | BSMS
+                                288:<emph> ajruqsy.</emph> | ADub.III.73: <emph>aziz</emph>.</note>
+                        <note xml:id="Deut-026-fn5" type="footnote">JSul.IV.02A:
+                                <emph>ajruksy/äjrüksi; </emph>probably a scribal error. | BSMS
+                                288:<emph> ajruqsy.</emph> | ADub.III.73: <emph>aziz</emph>.</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no" />
+                <author ana="#no" />
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2020</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                        Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.IV.02A</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Torah and the
+                            Haftarah</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p><lg>
+                        <l>Deuteronomy 31</l>
+                    </lg></p>
+            </abstract>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab><title>Deuteronomy 31</title>
+                        <milestone unit="line" n="19" />
+                        <l xml:id="Deut-031-x001"><seg type="commented" corresp="#Deut-031-seg001"
+                                 /><foreign xml:lang="he" style="unicode-bidi: embed;">פרשׁת
+                                וילךְ</foreign>
+                            <anchor type="commented" xml:id="Deut-031-seg001" /><ref n="1"
+                                target="#Deut-031-fn1" type="noteAnchor" />
+                            <milestone unit="line" xml:id="Deut031-P190v-L20" n="20"
+                                next="JSul.IV.02A.005.032.xml#Deut032-P190v-L20" />
+                            <seg type="commented" corresp="#Deut-031-seg002" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">וַיֵלֶךְ מֹשֶׁה
+                                וַיְדַבֵּר אֶת הַדְבָרִים הָאֵלֶה אֶל כָּל יִשְׂרָאֵל</foreign>
+                            <anchor type="commented" xml:id="Deut-031-seg002" /><ref n="2"
+                                target="#Deut-031-fn2" type="noteAnchor" />
+                            <milestone unit="line" n="21" />
+                            Moše da sözlädi ušbu sözlärni ǯümlä Jisraʾelgä.</l>
+                        <milestone unit="line" n="22" />
+                        <l n="2" xml:id="Deut-031-002"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לא</foreign>
+                            <ref n="3" target="#Deut-031-fn3" type="noteAnchor" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty alarɣa jüz jegirmi jašar kišidir men bügün
+                            <milestone unit="line" n="23" />
+                            bolaj almamdyr daɣyn čyqma da gelmä da YWY ajtty maŋa gečmägäjsin
+                            <milestone unit="line" n="24" />
+                            ušbu Jardenni.</l>
+                        <l n="3" xml:id="Deut-031-003"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">יוי </foreign>
+                            YWY Täŋriŋ ol gečär aldyŋa ol tas etär ušbu
+                            <milestone unit="page" n="191r" />
+                            <milestone unit="line" n="1" />
+                            uluslarny aldyŋdan da meräslärsin alarny Johošuʿa ol gečär aldyŋa nečiki sözlädi
+                            <milestone unit="line" n="2" />
+                            YWY.</l>
+                        <l n="4" xml:id="Deut-031-004"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועשׂה </foreign>
+                            Da qyldy YWY alarɣa nečiki qyldy Siḥonɣa da ʿOgɣa ḫanlaryna
+                            <milestone unit="line" n="3" />
+                            ol Emoriniŋ da jerlärinä ki tas etti alarny.</l>
+                        <l n="5" xml:id="Deut-031-005"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ונתנם </foreign>
+                            Da verir alarny YWY
+                            <milestone unit="line" n="4" />
+                            aldyŋyzɣa da qylyŋyz alarɣa ǯümlä ol mičvaɣa görä ki symarladym
+                            <milestone unit="line" n="5" />
+                            sizgä.</l>
+                        <l n="6" xml:id="Deut-031-006"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">חוקו </foreign>
+                            Quvatlanyŋyz da kibäjiŋiz qorqmaŋyz da synyqmaŋyz aldlaryndan ki
+                            <milestone unit="line" n="6" />
+                            YWY Täŋriŋ oldyr ol jürügän birgäŋä boš qojmastyr seni da kemišmästir
+                            seni.</l>
+                        <l n="7" xml:id="Deut-031-007"><seg type="commented"
+                                corresp="#Deut-031-seg003" /><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקרא </foreign>
+                            Da čaqyrdy Moše Johošuʿaqa da ajtty anar gözlärinčä ǯümlä Jisraʿelniŋ
+                            quvatlanɣyn da güčäjgin ki sen gelirsin ušbu ulus bilän ol jergä ki ant
+                            etti YWY atalaryna vermä alarɣa da sen üläširsin any alarɣa.</l>
+                        <l n="8" xml:id="Deut-031-008"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהוה </foreign>
+                            Da YWY oldur ol jürügän aldyŋa ol bolur birgäŋä boš qojmastyr seni da
+                            kemišmästir seni<anchor type="commented" xml:id="Deut-031-seg003" /><ref
+                                n="4" target="#Deut-031-fn4" type="noteAnchor" />
+                            <milestone unit="line" n="7" />
+                            qorqmaɣyn da synyqmaɣyn.</l>
+                        <l n="9" xml:id="Deut-031-009"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויכתב </foreign>
+                            Da jazdy Moše ušbu torany da verdi any ol
+                            <milestone unit="line" n="8" />
+                            kohenlärgä oɣlanlaryna Leviniŋ ol kötärgänlär sanduɣyn šartynyŋ YWY-nyŋ
+                            da ǯümlä
+                            <milestone unit="line" n="9" />
+                            qartlaryna Jisraʾelniŋ.</l>
+                        <l n="10" xml:id="Deut-031-010"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצו </foreign>
+                            Da symarlady Moše alarɣa demä aḫyryndan jedi
+                            <milestone unit="line" n="10" />
+                            jyllarnyŋ vadäsindä jylynyŋ ol šemitanyŋ ḥaɣynda ol sukalarnyŋ.</l>
+                        <l n="11" xml:id="Deut-031-011"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">בבוא</foreign>
+                            <milestone unit="line" n="11" />
+                            Gelgänindä ǯümlä Jisraʾel görünmä ḥazraty aldyna YWY Täŋriŋniŋ jerdä ki sajlasa
+                            <milestone unit="line" n="12" />
+                            oḫuɣyn ušbu torany qaršysyna ǯümlä Jisraʾelniŋ qulaqlarynča.</l>
+                        <l n="12" xml:id="Deut-031-012"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הקהל</foreign>
+                            <milestone unit="line" n="13" />
+                            Čöplägin ol ulusny ol kišilärni da ol ḫatynlarny da ol jašny da ɣaribiŋ
+                            <milestone unit="line" n="14" />
+                            ki šäḥärläriŋdä anyŋ učun ešitkäjlär da anyŋ učun ögrängäjlär da qorqqajlar
+                            <milestone unit="line" n="15" />
+                            YWY Täŋriŋizdän da saqlaɣajlar qylma ǯümlä sözlärin ušbu toranyŋ.</l>
+                        <l n="13" xml:id="Deut-031-013"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ובניהם</foreign>
+                            <milestone unit="line" n="16" />
+                            Da oɣlanlary ki bilmädilär ešitkäjlär da ögrängäjlär qorqma YWY Täŋriŋizdän
+                            <milestone unit="line" n="17" />
+                            ǯümlä ol günlär ki siz tirisiz ol jer üstünä ki siz gečäjdirsiz
+                            <milestone unit="line" n="18" />
+                            Jardenni anda meräslämä any.</l>
+                        <l n="14" xml:id="Deut-031-014"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty YWY Mošegä muna juvuqlaštylar
+                            <milestone unit="line" n="19" />
+                            günläriŋ ölmä čaqyrɣyn Johošuaʿny da turuŋyz ohel moʿeddä da symarlajym aŋar
+                            <milestone unit="line" n="20" />
+                            da v<supplied reason="lost">a</supplied>rdy<ref n="5"
+                                target="#Deut-031-fn5" type="noteAnchor" /> Moše da Johošuaʿ da
+                            turdylar ohel moʿeddä.</l>
+                        <l n="15" xml:id="Deut-031-015"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וירא </foreign>
+                            Da äškärä boldy kavody
+                            <milestone unit="line" n="21" />
+                            YWY-nyŋ čatyrda tirägi bilän bulutnyŋ da turdy tirägi ol bulutnyŋ ešigi
+                            <milestone unit="line" n="22" />
+                            üstünä ol čatyrnyŋ.</l>
+                        <l n="16" xml:id="Deut-031-016"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויאמר </foreign>
+                            Da ajtty YWY Mošegä munasen jatyrsyn atalaryŋ
+                            <milestone unit="line" n="23" />
+                            bilän da turyr ušbu ulus da azar artyndan jat täŋriläriniŋ ol jerniŋ ki
+                            <milestone unit="line" n="24" />
+                            ol geläjdir anda ortasynda da vazgečär meni da buzar šartymny ki kestim
+                            <milestone unit="line" n="25" />
+                            birgäsinä.</l>
+                        <l n="17" xml:id="Deut-031-017"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וחרה </foreign>
+                            Da qaḥerlänir ačuvu aŋar ol gündä da kemiširmin alarny
+                            <milestone unit="line" n="26" />
+                            da jašyry<supplied reason="lost">r</supplied>myn<ref n="6"
+                                target="#Deut-031-fn6" type="noteAnchor" /> ḥazratlarymny alardan da
+                            bolyr ašama da tabarlar any köp jamanlyqlar
+                            <milestone unit="page" n="191v" />
+                            <milestone unit="line" n="1" />
+                            da tar<supplied reason="lost">l</supplied>yqlar<ref n="7"
+                                target="#Deut-031-fn7" type="noteAnchor" /> da ajtyr ol gündä muna
+                            anyŋ učun ki joqtyr Täŋrim ortamda
+                            <milestone unit="line" n="2" />
+                            taptylar meni ušbu jamanlyqlar.</l>
+                        <l n="18" xml:id="Deut-031-018"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ואנכי </foreign>
+                            Da men jašyrma jašyry<supplied reason="lost">r</supplied>myn<ref n="8"
+                                target="#Deut-031-fn8" type="noteAnchor" /> ḥazratlarymny ol
+                            <milestone unit="line" n="3" />
+                            gündä ǯümlä ol jamanlyq učun ki qyldy ki qajyryldy öŋgä täŋrilärgä.</l>
+                        <milestone unit="line" n="4" />
+                        <l n="19" xml:id="Deut-031-019"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ועתה </foreign>
+                            Da endi jazyŋyz özüŋizgä ušbu širany da ögrätkin any oɣlanlaryna Jisraʾel-
+                            <milestone unit="line" n="5" />
+                            niŋ qojɣyn any aɣyzlarynda anyŋ učun bolɣaj maŋa ušbu šira tanyqqa
+                            <milestone unit="line" n="6" />
+                            oɣlanlarynda Jisraʾelniŋ.</l>
+                        <l n="20" xml:id="Deut-031-020"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki getiri<supplied reason="lost">r</supplied>min<ref n="9"
+                                target="#Deut-031-fn9" type="noteAnchor" /> any ol jergä ki ant ettim
+                            <milestone unit="line" n="7" />
+                            atalaryna aɣaj turɣan süt da bal da ašar da tojar da semirir da
+                            qajyrylyr öŋgä
+                            <milestone unit="line" n="8" />
+                            täŋrilärgä da qulluq etärlär alarɣa da ḫorlarlar meni da bozar
+                            <milestone unit="line" n="9" />
+                            šartymny.</l>
+                        <l n="21" xml:id="Deut-031-021"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">והיה </foreign>
+                            Da bolɣaj ki tapsalar any köp jamanlyqlar da tarlyqlar da tanyqlyq
+                            <milestone unit="line" n="10" />
+                            bergäj ušbu šira aldyna tanyqqa ki unutulmaɣaj aɣzyndan urluɣunyŋ ki bildim
+                            <milestone unit="line" n="11" />
+                            fikirin ki ol qylajdyr bügün kätirmäsimdän burun any ol jerge ki ant
+                            <milestone unit="line" n="12" />
+                            ettim.</l>
+                        <l n="22" xml:id="Deut-031-022"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויכתב </foreign>
+                            Da jazdy Moše ušbu širany ol kündä da ögrätti any
+                            <milestone unit="line" n="13" />
+                            Jisraʾel oɣlanlaryna.</l>
+                        <l n="23" xml:id="Deut-031-023"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצו </foreign>
+                            Da symarlady Johošuaʿqa oɣlyna Nunnyŋ da ajtty
+                            <milestone unit="line" n="14" />
+                            quvatlanɣyn da kibäjgin ki sen ketirirsin Jisraʾel oɣlanlaryn ol jergä
+                            ki ant
+                            <milestone unit="line" n="15" />
+                            ettim alarɣa da men bolyrmyn birgäŋä.</l>
+                        <l n="24" xml:id="Deut-031-024"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויהי </foreign>
+                            Da edi tavusqany gibi Moše
+                            <milestone unit="line" n="16" />
+                            jazma sözlärin ušbu toranyŋ bitik üstünä tamam bolɣanlaryna degin.</l>
+                        <l n="25" xml:id="Deut-031-025"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויצו</foreign>
+                            <milestone unit="line" n="17" />
+                            Da symarlady Moše ol Levilärgä kötärivčilär sanduɣyn šartnyŋ YWY-nyŋ
+                            demä.</l>
+                        <milestone unit="line" n="18" />
+                        <l n="26" xml:id="Deut-031-026"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">לקח </foreign>
+                            Alma bitigin ušbu toranyŋ da qojuŋyz any janyndan sanduɣynyŋ šartynyŋ
+                            <milestone unit="line" n="19" />
+                            YWY Täŋriŋizniŋ da bolsyn anda saŋa tanyqqa.</l>
+                        <l n="27" xml:id="Deut-031-027"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Men bildim tanmaɣyŋny
+                            <milestone unit="line" n="20" />
+                            da qaty eŋsäŋni muna bolɣanymda men tiri birgäŋizgä bügün tanuvčylar ediŋiz
+                            <milestone unit="line" n="21" />
+                            YWY-ɣa da daɣyn ki ölgänimdän soŋra.</l>
+                        <l n="28" xml:id="Deut-031-028"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">הקהילו </foreign>
+                            Čöpläŋiz maŋa ǯümlä
+                            <milestone unit="line" n="22" />
+                            qartlaryn ševetläriŋizniŋ da tajaqčylaryŋyznyŋ da sözläjim qulaqlarynča ušbu
+                            <milestone unit="line" n="23" />
+                            sözlärni da tanyq etäjim alarɣa kökni da jerni.</l>
+                        <l n="29" xml:id="Deut-031-029"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">כי </foreign>
+                            Ki bildim ölgänimdän
+                            <milestone unit="line" n="24" />
+                            soŋra ki čajpama čajparsyz da azarsyz ol joldan ki symarladym sizgä
+                            <milestone unit="line" n="25" />
+                            da učrar sizgä ol jamanlyq aḫyrynda ol künlärniŋ ki qylsaŋyz jamanlyqny ʿenajätlärinä
+                            <milestone unit="line" n="26" />
+                            YWY-nyŋ ačuvlandyrma any iši bilän qollaryŋyznyŋ.</l>
+                        <l n="30" xml:id="Deut-031-030"><foreign xml:lang="he"
+                                style="unicode-bidi: embed;">וידבר </foreign>
+                            Da sözlädi Moše
+                            <milestone unit="page" n="192r" />
+                            <milestone unit="line" n="1" />
+                            qulaqlarynča ǯümlä qahalynyŋ Jisraʾel da sözlärin ušbu širanyŋ tamam
+                            <milestone unit="line" n="2" />
+                            bolɣanlaryna degin.</l>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        <note xml:id="Deut-031-fn1" type="footnote">The weekly Torah portion of the
+                            Book: <emph>Parashot Vayelech</emph> (Deut 31:1–31:30).</note>
+                        <note xml:id="Deut-031-fn2" type="footnote">Deut 31:1 in Biblical
+                            Hebrew.</note>
+                        <note xml:id="Deut-031-fn3" type="footnote">The chapter number is
+                            misplaced.</note>
+                        <note xml:id="Deut-031-fn4" type="footnote">JSul.IV.02A: deest;
+                            reconstructed on the basis of BSMS 288: <foreign xml:lang="he"
+                                style="unicode-bidi: embed;">ויקרא </foreign>
+                            [7] <emph>Da čaqyrdy Moše Johošuʿaqa da ajtty anar közlärinčä barča
+                                Jisraʿelniŋ quvatlanɣyn da küčäjgin ki sen gelirsin ušbu ulus bilän
+                                ol jergä ki ant etti atalaryna bermä alarɣa da sen üläširsin any
+                                alarɣa</emph>. <foreign xml:lang="he" style="unicode-bidi: embed;"
+                                >ויהוה </foreign>
+                            [8]<emph> Da H oldur ol jürügän aldyŋa ol bolur birgäŋä boš qojmastyr
+                                seni da kemišmästir seni </emph>| ADub.III.73: <foreign
+                                xml:lang="he" style="unicode-bidi: embed;">ויקרא </foreign>
+                            [7] <emph>Da ündedi Moše Johošuaʿny da ajtty anar közleriče bar
+                                Jisraʾelnin küčejgin da kiplengin ki sen kelirsen ol ulusbyla ošpu
+                                ol jerge ki antetti Adonaj berme alarɣa da sen üleširsen any alarɣa
+                                </emph><foreign xml:lang="he" style="unicode-bidi: embed;">ויהוה </foreign>
+                            [8]</note>
+                        <note xml:id="Deut-031-fn5" type="footnote">JSul.IV.02A: <emph>verdi</emph>;
+                            a scribal error. | BSMS 288: <emph>bardy.</emph> | ADub.III.73:</note>
+                        <note xml:id="Deut-031-fn6" type="footnote">JSul.IV.02A:
+                                <emph>jašyrymen</emph>; probably a scribal error. | BSMS 288:
+                                <emph>jašyryrmyn.</emph> | ADub.III.73:</note>
+                        <note xml:id="Deut-031-fn7" type="footnote">JSul.IV.02A:
+                                <emph>taryqlar</emph>; a scribal error. | BSMS 288:
+                                <emph>tarlyqlar.</emph> | ADub.III.73:</note>
+                        <note xml:id="Deut-031-fn8" type="footnote">JSul.IV.02A:
+                                <emph>jašyrymyn</emph>; probably a scribal error. | BSMS 288:<emph>
+                                jašyryrmyn.</emph> | ADub.III.73:</note>
+                        <note xml:id="Deut-031-fn9" type="footnote">JSul.IV.02A:
+                                <emph>getirimin</emph>; probably a scribal error. | BSMS 288:<emph>
+                                ketirirmin.</emph> | ADub.III.73:</note>
+                    </app>
+                </listApp>
+            </div>
+        </body>
+    </text></TEI>
