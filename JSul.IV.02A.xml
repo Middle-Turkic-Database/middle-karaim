@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ana="#no"/>
+        <author ana="#no"/>
+        <editor role="translator">Unknown</editor>
+        <respStmt>
+          <resp when="2013">Description by</resp>
+          <name>László Károly</name>
+        </respStmt>
+        <respStmt>
+          <resp when="2022">Digital edition by</resp>
+          <name>Murat Işık</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          Işık, Murat 2022. ‘A digital edition of the Gözleve Bible (1841)’, in László Károly and Michał Németh (eds)
+          <emph>A database of Middle Turkic documents.</emph>
+          Uppsala: Department of linguistics and philology. Accessed
+          <date when-custom="Now-DayinMonth"/>
+          <date when-custom="Now-MonthAbbr"/>
+          <date when-custom="Now-Year"/>
+.
+          <ref target="currentPageURL"/>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Uppsala University, Department of linguistics and philology</publisher>
+        <pubPlace>Uppsala, Sweden</pubPlace>
+        <date>2020</date>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            Creative Commons Attribution 4.0 International</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note>The Gözleve Bible is an entire translation of the Tanakh (without the chronicles) into Eastern (Crimean) Karaim printed in four volumes in Gözleve (Eupatoria) in 1841.</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Warsaw, Poland</settlement>
+            <repository>Private archive</repository>
+            <idno>JSul.IV.02A</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              A Crimian Karaim translation of the Tanakh except the chronicles.
+            </summary>
+            <msItem n="1">
+              <locus>folios 1v-2v</locus>
+              <title ana="#no"/>
+              <author ana="#no"/>
+              <textLang>Hebrew</textLang>
+            </msItem>
+            <msItem n="2">
+              <locus>folios 3r–194v</locus>
+              <title ana="#no"/>
+              <author ana="#no"/>
+              <textLang>Eastern Karaim</textLang>
+            </msItem>
+            <msItem n="2">
+              <locus>folios 195r–202v</locus>
+              <title ana="#no"/>
+              <author ana="#no"/>
+              <textLang>Hebrew</textLang>
+            </msItem>
+            <msItemStruct>
+              <title n="1" type="book">
+                <measure quantity="50"/>
+                <abbr>Gen.</abbr>
+                Genesis
+              </title>
+              <title n="2" type="book">
+                <measure quantity="40"/>
+                <abbr>Ex.</abbr>
+                Exodus
+              </title>
+              <title n="3" type="book">
+                <measure quantity="27"/>
+                <abbr>Lev.</abbr>
+                Leviticus
+              </title>
+              <title n="4" type="book">
+                <measure quantity="36"/>
+                <abbr>Num.</abbr>
+                Numbers
+              </title>
+              <title n="5" type="book">
+                <measure quantity="34"/>
+                <abbr>Deut.</abbr>
+                Deuteronomy
+              </title>
+            </msItemStruct>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <support>
+                  <objectType>Book</objectType>
+                </support>
+              </supportDesc>
+            </objectDesc>
+            <scriptDesc>
+              <scriptNote>Hebrew</scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1841
+              </origDate>
+              <origPlace>Gözleve (Eupatoria)
+              </origPlace>
+            </origin>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl>Tiriškan, Mordechai (ed.) 1841. <emph>ספר תרגום תורה בלשון טטר Sefer Targum Torah bi-lešon Ṭaṭar.</emph> Vol. 1–4. Gözleve [Eupatoria].</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation ana="#no" />
+      <langUsage>
+        <language ident="kdr">Eastern Karaim</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://id.loc.gov/authorities/subjects">
+          <term>Bible--Versions, Karaim</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <p>
+          <lg>
+            <l>Title page in Hebrew, 1v</l>
+            <l>Empty page, 2r</l>
+            <l>Hebrew text, 2v</l>
+            <l>Preface in Karaim, 3r–4v</l>
+            <l>Genesis, 5r–52v</l>
+            <l>Exodus, 53r–92v</l>
+            <l>Leviticus, 93r–121r</l>
+            <l>Numbers, 122r–161r</l>
+            <l>Deuteronomy, 162r–194v</l>
+            <l>Hebrew text, 195r–202v</l>
+          </lg>
+        </p>
+      </abstract>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
