@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Samuel 12</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Samuel 12</title>
+						<milestone unit="line" n="10" xml:id="Sam2012-P431r-L10" prev="F305-01.010.011.xml#Sam2011-P431r-L10"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">יב</foreign></l>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Sam2-012-001">Da ijdi H Natanny David́ǵa da keĺdi anar da ajtty anar ėki
+							<milestone unit="line" n="12"/><delSpan  spanTo="#Sam2-012-del001">ėḱ</delSpan><anchor  xml:id="Sam2-012-del001" type="delSpan"/> ėŕańĺar ėdiĺar bir šaharda bir ėdi ḥoǯa da bir
+							<milestone unit="line" n="13"/>ėdi miśkiń.
+						</l>
+						<l n="2" xml:id="Sam2-012-002">Ḥoǯaɣa ėdi qoj da syɣyr ḱop astry.</l>
+						<l n="3" xml:id="Sam2-012-003">Da jarlyɣa
+							<milestone unit="line" n="14"/>joɣedi ńeḿed́a ki ančaḥ bir qoj kiči ki satyn aldy any
+							<milestone unit="line" n="15"/>öźuńa da b́eśĺadi any da öśt́u birǵasińa ulanlary byla
+							<milestone unit="line" n="16"/>bird́ań tigimińd́ań ašaredi da qovusundan ič́aredi da qojnun-
+							<milestone unit="line" n="17"/>da jatyredi da boldu anar qyz ornuna.
+						</l>
+						<l n="4" xml:id="Sam2-012-004">Da keĺdi jolču
+							<milestone unit="line" n="18"/>ḥoǯa kišiǵa da źeĺĺadi alma qojundan da syɣyryndan qyl-
+							<milestone unit="line" n="19"/>ma tatly ašlar ol keĺǵańǵa anar da aldy qozusun ol
+							<milestone unit="line" n="20"/>jarlynyn da qyldy kišiǵa ol keĺǵań anar.
+						</l>
+						<l n="5" xml:id="Sam2-012-005">Da qabundu ačuvu
+							<milestone unit="page" n="431v"/>
+							<milestone unit="line" n="1"/>David́niń kišid́a astry da ajtty Natanɣa qajjamdyr H ki öĺum
+							<milestone unit="line" n="2"/>borčlusu ol kiši ol qyluvču bunu.
+						</l>
+						<l n="6" xml:id="Sam2-012-006">Da ol qoj üč́uń
+							<milestone unit="line" n="3"/>t́oĺasiń d́ort́ anča qačan ki qyldy ol iš́ni ušpunu
+							<milestone unit="line" n="4"/>da źeĺĺaḿadi any.
+						</l>
+						<l n="7" xml:id="Sam2-012-007">Da ajtty Natan David́ǵa śeńsiń ol kiši bolej
+							<milestone unit="line" n="5"/>ajtty H T́eńrisi Jiśraʾeĺniń ḿeń śurt́t́um śeni bijǵa Jiś-
+							<milestone unit="line" n="6"/>raʾeĺ üśt́uńa da ḿeń qutḥardym śeni qolundan Šaʾulnun.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="8" xml:id="Sam2-012-008">Da b́erdim saja juv́uń bijijniń da qatynlaryn bijijniń qojnuja
+							<milestone unit="line" n="8"/>da b́erdim saja juv́uń Jiśraʾeĺniń da Juhudanyn da ėger aześa
+							<milestone unit="line" n="9"/>saja da üśt́agejdim but́ekli da but́ekli.
+						</l>
+						<l n="9" xml:id="Sam2-012-009">Ńe üč́uń ḥor
+							<milestone unit="line" n="10"/>ėt́tij śoźuń H-nyn qylma ol jamanny ʿėnajatlarynda H-nyn
+							<milestone unit="line" n="11"/>Urijany ol Ḥitilini jattyj qylyč byla da qatynyn aldyj
+							<milestone unit="line" n="12"/>öźuja qatynlyḥqa da any öĺt́urd́uj qylyčy byla
+							<milestone unit="line" n="13"/>ulanlarynyn ʿAmonnun.
+						</l>
+						<l n="10" xml:id="Sam2-012-010">Da haĺegińa ket́ḿaśtir qylyč juv́ujd́ań
+							<milestone unit="line" n="14"/>dunjaɣa d́ejiń qačan ki ḥor ėt́tij ḿeni da aldyj qatynyn Urija-
+							<milestone unit="line" n="15"/>nyn ol Ḥitiliniń bolma saja qatynlyḥqa.
+						</l>
+						<l n="11" xml:id="Sam2-012-011">Bolej ajtty
+							<milestone unit="line" n="16"/>H muna ḿeń turɣuzurmyn üśt́uja jamanlyḥ juv́ujd́ań da
+							<milestone unit="line" n="17"/>alyrmyn qatynlaryjny ḱoźĺarijč́a da b́erirmiń alarny dostla-
+							<milestone unit="line" n="18"/>ryja da jatyr qatynlaryj byla utrusuna ol qujašnyn uš-
+							<milestone unit="line" n="19"/>punun.
+						</l>
+						<l n="12" xml:id="Sam2-012-012">Ki śeń qyldyj jašyrtynlyḥ byla da ḿeń qylarmyn ol śoź-
+							<milestone unit="line" n="20"/>ńu qaršysyna bar Jiśraʾeĺniń da qaršysyna ol qujašnyn.
+						</l>
+						<milestone unit="page" n="432r"/>
+						<milestone unit="line" n="1"/>
+						<l n="13" xml:id="Sam2-012-013">Da ajtty David́ Natanɣa jazyḥly boldum H-ɣa da ajtty Natan David́ǵa
+							<milestone unit="line" n="2"/>daɣy H ašyryr jazyɣyjny öĺḿaśśań.
+						</l>
+						<l n="14" xml:id="Sam2-012-014">Qačan ki h́eč́ ėt́ḿa h́eč́
+							<milestone unit="line" n="3"/>ėt́tij dušmanlaryn H-nyn ušpu iš́t́a daɣy ol ulan ol
+							<milestone unit="line" n="4"/>tuvɣan saja öĺḿa öĺar.
+						</l>
+						<l n="15" xml:id="Sam2-012-015">Da bardy Natan juv́uńa da ḥastalatty
+							<milestone unit="line" n="5"/>H ol ulanny ki t́oŕadi qatyny Urijanyn David́ǵa da syzlady.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="16" xml:id="Sam2-012-016">Da jalbardy David́ ol T́eńriǵa ol ulan üč́uń da uruč tut-
+							<milestone unit="line" n="7"/>tu David́ oruč da keĺdi da jatty da qondu jer üśt́uńa.
+						</l>
+						<l n="17" xml:id="Sam2-012-017">Da tur-
+							<milestone unit="line" n="8"/>dular qartlary juv́uńuń anyn qatyna turɣuzma any ol
+							<milestone unit="line" n="9"/>jerd́ań da kĺaḿadi da ašamady birǵaĺarińa ėt́ḿak.
+						</l>
+						<l n="18" xml:id="Sam2-012-018">Da ėdi ol
+							<milestone unit="line" n="10"/>jedińči ḱuńd́a da öĺd́u ol ulan da qorḥtular qullary
+							<milestone unit="line" n="11"/>David́niń anlatma anar ki öĺd́u ol ulan ki saɣyš ėt́ti-
+							<milestone unit="line" n="12"/>ĺar muna bolɣanda ol ulan tiri śoźĺadik anar da tynlamady
+							<milestone unit="line" n="13"/>śoźuḿuźǵa da ńečik ajtajyḥ anar ki öĺd́u ol ulan da
+							<milestone unit="line" n="14"/>qylar jamanlyḥ.
+						</l>
+						<l n="19" xml:id="Sam2-012-019">Da ḱord́u David́ ki qullary šybyrdas
+							<supplied reason="lost">a</supplied>dyr-
+							<milestone unit="line" n="15"/>lar
+							<ref n="1" target="#Sam2-012-fn1" type="noteAnchor"/> da anlady David́ ki öĺd́u ol ulan da ajtty David́ qullaryna
+							<milestone unit="line" n="16"/>öĺd́umo ol ulan da ajttylar öĺd́u.
+						</l>
+						<l n="20" xml:id="Sam2-012-020">Da turdu David́ ol
+							<milestone unit="line" n="17"/>jerd́ań da juvundu da jaɣyndy da alyštyrdy upraḥlaryn da keĺdi juv́u-
+							<milestone unit="line" n="18"/>ńa H-nyn da bašurdu da keĺdi juv́uńa da qoldu da qojdular anar
+							<milestone unit="line" n="19"/>ėt́ḿak da ašady.
+						</l>
+						<l n="21" xml:id="Sam2-012-021">Da ajttylar qullary anar ńedir ol iš́
+							<milestone unit="line" n="20"/>ušpu ki qyldyj ńegińč́a ol ulan tiri ėdi oruč tuttuj
+							<milestone unit="line" n="21"/>da jyladyj da ki ńečik öĺd́u <delSpan  spanTo="#Sam2-012-del002">öĺd́u</delSpan><anchor  xml:id="Sam2-012-del002" type="delSpan"/> ol ulan turduj da ašadyj
+							<milestone unit="page" n="432v"/>
+							<milestone unit="line" n="1"/>ėt́ḿak.
+						</l>
+						<l n="22" xml:id="Sam2-012-022">Da ajtty ńegińč́a ol ulan tiri ėdi oruč tut-
+							<milestone unit="line" n="2"/>tum da jyladym ki saɣyš ėt́tim kim biĺadir šeḿa ḥajyfsunur
+							<milestone unit="line" n="3"/>H da tiri bolur ol ulan.
+						</l>
+						<l n="23" xml:id="Sam2-012-023">Da haĺegińa öĺd́u ńeǵa bu ḿeń o-
+							<milestone unit="line" n="4"/>ruč tutarmyn bolalyrm
+							<supplied reason="lost">yn</supplied>mo
+							<ref n="2" target="#Sam2-012-fn2" type="noteAnchor"/> qajttyrma any artyḥ ḿeń baryr-
+							<milestone unit="line" n="5"/>myn anar vaĺe ol qajtmastyr maja.
+						</l>
+						<l n="24" xml:id="Sam2-012-024">Da uvuttu David́ Bat Ševaʿny
+							<milestone unit="line" n="6"/>qatynyn da keĺdi anar da jatty birǵasińa da t́oŕadi uvul da atady
+							<milestone unit="line" n="7"/>šemiń Šelomo da H śuv́d́u any.
+						</l>
+						<l n="25" xml:id="Sam2-012-025">Da ijdi qolu ašyra Natan ol
+							<milestone unit="line" n="8"/>naviniń da atady šemiń Jedid́ja ki H śuv́d́u any.
+						</l>
+						<l n="26" xml:id="Sam2-012-026">Da uruštu
+							<milestone unit="line" n="9"/>Joʾav Rabatta ulanlary byla ʿAmonnun da tuttu ol bijlikni
+							<milestone unit="line" n="10"/>šaharny.
+						</l>
+						<l n="27" xml:id="Sam2-012-027">Da ijdi Joʾav ėĺčiĺar David́ǵa da ajtty uruštum
+							<milestone unit="line" n="11"/>Raba byla daɣy tuttum šaharyn ol suvlarnyn.
+						</l>
+						<l n="28" xml:id="Sam2-012-028">Da haĺegińa yš-
+							<milestone unit="line" n="12"/>tyrɣyn qaldyɣyn ol ulusnun da toḥtaɣyn ol šahar üśt́uńa
+							<milestone unit="line" n="13"/>da tutḥun any maɣat tutarmyn ḿeń ol šaharny da atalyr šemim
+							<milestone unit="line" n="14"/>anyn üśt́uńa.
+						</l>
+						<l n="29" xml:id="Sam2-012-029">Da yštyrdy David́ bar ol ulusnu da bardy
+							<milestone unit="line" n="15"/>Rabataɣa da uruštu anyn byla da tuttu any.
+						</l>
+						<l n="30" xml:id="Sam2-012-030">Da aldy taǯyn
+							<milestone unit="line" n="16"/>bašynyn bijĺariniń bašy üśt́uńd́ań da öĺč́avi anyn qantar altyn
+							<milestone unit="line" n="17"/>da abajly taš da boldu bašy üśt́uńa David́niń da olǯasyn
+							<milestone unit="line" n="18"/>ol šaharnyn čyɣardy ḱop astry.
+						</l>
+						<l n="31" xml:id="Sam2-012-031">Da ol ulus ki anda
+							<milestone unit="line" n="19"/>čyɣardy da qojdu alarny pilaɣa da ol t́emir č́epĺarǵa da ol
+							<milestone unit="line" n="20"/>t́emir boltalarɣa da keśḱaĺadi alarny da ḱuv́d́urd́u alarny
+							<milestone unit="page" n="433r"/>
+							<milestone unit="line" n="1"/>kiŕač́ ṕeč́t́a da alej qyldy bar šaharlaryna ulanlarynyn ʿAmonnun
+							<milestone unit="line" n="2" xml:id="Sam2012-P433r-L2" next="F305-01.010.013.xml#Sam2013-P433r-L2"/>da qajtty David́ da bar ol ulus Jerušalajimǵa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Sam2-012-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>šybyrdasydyrlar</emph>; a scribal error.
+						</note>
+						<note xml:id="Sam2-012-fn2" type="footnote" anchored="true">F305-01: spelled 
+							<emph>bolalyrmommo</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>1 Samuel 5</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>1 Samuel 5</title>
+						<milestone unit="line" n="16" xml:id="Sam1005-P373v-L16" prev="F305-01.009.004.xml#Sam1004-P373v-L16"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">ה</foreign></l>
+						<milestone unit="line" n="17"/>
+						<l n="1" xml:id="Sam1-005-001">Da Ṕelištim aldylar aronun ol T́eńriniń da keĺtir-
+							<milestone unit="line" n="18"/>diĺar any Ėv́eń ʿĖźerǵa Ašdotḥa.
+						</l>
+						<l n="2" xml:id="Sam1-005-002">Da aldylar Ṕelištim
+							<milestone unit="line" n="19"/>aronun ol T́eńriniń da keĺtirdiĺar any juv́uńa Daɣonnun
+							<milestone unit="line" n="20"/>da turɣuzdular any janynda Daɣonnun.
+						</l>
+						<l n="4" xml:id="Sam1-005-004">
+							<ref n="1" target="#Sam1-005-fn1" type="noteAnchor"/> Da tanlej turdular tan
+							<milestone unit="page" n="374r"/>
+							<milestone unit="line" n="1"/>bylada da muna Daɣon t́uš́ḱań alnynda jerǵa alnynda aro-
+							<milestone unit="line" n="2"/>nunun H-nyn da bašy Daɣonnun da ėki uvučlary qollarynyn jančyl-
+							<milestone unit="line" n="3"/>ɣanlar ol basaɣaɣa t́ek Daɣon qaldy anyn üśt́uńa.
+						</l>
+						<l n="5" xml:id="Sam1-005-005">Anyn
+							<milestone unit="line" n="4"/>üč́uń basmejdyrlar jumuščulary Daɣonnun da bar ol keĺǵań-
+							<milestone unit="line" n="5"/>ĺar juv́uńa Daɣonnun basaɣasy üśt́uńa Daɣonnun Ašdodta
+							<milestone unit="line" n="6"/>ušpu ḱuńǵa d́ejiń.
+						</l>
+						<l n="6" xml:id="Sam1-005-006">Da avurlandy qaranjasy H-nyn Ašdodlular-
+							<milestone unit="line" n="7"/>ɣa da v́eŕań ėt́ti alarny da vatty alarny tomalčyḥlar byla
+							<milestone unit="line" n="8"/>Ašdodnu da č́egiń.
+						</l>
+						<l n="7" xml:id="Sam1-005-007">Da ḱord́uĺar ėli Ašdodnun ki alejdy
+							<milestone unit="line" n="9"/>da ajttylar olturmasyn aronu T́eńrisiniń Jiśraʾeĺniń birǵa-
+							<milestone unit="line" n="10"/>miźǵa ki avurlandy qaranjasy astry üśt́uḿuźǵa da
+							<milestone unit="line" n="11"/>Daɣon t́eńrimiź üśt́uńa.
+						</l>
+						<l n="8" xml:id="Sam1-005-008">Da ijdiĺar da yštyrdylar bar v́ezir-
+							<milestone unit="line" n="12"/>ĺariń Ṕelištimniń öźĺarińa da ajttylar ńe qylajyḥ aronuna
+							<milestone unit="line" n="13"/>T́eńrisiniń Jiśraʾeĺniń da ajttylar Gatḥa qajyrylsyn aronu T́eń-
+							<milestone unit="line" n="14"/>risiniń Jiśraʾeĺniń da qajyrdylar aronun T́eńrisiniń Jiśraʾeĺniń.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="9" xml:id="Sam1-005-009">Da ėdi qajyryp sortun any da boldu qaranjasy H-nyn šaharda ullu bul-
+							<milestone unit="line" n="16"/>ɣančylyḥ astry da vatty ėliń ol šaharnyn kičid́ań ulluɣa
+							<milestone unit="line" n="17"/>d́ejiń da jašyryn orunda boldu alarɣa tomalčyḥlar.
+						</l>
+						<l n="10" xml:id="Sam1-005-010">Da ijdiĺar
+							<milestone unit="line" n="18"/>aronun 
+							<addSpan spanTo="#Sam1-005-add001" status="unremarkable"/>H-nyn
+							<anchor xml:id="Sam1-005-add001" type="addSpan"/> ol ʿĖqronɣa da ėdi keĺǵač́oḥ aronu ol T́eńriniń
+							<milestone unit="line" n="19"/>ʿĖqronɣa da yštyryldylar ol ʿĖqronlular ajtadoɣoč qajyr-
+							<milestone unit="line" n="20"/>dylar aronun T́eńrisiniń Jiśraʾeĺniń öĺt́urḿa ḿeni da ulusumnu.
+						</l>
+						<milestone unit="page" n="374v"/>
+						<milestone unit="line" n="1"/>
+						<l n="11" xml:id="Sam1-005-011">Da ijdiĺar da yštyrdylar bar ahalyḥlaryn Ṕelištimniń da ajt-
+							<milestone unit="line" n="2"/>tylar ijijiź aronun T́eńrisiniń Jiśraʾeĺniń da qajtsyn ornuna
+							<milestone unit="line" n="3"/>da öĺt́urḿasiń ḿeni da ulusumnu ki boldu alɣasavuɣu ö-
+							<milestone unit="line" n="4"/>ĺumńuń bar ol šaharda avurlandy astry qaranjasy ol
+							<milestone unit="line" n="5"/>T́eńriniń anda.
+						</l>
+						<l n="12" xml:id="Sam1-005-012">Da ol ėŕańĺar qajsylary ki öĺḿadiĺar
+							<milestone unit="line" n="6"/>vatyldylar čybanlar byla da ḱot́uŕuĺd́u jalbarmaɣy ol šahar-
+							<milestone unit="line" n="7" xml:id="Sam1005-P374v-L7" next="F305-01.009.006.xml#Sam1006-P374v-L7"/>nyn ol ḱokĺarǵa d́ejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Sam1-005-fn1" type="footnote" anchored="true">F305-01: spelled d́
+							<emph>uv́u</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

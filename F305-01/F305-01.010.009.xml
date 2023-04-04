@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Samuel 9</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Samuel 9</title>
+						<milestone unit="line" n="13" xml:id="Sam2009-P427v-L13" prev="F305-01.010.008.xml#Sam2008-P427v-L13"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">ט</foreign></l>
+						<milestone unit="line" n="14"/>
+						<l n="1" xml:id="Sam2-009-001">Da ajtty David́ kimmo bardyr artyḥ ki qaldy tiri
+							<milestone unit="line" n="15"/>juv́uńd́ań Šaʾulnun da qylajym birǵasińa ševaɣat Jonatan
+							<milestone unit="line" n="16"/>üč́uń.
+						</l>
+						<l n="2" xml:id="Sam2-009-002">Da juv́uńda Šaʾulnun ėdi qul da šemi Civa da
+							<milestone unit="line" n="17"/>ińd́adiĺar any David́ǵa da ajtty ol bij anar śeńmo Civa
+							<milestone unit="line" n="18"/>da ajtty quluj.
+						</l>
+						<l n="3" xml:id="Sam2-009-003">Da ajtty ol bij joḥmu artyḥ kišid́a
+							<milestone unit="line" n="19"/>juv́uńa Šaʾulnun da qylajym anar ševaɣatyn T́eńriniń da ajtty
+							<milestone unit="line" n="20"/>Civa ol bijǵa hanuz uvul Jonatanɣa ḥasta ajaḥlaryna.
+						</l>
+						<milestone unit="page" n="428r"/>
+						<milestone unit="line" n="1"/>
+						<l n="4" xml:id="Sam2-009-004">Da ajtty anar ol bij qajda ol da ajtty Civa ol
+							<milestone unit="line" n="2"/>bijǵa juv́uńd́a Maḫirniń uvlunun ʿAmiʾeĺniń Milo D́evarda.
+							<milestone unit="line" n="3"/>
+						</l>
+						<l n="6" xml:id="Sam2-009-006">
+							<ref n="1" target="#Sam2-009-fn1" type="noteAnchor"/> Da keĺdi Ḿefivošet́ uvlu Jonatannyn uvlunun Šaʾulnun David́-
+							<milestone unit="line" n="4"/>ǵa da t́uš́t́u juźĺari üśt́uńa da bašurdu da ajtty David́
+							<milestone unit="line" n="5"/>Ḿefivošet́ da ajtty muna quluj.
+						</l>
+						<l n="7" xml:id="Sam2-009-007">Da ajtty David́ anar qorḥ-
+							<milestone unit="line" n="6"/>maɣyn ki qylma qylarmyn birgeja ševaɣat Jonatan atej üč́uń
+							<milestone unit="line" n="7"/>da qajtaryrmyn saja bar t́uźuń Šaʾulnun atejnyn da śeń ašar-
+							<milestone unit="line" n="8"/>syn ėt́ḿak stolum artyna hamḿeš́a.
+						</l>
+						<l n="8" xml:id="Sam2-009-008">Da bašurdu da
+							<milestone unit="line" n="9"/>ajtty ńedir quluj ki qajyryldy ol it́ḱa öĺu ḿenim
+							<milestone unit="line" n="10"/>kibik.
+						</l>
+						<l n="9" xml:id="Sam2-009-009">Da ińd́adi ol bij Civany jumuščusun Šaʾulnun
+							<milestone unit="line" n="11"/>da ajtty anar baryn ńeki ėdi Šaʾulɣa da bar juv́uńa b́erdim
+							<milestone unit="line" n="12"/>any uvluna bijijniń.
+						</l>
+						<l n="10" xml:id="Sam2-009-010">Da qulluḥ ėt́kiń anar ol jerni
+							<milestone unit="line" n="13"/>śeń da ulanlaryj da qullaryj da keĺtirgiń da bolur uvluna
+							<milestone unit="line" n="14"/>bijijniń ėt́ḿak da ašar da Ḿefivošet́ uvlu bijijniń ašar
+							<milestone unit="line" n="15"/>hamḿeš́a ėt́ḿak stolum artyna da Civaɣa ėdi on
+							<milestone unit="line" n="16"/>b́eš́ uvullar da ėgirmi qullar.
+						</l>
+						<l n="11" xml:id="Sam2-009-011">Da ajtty Civa ol bijǵa
+							<milestone unit="line" n="17"/>baryn ńeki bujursa bijim ol bij quluna alej qylar quluj
+							<milestone unit="line" n="18"/>da Ḿefivošet́ ašar stolum artyna birisi kibik ulanlaryn-
+							<milestone unit="line" n="19"/>dan ol bijniń.
+						</l>
+						<l n="12" xml:id="Sam2-009-012">Da Ḿefivošet́ḱa kiči uvul da šemi Miḫa da bar
+							<milestone unit="line" n="20"/>olturuvču juv́uńd́a Civanyn qullar ėd
+							<supplied reason="lost">i</supplied>ĺar
+							<ref n="2" target="#Sam2-009-fn2" type="noteAnchor"/> Ḿefivošet́ḱa.
+						</l>
+						<milestone unit="page" n="428v"/>
+						<milestone unit="line" n="1"/>
+						<l n="13" xml:id="Sam2-009-013">Da Ḿefivošet́ oltururedi Jerušalajimd́a ki stolu artyna
+							<milestone unit="line" n="2"/>ol bijniń <delSpan  spanTo="#Sam2-009-del001">hamḿeš</delSpan><anchor  xml:id="Sam2-009-del001" type="delSpan"/> hamḿeš́a ol ašaredi da ol aḥsaredi
+							<milestone unit="line" n="3" xml:id="Sam2009-P428v-L3" next="F305-01.010.010.xml#Sam2010-P428v-L3"/>ėksid́a ajaḥlaryna.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Sam2-009-fn1" type="footnote" anchored="true">F305-01: verse 2 Sam 9:5 is omitted.</note>
+						<note xml:id="Sam2-009-fn2" type="footnote" anchored="true">F305-01: spelled 
+							<emph>ėd́ĺar</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

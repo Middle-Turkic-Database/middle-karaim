@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Kings 19</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Kings 19</title>
+						<milestone unit="line" n="7" xml:id="Kings2019-P537r-L7" prev=" F305-01.012.018.xml#Kings2018-P537r-L7"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">יט</foreign></l>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Kings2-019-001">Da ėdi ėšit́ḱač́oḥ ol bij Ḥiźqijahu da jyrtty upraḥlaryn
+							<milestone unit="line" n="9"/>da qaplandy kijiź byla da keĺdi juv́uńa H-nyn.
+						</l>
+						<l n="2" xml:id="Kings2-019-002">Da ijdi Ėĺjaqimni
+							<milestone unit="line" n="10"/>ki aharaḥ ol juv́ üśt́uńa da Šev́nany ol jazuvčunu da
+							<milestone unit="line" n="11"/>qartlaryn ol koheńĺarniń qaplanɣanlar kijiźĺar byla Ješaʿjahu ol
+							<milestone unit="line" n="12"/>naviǵa uvluna Amocnun.
+						</l>
+						<l n="3" xml:id="Kings2-019-003">Da ajttylar anar bolej ajtty
+							<milestone unit="line" n="13"/>Ḥiźqijahu tar ḱuń da qaranja ḱuńu da ačyrɣanmaḥ ušpu ḱuńńu
+							<milestone unit="line" n="14"/>ki keĺdiĺar ulanlar tolɣaḥqa d́ejiń da ḱuč́ joḥtur t́oŕaḿa.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="4" xml:id="Kings2-019-004">Šeḿe ėšitir H T́eńrij bar śoźĺariń Ravšeqanyń ki ijdi any biji
+							<milestone unit="line" n="16"/>Ašurnun biji rusvajlama tiri T́eńrini da üǵut́ĺadi śoźĺar
+							<milestone unit="line" n="17"/>byla ki ėšit́ti H T́eńrij da ḱot́urǵuń t́efila ol qaldyḥ üč́uń
+							<milestone unit="line" n="18"/>ol tabulɣan.
+						</l>
+						<l n="5" xml:id="Kings2-019-005">Da keĺdiĺar qullary ol bijniń Ḥiźqijahunun Ješaʿjahu-
+							<milestone unit="line" n="19"/>ɣa.
+						</l>
+						<l n="6" xml:id="Kings2-019-006">Da ajtty alarɣa Ješaʿjahu bolej ajtyjyz bijijiźǵa bolej ajt-
+							<milestone unit="line" n="20"/><delSpan  spanTo="#Kings2-019-del001">t</delSpan><anchor  xml:id="Kings2-019-del001" type="delSpan"/>ty H qorḥmaɣyn alnyndan ol śoźĺarniń ki ėšit́tij ki ḥorla-
+							<milestone unit="line" n="21"/>dylar jumuščulary bijiniń Ašurnun ḿeni.
+						</l>
+						<l n="7" xml:id="Kings2-019-007">Muna ḿeń b́erirmiń
+							<milestone unit="page" n="537v"/>
+							<milestone unit="line" n="1"/>anar saɣyš da ėšitir ḥabar da qajtyr jerińa da t́uv́š́uŕurmiń
+							<milestone unit="line" n="2"/>any qylyč byla jerińd́a.
+						</l>
+						<l n="8" xml:id="Kings2-019-008">Da qajtty Ravšeqa da tapty bijiń Ašur-
+							<milestone unit="line" n="3"/>nun orušadoɣonnu Liv́na üśt́uńa ki ėšit́ti ki ḱoč́t́u
+							<milestone unit="line" n="4"/>Laḫišt́ań.
+						</l>
+						<l n="9" xml:id="Kings2-019-009">Da ėšit́ti Tirhaqa üč́uń biji Kušnun ajtadoɣoč
+							<milestone unit="line" n="5"/>muna čyḥty orušma birgeja da ijdi ėĺčiĺar Ḥiźqijahuɣa
+							<milestone unit="line" n="6"/>ajtadoɣoč.
+						</l>
+						<l n="10" xml:id="Kings2-019-010">Bolej ajtyjyz Ḥiźqijahuɣa bijińa Juhudanyn ajtado-
+							<milestone unit="line" n="7"/>ɣoč jeĺd́at́ḿasiń T́eńrij ki śeń išanasyn anar ajtadoɣoč b́eriĺ-
+							<milestone unit="line" n="8"/>ḿaśtir Jerušalajim qoluna bijiniń Ašurnun.
+						</l>
+						<l n="11" xml:id="Kings2-019-011">Muna śeń ėšit́tij
+							<milestone unit="line" n="9"/>baryn ńeki qyldylar bijĺari Ašurnun bar ol jerĺarǵa v́eŕań
+							<milestone unit="line" n="10"/>ėt́ḿa alarny da śeńmo qutulursyn.
+						</l>
+						<l n="12" xml:id="Kings2-019-012">Qutḥardylarmo alarny
+							<milestone unit="line" n="11"/>T́eńriĺari ol ḥanlyḥlarnyn ki čejpadylar atalarym Gozanny da Ḥaranny
+							<milestone unit="line" n="12"/>da Rećefni da ulanlaryn ʿĖd́eńniń ki Bit́lasarda.
+						</l>
+						<l n="13" xml:id="Kings2-019-013">Qajda biji Ḥamat-
+							<milestone unit="line" n="13"/>nyn da biji Arpadnyn da biji šaharynyn Śefarvajimniń Henaʿ da ʿIva.
+						</l>
+						<l n="14" xml:id="Kings2-019-014">Da
+							<milestone unit="line" n="14"/>aldy Ḥiźqijahu ol bitikĺarni qolundan ol ėĺčiĺarniń da oḥu-
+							<milestone unit="line" n="15"/>du alarny da bardy juv́uńa H-nyn da jajdy alarny Ḥiźqijahu alnynda
+							<milestone unit="line" n="16"/>H-nyn.
+						</l>
+						<l n="15" xml:id="Kings2-019-015">Da t́efila ėt́ti Ḥiźqijahu alnynda H-nyn da ajtty H T́eńrisi
+							<milestone unit="line" n="17"/>Jiśraʾeĺniń qajjam T́eńrisi ol keruvimniń śeń ol T́eńri jalɣyzov
+							<milestone unit="line" n="18"/>bar bijlikĺarińd́a ol jerniń śeń jarattyj ḱokĺarni da ol jerni.
+						</l>
+						<milestone unit="line" n="19"/>
+						<l n="16" xml:id="Kings2-019-016">Qajyrɣyn ėj H ėšit́uv́ujńu da ėšit́kiń ačḥyn ėj H ʿėnajatlaryjny
+							<milestone unit="line" n="20"/>da ḱorǵuń da ėšit́kiń śoźĺariń Sańeḥerev́niń ki ijdi any rusvajlama
+							<milestone unit="line" n="21"/>qajjam T́eńrini.
+						</l>
+						<l n="17" xml:id="Kings2-019-017">Kertid́ań ėj H v́eŕań ėt́tiĺar bijĺari Ašurnun
+							<milestone unit="page" n="538r"/>
+							<milestone unit="line" n="1"/>ol ḥanlyḥlarny da jerĺariń.
+						</l>
+						<l n="18" xml:id="Kings2-019-018">Da b́erdiĺar abaḥlaryn otḥa ki t́uv́uĺ
+							<milestone unit="line" n="2"/>T́eńri alar ki ančaḥ iši qollarynyn adamnyn aɣač da taš da taśet́ti
+							<milestone unit="line" n="3"/>alarny.
+						</l>
+						<l n="19" xml:id="Kings2-019-019">Da haĺegińa H T́eńrimiź jarlyɣašlaɣyn ėńdi biźni qolundan
+							<milestone unit="line" n="4"/>da biĺsińĺar bar bijlikĺari ol jerniń ki śeń H T́eńri jalɣyzov.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="20" xml:id="Kings2-019-020">Da ijdi Ješaʿjahunu uvlun Amočnun Ḥiźqijahuɣa ajtadoɣoč bolej
+							<milestone unit="line" n="6"/>ajtty H T́eńrisi Jiśraʾeĺniń ki t́efila ėt́tij maja Sanḥeriv́ ü-
+							<milestone unit="line" n="7"/>č́uń bijiniń Ašurnun ėšit́tim t́efilajny.
+						</l>
+						<l n="21" xml:id="Kings2-019-021">Bu ol śoź ki śoźĺadi
+							<milestone unit="line" n="8"/>H anyn üśt́uńa ḥor ėt́ti śeni 
+							<supplied reason="lost">ė</supplied>lik
+							<ref n="1" target="#Kings2-019-fn1" type="noteAnchor"/> ėt́ti śeńd́ań ėj boj
+							<milestone unit="line" n="9"/>ǯymaty Cijonnun artejdan śeniń siĺḱar baš ǯymaty Jerušalajimniń.
+						</l>
+						<l n="22" xml:id="Kings2-019-022">Kimni
+							<milestone unit="line" n="10"/>rusvajladyj da ḥor ėt́tij da kim üśt́uńa ḱot́urd́uj avaz da ḱot́ur-
+							<milestone unit="line" n="11"/>d́uj bijikḱa ḱoźĺarijni aziź T́eńrisi üśt́uńamo Jiśraʾeĺniń.
+						</l>
+						<l n="23" xml:id="Kings2-019-023">Qolu
+							<milestone unit="line" n="12"/>ašyra ėĺčiĺarijniń rusvajladyj H-ny da ajttyj ḱopĺuǵu byla
+							<milestone unit="line" n="13"/>markavumnun mińarmiń bijikligińa tavlarnyn qyryjlaryna Ĺevanonnun
+							<milestone unit="line" n="14"/>da keśarmiń turušun ėreźĺariniń sajlanɣan b́erošlarynyn da kelirmiń
+							<milestone unit="line" n="15"/>toḥtar ornuna hašgaḥasynyn Jaʿar Karḿeĺǵa.
+						</l>
+						<l n="24" xml:id="Kings2-019-024">Ḿeń qazdym da ič́tim
+							<milestone unit="line" n="16"/>jat suvlarny da quruttum tabany byla atlamlarymnyn bar Niĺĺariń Mić-
+							<milestone unit="line" n="17"/>riniń.
+						</l>
+						<l n="25" xml:id="Kings2-019-025">Muna ėšit́ḿadijmo jyraḥ zamandan ńeki qyldym avalɣy vaḥtlarda
+							<milestone unit="line" n="18"/>da jarattym haĺegińa keĺtirirmiń any da bolur v́eŕańligińa ovalarnyn
+							<milestone unit="line" n="19"/>pustalyɣyna b́ek šaharlarnyn.
+						</l>
+						<l n="26" xml:id="Kings2-019-026">Da olturuvčulary alarnyn bolurlar jadaɣan
+							<milestone unit="line" n="20"/>qollular synyɣyrlar da ujatly bolurlar bolurlar ḱoǵut́uń kibik t́uź-
+							<milestone unit="line" n="21"/>ńuń da jesiĺligi ḱoǵut́ńuń ḱoǵut́u kibik baḥčalarnyn da sarɣarɣan ḱoǵut́
+							<milestone unit="page" n="538v"/>
+							<milestone unit="line" n="1"/>kibik burun turuḥtan.
+						</l>
+						<l n="27" xml:id="Kings2-019-027">Da olturušujnu da čyɣyšyjny da kirišijni biĺamiń
+							<milestone unit="line" n="2"/>da qaltravuɣuj keĺdi maja.
+						</l>
+						<l n="28" xml:id="Kings2-019-028">Qačan ki qaltravuɣuj keĺdi maja da čuvlamaɣyj
+							<milestone unit="line" n="3"/>keĺdi ėšit́uv́ĺariḿa da qojarmyn qaramaɣymny burnuja da avuzluɣum-
+							<milestone unit="line" n="4"/>nu ėrińĺarija da qajttyryrmyn śeni ol jolɣa ki keĺśej ara.
+						</l>
+						<l n="29" xml:id="Kings2-019-029">Da bu
+							<milestone unit="line" n="5"/>saja ol biĺgi ašama bu jylda öźuńd́ań bit́ḱańni da ol ėkińči
+							<milestone unit="line" n="6"/>jylda andan bit́ḱańni da ol üč́uńč́u jylda čačarsyz da orarsyz
+							<milestone unit="line" n="7"/>da olturɣuzursuz borlalyḥ aɣačlary da ašarsyz jemiš́ĺariń.
+						</l>
+						<l n="30" xml:id="Kings2-019-030">Da
+							<milestone unit="line" n="8"/>arttyryr qutulɣany juv́uńuń Juhudanyn ol qalɣan ijḿa butaḥ
+							<milestone unit="line" n="9"/>ašaɣa da öśt́uŕur jemiš́iń bijikḱa.
+						</l>
+						<l n="31" xml:id="Kings2-019-031">Ki Jerušalajimd́ań čyɣar qal-
+							<milestone unit="line" n="10"/>dyḥ da qutulmuš tavyndan Cijonnun ḱuńuĺuǵu H-nyn T́eńrisiniń ćeva-
+							<milestone unit="line" n="11"/>ʾotnun qylar bunu.
+						</l>
+						<l n="32" xml:id="Kings2-019-032">Anyn üč́uń bolej ajtty H biji üč́uń
+							<milestone unit="line" n="12"/>Ašurnun keĺḿaśt́ ušpu šaharɣa da atmastyr anda oḥ
+							<milestone unit="line" n="13"/>da utrulamast any qalqan byla da qojmastyr anyn üśt́uńa val.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="33" xml:id="Kings2-019-033">Jol byla ki keĺśa anyn byla qajtyr da ol šaharɣa ušpuɣa
+							<milestone unit="line" n="15"/>keĺḿaś alej ajtty H.
+						</l>
+						<l n="34" xml:id="Kings2-019-034">Da qalqanlarmyn ol šahar ašyra ušpu
+							<milestone unit="line" n="16"/>qutḥarma any öźum üč́uń da David́ qulum üč́uń.
+						</l>
+						<l n="35" xml:id="Kings2-019-035">Da ėdi ol ke-
+							<milestone unit="line" n="17"/>č́ad́a da čyḥty malaḫy H-nyn da vatty avulunda Ašurnun juź śekśań
+							<milestone unit="line" n="18"/>b́eš́ miń da tanlej turdular tan bylada da muna barlary ǵov́d́aĺar
+							<milestone unit="line" n="19"/>öĺǵańĺar.
+						</l>
+						<l n="36" xml:id="Kings2-019-036">Da qajyryldy da bardy da qajtty Sanḥeriv́ biji Ašurnun
+							<milestone unit="line" n="20"/>da olturdu Nińv́ed́a.
+						</l>
+						<l n="37" xml:id="Kings2-019-037">Da ėdi ol bašururedi juv́uńd́a Niśroḫnun
+							<milestone unit="page" n="539r"/>
+							<milestone unit="line" n="1"/>abaɣynyn Adraḿeĺeḫ da Sarećer ulanlary qyrdylar any qylyč byla
+							<milestone unit="line" n="2"/>da alar qutuldular jerińa Araratnyn da bij boldu Ėsar Ḥadon uv-
+							<milestone unit="line" n="3" xml:id="Kings2019-P539r-L3" next=" F305-01.012.020.xml#Kings2020-P539r-L3" />lu ornunda anyn.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Kings2-019-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>ilik</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joshua 16</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joshua 16</title>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Josh-016-001">Da čyḥty ol goral ulanlaryna Jośefniń Jard́enińd́ań
+							<milestone unit="line" n="9"/>Jeriḥonun suvlaryna Jeriḥonun mizraḥ sartyn ol midbar baryredi
+							<milestone unit="line" n="10"/>Jeriḥodan tavyna B́et́ Ėĺniń.
+						</l>
+						<l n="2" xml:id="Josh-016-002">Da čyɣady B́et́ Ėĺd́ań Luzɣa da
+							<milestone unit="line" n="11"/>ašady č́egińa Arki ʿAtarotnun.
+						</l>
+						<l n="3" xml:id="Josh-016-003">Da ėńadir maʿrav sary
+							<milestone unit="line" n="12"/>č́egińa Jafletiniń č́egińa d́ejiń B́et́ Ḥoronnun Taḥtonnun Ǵezer-
+							<milestone unit="line" n="13"/>ǵa d́ejiń da ėdiĺar čyɣyšlary maʿrav sary.
+						</l>
+						<l n="4" xml:id="Josh-016-004">Da üĺuš́ aldylar
+							<milestone unit="line" n="14"/>ulanlary Jośef́niń Ḿenaše da Ėfrajim.
+						</l>
+						<l n="5" xml:id="Josh-016-005">Da ėdi č́egi ulanlarynyn
+							<milestone unit="line" n="15"/>Ėfrajimniń uruvlary sajyn da ėdi č́egi üĺuš́ĺariniń mizraḥ
+							<milestone unit="line" n="16"/>sartyn ʿAtrot Adarɣa B́et́ Ḥoron Ėljonɣa d́ejiń.
+						</l>
+						<l n="6" xml:id="Josh-016-006">Da čyḥty ol
+							<milestone unit="line" n="17"/>č́ek maʿrav sary ol Maḫmatta
+							<ref n="1" target="#Josh-016-fn1" type="noteAnchor"/> t́uš́ĺukt́ań da qajyryredi
+							<milestone unit="line" n="18"/><delSpan  spanTo="#Josh-016-del001">da ėńaredi Janoḥadan ʿAtarottan Naʿarataɣa</delSpan><anchor  xml:id="Josh-016-del001" type="delSpan"/>
+							<ref n="2" target="#Josh-016-fn2" type="noteAnchor"/> ol č́ek mizraḥ
+							<milestone unit="line" n="19"/>sartyn Taʾanat Šiloɣa da ašty any mizraḥ sartyn Janoḥaɣa.
+						</l>
+						<milestone unit="line" n="20"/>
+						<l n="7" xml:id="Josh-016-007">Da ėńaredi Janoḥadan ʿAtarot Naʿaratḥa
+							<ref n="3" target="#Josh-016-fn3" type="noteAnchor"/> da jet́aredi Jeriḥoda
+							<milestone unit="line" n="21"/>da čyɣaredi ol Jard́eńǵa.
+						</l>
+						<l n="8" xml:id="Josh-016-008">Tapuaḥtan baryredi maʿrav sary
+							<milestone unit="page" n="319v"/>
+							<milestone unit="line" n="1"/>Naḥal 
+							<supplied reason="lost">Qanaɣa</supplied>
+							<ref n="4" target="#Josh-016-fn4" type="noteAnchor"/> da ėdiĺar čyɣyslary maʿrav sary bu üĺuš́u
+							<milestone unit="line" n="2"/>šev́etiniń ulanlarynyn Ėfrajimniń uruvlary sajyn.
+						</l>
+						<l n="9" xml:id="Josh-016-009">Da ol šahar-
+							<milestone unit="line" n="3"/>lar ol ajyrɣanlar ulanlaryna Ėfrajimniń ortasynda ü-
+							<milestone unit="line" n="4"/>ĺuš́ńuń ulanlarynyn Ḿenašeniń bar ol šaharlar da azbar-
+							<milestone unit="line" n="5"/>lary.
+						</l>
+						<l n="10" xml:id="Josh-016-010">Da śurḿadiĺar ol Kenaʿanny ol olturuvču Ǵezerd́a
+							<milestone unit="line" n="6"/>da olturdu ol Kenaʿan ortasynda Ėfrajimniń ušpu
+							<milestone unit="line" n="7"/>ḱuńǵa d́ejiń da ėdi jasaḥ üč́uń qulluḥ ėt́ti.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Josh-016-fn1" type="footnote" anchored="true">Spelled<foreign  xml:lang="he" style="unicode-bidi: embed;"> מַכְמַת</foreign>; Heb.<foreign  xml:lang="he" style="unicode-bidi: embed;"> מִּכְמְתׇת</foreign>; cf. further Josh 17.10: 
+							<emph>Miḫmetatḥa</emph>.
+						</note>
+						<note xml:id="Josh-016-fn2" type="footnote" anchored="true">The erroneously written fragment of Josh 16.7 has been left unvocalized and crossed out by the copyist.</note>
+						<note xml:id="Josh-016-fn3" type="footnote" anchored="true">Heb.<foreign  xml:lang="he" style="unicode-bidi: embed;"> נַעֲרָתָה</foreign>.</note>
+						<note xml:id="Josh-016-fn4" type="footnote" anchored="true">F305-01: 
+							<emph>Qaneɣa</emph>; a scribal error. Cf. Heb.<foreign  xml:lang="he" style="unicode-bidi: embed;"> קָנָה
+						</foreign>.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

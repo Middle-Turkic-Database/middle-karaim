@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Samuel 4</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Samuel 4</title>
+						<milestone unit="line" n="8" xml:id="Sam2004-P421v-L8" prev="F305-01.010.003.xml#Sam2003-P421v-L8"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">ד</foreign></l>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Sam2-004-001">Da ėšit́ti uvlu Šaʾulnun ki öĺd́u Avńer
+							<milestone unit="line" n="10"/>Ḥev́ronda da salpradylar qollary da bar Jiśraʾeĺ alɣasandylar.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="2" xml:id="Sam2-004-002">Da ėki ėŕańĺar ahalyḥlary yjynlarnyn ėdiĺar uvluna
+							<milestone unit="line" n="12"/>Šaʾulnun šemi ol birisiniń Baʿana da šemi ol ėkińčisiniń
+							<milestone unit="line" n="13"/>Reḫav ulanlary Rimonnun ol B́eʾerotiniń ėlińd́ań Bińjamińniń
+							<milestone unit="line" n="14"/>ki daɣy B́eʾerotlular saɣyšlanyredi Bińjamińǵa.
+						</l>
+						<l n="3" xml:id="Sam2-004-003">Da qačtylar ol
+							<milestone unit="line" n="15"/>B́eʾerotlular Gitajmaɣa da ėdiĺar anda tiriĺuv́č́uĺar
+							<milestone unit="line" n="16"/>ušpu ḱuńǵa d́ejiń.
+						</l>
+						<l n="4" xml:id="Sam2-004-004">Da Jonatanɣa uvluna Šaʾulnun
+							<milestone unit="line" n="17"/>ėdi uvul aḥsaḥ ajaḥly b́eš́ jyllyḥ ėdi keĺǵańd́a
+							<milestone unit="line" n="18"/>ḥabary Šaʾulnun da Jonatannyn Jiźreʾeĺd́ań da ėĺtir
+							<supplied reason="lost">e</supplied>di
+							<ref n="1" target="#Sam2-004-fn1" type="noteAnchor"/> any ė-
+							<milestone unit="line" n="19"/>miźdiŕuv́č́uśu da qačarėdi da ėdi tutḥanda qačma da ajlandy
+							<milestone unit="line" n="20"/>da t́uš́t́u da aḥsady da šemi anyn Ḿefivošet́.
+						</l>
+						<l n="5" xml:id="Sam2-004-005">Da bardylar
+							<milestone unit="page" n="422r"/>
+							<milestone unit="line" n="1"/>ulanlary Rimonnun ol B́eʾerotlularnyn Reḫav da Baʿana da keĺdiĺar
+							<milestone unit="line" n="2"/>iśsińǵań vaḥta ol ḱuń juv́uńa Iš Bošet́niń da ol jaty-
+							<milestone unit="line" n="3"/>redi jatmaɣyn t́uś́ vaḥtynyn.
+						</l>
+						<l n="6" xml:id="Sam2-004-006">Da alar keĺdiĺar ortasyna
+							<milestone unit="line" n="4"/>d́ejiń ol juv́ńuń aluvčular kibik budajlarny da vattylar any
+							<milestone unit="line" n="5"/>ol b́ešińči qaburɣaɣa da Reḫav da Baʿana qarandašy qutuldular.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="7" xml:id="Sam2-004-007">Da keĺdiĺar ol juv́ǵa da ol jatyredi t́oš́agi üśt́uńa
+							<milestone unit="line" n="7"/>ḥuǯurasynda t́oš́aginiń da vattylar any da öĺt́urd́uĺar
+							<milestone unit="line" n="8"/>da ket́ardiĺar bašyn da aldylar bašyn da bardylar joluna ol jyl-
+							<milestone unit="line" n="9"/>ɣalyḥnyn bar ol keč́ani.
+						</l>
+						<l n="8" xml:id="Sam2-004-008">Da keĺtirdiĺar bašyn Iš Bošet́niń
+							<milestone unit="line" n="10"/>David́ǵa Ḥev́ronɣa da ajttylar ol bijǵa muna bašy Iš
+							<milestone unit="line" n="11"/>Bošet́niń uvlunun Šaʾulnun dušmanyjnyn ki iźĺadi ǯa-
+							<milestone unit="line" n="12"/>nyjny da b́erdi H bijiḿa ol bijǵa öč́ĺar ušpu ḱuńńu
+							<milestone unit="line" n="13"/>Šaʾuldan da urluɣundan.
+						</l>
+						<l n="9" xml:id="Sam2-004-009">Da qaruv b́erdi David́ Reḫavɣa da Baʿana-
+							<milestone unit="line" n="14"/>ɣa qarandašyna ulanlaryna Rimonnun ol B́eʾerotlunun da
+							<milestone unit="line" n="15"/>ajtty alarɣa qajjamdyr ki juludu ǯanymny bar tarlyḥtan.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="10" xml:id="Sam2-004-010">Ki ol anlatuvču maja öĺuḿuń Šaʾulnun da ol ėdi
+							<milestone unit="line" n="17"/>ḥabar b́eŕuv́č́u kibik ḱoźĺarińd́a da tuttum any da öĺ-
+							<milestone unit="line" n="18"/>t́urd́um Ciqlaɣta ki išandy ki b́erirmiń anar jalyn ḥabarnyn.
+						</l>
+						<milestone unit="line" n="19"/>
+						<l n="11" xml:id="Sam2-004-011">H́em ki ėŕańĺar rašaʿlar öĺt́urd́uĺar rast kišini juv́uń-
+							<milestone unit="line" n="20"/>d́a t́oš́agi üśt́uńa da haĺegińa muna iźĺarmiń qanyn
+							<milestone unit="page" n="422v"/>
+							<milestone unit="line" n="1"/>qolujuzdan da ėksitirmiń siźni ol jerd́ań.
+						</l>
+						<l n="12" xml:id="Sam2-004-012">Da bujurdu David́ ol
+							<milestone unit="line" n="2"/>ulanlarɣa da qyrdylar alarny da qypčydylar qollaryn da ajaḥlaryn
+							<milestone unit="line" n="3"/>da aštylar ol lotoq qatyna Ḥev́ronda da bašyn Iš Bošet́niń al-
+							<milestone unit="line" n="4" xml:id="Sam2004-P422v-L4" next="F305-01.010.005.xml#Sam2005-P422v-L4"/>dylar da astradylar źeŕati qatyna Avńerniń Ḥev́ronda.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Sam2-004-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>ėĺtiridi</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

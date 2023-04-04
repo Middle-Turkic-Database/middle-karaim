@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Samuel 8</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Samuel 8</title>
+						<milestone unit="line" n="17" xml:id="Sam2008-P426v-L17" prev="F305-01.010.007.xml#Sam2007-P426v-L17"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">ח</foreign></l>
+						<l n="1" xml:id="Sam2-008-001">Da ėdi andan sortun alej da vatty
+							<milestone unit="line" n="18"/>David́ Ṕelištimni da synyḥtyrdy any da aldy David́ Ḿet́eɣ Amany
+							<milestone unit="line" n="19"/>qolundan Ṕelištimniń.
+						</l>
+						<l n="2" xml:id="Sam2-008-002">Da vatty Moʾavny da öĺč́adi any šnur
+							<milestone unit="line" n="20"/>byla jatyrɣyzdy alarny jerǵa da öĺč́adi ėki šnurlar
+							<milestone unit="page" n="427r"/>
+							<milestone unit="line" n="1"/>öĺt́urḿa da t́uǵaĺ ol šnurnu tiri tutma da boldu
+							<milestone unit="line" n="2"/>Moʾav David́ǵa qullarɣa ėĺt́uv́č́uĺar tirki.
+						</l>
+						<l n="3" xml:id="Sam2-008-003">Da vatty
+							<milestone unit="line" n="3"/>David́ Hadarʿeźerni uvlun Reḥovnun biji Covanyn barɣanynda
+							<milestone unit="line" n="4"/>qajtma ornuna öźani qatyna Ṕeratnyn.
+						</l>
+						<l n="4" xml:id="Sam2-008-004">Da tuttu David́
+							<milestone unit="line" n="5"/>andan miń jedi juź jalan atlylar da ėgirmi miń kiši jajav
+							<milestone unit="line" n="6"/>da vyqoŕeńt́
+							<supplied reason="lost">e</supplied>t́ti
+							<ref n="1" target="#Sam2-008-fn1" type="noteAnchor"/> David́ bar ol markavny da qaldyrdy öźuńa
+							<milestone unit="line" n="7"/>andan juź markav.
+						</l>
+						<l n="5" xml:id="Sam2-008-005">Da keĺdi Aram Daḿeśeq bolušma Hadarʿeźerǵa
+							<milestone unit="line" n="8"/>bijińa Covanyn da vatty David́ Aramdan ėgirmi ėki miń kiši.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="6" xml:id="Sam2-008-006">Da qojdu David́ aharaḥlar Aram Daḿeśeqt́a da boldu Aram David́ǵa
+							<milestone unit="line" n="10"/>qullarɣa ėĺt́uv́č́uĺar tirki da jarlyɣašlady H David́ni qajda
+							<milestone unit="line" n="11"/>ki juŕud́u.
+						</l>
+						<l n="7" xml:id="Sam2-008-007">Da aldy David́ ol altyn ḱub́aĺarni ki ėdiĺar
+							<milestone unit="line" n="12"/>qullaryna Hadarʿeźerniń da keĺtirdi alarny Jerušalajimǵa.
+						</l>
+						<l n="8" xml:id="Sam2-008-008">Da
+							<milestone unit="line" n="13"/>B́etaḥtan da B́erotajdan šaharlaryndan Hadarʿeźerniń aldy ol bij David́
+							<milestone unit="line" n="14"/>tuč ḱop astry.
+						</l>
+						<l n="9" xml:id="Sam2-008-009">Da ėšit́ti Toʿi biji Ḥamatnyn ki vatty David́
+							<milestone unit="line" n="15"/>bar č́eriviń Hadarʿeźerniń.
+						</l>
+						<l n="10" xml:id="Sam2-008-010">Da ijdi Toʿi Joramny uvlun ol
+							<milestone unit="line" n="16"/>ol bijǵa David́ǵa sorma anyn bazlyɣy üč́uń da alɣyšlama any
+							<milestone unit="line" n="17"/>anyn üč́uń ki uruštu Hadarʿeźer byla da vatty any ki
+							<milestone unit="line" n="18"/>dušman ėdi Toʿi Hadarʿeźerǵa da qolunda ėdiĺar ḱuḿuš́ savut-
+							<milestone unit="line" n="19"/>lar da altyn savutlar da tuč savutlar.
+						</l>
+						<l n="11" xml:id="Sam2-008-011">Daɣy alarnydy ajyrdy ol
+							<milestone unit="line" n="20"/>bij David́ H-ɣa ol ḱuḿuš́ńu da ol altynny ki qod́eš́ ėt́ti
+							<milestone unit="page" n="427v"/>
+							<milestone unit="line" n="1"/>bar ol ḥanlyḥlardan ki tutuvlady.
+						</l>
+						<l n="12" xml:id="Sam2-008-012">Aramdan da Moʾavdan da ulan-
+							<milestone unit="line" n="2"/>laryndan ʿAmonnun da Ṕelištimd́ań da ʿAmaĺeqt́ań da olǯasyndan
+							<milestone unit="line" n="3"/>Hadarʿeźerniń uvlunun Reḥovnun biji Covanyn.
+						</l>
+						<l n="13" xml:id="Sam2-008-013">Da qyldy David́
+							<milestone unit="line" n="4"/>šem qajtḥanynda vatmaḥtan Aramny tuzlu ėniš́t́a on śegiź
+							<milestone unit="line" n="5"/>miń.
+						</l>
+						<l n="14" xml:id="Sam2-008-014">Da qojdu Ėdomda aɣalyḥlar bar jerińd́a Ėdomnun qojdu
+							<milestone unit="line" n="6"/>aɣalyḥlar da ėdi bar ėli Ėdomnun qullar David́ǵa da jarlyɣaš-
+							<milestone unit="line" n="7"/>lady H barynda ki üŕud́u.
+						</l>
+						<l n="15" xml:id="Sam2-008-015">Da bijlik ėt́ti David́ bar Jiśraʾeĺ
+							<milestone unit="line" n="8"/>üśt́uńa da ėdi David́ qyluvču t́oŕa da rastlyḥ bar
+							<milestone unit="line" n="9"/>ulusuna.
+						</l>
+						<l n="16" xml:id="Sam2-008-016">Da Joʾav uvlu Č́erujanyn aharaḥ ol č́eriv́
+							<milestone unit="line" n="10"/>üśt́uńa da Johošafat uvlu Aḥiludnun saɣyndyruvču.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="17" xml:id="Sam2-008-017">Da Cadoq uvlu Aḥituvnun da Aḥiḿeĺeḫ uvlu Ėv́jatarnyn
+							<milestone unit="line" n="12"/>ahalyḥlar da Śeraja jazuvču.
+						</l>
+						<l n="18" xml:id="Sam2-008-018">Da V́enajahu uvlu Johojadaʿnyn da ol
+							<milestone unit="line" n="13" xml:id="Sam2008-P427v-L13" next="F305-01.010.009.xml#Sam2009-P427v-L13"/>Kereti da ol Ṕeĺeti da ulanlary David́niń aharaḥlar ėdiĺar.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Sam2-008-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>vyqoŕeńtit́ti</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>1 Kings 4</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>1 Kings 4</title>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Kings1-004-001">Da ėdi ol 
+							<addSpan spanTo="#Kings1-004-add001" status="unremarkable"/>bij
+							<anchor xml:id="Kings1-004-add001" type="addSpan"/> Šelomo bijlik ėt́ti bar Jiśraʾeĺ üś-<foreign  xml:lang="he" style="unicode-bidi: embed;"> ד
+							</foreign><milestone unit="line" n="12"/>t́uńa.
+						</l>
+						<l n="2" xml:id="Kings1-004-002">Da bular ol aɣalyḥlar ki ėdiĺar anar ʿAzarjahu uv-
+							<milestone unit="line" n="13"/>lu Cadoqnun ol koheń.
+						</l>
+						<l n="3" xml:id="Kings1-004-003">Ėliḥoref da Aḥija ulanlary Šišanyn jazuv-
+							<milestone unit="line" n="14"/>čular Johošafat uvlu Aḥiludnun ol saɣyndyruvču.
+						</l>
+						<l n="4" xml:id="Kings1-004-004">Da
+							<milestone unit="line" n="15"/>V́enajahu uvlu Johojadaʿnyn aharaḥ ol č́eriv́ üśt́uńa da Cadoq
+							<milestone unit="line" n="16"/>da Ėv́jatar koheńĺar.
+						</l>
+						<l n="5" xml:id="Kings1-004-005">Da ʿAzarjahu uvlu Natannyn ol aharaḥlar
+							<milestone unit="line" n="17"/>üśt́uńa da Zavud uvlu Natannyn ahalyḥ dostu ol bijniń.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="6" xml:id="Kings1-004-006">Da Aḥišar aharaḥ ol juv́ üśt́uńa da Adoniram uvlu ʿAvda-
+							<milestone unit="line" n="19"/>nyn ol jasaḥ üśt́uńa.
+						</l>
+						<l n="7" xml:id="Kings1-004-007">Da Šelomoɣa on ėki turuvčular
+							<milestone unit="line" n="20"/>bar Jiśraʾeĺ üśt́uńa da b́eśĺar
+							<supplied reason="lost">e</supplied>diĺar
+							<ref n="1" target="#Kings1-004-fn1" type="noteAnchor"/> ol bijni da ėliń
+							<milestone unit="page" n="464r"/>
+							<milestone unit="line" n="1"/>juv́uńuń janɣyj jylda boluredi ol birǵa b́eśĺaḿa.
+						</l>
+						<l n="8" xml:id="Kings1-004-008">Bular
+							<milestone unit="line" n="2"/>šemĺari uvlu Ḥurnun tavyndan Ėfrajimniń.
+						</l>
+						<l n="9" xml:id="Kings1-004-009">Uvlu D́eqerniń Maqacta
+							<milestone unit="line" n="3"/>da B́et́ Šeḿešt́a da Ėlon B́et́ Ḥananda.
+						</l>
+						<l n="10" xml:id="Kings1-004-010">Uvlu Ḥeśed́ Arubotta anar
+							<milestone unit="line" n="4"/>Soḫo da bar jeri Ḥef́erniń.
+						</l>
+						<l n="11" xml:id="Kings1-004-011">Uvluna Avinadavnyn bar Nafat Dor Tafat
+							<milestone unit="line" n="5"/>qyzy Šelomonun ėdi anar qatynlyḥqa.
+						</l>
+						<l n="12" xml:id="Kings1-004-012">Baʿana uvlu Aḥi-
+							<milestone unit="line" n="6"/>ludnun Taʿanaḫ da Ḿeɣido da bar juv́u Šʾannyn ki janynda Caretananyn
+							<milestone unit="line" n="7"/>ašaɣartyn Jiźreʿeĺǵa B́et́ Šʾandan Av́eĺ Moḥolaɣa d́ejiń janyndan
+							<milestone unit="line" n="8"/>Jaqḿeʿamnyn.
+						</l>
+						<l n="13" xml:id="Kings1-004-013">Uvlu Gev́erniń Ramot Giĺeʿadda anar Ḥaot Jaʾir uv-
+							<milestone unit="line" n="9"/>lu Ḿenašeniń ki Giĺeʿadda anar Ḥev́eĺ Argov ki Bašanda altymyš
+							<milestone unit="line" n="10"/>šaharlar ullular qala da b́ekĺavič́ tučtan.
+						</l>
+						<l n="14" xml:id="Kings1-004-014">
+							<addSpan spanTo="#Kings1-004-add002" status="unremarkable"/>Aḥinadav
+							<anchor xml:id="Kings1-004-add002" type="addSpan"/> uvlu
+							<milestone unit="line" n="11"/>ʿIdonun Maḥanajimǵa.
+						</l>
+						<l n="15" xml:id="Kings1-004-015">Aḥimaʿac Naftalid́a daɣy oldy aldy Base-
+							<milestone unit="line" n="12"/>matny qyzyn Šelomonun qatynlyḥqa.
+						</l>
+						<l n="16" xml:id="Kings1-004-016">Baʿana uvlu Ḥušiniń Ašer
+							<milestone unit="line" n="13"/>d́a da ʿĖlotta.
+						</l>
+						<l n="17" xml:id="Kings1-004-017">Johošafat uvlu Paruaḥnyn Jiśsaḫarda.</l>
+						<l n="18" xml:id="Kings1-004-018">Šiḿeʿi uv-
+							<milestone unit="line" n="14"/>lu Ėlanyn Bińjamińd́a.
+						</l>
+						<l n="19" xml:id="Kings1-004-019">Gev́er uvlu Uriniń jerińd́a Giĺeʿadnyn
+							<milestone unit="line" n="15"/>jerińd́a Siḥonnun biji ol Ėmoriniń da ʿOɣ biji ol Bašannyn da bir
+							<milestone unit="line" n="16"/>aɣalyḥ har bir jerd́a.
+						</l>
+						<l n="20" xml:id="Kings1-004-020">Da Juhuda da Jiśraʾeĺ ḱop ėdiĺar qum kibik
+							<milestone unit="line" n="17"/>ki t́eńgiźd́a ḱopĺukḱa ašarediĺar da ič́arediĺar da bijanirediĺar.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Kings1-004-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>b́eśĺaridiĺar</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

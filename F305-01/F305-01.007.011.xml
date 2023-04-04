@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Judges 11</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Judges 11</title>
+						<milestone unit="line" n="4"/>
+						<l n="1" xml:id="Judg-011-001">Da Jiftaḥ ol Gilʾadly ėdi baɣatyr tuvuslu da ol ė-
+							<milestone unit="line" n="5"/>di uvlu azuvču qatynnyn da tuvdurdu Gilʿad Jiftaḥny.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="2" xml:id="Judg-011-002">Da t́oŕadi qatyny Gilʿadnyn anar ulanlar da öśt́uĺar ol u-
+							<milestone unit="line" n="7"/>
+							<addSpan spanTo="#Judg-011-add001" status="unremarkable"/>lan
+							<anchor xml:id="Judg-011-add001" type="addSpan"/>lary
+							<ref n="1" target="#Judg-011-fn1" type="noteAnchor"/> ol qatynnyn da śurd́uĺar Jiftaḥny da ajttylar anar joḥ-
+							<milestone unit="line" n="8"/>tur saja üĺuš́ üvuńd́a atamyznyn ki uvlu ėkińči
+							<milestone unit="line" n="9"/>qatynnyn śeń.
+						</l>
+						<l n="3" xml:id="Judg-011-003">Da qačty Jiftaḥ alnyndan qarandašlarynyn da olturdu
+							<milestone unit="line" n="10"/>jerińd́a Tovnun da č́opĺańdiĺar Jiftaḥqa boštaḥ ėŕańĺar
+							<milestone unit="line" n="11"/>da čyḥtylar birǵasińa.
+						</l>
+						<l n="4" xml:id="Judg-011-004">Da ėdi bir ńeč́a vaḥtlardan da uruštu-
+							<milestone unit="line" n="12"/>lar ulanlary ʿAmonnun Jiśraʾeĺ byla.
+						</l>
+						<l n="5" xml:id="Judg-011-005">Da ėdi ki ńečik uruš-
+							<milestone unit="line" n="13"/>tular ulanlary ʿAmonnun Jiśraʾeĺ byla da bardylar qartlary
+							<milestone unit="line" n="14"/>Gilʿadnyn alma Jiftaḥny jerińd́ań Tovnun.
+						</l>
+						<l n="6" xml:id="Judg-011-006">Da ajttylar Jif-
+							<milestone unit="line" n="15"/>taḥqa keĺ da bolɣun biźǵa ahalyḥqa da urušurbyz ulan-
+							<milestone unit="line" n="16"/>lary byla ʿAmonnun.
+						</l>
+						<l n="7" xml:id="Judg-011-007">Da ajtty Jiftaḥ qartlaryna Gilʿadnyn
+							<milestone unit="line" n="17"/>muna siź ḥor ėt́tijiź ḿeni da śurd́uńzú ḿeni üv́uńd́ań atam-
+							<milestone unit="line" n="18"/>nyn da ńeǵa keĺdijiź maja ki ńečik tar boldu siźǵa.
+						</l>
+						<milestone unit="line" n="19"/>
+						<l n="8" xml:id="Judg-011-008">Da ajttylar qartlary Gilʿadnyn Jiftaḥqa anyn üč́uń haĺegińa
+							<milestone unit="line" n="20"/>qajttyḥ saja da barɣyn birǵamiźǵa da urušḥun ulanlary byla
+							<milestone unit="page" n="351r"/>
+							<milestone unit="line" n="1"/><delSpan  spanTo="#Judg-011-del001">byla</delSpan><anchor  xml:id="Judg-011-del001" type="delSpan"/>
+							<ref n="2" target="#Judg-011-fn2" type="noteAnchor"/> ʿAmonnun da bolursyn biźǵa ahalyḥqa bar olturuvčularyna
+							<milestone unit="line" n="2"/>Gilʿadnyn.
+						</l>
+						<l n="9" xml:id="Judg-011-009">Da ajtty Jiftaḥ qartlaryna Gilʿadnyn ėǵer kerti-
+							<milestone unit="line" n="3"/>d́ań siź qajttyrasyz ḿeni urušma ulanlary byla ʿAmonnun
+							<milestone unit="line" n="4"/>da b́erśa H alarny alnymda ḿeńmo bolurmyn siźǵa aɣaraḥ-
+							<milestone unit="line" n="5"/>qa.
+						</l>
+						<l n="10" xml:id="Judg-011-010">Da ajttylar qartlary Gilʿadnyn Jiftaḥqa H bolɣej ėši-
+							<milestone unit="line" n="6"/>t́uv́č́u aramyzɣa biźniń öźǵa t́uśĺu t́uv́uĺ alej
+							<milestone unit="line" n="7"/>qylarbyz.
+						</l>
+						<l n="11" xml:id="Judg-011-011">Da bardy Jiftaḥ qartlary byla Gilʿadnyn da qojdular
+							<milestone unit="line" n="8"/>ol ulus any üśt́ĺarińa aharaḥqa da aɣalyḥqa da śoź-
+							<milestone unit="line" n="9"/>ĺadi Jiftaḥ bar śoźĺariń alnynda H-nyn Micpada.
+						</l>
+						<l n="12" xml:id="Judg-011-012">Da ijdi
+							<milestone unit="line" n="10"/>Jiftaḥ ėlčiĺar bijińa ulanlarynyn ʿAmonnun ajtadoɣoč ńe
+							<milestone unit="line" n="11"/>maja da saja ki keĺdij maja 
+							<supplied reason="lost">u</supplied>rušma
+							<ref n="3" target="#Judg-011-fn3" type="noteAnchor"/> jerimd́a.
+						</l>
+						<l n="13" xml:id="Judg-011-013">Da ajtty biji
+							<milestone unit="line" n="12"/>ulanlarynyn ʿAmonnun ėlčiĺarińa Jiftaḥnyn ki aldy Jiśraʾeĺ
+							<milestone unit="line" n="13"/>jerimni čyḥqanynda Mićrid́ań <delSpan  spanTo="#Judg-011-del002">bardy</delSpan><anchor  xml:id="Judg-011-del002" type="delSpan"/>
+							<ref n="4" target="#Judg-011-fn4" type="noteAnchor"/> Arnondan da Javoqḥa
+							<ref n="5" target="#Judg-011-fn5" type="noteAnchor"/> d́ejiń
+							<milestone unit="line" n="14"/>da ol Jard́eńǵa d́ejiń da haĺegińa qajttyrsyn alarny bazlyḥ byla.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="14" xml:id="Judg-011-014">Da arttyrdy hanuz Jiftaḥ da ijdi ėĺčiĺar bijińa ulanlarynyn
+							<milestone unit="line" n="16"/><delSpan  spanTo="#Judg-011-del003">qdmn</delSpan><anchor  xml:id="Judg-011-del003" type="delSpan"/>
+							<ref n="6" target="#Judg-011-fn6" type="noteAnchor"/> ʿAmonnun.
+						</l>
+						<l n="15" xml:id="Judg-011-015">Da ajtty anar bulej ajtty Jiftaḥ almady
+							<milestone unit="line" n="17"/>Jiśraʾeĺ jerińd́ań Moʾavnyn da jerińd́ań ulanlarynyn ʿAmonnun.
+						</l>
+						<l n="16" xml:id="Judg-011-016">Ki
+							<milestone unit="line" n="18"/>čyḥqanlarynda Mićrid́ań da bardy Jiśraʾeĺ midbarda Jam Sufḥa d́ejiń
+							<milestone unit="line" n="19"/>da keĺdi Qad́eš́ḱa.
+						</l>
+						<l n="17" xml:id="Judg-011-017">Da ijdi Jiśraʾeĺ ėlčiĺar bijińa Ėdomnun
+							<milestone unit="line" n="20"/>ajtadoɣoč ašajym ėńdi jerij ašyra da tynlamady biji
+							<milestone unit="line" n="21"/>Edomnun daɣy bijińa Moʾavnyn ijdi da kĺaḿadi ijḿa da olturdu
+							<milestone unit="page" n="351v"/>
+							<milestone unit="line" n="1"/>Jiśraʾeĺ Qad́eš́t́a.
+						</l>
+						<l n="18" xml:id="Judg-011-018">Da bardy midbardan da qajyryldydy jerińa Ėdomnun
+							<milestone unit="line" n="2"/>da jerińa Moʾavnyn da keĺdi balquvundan qujašnyn jerińa Moʾavnyn
+							<milestone unit="line" n="3"/>da toḥtadylar ḱoč́uv́ńd́a Arnonnun da keĺḿadiĺar č́egi byla
+							<milestone unit="line" n="4"/>Moʾavnyn ki Arnon ėdi č́egi Moʾavnyn.
+						</l>
+						<l n="19" xml:id="Judg-011-019">Da ijdi Jiśraʾeĺ ėlči-
+							<milestone unit="line" n="5"/>ĺar Siḥonɣa biji ol ėmoriniń biji Ḥešbonnun da ajtty anar
+							<milestone unit="line" n="6"/>Jiśraʾeĺ ḱoč́ajim ėńdi jerij ašyra ornuma d́ejiń.
+						</l>
+						<l n="20" xml:id="Judg-011-020">Da kĺaḿadi
+							<milestone unit="line" n="7"/>Siḥon ijḿa Jiśraʾeĺni ašma č́egi ašyra da 
+							<supplied reason="lost">ištyrdy</supplied>
+							<ref n="7" target="#Judg-011-fn7" type="noteAnchor"/> Siḥon
+							<milestone unit="line" n="8"/>bar ulusun da toḥtadylar Jahcada da uruštu Jiśraʾeĺ
+							<milestone unit="line" n="9"/>byla.
+						</l>
+						<l n="21" xml:id="Judg-011-021">Da b́erdi H T́eńrisi Jiśraʾeĺniń Siḥonnu da bar ulusun
+							<milestone unit="line" n="10"/>qoluna Jiśraʾeĺniń da vattylar alarny da ḿeŕaśĺadi Jiśraʾeĺ bar
+							<milestone unit="line" n="11"/>jeriń ol Ėmoriniń olturuvčusunun ol jerniń.
+						</l>
+						<l n="22" xml:id="Judg-011-022">Da ḿeŕaś-
+							<milestone unit="line" n="12"/>ĺadiĺar bar č́egiń ol Ėmoriniń Arondan Javoqḥa
+							<ref n="8" target="#Judg-011-fn8" type="noteAnchor"/> d́ejiń da
+							<milestone unit="line" n="13"/>ol midbardan Jard́eńǵa d́ejiń.
+						</l>
+						<l n="23" xml:id="Judg-011-023">Da 
+							<supplied reason="lost">halegińa</supplied>
+							<ref n="9" target="#Judg-011-fn9" type="noteAnchor"/> H T́eńrisi Jiśraʾeĺniń
+							<milestone unit="line" n="14"/>śurd́u ol Ėmorini alnyndan ulusunun Jiśraʾeĺniń da śeń-
+							<milestone unit="line" n="15"/>mo ḿeŕaśĺarsiń any.
+						</l>
+						<l n="24" xml:id="Judg-011-024">Muna ńeni ki 
+							<supplied reason="lost">ḿeŕaśĺat́śa</supplied>
+							<ref n="10" target="#Judg-011-fn10" type="noteAnchor"/> Kemoš abaɣyj
+							<milestone unit="line" n="16"/>any ḿeŕaśĺarsiź da ńeki ḿeŕaśĺat́śa H T́eńrimiź alnymyz-
+							<milestone unit="line" n="17"/>dan any ḿeŕaśĺarbiź.
+						</l>
+						<l n="25" xml:id="Judg-011-025">Da haĺegińa jaḥšyraḥmosun śeń Balaqtan
+							<milestone unit="line" n="18"/>uvlu Cipornun biji Moʾavnyn talašmamo talašty Jiśraʾeĺ
+							<milestone unit="line" n="19"/>byla hem urušmamo uruštu alar byla.
+						</l>
+						<l n="26" xml:id="Judg-011-026">Olturɣanda
+							<milestone unit="line" n="20"/>Jiśraʾeĺ Ḥešbonda da salalarynda da ʿArʿorda da salalarynda
+							<milestone unit="page" n="352r"/>
+							<milestone unit="line" n="1"/>da bar ol šaharlarny ki ėdi qollarynda Arnonnun üč́ juź jyl
+							<milestone unit="line" n="2"/>t́ekli da ńe üč́uń qutḥarmadyjyz any ol vaḥtta.
+						</l>
+						<l n="27" xml:id="Judg-011-027">Da ḿeń jazyḥly
+							<milestone unit="line" n="3"/>bolmadym saja da śeń qyldyj birǵaḿa jamanny <seg type="commented" corresp="#Judg-011-seg001"/>
+							<supplied reason="lost">uruš-</supplied>
+							<milestone unit="line" n="4"/>
+							<supplied reason="lost">ma</supplied><anchor type="commented" xml:id="Judg-011-seg001"/>
+							<ref n="11" target="#Judg-011-fn11" type="noteAnchor"/> ḿenim byla t́oŕa ėt́kej H ol t́oŕani b́uǵuńńu
+							<milestone unit="line" n="5"/>arasyna ulanlarynyn Jiśraʾeĺniń da arasyna ulanlarynyn ʿAmon-
+							<milestone unit="line" n="6"/>nun.
+						</l>
+						<l n="28" xml:id="Judg-011-028">Da tynlamady biji ulanlarynyn ʿAmonnun śoźĺarińa
+							<milestone unit="line" n="7"/>Jiftaḥnyn ki ijdi anar.
+						</l>
+						<l n="29" xml:id="Judg-011-029">Da toḥtady Jiftaḥ üśt́uńa alhemi
+							<milestone unit="line" n="8"/>H-nyn da ašty ol Gilʿadny da Ḿenašeni da ašty Micpasyn
+							<milestone unit="line" n="9"/>Gilʿadnyn da Micpasyndan Gilʿadnyn ašty ulanlaryna ʿAmonnun.
+						</l>
+						<milestone unit="line" n="10"/>
+						<l n="30" xml:id="Judg-011-030">Da nijet́ ėt́ti Jiftaḥ nijet́ H-ɣa da ajtty ėǵer b́erḿa b́er-
+							<milestone unit="line" n="11"/>śa ulanlaryn ʿAmonnun qoluma.
+						</l>
+						<l n="31" xml:id="Judg-011-031">Da bolur ol čyɣuvču
+							<milestone unit="line" n="12"/>ki čyḥsa ėšikĺarimd́ań üv́umńuń utruma qajtḥanymda
+							<milestone unit="line" n="13"/>bazlyḥ byla ulanlaryndan ʿAmonnun da bolur H-ɣa čyɣarymyn
+							<milestone unit="line" n="14"/>any ʿola.
+						</l>
+						<l n="32" xml:id="Judg-011-032">Da ašty Jiftaḥ ulanlaryna ʿAmonnun urušma
+							<milestone unit="line" n="15"/>alar byla da b́erdi H alarny qoluna.
+						</l>
+						<l n="33" xml:id="Judg-011-033">Da vatty alarny ʿAroʿer-
+							<milestone unit="line" n="16"/>d́an da keĺuv́uńa d́ejiń Ḿenit́niń
+							<ref n="12" target="#Judg-011-fn12" type="noteAnchor"/> ėgirmi šahar da Av́eĺ Keramim-
+							<milestone unit="line" n="17"/>ǵa d́ejiń ullu vatmaḥ astry da synyḥtylar ulanlary ʿAmon-
+							<milestone unit="line" n="18"/>nun alnyndan ulanlarynyn Jiśraʾeĺniń.
+						</l>
+						<l n="34" xml:id="Judg-011-034">Da keldi Jiftaḥ ol
+							<milestone unit="line" n="19"/>Micpaɣa üv́uńa da muna čyɣady qyzy utrusuna taflar
+							<milestone unit="page" n="352v"/>
+							<milestone unit="line" n="1"/>byla da tańećĺar byla da anč́aḥ ol ėdi jalɣyzaḥ joɣedi anar
+							<milestone unit="line" n="2"/>bašḥa andan uvul hem qyz.
+						</l>
+						<l n="35" xml:id="Judg-011-035">Da ėdi ḱorǵačoḥ any da jyrtty
+							<milestone unit="line" n="3"/>upraḥlaryn da ajtty ahah qyzym č́okt́urḿa č́okt́urd́uj
+							<milestone unit="line" n="4"/>ḿeni da śeń bolduj č́ejpavčularym byla da ḿeń ačtym avzumnu
+							<milestone unit="line" n="5"/>H-ɣa da bolalmamyn qajttyrma any.
+						</l>
+						<l n="36" xml:id="Judg-011-036">Da ajtty anar atam ač-
+							<milestone unit="line" n="6"/>tyj avzujnu H-ɣa qylɣyn maja ki ńečik čyḥty avzundan anyn
+							<milestone unit="line" n="7"/>üč́uń ki keĺdi saja H öč́ĺar dušmanlaryjdan uvullaryna
+							<milestone unit="line" n="8"/>ʿAmonnun.
+						</l>
+						<l n="37" xml:id="Judg-011-037">Da ajtty atasyna qylɣyn maja ol śoźńu ušpu-
+							<milestone unit="line" n="9"/>nu jeb́ergiń ḿeni ėki janɣyjlarɣa da baryrmyn da ėńarmiń ol
+							<milestone unit="line" n="10"/>tavlar üśt́uńa da jylarmyn bojluḥlarym üč́uń ḿeń
+							<milestone unit="line" n="11"/>da dostčalarym.
+						</l>
+						<l n="38" xml:id="Judg-011-038">Da ajtty barɣyn da ijdi any ėki janɣyjlarɣa
+							<milestone unit="line" n="12"/>da bardy ol da dostčalary anyn da ilady bojluḥlary üč́uń ol
+							<milestone unit="line" n="13"/>tavlar üśt́uńa.
+						</l>
+						<l n="39" xml:id="Judg-011-039">Da ėdi sofundan ėki janɣyjlarnyn da
+							<milestone unit="line" n="14"/>qajtty atasyna da qyldy anar nijetiń ki nijet́ ėt́ti da ol biĺ-
+							<milestone unit="line" n="15"/>ḿadi ėrni da boldu resim Jiśraʾeĺd́a.
+						</l>
+						<l n="40" xml:id="Judg-011-040">Jyldan jylɣa baryre-
+							<milestone unit="line" n="16"/>diĺar qyzlary Jiśraʾeĺniń syjyt ėt́ḿa qyzy üč́uń Jiftaḥnyn
+							<milestone unit="line" n="17"/>ol Gilʿadly d́ort́ ḱuń har jylda.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Judg-011-fn1" type="footnote" anchored="true">A scribal error corrected by the copyist.</note>
+						<note xml:id="Judg-011-fn2" type="footnote" anchored="true">Dittography; redundant repetition crossed out by by the copyist.</note>
+						<note xml:id="Judg-011-fn3" type="footnote" anchored="true">The first letter is unvocalized.</note>
+						<note xml:id="Judg-011-fn4" type="footnote" anchored="true">A scribal error corrected by the copyist.</note>
+						<note xml:id="Judg-011-fn5" type="footnote" anchored="true">F305-01: spelled<foreign xml:lang="he" style="unicode-bidi: embed;">יָבוֺק</foreign>; cf. Heb.<foreign xml:lang="he" style="unicode-bidi: embed;">הַיַּבֹּק</foreign>.</note>
+						<note xml:id="Judg-011-fn6" type="footnote" anchored="true">A scribal error corrected by the copyist.</note>
+						<note xml:id="Judg-011-fn7" type="footnote" anchored="true">F305-01: 
+							<emph>ystyrdy</emph>; a scribal error.
+						</note>
+						<note xml:id="Judg-011-fn8" type="footnote" anchored="true">Cf. above, Judg 11.13.</note>
+						<note xml:id="Judg-011-fn9" type="footnote" anchored="true">F305-01: 
+							<emph>haligińa</emph>; a scribal error.
+						</note>
+						<note xml:id="Judg-011-fn10" type="footnote" anchored="true">F305-01: 
+							<emph>ḿeŕaśt́ĺaśa</emph>; a scribal error.
+						</note>
+						<note xml:id="Judg-011-fn11" type="footnote" anchored="true">F305-01: 
+							<emph>orušma</emph>; a scribal error.
+						</note>
+						<note xml:id="Judg-011-fn12" type="footnote" anchored="true">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">מִנִּית</foreign>.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joshua 9</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joshua 9</title>
+						<milestone unit="line" n="10"/>
+						<l n="1" xml:id="Josh-009-001">Da ėdi ėšit́ḱač́oḥ bar ol bijĺar ki ḱoč́uv́uńd́a
+							<milestone unit="line" n="11"/>ol Jard́eńniń tavda da šepelada da bar qyryjy qatyna ol
+							<milestone unit="line" n="12"/>ullu t́eńgiźniń utrusuna ol Ĺevanonnun ol Ḥiti
+							<milestone unit="line" n="13"/>da ol Ėmori ol Kenaʿani da ol Ṕerizi ol Ḥivi da ol Jevusi.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="2" xml:id="Josh-009-002">Da ištyryldylar bird́ań orušma Juhušuʿa byla da Jisraʾeĺ
+							<milestone unit="line" n="15"/>byla bir fordan.
+						</l>
+						<l n="3" xml:id="Josh-009-003">Da 
+							<supplied reason="lost">olturuvčulary</supplied>
+							<ref n="1" target="#Josh-009-fn1" type="noteAnchor"/> Givʿonnun ėšit́tiĺar
+							<milestone unit="line" n="16"/>baryn ńeki qyldy Juhušʿa Jeriḥoǵa da ʿAjɣa.
+						</l>
+						<l n="4" xml:id="Josh-009-004">Da qyldylar daɣy
+							<milestone unit="line" n="17"/>alardy ustatlyḥ byla da ėlikčilik ėt́tiĺar da aldylar
+							<milestone unit="line" n="18"/>kijiźĺar upranɣanlar ėš́akĺarińa da 
+							<supplied reason="lost">fĺeškalaryn</supplied>
+							<ref n="2" target="#Josh-009-fn2" type="noteAnchor"/> vinanyn
+							<milestone unit="line" n="19"/>qabarčeḥlanɣanlar da t́uv́uńč́ukĺańǵańĺar.
+						</l>
+						<l n="5" xml:id="Josh-009-005">Da ėtikĺari alar-
+							<milestone unit="line" n="20"/>nyn upra
+							<addSpan spanTo="#Josh-009-add001" status="unremarkable"/>n
+							<anchor xml:id="Josh-009-add001" type="addSpan"/><delSpan  spanTo="#Josh-009-del001">r</delSpan><anchor  xml:id="Josh-009-del001" type="delSpan"/>
+							<addSpan spanTo="#Josh-009-add002" status="unremarkable"/>ɣ
+							<anchor xml:id="Josh-009-add002" type="addSpan"/>anlarda jamaɣanlar ajaḥlarynda da upraḥlary up-
+							<milestone unit="line" n="21"/>ranɣanlar üśtĺarińd́a da bar ėt́ḿagi azyḥlarynyn quraɣan
+							<milestone unit="page" n="308r"/>
+							<milestone unit="line" n="1"/>ėdiĺar śemirĺańǵańĺar.
+						</l>
+						<l n="6" xml:id="Josh-009-006">Da bardylar Juhušuʿaɣa ol avulɣa
+							<milestone unit="line" n="2"/>Gilgalɣa da ajttylar anar da bar ėlińa Jiśraʾeĺniń jyraḥ
+							<milestone unit="line" n="3"/>jerd́ań keĺdik da haĺegińa kesijiź biźǵa šert́.
+						</l>
+						<l n="7" xml:id="Josh-009-007">Da ajttylar
+							<milestone unit="line" n="4"/>ėli Jiśraʾeĺniń ol Ḥiviǵa šeḿe ortamyzda śeń olturasyn
+							<milestone unit="line" n="5"/>da ńečik keśarbiź saja šert́.
+						</l>
+						<l n="8" xml:id="Josh-009-008">Da ajttylar Juhušuʿaɣa qul-
+							<milestone unit="line" n="6"/>laryj biź da ajtty alarɣa Juhušuʿa kim siź da qajdan keĺasiź.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="9" xml:id="Josh-009-009">Da ajttylar jyraḥ jerd́ań astry keĺdiĺar qullaryj šemińa
+							<milestone unit="line" n="8"/>H-nyn T́eńrijniń ki ėšit́tik ėšit́uv́uń baryn ńeki qyldy
+							<milestone unit="line" n="9"/>Mićriǵa.
+						</l>
+						<l n="10" xml:id="Josh-009-010">Da baryn ńeki qyldy ėki bijĺarińa Ėmoriniń ki
+							<milestone unit="line" n="10"/>ḱoč́uv́uńd́ań ol Jard́eńniń Siḥonɣa bijińa Ḥešbonnun da
+							<milestone unit="line" n="11"/>ʿOgɣa bijińa ol Bašannyn ki ʿAštarotta.
+						</l>
+						<l n="11" xml:id="Josh-009-011">Da ajttylar
+							<milestone unit="line" n="12"/>biźǵa qartlarymyz da bar olturuvčulary jerimiźniń ajta-
+							<milestone unit="line" n="13"/>doɣoč alyjyz qolujuzɣa azyḥ jolɣa da baryjyz utrularyna
+							<milestone unit="line" n="14"/>da ajtyjyz alarɣa qullaryjyz biź da haĺegińa kesijiź biźǵa šert́.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="12" xml:id="Josh-009-012">Budur öt́ḿagim iśsi ėdi azyḥ alɣanymyzda any üv́u-
+							<milestone unit="line" n="16"/>ḿuźd́ań čyḥqan ḱuńuḿuźd́a barma siźǵa da haĺegińa
+							<milestone unit="line" n="17"/>muna qurudu da boldu śemirĺańǵańĺar.
+						</l>
+						<l n="13" xml:id="Josh-009-013">Da bular <seg  type="commented" corresp="#Josh-009-seg001"/>fĺeš-
+							<milestone unit="line" n="18"/>kaĺari<anchor  type="commented" xml:id="Josh-009-seg001"/>
+							<ref n="3" target="#Josh-009-fn3" type="noteAnchor"/> ol vinanyn ki tolturduḥ janɣylarny da muna
+							<milestone unit="line" n="19"/>qabarčeḥlandylar da bular upraḥlarymyz da ėtikĺarimiź
+							<milestone unit="line" n="20"/>uprandylar kopluǵuńd́ań ol jolnun astry.
+						</l>
+						<l n="14" xml:id="Josh-009-014">Da aldylar
+							<milestone unit="page" n="308v"/>
+							<milestone unit="line" n="1"/>ol ėŕańĺar Jiśraʾeĺĺard́ań azyḥlaryndan da bujruɣundan H-nyn
+							<milestone unit="line" n="2"/>sormadylar.
+						</l>
+						<l n="15" xml:id="Josh-009-015">Da qyldy alarɣa bazlyḥ da keśti alarɣa šert́
+							<milestone unit="line" n="3"/>tiri tutma alarny da ant ėt́tiĺar alarɣa nasiĺari
+							<milestone unit="line" n="4"/>ol ǯymatnyn.
+						</l>
+						<l n="16" xml:id="Josh-009-016">Da ėdi sofundan üč́ ḱuńĺarniń kesip
+							<milestone unit="line" n="5"/>sortun alaraɣa šert́ da ėšit́til’ar ki juvuḥtan alar
+							<milestone unit="line" n="6"/>anar da ortasynda alar olturadyrlar.
+						</l>
+						<l n="17" xml:id="Josh-009-017">Da ḱoč́t́uĺar
+							<milestone unit="line" n="7"/>ulanlary Jiśraʾeĺniń da keĺdiĺar šaharlaryna ol üč́uń-
+							<milestone unit="line" n="8"/>č́u ḱuńd́a da šaharlary alarnyn Givʿon da Kefira da
+							<milestone unit="line" n="9"/>V́eʾerot da Qirjat Jeʿarim.
+						</l>
+						<l n="18" xml:id="Josh-009-018">Da vatmadylar alarny ulanlary
+							<milestone unit="line" n="10"/>Jiśraʾeĺniń ki ant́et́tiĺar alarha nasiĺari ol ǯymat-
+							<milestone unit="line" n="11"/>nyn H-dan T́eńrisińd́ań Jiśraʾeĺniń da bušurɣandylar bar ol
+							<milestone unit="line" n="12"/>ǯymat ol nasiĺar üśt́uńa.
+						</l>
+						<l n="19" xml:id="Josh-009-019">Da ajttylar bar
+							<milestone unit="line" n="13"/>ol nasiĺar bar ol ǯymatḥa biź ant́et́tik
+							<milestone unit="line" n="14"/>alarɣa H-dan T́eńrisińd́an Jiśraʾeĺniń da haĺegińa bolalmazbyz
+							<milestone unit="line" n="15"/>qyrma alarny.
+						</l>
+						<l n="20" xml:id="Josh-009-020">Vaĺe bunu qylarbyz alarɣa da tiri
+							<milestone unit="line" n="16"/>tutarbyz alarny da bolmast üśt́uḿuźǵa ačuv ol
+							<milestone unit="line" n="17"/>ant üč́uń ki ant ėt́tik alarɣa.
+						</l>
+						<l n="21" xml:id="Josh-009-021">Da ajttylar
+							<milestone unit="line" n="18"/>alarɣa ol nasiĺari tiri bolsunlar da bolsunlar
+							<milestone unit="line" n="19"/>keśuv́č́uĺar otunlar da śuźuv́č́uĺar suvlar bar
+							<milestone unit="line" n="20"/>ol ǯymatḥa ki ńečik śoźĺadiĺar alarɣa ol nasiĺar.
+						</l>
+						<milestone unit="page" n="309r"/>
+						<milestone unit="line" n="1"/>
+						<l n="22" xml:id="Josh-009-022">Da ińd́adi alarny Juhušuʿa da śoźĺadi alarɣa ajtadoɣoč
+							<milestone unit="line" n="2"/>ńeǵa jaldadyjyz biźni ajtadoɣoč jyraḥtaɣylar biź siźd́ań
+							<milestone unit="line" n="3"/>astry vaĺe siź ortamyzda olturasyz.
+						</l>
+						<l n="23" xml:id="Josh-009-023">Da haĺegińa
+							<milestone unit="line" n="4"/>qarɣyšlylar siź da ėksiĺḿaǵej siźd́ań qul da keśuv́č́u
+							<milestone unit="line" n="5"/>
+							<supplied reason="lost">otunlarny</supplied>
+							<ref n="4" target="#Josh-009-fn4" type="noteAnchor"/> da śuźuv́č́uĺar suvlarny üv́uńa T́eńrimniń.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="24" xml:id="Josh-009-024">Da qaruv b́erdiĺar Juhušuʿaɣa da ajttylar ki anlatylma
+							<milestone unit="line" n="7"/>anlatyldy qullaryja barče ńeki bujurdu H T́eńrij Moše-
+							<milestone unit="line" n="8"/>ǵa quluna b́erḿa siźǵa bar ol jerni da tas ėt́ḿa
+							<milestone unit="line" n="9"/>bar olturuvčularyn ol jerniń 
+							<supplied reason="lost">alnyjyzdan</supplied>
+							<ref n="5" target="#Josh-009-fn5" type="noteAnchor"/> da qorḥtuḥ
+							<milestone unit="line" n="10"/>astry ǯanymyz üč́uń da qyldyḥ ol śoźńu ušpunu.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="25" xml:id="Josh-009-025">Da haĺegińa muna biź qolujda jaḥšy da t́uź ḱoŕuńǵańni
+							<milestone unit="line" n="12"/>ḱoźĺarijiźd́a qylma qylɣyn biźǵa.
+						</l>
+						<l n="26" xml:id="Josh-009-026">Da qyldy alarɣa aĺej
+							<milestone unit="line" n="13"/>da qutḥardy alarny qolundan ulanlarynyn Jiśraʾeĺniń da
+							<milestone unit="line" n="14"/>öĺt́urḿadi alarny.
+						</l>
+						<l n="27" xml:id="Josh-009-027">Da b́erdi alarny Juhušuʿa ol ḱuń-
+							<milestone unit="line" n="15"/>d́a keśuv́č́uĺar otunlarny da śuźuv́č́uĺar suvlarny
+							<milestone unit="line" n="16"/>ǯymatḥa da mizb́eaḥyna H-nyn ušpu ḱuńǵa d́ejiń ńe
+							<milestone unit="line" n="17"/>orunda ki sajlasa H.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Josh-009-fn1" type="footnote" anchored="true">F305-01: 
+							<emph>olturuvč́ulary</emph>; a scribal error.
+						</note>
+						<note xml:id="Josh-009-fn2" type="footnote" anchored="true">F305-01: 
+							<emph>flešḱaliriń</emph>; a scribal error.
+						</note>
+						<note xml:id="Josh-009-fn3" type="footnote" anchored="true">F305-01: 
+							<emph>fleškeĺari</emph>; a scribal error.
+						</note>
+						<note xml:id="Josh-009-fn4" type="footnote" anchored="true">F305-01: 
+							<emph>utunlarny</emph>; a scribal error; cf. Josh 9,28.
+						</note>
+						<note xml:id="Josh-009-fn5" type="footnote" anchored="true">F305-01: 
+							<emph>alynyjynyzdan</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

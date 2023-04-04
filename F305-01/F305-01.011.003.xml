@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>1 Kings 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>1 Kings 3</title>
+						<milestone unit="line" n="4" xml:id="Kings1003-P462r-L4" prev="F305-01.011.002.xml#Kings1002-P462r-L4"/>
+						<l><foreign  xml:lang="he" style="unicode-bidi: embed;">ג</foreign></l>
+						<milestone unit="line" n="5"/>
+						<l n="1" xml:id="Kings1-003-001">Da kijov́ boldu Šelomo parʿoɣa bijińa Mićriniń da aldy
+							<milestone unit="line" n="6"/>qyzyn parʿonun da keĺtirdi any šaharyna David́niń t́uǵaĺligińa
+							<milestone unit="line" n="7"/>d́e
+							<supplied reason="lost">j</supplied>iń
+							<ref n="1" target="#Kings1-003-fn1" type="noteAnchor"/> qondarma juv́uń da juv́uń H-nyn da qalasyn Jerušalajimniń č́uv́ŕa.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="2" xml:id="Kings1-003-002">T́ek ol ulus d́eb́eḥa ėt́arediĺar bamalarɣa ki ńegińč́a
+							<milestone unit="line" n="9"/>qondarylmaɣan ėdi juv́ šemińa H-nyn ol ḱuńĺarǵa d́ejiń.
+						</l>
+						<l n="3" xml:id="Kings1-003-003">Da
+							<milestone unit="line" n="10"/>śuv́d́u Šelomo H-ny barma ŕesimĺari byla David́niń atasynyn
+							<milestone unit="line" n="11"/>t́ek bamalarɣa ol d́eb́eḥa ėt́aredi.
+						</l>
+						<l n="4" xml:id="Kings1-003-004">Da bardy ol bij Givoʿ-
+							<milestone unit="line" n="12"/>naɣa d́eb́eḥa ėt́ḿa anda ki ol ėdi ol bama ol ullu
+							<milestone unit="line" n="13"/>miń ʿolalar čyɣardy Šelomo ol miźb́eaḥ üśt́uńa.
+						</l>
+						<l n="5" xml:id="Kings1-003-005">Giv́eʿonda
+							<milestone unit="line" n="14"/>ašqara bolundu H Šelomoɣa t́uš́u byla ol keč́aniń
+							<milestone unit="line" n="15"/>da ajtty T́eńri kĺagiń ńedi da b́erirmiń saja.
+						</l>
+						<l n="6" xml:id="Kings1-003-006">Da ajtty Šelomo
+							<milestone unit="line" n="16"/>śeń qyldyj quluj byla David́ atam byla ullu ševaɣat ki ńečik
+							<milestone unit="line" n="17"/>üŕud́u alnyjda kertilik byla da rastlyḥ byla da
+							<milestone unit="line" n="18"/>t́uźĺuǵu byla juŕakniń birgeja da saqladyj anar ol ševaɣat-
+							<milestone unit="line" n="19"/>ny ol ullunu ušpunu da b́erdij anar uvul olturuv-
+							<milestone unit="line" n="20"/>ču taḥty üśt́uńa ušpu ḱuńǵa d́ejiń.
+						</l>
+						<l n="7" xml:id="Kings1-003-007">Da haĺegińa H
+							<milestone unit="page" n="462v"/>
+							<milestone unit="line" n="1"/>T́eńrim śeń bijlik ėt́tij qulujnu ornunda David́niń atamnyn
+							<milestone unit="line" n="2"/>da ḿeń jaš ulan kiči biĺmi
+							<supplied reason="lost">j</supplied>miń
+							<ref n="2" target="#Kings1-003-fn2" type="noteAnchor"/> čyḥma da keĺḿa.
+						</l>
+						<l n="8" xml:id="Kings1-003-008">Da quluj or-
+							<milestone unit="line" n="3"/>tasynda ulusujnun ki sajladyj ḱop ulus ki sanalmejdyr
+							<milestone unit="line" n="4"/>da öĺč́ajḿ
+							<supplied reason="lost">ej</supplied>dir
+							<ref n="3" target="#Kings1-003-fn3" type="noteAnchor"/> ḱopĺukt́ań.
+						</l>
+						<l n="9" xml:id="Kings1-003-009">Da b́ergiń quluja juŕak anlav-
+							<milestone unit="line" n="5"/>ču t́oŕa ėt́ḿa ulusujnu anlama arasyna jaḥšynyn
+							<milestone unit="line" n="6"/>jaman byla ki kim bolalyr t́oŕa ėt́ḿa ulusujnu ol
+							<milestone unit="line" n="7"/>ḱopńu ušpunu.
+						</l>
+						<l n="10" xml:id="Kings1-003-010">Da jaḥšy <delSpan  spanTo="#Kings1-003-del001">čyḥt</delSpan><anchor  xml:id="Kings1-003-del001" type="delSpan"/> ḱoŕuńd́u ol śoź
+							<milestone unit="line" n="8"/>ʿėnajatlarynda H-nyn ki kĺadi Šelomo ol śoźńu ušpunu.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="11" xml:id="Kings1-003-011">Da ajtty T́eńri anar qačan ki kĺadij ol śoźńu ušpunu da
+							<milestone unit="line" n="10"/>kĺaḿadij öźuja ḱop ḱuńĺar da kĺaḿadij öźuja ḥoǯalyḥ
+							<milestone unit="line" n="11"/>da kĺaḿadij ėksiĺḿagiń dušmanlaryjnyn da kĺadij öźuja
+							<milestone unit="line" n="12"/>aqyl anlama t́oŕani.
+						</l>
+						<l n="12" xml:id="Kings1-003-012">Muna qyldym śoźuja ḱoŕa muna
+							<milestone unit="line" n="13"/>b́eŕamiń saja uslu juŕak da aqylly ki śeniń kibik joɣedi
+							<milestone unit="line" n="14"/>burun śeńd́ań da śeńd́ańdi sortun turmastyr śeniń kibik.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="13" xml:id="Kings1-003-013">Daɣy ńeni ki kĺaḿadij b́erirmiń saja daɣy ḥoǯalyḥ daɣy syj ki
+							<milestone unit="line" n="16"/>joɣedi śeniń kibik bijĺar arasyna bar ḱuńĺarijd́a.
+						</l>
+						<l n="14" xml:id="Kings1-003-014">Da ėger
+							<milestone unit="line" n="17"/>üŕuśej jollarym byla saqlama ŕesimĺarimni da saruvlarymny
+							<milestone unit="line" n="18"/>ki ńečik üŕud́u David́ atej da uzartyrmyn ḱuńĺarijni.
+						</l>
+						<milestone unit="line" n="19"/>
+						<l n="15" xml:id="Kings1-003-015">Da ojandy Šelomo da muna t́uš́ da keĺdi Jerušalajimǵa da
+							<milestone unit="line" n="20"/>turdu alnynda aron šertiniń H-nyn da čyɣardy ʿolalar da
+							<milestone unit="page" n="463r"/>
+							<milestone unit="line" n="1"/>qyldy šelamimĺar da qyldy ič́ḿak bar qullaryna.
+						</l>
+						<l n="16" xml:id="Kings1-003-016">Ol vaḥta
+							<milestone unit="line" n="2"/>keĺdiĺar ėki azuvču qatynlar ol bijǵa da turdular al-
+							<milestone unit="line" n="3"/>nynda.
+						</l>
+						<l n="17" xml:id="Kings1-003-017">Da ajtty ol qatyn ol birisi qoltḥa bijim ḿeń da
+							<milestone unit="line" n="4"/>ol qatyn ušpu olturabyz bir juv́d́a da t́oŕadim qatynda
+							<milestone unit="line" n="5"/>juv́d́a.
+						</l>
+						<l n="18" xml:id="Kings1-003-018">Da ėdi ol üč́uńč́u ḱuńd́a t́oŕaḿagimd́ań sortun
+							<milestone unit="line" n="6"/>da t́oŕadi daɣy oldy qatyn ušpu da biź bird́ań joɣedi jat birǵamiź-
+							<milestone unit="line" n="7"/>ǵa juv́d́a bašḥa biź ėḱov́ĺań juv́d́a.
+						</l>
+						<l n="19" xml:id="Kings1-003-019">Da öĺd́u uvlu
+							<milestone unit="line" n="8"/>ol qatynnyn bu keč́ani ki jatty anyn üśt́uńa.
+						</l>
+						<l n="20" xml:id="Kings1-003-020">Da turdu
+							<milestone unit="line" n="9"/>jarty keč́ad́a da aldy uvlumnu qatymdan da qaravašyj juqlaredi da
+							<milestone unit="line" n="10"/>jatyrɣyzdy any qojnuna da uvlun ol öĺuńu jatyrɣyzdy
+							<milestone unit="line" n="11"/>qojnuma.
+						</l>
+						<l n="21" xml:id="Kings1-003-021">Da turdum tan byla b́eśĺaḿa uvlumnu da muna
+							<milestone unit="line" n="12"/>öĺǵań da ėsimni qojdum anar tan bylada da muna t́uv́uĺ
+							<milestone unit="line" n="13"/>bu uvlum ki t́oŕadim.
+						</l>
+						<l n="22" xml:id="Kings1-003-022">Da ajtty ol qatyn ol ėkińčisi
+							<milestone unit="line" n="14"/>jo ki uvlum ol tiri da uvluj śeniń ol öĺu da bu ajty-
+							<milestone unit="line" n="15"/>redi jo ki uvluj ol öĺu da uvlum ol tiri da śoźĺa-
+							<milestone unit="line" n="16"/>diĺar alnynda ol bijniń.
+						</l>
+						<l n="23" xml:id="Kings1-003-023">Da ajtty ol bij bu ajtadyr bu
+							<milestone unit="line" n="17"/>uvlum ol tiri da uvluj ol öĺu da bu ajtadyr jo ki
+							<milestone unit="line" n="18"/>uvluj ol öĺu da uvlum ol tiri.
+						</l>
+						<l n="24" xml:id="Kings1-003-024">Da ajtty ol bij
+							<milestone unit="line" n="19"/>alyjyz maja qylyč da keĺtirdiĺar ol qylyčny alnyna ol
+							<milestone unit="line" n="20"/>bijniń.
+						</l>
+						<l n="25" xml:id="Kings1-003-025">Da ajtty ol bij kesijiź ol tiri ulanny ėki ḥeĺeḥĺarǵa
+							<milestone unit="page" n="463v"/>
+							<milestone unit="line" n="1"/>da b́erijiź ol jarymny birǵa da ol jarymny birǵa.
+						</l>
+						<l n="26" xml:id="Kings1-003-026">Da ajtty
+							<milestone unit="line" n="2"/>ol qatyn ki uvlu ol tiri ol bijǵa ki qyzyštylar raḥḿet́-
+							<milestone unit="line" n="3"/>ĺar uvlu üč́uń da ajtty qoltḥa byla bijim b́erijiź anar
+							<milestone unit="line" n="4"/>ol ulanny ol tirini <delSpan  spanTo="#Kings1-003-del002">da ol öĺuńud́a</delSpan><anchor  xml:id="Kings1-003-del002" type="delSpan"/> da öĺt́urḿa öĺ-
+							<milestone unit="line" n="5"/>t́urḿajiź any da bu ajtadyr daɣy maja daɣy saja bolmasyn kesijiź.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="27" xml:id="Kings1-003-027">Da qaruv b́erdi ol bij da ajtty b́erijiź anar ol ulanny ol
+							<milestone unit="line" n="7"/>tirini da öĺt́urḿa öĺt́urḿajiź any ol anyn anasy.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="28" xml:id="Kings1-003-028">Da ėšit́tiĺar bar Jiśraʾeĺ ol t́oŕani ki t́oŕa ėt́ti
+							<milestone unit="line" n="9"/>ol bij da qorḥtular alnyndan ol bijniń ki ḱord́uĺar ki
+							<milestone unit="line" n="10"/>usu T́eńriniń tabuladyr ičińd́a qylma rast t́oŕa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Kings1-003-fn1" type="footnote" anchored="true">F305-01: spelled 
+							<emph>d́eriń</emph>; a scribal error.
+						</note>
+						<note xml:id="Kings1-003-fn2" type="footnote" anchored="true">F305-01: spelled 
+							<emph>biĺmimiń</emph>; a scribal error.
+						</note>
+						<note xml:id="Kings1-003-fn3" type="footnote" anchored="true">F305-01: spelled 
+							<emph>öĺč́ajmidir</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

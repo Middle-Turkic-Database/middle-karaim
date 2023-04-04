@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-01</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joshua 20</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joshua 20</title>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Josh-020-001">Da śoźĺadi H Juhušuʿaɣa ajtadoɣoč.</l>
+						<l n="2" xml:id="Josh-020-002">Śoźĺagiń ulanlaryna
+							<milestone unit="line" n="10"/>Jiśraʾeĺniń ajtadoɣoč b́erijiź öźujuźǵa šaharlaryn ol qutul-
+							<milestone unit="line" n="11"/>maḥnyn ki śoźĺadim siźǵa qolu ašyra Mošeniń.
+						</l>
+						<l n="3" xml:id="Josh-020-003">Qačma ara
+							<milestone unit="line" n="12"/>qaraḥčyɣa vatuvcuɣa ǯanny janɣylyšlyḥ byla aqyl joɣundan
+							<milestone unit="line" n="13"/>da bolsunlar siźǵa qutulmaḥqa juvuɣundan ol qannyn.
+						</l>
+						<l n="4" xml:id="Josh-020-004">Da
+							<milestone unit="line" n="14"/>qačsyn birisińa ol šaharlaryn ušpular da tursun ėšigińd́a
+							<milestone unit="line" n="15"/>qabaɣynyn ol šaharnyn da śoźĺasiń qulaḥlaryč́a qartlarynyn ol
+							<milestone unit="line" n="16"/>šaḥarnyn śoźĺariń da ėśtyrsynlar any ol šaharɣa öźĺarińa
+							<milestone unit="line" n="17"/>da b́ersińĺar anar orun da oltursun birǵaĺarińa.
+						</l>
+						<l n="5" xml:id="Josh-020-005">Da ki quv-
+							<milestone unit="line" n="18"/>sa juvuɣu ol qannyn artyndan da cyɣara b́erḿasińĺar ol qaraḥ-
+							<milestone unit="line" n="19"/>cyny qoluna ki t́uv́uĺ aqylyndan vatty any da t́uv́uĺ ėdi
+							<milestone unit="line" n="20"/>dušman ol anar t́uńad́ań bir ḱuńd́an.
+						</l>
+						<l n="6" xml:id="Josh-020-006">Da oltursun ol šaharda
+							<milestone unit="line" n="21"/>turɣanyna d́ejiń alnynda ol ǯymatnyn t́oŕaǵa öĺǵanińa d́ejiń
+							<milestone unit="page" n="324v"/>
+							<milestone unit="line" n="1"/>ol koheń gadol ki bolsa ol vaḥtlarda ol 
+							<supplied reason="lost">vaḥtta</supplied>
+							<ref n="1" target="#Josh-020-fn1" type="noteAnchor"/> qajtyr ol
+							<milestone unit="line" n="2"/>qaraḥčy da kelir šaharyna da üv́uńa ol šahardan ki qačty andan.
+						</l>
+						<milestone unit="line" n="3"/>
+						<l n="7" xml:id="Josh-020-007">Da ajyrdylar Qedešni Galild́a tavynda Naftalinin da Šeḫemni
+							<milestone unit="line" n="4"/>tavynda Ėfrajimniń da Qirjat Arbaʿany oldur Ḥevron tavynda
+							<milestone unit="line" n="5"/>Juhudanyn.
+						</l>
+						<l n="8" xml:id="Josh-020-008">Da ḱoč́uv́uńd́ań Jard́eniniń Jeriḥonun mizraḥ sartyn b́erdiĺar
+							<milestone unit="line" n="6"/>B́ecerni midbarda t́uźĺuḱt́a šev́etińd́ań Ruʿuv́eńniń da Raʾmot
+							<milestone unit="line" n="7"/>Gilʿadny šev́etińd́ań Gadnyn da Golanny Bašanda šev́etińd́ań Ḿenašeniń.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="9" xml:id="Josh-020-009">Bular ėdiĺar šaharlary ol biĺǵaĺańǵań šaharlar bar ulanlaryna
+							<milestone unit="line" n="9"/>Jiśraʾeĺniń da garibǵa ol tiriĺuvč́u ortalarynda qačma ara
+							<milestone unit="line" n="10"/>bar vatuvčuɣa ǯanny janɣylyšlyḥ byla da öĺḿasiń qolu
+							<milestone unit="line" n="11"/>ašyra juvuɣunun ol qannyn turɣanyna d́ejiń alnynda ol
+							<milestone unit="line" n="12"/>ǯymatnyn.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Josh-020-fn1" type="footnote" anchored="true">F305-01: 
+							<emph>vaḥta</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
