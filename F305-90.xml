@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ana="#no"/>
+        <author ana="#no"/>
+        <editor role="translator">
+          <persName ref="persons.xml#ZbChananiaRojecki">Zevulun ben Chanania Rojecki (born between 1842 and 1844, died 1923)</persName>,
+        </editor>
+        <respStmt>
+          <resp when="2020">Manuscript description by</resp>
+          <name>Michał Németh and Anna Sulimowicz-Keruth</name>
+        </respStmt>
+        <respStmt>
+          <resp when="2023">Digital edition by</resp>
+          <name>Dorota Cegiołka, Michał Németh and Oksana Tyshchenko-Monastyrska</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          Dorota Cegiołka, Michał Németh and Oksana Tyshchenko-Monastyrska 2023. ‘A digital edition of the Karaim biblical manuscript F305-07’, in László Károly and Michał Németh (eds)
+          <emph>A database of Middle Turkic documents.</emph>
+          Uppsala: Department of linguistics and philology. Accessed
+          <date when-custom="Now-DayinMonth"/>
+          <date when-custom="Now-MonthAbbr"/>
+          <date when-custom="Now-Year"/>
+.
+          <ref target="currentPageURL"/>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Uppsala University, Department of linguistics and philology</publisher>
+        <pubPlace>Uppsala, Sweden</pubPlace>
+        <date>2023</date>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            Creative Commons Attribution 4.0 International</licence>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note></note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Vilnius, Lithuania</settlement>
+            <repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+            <idno>F305-90</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)
+            </summary>
+            <msItem n="1">
+              <title ana="#no"/>
+              <author ana="#no"/>
+              <textLang>North-Western Karaim</textLang>
+            </msItem>
+            <msItem n="2">
+              <title ana="#no"/>
+              <author ana="#no"/>
+              <textLang>Hebrew</textLang>
+            </msItem>
+            <msItemStruct>
+              <title n="23" type="book">
+                <measure quantity="66"/>
+                <abbr>Isa</abbr>
+                Isaiah
+              </title>
+              <title n="24" type="book">
+                <measure quantity="52"/>
+                <abbr>Jer</abbr>
+                Jeremiah
+              </title>
+              <title n="26" type="book">
+                <measure quantity="48"/>
+                <abbr>Ezek</abbr>
+                Ezekiel
+              </title>
+              <title n="21" type="book">
+                <measure quantity="14"/>
+                <abbr>Hosea</abbr>
+                Hosea
+              </title>
+              <title n="29" type="book">
+                <measure quantity="3"/>
+                <abbr>Joel</abbr>
+                Joel
+              </title>
+              <title n="30" type="book">
+                <measure quantity="9"/>
+                <abbr>Amos</abbr>
+                Amos
+              </title>
+              <title n="31" type="book">
+                <measure quantity="1" />
+                <abbr>Obad</abbr>
+                Obediah
+              </title>
+              <title n="32" type="book">
+                <measure quantity="4"/>
+                <abbr>Jonah</abbr>
+                Jonah
+              </title>
+              <title n="33" type="book">
+                <measure quantity="7"/>
+                <abbr>Micah</abbr>
+                Micah
+              </title>
+              <title n="34" type="book">
+                <measure quantity="3"/>
+                <abbr>Nahum</abbr>
+                Nahum
+              </title>
+              <title n="35" type="book">
+                <measure quantity="3"/>
+                <abbr>Hab</abbr>
+                Habakkuk
+              </title>
+              <title n="32" type="book">
+                <measure quantity="4"/>
+                <abbr>Jonah</abbr>
+                Jonah
+              </title>
+              <title n="36" type="book">
+                <measure quantity="3"/>
+                <abbr>Zep</abbr>
+                Zephaniah
+              </title>
+              <title n="37" type="book">
+                <measure quantity="2"/>
+                <abbr>Hag</abbr>
+                Haggai
+              </title>
+              <title n="38" type="book">
+                <measure quantity="14"/>
+                <abbr>Zech</abbr>
+                Zechariah
+              </title>
+              <title n="39" type="book">
+                <measure quantity="4"/>
+                <abbr>Mal</abbr>
+                Malachi
+              </title>
+              <title n="101" type="book">
+                <measure quantity="1"/>
+                <abbr>TOC</abbr>
+                Table of contents
+              </title>
+              <title n="19" type="book">
+                <measure quantity="150"/>
+                <abbr>Psa</abbr>
+                Psalms
+              </title>
+              <title n="20" type="book">
+                <measure quantity="31"/>
+                <abbr>Prov</abbr>
+                Proverbs
+              </title>
+              <title n="18" type="book">
+                <measure quantity="42"/>
+                <abbr>Job</abbr>
+                Job
+              </title>
+              <title n="22" type="book">
+                <measure quantity="8"/>
+                <abbr>Song</abbr>
+                Song of Songs
+              </title>
+              <title n="8" type="book">
+                <measure quantity="4"/>
+                <abbr>Ruth</abbr>
+                Ruth
+              </title>
+              <title n="25" type="book">
+                <measure quantity="5"/>
+                <abbr>Lam</abbr>
+                Lamentations
+              </title>
+              <title n="21" type="book">
+                <measure quantity="12"/>
+                <abbr>Ecc</abbr>
+                Ecclesiastes
+              </title>
+              <title n="17" type="book">
+                <measure quantity="10"/>
+                <abbr>Est</abbr>
+                Esther
+              </title>
+            </msItemStruct>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <support>
+                  <objectType>Codex</objectType>
+                  <material>Cream-coloured paper</material>
+                  <watermark ana="#no"/>
+                </support>
+                <extent>430+4
+                  <dimensions scope="all" type="leaf" unit="mm">
+                    <height></height>
+                    <width></width>
+                  </dimensions>
+                </extent>
+                <foliation ana="#no"/>
+                <collation>
+                  <catchwords>Catchwords on each folio verso</catchwords>
+                </collation>
+                <condition>Good, the text is clearly legible</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="23">
+                  <p>Written in one column with 23 lines per page</p>
+                  <dimensions scope="sole" type="written" unit="mm">
+                    <height></height>
+                    <width></width>
+                  </dimensions>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote medium="ink">Ink:
+                <term type="ink">black, red</term>
+              </handNote>
+              <handNote scope="sole" script="Western Karaim semi-cursive and Western Karaim cursive"/>
+              <handNote scribe="copyist">
+                <persName ref="persons.xml#ZbChananiaRojecki">Zevulun ben Chanania Rojecki</persName>
+              </handNote>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>Hebrew (Tiberian vocalisation), some Hebrew parts are not vocalised</scriptNote>
+            </scriptDesc>
+            <bindingDesc>
+              <binding contemporary="false">
+                <p>Sewn binding</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>19th/20th century 
+              </origDate>
+              <origPlace>Panevėžys (?)
+              </origPlace>
+            </origin>
+            <provenance>
+              <name type="person" role="owner">
+                <persName ref="persons.xml#ZbChananiaRojecki">Zevulun ben Chanania Rojecki</persName> (born between 1842 and 1844, died 1923)</name>
+              <name type="person" role="owner">
+                <persName ref="persons.xml#SzFirkowicz">Szymon (Szemaja) Firkowicz</persName> (1897–1982)</name>
+            </provenance>
+          </history>
+          <additional>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+      </creation>
+      <langUsage>
+        <language ident="kdr">North-Western Karaim</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://id.loc.gov/authorities/subjects">
+          <term>Bible--Versions, Karaim</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <p>
+          <lg>
+            <l>Book of Isaiah 1r–64r</l>
+            <l>Book of Jeremiah 65r–136v</l>
+            <l>Book of Ezekiel 137r–201r</l>
+            <l>Book of Hosea 202r–211r</l>
+            <l>Book of Joel 211r–216v</l>
+            <l>Book of Amos 216v–221r</l>
+            <l>Book of Obadiah 221r–222r</l>
+            <l>Book of Jonah 222v–224v</l>
+            <l>Book of Micah 224v–229r</l>
+            <l>Book of Nahum 229v–231v</l>
+            <l>Book of Habakkuk 231v–234v</l>
+            <l>Book of Jonah 222v–224v</l>
+            <l>Book of Zephaniah 234r–237r</l>
+            <l>Book of Haggai 237r–239r</l>
+            <l>Book of Zechariah 239r–249r</l>
+            <l>Book of Malachi 249v–252v</l>
+            <l>Table of contents 253r–253v</l>
+            <l>Book of Psalms 254r–333r</l>
+            <l>Book of Proverbs 334r–360v</l>
+            <l>Book of Job 361r–391v</l>
+            <l>Song of Songs 392r–397r</l>
+            <l>Book of Ruth 397r–401r</l>
+            <l>Book of Lamentations 402r–407v</l>
+            <l>Book of Ecclesiastes 408r–418v</l>
+            <l>Book of Esther 420r–430v</l>
+          </lg>
+        </p>
+      </abstract>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
