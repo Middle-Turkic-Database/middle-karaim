@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>JSul.III.02</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Ruth 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Ruth 1</title>
+						<milestone unit="page" n="223r"/>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Ruth-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי בימי שופט השופטים ויהי רעב בארץ וילך
+							</foreign><milestone unit="line" n="2"/><foreign xml:lang="he" style="unicode-bidi: embed;">איש מבית לחם יהודה לור בשדי מואב הוא
+							</foreign><milestone unit="line" n="3"/><foreign xml:lang="he" style="unicode-bidi: embed;">ואשתו ושני בניו.
+						</foreign></l>
+						<l n="1" xml:id="Ruth-001-001">Da edi šaraʿat etkän künlärindä ol
+							<milestone unit="line" n="4"/>šaraʿatčylar da edi qytlyq jerdä da bardy kiši Bet Leḥemi
+							<supplied reason="lost">n</supplied>dän
+							<milestone unit="line" n="5"/>Juhudanyŋ tirilmä tüzündä Moʾavnyŋ ol da ḫatyny da eki
+							<milestone unit="line" n="6"/>oɣlanlary <delSpan spanTo="#Ruth-001-del001">birgäsinä<anchor xml:id="Ruth-001-del001" type="delSpan"/></delSpan>.
+						</l>
+						<l n="2" xml:id="Ruth-001-002"><foreign xml:lang="he" style="unicode-bidi: embed;">ושם.</foreign> Da aty ol kišiniŋ Elimeleḫ
+							<milestone unit="line" n="7"/>da aty ḫatynynyŋ Naʿami da aty eki oɣlanlarynyŋ Maḥlon da
+							<milestone unit="line" n="8"/>Ḫiljon Efratlylar Bet Leḥemindän Juhudanyŋ da keldilär tüzünä
+							<milestone unit="line" n="9"/>Moʾavnyŋ da boldylar anda.
+						</l>
+						<l n="3" xml:id="Ruth-001-003"><foreign xml:lang="he" style="unicode-bidi: embed;">וימת.</foreign>Da öldi Elimeleḫ eri
+							<milestone unit="line" n="10"/>Naʿaminiŋ da qaldy ol da eki oɣlanlary.
+						</l>
+						<l n="4" xml:id="Ruth-001-004"><foreign xml:lang="he" style="unicode-bidi: embed;">וישאו.</foreign> Da aldylar
+							<milestone unit="line" n="11"/>özlärinä Moʾavly ḫatynlar aty ol birsiniŋ ʿArpa da aty
+							<milestone unit="line" n="12"/>ol ekinǯisiniŋ Rut da oturdylar anda on jyl tegli.
+						</l>
+						<milestone unit="line" n="13"/>
+						<l n="5" xml:id="Ruth-001-005"><foreign xml:lang="he" style="unicode-bidi: embed;">וימותו.</foreign> Da öldülär daɣyn ekisi Maḥlon da Ḫiljon da qaldy ol
+							<milestone unit="line" n="14"/>ḫatyn eki oɣlanlaryndan da erindän.
+						</l>
+						<l n="6" xml:id="Ruth-001-006"><foreign xml:lang="he" style="unicode-bidi: embed;">ותקם.</foreign> Da turdy ol
+							<milestone unit="line" n="15"/>da kelinläri da qajtty tüzündän Moʾavnyŋ ki ešitti tüzündä
+							<milestone unit="line" n="16"/>Moʾavnyŋ ki saɣyndy YWY šol ulusyn bermä alarɣa ötmäk.
+						</l>
+						<milestone unit="line" n="17"/>
+						<l n="7" xml:id="Ruth-001-007"><foreign xml:lang="he" style="unicode-bidi: embed;">ותצא.</foreign> Da čyqty ol jerdän ki edi anda da eki kelinläri birgäsinä
+							<milestone unit="line" n="18"/>da keldilär jol bilän qajtma jerinä Juhudanyŋ.
+						</l>
+						<l n="8" xml:id="Ruth-001-008">
+							<milestone unit="line" n="19"/><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר.</foreign> Da ajtty eki kelinlärinä baryŋyz qajtyŋyz ḫatyn evinä anasynyŋ
+							<milestone unit="line" n="20"/>qylɣaj YWY birgäŋizgä šaɣavat nečik ki qyldyŋyz ol ölülär da
+							<milestone unit="line" n="21"/>birgämä.
+						</l>
+						<l n="9" xml:id="Ruth-001-009"><foreign xml:lang="he" style="unicode-bidi: embed;">יתן.</foreign> Bergäj YWY sizgä da tapqajsyz tynčlyq ḫatyn
+							<milestone unit="line" n="22"/>evinä eriniŋ da öpti alarny da kötärdilär avazlaryn da jyladylar.
+							<milestone unit="line" n="23"/>
+						</l>
+						<l n="10" xml:id="Ruth-001-010"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמרנה.</foreign> Da ajttylar aŋar ki birgäŋä qajtyrmyz ulusuŋa
+							<milestone unit="line" n="24"/>
+						</l>
+						<l n="11" xml:id="Ruth-001-011"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר.</foreign> Da ajtty Naʿami qajtyŋyz qyzlarym nučun baryrsyz
+							<milestone unit="line" n="25"/>birgämä daɣynmy maŋa oɣlanlar qursaɣymda da bolɣajlar
+							<milestone unit="page" n="223v"/>
+							<milestone unit="line" n="1"/>sizgä eränlärgä.
+						</l>
+						<l n="12" xml:id="Ruth-001-012"><foreign xml:lang="he" style="unicode-bidi: embed;">שבנה.</foreign> Qajtyŋyz qyzlarym baryŋyz
+							<milestone unit="line" n="2"/>ki qartajdym bolmaqtan ergä ki ajtqajmyn bardyr maŋa
+							<milestone unit="line" n="3"/>musanč daɣyn bolyrmymy <seg type="commented" corresp="#Ruth-001-seg001"/>b
+							<supplied reason="lost">u</supplied>gäčä<anchor type="commented" xml:id="Ruth-001-seg001"/> kišigä da daɣyn duɣyryrmymy
+							<milestone unit="line" n="4"/>oɣlanlar.
+						</l>
+						<l n="13" xml:id="Ruth-001-013"><foreign xml:lang="he" style="unicode-bidi: embed;">הלהן.</foreign> Alarɣamy musanyrsyz deginčä ki
+							<milestone unit="line" n="5"/>ulɣajɣajlar alarɣamy kečigirsiz bolmamaqqa ergä joq
+							<milestone unit="line" n="6"/>qyzlarym ki ačy boldy maŋa asry sizdän artyq ki čyqty
+							<milestone unit="line" n="7"/>maŋa ḫyššymy YWY-nyŋ.
+						</l>
+						<l n="14" xml:id="Ruth-001-014"><foreign xml:lang="he" style="unicode-bidi: embed;">ותשנה.</foreign> Da kötärdilär avazlaryn
+							<milestone unit="line" n="8"/>da jyladylar daɣyn da öpti ʿArpa qajnanasyn da Rut jabušty aŋar.
+							<milestone unit="line" n="9"/>
+						</l>
+						<l n="15" xml:id="Ruth-001-015"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר.</foreign> Da ajtty muna qajtty kelindäšiŋ ulusyna
+							<milestone unit="line" n="10"/>da Taŋrysyna qajtqyn artyndan kelindašyŋnyŋ.
+							<milestone unit="line" n="11"/>
+						</l>
+						<l n="16" xml:id="Ruth-001-016"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר.</foreign> Da ajtty Rut jalbarmaɣyn maŋa kemišmä seni
+							<milestone unit="line" n="12"/>qajtma artyŋdan ki qajda ki barsaŋ baryrmyn ki qonsaŋ
+							<milestone unit="line" n="13"/>qonarmyn ulusyŋ ulusym da Taŋryŋ Taŋrym.
+							<milestone unit="line" n="14"/>
+						</l>
+						<l n="17" xml:id="Ruth-001-017"><foreign xml:lang="he" style="unicode-bidi: embed;">באשר.</foreign> Qajda ki ölsäŋ ölärmin da anda kömülürirmin
+							<milestone unit="line" n="15"/>bulaj qylɣaj YWY maŋa da bulaj arttyrɣaj ki ol ölüm ajyryr
+							<milestone unit="line" n="16"/>arama da araŋa.
+						</l>
+						<l n="18" xml:id="Ruth-001-018"><foreign xml:lang="he" style="unicode-bidi: embed;">ותרא.</foreign> Da kördi ki küčäjdir ol barma
+							<milestone unit="line" n="17"/>birgäsinä da tyjyldy sözlämä aŋar.
+						</l>
+						<l n="19" xml:id="Ruth-001-019"><foreign xml:lang="he" style="unicode-bidi: embed;">ותלכנה.</foreign> Da bardylar
+							<milestone unit="line" n="18"/>ekisi kelgänlärinä degin Bet Leḥemgä da muŋrady barča ol
+							<milestone unit="line" n="19"/>šaḥar üstlärinä da ajttylar bumydyr Naʿami.
+							<milestone unit="line" n="20"/>
+						</l>
+						<l n="20" xml:id="Ruth-001-020"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר.</foreign> Da ajtty alarɣa ajtmaŋyz maŋa Naʿami ataŋyz maŋa
+							<milestone unit="line" n="21"/>Mara ki ačy etti qadir Taŋry maŋa asry.
+						</l>
+						<l n="21" xml:id="Ruth-001-021"><foreign xml:lang="he" style="unicode-bidi: embed;">אני.</foreign> Men tolu
+							<milestone unit="line" n="22"/>bardym da boš qajtardy meni YWY nučun atarsyz maŋa Naʿami da YWY
+							<milestone unit="line" n="23"/>tanyqlyq berdi menim učun da <seg type="commented" corresp="#Ruth-001-seg002"/>qadir 
+							<supplied reason="lost">Taŋry</supplied><anchor type="commented" xml:id="Ruth-001-seg002"/> jaman etti maŋa.
+							<milestone unit="line" n="24"/>
+						</l>
+						<l n="22" xml:id="Ruth-001-022"><foreign xml:lang="he" style="unicode-bidi: embed;">ותשב.</foreign> Da qajtty Naʿami da Rut ol Moʾavly kelini birgäsinä ki
+							<milestone unit="line" n="25"/>qajtty tüzündän Moʾavnyŋ da alar keldilär Bet Leḥemgä
+							<milestone unit="page" n="224r"/>
+							<milestone unit="line" n="1" xml:id="Ruth001-P224r-L1" next="JSul.III.02.008.002.xml#Ruth002-P224r-L1"/>ilkindä oraɣynyŋ arpalarnyŋ.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
