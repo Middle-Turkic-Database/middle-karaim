@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>ADub.III.73</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">A Karaim translation of the Torah and the Haftarah</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Esther 5</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>
+							<supplied reason="lost">Esther 5</supplied>
+						</title>
+						<milestone unit="line" n="13"/>
+						<l n="1" xml:id="Est-005-001"><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign>Da edi ol üčünčü künd́a da kijdi
+							<milestone unit="line" n="14"/>Ester bijlik upraq da turdu ičḱargi qaḥrasyn-
+							<milestone unit="line" n="15"/>da üvünün ol bijnin uturusuna üvünün ol
+							<milestone unit="line" n="16"/>bijnin da ol bij oltururedi bijlik taḥty üs-
+							<milestone unit="line" n="17"/>tüńa ol bijlik üvd́a uturusuna ešiginin
+							<milestone unit="line" n="18"/>ol üvnün.
+						</l>
+						<l n="2" xml:id="Est-005-002"><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign>Da edi körǵačoq ol bij ošol
+							<milestone unit="line" n="19"/>Ester
+							<addSpan spanTo="#Est-005-add001" status="unremarkable"/>
+							<supplied reason="lost">ni</supplied>
+							<anchor xml:id="Est-005-add001" type="addSpan"/> turadoɣanny qaḥrada sundu širinlik közĺarin-
+							<milestone unit="line" n="20"/>
+							<supplied reason="lost">d́a</supplied> anyn da burɣady ol bij Esterǵa ošol ol
+							<milestone unit="line" n="21"/>altyn čubuqnu ki qolunda da juvudu Ester da tijdi
+							<milestone unit="page" n="379v"/>
+							<milestone unit="line" n="1"/>bašyna ol čubuqnun.
+						</l>
+						<l n="3" xml:id="Est-005-003"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>Da ajtty 
+							<addSpan spanTo="#Est-005-add002" status="unremarkable"/>anar
+							<anchor xml:id="Est-005-add002" type="addSpan"/> ol bij nedi
+							<milestone unit="line" n="2"/>saja Ester e bijč́a da nedi qoltqaj senin jarty bijlikḱa-
+							<milestone unit="line" n="3"/>dejin da berilsin saja.
+						</l>
+						<l n="4" xml:id="Est-005-004"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign>Da ajtty Ester
+							<milestone unit="line" n="4"/>eger ol bijǵa jaḥšy körünśa kelsin ol bij da
+							<milestone unit="line" n="5"/>Haman b
+							<supplied reason="lost">ü</supplied>gün ol ičkiǵa ki hadirĺadim anar.
+						</l>
+						<l n="5" xml:id="Est-005-005"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר
+							</foreign><milestone unit="line" n="6"/>Da ajtty ol bij ǯaḥtlatyjiz ošol Hamanny qylma o-
+							<milestone unit="line" n="7"/>šol sözün Esternin da keldi ol bij da Haman ol ički-
+							<milestone unit="line" n="8"/>ǵa ki qyldy Ester.
+						</l>
+						<l n="6" xml:id="Est-005-006"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>Da ajtty ol bij
+							<milestone unit="line" n="9"/>Esterǵa ičkisind́a ol vinanyn nedi kĺagij senin da
+							<milestone unit="line" n="10"/>berilsin saja da nedi qoltqaj senin jarty ol bijlikḱa-
+							<milestone unit="line" n="11"/>dejin da qylynsyn.
+						</l>
+						<l n="7" xml:id="Est-005-007"><foreign xml:lang="he" style="unicode-bidi: embed;">ותען</foreign>Da qaruv berdi Ester da
+							<milestone unit="line" n="12"/>ajtty kĺagim menim da qoltqam menim.
+						</l>
+						<l n="8" xml:id="Est-005-008"><foreign xml:lang="he" style="unicode-bidi: embed;">אם</foreign>Eger 
+							<addSpan spanTo="#Est-005-add003" status="unremarkable"/>e
+							<supplied reason="lost">…</supplied>
+							<anchor xml:id="Est-005-add003" type="addSpan"/>
+							<milestone unit="line" n="13"/>taptym eśa širinlik közĺarind́a ol bijnin da eger
+							<milestone unit="line" n="14"/>ol bijǵa jaḥšy körünśa berḿa ošol kĺagimni da
+							<milestone unit="line" n="15"/>qylma ošol qoltqamny kelsin ol bij da 
+							<addSpan spanTo="#Est-005-add004" status="unremarkable"/>Haman
+							<anchor xml:id="Est-005-add004" type="addSpan"/> ol ičkiǵa
+							<milestone unit="line" n="16"/>ki qylarmen alar üčün da tanbylada qylarmen sözüńa kö-
+							<milestone unit="line" n="17"/>ŕa ol bijnin anlatma nedikĺagim da nedi qoltqam.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="9" xml:id="Est-005-009"><foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign>Da čyqty Haman ol künd́a bijańa da šatyr
+							<milestone unit="line" n="19"/>jüŕakli da körǵačoq Haman ošol Mardeḫajny qabaɣynda
+							<milestone unit="line" n="20"/>ol bijnin da turmady da qozɣalmady andan da toldu Haman
+							<milestone unit="line" n="21"/>Mardeḫaj üstüńa ačuvdan.
+						</l>
+						<l n="10" xml:id="Est-005-010"><foreign xml:lang="he" style="unicode-bidi: embed;">ויתאפק</foreign>Da čydady Hama
+							<supplied reason="lost">n</supplied>
+							<milestone unit="page" n="380r"/>
+							<milestone unit="line" n="1"/>da keldi üvüńa da ijdi da keltirdi ošol süvüv-
+							<milestone unit="line" n="2"/>čüĺarin da ošol Zerešni qatynyn.
+						</l>
+						<l n="11" xml:id="Est-005-011"><foreign xml:lang="he" style="unicode-bidi: embed;">ויספר</foreign>Da qotardy
+							<milestone unit="line" n="3"/>alarɣa Haman ošol syjyn ḥoǯalyɣynyn da köplügün uvul-
+							<milestone unit="line" n="4"/>larynyn da ošol neki ullu etti any ol bij da ošol
+							<milestone unit="line" n="5"/>neki syjlyraq etti any bar ol aɣalyqlar üstüńa
+							<milestone unit="line" n="6"/>da qullary üstüńa ol bijnin.
+						</l>
+						<l n="12" xml:id="Est-005-012"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>Da ajt-
+							<milestone unit="line" n="7"/>ty 
+							<addSpan spanTo="#Est-005-add005" status="unremarkable"/>
+							<supplied reason="lost">Haman</supplied>
+							<anchor xml:id="Est-005-add005" type="addSpan"/> ham keltirḿadi Ester ol bijč́a d́a ol bij byla
+							<milestone unit="line" n="8"/>ol ićkiǵa ki qyldy özǵa kišini ki ancaq men
+							<supplied reason="lost">i</supplied>
+							<milestone unit="line" n="9"/>da daɣyn tan bylaɣa da men ünd́alǵanmen 
+							<addSpan spanTo="#Est-005-add006" status="unremarkable"/>
+							<supplied reason="lost">anar ičkige</supplied>
+							<anchor xml:id="Est-005-add006" type="addSpan"/> ol bij byla.
+						</l>
+						<l n="13" xml:id="Est-005-013"><foreign xml:lang="he" style="unicode-bidi: embed;">וכל
+							</foreign><milestone unit="line" n="10"/>Da barysy bu tenši tüvüldü maja ne vaḥtta ki men
+							<milestone unit="line" n="11"/>köŕamen ošol Mardeḫajny ol Jisraʾelni olturadoɣanny
+							<milestone unit="line" n="12"/>qabaɣynda ol bijnin.
+						</l>
+						<l n="14" xml:id="Est-005-014"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign>Da ajtty anar
+							<milestone unit="line" n="13"/>Zereš qatyny anyn da bar süvüvčüĺari anyn qylsynlar
+							<milestone unit="line" n="14"/>asqyč bijikligi enli lokot da ertenbylada ajtqyn
+							<milestone unit="line" n="15"/>bijǵa da assynlar ošol Mardeḫajny anyn üstüńa
+							<milestone unit="line" n="16"/>da kelgin ol bij byla ošol ičkiǵa šatyr da
+							<milestone unit="line" n="17"/>jaḥšy köründi ol söz alnynda Hamannyn da qyldy ol
+							<milestone unit="line" n="18"/>asqyčny.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
