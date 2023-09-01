@@ -16,12 +16,12 @@
         </respStmt>
         <respStmt>
           <resp when="2023">Digital edition by</resp>
-          <name>Anna Sulimowicz-Keruth and Dorota Cegiołka</name>
+          <name>Dorota Cegiołka, Michał Németh and Oksana Tyshchenko-Monastyrska</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
         <edition>
-          Anna Sulimowicz-Keruth and Dorota Cegiołka 2023. ‘A digital edition of the Karaim biblical manuscript F305-01’, in László Károly and Michał Németh (eds)
+          Dorota Cegiołka, Michał Németh and Oksana Tyshchenko-Monastyrska 2023. ‘A digital edition of the Karaim biblical manuscript F305-07’, in László Károly and Michał Németh (eds)
           <emph>A database of Middle Turkic documents.</emph>
           Uppsala: Department of linguistics and philology. Accessed
           <date when-custom="Now-DayinMonth"/>
@@ -48,11 +48,11 @@
           <msIdentifier>
             <settlement>Vilnius, Lithuania</settlement>
             <repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
-            <idno>F305-01</idno>
+            <idno>F305-07</idno>
           </msIdentifier>
           <msContents>
             <summary>
-              Translations of Biblical texts into North-Western Karaim
+              Translations of Biblical texts into North-Western Karaim: Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther), the books of Daniel, Ezra, Nehemiah, and 1–2 Chronicles
             </summary>
             <msItem n="1">
               <title ana="#no"/>
@@ -65,55 +65,50 @@
               <textLang>Hebrew</textLang>
             </msItem>
             <msItemStruct>
-              <title n="1" type="book">
-                <measure quantity="50"/>
-                <abbr>Gen</abbr>
-                Genesis
+              <title n="17" type="book">
+                <measure quantity="10"/>
+                <abbr>Est</abbr>
+                Esther
               </title>
-              <title n="2" type="book">
-                <measure quantity="40"/>
-                <abbr>Ex</abbr>
-                Exodus
-              </title>
-              <title n="3" type="book">
-                <measure quantity="27"/>
-                <abbr>Lev</abbr>
-                Leviticus
-              </title>
-              <title n="4" type="book">
-                <measure quantity="36"/>
-                <abbr>Num</abbr>
-                Numbers
-              </title>
-              <title n="6" type="book">
-                <measure quantity="24"/>
-                <abbr>Josh</abbr>
-                Joshua
-              </title>
-              <title n="7" type="book">
-                <measure quantity="21"/>
-                <abbr>Judg</abbr>
-                Judges
-              </title>
-              <title n="9" type="book">
-                <measure quantity="31" />
-                <abbr>1 Sam</abbr>
-                1 Samuel
-              </title>
-              <title n="10" type="book">
-                <measure quantity="24"/>
-                <abbr>2 Sam</abbr>
-                2 Samuel
-              </title>
-              <title n="11" type="book">
+              <title n="8" type="book">
                 <measure quantity="22"/>
-                <abbr>1 Kings</abbr>
-                1 Kings
+                <abbr>Ex</abbr>
+                Song of Songs
               </title>
-              <title n="12" type="book">
-                <measure quantity="25"/>
-                <abbr>2 Kings</abbr>
-                2 Kings
+              <title n="8" type="book">
+                <measure quantity="4"/>
+                <abbr>Ruth</abbr>
+                Ruth
+              </title>
+              <title n="21" type="book">
+                <measure quantity="12"/>
+                <abbr>Ecc</abbr>
+                Ecclesiastes
+              </title>
+              <title n="27" type="book">
+                <measure quantity="12"/>
+                <abbr>Dan</abbr>
+                Daniel
+              </title>
+              <title n="15" type="book">
+                <measure quantity="10"/>
+                <abbr>Ezra</abbr>
+                Ezra
+              </title>
+              <title n="13" type="book">
+                <measure quantity="31" />
+                <abbr>Neh</abbr>
+                Nehemiah
+              </title>
+              <title n="13" type="book">
+                <measure quantity="29"/>
+                <abbr>1 Chr</abbr>
+                1 Chronicles
+              </title>
+              <title n="14" type="book">
+                <measure quantity="36"/>
+                <abbr>2 Chr</abbr>
+                2 Chronicles
               </title>
             </msItemStruct>
           </msContents>
@@ -125,7 +120,7 @@
                   <material>Cream-coloured paper</material>
                   <watermark ana="#no"/>
                 </support>
-                <extent>006+548+007
+                <extent>119
                   <dimensions scope="all" type="leaf" unit="mm">
                     <height></height>
                     <width></width>
@@ -135,11 +130,11 @@
                 <collation>
                   <catchwords>Catchwords on each folio verso</catchwords>
                 </collation>
-                <condition>Good</condition>
+                <condition>Good, the text is clearly legible</condition>
               </supportDesc>
               <layoutDesc>
-                <layout columns="1" writtenLines="20">
-                  <p>Written in one column with 20 lines per page</p>
+                <layout columns="1" writtenLines="23">
+                  <p>Written in one column with 23 lines per page</p>
                   <dimensions scope="sole" type="written" unit="mm">
                     <height></height>
                     <width></width>
@@ -157,7 +152,7 @@
               </handNote>
             </handDesc>
             <scriptDesc>
-              <scriptNote>Hebrew (Tiberian vocalisation) , some Hebrew parts are not vocalised</scriptNote>
+              <scriptNote>Hebrew (Tiberian vocalisation), some Hebrew parts are not vocalised</scriptNote>
             </scriptDesc>
             <bindingDesc>
               <binding contemporary="false">
@@ -198,16 +193,15 @@
       <abstract>
         <p>
           <lg>
-            <l>Genesis	1v–74r</l>
-            <l>Exodus	75r–137r</l>
-            <l>Leviticus	138r–183v</l>
-            <l>Numbers	184r–256v</l>
-            <l>Joshua	296r–332r</l>
-            <l>Judges	333r–367v</l>
-            <l>Samuel 1 368r–415r</l>
-            <l>Samuel 2	415v–455v</l>
-            <l>Kings 1 456r–504v</l>
-            <l>Kings 2 505r–548v</l>
+            <l>Esther 1r–8r</l>
+            <l>Song of Songs 9r–12v</l>
+            <l>Ruth 13r–16r</l>
+            <l>Ecclesiastes 16r–22v</l>
+            <l>Daniel 23r–38r</l>
+            <l>Ezra 38v–47v</l>
+            <l>Nehemiah 48r–61v</l>
+            <l>1 Chronicles 62r–87v</l>
+            <l>2 Chronicles 88r–119r</l>
           </lg>
         </p>
       </abstract>
