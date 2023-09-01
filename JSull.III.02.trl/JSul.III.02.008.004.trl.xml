@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI
+	xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>JSul.III.02</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Ruth 4</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Ruth 4</title>
+						<milestone unit="line" n="17"/>
+						<l n="1" xml:id="Ruth-004-001">And Boaz
+							<milestone unit="line" n="18"/>had gone up to the city and sat down there; and behold, the redeemer,
+							<milestone unit="line" n="19"/>of whom Boaz had spoken, came by; and Boaz said, ‘Turn aside, sit down here,
+							<milestone unit="line" n="20"/>interrogator’; and he turned aside and sat down.
+						</l>
+						<l n="2" xml:id="Ruth-004-002">And he took ten men
+							<milestone unit="line" n="21"/>of the elders of the city and said, ‘Sit down here’; and they sat down.
+						</l>
+						<milestone unit="line" n="22"/>
+						<l n="3" xml:id="Ruth-004-003">And he said to the redeemer, ‘Her share in the land which
+							<milestone unit="line" n="23"/>was our brother Elimelech’s sold Naomi, who has come back from the plain
+							<milestone unit="line" n="24"/>of Moab.
+						</l>
+						<l n="4" xml:id="Ruth-004-004">So I said I would reveal it to your ears, saying,
+							<milestone unit="line" n="25"/>‘Buy it before of those sitting here and before the elders
+							<milestone unit="line" n="26"/>‘Buy it before of those sitting here and before the elders
+							<milestone unit="line" n="27"/>
+							<addSpan spanTo="#Ruth-004-add001"/>of my people
+							<anchor xml:id="Ruth-004-add001" type="addSpan"/>
+							<ref n="1" target="#Ruth-004-fn1" type="noteAnchor"/>.
+							<milestone unit="page" n="226r"/>
+							<milestone unit="line" n="1"/>of my people.’ If you will redeem it, redeem it; but if you will not redeem it, tell me,
+							<milestone unit="line" n="2"/>that I may know, for there is no one besides you to redeem it, and I am after you.’
+							<milestone unit="line" n="3"/>And he said, ‘I will redeem it.’
+						</l>
+						<l n="5" xml:id="Ruth-004-005">And Boaz said, ‘The day you buy
+							<milestone unit="line" n="4"/>the field from the hand of Naomi,
+							<milestone unit="line" n="5"/>you also acquire Ruth the Moabite, the widow of the deceased, in order to raise up
+							<milestone unit="line" n="6"/>the name of the deceased in his inheritance.’
+						</l>
+						<l n="6" xml:id="Ruth-004-006">And the redeemer said,
+							<milestone unit="line" n="7"/>‘I cannot redeem her for myself, lest I impair
+							<milestone unit="line" n="8"/>my own inheritance: redeem you my right to yourself, for
+							<milestone unit="line" n="9"/>I cannot redeem it so.
+						</l>
+						<l n="7" xml:id="Ruth-004-007">And in former 
+							<supplied reason="lost">times</supplied>, in Israel, in order to redeem
+							<milestone unit="line" n="10"/>and to exchange: to confirm every 
+							<supplied reason="lost">given</supplied> word, one drew off
+							<milestone unit="line" n="11"/>his sandal
+							<ref n="2" target="#Ruth-004-fn2" type="noteAnchor"/> and gave it to his friend, and this was 
+							<supplied reason="lost">in</supplied> the
+							<milestone unit="line" n="12"/>book of testimony in Israel.
+						</l>
+						<l n="8" xml:id="Ruth-004-008">And the redeemer said
+							<milestone unit="line" n="13"/>to Boaz, ‘Buy it for yourself,’ he drew off his sandal.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="9" xml:id="Ruth-004-009">And Boaz said to the elders and all the people,
+							<milestone unit="line" n="15"/>‘You are witnesses today that I have bought all that belonged to Elimelech
+							<milestone unit="line" n="16"/>and all that belonged to Chilion and to Mahlon from the hand of Naomi.
+						</l>
+						<milestone unit="line" n="17"/>
+						<l n="10" xml:id="Ruth-004-010">And also Ruth the Moabite, the wife of Mahlon, I have bought
+							<milestone unit="line" n="18"/>to be my wife, to raise up the name of the dead in his inheritance,
+							<milestone unit="line" n="19"/>that the name of the dead may not be cut off from among his brethren
+							<milestone unit="line" n="20"/>and from the gate of his place: you are witnesses today.’
+						</l>
+						<l n="11" xml:id="Ruth-004-011">
+							<milestone unit="line" n="21"/>And all the people that were at the city, and the elders, said, ‘We are witnesses.
+							<milestone unit="line" n="22"/>May the Lord make the woman who is coming into your house like Rachel and like Leah,
+							<milestone unit="line" n="23"/>which two did build the community of Israel: and may you make
+							<milestone unit="line" n="24"/>an army in Ephrathah, and be famous in Bethlehem.
+						</l>
+						<l n="12" xml:id="Ruth-004-012">And may
+							<milestone unit="line" n="25"/>your house be like the house of Perez, whom Tamar bore to Judah,
+							<milestone unit="page" n="226v"/>
+							<milestone unit="line" n="1"/>because of the offspring that the Lord shall give you by this woman.’
+						</l>
+						<l n="13" xml:id="Ruth-004-013">And
+							<milestone unit="line" n="2"/>Boaz took Ruth, and she became his wife, and he went in to her, and the 
+							<milestone unit="line" n="3"/>Lord gave her conception, and she bore a son.
+						</l>
+						<l n="14" xml:id="Ruth-004-014">And the women said
+							<milestone unit="line" n="4"/>to Naomi, ‘Praised be the Lord, who has not left
+							<milestone unit="line" n="5"/>you today without a redeemer, and may his name be famous in Israel!
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="15" xml:id="Ruth-004-015">And He shall be to you a restorer of life and a nourisher of your old age,
+							<milestone unit="line" n="7"/>for your daughter-in-law who loves you, has borne him, who is better to you
+							<milestone unit="line" n="8"/>than seven sons.’
+						</l>
+						<l n="16" xml:id="Ruth-004-016">And Naomi took the child,
+							<milestone unit="line" n="9"/>and laid it in her bosom, and became nurse to it.
+						</l>
+						<l n="17" xml:id="Ruth-004-017">
+							<milestone unit="line" n="10"/>And the women of the neighborhood gave him a name, saying, ‘A son has been born
+							<milestone unit="line" n="11"/>to Naomi’, and they named him Obed, he was the father of Jesse,
+							<milestone unit="line" n="12"/>the father of David.
+						</l>
+						<l n="18" xml:id="Ruth-004-018">And these are
+							<milestone unit="line" n="13"/>the descendants
+							<ref n="3" target="#Ruth-004-fn3" type="noteAnchor"/> of Perez: Perez begat Hezron.
+						</l>
+						<l n="19" xml:id="Ruth-004-019">And Hezron
+							<milestone unit="line" n="14"/>begat Ram, and Ram begat Amminadab.
+						</l>
+						<l n="20" xml:id="Ruth-004-020">
+							<milestone unit="line" n="15"/>And Amminadab begat Nahshon, and Nahshon begat
+							<milestone unit="line" n="16"/>Salmon.
+						</l>
+						<l n="21" xml:id="Ruth-004-021">And Salmon begat Boaz, and Boaz
+							<milestone unit="line" n="17"/>begat Obed.
+						</l>
+						<l n="22" xml:id="Ruth-004-022">And Obed begat Jesse,
+							<milestone unit="line" n="18"/>and Jesse begat David. <supplied reason="lost"><emph>The last verse repeated</emph></supplied>
+							<milestone unit="line" n="19"/><supplied reason="lost"><emph>in Hebrew.</emph></supplied>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ruth-004-fn1" type="footnote">Catchword.</note>
+						<note xml:id="Ruth-004-fn2" type="footnote">Cf. this fragment in Targ.: 
+							<emph>Tešer edi kiši jenini oŋ qolunuŋ</emph> ‘A man untied the sleeve of his right hand’ (see Ianbay &amp; Erdal 1998: 23, 34 [sentence 430]).
+						</note>
+						<note xml:id="Ruth-004-fn3" type="footnote">Expressed with the word 
+							<emph>tuvduq</emph> ‘relative’ (CKarED 415–416).
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
