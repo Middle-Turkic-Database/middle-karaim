@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Esther 10</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Esther 10</title>
+						<milestone unit="line" n="1"/>
+						<l n="1" xml:id="Est-010-001"><seg type="commented" corresp="#Est-010-seg001"/>Da bundan son<anchor type="commented" xml:id="Est-010-seg001"/>
+							<ref n="1" target="#Est-010-fn1" type="noteAnchor"/> qojdu ol bij Aḥašv́eroš
+							<milestone unit="line" n="2"/>jasaḥ bar ol jer üśt́uńa
+							<milestone unit="line" n="3"/>da tiriĺuv́č́uĺari ol t́eńgiźniń.
+						</l>
+						<l n="2" xml:id="Est-010-002">Da bar iši kipliginiń da
+							<milestone unit="line" n="4"/>baɣatyrlyɣy anyn da biĺgirtḿagi ulluluɣunun Mardeḫajnyn
+							<ref n="2" target="#Est-010-fn2" type="noteAnchor"/> ki ullu
+							<milestone unit="line" n="5"/>ėt́ti any ol bij muna alar jazylɣandyrlar seferi üśt́uńa
+							<milestone unit="line" n="6"/>iš́ĺariniń ol ḱuńĺarniń bijĺariniń Parasnyn da Madajnyn.
+						</l>
+						<l n="3" xml:id="Est-010-003">Ki Mardeḫaj
+							<ref n="3" target="#Est-010-fn3" type="noteAnchor"/>
+							<milestone unit="line" n="7"/>ol Jisraʾeĺ ėdi ėkińčib́a bijǵa Aḥašv́erošḥa da ullu syjy anyn
+							<milestone unit="line" n="8"/>Israʾeĺĺard́a da śuv́umĺu edi ḱopśu qarandašlaryna iźĺav́č́u
+							<milestone unit="line" n="9"/>jaḥšyny ulusuna da śoźĺav́č́u bazlyḥny bar urluɣuna.
+							<milestone unit="line" n="10"/><foreign xml:lang="he" style="unicode-bidi: embed;">כִּי מָרְדֳּכַי הַיְּהוּדִי מִשְׁנֶה<anchor type="commented" xml:id="Est-010-seg002"/>
+							</foreign><milestone unit="line" n="11"/><foreign xml:lang="he" style="unicode-bidi: embed;">לַמֶּלֶךְ אֲחַשְׁוֵרֹושׁ וְגָדֹול
+							</foreign><milestone unit="line" n="12"/><foreign xml:lang="he" style="unicode-bidi: embed;">לַיְּהוּדִים וְרָצוּי לְרֹב
+							</foreign><milestone unit="line" n="13"/><foreign xml:lang="he" style="unicode-bidi: embed;">אֶחָיו דֹּרֵשׁ טֹוב לְעַמֹּו
+							</foreign><milestone unit="line" n="14"/>
+							<ref n="4" target="#Est-010-fn4" type="noteAnchor"/><foreign xml:lang="he" style="unicode-bidi: embed;"><seg type="commented" corresp="#Est-010-seg003"/> וְדֹבֵר שָׁלֹום לְכָל זַרְעֹו׃.
+						</foreign></l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Est-010-fn1" type="footnote" anchored="true">Written with larger bold square letters.</note>
+						<note xml:id="Est-010-fn2" type="footnote" anchored="true">Written with bold square letters.</note>
+						<note xml:id="Est-010-fn3" type="footnote" anchored="true">Written with bold square letters.</note>
+						<note xml:id="Est-010-fn4" type="footnote" anchored="true">Heb. Esther 10:3 written with larger bold square letters.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
