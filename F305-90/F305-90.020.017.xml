@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Proverbs 17</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Proverbs 17</title>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Prov-017-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">טוֹב פַּת חֲרֵבָה וְשַׁלְוָה בָהּ מִבַּיִת מָלֵא זִבְחֵי רִיב׃</foreign></l>
+						<milestone unit="line" n="2"/>
+						<l n="1" xml:id="Prov-017-001">Jaḥšyraḥtyr quru tigim da tynčlyḥ anda juv́d́ań to-
+							<milestone unit="line" n="3"/>lu talašly ašlardan.
+						</l>
+						<l n="2" xml:id="Prov-017-002">Aqylly qul ėrkĺańadir t́eli kišiǵa da
+							<milestone unit="line" n="4"/>ortasynda qarandašlarnyn üĺuš́ aladyr üĺuš́.
+						</l>
+						<l n="3" xml:id="Prov-017-003">Syzɣyrmaḥ ḱu-
+							<milestone unit="line" n="5"/>ḿuš́ḱa da ḥalast altynɣa vaĺe synejdyr juŕakĺarni H.
+						</l>
+						<l n="4" xml:id="Prov-017-004">Jaman ėt́uv́-
+							<milestone unit="line" n="6"/>č́u kiši qulaḥ saladyr avanlyḥ śoźǵa jalɣanly kiši tynlejdyr
+							<milestone unit="line" n="7"/>tiliń qavšarlyḥnyn.
+						</l>
+						<l n="5" xml:id="Prov-017-005">Ilik ėt́uv́č́u jarlydan rusvajlejdyr T́eńrisiń
+							<milestone unit="line" n="8"/>bijańuv́č́u zavalɣa ḱońu bolmastyr.
+						</l>
+						<l n="6" xml:id="Prov-017-006">Taǯy qartlarnyn ulanlary ulan-
+							<milestone unit="line" n="9"/>larnyn da ḱorḱu ulanlarnyn atalary alarnyn.
+						</l>
+						<l n="7" xml:id="Prov-017-007">Jarašmejdyr ńeḱaśḱa
+							<milestone unit="line" n="10"/>syjly śoź hem ki ǯomartḥa jalɣan śoź.
+						</l>
+						<l n="8" xml:id="Prov-017-008">Širińlik b́eŕadoɣon taš
+							<milestone unit="line" n="11"/>kibiktir ol šoḥad ḱoźĺarińd́a jesisiniń bar
+							<supplied reason="lost">ča</supplied> q
+							<supplied reason="lost">a</supplied>jra
+							<ref n="1" target="#Prov-017-fn1" type="noteAnchor"/> ki qajyrylsa
+							<milestone unit="line" n="12"/>onaradyr.
+						</l>
+						<l n="9" xml:id="Prov-017-009">Jabuvču tanmaḥny iźĺejdir śuv́arlikni <delSpan spanTo="#Prov-017-del001"/>da ėrklińuv́<anchor xml:id="Prov-017-del001" type="delSpan"/>
+							<milestone unit="line" n="13"/>da ėkiĺavč́u śoźńu ajyradyr śuv́arni.
+						</l>
+						<l n="10" xml:id="Prov-017-010">Synyḥtyradyr bir üŕakĺań-
+							<milestone unit="line" n="14"/>ḿak aqyllyny vatmaḥtan ėśa t́elini juź for.
+						</l>
+						<l n="11" xml:id="Prov-017-011">T́ek tanmaḥny iźĺa
+							<milestone unit="line" n="15"/>śa jaman kiši da ševaɣatsyz ėĺči ijiĺadir anar.
+						</l>
+						<l n="12" xml:id="Prov-017-012">Jaḥšyraḥtyr jolu-
+							<milestone unit="line" n="16"/>ɣušma tuv ajuvnu kišid́a da t́uv́uĺ t́elini t́eliligińd́a.
+						</l>
+						<l n="13" xml:id="Prov-017-013">Qaj-
+							<milestone unit="line" n="17"/>taruvču jamanlyḥ jaḥšylyḥ ornuna ėksiĺḿaśtir jaman juv́uńd́ań.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="14" xml:id="Prov-017-014">Ijivč́u kibik suvlarny bašlyɣy talašnyn da qošučmaḥtan burun talašma
+							<milestone unit="line" n="19"/>tašlaɣyn.
+						</l>
+						<l n="15" xml:id="Prov-017-015">Rast ėt́uv́č́u qynɣyrny da qynɣyr ėt́uv́č́u rastny jeriń-
+							<milestone unit="line" n="20"/>či ėt́ḱani H-nyn daɣy ėksid́a.
+						</l>
+						<l n="16" xml:id="Prov-017-016">Ńeǵa bu aḥča qolunda t́eliniń
+							<milestone unit="line" n="21"/>satyn alma usnu da aqyl joḥtur.
+						</l>
+						<l n="17" xml:id="Prov-017-017">Har vaḥt śuv́adir dostluḥ
+							<milestone unit="line" n="1"/>ėt́ḿa vaĺe qar
+							<supplied reason="lost">a</supplied>ndaš
+							<ref n="2" target="#Prov-017-fn2" type="noteAnchor"/> tar vaḥt üč́uń tuvɣandyr.
+						</l>
+						<l n="18" xml:id="Prov-017-018">Adam ėksik
+							<milestone unit="line" n="2"/>aqylly qaɣadyr uvuč juk kiŕadir juk üč́uń alnynda dostunun
+						</l>
+						<milestone unit="line" n="3"/>
+						<l n="19" xml:id="Prov-017-019">Śuv́uv́č́u tanmaḥny śuv́adir qavɣany bijik ėt́uv́č́u ėšigiń iźĺej-
+							<milestone unit="line" n="4"/>dir synmaḥny.
+						</l>
+						<l n="20" xml:id="Prov-017-020">T́erś juŕakli tapmyjdyr jaḥšyny da ėki t́uśĺu śoźĺav́-
+							<milestone unit="line" n="5"/>č́u tili byla t́uš́adir jamanɣa.
+						</l>
+						<l n="21" xml:id="Prov-017-021">Tuvduruvcu t́elini qajɣyɣa
+							<milestone unit="line" n="6"/>öźuńa da bijańḿejdir atasy ńeḱaśniń.
+						</l>
+						<l n="22" xml:id="Prov-017-022">Šatyr juŕak t́uźat́adir
+							<milestone unit="line" n="7"/>gufnu da synyḥ ǯan qurutadyr śuv́akni.
+						</l>
+						<l n="23" xml:id="Prov-017-023">Šoḥad jašyrtynlyḥ byla
+							<milestone unit="line" n="8"/>rašaʿ aladyr tajdyrma yzlaryn t́oŕaniń.
+						</l>
+						<l n="24" xml:id="Prov-017-024">Alnynda aqyllynyn
+							<milestone unit="line" n="9"/>us vaĺe ḱoźĺari ėliniń qyryjynda jerniń.
+						</l>
+						<l n="25" xml:id="Prov-017-025">Ačyrɣanmaḥtyr ata-
+							<milestone unit="line" n="10"/>syna t́eli uvul da ačylyḥtyr t́oŕav́č́uśuńa.
+						</l>
+						<l n="26" xml:id="Prov-017-026">Daɣy ǯurumlama
+							<milestone unit="line" n="11"/>rastny jaḥšy t́uv́uĺd́ur vatma ǯomartlarny t́uźĺuk üč́uń.
+						</l>
+						<milestone unit="line" n="12"/>
+						<l n="27" xml:id="Prov-017-027">Yjyvču ajtmaḥlaryn biĺadir aqylny abajly ǯanly aqylly kiši.</l>
+						<milestone unit="line" n="13"/>
+						<l n="28" xml:id="Prov-017-028">Daɣy t́elid́a tyjylsa uslu ornuna saɣyšlanadyr qysuvču
+							<milestone unit="line" n="14"/>ėrińĺariń aqyllydyr. <foreign xml:lang="he" style="unicode-bidi: embed;"> גַּם אֱוִיל מַחֲרִישׁ חָכָם יֵחָשֵׁב אֹטֵם שְׂפָתָיו</foreign>
+							<milestone unit="line" n="15"/><foreign xml:lang="he" style="unicode-bidi: embed;">נָבוֹן׃</foreign></l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Prov-017-fn1" type="footnote" anchored="true">F305.90: 
+							<emph>barč́a qejra</emph>; a scribal error.
+						</note>
+						<note xml:id="Prov-017-fn2" type="footnote" anchored="true">F305.90: 
+							<emph>qarendaš</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
