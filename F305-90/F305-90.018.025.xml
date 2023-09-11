@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Job 25</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Job 25</title>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Job-025-001">Da qaruv b́erdi Bildad ol Šuḥili da ajtty.</l>
+						<l n="2" xml:id="Job-025-002">Erkĺańḿak
+							<milestone unit="line" n="12"/>da qorḥuv birǵasińa qyluvču bazlyḥ ḱokĺarińd́a.
+						</l>
+						<milestone unit="line" n="13"/>
+						<l n="3" xml:id="Job-025-003">Barmudur san jyjynlaryna da kim üśt́uńa turmejdyr jaryɣy.</l>
+						<l n="4" xml:id="Job-025-004">Da ńe rast
+							<milestone unit="line" n="14"/>bolur kiši T́eńri byla da ńe aruv bolur tuvɣan qatyndan.
+						</l>
+						<l n="5" xml:id="Job-025-005">Muna b́ek-
+							<milestone unit="line" n="15"/>ĺaśa aj ašyra da balqymydyr da julduzlar aruv ḱuŕuńmejdirĺar
+							<milestone unit="line" n="16"/>ʿenajatlarynda.
+						</l>
+						<l n="6" xml:id="Job-025-006">H́em ki kiši qurt da adam uvlu qomuz.</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
