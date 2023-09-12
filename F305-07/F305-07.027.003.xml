@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-07</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther), the books of Daniel, Ezra, Nehemiah, and 1–2 Chronicles</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Daniel 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Daniel 3</title>
+						<milestone unit="line" n="19"/>
+						<l n="1" xml:id="Dan-003-001"><foreign xml:lang="he" style="unicode-bidi: embed;">ג</foreign> Ńevuḫadńecar bij qyldy abaq ki altyn bijikligi anyn altymyš loqot-
+							<milestone unit="line" n="20"/>lar keńligi anyn alty loqotlar turɣuzdu any ėnišińd́a
+							<milestone unit="line" n="21"/>Duranyn valajatynda Bav́eĺniń.
+						</l>
+						<l n="2" xml:id="Dan-003-002">Da Ńevuḫadńecar bij ijdi yštyrma öźd́ań bijĺar-
+							<milestone unit="line" n="22"/>d́ań aɣalyqlaryn da ullu aɣalyqlaryn ḥaznačylaryn gedavrajany
+							<ref n="1" target="#Dan-003-fn1" type="noteAnchor"/> datavrajany
+							<ref n="2" target="#Dan-003-fn2" type="noteAnchor"/> tiptajeni
+							<ref n="3" target="#Dan-003-fn3" type="noteAnchor"/> da bar
+							<milestone unit="line" n="23"/>ėrkĺańuv́č́uĺariń valajatynyn keĺḿa tojlamaɣyna abaɣynyn ki turɣuzdu Ńevuḫad-
+							<milestone unit="page" n="26r"/>
+							<milestone unit="line" n="1"/><delSpan spanTo="#Dan-003-del001"/>Ńevuḫad<anchor xml:id="Dan-003-del001" type="delSpan"/>ńecar bij.
+						</l>
+						<l n="3" xml:id="Dan-003-003">Ol vaḥtta yštyryldylar öźd́ań bijĺari aɣalyqlary ullu
+							<milestone unit="line" n="2"/>aɣalyqlary ḥaznačylary gedavraja datavraja tiptaje da bar ėrkĺańuv́č́uĺari valajatynyn
+							<milestone unit="line" n="3"/>tojlanmaɣyna abaqnyn ki turɣuzdu Ńevuḫadńecar bij da turdular alnynda abaqnyn
+							<milestone unit="line" n="4"/>ki turɣuzdu Ńevuḫadńecar.
+						</l>
+						<l n="4" xml:id="Dan-003-004">Da keliv́uń čaqyryredi quvat byla siźǵa ajtadyrlar
+							<milestone unit="line" n="5"/>uluslar da tiĺĺar.
+						</l>
+						<l n="5" xml:id="Dan-003-005">Ńe vaḥtny ki ėšit́śajiź avazyn byrɣynyn syzɣyradoɣonnu
+							<milestone unit="line" n="6"/>qatrosnu
+							<ref n="4" target="#Dan-003-fn4" type="noteAnchor"/> sabḥany da psantrińni
+							<ref n="5" target="#Dan-003-fn5" type="noteAnchor"/> sumfonjany da bar ojun savutlaryn t́uš́ujuź da
+							<milestone unit="line" n="7"/>juǵuńujuź altyn abaḥqa ki turɣuzdu Ńevuḫadńecar bij.
+						</l>
+						<l n="6" xml:id="Dan-003-006">Da kim ki t́uš́ḿaśa
+							<milestone unit="line" n="8"/>da juǵuńḿaśa ol oq saɣatta salynyr ortasyna otlu ṕeč́niń janadoɣon.
+						</l>
+						<l n="7" xml:id="Dan-003-007">Bar
+							<milestone unit="line" n="9"/>bunun üčuń bu vaḥtta ki ńečik ėšit́tiĺar bar uluslar avazyn byrɣynyn
+							<milestone unit="line" n="10"/>tartadoɣonnu qatrosnu sabḥany psantrińni da sumfonjany da bar ojun savutlaryn
+							<milestone unit="line" n="11"/>t́uš́t́uĺar bar uluslar ümḿat́ĺar da tiĺĺar juǵuńd́u<delSpan spanTo="#Dan-003-del002"/>ń<anchor xml:id="Dan-003-del002" type="delSpan"/>ĺar altyn abaḥqa
+							<milestone unit="line" n="12"/>ki turɣuzdu Ńevuḫadńecar bij.
+						</l>
+						<l n="8" xml:id="Dan-003-008">Bar bunun üčuń ol vaḥtta juvudular
+							<milestone unit="line" n="13"/>Kasdimli ėŕańĺar da qammazladylar qammazlyqlaryn ki Jiśraʾeĺĺarniń.
+						</l>
+						<l n="9" xml:id="Dan-003-009">Qaruv
+							<milestone unit="line" n="14"/>b́erdiĺar da ajttylar Ńevuḫadńecarɣa bijǵa ėj bij dunjaɣa d́ejiń tiri bolɣejsyn.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="10" xml:id="Dan-003-010">Śeń ėj bij qojduj keńaš́ ki har bir kiši ki ėšit́śa avazyn byrɣynyn tartadoɣonnu
+							<milestone unit="line" n="16"/>qatrosnu sabḥany psantrińni da sumfonjany da bar ojun savutlaryn t́uš́śuń
+							<milestone unit="line" n="17"/>da juǵuńśuń altyn abaḥqa.
+						</l>
+						<l n="11" xml:id="Dan-003-011">Da kim ki t́uš́ḿaśa da č́okḿaśa salynyr
+							<milestone unit="line" n="18"/>ortasyna otlu ṕeč́niń janadoɣon.
+						</l>
+						<l n="12" xml:id="Dan-003-012">Bardyr Jiśraʾeĺ ėŕańĺar ki symarladyj
+							<milestone unit="line" n="19"/>alarny qulluɣu üśt́uńa valajatynyn Bav́eĺniń Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo bu
+							<milestone unit="line" n="20"/>ėŕańĺar qojmadylar saja ėj bij abaɣyja qulluḥ ėt́ḿejdirĺar
+							<milestone unit="line" n="21"/>da altyn abaḥqa ki turɣuzduj juǵuńḿejdirĺar.
+						</l>
+						<l n="13" xml:id="Dan-003-013">Ol vaḥtta Ńevuḫadńecar
+							<milestone unit="line" n="22"/>ačuv byla da qaḥir byla ajtty keĺtirḿa Šadraḫny Ḿešaḫny da ʿAv́ed́ Ńeɣonu
+							<milestone unit="line" n="23"/>ol vaḥtta ušpu ėŕańĺar keĺtiriĺdiĺar alnyna bijniń.
+						</l>
+						<l n="14" xml:id="Dan-003-014">Bašlady
+							<milestone unit="page" n="26v"/>
+							<milestone unit="line" n="1"/>Ńevuḫadńecar da ajtty alarɣa kertid́ańmo Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo T́eńriḿa qulluḥ
+							<milestone unit="line" n="2"/>ėt́ḿejsiź da altyn abaḥqa ki turɣuzdum juǵuńḿejsiź.
+						</l>
+						<l n="15" xml:id="Dan-003-015">Haĺegińa siź had́erĺar
+							<milestone unit="line" n="3"/>bolujuz ńe vaḥtny ki ėšit́śajiź avazyn byrɣynyn syzɣyradoɣonnu qatrosnu sabḥany
+							<milestone unit="line" n="4"/>psantrińni sumfonjany da bar ojun savutlaryn t́uš́ujuź da juǵuńujuź abaḥqa ki
+							<milestone unit="line" n="5"/>qyldym da muna juǵuńḿaśejiź ol oḥ saɣatta salynyrsyz ortasyna otlu ṕeč́niń
+							<milestone unit="line" n="6"/>janadoɣon da kim ol T́eńri ki qutḥaralɣej siźni qolumdan.
+						</l>
+						<l n="16" xml:id="Dan-003-016">Qaruv b́erdiĺar Šadraḫ
+							<milestone unit="line" n="7"/>Ḿešaḫ da ʿAv́ed́ Ńeɣo da ajttylar bijǵa Ńevuḫadńecar dbatet́ḿejbiź biź bu śoź üč́uń
+							<milestone unit="line" n="8"/>tynlama saja.
+						</l>
+						<l n="17" xml:id="Dan-003-017">Muna bardyr T́eńri ki biź qulluḥ ėt́abiź ki bolalyr qutḥarma
+							<milestone unit="line" n="9"/>biźni otlu ṕeč́t́ań janadoɣon da qolujdan ėj bij qutḥaryr.
+						</l>
+						<l n="18" xml:id="Dan-003-018">Da muna alej t́uv́uĺ
+							<milestone unit="line" n="10"/>biĺuv́ĺu bolsun saja ėj bij T́eńrija śeniń qulluḥ ėt́ḿaźbiź da altyn abaḥqa
+							<milestone unit="line" n="11"/>ki turɣuzduj juǵuńḿaźbiź.
+						</l>
+						<l n="19" xml:id="Dan-003-019">Ol vaḥtta Ńevuḫadńecar toldu ačuvdan da
+							<milestone unit="line" n="12"/>t́urśuńu juźĺariniń alyšyndy Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo üśt́uńa bašlady da ajtty
+							<milestone unit="line" n="13"/>qyzdyrma ṕeč́ni jedi anča ńetikli qyzdyryldy.
+						</l>
+						<l n="20" xml:id="Dan-003-020">Da ėŕańĺarǵa tuvušlu ėĺǵa
+							<milestone unit="line" n="14"/>ki č́erivińd́a ajtty bajlama Šadraḫny Ḿešaḫny da ʿAv́ed́ Ńeɣonu salma alarny otlu
+							<milestone unit="line" n="15"/>ṕeč́ḱa janadoɣon.
+						</l>
+						<l n="21" xml:id="Dan-003-021">Ol vaḥtta ušpu ėŕańĺar bajlandylar ḱoĺḿakĺari byla
+							<milestone unit="line" n="16"/>da plaščlary byla da kijit́ĺari byla da upraqlary byla da tašlandylar ortasyna otlu
+							<milestone unit="line" n="17"/>ṕeč́niń janadoɣon.
+						</l>
+						<l n="22" xml:id="Dan-003-022">Bar bunun üč́uń ki śoź bijd́ań ǯaḥt čyḥty da ṕeč́ qyzdyryldy
+							<milestone unit="line" n="18"/>artyqsy bu ėŕańĺar ki saldylar Šadraḫny Ḿešaḫny da ʿAv́ed́ Ńeɣonu keśti alarny
+							<milestone unit="line" n="19"/>jalyny ki otnun.
+						</l>
+						<l n="23" xml:id="Dan-003-023">Da ušpu ėŕańĺar üč́śud́a Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo
+							<milestone unit="line" n="20"/>t́uš́t́uĺar ortasyna otlu ṕeč́niń janadoɣon bajlanɣanlar.
+						</l>
+						<l n="24" xml:id="Dan-003-024">Ol vaḥtta
+							<milestone unit="line" n="21"/>Ńevuḫadńecar bij śośḱańdi da turdu alɣasanmaq byla da bašlady da ajtty keńaš́čiĺari-
+							<milestone unit="line" n="22"/>ńa muna üč́ ėŕańĺar saldyq ortasyna otnun bajlanɣanlar qaruv b́erdiĺar
+							<milestone unit="line" n="23"/>da ajttylar bijǵa kertidir ėj bij.
+						</l>
+						<l n="25" xml:id="Dan-003-025">Qaruv b́erdi da ajtty muna ḿeń ḱoŕaḿeń
+							<milestone unit="page" n="27r"/>
+							<milestone unit="line" n="1"/>d́ort́ ėŕańĺar juŕujdirĺar ortasynda ṕeč́niń da čejpalmaq joqtur alarda da
+							<milestone unit="line" n="2"/>t́urśuńu d́ort́uńč́uśuńuń ušejdyr malaḫyna T́eńriniń.
+						</l>
+						<l n="26" xml:id="Dan-003-026">Ol vaḥtta juvudu
+							<milestone unit="line" n="3"/>Ńevuḫadńecar qabaɣyna otlu ṕeč́niń janadoɣon bašlady da ajtty Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo
+							<milestone unit="line" n="4"/>qullary joɣarɣy T́eńriniń čyɣyjyz kelijiź ol vaḥtta čyḥtylar Šadraḫ Ḿešaḫ da ʿAv́ed́ Ńeɣo
+							<milestone unit="line" n="5"/>ortasyndan otnun.
+						</l>
+						<l n="27" xml:id="Dan-003-027">Da yštyryldylar öźd́ań bijĺari da aɣalyqlary da keńaš́čiĺari
+							<milestone unit="line" n="6"/>da ullu aɣalyqlary bijniń baqma ušpu ėŕańĺarni ki ėrkĺańḿadi alarda
+							<milestone unit="line" n="7"/>ot an
+							<supplied reason="lost">i</supplied>
+							<ref n="6" target="#Dan-003-fn6" type="noteAnchor"/> guflarynda da čačy bašlarynyn üt́uĺḿadi da plaščlary alyšynmadylar
+							<milestone unit="line" n="8"/>da ijisi otnun tabulmady alarɣa.
+						</l>
+						<l n="28" xml:id="Dan-003-028">Qaruv b́erdi Ńevuḫadńecar da ajtty maḥtavludur
+							<milestone unit="line" n="9"/>T́eńrisi ki Šadraḫnyn Ḿešaḫnyn da ʿAv́ed́ Ńeɣonun ki ijdi malaḫyn da qutḥardy qullaryn
+							<milestone unit="line" n="10"/>ki išandylar anar da śoźuń bijniń alyštyrdylar da b́erdiĺar guflaryn ki qulluḥ
+							<milestone unit="line" n="11"/>ėt́ḿagejĺar da juǵuńḿagejĺar bird́a T́eńriǵa ančaq T́eńriĺarińa.
+						</l>
+						<l n="29" xml:id="Dan-003-029">Da öźumd́ań
+							<milestone unit="line" n="12"/>qojdum keńaš́ ki har bir ulus ümḿat́ da tiĺ ki ajtsa janɣylyš śoź uturu
+							<milestone unit="line" n="13"/>T́eńrisińa Šadraḫnyn Ḿešaḫnyn da ʿAv́ed́ Ńeɣonun keśakĺanir keśakĺarǵa da juv́u anyn
+							<milestone unit="line" n="14"/>siplikḱa qojulur bar bunun üč́uń ki joḥtur öźǵa T́eńri ki bolalɣej
+							<milestone unit="line" n="15"/>qutḥarma bunun kibik.
+						</l>
+						<l n="30" xml:id="Dan-003-030">Ol vaḥtta ol bij ėrkĺańdirdi Šadraḫny Ḿešaḫny
+							<milestone unit="line" n="16"/>da ʿAv́ed́ Ńeɣonu valajaty üśt́uńa Bav́eĺniń.
+						</l>
+						<l n="31" xml:id="Dan-003-031">Ńevuḫadńecar bij bar ol uluslarda
+							<milestone unit="line" n="17"/>ümḿat́ĺarǵa da tiĺĺarǵa ki tiriĺadirĺar bar jerd́a jazdy savluɣujuz
+							<milestone unit="line" n="18"/>ulɣajɣej.
+						</l>
+						<l n="32" xml:id="Dan-003-032">B́eĺgiĺar da nišanlar ki qyldy birǵaḿa joɣarɣy T́eńri č́eb́ardir alnymda
+							<milestone unit="line" n="19"/>anlatma.
+						</l>
+						<l n="33" xml:id="Dan-003-033">B́eĺgiĺari ńe ḱopt́urĺar da nišanlary ki ḱuč́ĺud́urĺar bijligi anyn
+							<milestone unit="line" n="20"/>öḿurĺuk bijlik da ėrkĺańḿagi anyn dordan dorɣa d́ejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Dan-003-fn1" type="footnote" anchored="true">Heb.<foreign xml:lang="he" style="unicode-bidi: embed;"> גְדָבְרַיָּא </foreign>‘treasurers’.</note>
+						<note xml:id="Dan-003-fn2" type="footnote" anchored="true">Heb.<foreign xml:lang="he" style="unicode-bidi: embed;"> דְּתָבְרַיָּא </foreign>‘judges’.</note>
+						<note xml:id="Dan-003-fn3" type="footnote" anchored="true">Heb.<foreign xml:lang="he" style="unicode-bidi: embed;"> תִּפְתָּיֵא </foreign>‘magistrates’.</note>
+						<note xml:id="Dan-003-fn4" type="footnote" anchored="true">Heb.<foreign xml:lang="he" style="unicode-bidi: embed;"> קַתְרוֹס </foreign>‘lute, lyre’.</note>
+						<note xml:id="Dan-003-fn5" type="footnote" anchored="true">From Heb.<foreign xml:lang="he" style="unicode-bidi: embed;"> פְּסַנְתֵּר </foreign>‘piano’.</note>
+						<note xml:id="Dan-003-fn6" type="footnote" anchored="true">F305-07: spelled 
+							<emph>ańe</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
