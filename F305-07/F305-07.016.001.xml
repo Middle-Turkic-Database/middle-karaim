@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology "</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-07</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther), the books of Daniel, Ezra, Nehemiah, and 1-2 Chronicles</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Nehemiah 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Nehemiah 1</title>
+						<milestone unit="page" n="48r"/>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Neh-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">דִבְרֵ֥י נְהֶמְיָ֖ה בֶּן הְכַלְ֑יָה וַיְהִ֤י בְּחֽדֶש א
+							</foreign>
+							<milestone unit="line" n="2"/><foreign xml:lang="he" style="unicode-bidi: embed;">כִּסְלֵו֨ שְנַ֥הצֶשְרִיםוַאְַנִ֥י הַיִ֭יחִי בְּשושָ֥ן</foreign>
+							<milestone unit="line" n="3"/><foreign xml:lang="he" style="unicode-bidi: embed;">הַבִּיֽרׇה</foreign>
+							<milestone unit="line" n="10"/>otta.
+						</l>
+						<l n="4" xml:id="Neh-001-004">Da ėdi ėšit́ḱanimd́a ušpu śoźĺarni olturdum da jyladym da jasly
+							<milestone unit="line" n="11"/>boldum ńeč́a ḱuńĺar da oruč tuttum da t́efila ėt́aredim alnynda T́eńrisiniń
+							<milestone unit="line" n="12"/>ol ḱokĺarniń.
+						</l>
+						<l n="5" xml:id="Neh-001-005">Da ajttym qoltḥa byla H T́eńrisi ol ḱokĺarniń ol T́eńri
+							<milestone unit="line" n="13"/>ol ullu da ol qorḥunčlu saqlavču ol šertni da šavaɣatny śuv́uv́č́uĺarińa
+							<milestone unit="line" n="15"/>ačyqlar ėšit́ḿa t́efilasyna qulujnun ki ḿeń t́efila ėt́aḿeń alnyjda b́uǵuńńu
+							<milestone unit="line" n="16"/>ḱuń da keč́a ulanlary üč́uń Jisraʾeĺ qullaryjnyn da mod́e bolamen jazyḥlary üč́uń
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="7" xml:id="Neh-001-007">Borčajma borčajdyq saja da saqlamadyḥ ol micvalarny da ol resimĺarni da ol
+							<milestone unit="line" n="19"/>t́oŕaĺarni ki bujurduj Mošeǵa quluja.
+						</l>
+						<l n="8" xml:id="Neh-001-008">Saɣynɣyn ėńdi ol śoźńu ki bujurduj
+							<milestone unit="line" n="20"/>Mošeǵa quluja ajtadoɣoč siź tandyjyz maja ḿeń tozdururmyn siźni uluslarda.
+						</l>
+						<milestone unit="page" n="48v"/>
+						<milestone unit="line" n="1"/>
+						<l n="9" xml:id="Neh-001-009">Da qajtsajyz maja da saqlasajyz micvalarymny da qylsajyz alarny ėǵer bolsa azašḥanlaryjyz qyryjynda
+							<milestone unit="line" n="2"/>ol ḱokĺarniń andandy yštyryrmyn alarny da keĺtirirmiń alarny ol orunɣa ki
+							<milestone unit="line" n="3"/>sajladym toḥtatma šemimni anda.
+						</l>
+						<l n="10" xml:id="Neh-001-010">Da alar qullaryj da ulusuj ki juluduj ol ullu
+							<milestone unit="line" n="4"/>ḱuč́uj byla da ol ḱuč́ĺu qudratyj byla.
+						</l>
+						<l n="11" xml:id="Neh-001-011">Qoltḥa byla ė H bolsun ėńdi
+							<milestone unit="line" n="5"/>ėšit́uv́uj qajyrylɣyn t́efilasyna qulujnun da t́efilasyna qullaryjnyn ol kĺav́č́uĺar
+							<milestone unit="line" n="6"/>qorḥma šemijd́ań da onartḥyn ėńdi quluja b́uǵuńńu da b́ergiń any raḥḿet́ĺarǵa alnynda
+							<milestone unit="line" n="7"/>ušpu kišiniń da ḿeń ėdim ič́ki b́eŕuv́č́u bijǵa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
