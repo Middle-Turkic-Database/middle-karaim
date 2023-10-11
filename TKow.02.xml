@@ -140,13 +140,14 @@
               <handNote medium="ink">Ink:
                 <term type="ink">black</term>
               </handNote>
-              <handNote scope="sole" script="Western Karaim semi-cursive and cursive" />
+              <handNote scope="major" script="Western Karaim semi-cursive" />
+              <handNote scope="minor" script="Western Karaim cursive" />
               <handNote scribe="copyist">
                 <persName ref="persons.xml#JJMordkowicz">Jeshua Josef Mordkowicz</persName> (1802–1884)
               </handNote>
             </handDesc>
             <scriptDesc>
-              <scriptNote>Hebrew (Tiberian vocalisation)</scriptNote>
+              <scriptNote scope="sole">Hebrew (Tiberian vocalisation)</scriptNote>
             </scriptDesc>
             <bindingDesc>
               <binding contemporary="false">
@@ -156,10 +157,8 @@
           </physDesc>
           <history>
             <origin>
-              <origDate>19th century
-              </origDate>
-              <origPlace>Halych
-              </origPlace>
+              <origDate>19th century</origDate>
+              <origPlace>Halych</origPlace>
             </origin>
             <provenance>
               <name type="person" role="owner">
@@ -188,7 +187,9 @@
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation></creation>
+      <creation>
+        <date>19th century</date>
+      </creation>
       <langUsage>
         <language ident="kdr">South-Western Karaim</language>
       </langUsage>

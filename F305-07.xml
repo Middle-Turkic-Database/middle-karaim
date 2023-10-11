@@ -146,13 +146,15 @@
               <handNote medium="ink">Ink:
                 <term type="ink">black</term>
               </handNote>
-              <handNote scope="sole" script="Western Karaim semi-cursive and Western Karaim cursive"/>
+              <handNote scope="major" script="Western Karaim semi-cursive"/>
+              <handNote scope="minor" script="Western Karaim cursive" />
               <handNote scribe="copyist">
                 <persName ref="persons.xml#ZbChananiaRojecki">Zevulun ben Chanania Rojecki</persName>
               </handNote>
             </handDesc>
             <scriptDesc>
-              <scriptNote>Hebrew (Tiberian vocalisation), some Hebrew parts are not vocalised</scriptNote>
+              <scriptNote scope="major">Hebrew (Tiberian vocalisation)</scriptNote>
+              <scriptNote scope="minor">Hebrew (not vocalised)</scriptNote>
             </scriptDesc>
             <bindingDesc>
               <binding contemporary="false">
@@ -181,6 +183,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
+        <date>19th century</date>
       </creation>
       <langUsage>
         <language ident="kdr">North-Western Karaim</language>
