@@ -1,3 +1,3 @@
 <?php
-include_once('../github_webhook.php')
+include_once('.../github_webhook.php')
 ?>
