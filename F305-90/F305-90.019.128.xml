@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 128</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 128</title>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Ps-128-001">Širasy ol maʿalalarnyn sandyr bar qorḥuvčuɣa H-dan
+							<milestone unit="line" n="10"/>ol juŕuv́č́u jollary byla.
+						</l>
+						<l n="2" xml:id="Ps-128-002">Zaḥḿet́iń uvučlaryjnyn ki ašasej san
+							<milestone unit="line" n="11"/>bolur saja da jaḥšy bolur saja ol dunjada.
+						</l>
+						<l n="3" xml:id="Ps-128-003">Qatynyj śeniń borlalyḥ
+							<milestone unit="line" n="12"/>kibik jašaradoɣon ortasynda juv́ujńuń  ulanlaryj butaḥlary kibik
+							<milestone unit="line" n="13"/>zejtunlarnyn č́uv́ŕa stoluja.
+						</l>
+						<l n="4" xml:id="Ps-128-004">Muna ki alej alɣyšlanadyr kiši
+							<milestone unit="line" n="14"/>qorḥuvču H-dan.
+						</l>
+						<l n="5" xml:id="Ps-128-005">Alɣyšlar śeni H Cijondan da ḱoŕarsiń jaḥšysyn Jeruša-
+							<milestone unit="line" n="15"/>lajimniń bar t́erlik ḱuńĺarijd́a.
+						</l>
+						<l n="6" xml:id="Ps-128-006">Da ḱoŕarsiń ulanlaryn ulanlaryjnyn
+							<milestone unit="line" n="16"/>bazlyḥ Jiśraʾeĺ üśt́uńa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

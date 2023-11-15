@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 121</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 121</title>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Ps-121-001">Širasy maʿalalarnyn ḱot́uŕamiń ḱoźĺarimni ol tav-
+						<milestone unit="line" n="10"/>
+						larɣa qajdan kelir bolušluɣum.</l>
+						<l n="2" xml:id="Ps-121-002">Bolušlu-
+							<milestone unit="line" n="11"/>ɣum ḿenim H-dan jaratuvčudan ḱokĺarni da jerni.
+						</l>
+						<l n="3" xml:id="Ps-121-003">B́erḿaśt́ tajma
+							<milestone unit="line" n="12"/>ajaɣyja čyrym et́mejdir saqlavčuj śeniń.
+						</l>
+						<l n="4" xml:id="Ps-121-004">Muna čyrym et́mejdir da
+							<milestone unit="line" n="13"/>juqlamejdyr saqlavču Jiśraʾeĺni.
+						</l>
+						<l n="5" xml:id="Ps-121-005">H saqlar śeni H ḱoĺaǵa bolur saja
+							<milestone unit="line" n="14"/>on janyjdan.
+						</l>
+						<l n="6" xml:id="Ps-121-006">Ḱuńd́uź ol qujaš ḱuv́d́urḿaśt́ śeni da aj keč́a byla
+							<milestone unit="line" n="15"/>üśut́ḿaśt́ śeni.
+						</l>
+						<l n="7" xml:id="Ps-121-007">H saqlar śeni bar jamandan saqlar ǯanyjny.</l>
+						<l n="8" xml:id="Ps-121-008">H saqlar
+							<milestone unit="line" n="16"/>čyɣyšyjny
+							<ref n="1" target="#Ps-121-fn1" type="noteAnchor"/> da kirišijni haĺed́ań da dunjaɣa dejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-121-fn1" type="footnote" anchored="true">Mistakenly written as 
+							<emph>čyɣysyjny</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

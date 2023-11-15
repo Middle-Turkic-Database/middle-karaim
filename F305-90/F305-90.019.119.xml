@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 119</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 119</title>
+						<milestone unit="line" n="5"/>
+						<l xml:id="Ps-119-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר יום כה
+							</foreign>
+							<milestone unit="line" n="6"/><foreign xml:lang="he" style="unicode-bidi: embed;">אַשְרֵי תְמִימֵי דָרֶך הַהֹלְכִים בְתוֺרַת יְהֹוָה ׃</foreign>
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="1" xml:id="Ps-119-001">Sandyr t́uǵaĺ jollularɣa ol juŕuv́č́uĺar Torasy
+							<milestone unit="line" n="8"/>byla H-nyn.
+						</l>
+						<l n="2" xml:id="Ps-119-002">Sandyr abravčularɣa šarajatlaryn bar
+							<milestone unit="line" n="9"/>juŕak byla iźĺaśaĺar any.
+						</l>
+						<l n="3" xml:id="Ps-119-003">H́em qylmasalar avanlyḥny jollary
+							<milestone unit="line" n="10"/>byla barsalar.
+						</l>
+						<l n="4" xml:id="Ps-119-004">Śeń bujurduj vakiĺlikĺarijni saqlama astry.</l>
+						<milestone unit="line" n="11"/>
+						<l n="5" xml:id="Ps-119-005">Qoltḥalarym ki t́uźuĺgejĺar jollarym saqlama resimĺarijni.</l>
+						<l n="6" xml:id="Ps-119-006">Anda
+							<milestone unit="line" n="12"/>ujatly bolmammyn baḥqanymda bar saruvlaryjny.
+						</l>
+						<l n="7" xml:id="Ps-119-007">Š́uḱur et́armiń
+							<milestone unit="line" n="13"/>saja t́uźĺuǵu byla juŕakniń üv́ŕańǵanimd́a rast t́oŕaĺarijni.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="8" xml:id="Ps-119-008">Resimĺarijni saqlejmyn kemiš́ḿagiń ḿeni oɣota astry.</l>
+						<l n="9" xml:id="Ps-119-009">Ńe
+							<milestone unit="line" n="15"/>byla aruv et́ar jaš ulan jolun saqlama śoźuja ḱoŕa.
+						</l>
+						<l n="10" xml:id="Ps-119-010">Bar
+							<milestone unit="line" n="16"/>juŕagim byla iźlejmiń śeni janɣyltmaɣyn ḿeni saruvlaryjdan.
+						</l>
+						<l n="11" xml:id="Ps-119-011">Juŕagim-
+							<milestone unit="line" n="17"/>d́a astradym ajtmaɣyjny anyn üč́uń ki jazyḥly bolmagejmyn saja.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="12" xml:id="Ps-119-012">Maḥtavludur śeń H üv́ŕat́kiń maja resimĺarijni.</l>
+						<l n="13" xml:id="Ps-119-013">Erińlarim
+							<milestone unit="page" n="319v"/>
+							<milestone unit="line" n="1"/>byla jomaḥlejmyn bar t́oŕaĺariń bujruɣunnun.
+						</l>
+						<l n="14" xml:id="Ps-119-014">Jolu byla šarajatla-
+							<milestone unit="line" n="2"/>ryjnyn bijańamiń tabuvču kibik ḱop mal.
+						</l>
+						<l n="15" xml:id="Ps-119-015">Vakiĺlikĺarij byla śoźlej-
+							<milestone unit="line" n="3"/>miń da baɣamyn iźĺarijni.
+						</l>
+						<l n="16" xml:id="Ps-119-016">Resimĺarij byla ašyjyšlanamyn unutmej-
+							<milestone unit="line" n="4"/>myn śoźĺarijni.
+						</l>
+						<l n="17" xml:id="Ps-119-017">T́oĺagiń quluj üśt́uńa jaḥšyny da tiri bolajym
+							<milestone unit="line" n="5"/>da saqlajym śoźujńu
+							<ref n="1" target="#Ps-119-fn1" type="noteAnchor"/>.
+						</l>
+						<l n="18" xml:id="Ps-119-018">Ačḥyn ḱoźĺarimni da baɣajym tamašalyḥlaryjny
+							<milestone unit="line" n="6"/>Torajdan.
+						</l>
+						<l n="19" xml:id="Ps-119-019">Ɣarib ḿeń jerd́a jašyrmaɣyn ḿeńd́ań saruvlaryjny.</l>
+						<l n="20" xml:id="Ps-119-020">Öźaĺa-
+							<milestone unit="line" n="7"/>ńadir ǯanym ḱuśańadoɣon t́oŕaĺarija har vaḥt.
+						</l>
+						<l n="21" xml:id="Ps-119-021">Ačuvlandyj qarɣyš-
+							<milestone unit="line" n="8"/>ly čejalarda ol janɣyluvčular saruvlaryjdan.
+						</l>
+						<l n="22" xml:id="Ps-119-022">Ket́argiń ḿeńd́ań rus-
+							<milestone unit="line" n="9"/>vajlyḥny da ḥorluḥnu ki šarajatlaryjny abradym.
+						</l>
+						<l n="23" xml:id="Ps-119-023">Daɣy olturadyrlar
+							<milestone unit="line" n="10"/>aɣalyḥlar menim üč́uń śoźlejdirĺar vaĺe quluj śoźĺejdir ŕesim-
+							<milestone unit="line" n="11"/>ĺarij byla.
+						</l>
+						<l n="24" xml:id="Ps-119-024">Daɣy šarajatlaryj ašajyšlyḥlarym keńaš́ elim.</l>
+						<milestone unit="line" n="12"/>
+						<l n="25" xml:id="Ps-119-025">Jabuštu topraḥqa ǯanym tiri tutḥun ḿeni śoźuja ḱoŕa.</l>
+						<milestone unit="line" n="13"/>
+						<l n="26" xml:id="Ps-119-026">Jollarymny jomaḥlejmyn da qaruv b́ergiń maja üv́ŕat́kiń maja ŕesim-
+							<milestone unit="line" n="14"/>ĺarijni.
+						</l>
+						<l n="27" xml:id="Ps-119-027">Joluna vakiĺlikĺarijniń aqyllatḥyn ḿeni da śoźlajim tamaša
+							<milestone unit="line" n="15"/>lyḥlarij byla.
+						</l>
+						<l n="28" xml:id="Ps-119-028">Aɣyzdyradyr ḱoźum jaš qajɣydan qajjam et́kiń ḿeni śo-
+							<milestone unit="line" n="16"/>źuja ḱoŕa.
+						</l>
+						<l n="29" xml:id="Ps-119-029">Jalɣan jolnu ket́argiń ḿeńd́ań da Torajny ḥajyfsunɣun
+							<milestone unit="line" n="17"/>maja.
+						</l>
+						<l n="30" xml:id="Ps-119-030">Inamly jolnu sajladym t́oŕaĺarijni qaršyma t́uźat́amiń.</l>
+						<milestone unit="line" n="18"/>
+						<l n="31" xml:id="Ps-119-031">Jabuštum šarajatlaryja e H ujatly et́ḿagiń ḿeni.</l>
+						<l n="32" xml:id="Ps-119-032">Joluna saruv-
+							<milestone unit="line" n="19"/>laryjnyn juvurajym ki keńart́kiń juŕagimni.
+						</l>
+						<l n="33" xml:id="Ps-119-033">Üv́ŕat́kiń maja e
+							<milestone unit="line" n="20"/>H jolun ŕesimĺarijniń da abrajym any ol dunjalyḥ üč́uń.
+						</l>
+						<l n="34" xml:id="Ps-119-034">Aqyllatḥyn
+							<milestone unit="page" n="320r"/>
+							<milestone unit="line" n="1"/>ḿeni da abrajym Torajny da saqlajym any bar juŕak byla.
+						</l>
+						<l n="35" xml:id="Ps-119-035">Čynyḥtyrɣyn
+							<milestone unit="line" n="2"/>izi byla saruvlaryjnyn ki any śuv́amiń.
+						</l>
+						<l n="36" xml:id="Ps-119-036">Qajyrɣyn juŕagimni šarajatla-
+							<milestone unit="line" n="3"/>ryja da t́uv́uĺ qynɣyrlyḥ fajdaɣa.
+						</l>
+						<l n="37" xml:id="Ps-119-037">Ašyrɣyn ḱoźĺarimni ḱorḿakt́ań
+							<milestone unit="line" n="4"/>jalɣanny jollaryj byla tiri tutḥun ḿeni.
+						</l>
+						<l n="38" xml:id="Ps-119-038">Qajjam et́kiń quluja ajt-
+							<milestone unit="line" n="5"/>maɣyjny ki qorḥkej śeńd́ań.
+						</l>
+						<l n="39" xml:id="Ps-119-039">Ašyrɣyn rusvajlyɣymny ki qorḥamyn ki
+							<milestone unit="line" n="6"/>t́oŕaĺarij jaḥšydyrlar.
+						</l>
+						<l n="40" xml:id="Ps-119-040">Muna ḱuśańamiń vaqiĺlikĺarija rastlyɣyj
+							<milestone unit="line" n="7"/>byla tiri tutḥun ḿeni.
+						</l>
+						<l n="41" xml:id="Ps-119-041">Da keĺsińĺar ševaɣatlaryj e H jarlyɣa-
+							<milestone unit="line" n="8"/>šyj ajtmaɣyja ḱoŕa.
+						</l>
+						<l n="42" xml:id="Ps-119-042">Da qaruv b́eŕajim rusvajlavčuma śoź ki išana-
+							<milestone unit="line" n="9"/>myn śoźuja.
+						</l>
+						<l n="43" xml:id="Ps-119-043">Da ket́arḿagiń avzumdan kerti śoźńu oɣota astry ki
+							<milestone unit="line" n="10"/>t́oŕaĺarija umsunamyn.
+						</l>
+						<l n="44" xml:id="Ps-119-044">Da saqlajym Torajny hamḿeš́a dunadan dunja-
+							<milestone unit="line" n="11"/>ɣa dejiń.
+						</l>
+						<l n="45" xml:id="Ps-119-045">Da üŕujum avlaḥlyḥta ki vaqiĺlikĺarijni iźĺajim.</l>
+						<l n="46" xml:id="Ps-119-046">Da śoź-
+							<milestone unit="line" n="12"/>lajim šarajatlaryj byla qaršysyna bijĺarniń da ujatly bolmajym.
+						</l>
+						<l n="47" xml:id="Ps-119-047">Da
+							<milestone unit="line" n="13"/>ašajyšlyḥ et́ajim saruvlaryj byla ki śuv́amiń ḿeń.
+						</l>
+						<l n="48" xml:id="Ps-119-048">Da ḱot́urajim uvuč-
+							<milestone unit="line" n="14"/>larymny saruvlaryja ki śuv́amiń da śoźlajim ŕesimĺarij byla.
+						</l>
+						<l n="49" xml:id="Ps-119-049">Saɣynɣyn
+							<milestone unit="line" n="15"/>śoźńu quluja ńeǵa ki išandyrdyj ḿeni.
+						</l>
+						<l n="50" xml:id="Ps-119-050">Bu uvunčum miśkińlik
+							<milestone unit="line" n="16"/>vaḥtymda ki ajtmaɣyj śeniń tiri tuttu ḿeni.
+						</l>
+						<l n="51" xml:id="Ps-119-051">Čejalar talašty-
+							<milestone unit="line" n="17"/>lar ḿeni oɣota astry Torejdan qajyrylmadym.
+						</l>
+						<l n="52" xml:id="Ps-119-052">Saɣynamyn t́oŕaĺarijni
+							<milestone unit="line" n="18"/>avaldan e H da uvunamyn alar byla.
+						</l>
+						<l n="53" xml:id="Ps-119-053">Tit́ŕav́uk
+							<ref n="2" target="#Ps-119-fn2" type="noteAnchor"/> tuttu ḿeni rašaʿ-
+							<milestone unit="line" n="19"/>lardan kemiš́uv́č́uĺar Torajny.
+						</l>
+						<l n="54" xml:id="Ps-119-054">Zemerĺar ornuna boldular maja
+							<milestone unit="line" n="20"/>ŕesimĺarij juv́uńd́a ɣaribligimniń.
+						</l>
+						<l n="55" xml:id="Ps-119-055">Saɣynameyn keč́a byla šemijni e H
+							<milestone unit="line" n="21"/>da saqlajym Torajny.
+						</l>
+						<l n="56" xml:id="Ps-119-056">Bu boldu maja ki vaqiĺlikĺarijni abradym.</l>
+						<milestone unit="page" n="320v"/>
+						<milestone unit="line" n="1"/>
+						<l n="57" xml:id="Ps-119-057">Üĺuš́um d́ep H-ɣa ajtamyn saqlama śoźĺarijni śeniń.</l>
+						<l n="58" xml:id="Ps-119-058">Qolamyn bar
+							<milestone unit="line" n="2"/>juŕak byla qyblalaryjny ḥajyfsinɣun ḿeni ajtmaɣyja ḱoŕa.
+						</l>
+						<l n="59" xml:id="Ps-119-059">Saɣyš-
+							<milestone unit="line" n="3"/>lejmyn jollarymny da qajttyramyn ajaḥlarymny šarajatlaryja.
+						</l>
+						<l n="60" xml:id="Ps-119-060">Ǯaḥtladym
+							<milestone unit="line" n="4"/>da kečikḿadim saqlama saruvlaryjny.
+						</l>
+						<l n="61" xml:id="Ps-119-061">Örḱańĺari rašaʿlarnyn qurša-
+							<milestone unit="line" n="5"/>dylar ḿeni Torajny unutmadym.
+						</l>
+						<l n="62" xml:id="Ps-119-062">Jarty keč́ad́a turamyn š́uḱur
+							<milestone unit="line" n="6"/>et́ḿa saja rast t́oŕaĺarij üč́uń.
+						</l>
+						<l n="63" xml:id="Ps-119-063">Joldaš ḿeń andiĺarǵa kim-
+							<milestone unit="line" n="7"/>ĺar ki qorḥadyrlar śeńd́ań da saqlavčularɣa vaqiĺlikĺarijni.
+						</l>
+						<l n="64" xml:id="Ps-119-064">Ševa-
+							<milestone unit="line" n="8"/>ɣatyj śeniń E H toludur ol jer ŕesimĺarijni üv́ŕat́kiń maja.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="65" xml:id="Ps-119-065">Jaḥšyny qylɣyn quluj byla e H śoźuja ḱoŕa.</l>
+						<l n="66" xml:id="Ps-119-066">Jaḥšy aqyl
+							<milestone unit="line" n="10"/>da biĺḿak üv́ŕat́kiń maja ki saruvlaryja inanamyn.
+						</l>
+						<l n="67" xml:id="Ps-119-067">Synyḥmasymdan burun
+							<milestone unit="line" n="11"/>ḿeń janɣylajyzdym da haĺegińa ajtmaɣyjny saqladym.
+						</l>
+						<l n="68" xml:id="Ps-119-068">Jaḥšy śeń da jaḥšy
+							<milestone unit="line" n="12"/>et́uv́č́u üv́ŕat́kiń maja ŕesimĺarijni.
+						</l>
+						<l n="69" xml:id="Ps-119-069">Quršadylar üśt́uḿa
+							<milestone unit="line" n="13"/>jalɣanlyḥny čejalar ḿeń bar juŕak byla abradym vaqiĺlikĺarijni.
+						</l>
+						<l n="70" xml:id="Ps-119-070">Tu-
+							<milestone unit="line" n="14"/>tuštu jav kibik juŕakĺari ḿeń Toraj byla ašajyšlyḥ et́amiń.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="71" xml:id="Ps-119-071">Jaḥšydyr maja ki qyjnalsam anyn üč́uń üv́ŕanirmiń ŕesimĺarijni.</l>
+						<milestone unit="line" n="16"/>
+						<l n="72" xml:id="Ps-119-072">Jaḥšyraḥtyr maja üv́ŕat́uv́u bujruɣujnun mińĺarińd́ań altynnyn da
+							<milestone unit="line" n="17"/>ḱuḿuš́ńuń.
+						</l>
+						<l n="73" xml:id="Ps-119-073">Qudratlaryj jarattylar da t́uźud́uĺar ḿeni aqyllatḥyn
+							<milestone unit="line" n="18"/>ḿeni da üv́ŕanajim saruvlaryjny.
+						</l>
+						<l n="74" xml:id="Ps-119-074">Qorḥuvčularyj ḱorśaĺar da bijańirĺar
+							<milestone unit="line" n="19"/>ki śoźuja umsunamyn.
+						</l>
+						<l n="75" xml:id="Ps-119-075">Biĺamiń e H ki rastyr t́oŕaĺarij da inamlyḥ
+							<milestone unit="line" n="20"/>byla qyjnadyj ḿeni.
+						</l>
+						<l n="76" xml:id="Ps-119-076">Bolsun eńdi ševaɣatyj juvatma ḿeni ajtmaɣyja
+							<milestone unit="line" n="21"/>ḱoŕa quluja.
+						</l>
+						<l n="77" xml:id="Ps-119-077">Keĺsińĺar raḥḿet́ĺarij da tiri bolajym ki Toraj śeniń
+							<milestone unit="page" n="321r"/>
+							<milestone unit="line" n="1"/>ašajyšlyḥlarym.
+						</l>
+						<l n="78" xml:id="Ps-119-078">Ujatly bolsunlar čejalar ki jalɣanlyḥ byla qyjna-
+							<milestone unit="line" n="2"/>dylar ḿeni vaĺe ḿeń śoźlejmiń vaqiĺlikĺarij byla.
+						</l>
+						<l n="79" xml:id="Ps-119-079">Qajtadyrlar
+							<milestone unit="line" n="3"/>maja qorḥuvčularyj da biĺuv́č́uĺar šarajatlaryjny.
+						</l>
+						<l n="80" xml:id="Ps-119-080">Bolsun juŕagim
+							<milestone unit="line" n="4"/>t́uǵaĺ ŕesimĺarij byla anyn üč́uń ujatly bolmammyn.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="81" xml:id="Ps-119-081">T́eĺḿaŕadir jarlyɣašyja ǯanym śoźuja umsunamyn.</l>
+						<l n="82" xml:id="Ps-119-082">T́eĺḿaŕa-
+							<milestone unit="line" n="6"/>dirĺar ḱoźĺarim ajtmaɣyja ajtadoɣoč qačan uvutursun ḿeni.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="83" xml:id="Ps-119-083">Ki boldum savutu kibik pijalanyn t́ut́uńd́a ŕesimĺarijni unut-
+							<milestone unit="line" n="8"/>madym.
+						</l>
+						<l n="84" xml:id="Ps-119-084">Ńetiklidir ḱuńĺari qulujnun qačan qylarsyn quvuvčularym
+							<milestone unit="line" n="9"/>byla t́oŕa.
+						</l>
+						<l n="85" xml:id="Ps-119-085">Qazdylar ḿenim üč́uń čejalar ǯuɣurlar ki t́uv́uĺ
+							<milestone unit="line" n="10"/>Toraja ḱoŕa.
+						</l>
+						<l n="86" xml:id="Ps-119-086">Bar saruvlaryj inamlydyr jalɣanlyḥ byla quvadyrlar
+							<milestone unit="line" n="11"/>bolušḥun maja.
+						</l>
+						<l n="87" xml:id="Ps-119-087">Azɣyna tavusḥa ediĺar ḿeni jerd́a vaĺe ḿeń kemiš-
+							<milestone unit="line" n="12"/>ḿadim vaqiĺlikĺarijni.
+						</l>
+						<l n="88" xml:id="Ps-119-088">Ševaɣatyja ḱoŕa tiri tutḥun ḿeni da
+							<milestone unit="line" n="13"/>saqlajym šarajatyn bujruɣujnun.
+						</l>
+						<l n="89" xml:id="Ps-119-089">Dunjaɣa dejiń e H śoźuj qajjam
+							<milestone unit="line" n="14"/>ḱokĺard́a.
+						</l>
+						<l n="90" xml:id="Ps-119-090">Dordan dorɣa dejiń inamlyɣyj t́uźud́uj jerni da hanuz da qajjam-
+							<milestone unit="line" n="15"/>dyr.
+						</l>
+						<l n="91" xml:id="Ps-119-091">T́oŕaĺarija qajjamdyrlar har ḱuń ki ol barysy qullaryj.</l>
+						<l n="92" xml:id="Ps-119-092">Vaĺe eǵer
+							<milestone unit="line" n="16"/>Toraj śeniń bolmasajedi ašajyslyḥlarym anda taspolɣa edim miśkiń-
+							<milestone unit="line" n="17"/>lik vaḥtymda.
+						</l>
+						<l n="93" xml:id="Ps-119-093">Dunjaɣa dejiń unutmamḿeń vaqiĺlikĺarijni ki alar
+							<milestone unit="line" n="18"/>byla tiri tuttuj meni.
+						</l>
+						<l n="94" xml:id="Ps-119-094">Śeniń ḿeń jarlyɣašlaɣyn ḿeni ki vaqiĺlikĺarijni
+							<milestone unit="line" n="19"/>iźlejmiń.
+						</l>
+						<l n="95" xml:id="Ps-119-095">Ḿeni biĺgiĺariń qojdular rašaʿlar tas et́ḿa ḿeni šarajatla-
+							<milestone unit="line" n="20"/>ryja esimni qojamyn.
+						</l>
+						<l n="96" xml:id="Ps-119-096">Bar t́uǵańadoɣon ńerśaǵa ḱord́um uč avlaḥtyr
+							<milestone unit="line" n="21"/>saruvuj astry.
+						</l>
+						<l n="97" xml:id="Ps-119-097">Ńe śuv́amiń Torajny har ḱuń ol śoźum.</l>
+						<milestone unit="page" n="321v"/>
+						<milestone unit="line" n="1"/>
+						<l n="98" xml:id="Ps-119-098">Dušmanlarymdan usluraḥ et́kiń ḿeni saruvlaryjda ki dunjaɣa dejiń ol
+							<milestone unit="line" n="2"/>maja.
+						</l>
+						<l n="99" xml:id="Ps-119-099">Bar üv́ŕat́uv́č́uĺarimd́ań aqyllyraḥ boldum ki šarajatlaryj kerti
+							<milestone unit="line" n="3"/>śoź maja.
+						</l>
+						<l n="100" xml:id="Ps-119-100">Qartlardan esimni qojamyn ki vakiĺlikĺarijni abrejmyn.</l>
+						<milestone unit="line" n="4"/>
+						<l n="101" xml:id="Ps-119-101">Bar jaman joldan ajadym ajaḥlarymny anyn üč́uń saqlejmyn śoźĺarijni.</l>
+						<milestone unit="line" n="5"/>
+						<l n="102" xml:id="Ps-119-102">T́oŕaĺarijd́ań ket́ḿadim ki śeń üv́ŕat́tij maja.</l>
+						<l n="103" xml:id="Ps-119-103">Ńe č́eb́ardirĺar
+							<milestone unit="line" n="6"/>tanlajyma ajtmaɣyj čyjbaldan tatlyraḥtyr avzuma.
+						</l>
+						<l n="104" xml:id="Ps-119-104">Vakiĺlikĺarija
+							<milestone unit="line" n="7"/>esimni qojamyn anyn üč́uń ḥor et́tim bar jaman da jalɣan jolnu.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="105" xml:id="Ps-119-105">Čyraḥ kibik ajaɣyma śoźĺarij da jaryḥlyḥtyr iziḿa
+							<ref n="3" target="#Ps-119-fn3" type="noteAnchor"/>.
+						</l>
+						<l n="106" xml:id="Ps-119-106">Ant́et́tim da
+							<milestone unit="line" n="9"/>qajjam et́tim saqlama rast t́oŕaĺarijni.
+						</l>
+						<l n="107" xml:id="Ps-119-107">Qyjnaldym oɣota astry
+							<milestone unit="line" n="10"/>e H tiri tutḥun ḿeni śoźuja ḱoŕa.
+						</l>
+						<l n="108" xml:id="Ps-119-108">Ǯomartlyḥlaryn avzumnun
+							<milestone unit="line" n="11"/>qabulluḥqa alɣyn eńdi e H da t́oŕaĺarijni üv́ŕat́kiń maja.
+						</l>
+						<l n="109" xml:id="Ps-119-109">Ǯanym
+							<milestone unit="line" n="12"/>ny tutamyn qyjasa uvučumda hamḿeš́a da Torajny unutmadym.
+						</l>
+						<l n="110" xml:id="Ps-119-110">B́er-
+							<milestone unit="line" n="13"/>diĺar rašaʿlar tuzaḥ maja da vaqiĺlikĺarijd́ań azašmadym.
+						</l>
+						<l n="111" xml:id="Ps-119-111">Üĺuš́ al-
+							<milestone unit="line" n="14"/>dym šarajatlaryjny dunjaɣa dejiń ki bijańči juŕagimniń alar.
+						</l>
+						<l n="112" xml:id="Ps-119-112">Qajyrdym
+							<milestone unit="line" n="15"/>juŕagimni qylma ŕesimĺarijni učuna dejiń dunjanyn.
+						</l>
+						<l n="113" xml:id="Ps-119-113">Jat saɣyšlarny
+							<milestone unit="line" n="16"/>ḥor et́tim vaĺe Torajny śuv́amiń.
+						</l>
+						<l n="114" xml:id="Ps-119-114">Syjynčym da qalqanym śeń śoźuja
+							<milestone unit="line" n="17"/>śeniń umsunamyn.
+						</l>
+						<l n="115" xml:id="Ps-119-115">Ketijiź ḿeńd́ań jaman et́uv́č́uĺar da abrajym saruvlaryn
+							<milestone unit="line" n="18"/>Teńrimniń.
+						</l>
+						<l n="116" xml:id="Ps-119-116">Kipĺagiń ḿeni ajtmaɣyja ḱoŕa da tiri bolajym da ujatly
+							<milestone unit="line" n="19"/>et́ḿagiń ḿeni išančymdan.
+						</l>
+						<l n="117" xml:id="Ps-119-117">Kipĺagiń ḿeni da jarlyɣašlanajym da ašajyšlyḥ
+							<milestone unit="line" n="20"/>et́ajim ŕesimĺarij byla hamḿeš́a.
+						</l>
+						<l n="118" xml:id="Ps-119-118">Basḥaladyj bar janɣyluvčularny ŕe-
+							<milestone unit="page" n="322r"/>
+							<milestone unit="line" n="1"/>ŕesimĺarijd́ań ki jalɣandyr saɣyšlary alarnyn.
+						</l>
+						<l n="119" xml:id="Ps-119-119">Qalplyḥlarny kibik
+							<milestone unit="line" n="2"/>eksit́tij bar rašaʿlaryn jerniń anyn üč́uń śuv́d́um šarajatlaryjny.
+						</l>
+						<milestone unit="line" n="3"/>
+						<l n="120" xml:id="Ps-119-120">Urpajdy
+							<ref n="4" target="#Ps-119-fn4" type="noteAnchor"/> qorḥuvujdan gufum da t́oŕaĺarijd́ań qorḥamyn.
+						</l>
+						<l n="121" xml:id="Ps-119-121">Qyldym
+							<milestone unit="line" n="4"/>t́oŕa da rastlyḥ jeb́erḿagiń ḿeni zulumlavčularyma.
+						</l>
+						<l n="122" xml:id="Ps-119-122">Qunustur
+							<milestone unit="line" n="5"/>ɣun qulujnu jaḥšyɣa zulumlamasynlar ḿeni čejalar.
+						</l>
+						<l n="123" xml:id="Ps-119-123">Ḱoźĺarim
+							<milestone unit="line" n="6"/>t́eĺḿaŕadirĺar jarlyɣašyja da ajtmaɣyna rastlyɣyjnyn.
+						</l>
+						<l n="124" xml:id="Ps-119-124">Qylɣyn quluj
+							<milestone unit="line" n="7"/>byla ševaɣatyja ḱoŕa da ŕesimĺarijni üv́ŕat́kiń maja.
+						</l>
+						<l n="125" xml:id="Ps-119-125">Quluj ḿeń
+							<milestone unit="line" n="8"/>aqyllatḥyn ḿeni da bilajim šarajatlaryjny.
+						</l>
+						<l n="126" xml:id="Ps-119-126">Vaḥt bolsa qylma tešuva
+							<milestone unit="line" n="9"/>H-ɣa anda alar buzadyrlar Torajny.
+						</l>
+						<l n="127" xml:id="Ps-119-127">Anyn üč́uń śuv́amiń saruvla-
+							<milestone unit="line" n="10"/>ryjny artyḥ altyndan da da ǯ́uǵard́ań.
+						</l>
+						<l n="128" xml:id="Ps-119-128">Anyn üč́uń bar vakiĺlikĺarijni
+							<milestone unit="line" n="11"/>barysyn  abradym bar jalɣan jolnu ḥor et́tim.
+						</l>
+						<l n="129" xml:id="Ps-119-129">Tamašadyrlar šarajat-
+							<milestone unit="line" n="12"/>laryj anyn üč́uń abrejdyr alarny ǯanym.
+						</l>
+						<l n="130" xml:id="Ps-119-130">Ačylmaɣy śoźĺarijniń jary-
+							<milestone unit="line" n="13"/>tadyr aqyllatadyr t́eńt́akĺarni.
+						</l>
+						<l n="131" xml:id="Ps-119-131">Avzumnu ačamyn da obamyn ki saruv-
+							<milestone unit="line" n="14"/>laryja ḱuśańamiń.
+						</l>
+						<l n="132" xml:id="Ps-119-132">Qajrylɣyn maja da ḥajyfsunɣun ḿeni t́oŕasińa ḱoŕa
+							<milestone unit="line" n="15"/>śuv́uv́č́uĺarija šemijni.
+						</l>
+						<l n="133" xml:id="Ps-119-133">Atlamlarymny t́uźuǵuń ajtmaɣyj byla
+							<milestone unit="line" n="16"/>da erkĺańḿasiń ḿeńd́a bar avančy.
+						</l>
+						<l n="134" xml:id="Ps-119-134">Juluɣun ḿeni zulumluɣundan adamnyn
+							<milestone unit="line" n="17"/>da saqlajym vakiĺlikĺarijni.
+						</l>
+						<l n="135" xml:id="Ps-119-135">Qyblalaryjny jarytḥyn quluja da üv́ŕat́kiń
+							<milestone unit="line" n="18"/>maja ŕesimĺarijni.
+						</l>
+						<l n="136" xml:id="Ps-119-136">Čyrlaḥ suvlar kibik eńdiŕadirĺar ḱoźĺarim
+							<milestone unit="line" n="19"/>jaš anyn üč́uń ki saqlamejdyrlar Torajny.
+						</l>
+						<l n="137" xml:id="Ps-119-137">Rastsyn śeń e H da
+							<milestone unit="line" n="20"/>t́uźd́ur t́oŕaĺarij.
+						</l>
+						<l n="138" xml:id="Ps-119-138">Symarladyj rastlyḥ byla šarajatlaryjny da kertidir
+							<milestone unit="line" n="21"/>astry.
+						</l>
+						<l n="139" xml:id="Ps-119-139">Keśti ḿeni ḱuńuĺuǵum ki unuttular śoźĺarijni dušmanlarym.</l>
+						<milestone unit="page" n="322v"/>
+						<milestone unit="line" n="1"/>
+						<l n="140" xml:id="Ps-119-140">Syzɣyrylɣan ajtmaɣyj astry da quluj śuv́adir astry.</l>
+						<l n="141" xml:id="Ps-119-141">Kiči ḿeń da ḥorlanɣan
+							<milestone unit="line" n="2"/>vakiĺlikĺarijni unutmadym.
+						</l>
+						<l n="142" xml:id="Ps-119-142">Rastlyɣyj śeniń rasttyr dunjaɣa dejiń
+							<milestone unit="line" n="3"/>da Toraj śeniń kertidir.
+						</l>
+						<l n="143" xml:id="Ps-119-143">Tarlyḥ da qysyḥlyḥ taptylar ḿeni saruvlaryj
+							<milestone unit="line" n="4"/>śeniń ašajyšlyḥlarym.
+						</l>
+						<l n="144" xml:id="Ps-119-144">Rastlyɣy šarajatlaryjnyn dunjaɣa dejiń aqyllatḥyn
+							<milestone unit="line" n="5"/>ḿeni da tiri bolajym.
+						</l>
+						<l n="145" xml:id="Ps-119-145">Čaɣyramyn saja bar juŕagim byla qaruv
+							<milestone unit="line" n="6"/>b́ergiń maja e YWY ŕesimĺarijni abrejmyn.
+						</l>
+						<l n="146" xml:id="Ps-119-146">Čaɣy-
+							<milestone unit="line" n="7"/>ramyn saja jarlyɣašlaɣyn ḿeni da saqlajym šarajatlaryjny.
+						</l>
+						<l n="147" xml:id="Ps-119-147">Utrulejmyn
+							<milestone unit="line" n="8"/>tan saruvunda miqdašyjny da jalbaramyn śoźuja umsunamyn.
+						</l>
+						<l n="148" xml:id="Ps-119-148">Utru-
+							<milestone unit="line" n="9"/>lejdyrlar ḱoźĺarim tan saruvlarynda śoźĺaḿa ajtmaɣyj byla.
+						</l>
+						<l n="149" xml:id="Ps-119-149">Avazymny
+							<milestone unit="line" n="10"/>ešit́kiń ševaɣatyja ḱoŕa e H t́oŕaĺarija ḱoŕa tiri tutḥun ḿeni.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="150" xml:id="Ps-119-150">Juvujdurlar jaman iš́ĺarǵa quvuvčular jerińčilikni Torajdan jyraḥ
+							<milestone unit="line" n="12"/>ket́adirĺar.
+						</l>
+						<l n="151" xml:id="Ps-119-151">Juvuḥsun śeń e H da bar saruvlaryj kertidir.</l>
+						<l n="152" xml:id="Ps-119-152">Avaldan
+							<milestone unit="line" n="13"/>biĺamiń šarajatlaryjdan ki dunjaɣa dejiń bunjat et́tij alarny.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="153" xml:id="Ps-119-153">Ḱorǵuń qyjynymny da qutḥarɣyn ḿeni ki Torajny unutmadym.</l>
+						<l n="154" xml:id="Ps-119-154">Talaš-
+							<milestone unit="line" n="15"/>ḥyn talašymny da juluɣun ḿeni ajtmaɣyj üč́uń tiri tutḥun ḿeni.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="155" xml:id="Ps-119-155">Jyraḥtyr rašaʿlardan jarlyɣaš ki ŕesimĺarijni iźĺaḿadiĺar.</l>
+						<l n="156" xml:id="Ps-119-156">Raḥḿet́ĺarij
+							<milestone unit="line" n="17"/>ḱopt́urĺar e H t́oŕaĺarija ḱoŕa tiri tutḥun ḿeni.
+						</l>
+						<l n="157" xml:id="Ps-119-157">Ḱopt́urĺar
+							<milestone unit="line" n="18"/>quvuvčularym da tar b́eŕuv́č́uĺarim vaĺe šarajatlaryjdan qajyrylmadym.
+						</l>
+						<milestone unit="line" n="19"/>
+						<l n="158" xml:id="Ps-119-158">Ḱoŕd́um tanuvčularny da talašamyn anyn byla ki ajtmaɣyjny saqlamadylar.</l>
+						<milestone unit="line" n="20"/>
+						<l n="159" xml:id="Ps-119-159">Ḱorǵuń ki vakiĺlikĺarijni śuv́amiń e H ševaɣatyja ḱoŕa tiri tutḥun
+							<milestone unit="line" n="21"/>ḿeni.
+						</l>
+						<l n="160" xml:id="Ps-119-160">Bašlyɣy śoźĺarijniń kerti da dunjaɣa dejiń bar t́oŕasi rastlyɣyjnyn.</l>
+						<milestone unit="page" n="323r"/>
+						<milestone unit="line" n="1"/>
+						<l n="161" xml:id="Ps-119-161">Aɣalyḥlar quvadyrlar ḿeni muft vaĺe śoźujd́ań qorḥadyr juŕagim.</l>
+						<milestone unit="line" n="2"/>
+						<l n="162" xml:id="Ps-119-162">Bijańamiń ḿeń ajtmaɣyj üč́uń tabuvču kibik ḱop olǯa.</l>
+						<l n="163" xml:id="Ps-119-163">Jalɣanny
+							<milestone unit="line" n="3"/>ḥor et́tim da jerinči et́tim vaĺe Torajny śuv́amiń.
+						</l>
+						<l n="164" xml:id="Ps-119-164">Ḱop forlar
+							<milestone unit="line" n="4"/>ḱuńd́a maḥtav b́eŕamiń saja t́oŕaĺari üč́uń rastlyɣyjnyn.
+						</l>
+						<l n="165" xml:id="Ps-119-165">Ḱop
+							<milestone unit="line" n="5"/>bazlyḥ boladyr śuv́uv́č́uĺarǵa Torajny da joḥtur alarɣa śuŕuń-
+							<milestone unit="line" n="6"/>č́ak.
+						</l>
+						<l n="166" xml:id="Ps-119-166">T́elḿaŕamiń jarlyɣašyja e H da saruvlaryjny qylamyn.</l>
+						<l n="167" xml:id="Ps-119-167">Saqlejdyr
+							<milestone unit="line" n="7"/>ǯanym šarajatlaryjny da śuv́amiń alarny astry.
+						</l>
+						<l n="168" xml:id="Ps-119-168">Saqlejmyn vakiĺlikĺarijni
+							<milestone unit="line" n="8"/>da šarajatlaryjny ki bar jollarym qaršyja.
+						</l>
+						<l n="169" xml:id="Ps-119-169">Juvusun sarnamaɣym al-
+							<milestone unit="line" n="9"/>nyja e H śoźuja ḱoŕa aqyllatḥyn ḿeni.
+						</l>
+						<l n="170" xml:id="Ps-119-170">Keĺsiń jalbarmaɣym alnyja ajt-
+							<milestone unit="line" n="10"/>maɣyja ḱoŕa qutḥarɣyn ḿeni.
+						</l>
+						<l n="171" xml:id="Ps-119-171">Śoźĺasińĺar erińĺarim maḥtav üv́ŕat́tij
+							<milestone unit="line" n="11"/>maja ŕesimĺarijni.
+						</l>
+						<l n="172" xml:id="Ps-119-172">Šira oḥusun tilim ajtmaɣyjny ki bar saruvlaryj
+							<milestone unit="line" n="12"/>rastyr.
+						</l>
+						<l n="173" xml:id="Ps-119-173">Bolsun eńdi qudratyj bolušma maja ki vakiĺlikĺarijni sajladym.</l>
+						<milestone unit="line" n="13"/>
+						<l n="174" xml:id="Ps-119-174">Ḱuśańamiń jarlyɣašyja e H da Toraj śeniń ašajyšlyḥlarym.</l>
+						<l n="175" xml:id="Ps-119-175">Tiri bolsun
+							<milestone unit="line" n="14"/>ǯanym da maḥtav b́ersiń saja da t́oŕaĺarij bolušsunlar maja.
+						</l>
+						<l n="176" xml:id="Ps-119-176">Azaštym qoj
+							<milestone unit="line" n="15"/>kibik taspoladoɣon iźĺagiń qulujnu ki saruvlaryjny unutmadym.
+							<milestone unit="line" n="16"/><foreign xml:lang="he" style="unicode-bidi: embed;">תָעִיתִי כְשֶה אוֹבֵד בַקֵש עַבְדֶךָ כִי מִצְוֹתֶיךָ</foreign>
+							<milestone unit="line" n="17"/><foreign xml:lang="he" style="unicode-bidi: embed;">לֹא שָכָחְתִי</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-119-fn1" type="footnote" anchored="true">Written mistakenly as 
+							<emph>śoźuźujńu</emph>.
+						</note>
+						<note xml:id="Ps-119-fn2" type="footnote" anchored="true">Written as 
+							<emph>tit́ŕavuk</emph>.
+						</note>
+						<note xml:id="Ps-119-fn3" type="footnote" anchored="true">Written as 
+							<emph>izima</emph>.
+						</note>
+						<note xml:id="Ps-119-fn4" type="footnote" anchored="true">Not listed in North-Western Karaim lexicon. Cf. Eastern Karaim 
+							<emph>urpajt</emph>- ʻстановиться дыбом, ощетиниватьсяʼ (KRPS 581).
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

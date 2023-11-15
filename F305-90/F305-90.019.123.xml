@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 123</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 123</title>
+						<milestone unit="line" n="6"/>
+						<l n="1" xml:id="Ps-123-001">Širasy ol maʿalalarnyn saja ḱot́uŕamiń ḱoźĺarimni
+							<milestone unit="line" n="7"/>e Teńrim olturuvču ḱokĺard́a.
+						</l>
+						<l n="2" xml:id="Ps-123-002">Muna
+							<milestone unit="line" n="8"/>ńečik ḱoźĺari qullarnyn t́eĺḿaŕadirĺar qoluna bijĺariniń da ńečik
+							<milestone unit="line" n="9"/>ḱoźĺari qaravašnyn t́eĺḿaŕadirĺar qoluna bijč́asińiń alej ḱoźĺarimiź
+							<milestone unit="line" n="10"/>t́eĺḿaŕadirĺar H-ɣa ńegińč́a ḥajyfsungej biźni.
+						</l>
+						<l n="3" xml:id="Ps-123-003">Ḥajyfsunɣun biźni
+							<milestone unit="line" n="11"/>e H ḥajyfsunɣun biźni ki ḱop tojduḥ ḥorluḥtan.
+						</l>
+						<l n="4" xml:id="Ps-123-004">Ḱop tojdu
+							<milestone unit="line" n="12"/>öźuńa ǯanymyz ilik et́ḿagińd́ań ol tynč ḥanlyḥlarnyn ḥorlama-
+							<milestone unit="line" n="13"/>ɣyndan ökt́amlik byla mujajtuvčularnyn
+							<ref n="1" target="#Ps-123-fn1" type="noteAnchor"/>.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-123-fn1" type="footnote" anchored="true">Not listed in dictionaries. It is originated from the verb 
+							<emph>mujajt</emph>- ʻопечалитьʼ (KRPS 410).
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

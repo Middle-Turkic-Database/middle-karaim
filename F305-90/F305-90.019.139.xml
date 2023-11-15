@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 139</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 139</title>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Ps-139-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa David́niń miźmor e Jehova
+							<milestone unit="line" n="12"/>t́erǵadir ḿeni da biĺdij.
+						</l>
+						<l n="2" xml:id="Ps-139-002">Śeń biĺasiń olturušum-
+							<milestone unit="line" n="13"/>nu da turušumnu anladyj fikirimni jyraḥtan.
+						</l>
+						<l n="3" xml:id="Ps-139-003">Üŕuš́umńu da
+							<milestone unit="line" n="14"/>čyɣyšymny qyjasladyj da bar jollarymny fajdaly et́tij.
+						</l>
+						<l n="4" xml:id="Ps-139-004">Ki hanuz bol-
+							<milestone unit="line" n="15"/>majynča
+							<ref n="1" target="#Ps-139-fn1" type="noteAnchor"/> śoź tilimd́a muna H biĺasiń barysyn.
+						</l>
+						<l n="5" xml:id="Ps-139-005">Art da alyn jarattyj
+							<milestone unit="line" n="16"/>maja da qojduj üśt́uḿa alh́emijni.
+						</l>
+						<l n="6" xml:id="Ps-139-006">Tamašadyr aqyl ḿeńd́ań
+							<milestone unit="line" n="17"/>kiptir bolalmejmyn anlama any.
+						</l>
+						<l n="7" xml:id="Ps-139-007">Kejŕa
+							<ref n="2" target="#Ps-139-fn2" type="noteAnchor"/> baryrmyn alh́emijdan da kejŕa
+							<ref n="3" target="#Ps-139-fn3" type="noteAnchor"/>
+							<milestone unit="line" n="18"/>alnyjdan qačajym.
+						</l>
+						<l n="8" xml:id="Ps-139-008">Eǵer ucsam ḱokĺarǵa andady śeń da t́oš́aĺśam
+							<milestone unit="line" n="19"/>ǵorǵa muna andady śeń.
+						</l>
+						<l n="9" xml:id="Ps-139-009">Tutunsam qanatlaryndan šaḥarnyn toḥtasam
+							<milestone unit="line" n="20"/>učunda t́eńgiźniń.
+						</l>
+						<l n="10" xml:id="Ps-139-010">Daɣy andady qudratyj ḱońd́arir ḿeni da tutar
+							<milestone unit="page" n="329r"/>
+							<milestone unit="line" n="1"/>ḿeni on ḱuč́uj.
+						</l>
+						<l n="11" xml:id="Ps-139-011">Da ajttym t́ek qaranɣylyḥ qaranɣy et́ar maja da keč́a
+							<milestone unit="line" n="2"/>jaryɣyn ket́arir ḿeńd́ań.
+						</l>
+						<l n="12" xml:id="Ps-139-012">Daɣy qaranɣylyḥ qaranɣy et́ḿaś saja da keč́a
+							<milestone unit="line" n="3"/>ḱuń kibik jarytyr ńečik qaranɣyda alej jaryḥta.
+						</l>
+						<l n="13" xml:id="Ps-139-013">Ki śeń jarattyj
+							<milestone unit="line" n="4"/>b́uv́ŕakĺarimni quršadyj ḿeni qursaɣynda anamnyn.
+						</l>
+						<l n="14" xml:id="Ps-139-014">Š́uḱur et́amiń
+							<milestone unit="line" n="5"/>saja ki qorḥunčlu iš́ĺar byla tamaša jaratyldym tamašadyrlar
+							<milestone unit="line" n="6"/>iš́ĺarij śeniń da ǯanym biĺadir astry.
+						</l>
+						<l n="15" xml:id="Ps-139-015">Jašyryn t́uv́uĺd́ur jaratyl-
+							<milestone unit="line" n="7"/>maɣy gufumnun śeńd́ań ki eziĺdim jašyryn orunda naḥyšlandym
+							<milestone unit="line" n="8"/>qyjasa t́ob́ańgi ǵorĺarińd́a jerniń hamḿeš́a.
+						</l>
+						<l n="16" xml:id="Ps-139-016">Jaratylmaɣyn gufumnun
+							<milestone unit="line" n="9"/>ḱord́uĺar ʿenajatlaryj da bitigij üśt́uńa barysy jazylɣanlar ńe ḱuńńu
+							<milestone unit="line" n="10"/>jaratyldylar ḥot́a bird́a alardan tanylmaśedi.
+						</l>
+						<l n="17" xml:id="Ps-139-017">Da maja ńe č́eb́ardir-
+							<milestone unit="line" n="11"/>ĺar fikirĺarij e Teńri ńe ḱuč́ĺud́ur sanlary alarnyn.
+						</l>
+						<l n="18" xml:id="Ps-139-018">Kĺaśam
+							<milestone unit="line" n="12"/>sanama alarny qumdan ḱopŕak boladyrlar ojansam da hanuz da ḿeń
+							<milestone unit="line" n="14"/>ḿeńd́ań.
+						</l>
+						<l n="20" xml:id="Ps-139-020">Ki ullu et́adirĺar śeni dušmanlaryj jaman saɣyš byla
+							<milestone unit="line" n="15"/>ant et́adirĺar muftḥa dušmanlaryj.
+						</l>
+						<l n="21" xml:id="Ps-139-021">Muna dušmanlaryja
+							<milestone unit="line" n="16"/>e H dušman bolamyn da kek tutuvčularyj byla talašamyn.
+						</l>
+						<l n="22" xml:id="Ps-139-022">T́uǵaĺ
+							<milestone unit="line" n="17"/>ḥorluḥ ḥor et́tim alarny dušmanlar ornuna boldular maja.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="23" xml:id="Ps-139-023">T́erǵagiń ḿeni e Teńri da biĺgiń juŕagimni synaɣyn ḿeni da biĺgiń saɣyš-
+							<milestone unit="line" n="19"/>larymni.
+						</l>
+						<l n="24" xml:id="Ps-139-024">Da baḥqyn eǵer baŕeśa jazyḥ ḿeńd́a da ḱońd́argiń ḿeni jolu
+							<milestone unit="line" n="20"/>byla dunjanyn.<foreign xml:lang="he" style="unicode-bidi: embed;"> וּרְאֵה אִם דֶרֶךְ עֹצֶב כִי וּנְחֵנִי בְדֶרֶךְ</foreign>
+							<milestone unit="line" n="21"/><foreign xml:lang="he" style="unicode-bidi: embed;">עוֹלָם ׃ בָרוּךְ יְהֹוָה לְעוֹלָם אָמֶן וְאַמֵן ׃</foreign>
+							<milestone unit="page" n="329v"/>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-139-fn1" type="footnote" anchored="true">Written as 
+							<emph>bolmajynč́a</emph>.
+						</note>
+						<note xml:id="Ps-139-fn2" type="footnote" anchored="true">Written as 
+							<emph>qejra</emph>.
+						</note>
+						<note xml:id="Ps-139-fn3" type="footnote" anchored="true">Written as 
+							<emph>qejra</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

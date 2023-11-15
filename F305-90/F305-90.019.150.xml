@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 150</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 150</title>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Ps-150-001">Maḥtav b́erijiź Teńriǵa haleĺ oḥujuz Teńriǵa
+							<milestone unit="line" n="9"/>aziź sarajynda maḥtav b́erijiź ḱuč́ĺu
+							<milestone unit="line" n="10"/>raqijaʿsynda.
+						</l>
+						<l n="2" xml:id="Ps-150-002">Maḥtav b́erijiź anar baɣatyrlyḥlary byla maḥtav b́erijiź
+							<milestone unit="line" n="11"/>anar ḱopĺuǵuńa ḱoŕa ulluluɣunun.
+						</l>
+						<l n="3" xml:id="Ps-150-003">Maḥtav b́erijiź Teńriǵa
+							<milestone unit="line" n="12"/>tartadoɣon birgi byla maḥtav b́erijiź Teńriǵa qyǯaḥ byla da qobuz
+							<milestone unit="line" n="13"/>byla.
+						</l>
+						<l n="4" xml:id="Ps-150-004">Maḥtav b́erijiź anar taf byla da tanec byla maḥtav b́erijiź anar
+							<milestone unit="line" n="14"/>č́eb́ar ǯynslary byla ojunlarynyn da ʿuɣav
+							<ref n="1" target="#Ps-150-fn1" type="noteAnchor"/> byla.
+						</l>
+						<l n="5" xml:id="Ps-150-005">Maḥtav b́erijiź
+							<milestone unit="line" n="15"/>Teńriǵa ešit́tiŕadoɣon čynballar
+							<ref n="2" target="#Ps-150-fn2" type="noteAnchor"/> byla maḥtav b́erijiź anar
+							<milestone unit="line" n="16"/>čynballary byla kičḥyrmaḥnyn.
+						</l>
+						<l n="6" xml:id="Ps-150-006">Har syjly ǯan maḥtav b́ersiń Teńriǵa.
+							<milestone unit="line" n="17"/><foreign xml:lang="he" style="unicode-bidi: embed;">כֹל הַנְשָמָה תְהַלֵל יָה הַלְלוּיָה
+							</foreign>
+							<milestone unit="line" n="18"/><foreign xml:lang="he" style="unicode-bidi: embed;">בָרוּךְ הָ לְעוֹלָם אָמֵן
+							</foreign>
+							<milestone unit="line" n="19"/><foreign xml:lang="he" style="unicode-bidi: embed;">ח ז ק.
+							</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-150-fn1" type="footnote" anchored="true">Heb. <foreign xml:lang="he" style="unicode-bidi: embed;"> עוּגָב </foreign>‘pipe organ’.</note>
+						<note xml:id="Ps-150-fn2" type="footnote" anchored="true">An instrument. Cf. Polish 
+							<emph>cymbały</emph>, Hungarian 
+							<emph>cimbalom</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

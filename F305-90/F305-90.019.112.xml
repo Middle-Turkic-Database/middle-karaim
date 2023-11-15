@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 112</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 112</title>
+						<milestone unit="line" n="16" xml:id="Ps112-P316r-L16" prev="F305-90.019.111.xml#Ps111-P316r-L16"/>
+						<l n="1" xml:id="Ps-112-001">Haleĺ oḥujuz Teńriǵa
+							<milestone unit="line" n="17"/>sandyr kišiǵa qorḥuvčuɣa H-ɣa saruvlaryn śuv́śa astry.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="2" xml:id="Ps-112-002">Alej rast baɣatyrnyn jerd́a qajjam bolur urluɣu doru t́uźĺarniń
+							<milestone unit="line" n="19"/>alɣyšlanyr.
+						</l>
+						<l n="3" xml:id="Ps-112-003">Mal da ḥoǯalyḥ juv́uńd́a da rastlyɣy qajjam bolur dunjada.</l>
+						<milestone unit="page" n="316v"/>
+						<milestone unit="line" n="1"/>
+						<l n="4" xml:id="Ps-112-004">Balqyjdyr qaranɣyda jaryḥlyḥ t́uźĺarǵa ḥajyfsunuvču da raḥḿet́ĺav́č́u
+							<ref n="1" target="#Ps-112-fn1" type="noteAnchor"/>
+							<milestone unit="line" n="2"/>da rast Teńri.
+						</l>
+						<l n="5" xml:id="Ps-112-005">Jaḥšy kiši ḥajyfsunadyr da öt́ḱuńč́ b́eŕadir t́uǵaĺ-
+							<milestone unit="line" n="3"/>lejdir śoźĺariń t́oŕa byla.
+						</l>
+						<l n="6" xml:id="Ps-112-006">Ki dunjaɣa dejiń tajmastyr öḿuŕ-
+							<milestone unit="line" n="4"/>ĺuk saɣynčlyḥqa bolur rast.
+						</l>
+						<l n="7" xml:id="Ps-112-007">Jaman ḥabardan qorḥmastyr t́uźuĺ-
+							<milestone unit="line" n="5"/>ǵań išanyr H-ɣa.
+						</l>
+						<l n="8" xml:id="Ps-112-008">Kip bolur juŕagi qorḥmastyr ńegińč́a ḱor-
+							<milestone unit="line" n="6"/>gej jamanyn tar b́eŕuv́č́uĺariniń.
+						</l>
+						<l n="9" xml:id="Ps-112-009">Ḥoǯalyḥ b́erdi miśkińĺarǵa
+							<milestone unit="line" n="7"/>rastlyɣy qajjamdyr dunjaɣa dejiń d́ev́ĺati ḱot́uŕuĺur syj byla.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="10" xml:id="Ps-112-010">Rašaʿ ḱoŕup da ačyrɣanyr tiš́ĺariń ǯynɣyrdatyr da irir ḱuśańči
+							<milestone unit="line" n="9"/>rašaʿlarnyn taspolur.<foreign xml:lang="he" style="unicode-bidi: embed;"> רָשָע יִרְאֶה וְכָעַס שִנָיו יַחֲרֺק</foreign>
+							<milestone unit="line" n="10"/><foreign xml:lang="he" style="unicode-bidi: embed;">וְנָמָס תַאֲוַת רְשָעִים תֹאבֵד ׃׃</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-112-fn1" type="footnote" anchored="true">Written as 
+							<emph>raḥḿet́ĺav́ču</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

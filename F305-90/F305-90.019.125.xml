@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 125</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 125</title>
+						<milestone unit="line" n="3"/>
+						<l n="1" xml:id="Ps-125-001">Širasy ol maʿalalarnyn ol išanuvčular H-ɣa tavy
+							<milestone unit="line" n="4"/>kibik Cijonnun tajmastyr dunjaɣa dejiń qajjam bo-
+							<milestone unit="line" n="5"/>lur.
+						</l>
+						<l n="2" xml:id="Ps-125-002">Jerušalajimniń tavlar č́uv́ŕasińd́a anyn vale bolušluɣu H-nyn kip-
+							<milestone unit="line" n="6"/>ŕaktir č́uv́ŕasińd́a ulusunun haĺed́ań dunjaɣa dejiń.
+						</l>
+						<l n="3" xml:id="Ps-125-003">Anyn üč́uń
+							<milestone unit="line" n="7"/>ki toḥtamagej tajaɣy qynɣyrlyḥ jesisiniń goraly qatyna ol cadyqlarnyn
+							<milestone unit="line" n="8"/>anyn üč́uń ki sunmagejlar ol rastlar avanlyḥqa qollaryn.
+						</l>
+						<l n="4" xml:id="Ps-125-004">Jaḥšy
+							<milestone unit="line" n="9"/>et́kiń e H jaḥšylarɣa da t́uźĺarǵa juŕakĺarińd́a.
+						</l>
+						<l n="5" xml:id="Ps-125-005">Da ol qajyruv-
+							<milestone unit="line" n="10"/>čular
+							<ref n="1" target="#Ps-125-fn1" type="noteAnchor"/> qynɣyr jollar byla juŕut́ur alarny H birǵa avanlyḥ by-
+							<milestone unit="line" n="11"/>la bazlyḥ Jiśraʾeĺ üśt́uńa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-125-fn1" type="footnote" anchored="true">Written as 
+							<emph>qajyruvč́ular</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

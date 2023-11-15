@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 101</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 101</title>
+						<milestone unit="page" n="307v"/>
+						<milestone unit="line" n="1"/>
+						<l n="1" xml:id="Ps-101-001">David́ǵa miźmor ševaɣat üč́uń da t́oŕa üč́uń šira
+							<milestone unit="line" n="2"/>oḥujmyn saja e H zemer oḥurmyn.
+						</l>
+						<l n="2" xml:id="Ps-101-002">Fiki-
+							<milestone unit="line" n="3"/>rimni qojamyn joluna t́uǵaĺniń qačan kelirsiń maja juŕujmiń
+							<milestone unit="line" n="4"/>t́uǵaĺligi 
+							<addSpan spanTo="#Ps-101-add001" status="unremarkable"/>byla
+							<anchor xml:id="Ps-101-add001" type="addSpan"/> juŕagimniń ortasynda juv́umńuń.
+						</l>
+						<l n="3" xml:id="Ps-101-003">Qojmanmyn qaršy-
+							<milestone unit="line" n="5"/>syna ḱoźĺarimniń bajtbaḥ śoźńu qyluvčunu qynɣyrlyḥlarny
+							<milestone unit="line" n="6"/>ḥor et́tim jabušmast maja.
+						</l>
+						<l n="4" xml:id="Ps-101-004">T́erś juŕaklini ket́argiń ḿeń-
+							<milestone unit="line" n="7"/>d́ań jamanny biĺmajim.
+						</l>
+						<l n="5" xml:id="Ps-101-005">Qammazlavčunu jašyryn orunda dos-
+							<milestone unit="line" n="8"/>tun any keśarmiń ökt́am juŕaklini da bijik ḱoźĺuńu any bo-
+							<milestone unit="line" n="9"/>lalmejmyn ḱorḿa.
+						</l>
+						<l n="6" xml:id="Ps-101-006">Ḱoźĺarim ḿenim baɣadyr inamlylary byla
+							<milestone unit="line" n="10"/>jerniń olturma birǵaḿa üŕuv́č́uńuń jolu byla t́uǵaĺ-
+							<milestone unit="line" n="11"/>ĺarniń ol jumuš et́siń maja.
+						</l>
+						<l n="7" xml:id="Ps-101-007">Olturmastyr ortasynda
+							<milestone unit="line" n="12"/>juv́umńuń qyluvču jaltajlyḥny śoźĺav́č́u jalɣanlyḥlarny
+							<milestone unit="line" n="13"/>t́uźuĺḿaśtir qaršysyna ḱoźĺarimniń.
+						</l>
+						<l n="8" xml:id="Ps-101-008">Tan bylalarda keśar-
+							<milestone unit="line" n="14"/>miń bar rašaʿlaryn jerniń eksit́ḿa šaharyndan H-nyn bar qyluv-
+							<milestone unit="line" n="15"/>čularny avanlyḥny.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

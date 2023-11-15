@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 131</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 131</title>
+						<milestone unit="line" n="16"/>
+						<l n="1" xml:id="Ps-131-001">Širasy ol maʿalalarnyn David́niń miźmor e H ökt́am-
+							<milestone unit="line" n="17"/>ĺańḿadi juŕagim da bijik bolmadylar ḱoźĺarim da
+							<milestone unit="line" n="18"/>juŕut́ḿadim ǯanymny ulluḥlar byla da tamašalyḥlar byla öźum-
+							<milestone unit="line" n="19"/>d́ań.
+						</l>
+						<l n="2" xml:id="Ps-131-002">Öźǵa t́uśĺu t́uv́uĺ ančaḥ t́eńaš́tirdim ǯanymny öm-
+							<milestone unit="line" n="20"/>č́akt́ań ajyrɣan ulanɣa anasyndan śut́t́ań ajyrɣan ulanɣa ǯanymny
+							<milestone unit="line" n="21"/>ušattym.
+						</l>
+						<l n="3" xml:id="Ps-131-003">Išanɣyn Jiśraʾeĺ H-ɣa haĺed́ań dunjaɣa dejiń.</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

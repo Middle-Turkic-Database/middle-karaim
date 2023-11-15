@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 130</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 130</title>
+						<milestone unit="line" n="7"/>
+						<l n="1" xml:id="Ps-130-001">Širasy ol maʿalalarnyn t́eŕań orunlardan čaɣyramyn
+							<milestone unit="line" n="8"/>H-ɣa.
+						</l>
+						<l n="2" xml:id="Ps-130-002">E H ešitkiń avazyma bolsunlar ešit́uv́ĺarij qulaḥ
+							<milestone unit="line" n="9"/>salɣanlar avazyna jalbarmaḥlarymnyn.
+						</l>
+						<l n="3" xml:id="Ps-130-003">Eǵer ǵuńaḥĺarni saqlasej
+							<milestone unit="line" n="10"/>e Teńri e H kim turalyr alnyjda.
+						</l>
+						<l n="4" xml:id="Ps-130-004">Ki birgaja ol bošat-
+							<milestone unit="line" n="11"/>lyḥ anyn üč́uń qorḥunčlusun.
+						</l>
+						<l n="5" xml:id="Ps-130-005">Isanamyn H-ɣa išanadyr ǯanym
+							<milestone unit="line" n="12"/>da śoźuńa umsunamyn.
+						</l>
+						<l n="6" xml:id="Ps-130-006">Ǯanym išanadyr H-ɣa artyḥ saqlavčular-
+							<milestone unit="line" n="13"/>dan tanny saqlavčulardan tanny.
+						</l>
+						<l n="7" xml:id="Ps-130-007">Išanɣyn Jiśraʾeĺ H-ɣa ki H byladyr
+							<milestone unit="line" n="14"/>ol ševaɣat da ḱop birǵasińa juluv.
+						</l>
+						<l n="8" xml:id="Ps-130-008">Da ol julur Jiśraʾeĺni
+							<milestone unit="line" n="15"/>bar tarlyḥlaryndan.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

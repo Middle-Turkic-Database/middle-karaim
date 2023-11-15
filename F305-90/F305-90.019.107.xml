@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 107</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 107</title>
+						<milestone unit="line" n="8"/>
+						<l xml:id="Ps-107-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">ספר חמישי</foreign></l>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Ps-107-001">Š́uḱur etijiź H-ɣa ki jaḥšydyr ki dunjaɣa dejiń
+							<milestone unit="line" n="10"/>ševaɣaty anyn.
+						</l>
+						<l n="2" xml:id="Ps-107-002">Ajtyjyz julunmušlary H-nyn ki
+							<milestone unit="line" n="11"/>juludu alarny qolundan tar b́eŕuv́č́uńuń.
+						</l>
+						<l n="3" xml:id="Ps-107-003">Da jerĺard́ań yštyrdy
+							<milestone unit="line" n="12"/>alarny miźraḥtan da maʿaravdan cafondan da daromdan.
+						</l>
+						<l n="4" xml:id="Ps-107-004">Azaštylar mid́barda
+							<milestone unit="line" n="13"/>pusta jolda olturuš šahar tapmadylar.
+						</l>
+						<l n="5" xml:id="Ps-107-005">Ačlar daɣy suvsaɣan-
+							<milestone unit="line" n="14"/>lar ǯanlary alarnyn talčyḥty.
+						</l>
+						<l n="6" xml:id="Ps-107-006">Da firjat et́tiĺar H-ɣa tar bol-
+							<milestone unit="line" n="15"/>ɣanda alarɣa qysyḥlyḥlaryndan qutḥardy alarny.
+						</l>
+						<l n="7" xml:id="Ps-107-007">Da juŕut́t́u alar-
+							<milestone unit="line" n="16"/>ny t́uź jol byla barma olturuš šaharɣa.
+						</l>
+						<l n="8" xml:id="Ps-107-008">Š́uḱur et́adirĺar
+							<milestone unit="line" n="17"/>H-ɣa ševaɣaty üč́uń da tamaša iš́ĺariń ki qyldy adam ulanla-
+							<milestone unit="line" n="18"/>ryna.
+						</l>
+						<l n="9" xml:id="Ps-107-009">Ki tojdurdu aryɣan ǯanny da ǯanyn ačyḥqannyn tolturdu
+							<milestone unit="line" n="19"/>naḿet́t́ań.
+						</l>
+						<l n="10" xml:id="Ps-107-010">Olturuvčulary qaranɣynyn da tumannyn tutḥunlary
+							<milestone unit="page" n="313v"/>
+							<milestone unit="line" n="1"/>buɣovnun da t́emir synǯyrnyn.
+						</l>
+						<l n="11" xml:id="Ps-107-011">Ki tandylar ajtmaḥlaryna Teńri-
+							<milestone unit="line" n="2"/>niń da keńašiń joɣarɣy Teńriniń h́em et́tiĺar.
+						</l>
+						<l n="12" xml:id="Ps-107-012">Da synyḥtyrdy ömǵak
+							<milestone unit="line" n="3"/>byla juŕakĺariń śuŕuńd́uĺar da joḥtur ḱuč́.
+						</l>
+						<l n="13" xml:id="Ps-107-013">Da firjat et́ti-
+							<milestone unit="line" n="4"/>ĺar H-ɣa tar bolɣanda alarɣa qysyḥlyḥlaryndan jarlyɣašlady alarny.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="14" xml:id="Ps-107-014">Da čyɣardy alarny qaranɣydan da bavlaryn 
+							<addSpan spanTo="#Ps-107-add001" status="unremarkable"/>üśt́u
+							<anchor xml:id="Ps-107-add001" type="addSpan"/> üźd́u.
+						</l>
+						<l n="15" xml:id="Ps-107-015">Š́u-
+							<milestone unit="line" n="6"/>ḱur et́adirĺar H-ɣa ševaɣatyn da tamašalyḥlaryn anlatadyrlar adam
+							<milestone unit="line" n="7"/>ulanlaryna.
+						</l>
+						<l n="16" xml:id="Ps-107-016">Ki syndyrdy tuč ešikĺarni da t́emir b́ekĺavič́ĺarni
+							<milestone unit="line" n="8"/>uvaltty.
+						</l>
+						<l n="17" xml:id="Ps-107-017">T́elirdiĺar jolundan tanmaḥlarynyn da ǵuńaḥĺarińd́ań qyjnal-
+							<milestone unit="line" n="9"/>dylar.
+						</l>
+						<l n="18" xml:id="Ps-107-018">Bar jemni ḥor et́ti ǯanlary da jet́tiĺar qabaḥlaryna dejiń
+							<milestone unit="line" n="10"/>öĺumńuń.
+						</l>
+						<l n="19" xml:id="Ps-107-019">Da firjat et́tiĺar H-ɣatar bolɣanda alarɣa qysyḥ-
+							<milestone unit="line" n="11"/>lyḥlaryndan jarɣyšlady alarny.
+						</l>
+						<l n="20" xml:id="Ps-107-020">Ijdi śoźuń da onɣaltty alarny da
+							<milestone unit="line" n="12"/>qutḥaradyr alarny ǯuɣurlaryndan.
+						</l>
+						<l n="21" xml:id="Ps-107-021">Š́uḱur et́arĺar H-ɣa ševaɣatyn
+							<milestone unit="line" n="13"/>da tamašalyḥlaryn adam ulanlaryna.
+						</l>
+						<l n="22" xml:id="Ps-107-022">Da d́eb́eḥa et́arĺar š́uḱurĺuk
+							<milestone unit="line" n="14"/>d́eb́eḥalar da jomaḥlarlar iš́ĺariń sarnamaḥ byla.
+						</l>
+						<l n="23" xml:id="Ps-107-023">Eńuv́č́uĺari ol
+							<milestone unit="line" n="15"/>teńgiźniń ǵeŕabĺar byla qyluvčular iš́ ullu suvlarda.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="24" xml:id="Ps-107-024">Alar ḱord́uĺar iš́ĺariń H-nyn da tamašalyḥlaryn t́eŕań orunda.</l>
+						<l n="25" xml:id="Ps-107-025">Da
+							<milestone unit="line" n="17"/>ajtty da turdu tavullu jeĺ da ḱot́uŕuĺadir tolɣunlary.
+						</l>
+						<l n="26" xml:id="Ps-107-026">Mińadir-
+							<milestone unit="line" n="18"/>ĺar ḱokĺarǵa eńadirĺar darjalarɣa ǯanlary jamanlyḥtan irij-
+							<milestone unit="line" n="19"/>dir.
+						</l>
+						<l n="27" xml:id="Ps-107-027">Qalgejdyrlar da b́uŕaĺadirĺar esirik kibik da bar uslary
+							<milestone unit="line" n="20"/>bulɣanadyr.
+						</l>
+						<l n="28" xml:id="Ps-107-028">Da firjat et́tiĺar Adonajɣa tar bolɣanda alarɣa
+							<milestone unit="line" n="1"/>da qysyḥlyḥlaryndan čyɣardy alarny.
+						</l>
+						<l n="29" xml:id="Ps-107-029">Turɣuzadyr tavulnu šošluḥqa
+							<milestone unit="line" n="2"/>da qaladyrlar tolɣunlary.
+						</l>
+						<l n="30" xml:id="Ps-107-030">Da bijańadirĺar ki tyjylsalar da ḱońd́aŕadir
+							<milestone unit="line" n="3"/>alarny č́egińa kĺakĺariniń.
+						</l>
+						<l n="31" xml:id="Ps-107-031">Š́uḱur et́arĺar H-ɣa ševaɣatyn
+							<milestone unit="line" n="4"/>da tamaša iš́ĺariń adam ulanlaryna.
+						</l>
+						<l n="32" xml:id="Ps-107-032">Da bijikligiń qotaryrlar anyn
+							<milestone unit="line" n="5"/>ijyny byla ulusnun da olturušunda qartlarnyn haleĺ ajtyr-
+							<milestone unit="line" n="6"/>lar.
+						</l>
+						<l n="33" xml:id="Ps-107-033">Qojadyr öźańĺarni mid́bar oruna da krinič́a
+							<ref n="1" target="#Ps-107-fn1" type="noteAnchor"/> suvlaryn pus-
+							<milestone unit="line" n="7"/>talyḥqa.
+						</l>
+						<l n="34" xml:id="Ps-107-034">Jemišli jerni veŕańlikḱa jamanlyɣyndan olturuvčularynyn
+							<milestone unit="line" n="8"/>anda.
+						</l>
+						<l n="35" xml:id="Ps-107-035">Qojadyr mid́barny oźeŕa suvɣa da boš jerni aḥɣmaɣyna
+							<milestone unit="line" n="9"/>suvlarnyn.
+						</l>
+						<l n="36" xml:id="Ps-107-036">Da olturɣuzdu anda ačyḥqanlarny da t́uzujdirĺar
+							<milestone unit="line" n="10"/>öźĺarińa olturuš šahar.
+						</l>
+						<l n="37" xml:id="Ps-107-037">Da čačadyrlar t́uźĺar da ortuɣuza-
+							<milestone unit="line" n="11"/>dyrlar borlalyḥlar da öśt́uŕadirĺar jemiš́ da bitiš́.
+						</l>
+						<l n="38" xml:id="Ps-107-038">Da alɣyšlady
+							<milestone unit="line" n="12"/>alarny da arttylar astry da tuvarlaryda azarmady.
+						</l>
+						<l n="39" xml:id="Ps-107-039">Da azardylar da
+							<milestone unit="line" n="13"/>eńkajdiĺar qysmaɣyndan jamanlyḥnyn da qajɣynyn.
+						</l>
+						<l n="40" xml:id="Ps-107-040">T́okt́u ḥorluḥ ǯomart-
+							<milestone unit="line" n="14"/>lar üśt́uńa da azaštyradyr h́eč́lik byla jolsuz.
+						</l>
+						<l n="41" xml:id="Ps-107-041">Da kipĺadi miś-
+							<milestone unit="line" n="15"/>kińni miśkińligińd́ań da qojdu qojnu kibik uruvlaryn.
+						</l>
+						<l n="42" xml:id="Ps-107-042">Ḱord́uĺar
+							<milestone unit="line" n="16"/>t́uźĺar taspolmaɣyn rašaʿlarnyn da bijanirĺar da bar avančy kišiniń avan-
+							<milestone unit="line" n="17"/>lyɣy b́ekĺadi avzun.
+						</l>
+						<l n="43" xml:id="Ps-107-043">Kim uslu da saqlar bularny da eśĺariń qojarlar
+							<milestone unit="line" n="18"/>ševaɣatlaryna H-nyn.
+							<foreign xml:lang="he" style="unicode-bidi: embed;"> מִי חָכָם וְיִשְמָר אֶלֶה וְיִתְבוֺנְנוּ חַסְדֵי יוָי ׃</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-107-fn1" type="footnote" anchored="true">Word of Slavic origin. Cf. Ukrainian 
+							<emph>криниця</emph> ʻspring, source, wellʼ, 
+							<emph>кринична вода</emph> ʻspring-waterʼ.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

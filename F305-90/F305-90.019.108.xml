@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 108</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 108</title>
+						<milestone unit="line" n="19"/>
+						<l xml:id="Ps-108-x001"><foreign xml:lang="he" style="unicode-bidi: embed;"> סדר יום כג׳</foreign>
+							<milestone unit="line" n="20"/><foreign xml:lang="he" style="unicode-bidi: embed;">שִִיר מִזְמוֺר לְדָוִד ׃</foreign>
+						</l>
+						<l n="1" xml:id="Ps-108-001">Šira da miźmor
+							<milestone unit="page" n="314v"/>
+							<milestone unit="line" n="1"/>David́ǵa. T́uźuĺǵańdir juŕagim e Teńri šira oḥurmyn da
+							<milestone unit="line" n="2"/>zemer ajtyrmyn h́em syjly ǯanym.
+						</l>
+						<l n="2" xml:id="Ps-108-002">Ojanɣyn ol qobuz da qyǯaḥ ojata-
+							<milestone unit="line" n="3"/>myn šaḥar julduzun.
+						</l>
+						<l n="3" xml:id="Ps-108-003">Š́uḱur et́amiń uluslar arasyna e H
+							<milestone unit="line" n="4"/>da zemer ajtamyn umalar arasyna.
+						</l>
+						<l n="4" xml:id="Ps-108-004">Ki ulluraḥtyr ḱokĺard́ań
+							<milestone unit="line" n="5"/>ševaɣatyj da qatlaryna dejiń ḱokĺarniń kertiligij.
+						</l>
+						<l n="5" xml:id="Ps-108-005">Ḱot́uŕuĺǵuń ol
+							<milestone unit="line" n="6"/>ḱokĺar üśt́uńa e Teńri da bar ol jer üśt́uńa syjyj śeniń.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="6" xml:id="Ps-108-006">Anyn üč́uń qutulurlar śuv́arĺarij jarlyɣašlasyn ḿeni on ḱu-
+							<milestone unit="line" n="8"/>č́uj da qaruv b́ergiń maja.
+						</l>
+						<l n="7" xml:id="Ps-108-007">Teńri śoźĺadi aziź ḱoǵuńd́a bijanajim
+							<milestone unit="line" n="9"/>üĺašajim Šeḫemni da enišiń suḫotnun öĺčajim.
+						</l>
+						<l n="8" xml:id="Ps-108-008">Ḿenim Gilʿad ḿenim
+							<milestone unit="line" n="10"/>Menaše da Efrajim ḱuč́u bijikligimniń Juhuda ŕesim qojuvčum.
+						</l>
+						<l n="9" xml:id="Ps-108-009">Moʾav
+							<milestone unit="line" n="11"/>savutu juvunmaɣymnyn Edom üśt́uńa tašlarmyn etigimni Pelešet
+							<milestone unit="line" n="12"/>üśt́uńa qyčḥyryrmyn.
+						</l>
+						<l n="10" xml:id="Ps-108-010">Kim ijśa edi ḿeni b́ek šaɣarɣa
+							<ref n="1" target="#Ps-108-fn1" type="noteAnchor"/> kim
+							<milestone unit="line" n="13"/>ḱońd́arśa edi ḿeni Edomɣa dejiń.
+						</l>
+						<l n="11" xml:id="Ps-108-011">T́uv́uĺḿo śeń Teńri kemiš́-
+							<milestone unit="line" n="14"/>tij ḿeni da cyḥmejsyn e Teńri urušma č́eriv́ĺarimiź byla.
+						</l>
+						<l n="12" xml:id="Ps-108-012">B́er-
+							<milestone unit="line" n="15"/>(giń) b́ergiń biźǵa bolušluḥ tar b́eŕuv́č́ud́ań da jalɣandyr jarlyɣašy
+							<milestone unit="line" n="16"/>adamnyn.
+						</l>
+						<l n="13" xml:id="Ps-108-013">Teńriǵa išanyp onaryrbyz tuvušluḥ byla da ol
+							<milestone unit="line" n="17"/>t́ept́ar et́ar tar b́eŕuv́č́uĺarimiźni.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-108-fn1" type="footnote" anchored="true">Unusual writing form instead of 
+							<emph>šaḥarɣa</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

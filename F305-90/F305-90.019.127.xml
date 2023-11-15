@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 127</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 127</title>
+						<milestone unit="line" n="20" xml:id="Ps127-P324v-L20" prev="F305-90.019.126.xml#Ps126-P324v-L20"/>
+						<l xml:id="Ps-127-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר יום</foreign>
+						</l>
+						<milestone unit="line" n="21"/>
+						<l n="1" xml:id="Ps-127-001">Širasy ol maʿalalarnyn Šelomoɣa miźmor eǵer YWY
+							<milestone unit="page" n="325r"/>
+							<milestone unit="line" n="1"/>qondarmasa juv́ńu muftḥa zaḥḿet́ č́eǵarĺar qondaruvčulary any eǵer
+							<milestone unit="line" n="2"/>H saqlamasa šaharny muftḥa saḥčy saqlar any.
+						</l>
+						<l n="2" xml:id="Ps-127-002">Muftḥa siźǵa
+							<milestone unit="line" n="3"/>ört́a turuvčular keč́ jatuvčular ašavčular et́ḿagiń ol qyjyn-
+							<milestone unit="line" n="4"/>lylarnyn alej b́eŕadir bijlikni śuv́arińa juqlejdoɣonɣa.
+						</l>
+						<l n="3" xml:id="Ps-127-003">Muna
+							<milestone unit="line" n="5"/>üĺuš́u H-nyn ulanlar jaly jemišiniń qursaḥnyn.
+						</l>
+						<l n="4" xml:id="Ps-127-004">Ńečik oḥlar
+							<milestone unit="line" n="6"/>qolunda baɣatyrnyn alejdir ol jigit́ eĺ.
+						</l>
+						<l n="5" xml:id="Ps-127-005">Sandyr ol kišiǵa
+							<milestone unit="line" n="7"/>ki toltursa kešiń alardan ujatly bolmaslar ki syndyrdylar duš-
+							<milestone unit="line" n="8"/>manlarny qabaḥta.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

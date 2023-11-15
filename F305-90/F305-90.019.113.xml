@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 113</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 113</title>
+						<milestone unit="line" n="11"/>
+						<l xml:id="Ps-113-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר יום כד
+							</foreign>
+							<milestone unit="line" n="12"/><foreign xml:lang="he" style="unicode-bidi: embed;">הַלְלוּיָה הַלְלוּ עַבְדֵי יְהֹוָה הַלְלוּ אֶת שֶם יוָי ׃</foreign>
+						</l>
+						<milestone unit="line" n="13"/>
+						<l n="1" xml:id="Ps-113-001">Haleĺ oḥujuz Teńriǵa maḥtav b́erijiź qullary H-nyn maḥtav
+							<milestone unit="line" n="14"/>berijiź šemińa H-nyn.
+						</l>
+						<l n="2" xml:id="Ps-113-002">Bolgej šemi H-nyn maḥtavlu haĺe-
+							<milestone unit="line" n="15"/>d́ań dunjaɣa dejiń.
+						</l>
+						<l n="3" xml:id="Ps-113-003">Qujaš balquvundan eńuv́uńa dejiń maḥtavlu
+							<milestone unit="line" n="16"/>bolsun šemi H-nyn.
+						</l>
+						<l n="4" xml:id="Ps-113-004">Bijikŕaktir bar ol ḥanlyḥlar üśt́uńa YWY
+							<milestone unit="line" n="17"/>ol ḱokĺar üśt́uńa syjy anyn.
+						</l>
+						<l n="5" xml:id="Ps-113-005">Kim H Teńrimiź kibik ol bijik
+							<milestone unit="line" n="18"/>et́uv́č́u olturma.
+						</l>
+						<l n="6" xml:id="Ps-113-006">Ol juvuz et́uv́č́u ḱorḿa ḱokĺard́a
+							<milestone unit="page" n="317r"/>
+							<milestone unit="line" n="1"/>da jerd́a.
+						</l>
+						<l n="7" xml:id="Ps-113-007">Turɣuzuvču topraḥtan jarlyny siplikt́ań ḱot́uŕadir
+							<milestone unit="line" n="2"/>jarlyny.
+						</l>
+						<l n="8" xml:id="Ps-113-008">Olturɣuzuvču any ǯomartlar byla ǯomartlary byla
+							<milestone unit="line" n="3"/>ulusunun.
+						</l>
+						<l n="9" xml:id="Ps-113-009">Olturɣuzuvču b́ed́av́ qatynny üv́ĺu etip
+							<milestone unit="line" n="4"/>ana ulanlar byla bijańadir maḥtav b́erijiź H-ɣa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
