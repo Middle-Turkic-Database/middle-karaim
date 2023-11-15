@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 58</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 58</title>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Ps-058-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa tašḥet́ üśt́uńa David́niń abajly
+							<milestone unit="line" n="12"/>miźmor. Kertid́ańmo yštyrylyp rastlyḥnymo śoźlejsiź
+							<milestone unit="line" n="13"/>t́uźĺukĺarnimo t́oŕa et́asiź adam ulanlary.
+						</l>
+						<l n="2" xml:id="Ps-058-002">T́ek  juŕakt́a avan-
+							<milestone unit="line" n="14"/>lyḥny qyladyrlar jerd́a avanlyḥny qollaryjyz t́uźujdirĺar.
+						</l>
+						<l n="3" xml:id="Ps-058-003">Tozuldular
+							<milestone unit="line" n="15"/>rašaʿlar qursaḥtan azaštylar qursaḥtan śoźĺav́č́uĺar aldavluḥnu.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="4" xml:id="Ps-058-004">Uv alarɣa t́urśuńu kibik uvunun jylannyn sondrav aǯdaɣa kibik
+							<milestone unit="line" n="17"/>qysyp tutadyr qulaɣyn.
+						</l>
+						<l n="5" xml:id="Ps-058-005">Ki ešit́mejdir avazyna šybyrdavčularnyn
+							<milestone unit="line" n="18"/>yštyruvču jyštyrmaḥlarny oɣota usajɣandyr.
+						</l>
+						<l n="6" xml:id="Ps-058-006">E Teńry buzɣun
+							<milestone unit="line" n="19"/>tiš́ĺariń alarnyn avuzlarynda avaz tiš́ĺarińd́a kibik aryslanlarnyn
+							<milestone unit="line" n="20"/>jančḥyn alarny e H.
+						</l>
+						<l n="7" xml:id="Ps-058-007">Jirirĺar suvlar kibik baryrlar öźĺarińa ij-
+							<milestone unit="line" n="21"/>śa Teńri oḥlaryn ńečikt́a kesilirĺar.
+						</l>
+						<l n="8" xml:id="Ps-058-008">Ńečik ǵub́urĺu
+							<ref n="1" target="#Ps-058-fn1" type="noteAnchor"/> baɣa
+							<milestone unit="page" n="282v"/>
+							<milestone unit="line" n="1"/>jabunup üŕujdir ńečik kečirǵani qatynnyn ki ḱormejdirĺar qujaš-
+							<milestone unit="line" n="2"/>ny.
+						</l>
+						<l n="9" xml:id="Ps-058-009">Ńečik tujmaḥtan burun qazanlaryjyz issisiń t́eǵańakniń boladyr
+							<milestone unit="line" n="3"/>čyj et́ alej t́eź ačuv byla e Teńri syndyrɣyn alarny.
+						</l>
+						<l n="10" xml:id="Ps-058-010">Bijanir
+							<milestone unit="line" n="4"/>rast ki ḱorśa öč́ alma atlamlaryn juvar
+							<ref n="2" target="#Ps-058-fn2" type="noteAnchor"/> qany ičińa ol
+							<milestone unit="line" n="5"/>rašaʿnyn.
+						</l>
+						<l n="11" xml:id="Ps-058-011">Da ajtyr adam t́ek bardyr jemiš́ rastḥa t́ek bardyr
+							<milestone unit="line" n="6"/>Teńri t́oŕači jerd́a.
+							<foreign xml:lang="he" style="unicode-bidi: embed;"> וְיֹאמַר אָדָם אַךְ פְרִי לַצַדִיק אַךְ יֶש
+						</foreign></l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-058-fn1" type="footnote" anchored="true">This word cannot be found in Kowalski’s wordlist (1929) neither in KRPS. Cf. the Crimean Karaim word 
+							<emph>gübür </emph> ʻbox, case, compartmentʼ (KRPS 162). In this verse, 
+							<emph>ǵub́urĺu baɣa</emph> is the equivalent of the Hebrew word for ʻsnailʼ.
+						</note>
+						<note xml:id="Ps-058-fn2" type="footnote" anchored="true">Written as 
+							<emph>juv́ar</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

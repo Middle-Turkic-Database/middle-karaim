@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 93</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 93</title>
+						<milestone unit="line" n="5"/>
+						<l n="1" xml:id="Ps-093-001">Jehova bijlik et́adir ulluluḥnu kijdi qaplandy quvat
+							<milestone unit="line" n="6"/>byla qaplandy h́em t́uźud́u dunjany ki tajmaɣej.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="2" xml:id="Ps-093-002">T́uźuĺǵańdir taḥtyj śeniń avaldan avaldan śeń Teńri.</l>
+						<l n="3" xml:id="Ps-093-003">Ḱot́uŕuĺ-
+							<milestone unit="line" n="8"/>d́uĺar öźańĺar e H ḱot́urd́uĺar öźańĺar avazlaryn ḱot́u-
+							<milestone unit="line" n="9"/>ŕurĺar öźańĺar kibik synyḥlyḥlaryn.
+						</l>
+						<l n="4" xml:id="Ps-093-004">Avazlaryndan ḱuč́ĺu suv-
+							<milestone unit="line" n="10"/>larnyn ḱuč́ĺud́urĺar syndyrmaḥlary t́eńgiźniń ḱuč́ĺuŕaktir
+							<milestone unit="line" n="11"/>bijik ḱokt́a H.
+						</l>
+						<l n="5" xml:id="Ps-093-005">Šarajatlaryj inamlydyrlar astry juv́uj jaraš-
+							<milestone unit="line" n="12"/>lydyr aziźlik e H uzunluɣuna ḱuńĺarniń.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

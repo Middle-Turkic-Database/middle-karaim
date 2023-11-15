@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 96</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 96</title>
+						<milestone unit="line" n="12"/>
+						<l n="1" xml:id="Ps-096-001">Šira oḥujuz H-ɣa janɣy šira šira oḥujuz H-ɣa
+							<milestone unit="line" n="13"/>bar eli ol jerniń.
+						</l>
+						<l n="2" xml:id="Ps-096-002">Šira oḥujuz H-ɣa maḥtav
+							<milestone unit="line" n="14"/>b́erijiź šemińa ḥabar b́erijiź ḱuńd́ań ḱuńǵa jarlyɣašyn anyn.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="3" xml:id="Ps-096-003">Jomaḥlajyz ḥanlyḥlarda syjyn bar ol uluslarda tamaša iš́ĺariń.</l>
+						<milestone unit="line" n="16"/>
+						<l n="4" xml:id="Ps-096-004">Ki ulludur H da maḥtavludur astry qorḥunčlu bar ol
+							<milestone unit="line" n="17"/>malʾaḫlar üśt́uńa.
+						</l>
+						<l n="5" xml:id="Ps-096-005">Ki bar 
+							<addSpan spanTo="#Ps-096-add001" status="unremarkable"/>
+							<addSpan spanTo="#Ps-096-add001" status="unremarkable"/>t(e)nl
+							<anchor xml:id="Ps-096-add001" type="addSpan"/>
+							<anchor xml:id="Ps-096-add002" type="addSpan"/> teńriĺari ol uluslar-
+							<milestone unit="line" n="18"/>nyn h́eč́tirĺar vaĺe H ḱokĺarni jaratty.
+						</l>
+						<l n="6" xml:id="Ps-096-006">Syj da h́orḿat́ alnyn-
+							<milestone unit="line" n="19"/>da ḱuč́ da ḱork miqdašynda.
+						</l>
+						<l n="7" xml:id="Ps-096-007">Maḥtav b́erijiź H-ɣa uruvlary ol
+							<milestone unit="line" n="20"/>uluslarnyn maḥtav H-ɣa syj da ḱuč́.
+						</l>
+						<l n="8" xml:id="Ps-096-008">Maḥtav b́erijiź H-ɣa syjly še-
+							<milestone unit="line" n="21"/>mińa alyjyz t́erki da kelijiź azbarlarynda.
+						</l>
+						<l n="9" xml:id="Ps-096-009">Bašurujuz H-ɣa aziź
+							<milestone unit="page" n="306r"/>
+							<milestone unit="line" n="1"/>h́orḿatińa tit́rajiź alnyndan bar eli ol jerniń.
+						</l>
+						<l n="10" xml:id="Ps-096-010">Ajtyjyz
+							<milestone unit="line" n="2"/>ḥanlyḥlarda H bijlik et́adir h́em t́uźujd́ur dunjany ki
+							<milestone unit="line" n="3"/>tajmagej t́oŕa et́adir uluslarny t́uźĺukĺar byla.
+						</l>
+						<milestone unit="line" n="4"/>
+						<l n="11" xml:id="Ps-096-011">Bijanirĺar ol ḱokĺar da quvanyr ol jer qaltlar ol t́eńgiź
+							<milestone unit="line" n="5"/>da tolusuda anyn.
+						</l>
+						<l n="12" xml:id="Ps-096-012">Quvanyr tarlav da bary ńeki anda anda
+							<milestone unit="line" n="6"/>sarnarlar bar aɣačlary ormannyn.
+						</l>
+						<l n="13" xml:id="Ps-096-013">Alnynda H-nyn ki kelir ki
+							<milestone unit="line" n="7"/>kelir t́oŕa et́ḿa ol jerni t́oŕa et́ar dunjany rast-
+							<milestone unit="line" n="8"/>lyḥ była da uluslarny inamlyɣy byla.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

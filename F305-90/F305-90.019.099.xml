@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 99</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 99</title>
+						<milestone unit="page" n="307r"/>
+						<milestone unit="line" n="1"/>
+						<l n="1" xml:id="Ps-099-001">Jehova bijlik et́adir tit́rejdirĺar uluslar olturuv-
+							<milestone unit="line" n="2"/>čusundan
+							<ref n="1" target="#Ps-099-fn1" type="noteAnchor"/> keruvimĺarniń tajdy ol jer.
+						</l>
+						<l n="2" xml:id="Ps-099-002">H Cijonda
+							<milestone unit="line" n="3"/>ulluluɣun ḱorǵuźd́u da bijik ol bar ol uluslar üś-
+							<milestone unit="line" n="4"/>t́uńa.
+						</l>
+						<l n="3" xml:id="Ps-099-003">Š́uḱur et́adirĺar šemija ullu da qorḥunčlu
+							<milestone unit="line" n="5"/>aziźdir ol.
+						</l>
+						<l n="4" xml:id="Ps-099-004">Da ḱuč́ĺu bij t́oŕani śuv́adir śeń t́uźud́uj
+							<milestone unit="line" n="6"/>t́uźĺukĺarni t́oŕani da rastlyḥny Jaʿaqovda śeń qyldyj.
+						</l>
+						<l n="5" xml:id="Ps-099-005">Bijikli-
+							<milestone unit="line" n="7"/>giń qotaryjyz H Teńrimiźniń da bašurujuz ornuna bujru
+							<supplied reason="lost">q</supplied>larynyn
+							<milestone unit="line" n="8"/>aziźdir ol.
+						</l>
+						<l n="6" xml:id="Ps-099-006">Moše da Aharon koheńĺari byla da Šemuʾeĺ čaɣy-
+							<milestone unit="line" n="9"/>ruvčulary byla šemiń čaɣyryrediĺar H-ɣa da ol qaruv b́erire-
+							<milestone unit="line" n="10"/>di alarɣa.
+						</l>
+						<l n="7" xml:id="Ps-099-007">Baɣanasy byla bulutnun śoźĺaredi alarɣa saqlare-
+							<milestone unit="line" n="11"/>diĺar šarajatlaryn da resim ki b́erdi alarɣa.
+						</l>
+						<l n="8" xml:id="Ps-099-008">H Teńrimiź śeń
+							<milestone unit="line" n="12"/>qaruv b́erdij alarɣa e Teńri bošatuvču jazyḥny edij alar-
+							<milestone unit="line" n="13"/>ɣa da öč́ aluvču jaman iš́ĺari üč́uń.
+						</l>
+						<l n="9" xml:id="Ps-099-009">Bijikligiń qotaryjyz
+							<milestone unit="line" n="14"/>H Teńrimiźniń da bašurujuz aziź tavyna ki aziź H Teńrimiź.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-099-fn1" type="footnote" anchored="true">Written as 
+							<emph>olturuvč́usundan</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

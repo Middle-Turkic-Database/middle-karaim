@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 82</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 82</title>
+						<milestone unit="line" n="15"/>
+						<l n="1" xml:id="Ps-082-001">Miźmor Asafḥa Teńri turadyr ǯymatynda teńrilik eĺniń 
+							<milestone unit="line" n="16"/>ortasynda t́oŕačiĺarnin t́oŕa et́adir.</l>
+						<l n="2" xml:id="Ps-082-002">Qačanɣa dejiń t́oŕa
+							<milestone unit="line" n="17"/>et́arsiź avanlyḥny da juźĺarińa rašaʿlarnyn juź et́arsiź hamḿe-
+							<milestone unit="line" n="18"/>š́a.
+						</l>
+						<l n="3" xml:id="Ps-082-003">T́oŕa etijiź jarlyny da ökśuźńu miśkińni da jarlyny rast
+							<milestone unit="line" n="19"/>etijiź.
+						</l>
+						<l n="4" xml:id="Ps-082-004">Qutḥaryjyz jarlyny da miśkińni qolundan rašaʿlarnyn qutḥaryjyz
+							<milestone unit="line" n="20"/>any.
+						</l>
+						<l n="5" xml:id="Ps-082-005">Bilmejdirĺar da anlamejdyrlar qyjasa qaranɣyda üŕujdirĺar
+							<milestone unit="page" n="298v"/>
+							<milestone unit="line" n="1"/>tajadlar bar bunjatlary jerniń.
+						</l>
+						<l n="6" xml:id="Ps-082-006">Ḿeń ajttym teńrilik eĺdir siź
+							<milestone unit="line" n="2"/>da ulanlary joɣarɣy Teńriniń baryjyz.
+						</l>
+						<l n="7" xml:id="Ps-082-007">Kertid́ań adam kibik öĺarsiź
+							<milestone unit="line" n="3"/>da birisi kibik ol aɣalyḥlarnyn t́uš́arsiź.
+						</l>
+						<l n="8" xml:id="Ps-082-008">Turɣun e Teńri
+							<milestone unit="line" n="4"/>t́oŕa et́kiń ol jerni ki śeń üĺaš́asiń bar ol ḥanlyḥlarda.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

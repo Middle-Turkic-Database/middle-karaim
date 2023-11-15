@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 67</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 67</title>
+						<milestone unit="line" n="1" xml:id="Ps067-P286v-L1" prev="F305-90.019.066.xml#Ps066-P286v-L1"/>
+						<l n="1" xml:id="Ps-067-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa
+							<milestone unit="line" n="2"/>čozmaḥlar byla miźmor da šira. Teńri ḥajyfsungej da alɣyšlagej
+							<milestone unit="line" n="3"/>jarytḥej qyblalaryn birǵamiźǵa hamḿeš́a.
+						</l>
+						<l n="2" xml:id="Ps-067-002">Biĺḿa jerd́a jolujnu
+							<milestone unit="line" n="4"/>bar ḥanlyḥlarda jarlyɣašyjny.
+						</l>
+						<l n="3" xml:id="Ps-067-003">Š́uḱur et́arĺar saja uluslar
+							<milestone unit="line" n="5"/>e Teńri š́uḱur et́arĺar uluslar barlary.
+						</l>
+						<l n="4" xml:id="Ps-067-004">Bijańirĺar da
+							<milestone unit="line" n="6"/>sarnarlar ummalar ki t́oŕa et́asiń uluslarny t́uźĺuk byla
+							<milestone unit="line" n="7"/>da ümḿat́ĺarni jerd́a ḱońd́aŕasiń hamḿeš́a.
+						</l>
+						<l n="5" xml:id="Ps-067-005">Š́uḱur et́arĺar
+							<milestone unit="line" n="8"/>uluslar Teńriǵa š́uḱur et́arĺar barlary.
+						</l>
+						<l n="6" xml:id="Ps-067-006">Jer b́erir bitišiń
+							<milestone unit="line" n="9"/>alɣyšlar biźni Teńri Teńrimiź biźniń.
+						</l>
+						<l n="7" xml:id="Ps-067-007">Alɣyšlar biźni Teńri da
+							<milestone unit="line" n="10" xml:id="Ps067-P286v-L10" next="F305-90.019.068.xml#Ps068-P286v-L10"/>qorḥarlar andan bar qyryjdaɣylary jerniń.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

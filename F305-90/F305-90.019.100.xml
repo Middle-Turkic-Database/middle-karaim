@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 100</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 100</title>
+						<milestone unit="line" n="15"/>
+						<l n="1" xml:id="Ps-100-001">Miźmor š́uḱur et́ḿa maḥtav qyčḥyryjyz H-ɣa bar
+							<milestone unit="line" n="16"/>eli ol jerniń.
+						</l>
+						<l n="2" xml:id="Ps-100-002">Qulluḥ etijiź H-ɣa bijańč́
+							<milestone unit="line" n="17"/>byla kelijiź alnyna sarnama byla.
+						</l>
+						<l n="3" xml:id="Ps-100-003">Bilijiź ki H ol Teńri ol
+							<milestone unit="line" n="18"/>jaratty biźni da anyndyr biź ulusu da ḱut́iĺḿuš́ qoju.
+						</l>
+						<l n="4" xml:id="Ps-100-004">Ke-
+							<milestone unit="line" n="19"/>lijiź qabaḥlaryna š́uḱurĺuk byla azbarlaryna maḥtav byla
+							<milestone unit="line" n="20"/>š́uḱur etijiź anar maḥtav b́erijiź šemińa.
+						</l>
+						<l n="5" xml:id="Ps-100-005">Ki jaḥšydyr H-nyn
+							<milestone unit="line" n="21"/>dunjaɣa dejiń ševaɣaty dordan dorɣa dejiń inamlyɣy.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

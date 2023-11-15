@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 98</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 98</title>
+						<milestone unit="line" n="5"/>
+						<l xml:id="Ps-098-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר יום כי
+							</foreign><milestone unit="line" n="6"/><foreign xml:lang="he" style="unicode-bidi: embed;">מִזְמוֹר שִירוּ לַיְהֹוָה שִיר חָדָש כִי נִפְלָאוֹת
+							</foreign><milestone unit="line" n="7"/><foreign xml:lang="he" style="unicode-bidi: embed;">עָשָה הוֹשִיעָה לוֹ יְמִינוֹ וּזְרוֹעַ קָדְשוֹ ׃
+						</foreign></l>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Ps-098-001">Miźmor da šira oḥujuz H-ɣa janɣy šira ki tamašalyḥ
+							<milestone unit="line" n="9"/>lar qyldy qutḥaradyr any on qudraty da
+							<milestone unit="line" n="10"/>aziz quvaty.
+						</l>
+						<l n="2" xml:id="Ps-098-002">Biĺdirdi H jarlyɣašyn ḱoźĺarič́a ol ḥanlyḥlar-
+							<milestone unit="line" n="11"/>nyn ašḫartty rastlyɣyn.
+						</l>
+						<l n="3" xml:id="Ps-098-003">Saɣyndy ševaɣatyn da inamlyɣyn juv́uńa
+							<milestone unit="line" n="12"/>Jiš́raʾeĺniń ḱord́uĺar bar qyryjdaɣylary jerniń jarlyɣašyn Teńri-
+							<milestone unit="line" n="13"/>miźniń.
+						</l>
+						<l n="4" xml:id="Ps-098-004">Maḥtav qyčḥyryjyz H-ɣa bar eli ol jerniń bijanijiź da
+							<milestone unit="line" n="14"/>sarnajyz da zemer oḥujuz anar.
+						</l>
+						<l n="5" xml:id="Ps-098-005">Zemer ajtyjyz qobuz byla H-ɣa qobuz byla
+							<milestone unit="line" n="15"/>qobuz byla da zemer avazy byla.
+						</l>
+						<l n="6" xml:id="Ps-098-006">Ullu byrɣylar byla da avazy
+							<milestone unit="line" n="16"/>byla byrɣynyn maḥtav qyčḥyryjyz alnynda ol bijniń H-nyn.
+						</l>
+						<l n="7" xml:id="Ps-098-007">Tol-
+							<milestone unit="line" n="17"/>ɣunlanyr ol t́eńgiź da tolusu dunja da olturuvčular
+							<ref n="1" target="#Ps-098-fn1" type="noteAnchor"/> anda.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="8" xml:id="Ps-098-008">Öźańĺar uvuč qaɣarlar tavlar sarnarlar.</l>
+						<l n="9" xml:id="Ps-098-009">Alnynda
+							<milestone unit="line" n="19"/>H-nyn ki kelir t́oŕa et́ḿa ol jerni t́oŕa et́ar dunja-
+							<milestone unit="line" n="20"/>ny rastlyḥ byla da uluslarny t́uźĺukĺar byla.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-098-fn1" type="footnote" anchored="true">Mistakenly written as 
+							<emph>olturulčular</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

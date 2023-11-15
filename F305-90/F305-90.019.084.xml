@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 84</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 84</title>
+						<milestone unit="line" n="6"/>
+						<l n="1" xml:id="Ps-084-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa gitit üśt́uńa ulanla-
+							<milestone unit="line" n="7"/>rynyn Qoraḥnyn miźmor. Ńe śuv́ardirĺar toḥtar
+							<milestone unit="line" n="8"/>orunlaryj H Teńrisi cevaʾotnun.
+						</l>
+						<l n="2" xml:id="Ps-084-002">Ḱuśańadir daɣy taryɣadyr ǯanym
+							<milestone unit="line" n="9"/>azbarlaryna H-nyn juŕagim da gufum sarnejdyrlar qajjam Teńriǵa.
+						</l>
+						<l n="3" xml:id="Ps-084-003">Daɣy
+							<milestone unit="line" n="10"/>quš tabadyr juv́uń da qarlyɣač hujasyn öźuńuń ki qojdu čipč́aĺa-
+							<milestone unit="line" n="11"/>rin alej ḿeń klejmiń bolma mizbeaḥlaryj qatyna H Teńrisi cevaʾot-
+							<milestone unit="line" n="12"/>nun Bijim da Teńrim.
+						</l>
+						<l n="4" xml:id="Ps-084-004">Sandyr olturuvčularɣa juv́ujd́a artyḥ
+							<milestone unit="line" n="13"/>maḥtav b́erirĺar saja hamḿeš́a.
+						</l>
+						<l n="5" xml:id="Ps-084-005">Sandyr adamɣa ki kip išansa
+							<milestone unit="line" n="14"/>saja t́uź jyzlar byla juŕakĺarińd́a.
+						</l>
+						<l n="6" xml:id="Ps-084-006">Ašuvčular eniši byla
+							<milestone unit="line" n="15"/>ol jylamaḥnyn coɣaraḥny
+							<ref n="1" target="#Ps-084-fn1" type="noteAnchor"/> kibik qojarlar any daɣy lotoqlarny qaplar
+							<milestone unit="line" n="16"/>jamɣur.
+						</l>
+						<l n="7" xml:id="Ps-084-007">Baryrlar midraštan midrašḥa ḱorḿa qyblalaryn Teńriniń Cijon-
+							<milestone unit="line" n="17"/>da.
+						</l>
+						<l n="8" xml:id="Ps-084-008">H Teńrisi cevaʾotnun ešit́kiń tefilamny qulaḥ salɣyn Teńrisi
+							<milestone unit="line" n="18"/>Jaʿaqovnun hamḿeš́a.
+						</l>
+						<l n="9" xml:id="Ps-084-009">Qalqanymyzny ḱorǵuń e Teńri da baḥqyn juźĺariń
+							<milestone unit="line" n="19"/>mašijaḥyjnyn.
+						</l>
+						<l n="10" xml:id="Ps-084-010">Ki jaḥšyraḥtyr bir ḱuń bolma azbarlaryjda miń jyldan
+							<milestone unit="line" n="20"/>eśa sajladym syjynma juv́uńd́a Teńrimniń tiriĺḿakt́ań eśa
+							<milestone unit="page" n="299v"/>
+							<milestone unit="line" n="1"/>čatyrlarynda qynɣyr eĺniń.
+						</l>
+						<l n="11" xml:id="Ps-084-011">Ki qalqan kibik da qujas kibik H Teńri
+							<milestone unit="line" n="2"/>širińlik da syj b́eŕadir H ajamejdyr jaḥšyny üŕuv́č́uĺarǵa t́u-
+							<milestone unit="line" n="3"/>ǵallikĺar byla.
+						</l>
+						<l n="12" xml:id="Ps-084-012">H Teńrisi cevaʾotnun sandyr adamɣa išanuv-
+							<milestone unit="line" n="4"/>čuɣa saja.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-084-fn1" type="footnote" anchored="true">Written as 
+							<emph>č́oɣaraḥny</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

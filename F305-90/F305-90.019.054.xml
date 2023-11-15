@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 54</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 54</title>
+						<milestone unit="line" n="15" xml:id="Ps054-P280r-L15" prev="F305-90.019.053.xml#Ps053-P280r-L15"/>
+						<l n="1" xml:id="Ps-054-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa aqyllatadoɣon miźmor
+							<milestone unit="line" n="16"/>David́ǵa. Keĺǵańd́a ol zifliĺar da ajttylar Šaulɣa muna David́ jasy-
+							<milestone unit="line" n="17"/>nadyr birǵamiźǵa. E Teńri šemij 
+							<addSpan spanTo="#Ps-054-add001" status="unremarkable"/>
+							<addSpan spanTo="#Ps-054-add001" status="unremarkable"/>byla
+							<anchor xml:id="Ps-054-add001" type="addSpan"/>
+							<anchor xml:id="Ps-054-add002" type="addSpan"/> jarlyɣašlaɣyn ḿeni da baɣatyrlyɣyj byla
+							<milestone unit="line" n="18"/>t́oŕa et́kiń ḿeni.
+						</l>
+						<l n="2" xml:id="Ps-054-002">E Teńri ešit́kiń tefilamny qulaḥ salɣyn ajt-
+							<milestone unit="line" n="19"/>maḥlaryna avzumnun.
+						</l>
+						<l n="3" xml:id="Ps-054-003">Ki jatlar turdular üśt́uḿa da ḱuč́ĺuĺar
+							<milestone unit="line" n="20"/>izlejdirĺar
+							<ref n="1" target="#Ps-054-fn1" type="noteAnchor"/> alma ǯanymny qojmejdyrlar bolušluɣun Teńriniń
+							<milestone unit="page" n="280v"/>
+							<milestone unit="line" n="1"/>qaršylaryna öźĺariniń hamḿeš́a.
+						</l>
+						<l n="4" xml:id="Ps-054-004">Muna Teńri bolušadyr maja H
+							<milestone unit="line" n="2"/>kiplikĺari ǯanymnyn.
+						</l>
+						<l n="5" xml:id="Ps-054-005">Qajttyrɣyn ol jamanlyḥny jaman ḱoź byla baɣuv-
+							<milestone unit="line" n="3"/>čularyma kertiligij byla keśkiń alarny.
+						</l>
+						<l n="6" xml:id="Ps-054-006">Ǯomart ǯan byla
+							<milestone unit="line" n="4"/>d́eb́eḥa et́armiń saja š́uḱur et́armiń šemija e H ki jaḥšy-
+							<milestone unit="line" n="5"/>dyr.
+						</l>
+						<l n="7" xml:id="Ps-054-007">Ki bar tarlyḥtan qutḥardyj ḿeni da dušmanlarymnyn jamanyn ḱord́u
+							<milestone unit="line" n="6" xml:id="Ps054-P280v-L6" next="F305-90.019.055.xml#Ps055-P280v-L6"/>ḱoźum.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-054-fn1" type="footnote" anchored="true">Written as 
+							<emph>izlejdirlar</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 76</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 76</title>
+						<milestone unit="line" n="18"/>
+						<l n="1" xml:id="Ps-076-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa čozmaḥlar
+							<ref n="1" target="#Ps-076-fn1" type="noteAnchor"/> byla miźmor
+							<milestone unit="line" n="19"/>Asafḥa da šira. Biĺuv́ĺud́ur Juhudada Teńri Jiš́-
+							<milestone unit="line" n="20"/>raʾeĺd́a ullu šemi anyn.
+						</l>
+						<l n="2" xml:id="Ps-076-002">Da edi Jerušalajimd́a alačyɣy da toḥtar
+							<milestone unit="line" n="21"/>ornu Cijjonda.
+						</l>
+						<l n="3" xml:id="Ps-076-003">Anda syndyrdy oḥlaryn jajnyn qalqanny da qylyčny
+							<milestone unit="page" n="293v"/>
+							<milestone unit="line" n="1"/>da č́erivni hamḿeš́a.
+						</l>
+						<l n="4" xml:id="Ps-076-004">Balquvludur śeń H ḱuč́ĺu Teńri tavlaryndan
+							<milestone unit="line" n="2"/>jyrtuvnun.
+						</l>
+						<l n="5" xml:id="Ps-076-005">Tilirdiĺar ḱuč́ĺu juŕakliĺar b́uŕaĺdiĺar jukulary
+							<milestone unit="line" n="3"/>da tapmadylar bar tuvušlu eĺ orunlaryn.
+						</l>
+						<l n="6" xml:id="Ps-076-006">Ačuvujdan śeniń
+							<milestone unit="line" n="4"/>Teńrisi Jaʿaqovnun čyrym et́adir markav da at.
+						</l>
+						<l n="7" xml:id="Ps-076-007">Śeń qorḥunčlu-
+							<milestone unit="line" n="5"/>sun da kim turalyr alnyjda ačuv vaḥtyjda.
+						</l>
+						<l n="8" xml:id="Ps-076-008">Ḱokĺard́ań ešit́-
+							<milestone unit="line" n="6"/>tirdij t́oŕani jer qorḥtu da toḥtady.
+						</l>
+						<l n="9" xml:id="Ps-076-009">Turɣanda Teńri t́oŕaǵa
+							<milestone unit="line" n="7"/>qutḥarma bar juvašlaryn jerniń hamḿeš́a.
+						</l>
+						<l n="10" xml:id="Ps-076-010">Ki ačuv ḱorǵań adam
+							<milestone unit="line" n="8"/>š́uḱur et́ar saja qaldyɣyna dušmannyn ačuv byla bajlanɣyn.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="11" xml:id="Ps-076-011">Nijet́ et́arĺar da t́oĺarĺar H-ɣa Teńrijiźǵa bar č́uv́ŕalarińd́a
+							<milestone unit="line" n="10"/>keĺtirirĺar tirki qorḥunčlu Teńriǵa.
+						</l>
+						<l n="12" xml:id="Ps-076-012">T́uǵatir bijni da
+							<milestone unit="line" n="11"/>aɣalyḥlarny qorḥunčlu bolur bijĺarińa jerniń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-076-fn1" type="footnote" anchored="true">Written as 
+							<emph>č́ozmaḥlar</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

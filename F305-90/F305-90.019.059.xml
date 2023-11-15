@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 59</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 59</title>
+						<milestone unit="line" n="8"/>
+						<l xml:id="Ps-059-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר יום	יב
+							</foreign>
+							<milestone unit="line" n="9"/>
+							<foreign xml:lang="he" style="unicode-bidi: embed;">לַמְנַצֵחַ אַל תַשְחֵת לְדָוִד מִכְתָם בִשְלֹחַ שָאוּל
+							</foreign>
+							<milestone unit="line" n="10"/>
+							<foreign xml:lang="he" style="unicode-bidi: embed;">וַיִשְמְרוּ אֶת הַבַיִת לַהֲמִיתוֹ ׃
+						</foreign></l>
+						<milestone unit="line" n="11"/>
+						<l n="1" xml:id="Ps-059-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa tašḥet́ üč́uń David́niń
+							<milestone unit="line" n="12"/>abajly miźmor ijǵańd́a Šaul da saqladylar ol
+							<milestone unit="line" n="13"/>juv́ńu öĺt́urḿa David́ni. Qutḥarɣyn ḿeni dušmanlarymdan e Teńrim
+							<milestone unit="line" n="14"/>uturu turuvčularymdan kipĺagiń ḿeni.
+						</l>
+						<l n="2" xml:id="Ps-059-002">Qutḥarɣyn ḿeni qyluvču-
+							<milestone unit="line" n="15"/>lardan avanlyḥny da qanly iš́či eĺd́ań jarlyɣašlaɣyn ḿeni.
+						</l>
+						<l n="3" xml:id="Ps-059-003">Ki muna
+							<milestone unit="line" n="16"/>andejdyrlar ǯanyma yštyryladyrlar üśt́uḿa ḱuč́ĺuĺar
+							<milestone unit="line" n="17"/>t́uv́uĺ tanmaɣym üč́uń da t́uv́uĺ jazyɣym üč́uń e Jehova.
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="4" xml:id="Ps-059-004">T́uv́uĺ ǵuńaḥim üč́uń juvuradyrlar da t́uźuĺadirĺar ojanɣyn
+							<milestone unit="page" n="283r"/>
+							<milestone unit="line" n="1"/>utruma da ḱorǵuń.
+						</l>
+						<l n="5" xml:id="Ps-059-005">Da śeń H Teńrisi cevaotnun Teńrisi Jiš́raʾeĺ
+							<milestone unit="line" n="2"/>ojanɣyn qarat́et́ḿa bar ol ḥanlyḥlarny ḥajyfsunmaɣyn bar qunuštu-
+							<milestone unit="line" n="3"/>ruvčular
+							<ref n="1" target="#Ps-059-fn1" type="noteAnchor"/> üśt́uńa avanlyḥny hamḿeš́a.
+						</l>
+						<l n="6" xml:id="Ps-059-006">Qajtsynlar ińgir
+							<milestone unit="line" n="4"/>vaḥtta ürśuńĺar it́ kibik da quršasynlar šaharny.
+						</l>
+						<l n="7" xml:id="Ps-059-007">Muna śoź-
+							<milestone unit="line" n="5"/>lejdirĺar avuzlary byla qylyčlar kibik erińĺari alarnyn ki kim
+							<milestone unit="line" n="6"/>bolalyr ešit́ḿa.
+						</l>
+						<l n="8" xml:id="Ps-059-008">Da śeń e H ḱuĺasiń alardan ilik et́asiń bar
+							<milestone unit="line" n="7"/>ḥanlyḥlardan.
+						</l>
+						<l n="9" xml:id="Ps-059-009">Ḱuč́ĺu Teńrim saja išanamyn ki Teńridir kipligim.</l>
+						<milestone unit="line" n="8"/>
+						<l n="10" xml:id="Ps-059-010">Ševaɣatly Teńri utrulaɣyn ḿeni e Teńri ḱorǵuźǵuń maja jamanyn
+							<milestone unit="line" n="9"/>dušmanlarymnyn.
+						</l>
+						<l n="11" xml:id="Ps-059-011">Öĺt́urḿagiń alarny maɣat unuturlar ulusum-
+							<milestone unit="line" n="10"/>nu b́uŕaĺt́kiń alarny quvatyj byla da eńdirgiń alarny qalqanymyz H.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="12" xml:id="Ps-059-012">Jazyɣy avuzlarynyn śoźu erińĺariniń da ilińgejĺar ökt́amlikĺa-
+							<milestone unit="line" n="12"/>rińa da jalɣan anttan da tanmaḥtan šemĺarin qotargejlar.
+						</l>
+						<l n="13" xml:id="Ps-059-013">Tavušḥun
+							<milestone unit="line" n="13"/>alarny qaḥyr byla tavušḥun alarny da joɣ
+							<ref n="2" target="#Ps-059-fn2" type="noteAnchor"/> bolsunlar da biĺsińĺar
+							<milestone unit="line" n="14"/>ki Teńri erkĺańadir Jaʿaqovda qyryjlarynda ol jerniń hamḿeš́a.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="14" xml:id="Ps-059-014">Da qajtsynlar jengir vaḥta ürśuńĺar it́ kibik da qursasynlar
+							<milestone unit="line" n="16"/>šaharny.
+						</l>
+						<l n="15" xml:id="Ps-059-015">Alar b́uŕaĺsińĺar jeq üč́uń eǵer tojmasalar da tynč
+							<milestone unit="line" n="17"/>qonmejdyrlar.
+						</l>
+						<l n="16" xml:id="Ps-059-016">Da ḿeń šira oḥujum quvatyja da sarnarmyn har ert́ań
+							<milestone unit="line" n="18"/>bylada ševaɣatyjny ki bolduj kiplik maja da umsunč tar ḱuńd́a
+							<milestone unit="line" n="19"/>maja.
+						</l>
+						<l n="17" xml:id="Ps-059-017">Quvatym byla saja zemer oḥujum ki Teńri kipligim ševaɣatly
+							<milestone unit="line" n="20" xml:id="Ps059-P283r-L20" next="F305-90.019.060.xml#Ps060-P283r-L20"/>Teńrim.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-059-fn1" type="footnote" anchored="true">Written as 
+							<emph>qunušturuvč́ular</emph>.
+						</note>
+						<note xml:id="Ps-059-fn2" type="footnote" anchored="true">Instead of 
+							<emph>joq</emph>  ʻnotʼ (KRPS 246).
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

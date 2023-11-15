@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 52</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 52</title>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Ps-052-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa aqyllatadoɣon miźmor David́ǵa. Keĺǵań-
+							<milestone unit="line" n="9"/>d́a Doeg ol edomlu da anlatty Šaulɣa da ajtty anar
+							<milestone unit="line" n="10"/>keĺdi David́ juv́uńa Aḥimeleḫnin. Ńe maḥtanasyn jaman išij byla e baɣatyr
+							<milestone unit="line" n="11"/>ševaɣaty H-nyn har ḱuń.
+						</l>
+						<l n="2" xml:id="Ps-052-002">Qaršavluḥlarny saɣys et́adir tilij üĺuǵuń kibik
+							<milestone unit="line" n="12"/>biĺańǵań qyladyr jaltajlyḥny.
+						</l>
+						<l n="3" xml:id="Ps-052-003">Śuv́d́uj jamanny artyḥ jaḥšydan jalɣanlyḥny
+							<milestone unit="line" n="13"/>artyḥ śoźĺaḿakt́ań rastlyḥny hamḿeš́a.
+						</l>
+						<l n="4" xml:id="Ps-052-004">Śuv́d́uj bar č́ejpalɣan śoźĺarni
+							<milestone unit="line" n="14"/>jaltaj tiĺni.
+						</l>
+						<l n="5" xml:id="Ps-052-005">Daɣy Teńri janč́ar śeni öḿurǵa dejiń synyḥtyryr śeni
+							<milestone unit="line" n="15"/>da sibirir śeni čatyrdan da eksitir śeni tirlik jerd́ań hamḿeš́a.
+						</l>
+						<l n="6" xml:id="Ps-052-006">Da ḱoŕaŕ-
+							<milestone unit="line" n="16"/>ĺar rastlarda qorḥarlar da anyn üśt́uńa ḱuĺarĺar.
+						</l>
+						<l n="7" xml:id="Ps-052-007">Muna ol kiši
+							<milestone unit="line" n="17"/>ki qojmady Teńriǵa kipligiń  da išandy 	ḱopĺuǵuńa ḥoǯalyɣynyn kip-
+							<milestone unit="line" n="18"/>ĺańśa qavšarlyɣy byla.
+						</l>
+						<l n="8" xml:id="Ps-052-008">Da ḿeń jaš zejtun kibik boldum juv́uńd́a
+							<milestone unit="line" n="19"/>Teńriniń išanyrmyn ševaɣaty byla  Teńriniń dunjaɣa dejiń.
+						</l>
+						<l n="9" xml:id="Ps-052-009">Š́uḱur et́ar-
+							<milestone unit="line" n="20"/>miń dunjaɣa dejiń ki jarattyj da išanyrmyn šemija ki jaḥšydyr qaršysyna
+							<milestone unit="line" n="21"/>ḥasid́ĺarijnyn. 
+							<foreign xml:lang="he" style="unicode-bidi: embed;">אוֹדְךָ לְעוֹלָם כִי עָשִיתָ וַאֲקַוֶה שִמְךַ כִי טוֹב נֶגֶד חֲסִידֶיךָ ׃
+						</foreign></l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
