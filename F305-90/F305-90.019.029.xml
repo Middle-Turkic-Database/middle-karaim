@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 29</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 29</title>
+						<milestone unit="line" n="16"/>
+						<l n="1" xml:id="Ps-029-001">Miźmoru David́niń maḥtav b́erijiź H-ɣa jyjyny malʾaḫlarnyn maḥtav b́erijiź
+							<milestone unit="line" n="17"/>H-ɣa da ḱuč́ĺu syjyna.
+						</l>
+						<l n="2" xml:id="Ps-029-002">Maḥtav b́erijiź H-ɣa syjly šemi-
+							<milestone unit="line" n="18"/>ńa bašurujuz H-ɣa aziź h́orḿatińa.
+						</l>
+						<l n="3" xml:id="Ps-029-003">Öńu H-nyn ol suvlar üśt́u-
+							<milestone unit="line" n="19"/>ńa ol syjly Teńri ḱokŕat́ti H ḱuč́ĺu suvlar üśt́uńa.
+						</l>
+						<l n="4" xml:id="Ps-029-004">Öńu
+							<milestone unit="line" n="20"/>H-nyn ḱ́uč́ byla öńu H-nyn h́orḿat́ byla.
+						</l>
+						<l n="5" xml:id="Ps-029-005">Öńu H-nyn syndyrdyr ereźĺarni
+							<milestone unit="line" n="21"/>da syndyrdy H ereźĺariń ol Levanonnun.
+						</l>
+						<l n="6" xml:id="Ps-029-006">Da śekirt́ti alarny buzovnu kibik
+							<milestone unit="page" n="266v"/>
+							<milestone unit="line" n="1"/>Levanonnu da tavyn Śirjonnun balalaryn kibik karked́enniń.
+						</l>
+						<l n="7" xml:id="Ps-029-007">Öńu H-nyn keśadir
+							<milestone unit="line" n="2"/>jalynlary kibik otnun.
+						</l>
+						<l n="8" xml:id="Ps-029-008">Öńu H-nyn qaltratadyr Qadeš́ni.</l>
+						<l n="9" xml:id="Ps-029-009">
+							<ref n="1" target="#Ps-029-fn1" type="noteAnchor"/> Öńu H-nyn
+							<milestone unit="line" n="3"/>qaltratadyr öĺeńĺarni da ačadyr ormanlarny da sarajynda anyn barysy aj-
+							<milestone unit="line" n="4"/>tadyr syjyn.
+						</l>
+						<l n="10" xml:id="Ps-029-010">H mabul vaḥtynda qajjamlyɣyn ḱorǵuźd́u da qajjamdyr H
+							<milestone unit="line" n="5"/>Bij dunjaɣa dejiń.
+						</l>
+						<l n="11" xml:id="Ps-029-011">H kiplik ulusuna b́ergej H alɣyšlagej u-
+							<milestone unit="line" n="6"/>lusun bazlyḥ byla.<foreign xml:lang="he" style="unicode-bidi: embed;">יוָי עוֹז לְעַמוֹ יִתֵן יוָי יְבָרֵךְ אֶת עָמוֹ
+							</foreign><milestone unit="line" n="7"/><foreign xml:lang="he" style="unicode-bidi: embed;">בַשָלוֹם ׃
+						</foreign></l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-029-fn1" type="footnote" anchored="true">The new verse is not indicated.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

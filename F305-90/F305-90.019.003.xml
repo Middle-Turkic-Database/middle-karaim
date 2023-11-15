@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 3</title>
+						<milestone unit="line" n="15" xml:id="Ps003-P254v-L15" prev="F305-90.019.002.xml#Ps002-P254v-L15"/>
+						<l n="1" xml:id="Ps-003-001">Miźmoru David́niń qačḥanynda alnyndan Abšolomnun  uvlu-
+							<milestone unit="line" n="16"/>nun.
+						</l>
+						<l n="2" xml:id="Ps-003-002">E H ńe ḱopt́urĺar tar b́eŕuv́č́uĺarim ḱopĺar turadyrlar
+							<milestone unit="line" n="17"/>üśt́uḿa.
+						</l>
+						<l n="3" xml:id="Ps-003-003">Ḱopĺar ajtadyrlar ǯanym üč́uń joḥtur jarlyɣaš anar Teń-
+							<milestone unit="line" n="18"/>rid́ań hamḿeš́a.
+						</l>
+						<l n="4" xml:id="Ps-003-004">Da śeń e H qalqan ḿeniḿ ašyra syjym da ḱot́uŕuv́č́um
+							<milestone unit="line" n="19"/>bašymny.
+						</l>
+						<l n="5" xml:id="Ps-003-005">Avazym byla H-ɣa čaɣyramyn da qaruv b́eŕadir maja aziź tavyndan
+							<milestone unit="line" n="20"/>hamḿeš́a.
+						</l>
+						<l n="6" xml:id="Ps-003-006">Ḿeń jattym da ojandym qozɣaldym ki H kipĺar ḿeni.</l>
+						<l n="7" xml:id="Ps-003-007">Qorḥmam-
+							<milestone unit="line" n="21"/>ḿeń t́uḿańĺarińd́ań ulusnun ki č́uv́ŕa qojsalar üśt́uḿa.
+						</l>
+						<l n="8" xml:id="Ps-003-008">Turɣun
+							<milestone unit="page" n="255r"/>
+							<milestone unit="line" n="1"/>e H jarlyɣašlaɣyn ḿeni e Teńrim kertid́ań qyrdyj
+							<ref n="1" target="#Ps-003-fn1" type="noteAnchor"/> bar dušmanlarymny jajaḥ-
+							<milestone unit="line" n="2"/>qa tišĺariń rašaʿlarnyn syndyrdyj.
+						</l>
+						<l n="9" xml:id="Ps-003-009">H-dan ol jarlyɣaš ulusuj üś-
+							<milestone unit="line" n="3" xml:id="Ps003-P255r-L3" next="F305-90.019.004.xml#Ps004-P255r-L3"/>t́uńa algyšyj śeniń hamḿeš́a.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-003-fn1" type="footnote" anchored="true">It looks like a 
+							<emph>kaf</emph>  at the initial position that was corrected to 
+							<emph>qof</emph>  later.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

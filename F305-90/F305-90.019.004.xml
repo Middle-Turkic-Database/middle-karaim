@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 4</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 4</title>
+						<milestone unit="line" n="3" xml:id="Ps004-P255r-L3" prev="F305-90.019.003.xml#Ps003-P255r-L3"/>Č́eb́ar avaz ḱot́uŕuv́č́uǵa
+						<l xml:id="Ps-004-001">
+							<milestone unit="line" n="4"/>čozmaḥ savutlary byla miźmoru David́niń. Čaɣyrɣanymda qaruv b́ergiń maja
+							<milestone unit="line" n="5"/>rast Teńrim tar bolɣanda maja avlaḥ et́kiń maja ḥajyfsunɣun da
+							<milestone unit="line" n="6"/>ešit́kiń tefilamny
+							<ref n="1" target="#Ps-004-fn1" type="noteAnchor"/>.
+						</l>
+						<l n="2" xml:id="Ps-004-002">Adam ulanlary qačanɣa dejiń syjymny qojarsyz iḿańč́-
+							<milestone unit="line" n="7"/>ḱa śuv́aŕsiź bošluḥnu iźĺaŕsiź aldavluḥnu hamḿeš́a.
+						</l>
+						<l n="3" xml:id="Ps-004-003">Da bilijiź
+							<milestone unit="line" n="8"/>ki ajyrdy H ḥasid́ kišini öźuńa H ešit́adir čaɣyrɣanymda anar.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="4" xml:id="Ps-004-004">Titrajiź da jazyḥly bolmajyz anar ajtyjyz juŕagijiźd́a t́oš́agijiź üśt́uńa
+							<milestone unit="line" n="10"/>da tyjyltyn tefila etijiź anar hamḿeš́a.
+						</l>
+						<l n="5" xml:id="Ps-004-005">D́eb́eḥa etijiź rast d́eb́eḥalar
+							<milestone unit="line" n="11"/>da išanyjyz H-ɣa.
+						</l>
+						<l n="6" xml:id="Ps-004-006">Ḱopĺar ajtadyrlar kim ḱoŕǵuźur biźǵa jaḥšyny balqyt-
+							<milestone unit="line" n="12"/>ḥyn üśt́uḿuźǵa jaryḥlyɣyn qyblalaryjnyn e H.
+						</l>
+						<l n="7" xml:id="Ps-004-007">B́erdij bijańč́ juŕagim-
+							<milestone unit="line" n="13"/>d́a artyḥ ńe vaḥttan b́uŕt́ukĺari da šarb́et́ĺari artsalar.
+						</l>
+						<l n="8" xml:id="Ps-004-008">Tynč-
+							<milestone unit="line" n="14"/>lyḥ byla birǵa jatsam da jukĺarmiń ki śeń H jalɣyzov emińlik byla
+							<milestone unit="line" n="15" xml:id="Ps004-P255r-L15" next="F305-90.019.005.xml#Ps005-P255r-L15"/>tynč et́arsiń maja.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-004-fn1" type="footnote" anchored="true">According to KRPS, the North-Western Karaim form would be 
+							<emph>tefiŋla</emph> (522), the form 
+							<emph>tefila</emph> and 
+							<emph>tefilla</emph> can be detected in South-Western Karaim and Eastern Karaim (568).
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

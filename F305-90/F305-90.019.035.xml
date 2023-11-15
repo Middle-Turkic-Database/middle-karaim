@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 35</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 35</title>
+						<milestone unit="page" n="269v"/>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Ps-035-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר ליום ז	׃
+							</foreign><milestone unit="line" n="2"/><foreign xml:lang="he" style="unicode-bidi: embed;">לְדָוִד רִיבָה יְהֹוָה אֶת יְרִיבַי לְחַם אֶת לֹחֲמָי ׃
+						</foreign></l>
+						<milestone unit="line" n="3"/>
+						<l n="1" xml:id="Ps-035-001">David́niń miźmor talašḥyn e H talašlarymny urušḥun
+							<milestone unit="line" n="4"/>č́eriv́ĺarimni.
+						</l>
+						<l n="2" xml:id="Ps-035-002">Tutḥun qalqanny da ḱub́ani
+							<milestone unit="line" n="5"/>da turɣun bolušluɣuma.
+						</l>
+						<l n="3" xml:id="Ps-035-003">Da suvurɣun śuńǵuńu da b́ekĺagiń utru-
+							<milestone unit="line" n="6"/>suna quvuvčularymnyn
+							<ref n="1" target="#Ps-035-fn1" type="noteAnchor"/> ajtḥyn ǯanyma jarlyɣašyj śeniń ḿeń.
+						</l>
+						<l n="4" xml:id="Ps-035-004">Ujatly
+							<milestone unit="line" n="7"/>bolgejlar da rusvaj bolgejlar iźĺav́č́uĺar ǯanymny ked́argi ket́kejĺar
+							<milestone unit="line" n="8"/>da rusvaj bolgejlar saɣyš et́uv́č́uĺar jamanymny.
+						</l>
+						<l n="5" xml:id="Ps-035-005">Bolgejlar tozɣaḥ
+							<milestone unit="line" n="9"/>kibik alnynda jeĺniń da malaʾḫy H-nyn tab́ergej alarny.
+						</l>
+						<l n="6" xml:id="Ps-035-006">Bolgej jollary
+							<milestone unit="line" n="10"/>alarnyn qaranɣy da jylmalyḥlar da malaʾḫy H-nyn quvgej alarny.
+						</l>
+						<l n="7" xml:id="Ps-035-007">Ki muft ḱom-
+							<milestone unit="line" n="11"/>d́uĺar maja ǯuɣurun avlarynyn muft qazdylar ǯanym üč́uń.
+						</l>
+						<l n="8" xml:id="Ps-035-008">Keĺtir-
+							<milestone unit="line" n="12"/>gin anar zaval bilmejdoɣon saɣatynda da avɣa ki qazdy ilińdirgiń any
+							<milestone unit="line" n="13"/>ǯuɣurɣa ki qazdy t́uš́śuń öźu ara.
+						</l>
+						<l n="9" xml:id="Ps-035-009">Da ǯanym quvansyn H byla qu-
+							<milestone unit="line" n="14"/>vanadyr bijańadir jarlyɣašy byla.
+						</l>
+						<l n="10" xml:id="Ps-035-010">Bar buvunlarym ajtadyrlar e H kim
+							<milestone unit="line" n="15"/>śeniń kibik qutḥaruvču miśkińni ḱuč́ĺuŕakt́ań öźuńd́ań da miśkińni
+							<milestone unit="line" n="16"/>da kĺeńčini talavčusundan.
+						</l>
+						<l n="11" xml:id="Ps-035-011">Turadyrlar avančy tanyḥlar ńeni ki biĺḿadim
+							<milestone unit="line" n="17"/>soradyrlar ḿeńd́ań.
+						</l>
+						<l n="12" xml:id="Ps-035-012">T́olejdirĺar maja jamanlyḥ jaḥšylyḥ ornuna tuv-
+							<milestone unit="line" n="18"/>luḥ ǯanyma.
+						</l>
+						<l n="13" xml:id="Ps-035-013">Da ḿeń ḥastalanɣanlarynda qojamyn upraɣymny kijiź qyjnadym o-
+							<milestone unit="line" n="19"/>ruč byla ǯanymny da tefilam qojnuma qajtḥej.
+						</l>
+						<l n="14" xml:id="Ps-035-014">Dost üč́uń kibik
+							<milestone unit="line" n="20"/>qaryndašym üč́uń kibik öźuḿńuń jasly üŕud́um jasyn kibik ananyn
+							<milestone unit="page" n="270r"/>
+							<milestone unit="line" n="1"/>qararyp üŕud́um.
+						</l>
+						<l n="15" xml:id="Ps-035-015">Vaĺe aḥsaɣanymda bijańdiĺar da yštyryldylar yš-
+							<milestone unit="line" n="2"/>tyryldylar üśt́uḿa aḥsaḥlar da biĺḿadim jyrttylar rašaʿlar avuz-
+							<milestone unit="line" n="3"/>laryn ḱuĺt́ḱuĺarińd́ań da tyjylmadylar.
+						</l>
+						<l n="16" xml:id="Ps-035-016">Juz et́uv́uč́ĺar ilik et́uv́-
+							<milestone unit="line" n="4"/>č́uĺar tigim et́ḿak üč́uń ǯynɣyrdattylar üśt́uḿa tiš́ĺariń.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="17" xml:id="Ps-035-017">Ė H qačanɣa dejiń ḱoŕup čydarsyn qajttyrɣyn ǯanymny čuvlaryndan
+							<milestone unit="line" n="6"/>igit́ aryslanlardan jalɣyzaḥ ǯanymny.
+						</l>
+						<l n="18" xml:id="Ps-035-018">Š́uḱur et́ajim saja ḱop
+							<milestone unit="line" n="7"/>ijiń byla ḱuč́ĺu ulus 
+							<addSpan spanTo="#Ps-035-add001" status="unremarkable"/>byla
+							<anchor xml:id="Ps-035-add001" type="addSpan"/> maḥtav b́eŕamiń saja.
+						</l>
+						<l n="19" xml:id="Ps-035-019">Bijańḿasińĺar jamany-
+							<milestone unit="line" n="8"/>ma ḿenim jalɣan dušmanlarym muft ḥorlavčularym
+							<ref n="2" target="#Ps-035-fn2" type="noteAnchor"/> jumčuḥlejdyrlar
+							<milestone unit="line" n="9"/>ḱoź.
+						</l>
+						<l n="20" xml:id="Ps-035-020">Ki t́uv́uĺ bazlyḥ üč́uń śoźlejdirĺar da juvašlary üśt́u-
+							<milestone unit="line" n="10"/>ńa 
+							<addSpan spanTo="#Ps-035-add002" status="unremarkable"/>jerniń
+							<anchor xml:id="Ps-035-add002" type="addSpan"/> jaltaj śoźĺar saɣyš et́adirĺar.
+						</l>
+						<l n="21" xml:id="Ps-035-021">Da keńart́tiĺar üśt́uḿa
+							<milestone unit="line" n="11"/>avuzlaryn ajttylar bijańdik ḱord́u zavalyn ḱoźĺarimiź.
+						</l>
+						<l n="22" xml:id="Ps-035-022">Ḱorǵuń e
+							<milestone unit="line" n="12"/>H tyjylmaɣyn e H jyraḥ ket́ḿagiń ḿeńd́ań.
+						</l>
+						<l n="23" xml:id="Ps-035-023">Ojanɣyn da qozɣalɣyn t́oŕa-
+							<milestone unit="line" n="13"/>ḿa ḿenim H Teńrim talašḥyn talašymny.
+						</l>
+						<l n="24" xml:id="Ps-035-024">T́oŕa et́kiń ḿeni rastlyɣyja
+							<milestone unit="line" n="14"/>ḱoŕa H Teńrim da bijańḿasińĺar dušmanlarym jamanyma ḿenim.
+						</l>
+						<l n="25" xml:id="Ps-035-025">Ajt-
+							<milestone unit="line" n="15"/>masynlar juŕakĺarińd́a bijańdi ǯanymyz ajtmasynlar čejpadyḥ any.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="26" xml:id="Ps-035-026">Ujatly bolgejlar da rusvaj bolgejlar bird́ań bijańuv́č́uĺar jamanyma
+							<milestone unit="line" n="17"/>qaplangejlar ujatny da iḿańč́ni ol ullu śoźĺav́č́uĺar üśt́u-
+							<milestone unit="line" n="18"/>ḿa.
+						</l>
+						<l n="27" xml:id="Ps-035-027">Vaĺe sarnagejlar da bijańgejĺar śuv́uv́č́uĺar rastlyɣymny da
+							<milestone unit="line" n="19"/>ajtḥejlar hamḿeša ulɣajgej H kĺav́č́u bazlyɣyn qulunun.
+						</l>
+						<milestone unit="line" n="20"/>
+						<l n="28" xml:id="Ps-035-028">Da tilim śoźĺasiń rastlyɣyjny har ḱuń maḥtavujnu.</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-035-fn1" type="footnote" anchored="true">Written as 
+							<emph>quvuvč́ularymnyn</emph>.
+						</note>
+						<note xml:id="Ps-035-fn2" type="footnote" anchored="true">Written as 
+							<emph>ḥorlavč́ularym</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

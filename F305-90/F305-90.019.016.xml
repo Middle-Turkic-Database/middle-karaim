@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 16</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 16</title>
+						<milestone unit="line" n="16" xml:id="Ps016-P259r-L16" prev="F305-90.019.015.xml#Ps015-P259r-L16"/>
+						<l xml:id="Ps-016-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">מִכְתָם לְדָוִד שָמְרֵינִי 
+							</foreign><anchor xml:id="Ps-016-add001" type="addSpan"/><foreign xml:lang="he" style="unicode-bidi: embed;">אֵל כִי חָסִיתִי בָךְ ׃ 
+							</foreign><addSpan spanTo="#Ps-016-add002" status="unremarkable"/>
+						</l>
+						<milestone unit="line" n="18"/>
+						<l n="1" xml:id="Ps-016-001">Abajly miźmor David́niń saqlaɣyn ḿeni e Teńri ki išanamyn saja.</l>
+						<milestone unit="line" n="19"/>
+						<l n="2" xml:id="Ps-016-002">Ajtamyn H-ɣa Teńrim śeń jaḥšy et́ḿa maja borč t́u-
+							<milestone unit="line" n="20"/>v́uĺd́ur saja.
+						</l>
+						<l n="3" xml:id="Ps-016-003">Aziźĺar üč́uń ki jerd́a alar da ḱuč́ĺuĺard́a
+							<milestone unit="line" n="21"/>bar kĺagim alarda.
+						</l>
+						<l n="4" xml:id="Ps-016-004">Artḥejlar qyjynlary alarnyn kimĺar öźǵa Teńriǵa
+							<milestone unit="page" n="259v"/>
+							<milestone unit="line" n="1"/>qalyn b́eŕadirĺar qujmagejmyn qujmaḥlaryn alarnyn qandan da almagejmyn š́emĺa-
+							<milestone unit="line" n="2"/>riń alarnyn erińĺarim üśt́uńa.
+						</l>
+						<l n="5" xml:id="Ps-016-005">H tijiši üĺuš́umńuń da
+							<milestone unit="line" n="3"/>qovušum śeń kiplejsiń ɣoralymny.
+						</l>
+						<l n="6" xml:id="Ps-016-006">Üĺušĺar t́ušt́uĺar üś-
+							<milestone unit="line" n="4"/>t́uḿa č́eb́arlikĺar byla hem üĺuš́um č́eb́ar boldu maja.
+						</l>
+						<l n="7" xml:id="Ps-016-007">Maḥtav
+							<milestone unit="line" n="5"/>b́eŕamiń H-ɣa ki jaḥšy keńaš́ keńaš́ et́ti maja hem keč́aĺar byla
+							<milestone unit="line" n="6"/>had́epĺadiĺar ḿeni b́uv́ŕakĺarim.
+						</l>
+						<l n="8" xml:id="Ps-016-008">Qojamyn bolušluɣun H-nyn qaršy-
+							<milestone unit="line" n="7"/>ma hamḿeš́a ki bolsa on janymdan tajmammyn.
+						</l>
+						<l n="9" xml:id="Ps-016-009">Anyn üč́uń bijańa-
+							<milestone unit="line" n="8"/>dir juŕagim da quvanadyr syjly ǯanym hem gufum toḥtar emińlik
+							<milestone unit="line" n="9"/>byla.
+						</l>
+						<l n="10" xml:id="Ps-016-010">Ki kemišḿadij ǯanymny ǵorǵa b́ermejsiń ḥasid́ kišija ḱorḿa
+							<milestone unit="line" n="10"/>ǯuɣurnu.
+						</l>
+						<l n="11" xml:id="Ps-016-011">Biĺdirgiń maja iziń t́erlikniń tojma bijańč́ĺard́ań qybla-
+							<milestone unit="line" n="11"/>laryj alnyna č́eb́arlikĺarińd́ań on qudratyjnyn öḿurǵa dejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

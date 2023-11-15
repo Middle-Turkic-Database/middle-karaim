@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 26</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 26</title>
+						<milestone unit="line" n="9" xml:id="Ps026-P265r-L9" prev="F305-90.019.025.xml#Ps025-P265r-L9"/>
+						<l n="1" xml:id="Ps-026-001">David́niń mizmor t́oŕa et́kiń ḿeni e H
+							<milestone unit="line" n="10"/>ki ḿeń t́uǵaĺligim byla jurujmin da H-ɣa išanamyn tajmammyn.
+						</l>
+						<l n="2" xml:id="Ps-026-002">Synaɣyn ḿeni
+							<milestone unit="line" n="11"/>e H da qajyrylɣyn maja syzɣyrɣyn b́uv́ŕakĺarimni da juŕagimni.
+						</l>
+						<l n="3" xml:id="Ps-026-003">Ki ševaɣatyj śeniń
+							<milestone unit="line" n="12"/>qaršysyna ḱoźĺarimniń da üŕujum kertiligij byla.
+						</l>
+						<l n="4" xml:id="Ps-026-004">Olturmadym jalɣan
+							<milestone unit="line" n="13"/>eĺ byla da jašyryn fikirli eĺ byla keĺḿadim.
+						</l>
+						<l n="5" xml:id="Ps-026-005">Ḥor et́tim ijiniń jaman
+							<milestone unit="line" n="14"/>et́uv́č́uĺarniń da rašaʿlar byla olturmadym.
+						</l>
+						<l n="6" xml:id="Ps-026-006">Juvamyn aruvluḥ byla
+							<milestone unit="line" n="15"/>uvučlarymny da quršejmyn mizbejaḥyjny e H.
+						</l>
+						<l n="7" xml:id="Ps-026-007">Ešit́tirḿa avaz byla š́u-
+							<milestone unit="line" n="16"/>ḱurĺuk da qotarma bar tamaša išĺarijni.
+						</l>
+						<l n="8" xml:id="Ps-026-008">E H śuv́amiń toḥtar ornuj-
+							<milestone unit="line" n="17"/>nu da ornun miškanynyn haševaɣajnyn
+							<ref n="1" target="#Ps-026-fn1" type="noteAnchor"/>.
+						</l>
+						<l n="9" xml:id="Ps-026-009">Yštyrmaɣyn jazyḥlylar byla ǯanymny
+							<milestone unit="line" n="18"/>da qanly išči eĺ byla t́erlikĺarimni.
+						</l>
+						<l n="10" xml:id="Ps-026-010">Ki qollarynda alarnyn jerińči
+							<milestone unit="line" n="19"/>iš́ da on qollary toludur šoḥaddan.
+						</l>
+						<l n="11" xml:id="Ps-026-011">Da ḿeń t́uǵaĺligim byla jurujmiń
+							<milestone unit="line" n="20"/>juluɣun ḿeni da ḥajyfsunɣun ḿeni.
+						</l>
+						<l n="12" xml:id="Ps-026-012">Ajaɣym turdu t́uźlukt́a jyjynlar
+							<milestone unit="line" n="21" xml:id="Ps026-P265r-L21" next="F305-90.019.027.xml#Ps027-P265r-L21"/>byla maḥtav b́eŕamiń H-ɣa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-026-fn1" type="footnote" anchored="true">It is probably the word of Arabic origin 
+							<emph>ševaɣat</emph>  ʻgloryʼ (KRPS 649), but in a rather unusual form.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

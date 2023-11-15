@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 1</title>
+						<milestone unit="page" n="254r"/>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Ps-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">תהלים ספר ראשון
+							</foreign>
+							<milestone unit="line" n="2"/><foreign xml:lang="he" style="unicode-bidi: embed;">אַשְרֵי	יום א
+							</foreign>
+							<milestone unit="line" n="3"/><foreign xml:lang="he" style="unicode-bidi: embed;">הָאִיש אֲשֶר לֺא הָלַך בַעֲצַת רְשָעִים
+							</foreign>
+							<milestone unit="line" n="4"/><foreign xml:lang="he" style="unicode-bidi: embed;">וּבְְדֶרֶךְ חַטָאִים לֺא עָמָד וּבְמוֺשַב
+							</foreign>
+							<milestone unit="line" n="5"/><foreign xml:lang="he" style="unicode-bidi: embed;">לֵצִים לֺא יָשָב ׃
+							</foreign>
+						</l>
+						<l n="1" xml:id="Ps-001-001">
+							<milestone unit="line" n="6"/>Sandyr ol kišiǵa ki barmasa keńasi byla rašaʿlarnyn
+							<milestone unit="line" n="7"/>da jolunda jazyḥlylarnyn turmasa da olturušun-
+							<milestone unit="line" n="8"/>da elikčiĺarniń olturmasa.
+						</l>
+						<l n="2" xml:id="Ps-001-002">Ki ančaḥ Torasyna H-nyn bolsa kĺagi
+							<milestone unit="line" n="9"/>anyn da Torasyn oḥusa anyn ḱuń da keč́a.
+						</l>
+						<l n="3" xml:id="Ps-001-003">Da bolur aɣač kibik ornatylɣan
+							<milestone unit="line" n="10"/>čyrlaḥ suvlar qatyna ki jemišiń b́erir vaḥtynda da japraɣy anyn upranmas-
+							<milestone unit="line" n="11"/>tyr da baryn ńeki qylsa onaryr.
+						</l>
+						<l n="4" xml:id="Ps-001-004">T́uv́uĺ alej ol rašaʿlar ki ančaḥ
+							<milestone unit="line" n="12"/>tozɣaḥny kibik ki tab́eŕadir any jel.
+						</l>
+						<l n="5" xml:id="Ps-001-005">Anyn üč́uń turalmaslar rašaʿlar
+							<milestone unit="line" n="13"/>t́oŕad́a da jazyḥlylar ǯymatynda cadiklarnyn.
+						</l>
+						<l n="6" xml:id="Ps-001-006">Ki śuv́adir H jolun rastlarnyn
+							<milestone unit="page" n="254v"/>
+							<milestone unit="line" n="1"/>vaĺe jolu rašaʿlarnyn taspolur.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

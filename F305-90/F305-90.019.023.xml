@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 23</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 23</title>
+						<milestone unit="line" n="2" xml:id="Ps023-P264r-L2" prev="F305-90.019.022.xml#Ps022-P264r-L2"/>
+						<l n="1" xml:id="Ps-023-001">
+							Miźmoru David́niń H ḱut́uv́č́um 
+							<milestone unit="line" n="3"/>eksik bolmammyn.
+						</l>
+						<l n="2" xml:id="Ps-023-002">Jaš č́eb́ar orunda jatyrɣyzdy ḿeni suvlar
+							<milestone unit="line" n="4"/>ašyra tynčlyḥ byla ḱońd́ardi ḿeni.
+						</l>
+						<l n="3" xml:id="Ps-023-003">Ǯanymny tynč et́ar ḱoń-
+							<milestone unit="line" n="5"/>d́arir ḿeni yzlary byla rastlyḥnyn šemi üč́uń.
+						</l>
+						<l n="4" xml:id="Ps-023-004">Daɣy ki üŕuśam
+							<milestone unit="line" n="6"/>tuman eniš́ĺard́a qorḥmammyn jamandan ki śenin bolušluɣuj bir-
+							<milestone unit="line" n="7"/>ǵaḿa Torej da micvalaryj alar uvutsunlar ḿeni.
+						</l>
+						<l n="5" xml:id="Ps-023-005">T́uźuǵuń alnym-
+							<milestone unit="line" n="8"/>da stol qaršysyna tar b́eŕuv́č́uĺarimniń b́eǵov́ŕat́kiń jav byla
+							<milestone unit="line" n="9"/>bašymny qovušum bolsun b́eǵovrejdoɣon.
+						</l>
+						<l n="6" xml:id="Ps-023-006">T́ek jaḥsylyḥ da ševaɣat
+							<milestone unit="line" n="10"/>quvsunlar ḿeni bar t́erlik ḱuńĺarimd́a da olturušum bolgej ju-
+							<milestone unit="line" n="11"/>v́uńd́a H-nyn uzaḥ ḱuńĺarǵa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

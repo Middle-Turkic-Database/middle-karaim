@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 11</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 11</title>
+						<milestone unit="line" n="10"/>
+						<l n="1" xml:id="Ps-011-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa David́niń miźmor H-ɣa išanamyn ńečik
+							<milestone unit="line" n="11"/>ajtasyz ǯanym üč́uń b́uŕalip ket́ḱań tavujuzdan kuš kibik.
+						</l>
+						<milestone unit="line" n="12"/>
+						<l n="2" xml:id="Ps-011-002">Ki muna ol rašaʿlar quradyrlar jaj t́uźujdirĺar oḥlaryn kiŕaš́
+							<milestone unit="line" n="13"/>üśt́uńa atma tumanda t́uź juŕakliĺarni.
+						</l>
+						<l n="3" xml:id="Ps-011-003">Ki ol avlar buzul-
+							<milestone unit="line" n="14"/>salar cadyq ńe qylar.
+						</l>
+						<l n="4" xml:id="Ps-011-004">H aziź hejḫalynda H-nyn ḱokĺard́a taḥty anyn
+							<milestone unit="line" n="15"/>ʿenajatlary qarejdyrlar hašɣaḥasy synejdyrlar adam ulanlaryn.
+						</l>
+						<l n="5" xml:id="Ps-011-005">H rastny
+							<milestone unit="line" n="16"/>synejdyr da rašaʿny da śuv́uv́č́uńu avanlyḥny ḥor et́ti kĺagi anyn.
+							<milestone unit="line" n="18"/>jel tijiš́ üĺuš́ĺari.
+						</l>
+						<l n="7" xml:id="Ps-011-007">Ki rastyr
+							<ref n="1" target="#Ps-011-fn1" type="noteAnchor"/> H rastlarny śuv́adir t́uš́ kišini
+							<milestone unit="line" n="19" xml:id="Ps011-P258r-L19" next="F305-90.019.012.xml#Ps012-P258r-L19"/>baɣadyrlar qyblalary anyn.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-011-fn1" type="footnote" anchored="true">A consonant is omitted, it should be 
+							<emph>rasttyr</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

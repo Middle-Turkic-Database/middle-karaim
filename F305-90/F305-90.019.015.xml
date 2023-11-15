@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 15</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 15</title>
+						<milestone unit="line" n="9" xml:id="Ps015-P259r-L9" prev="F305-90.019.014.xml#Ps014-P259r-L9"/>
+						<l n="1" xml:id="Ps-015-001">Miźmoru David́niń e H kim tirilir čatyrlaryjda
+							<milestone unit="line" n="10"/>kim toḥtajalyr aziź tavyjda.
+						</l>
+						<l n="2" xml:id="Ps-015-002">Anč́aḥ üŕuv́č́u t́uǵaĺlik byla da
+							<milestone unit="line" n="11"/>qyluvču rastlyḥny da śoźĺav́č́u kertini juŕagińd́a.
+						</l>
+						<l n="3" xml:id="Ps-015-003">Qammazlamasa
+							<milestone unit="line" n="12"/>tili byla qylmasa dostuna jamanny da  rusvajlyḥ ḱot́urḿaśa juvu-
+							<milestone unit="line" n="13"/>ɣu üśt́uńa.
+						</l>
+						<l n="4" xml:id="Ps-015-004">Ḥor ḱoŕuńśa ḱoźĺarińd́a öźuńuń da jerińči da qor-
+							<milestone unit="line" n="14"/>ḥuvčularyn H-nyn syjlasa ant́et́śa jaman et́ḿa öźuńa da alyštyr-
+							<milestone unit="line" n="15"/>masa śoźun.
+						</l>
+						<l n="5" xml:id="Ps-015-005">Ḱuḿuš́uń b́erḿaśa fajdaɣa da šoḥad ḱuńu
+							<ref n="1" target="#Ps-015-fn1" type="noteAnchor"/> üč́uń alma-
+							<milestone unit="line" n="16" xml:id="Ps015-P259r-L16" next="F305-90.019.016.xml#Ps016-P259r-L16"/>sa qyluvču bularny tajmastyr dunjaɣa dejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-015-fn1" type="footnote" anchored="true">It is written as 
+							<emph>ḱońu</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

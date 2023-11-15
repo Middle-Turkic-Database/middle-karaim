@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 6</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 6</title>
+						<milestone unit="line" n="12" xml:id="Ps006-P255v-L12" prev="F305-90.019.005.xml#Ps005-P255v-L12"/>
+						<l n="1" xml:id="Ps-006-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa čozmaḥlar byla
+							<milestone unit="line" n="13"/>ol śegiź ipli qobuz üśt́uńa miźmoru David́niń. E H ačuvuj
+							<milestone unit="line" n="14"/>byla  üǵut́ĺaḿagiń ḿeni da qaḥyryj byla had́epĺaḿagiń ḿeni.
+						</l>
+						<l n="2" xml:id="Ps-006-002">Ḥajyfsun-
+							<milestone unit="line" n="15"/>ɣun ḿeni e H ki kesiĺǵańdir ḿeń onɣaltḥyn ḿeni e H ki alhasan-
+							<milestone unit="line" n="16"/>dylar śuv́akĺarim.
+						</l>
+						<l n="3" xml:id="Ps-006-003">Da ǯanym alɣasandy astry da śeń e H qačanɣa
+							<milestone unit="line" n="17"/>dejiń ḥajyfsunmassyn.
+						</l>
+						<l n="4" xml:id="Ps-006-004">Qajtḥyn e H qutḥarɣyn ǯanymny jarlyɣašlaɣyn ḿeni
+							<milestone unit="line" n="18"/>ševaɣatyj üč́uń.
+						</l>
+						<l n="5" xml:id="Ps-006-005">Ki joḥtur öĺumd́a saɣynčyj ǵord́a kim š́uḱur
+							<milestone unit="line" n="19"/>et́ar saja.
+						</l>
+						<l n="6" xml:id="Ps-006-006">Jadadym kiśtunmaɣym byla čomamyn
+							<ref n="1" target="#Ps-006-fn1" type="noteAnchor"/> bar keč́ani t́oš́agim
+							<milestone unit="line" n="20"/>üśt́uńa jašym byla qrovatymny čirit́amiń.
+						</l>
+						<l n="7" xml:id="Ps-006-007">Tundu ačyrɣanmaḥtan
+							<milestone unit="line" n="21"/>ḱoźum qartajdy bar tar b́eŕuv́č́uĺarim üč́uń.
+						</l>
+						<l n="8" xml:id="Ps-006-008">Ketijiź ḿeńd́ań bar
+							<milestone unit="page" n="256r"/>
+							<milestone unit="line" n="1"/>qyluvčular avanlyḥny ki ešitti H avazyn jylamaɣymnyn.
+						</l>
+						<l n="9" xml:id="Ps-006-009">Ešitti H
+							<milestone unit="line" n="2"/>jalbarmaɣymny H tefilamny qabul et́ar.
+						</l>
+						<l n="10" xml:id="Ps-006-010">Ujatly bolurlar da alɣasanyr-
+							<milestone unit="line" n="3"/>lar astry bar dušmanlarym qajtyrlar ujatly bolurlar ḱoź jumčuɣuna.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-006-fn1" type="footnote" anchored="true">Written as 
+							<emph>č́omamyn</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

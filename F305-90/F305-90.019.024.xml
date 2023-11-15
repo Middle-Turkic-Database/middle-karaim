@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 24</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 24</title>
+						<milestone unit="line" n="12"/>
+						<l xml:id="Ps-024-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">סדר ליום ה
+							</foreign><milestone unit="line" n="13"/><foreign xml:lang="he" style="unicode-bidi: embed;">לְדָוִד מִזְמוֹר לַיהֹוָה הָאָרֶץ וּמְלוֹאָה תֵבֵל וְיֹשְבֵי בָה ׃
+						</foreign></l>
+						<milestone unit="line" n="14"/>
+						<l n="1" xml:id="Ps-024-001">David́niń miźmoru H-nyn ol jer da tolusu dunja da olturuv-
+							<milestone unit="line" n="15"/>čular anda.
+						</l>
+						<l n="2" xml:id="Ps-024-002">Ki ol t́eńgiźĺar üśt́uńa bunjat
+							<milestone unit="line" n="16"/>et́ti any da ol öźańĺar üśt́uńa t́uźud́u any.
+						</l>
+						<l n="3" xml:id="Ps-024-003">Kim baralyr tavyna
+							<milestone unit="line" n="17"/>H-nyn da kim turalyr aziź ornunda.
+						</l>
+						<l n="4" xml:id="Ps-024-004">Ančaḥ ḱuńu uvučlu da aruv ju-
+							<milestone unit="line" n="18"/>ŕakli ki išandyrmasa jalɣanɣa ǯanyn da ant́et́ḿaśa jalɣanɣa.
+						</l>
+						<l n="5" xml:id="Ps-024-005">Andyj
+							<milestone unit="line" n="19"/>kiši qabul et́ar alɣyš H-dan da rastlyḥ jarlyɣašly Teńrisińd́ań.
+						</l>
+						<l n="6" xml:id="Ps-024-006">Bu doru
+							<milestone unit="page" n="264v"/>
+							<milestone unit="line" n="1"/>iźĺav́č́uĺariniń qoluvčular qyblalaryjny Teńrisi Jaʿaqovnun hamḿeš́a.
+						</l>
+						<milestone unit="line" n="2"/>
+						<l n="7" xml:id="Ps-024-007">Ḱot́uŕujuź qabaḥlar bašlaryjyzny da ḱot́uŕuĺśuńĺar ešikĺari dun-
+							<milestone unit="line" n="3"/>janyn da keĺsiń ol syjly bij.
+						</l>
+						<l n="8" xml:id="Ps-024-008">Kim bu ol syjly bij H ḱuč́ĺu da
+							<milestone unit="line" n="4"/>baɣatyr H baɣatyr č́eriv́ jesisi.
+						</l>
+						<l n="9" xml:id="Ps-024-009">Ḱot́uŕujuź qabaḥlar bašlaryjyzny da
+							<milestone unit="line" n="5"/>da ḱot́uŕuĺśuńĺar ešikĺari dunjanyn da keĺsiń ol syjly bij.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="10" xml:id="Ps-024-010">Kim ol bu ol syjly bij H Teńrisi cevaʾotnun
+							<ref n="1" target="#Ps-024-fn1" type="noteAnchor"/> oldur ol syjly
+							<milestone unit="line" n="7" xml:id="Ps024-P264v-L7" next="F305-90.019.025.xml#Ps025-P264v-L7"/>bij hamḿeš́a.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-024-fn1" type="footnote" anchored="true">Word of Hebrew origin, meaning ʻarmy, hostsʼ (Klein 539).</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 13</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 13</title>
+						<milestone unit="line" n="10" xml:id="Ps013-P258v-L10" prev="F305-90.019.012.xml#Ps012-P258v-L10"/>
+						<l n="1" xml:id="Ps-013-001">Č́eb́ar avaz
+							<milestone unit="line" n="11"/>ḱot́uŕuv́č́uǵa miźmoru David́niń. Qacanɣa dejiń e H onutursun
+							<ref n="1" target="#Ps-013-fn1" type="noteAnchor"/>
+							<milestone unit="line" n="12"/>ḿeni öḿurǵa dejiń qacanɣa dejiń jašyryrsyn qyblalaryjny ḿeńd́ań.
+						</l>
+						<l n="2" xml:id="Ps-013-002">Qačan-
+							<milestone unit="line" n="13"/>ɣa dejiń qojarmyn keńašĺar ǯanymda qajɣy juŕagiḿa har ḱuń qačanɣa
+							<milestone unit="line" n="14"/>dejiń ḱot́uŕuĺur dušmanym üśt́uḿa.
+						</l>
+						<l n="3" xml:id="Ps-013-003">Baḥqyn qaruv b́ergiń maja
+							<milestone unit="line" n="15"/>H Teńrim jarytḥyn ḱoźĺarimni maɣat juqlarmyn
+							<ref n="2" target="#Ps-013-fn2" type="noteAnchor"/> öĺum juqusu byla.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="4" xml:id="Ps-013-004">Maɣat ajtyr dušmanym jeńdim any tar b́eŕuv́č́uĺarim quvanyrlar ki
+							<milestone unit="line" n="17"/>tajsam.
+						</l>
+						<l n="5" xml:id="Ps-013-005">Da ḿen ševaɣatyj byla išanamyn quvanadyr juŕagim jarlyɣašyj byla
+							<milestone unit="line" n="18"/>šira oḥurmyn H-ɣa ki jaḥšy t́oĺav t́oĺadi üśt́uḿa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-013-fn1" type="footnote" anchored="true">It should be 
+							<emph>unutursun</emph> instead.
+						</note>
+						<note xml:id="Ps-013-fn2" type="footnote" anchored="true">Written with 
+							<emph>kaf</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

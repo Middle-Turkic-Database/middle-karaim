@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 28</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 28</title>
+						<milestone unit="line" n="1" xml:id="Ps028-P266r-L1" prev="F305-90.019.027.xml#Ps027-P266r-L1"/>
+						<l n="1" xml:id="Ps-028-001">David́niń miźmor saja
+							<milestone unit="line" n="2"/>e H čaɣyramyn Jaratuvčum tyjylmaɣyn ḿeńd́ań maɣat tyjylsej ḿeńd́ań da
+							<milestone unit="line" n="3"/>t́eńaširmiń eńuv́č́uĺar byla ǵorǵa.
+						</l>
+						<l n="2" xml:id="Ps-028-002">Ešit́kiń avazyn jalbar-
+							<milestone unit="line" n="4"/>maḥlarymnyn jalbarɣanymda saja ḱot́urǵanimd́a qollarymny aziz debi-
+							<milestone unit="line" n="5"/>rija
+							<ref n="1" target="#Ps-028-fn1" type="noteAnchor"/>.
+						</l>
+						<l n="3" xml:id="Ps-028-003">Tartmaɣyn ḿeni rašaʿlar byla da qyluvčular byla avanlyḥny
+							<milestone unit="line" n="6"/>śoźĺav́č́uĺar bazlyḥny dostlary byla da jamanlyḥny saɣyš et́adirĺar
+							<milestone unit="line" n="7"/>ič́ĺarińd́a.
+						</l>
+						<l n="4" xml:id="Ps-028-004">B́ergiń alarɣa iš́ĺarińa ḱoŕa da ḱopĺuǵuńa ḱo-
+							<milestone unit="line" n="8"/>ŕa jaman iš́ĺariniń išińa ḱoŕa qollarynyn b́ergiń alarɣa qajttyr-
+							<milestone unit="line" n="9"/>ɣyn t́oĺav́ĺariń alarɣa.
+						</l>
+						<l n="5" xml:id="Ps-028-005">Ki anlamejdyrlar iš́ĺariń H-nyn da jaratmaɣyn
+							<milestone unit="line" n="10"/>qudratlarynyn buzar alarny qondarmast alarny.
+						</l>
+						<l n="6" xml:id="Ps-028-006">Maḥtavludur H ki
+							<milestone unit="line" n="11"/>ešit́ti avazyn jalbarmaḥlarymnyn.
+						</l>
+						<l n="7" xml:id="Ps-028-007">H ḱuč́um da qalqanym anar išana-
+							<milestone unit="line" n="12"/>dyr juŕagim da kipĺańamiń da quvanadyr juŕagim da širamdan š́uḱur et́a-
+							<milestone unit="line" n="13"/>miń anar.
+						</l>
+						<l n="8" xml:id="Ps-028-008">H kiplik ulusuna da kipligi jarlyɣašlarynyn śuŕt́uĺḿu-
+							<milestone unit="line" n="14"/>š́uńuń ol.
+						</l>
+						<l n="9" xml:id="Ps-028-009">Jarlyɣašlaɣyn ulusujnu da alɣyšlaɣyn üĺuš́ujńu
+							<milestone unit="line" n="15"/>da ḱut́ḱuń alarny da syjly et́kiń alarny dunjaɣa dejiń.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-028-fn1" type="footnote" anchored="true">This word has a Hebrew origin meaning ʻhindmost room, innermost part of the Templeʼ (Klein 113).</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

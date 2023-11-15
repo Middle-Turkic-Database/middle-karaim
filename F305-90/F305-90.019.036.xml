@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 36</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 36</title>
+						<milestone unit="page" n="270v"/>
+						<milestone unit="line" n="1"/>
+						<l n="1" xml:id="Ps-036-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa miźmor qulunun H-nyn David́ǵa. Alej
+							<milestone unit="line" n="2"/>ajtadyr fikirim ičimd́a ńe üč́uń jazyḥqa kiŕadir rašaʿ anyn
+							<milestone unit="line" n="3"/>üč́uń ki joḥtur qorḥuvu Teńriniń qaršysyna ḱoźĺariniń.
+						</l>
+						<l n="2" xml:id="Ps-036-002">Ki
+							<milestone unit="line" n="4"/>jylma et́adir anar öź ḱoźĺarińd́a tapma ǯurumun ḥor et́-
+							<milestone unit="line" n="5"/>ḿa any.
+						</l>
+						<l n="3" xml:id="Ps-036-003">Śoźĺari avzunun avanlyḥ da jaltajlyḥ qaldy anlamaḥtan
+							<milestone unit="line" n="6"/>jaḥšy et́ḿa.
+						</l>
+						<l n="4" xml:id="Ps-036-004">Avanlyḥny saɣyš et́adir t́oš́agi üśt́uńa
+							<milestone unit="line" n="7"/>turadyr jol üśt́uńa jaḥšy t́uv́uĺ jamanny ḥor et́mejdir.
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="5" xml:id="Ps-036-005">E H ḱokĺard́a ševaɣatyj inamlyɣyj śeniń qatlaryna dejiń ḱoḱĺar-
+							<milestone unit="line" n="9"/>niń.
+						</l>
+						<l n="6" xml:id="Ps-036-006">Rastlyɣyj śeniń ḱuč́ĺu tavlar kibik t́oŕaĺadij ullu darja
+							<milestone unit="line" n="10"/>kibik adamny jarlyɣašlejsyn da tuvarny juluv b́eŕasiń e H.
+						</l>
+						<l n="7" xml:id="Ps-036-007">Ńe abaj-
+							<milestone unit="line" n="11"/>ɣaḥajnyn syjynadyrlar.
+						</l>
+						<l n="8" xml:id="Ps-036-008">B́eǵov́rejdirĺar naḿetińd́ań juv́ujńuń da ašajyš
+							<milestone unit="line" n="12"/>öźańĺarijd́ań ičiŕasiń alarny.
+						</l>
+						<l n="9" xml:id="Ps-036-009">Ki birgeja čoɣaraɣy t́erlikniń jaryḥ-
+							<milestone unit="line" n="13"/>lyɣyj byla ḱorgejmiń jaryḥny.
+						</l>
+						<milestone unit="line" n="14"/>
+						<l n="10" xml:id="Ps-036-010">Uzartḥyn 
+							<addSpan spanTo="#Ps-036-add001" status="unremarkable"/>
+							<addSpan spanTo="#Ps-036-add001" status="unremarkable"/>rastlyɣyjny
+							<anchor xml:id="Ps-036-add001" type="addSpan"/>
+							<anchor xml:id="Ps-036-add002" type="addSpan"/> ševaɣatyjny
+							<milestone unit="line" n="15"/>biĺuv́č́uĺarija da rastlyɣyjny t́uź juŕakliĺarǵa.
+						</l>
+						<l n="11" xml:id="Ps-036-011">Keĺḿasiń maja
+							<milestone unit="line" n="16"/>ajaɣy ökt́am kišinin da qolu rašaʿlarnyn b́uŕaltḿasiń ḿeni.
+						</l>
+						<l n="12" xml:id="Ps-036-012">Anda t́uš́śuńĺar qyluvčular avanlyḥny tab́eriĺdiĺar da bolalma-
+							<milestone unit="line" n="17" xml:id="Ps036-P270v-L17" next="F305-90.019.037.xml#Ps037-P270v-L17"/>dylar turma.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

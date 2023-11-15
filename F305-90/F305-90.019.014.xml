@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 14</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 14</title>
+						<milestone unit="line" n="19"/>
+						<l n="1" xml:id="Ps-014-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa David́niń mizmor ajtty ńeḱaš juŕagiń-
+							<milestone unit="line" n="20"/>d́a joḥtur qorḥuvu Teńriniń čejpaldylar jerińči et́tiĺar
+							<milestone unit="page" n="259r"/>
+							<milestone unit="line" n="1"/>išni joḥtur qyluvču jaḥšyny.
+						</l>
+						<l n="2" xml:id="Ps-014-002">H ḱokĺard́ań baɣadyr adam ulanlary
+							<milestone unit="line" n="2"/>üśt́uńa ḱorḿa barmudur aqylly iźĺav́č́u Teńrini.
+						</l>
+						<l n="3" xml:id="Ps-014-003">Barysy qalp
+							<milestone unit="line" n="3"/>boldu bird́ań bolɣanystylar joḥtur qyluvču jaḥšyny joḥtur daɣy
+							<milestone unit="line" n="4"/>bird́a.
+						</l>
+						<l n="4" xml:id="Ps-014-004">Muna biĺmejdirĺarmo bar qyluvčular avanlyḥny ašavčular
+							<ref n="1" target="#Ps-014-fn1" type="noteAnchor"/>
+							<milestone unit="line" n="5"/>ulusumnu ašejdyrlar et́ḿakni H-ɣa čaɣyrmejdyrlar.
+						</l>
+						<l n="5" xml:id="Ps-014-005">Anda qor-
+							<milestone unit="line" n="6"/>ḥarlar qorḥuv ki Teńri bolur dorunda rastnyn.
+						</l>
+						<l n="6" xml:id="Ps-014-006">Keńašiń rastnyn
+							<milestone unit="line" n="7"/>ujatly et́asiź ki H išančy anyn.
+						</l>
+						<l n="7" xml:id="Ps-014-007">Kim b́erip Cijjonda jarlyɣašyn
+							<milestone unit="line" n="8"/>Jiśraʾeĺniń qajttyrɣanda H qajtuvun ulusunun quvanyr Jaʿaqov bijanir
+							<milestone unit="line" n="9" xml:id="Ps014-P259r-L9" next="F305-90.019.015.xml#Ps015-P259r-L9"/>Jiśraʾeĺ.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-014-fn1" type="footnote" anchored="true">Written as 
+							<emph>ašavč́ular</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

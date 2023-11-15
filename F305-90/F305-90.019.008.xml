@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 8</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 8</title>
+						<milestone unit="line" n="6"/>
+						<l n="1" xml:id="Ps-008-001">Č́eb́ar avaz ḱot́uŕuv́č́uǵa ol gittit üśt́uńa miźmoru David́niń.
+							<milestone unit="line" n="7"/>H Bijimiź ńe ḱuč́ĺud́ur šemij śeniń bar ol jerd́a ki b́erdij syjyjny
+							<milestone unit="line" n="8"/>ol ḱokĺar üśt́uńa.
+						</l>
+						<l n="2" xml:id="Ps-008-002">Ešitip maḥtav avzundan jaš ulanlarnyn da
+							<milestone unit="line" n="9"/>öḿuv́č́uĺarniń t́ošĺarniń bunjat et́tij torany tar b́eŕuv́č́uĺarij
+							<milestone unit="line" n="10"/>üč́uń eksit́ḿa dušmanny da öč́ aluvčunu.
+						</l>
+						<l n="3" xml:id="Ps-008-003">Ki ḱoŕamiń ḱokĺa-
+							<milestone unit="line" n="11"/>rijni jaratmaɣyn bujruḥlaryjnyn ajny da julduzlarny ki t́uźud́uj alarny.
+						</l>
+						<milestone unit="line" n="12"/>
+						<l n="4" xml:id="Ps-008-004">Ńedir kiši ki saɣynasyn any da adam uvlu ki esḱa alasyn any.</l>
+						<milestone unit="line" n="13"/>
+						<l n="5" xml:id="Ps-008-005">Da eksikŕak et́tij any azɣyna malʾaktan da syj da h́orḿat́ taǯladyj any.</l>
+						<milestone unit="line" n="14"/>
+						<l n="6" xml:id="Ps-008-006">Erkĺańdirdij any bar jaratmaɣynda qudratlaryjnyn barysyn qojduj erki
+							<milestone unit="line" n="15"/>t́uv́uńa.
+						</l>
+						<l n="7" xml:id="Ps-008-007">Qojnu da ullu tuvarlarny barlaryn daɣy kijikĺariń tarlarnyn
+							<ref n="1" target="#Ps-008-fn1" type="noteAnchor"/>.
+						</l>
+						<milestone unit="line" n="16"/>
+						<l n="8" xml:id="Ps-008-008">Qusun ḱokĺarniń da balyḥlaryn ol t́engiźniń ašuvčunu yzlary byla
+							<milestone unit="line" n="17"/>t́engiźĺarniń.
+						</l>
+						<l n="9" xml:id="Ps-008-009">H Bijimiź ńe ḱuč́ĺud́ur šemij śeniń bar ol jerd́a.</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-008-fn1" type="footnote" anchored="true">Probably a syllable is missing. Based on the original text, the equivalent of the word meaning ʻfield’ should be stand in this position, thus it should be 
+							<emph>tarlavlarnyn</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

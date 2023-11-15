@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Private archive</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Psalms 48</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Psalms 48</title>
+						<milestone unit="line" n="17" xml:id="Ps048-P277r-L17" prev="F305-90.019.047.xml#Ps047-P277r-L17"/>
+						<l n="1" xml:id="Ps-048-001">Šira
+							<milestone unit="line" n="18"/>da miźmor ulanlarynyn Qoraḥnyn. Ulludur H da maḥtalɣandyr astry
+							<milestone unit="line" n="19"/>šaharynda Teńrimiźniń aziź tavynda.
+						</l>
+						<l n="2" xml:id="Ps-048-002">Ḱorkĺu valajat bijańči bar ol
+							<milestone unit="line" n="20"/>jerniń tavy Cijjonnun qyryjlary cafonnun šahary ullu Bjniń.
+						</l>
+						<l n="3" xml:id="Ps-048-003">Teńri
+							<milestone unit="page" n="277v"/>
+							<milestone unit="line" n="1"/>sarajlarynda bilgilidir kiplikḱa.
+						</l>
+						<l n="4" xml:id="Ps-048-004">Ki muna ol bijĺar yštyryldy-
+							<milestone unit="line" n="2"/>lar aštylar bird́ań.
+						</l>
+						<l n="5" xml:id="Ps-048-005">Alar ḱord́uĺar alajoḥ tamaša et́tiĺar al-
+							<milestone unit="line" n="3"/>ɣasyndylar adadylar.
+						</l>
+						<l n="6" xml:id="Ps-048-006">Tit́ŕavik tuttu alarny anda syzlav t́orejdoɣon
+							<milestone unit="line" n="4"/>qatyn
+							<ref n="1" target="#Ps-048-fn1" type="noteAnchor"/> kibik.
+						</l>
+						<l n="7" xml:id="Ps-048-007">Jeli byla qadymnyn syndyrdyj 
+							<addSpan spanTo="#Ps-048-add001" status="unremarkable"/>
+							<addSpan spanTo="#Ps-048-add001" status="unremarkable"/>alarny
+							<anchor xml:id="Ps-048-add001" type="addSpan"/>
+							<anchor xml:id="Ps-048-add002" type="addSpan"/> ǵeŕab́ĺariń Taršišniń.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="8" xml:id="Ps-048-008">Ki ńečik ešit́tik alej ḱord́uk šaharynda Teńrimiźniń Teńri t́uźu-
+							<milestone unit="line" n="6"/>gej any dunjaɣa dejiń hamḿeš́a.
+						</l>
+						<l n="9" xml:id="Ps-048-009">Išanabyz e Teńri ševaɣatyja orta-
+							<milestone unit="line" n="7"/>synda sarajyjnyn.
+						</l>
+						<l n="10" xml:id="Ps-048-010">Ńečik šemij śeniń e Teńri alej maḥtavyj qyryjlary
+							<milestone unit="line" n="8"/>üśt́uńa jerniń rastlyḥ toludur on ḱuč́uj śeniń.
+						</l>
+						<l n="11" xml:id="Ps-048-011">Bijanir tavy Cijjon-
+							<milestone unit="line" n="9"/>nun quvanyrlar ǯymaty Juhudanyn t́oŕaĺarij üč́uń śeniń.
+						</l>
+						<l n="12" xml:id="Ps-048-012">Ajlanyjyz
+							<milestone unit="line" n="10"/>Cijjonɣa da quršajyz any sanajyz kerḿańĺariń anyn.
+						</l>
+						<l n="13" xml:id="Ps-048-013">Qojujuz čalmanyna
+							<milestone unit="line" n="11"/>bijik etijiź sarajlaryn anyn üč́uń ki jomaḥlagejlar sondraɣy dorɣa.
+						</l>
+						<milestone unit="line" n="12"/>
+						<l n="14" xml:id="Ps-048-014">Ki bu Teńri Teńrimiź dunjaɣa dejiń ol ḱońd́arir biźni öĺǵuńč́a.
+							<milestone unit="line" n="13"/><foreign xml:lang="he" style="unicode-bidi: embed;">כִי זֶה אֱלֹהִים אֱלֹהֵינוּ עוֹלָם וָעֶד הוּא יְנַהֲגֵנוּ עַל מוּת ׃
+						</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ps-048-fn1" type="footnote" anchored="true">Written as 
+							<emph>katyn</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
