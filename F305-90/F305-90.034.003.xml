@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Nahum 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Nahum 3</title>
+						<milestone unit="line" n="10"/>
+						<l xml:id="Nah-003-x001">
+							<foreign xml:lang="he" style="unicode-bidi: embed;">ג</foreign>
+						</l>
+						<l n="1" xml:id="Nah-003-001">Hoj qanly iš́
+							<supplied reason="lost">l</supplied>i
+							<ref n="1" target="#Nah-003-fn1" type="noteAnchor"/> šahar barysy jazyḥtan da qynɣyrlyḥtan tolɣan ket́ḿaśtir
+							<milestone unit="line" n="11"/>andan jyrtuv.
+						</l>
+						<l n="2" xml:id="Nah-003-002">Avazy qamčunun da avazy vurulmaɣynyn ḱupč́akniń da
+							<milestone unit="line" n="12"/>at kiš́ńejdoɣon da markav śekiŕǵaĺejdoɣon.
+						</l>
+						<l n="3" xml:id="Nah-003-003">Jalan atlyny keĺtirirmiń da ḱot́u-
+							<milestone unit="line" n="13"/>ŕuĺur ol jalan atly da jalynlar qylyč da biĺańǵań śuńǵu da ḱop qyran da avur
+							<milestone unit="line" n="14"/>ǵov́d́a da bolmast uč ǵov́d́aǵa śuŕuńurĺar ǵov́d́aĺari byla.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="4" xml:id="Nah-003-004">Ḱopĺuǵuńd́ań azmaḥlarynyn azuvčunun jaḥšylyɣy byla širińligijniń ǯaduv-
+							<milestone unit="line" n="16"/>luḥ jesisiniń ol satuvču ḥanlyḥlarny azmaḥlary byla da uruvlarny
+							<milestone unit="line" n="17"/>ǯaduvluḥlary byla.
+						</l>
+						<l n="5" xml:id="Nah-003-005">Muna ḿeń saja alej ajtty H T́eńrisi č́evaʾotnun
+							<milestone unit="line" n="18"/>da ačarmyn ėt́akĺarijni alnyjda śeniń da ḱorǵuźurmiń ḥanlyḥlarɣa ajybyjny
+							<milestone unit="line" n="19"/>da bijlikĺarǵa jeńgiĺligijni.
+						</l>
+						<l n="6" xml:id="Nah-003-006">Da tašlarmyn üśt́uja jerińči abaḥlaryjny
+							<milestone unit="line" n="20"/>da čejparmyn śeni da qojarmyn śeni jerińčilikni kibik.
+						</l>
+						<l n="7" xml:id="Nah-003-007">Da bolur bar ḱoŕuv́č́u-
+							<milestone unit="line" n="21"/>ĺarij b́uŕalir śeńd́ań da ajtyr talandy Nińev́e kim juvatyr any qajdan iźĺajim
+							<milestone unit="page" n="231r"/>
+							<milestone unit="line" n="1"/>uvutuvčular saja.
+						</l>
+						<l n="8" xml:id="Nah-003-008">Jaḥšyraḥmusyn Aĺeksandrijadan ol olturɣuzulɣan
+							<milestone unit="line" n="2"/>niĺĺard́a suvlar č́uv́ŕa anar ki kipligi anyn t́eńgiź t́eńgiźd́ań qalasy
+							<milestone unit="line" n="3"/>anyn.
+						</l>
+						<l n="9" xml:id="Nah-003-009">Kuš da Mićri ḱuč́ajt́tiĺar any da joɣedi uč Fut da Luvim ėdiĺar
+							<milestone unit="line" n="4"/>bolušluɣujda.
+						</l>
+						<l n="10" xml:id="Nah-003-010">Daɣy oldy olǯaɣa baryr jesirlik byla daɣy jaš ulanlary
+							<milestone unit="line" n="5"/>taslanyrlar bašynda bar oramlarnyn da syjlylary üśt́uńa saldylar goral
+							<milestone unit="line" n="6"/>da bar aɣaraḥlary bavlandylar t́emir buɣovlar byla.
+						</l>
+						<l n="11" xml:id="Nah-003-011">Daɣy śeń ėsirirsiń bo-
+							<milestone unit="line" n="7"/>lursun t́eńt́ak daɣy śeńd́a iźĺarsiń kiplik dušmandan.
+						</l>
+						<l n="12" xml:id="Nah-003-012">Bar b́ek kerḿańĺa-
+							<milestone unit="line" n="8"/>rij ińǯirlikĺar ėtiĺǵańĺar byla ėger qozɣalsalar da t́uš́arĺar avzuna
+							<milestone unit="line" n="9"/>ašavčunun.
+						</l>
+						<l n="13" xml:id="Nah-003-013">Muna ulusuj ḥal⟨l⟩ašlar bolurlar ortejda dušmanlaryja
+							<milestone unit="line" n="10"/>ačylma ačylyrlar qabaḥlary jerijniń ört́ar ot b́ekĺav́uč́ĺarijni.
+						</l>
+						<l n="14" xml:id="Nah-003-014">Suv-
+							<milestone unit="line" n="11"/>laryn Mićriniń śuźǵuń öźuja kipĺagiń b́eklikĺarijni keĺgiń balčyḥqa da
+							<milestone unit="line" n="12"/>basḥyn any kiŕač́ byla kipĺagiń ḱuv́d́uŕadoɣon ornun balčyḥnyn.
+						</l>
+						<l n="15" xml:id="Nah-003-015">Anda
+							<milestone unit="line" n="13"/>ört́ar śeni ot keśar śeni qylyč tavusur śeni jeĺeq č́eǵart́ḱa kibik
+							<milestone unit="line" n="14"/>ḱopt́a bolsej jeĺeq č́eǵart́ḱa kibik ḱopt́a bol⟨e⟩sej arb́e č́eǵart́ḱa
+							<milestone unit="line" n="15"/>kibik.
+						</l>
+						<l n="16" xml:id="Nah-003-016">Ḱopŕak ėt́tij b́eźarǵańĺarijni artyḥ julduzlaryndan ol ḱokĺarniń
+							<milestone unit="line" n="16"/>jeĺeq č́eǵart́⟨a⟩ḱa kibik jajyldy da učtu.
+						</l>
+						<l n="17" xml:id="Nah-003-017">Syjlylaryj č́eǵart́ḱaĺar kibik da aɣalyḥ-
+							<milestone unit="line" n="17"/>laryj polqu kibik č́eǵart́ḱaĺarniń ol toḥtavčular tišikĺard́a suvuḥ
+							<milestone unit="line" n="18"/>ḱuńd́a qujaš balqysa da b́uŕaĺadir da biĺḿejdir ornun qajda ėdiĺar.
+						</l>
+						<l n="18" xml:id="Nah-003-018">Čy-
+							<milestone unit="line" n="19"/>rym ėt́tiĺar ḱut́uv́č́uĺarij biji ʾAšurnun toḥtarlar qyjasa źeŕat́t́a
+							<milestone unit="line" n="20"/>ḱuč́ĺuĺarij jajyldylar ulusuj ol tavlar üśt́uńa da joḥtur yštyruvču.
+						</l>
+						<milestone unit="line" n="21"/>
+						<l n="19" xml:id="Nah-003-019">Joḥtur onɣalmaḥ synyḥlyɣyja ḥastalyḥlydyr qaranjej bar ėšit́uv́č́uĺar śeniń
+							<milestone unit="page" n="231v"/>
+							<milestone unit="line" n="1"/>ḥabaryjny qaɣarlar uvuč üśt́uja ki kim üśt́uńa ašmady jamanlyɣyj ham-
+							<milestone unit="line" n="2"/>ḿeśa. 
+							<foreign xml:lang="he" style="unicode-bidi: embed;">אֵין כֵהָה לְשִבְרֶךָ נַחְלָה מַכָתֶךָ כֹל שֹמְעֵי שִמְעֲךָ</foreign>
+							<milestone unit="line" n="3"/><foreign xml:lang="he" style="unicode-bidi: embed;">תָקְעוּ כַף עָלֶיך כִי עַל מִי לֹא עָבְרָה רָעָתְךָ תָמִיד</foreign>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Nah-003-fn1" type="footnote" anchored="true">F305-90: spelled 
+							<emph>iš́či</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
