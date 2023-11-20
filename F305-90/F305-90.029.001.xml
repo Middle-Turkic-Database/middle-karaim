@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joel 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joel 1</title>
+						<milestone unit="line" n="13"/>
+						<l xml:id="Joel-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">יואל א
+							</foreign><milestone unit="line" n="14"/><foreign xml:lang="he" style="unicode-bidi: embed;">דְבַר יְהֹוָה אֶשֶר הָיָה אֶל יוֹאֵל בֶן פְתוּאֵל</foreign>
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="1" xml:id="Joel-001-001">Śoźu H-nyn ki ėdi Joʾeĺǵa uvluna Ṕetuʾeĺniń.</l>
+						<l n="2" xml:id="Joel-001-002">Tynlajyz
+							<milestone unit="line" n="16"/>bunu ol qartlar da qulaḥ salyjyz bar olturuvčulary
+							<milestone unit="page" n="211v"/>
+							<milestone unit="line" n="1"/>ol jerniń boldumo bu ḱuńĺarijiźd́a h́em ḱuńĺarińd́a atalaryjyznyn.
+						</l>
+						<l n="3" xml:id="Joel-001-003">Anyn
+							<milestone unit="line" n="2"/>üč́uń ulanlaryjyzɣa jomaḥlajyz da ulanla
+							<supplied reason="lost">ry</supplied>jyz
+							<ref n="1" target="#Joel-001-fn1" type="noteAnchor"/> jomaḥlasynlar ulanlaryna da
+							<milestone unit="line" n="3"/>ulanlary alarnyn sondraɣy dorɣa.
+						</l>
+						<l n="4" xml:id="Joel-001-004">Qalɣanyn ol gazam č́eǵart́ḱaniń ašady
+							<milestone unit="line" n="4"/>ol arb́e
+							<ref n="2" target="#Joel-001-fn2" type="noteAnchor"/> č́eǵart́ḱa da qalɣanyn ol arb́e č́eǵart́ḱaniń ašady ol jeĺeq
+							<milestone unit="line" n="5"/>č́eǵart́ḱa da qaldyɣyn ol jeĺeq č́eǵart́ḱaniń ašady ol ḥasiĺ č́eǵart́ḱa.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="5" xml:id="Joel-001-005">Ojanyjyz ėsirǵańĺari galutnun da t́uv́uĺ vinanyn da jilajyz da syjyt ėtijiź
+							<milestone unit="line" n="7"/>bar oḥuvčular Torany Tora üč́uń ki ėksiĺdi avzujuzdan.
+						</l>
+						<l n="6" xml:id="Joel-001-006">Ki
+							<milestone unit="line" n="8"/>ḥanlyḥ ḱot́uŕuĺd́u jerim üśt́uńa ḱuč́ĺu da joḥtur san tiš́ĺari anyn
+							<milestone unit="line" n="9"/>tiš́ĺari kibik aryslannyn da azav tiš́ĺari aryslanqanyn kibik anar.
+						</l>
+						<l n="7" xml:id="Joel-001-007">Qojdu
+							<milestone unit="line" n="10"/>borlalyɣymny adamaḥqa da ińǯirligimni ačmaḥqa ačma ačty da ta
+							<supplied reason="lost">š</supplied>lady
+							<ref n="3" target="#Joel-001-fn3" type="noteAnchor"/>
+							<milestone unit="line" n="11"/>aɣardylar butaḥlary.
+						</l>
+						<l n="8" xml:id="Joel-001-008">Syjyt ėt́kiń boj qyz kibik bajlanɣyn kijiź jaštaɣy
+							<milestone unit="line" n="12"/>ėrij üč́uń.
+						</l>
+						<l n="9" xml:id="Joel-001-009">Ėksiĺdi tirki da ńeśeḫ juv́uńd́ań H-nyn jasly boldular
+							<milestone unit="line" n="13"/>ol koheńĺar jumuščulary H-nyn.
+						</l>
+						<l n="10" xml:id="Joel-001-010">Talandy t́uź jasly boldu jer ki talandy
+							<milestone unit="line" n="14"/>b́urt́uk qurudu šarb́et́ kesiĺdi saj.
+						</l>
+						<l n="11" xml:id="Joel-001-011">Ujatly bolujuz sabančylar syjyt
+							<milestone unit="line" n="15"/>ėtijiź baḥča iš́ĺav́č́uĺar budaj üč́uń da arpa üč́uń ki taspoldu
+							<milestone unit="line" n="16"/>oraḥ t́uźd́ań.
+						</l>
+						<l n="12" xml:id="Joel-001-012">Ol borlalyḥ qurudu da ol ińǯirlik kesiĺdi narlyḥ
+							<milestone unit="line" n="17"/>daɣy ḥurma t́eŕagi da almalyḥ bar aɣačlary ol t́uźńuń qurudular ki
+							<milestone unit="line" n="18"/>ket́ti bijańč́ ulanlaryndan Jiśraʾeĺniń.
+						</l>
+						<l n="13" xml:id="Joel-001-013">Bajlanyjyz kijiźĺar da syjyt ėtijiź ol
+							<milestone unit="line" n="19"/>koheńĺar jilajyz jumuščulary miźb́eaḥnyn kelijiź qonujuz kijiźĺar byla jumuš-
+							<milestone unit="line" n="20"/>čulary T́eńrimniń ki ajaldy juv́uńd́ań T́eńrijiźniń tirki da ńeśeḫ.
+						</l>
+						<l n="14" xml:id="Joel-001-014">Hadir-
+							<milestone unit="line" n="21"/>ĺajiź oruč čaɣyryjyz yštyrylmaḥ yštyryjyz qartlarny bar olturuvčularyn
+							<milestone unit="page" n="212r"/>
+							<milestone unit="line" n="1"/>ol jerniń juv́uńa H-nyn T́eńrijiźniń da firjat ėt́sińĺar H-ɣa.
+						</l>
+						<l n="15" xml:id="Joel-001-015">Aha jarɣu
+							<milestone unit="line" n="2"/>ḱuń ki juvuḥtur jarɣu ḱuńu H-nyn da talav kibik ḱuč́ĺu T́eńrid́ań kelir.
+						</l>
+						<milestone unit="line" n="3"/>
+						<l n="16" xml:id="Joel-001-016">T́uv́uĺḿo ḱoźĺarimiźč́a b́urt́uk ėksiĺdi juv́uńd́ań T́eńrimiźniń
+							<milestone unit="line" n="4"/>bijańč́ da šatyrlyḥ.
+						</l>
+						<l n="17" xml:id="Joel-001-017">Čiridiĺar b́urt́ukĺari balčyḥlary t́ub́uńa v́eŕań
+							<milestone unit="line" n="5"/>boldular ḥaznalar buzuldular qujɣan orunlarynda ki qurudu b́urt́uk.
+						</l>
+						<milestone unit="line" n="6"/>
+						<l n="18" xml:id="Joel-001-018">Ńe kiśtunasyn tuvar azaštylar b́uĺakĺari syɣyrnyn ki joḥtur ḱut́uv́
+							<milestone unit="line" n="7"/>alarɣa daɣy b́uĺakčiĺari ol qojnun v́eŕań boldular.
+						</l>
+						<l n="19" xml:id="Joel-001-019">Saja ėj H čaɣyramyn
+							<milestone unit="line" n="8"/>ki ot ört́adi č́eb́ar orunlaryn midbarnyn da jalyn jalynlady bar aɣačlaryn
+							<milestone unit="line" n="9"/>ol t́uźńuń.
+						</l>
+						<l n="20" xml:id="Joel-001-020">Daɣy tuvarlary t́uźńuń taryɣadyr saja ki qurudular čyr-
+							<milestone unit="line" n="10" xml:id="Joel001-P212r-L10" next="F305-90.029.002.xml#Joel002-P212r-L10"/>laḥ suvlar da ot ört́adi č́eb́ar orunlaryn midbarnyn.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Joel-001-fn1" type="footnote" anchored="true">F305-90: spelled 
+							<emph>ulanlajyz</emph>; a scribal error.
+						</note>
+						<note xml:id="Joel-001-fn2" type="footnote" anchored="true">Heb. 
+							<foreign xml:lang="he" style="unicode-bidi: embed;">אַרְבֶּה</foreign> 
+							‘locust’.</note>
+						<note xml:id="Joel-001-fn3" type="footnote" anchored="true">F305-90: spelled 
+							<emph>taslady</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joel 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joel 3</title>
+						<milestone unit="line" n="20" xml:id="Joel003-P213r-L20" prev="F305-90.029.002.xml#Joel002-P213r-L20"/>
+						<l xml:id="Joel-003-x001">
+							<foreign xml:lang="he" style="unicode-bidi: embed;">ג</foreign>
+						</l>
+						<l n="1" xml:id="Joel-003-001">Da bolur andan sortun
+							<milestone unit="line" n="21"/>qujarmyn alh́emimni bar t́eń üśt́uńa da navilik ėt́arĺar ulanlaryjyz
+							<milestone unit="page" n="213v"/>
+							<milestone unit="line" n="1"/>da qyzlaryjyz qartlaryjyz t́uš́ĺatirĺar t́uš́ĺar igit́ĺarijiź ḱoŕumĺar ḱo-
+							<milestone unit="line" n="2"/>ŕarĺar.
+						</l>
+						<l n="2" xml:id="Joel-003-002">Da daɣy ol qullar üśt́uńa da ol qaravašlar üśt́uńa ol vaḥt-
+							<milestone unit="line" n="3"/>larda qujarmyn alh́emimni.
+						</l>
+						<l n="3" xml:id="Joel-003-003">Da b́erirmiń nišanlar ḱokĺard́a da jerd́a qan da ot
+							<milestone unit="line" n="4"/>da baɣanalary t́ut́uńńuń.
+						</l>
+						<l n="4" xml:id="Joel-003-004">Ol qujaš ajlanyr qaranɣylyḥqa da ol aj qanɣa
+							<milestone unit="line" n="5"/>burun keĺḿaśt́ań jarɣu ḱuńu H-nyn ol ullu da ol qorḥunčlu.
+						</l>
+						<l n="5" xml:id="Joel-003-005">Da
+							<milestone unit="line" n="6"/>bolur bary kim ki čaɣyrsa šemińa H-nyn qutulur ki tavynda Čijonnun da
+							<milestone unit="line" n="7"/>Jerušalajimniń bolur qutulmaḥ ki ńečik ajtty H da qalɣanlarda qajsy
+							<milestone unit="line" n="8" xml:id="Joel003-P213v-L8" next="F305-90.029.004.xml#Joel004-P213v-L8"/>šemińa H-nyn čaɣyrsa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
