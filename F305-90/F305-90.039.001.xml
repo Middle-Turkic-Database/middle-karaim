@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Malachi 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Malachi 1</title>
+						<milestone unit="page" n="249v"/>
+						<milestone unit="line" n="1"/>
+						<l xml:id="Mal-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">מלאכי א
+							</foreign><milestone unit="line" n="2"/><foreign xml:lang="he" style="unicode-bidi: embed;">מַשָא דְבַר יְהֹוָה אֶל יִשְרָאֵל בְיַד מַלְאָכִי
+						</foreign></l>
+						<milestone unit="line" n="3"/>
+						<l n="1" xml:id="Mal-001-001">Navilik śoźu H-nyn Jiśraʾeĺ üč́uń qolu ašyra
+							<milestone unit="line" n="4"/>Malʾaḫiniń.
+						</l>
+						<l n="2" xml:id="Mal-001-002">Śuv́d́um siźni ajtty H da ajtasyz
+							<milestone unit="line" n="5"/>ńe byla śuv́d́uj biźni t́uv́uĺḿo qarandaš ʿĖsav Jaʿaqovɣa alej
+							<milestone unit="line" n="6"/>ajtty H da śuv́d́um Jaʿaqovnu.
+						</l>
+						<l n="3" xml:id="Mal-001-003">Da ʿĖsavny ḥor ėt́tim da qojdum tavlaryn
+							<milestone unit="line" n="7"/>v́eŕań da üĺuš́uń azdaɣalarɣa midbarda.
+						</l>
+						<l n="4" xml:id="Mal-001-004">Ajtsada ʾĖdom jarlylandym da
+							<milestone unit="line" n="8"/>qajtyrbyz da qondaryrbyz v́eŕań bolɣan orunlarny bolej ⟨alej⟩
+							<ref n="1" target="#Mal-001-fn1" type="noteAnchor"/> ajtty Jehova
+							<milestone unit="line" n="9"/>jaratuvču č́eriv́ĺarniń alar qondaryrlar da ḿeń buzarmyn da atarlar alar-
+							<milestone unit="line" n="10"/>ɣa č́egi qynɣyrlyḥnyn da ol ulus ki ḥor ėt́ti any H dunjaɣa d́ejiń.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="5" xml:id="Mal-001-005">Da ḱoźĺarijiź ḱoŕarĺar da siź ajtyrsyz ulɣajdy H č́egi üśt́uńa
+							<milestone unit="line" n="12"/>Jiśraʾeĺniń.
+						</l>
+						<l n="6" xml:id="Mal-001-006">Uvul syjlejdyr atany da qul bijiń da ėger ata ėśa
+							<milestone unit="line" n="13"/>ḿeń qajdadyr syjym da ėger bij ėśa ḿeń qajdadyr qorḥuvum ajtty
+							<milestone unit="line" n="14"/>H č́evaʾot siźǵa ol koheńĺar ḥorlavčular šemimni da ajtasyz ńe byla
+							<milestone unit="line" n="15"/>ḥorladyḥ šemijni.
+						</l>
+						<l n="7" xml:id="Mal-001-007">Juvutasyz miźb́eaḥym üśt́uńa byrčlanɣan ėt́ḿak
+							<milestone unit="line" n="16"/>da ajtasyz ńe byla byrčladyḥ śeni ajtḥanyjyzda stolu H-nyn ḥorlan-
+							<milestone unit="line" n="17"/>ɣandyr ol.
+						</l>
+						<l n="8" xml:id="Mal-001-008">Da ki juvutsejyz soqurnu d́eb́eḥa ėt́ḿa t́uv́uĺḿo jaman
+							<milestone unit="line" n="18"/>da ki juvutsalar aḥsaḥny da ḥastany t́uv́uĺḿo jaman juvutujuz ėńdi any
+							<milestone unit="page" n="250r"/>
+							<milestone unit="line" n="1"/>aɣalyɣyja qabul ėt́armo any h́em juź ėt́armo juźĺarija ajtty Jehova
+							<milestone unit="line" n="2"/>T́eńrisi č́evaʾotnun.
+						</l>
+						<l n="9" xml:id="Mal-001-009">Da haĺegińa qolujuz ėńdi qyblalaryn T́eńriniń šeḿa
+							<milestone unit="line" n="3"/>ḥajyfsunur biźni qolujuzdan bu juź ėt́armo siźǵa juźĺarǵa ajt-
+							<milestone unit="line" n="4"/>ty H T́eńrisi č́eriv́ĺarniń.
+						</l>
+						<l n="10" xml:id="Mal-001-010">Kim daɣy siźd́ań da b́ekĺasiń ėšikĺarni jandyr-
+							<milestone unit="line" n="5"/>masḥa ot miźb́eaḥym
+							<supplied reason="lost">da</supplied>
+							<ref n="2" target="#Mal-001-fn2" type="noteAnchor"/> muft joḥtur kĺagim ḿenim siźd́a ajtty H
+							<milestone unit="line" n="6"/>č́evaʾot da tirkini qolujuzdan qabul ėt́ḿammiń.
+						</l>
+						<l n="11" xml:id="Mal-001-011">Ki qujaš balquvundan
+							<milestone unit="line" n="7"/>ėńuv́uńa d́ejiń ulludur šemim ḥanlyḥlarda da bar orunda t́ut́u juvu-
+							<milestone unit="line" n="8"/>tulɣan šemiḿa da aruv tirki ki ulludur šemim ḥanlyḥlarda ajtty
+							<milestone unit="line" n="9"/>H T́eńrisi č́eriv́ĺarniń.
+						</l>
+						<l n="12" xml:id="Mal-001-012">Da siź jeńgiĺ ėt́asiź syjymny ajtḥanyjyzda stolu
+							<milestone unit="line" n="10"/>H-nyn byrčlanɣan ol da śoźu koheńniń jerińčidir ḥorlanɣan qarbany anyn.
+						</l>
+						<milestone unit="line" n="11"/>
+						<l n="13" xml:id="Mal-001-013">Da ajtasyz muna jadamaḥ da tašlejsyz any ajtty H č́evaʾot da keĺtiŕasiź
+							<milestone unit="line" n="12"/>talaɣanny da aḥsaḥny da ol ḥastany da keĺtiŕasiź ol 
+							<supplied reason="lost">ti</supplied>rkini
+							<ref n="3" target="#Mal-001-fn3" type="noteAnchor"/> qabul ėt́ar-
+							<milestone unit="line" n="13"/>
+							<supplied reason="lost">ḿońḿo</supplied>
+							<ref n="4" target="#Mal-001-fn4" type="noteAnchor"/> any qolujuzdan ajtty H.
+						</l>
+						<l n="14" xml:id="Mal-001-014">Da qarɣyšlydyr qyzɣanuvču da baŕeśa b́u-
+							<milestone unit="line" n="14"/>ĺagińd́a ėrḱak da nijet́ ėt́adir da d́eb́eḥa ėt́adir čejpalɣan ajyplyny
+							<milestone unit="line" n="15"/>H-ɣa ki ullu bij ḿeń ajtty H T́eńrisi č́evaʾotnun da šemim qorḥunč-
+							<milestone unit="line" n="16" xml:id="Mal001-P250r-L16" next="F305-90.039.002.xml#Mal002-P250r-L16"/>ludur ḥanlyḥlar arasyna.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Mal-001-fn1" type="footnote" anchored="true">F305-90: the copyist has surrounded the word with a circle to indicate that it was written by mistake.</note>
+						<note xml:id="Mal-001-fn2" type="footnote" anchored="true">F305-90: spelled 
+							<emph>miźb́eaḥymd́a</emph>; a scribal error.
+						</note>
+						<note xml:id="Mal-001-fn3" type="footnote" anchored="true">F305-90: spelled 
+							<emph>t́erkini</emph>; a scribal error.
+						</note>
+						<note xml:id="Mal-001-fn4" type="footnote" anchored="true">F305-90: spelled 
+							<emph>ėt́armonmo</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
