@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Hosea 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Hosea 3</title>
+						<milestone unit="line" n="18" xml:id="Hos003-P203v-L18" prev="F305-90.028.002.xml#Hos002-P203v-L18"/>
+						<l xml:id="Hos-003-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">ג</foreign></l>
+						<milestone unit="line" n="19"/>
+						<l n="1" xml:id="Hos-003-001">Da ajtty Jehova maja hanuz barɣyn śuv́ǵuń qatyn śuv́arli-
+							<milestone unit="line" n="20"/>giń dostluḥnun da noʾeflik ėt́uv́č́uńuń
+							<milestone unit="line" n="21"/>śuv́ǵańĺej H ulanlaryn Jiśraʾeĺniń da alar qajyryladyrlar öźǵa T́eńriĺarǵa
+							<milestone unit="page" n="204r"/>
+							<milestone unit="line" n="1"/>da śuv́uv́č́uĺar flešḱaĺariń borlalarnyn.
+						</l>
+						<l n="2" xml:id="Hos-003-002">Da satyn aldym any öźuḿa
+							<milestone unit="line" n="2"/>on b́eš́ ḱuḿuš́ḱa da ḥoḿer arpalarɣa da ĺet́ek arpalarɣa.
+						</l>
+						<l n="3" xml:id="Hos-003-003">Da ajttym
+							<milestone unit="line" n="3"/>anar ḱop ḱuńĺar öĺt́uŕurśuń ḿenim qatyna azmassyn da bolmassyn
+							<milestone unit="line" n="4"/>ėkińči ėr artyna daɣy ḿeń keĺḿańmiń saja.
+						</l>
+						<l n="4" xml:id="Hos-003-004">Ki ḱop ḱuńĺar
+							<milestone unit="line" n="5"/>oltururlar ulanlary Jiśraʾeĺniń bolmast bij da bolmast aɣalyḥ
+							<milestone unit="line" n="6"/>da bolmast d́eb́eḥa da bolmast mač́eva da bolmast ėfod da sturlaplar.
+						</l>
+						<milestone unit="line" n="7"/>
+						<l n="5" xml:id="Hos-003-005">Andan sortun qajtyrlar ulanlary Jiśraʾeĺniń da iźĺarĺar H-ny T́eńri-
+							<milestone unit="line" n="8"/>ĺariń da David́ni bijĺariń da išanyrlar H-ɣa da naḿetińa sonɣusunda ol
+							<milestone unit="line" n="9" xml:id="Hos003-P204r-L9" next="F305-90.028.004.xml#Hos004-P204r-L9"/>ḱuńĺarniń.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
