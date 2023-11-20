@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Haggai 1</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Haggai 1</title>
+						<milestone unit="line" n="3"/>
+						<l xml:id="Hag-001-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">חגי א</foreign>
+							<milestone unit="line" n="4"/><foreign xml:lang="he" style="unicode-bidi: embed;">בִשְנַת שְתַּיִם לְדָרְיָוֶש הַמֶלֶךְ בַחֹדֶש הַשִשִי</foreign>
+							<milestone unit="line" n="5"/><foreign xml:lang="he" style="unicode-bidi: embed;">בְיוֹם אֶחָד לַחֹדֶש הָיָה דְבַר יְהֹוָה בְיַד חַגַ</foreign>
+							<milestone unit="line" n="6"/><foreign xml:lang="he" style="unicode-bidi: embed;">הַנָבִא אֶל זְרוּבָבֶל בֶן שְאַלְתִיאֵל פַחַת יְהוּדָה וְאֶל יְהוּשֻעַ
+							</foreign>
+							<milestone unit="line" n="7"/><foreign xml:lang="he" style="unicode-bidi: embed;">בֶן יְהוֹצָדָק הַכֹהֵן הַגָדוֹל לֵאמוֹר</foreign>
+						</l>
+						<milestone unit="line" n="8"/>
+						<l n="1" xml:id="Hag-001-001">Ėkińči jylda Darejav́ešḱa ol bijǵa ol altynčy janɣyj-
+							<milestone unit="line" n="9"/>da burunɣu ḱuńuńd́a janɣyjnyn ėdi navilik
+							<milestone unit="line" n="10"/>śoźu H-nyn qolu ašyra Ḥagaj ol naviniń Źerubav́eĺǵa uvluna Šaʾaltiʾeĺniń
+							<milestone unit="line" n="11"/>aɣalyɣynyn Juhudanyn da Johošuaʿɣa uvluna <delSpan spanTo="#Hag-001-del001">Čadoqnun</delSpan><anchor xml:id="Hag-001-del001" type="delSpan"/> Johočadaqnyn ol aɣaraḥ
+							<milestone unit="line" n="12"/>koheńǵa ajtadoɣoč.
+						</l>
+						<l n="2" xml:id="Hag-001-002">Bolej ajtty H č́evaʾot ajtadoɣoč ol ušpu ulus
+							<milestone unit="line" n="13"/>ajtadyrlar keĺḿadi vaḥt t́uv́uĺ vaḥt qondarma juv́uń H-nyn.
+						</l>
+						<l n="3" xml:id="Hag-001-003">Da ėdi
+							<milestone unit="line" n="14"/>navilik śoźu H-nyn qolu ašyra Ḥagajnyn ol naviniń ajtadoɣoč.
+						</l>
+						<l n="4" xml:id="Hag-001-004">Vaḥtmo
+							<milestone unit="line" n="15"/>siźǵa öźujuźǵa olturma juv́ĺarijiźd́a qaplanɣanlar da ol juv́ ušpu
+							<milestone unit="line" n="16"/>v́eŕańdir.
+						</l>
+						<l n="5" xml:id="Hag-001-005">Da haĺegińa bolej ajtty H T́eńrisi č́evaʾotnun qojujuz ėsijiźǵa
+							<milestone unit="line" n="17"/>jollaryjyzny.
+						</l>
+						<l n="6" xml:id="Hag-001-006">Čačasyz ḱop da keĺtiŕasiź azny ašejsyz da joḥtur tojum ič́asiź da
+							<milestone unit="page" n="237v"/>
+							<milestone unit="line" n="1"/>joḥtur ńečik ėsirḿak kijasiź da joḥtur iśsińḿak andan da ol ėsiŕuv́č́u
+							<milestone unit="line" n="2"/>ėsiŕadir t́uv́umč́ukḱa tišikli.
+						</l>
+						<l n="7" xml:id="Hag-001-007">Bolej ajtty H T́eńrisi č́evaʾot-
+							<milestone unit="line" n="3"/>nun qojujuz ėsijiźǵa jollaryjyzny.
+						</l>
+						<l n="8" xml:id="Hag-001-008">Baryjyz tavɣa da keĺtirijiź aɣač da qonda-
+							<milestone unit="line" n="4"/>ryjyz ol juv́ńu da śuv́armiń any da syjlarmyn any ajtty
+							<foreign xml:lang="he" style="unicode-bidi: embed;"> יוָ֘י</foreign>.
+						</l>
+						<l n="9" xml:id="Hag-001-009">Qajyrylasyz
+							<milestone unit="line" n="5"/>ḱopḱa da muna az čyɣadyr da keĺtirsijiź ol juv́ǵa da tuzaḥlarmyn any
+							<milestone unit="line" n="6"/>anyn üč́uń alej ajtty H T́eńrisi č́evaʾotnun qačan juv́um ki ol v́eŕań
+							<milestone unit="line" n="7"/>da siź śuv́asiź kiši öź juv́uń.
+						</l>
+						<l n="10" xml:id="Hag-001-010">Anyn üč́uń siźniń üč́uń ajaldylar ḱok-
+							<milestone unit="line" n="8"/>ĺar čyḥtan da ol jer ajar bitišiń.
+						</l>
+						<l n="11" xml:id="Hag-001-011">Da čaɣyryrmyn qurɣaḥ ol jer üśt́uńa
+							<milestone unit="line" n="9"/>da ol tavlar üśt́uńa da ol b́urt́uk da ol šarb́et́ üśt́uńa da ol
+							<milestone unit="line" n="10"/>saj üśt́uńa da bary üśt́uńa ńeki čyɣaradyr ol jer da adam üśt́u-
+							<milestone unit="line" n="11"/>ńa da tuvar üśt́uńa da bar zaḥḿeti üśt́uńa uvučlarnyn.
+						</l>
+						<l n="12" xml:id="Hag-001-012">Da ėšit́ti
+							<milestone unit="line" n="12"/>Źerubav́eĺ uvlu Šaʾaltiʾeĺniń da Johošuaʿ uvlu Johočadaqnyn ol aharaḥ
+							<milestone unit="line" n="13"/>koheń da bar qaldyɣy Jiśraʾeĺniń śoźuńa H T́eńriĺariniń da bar śoźĺariń Ḥagajnyn
+							<milestone unit="line" n="14"/>ol naviniń ki ńečik ijdi any H T́eńriĺari da qorḥtular ol ulus al-
+							<milestone unit="line" n="15"/>nyndan H-nyn.
+						</l>
+						<l n="13" xml:id="Hag-001-013">Da ajtty Ḥagaj ėĺčisi H-nyn šemińd́ań H-nyn ulusḥa ajtadoɣoč
+							<milestone unit="line" n="16"/>ḿeń bolurmyn birǵajiźǵa alej ajtty H.
+						</l>
+						<l n="14" xml:id="Hag-001-014">Da ojatty H saɣyšyn Źerubav́eĺniń
+							<milestone unit="line" n="17"/>uvlun Š
+							<supplied reason="lost">aʾ</supplied>altiʾeĺniń aɣalyɣy Juhudanyn da saɣyšyn Johošuaʿnyn uvlunun Johočadaqnyn
+							<milestone unit="line" n="18"/>ol aɣaraḥ koheńniń da saɣyšyn bar qaldyɣynyn ol ulusnun da keĺdiĺar da qyldylar
+							<milestone unit="line" n="19"/>
+							<addSpan spanTo="#Hag-001-add001" status="unremarkable"/>iš́
+							<anchor xml:id="Hag-001-add001" type="addSpan"/> juv́uńd́a H-nyn č́evaʾotnun T́eńriĺariniń.
+						</l>
+						<l n="15" xml:id="Hag-001-015">Ėgirmi d́ort́uńč́u ḱuńuńd́a
+							<milestone unit="line" n="20" xml:id="Hag001-P237v-L20" next="F305-90.037.002.xml#Hag002-P237v-L20"/>altynčy janɣyjnyn ėkińči jylda Darejav́ešḱa ol bijǵa.
+						</l>
+					</ab>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
