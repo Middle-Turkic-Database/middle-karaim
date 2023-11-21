@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Zechariah 3</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Zechariah 3</title>
+						<milestone unit="line" n="15" xml:id="Zech003-P240v-L15" prev="F305-90.038.002.xml#Zech002-P240v-L15"/>
+						<l xml:id="Zech-003-x001">
+							<foreign xml:lang="he" style="unicode-bidi: embed;">ג</foreign>
+						</l>
+						<l n="1" xml:id="Zech-003-001">Da ḱorǵuźd́u maja Johošuaʿny ol koheń gadol-
+							<milestone unit="line" n="16"/>nu turadyr alnynda malʾaḫynyn H-nyn da ol Šatan turaŕedi on janyndan az-
+							<milestone unit="line" n="17"/>ɣyrtma any.
+						</l>
+						<l n="2" xml:id="Zech-003-002">Da ajtty H ol Šatanɣa ačuvlanɣej H śeńd́a ėj Šatan
+							<milestone unit="line" n="18"/>da ačuvlanɣej H śeńd́a ol sajlavču Jerušalajimni muna bu ḱuśov́
+							<milestone unit="line" n="19"/>kibik qutulɣan ottan.
+						</l>
+						<l n="3" xml:id="Zech-003-003">Da Johošuaʿ ėdi kijińǵań jerińči upraḥlar da tura-
+							<milestone unit="line" n="20"/>ŕedi alnynda ol malʾaḫnyn.
+						</l>
+						<l n="4" xml:id="Zech-003-004">Da qaruv b́erdi da ajtty ol turuvčularɣa
+							<milestone unit="page" n="241r"/>
+							<milestone unit="line" n="1"/>alnynda ket́arijiź ol jerińči upraḥlarny üśt́uńd́ań da ajtty anar ḱor
+							<milestone unit="line" n="2"/>ašyrdym jazyɣyjny üśt́ujd́ań da kijdirdim saja č́eb́ar upraḥlar.
+						</l>
+						<l n="5" xml:id="Zech-003-005">Da ajttym
+							<milestone unit="line" n="3"/>qojsunlar aruv čalma bašy üśt́uńa da qojdular ol aruv čalmany
+							<milestone unit="line" n="4"/>bašy üśt́uńa da kijdirdiĺar anar upraḥlar da malʾaḫy H-nyn turaŕedi.
+						</l>
+						<milestone unit="line" n="5"/>
+						<l n="6" xml:id="Zech-003-006">Da tanyḥlyḥ ėt́ti malʾaḫy H-nyn Johošuaʿɣa ajtadoɣoč.</l>
+						<l n="7" xml:id="Zech-003-007">Bolej ajtty Jehova
+							<milestone unit="line" n="6"/>jaratuvču č́evaʾotnu ėger jollarym byla barsej da saqlavymny saqlasej da daɣy
+							<milestone unit="line" n="7"/>śeń jarɣu jararsyn juv́umńu da ėger saqlasej azbarlarymny da b́erirmiń saja
+							<milestone unit="line" n="8"/><delSpan spanTo="#Zech-003-del001">saja</delSpan><anchor xml:id="Zech-003-del001" type="delSpan"/>
+							<ref n="1" target="#Zech-003-fn1" type="noteAnchor"/> qajjamlyḥlar arasyna ol qajjam malʾaḫlarnyn ol turuvčularnyn al.-
+							<milestone unit="line" n="9"/>nymda.
+						</l>
+						<l n="8" xml:id="Zech-003-008">Tynlaɣyn ėńdi Johošuaʿ ol koheń gadol śeń da dostlaryj ol olturuv-
+							<milestone unit="line" n="10"/>čular alnyjda ki biĺgili ėĺ alar ki muna ḿeń keĺtirirmiń qulumnu
+							<milestone unit="line" n="11"/>mašijaḥny.
+						</l>
+						<l n="9" xml:id="Zech-003-009">Ki muna ol taš ki b́erdim alnynda Johošuaʿnyn bir taš üś-
+							<milestone unit="line" n="12"/>t́uńa bolur ḱop t́urśuńĺar muna ḿeń tuǯururmyn tuǯurmaɣyn anyn
+							<milestone unit="line" n="13"/>alej ajtty H jaratuvču č́evaʾotnu da bošatyrmyn jazyɣyn ol jerniń bir ḱuń-
+							<milestone unit="line" n="14"/>d́a.
+						</l>
+						<l n="10" xml:id="Zech-003-010">Ol ḱuńd́a alej ajtty H jaratuvču č́evaʾotnu ińd́arĺar kiši
+							<milestone unit="line" n="15" xml:id="Zech003-P241r-L15" next="F305-90.038.004.xml#Zech004-P241r-L15"/>dostuna bir borlalyḥ t́ub́uńa da bir ińǯirlik t́ub́uńa.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Zech-003-fn1" type="footnote" anchored="true">F305-90: the copyist has written this word twice by mistake and indicated it by surrounding the second one with dots.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
