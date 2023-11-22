@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Ezekiel 15</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Ezekiel 15</title>
+						<milestone unit="line" n="5" xml:id="Ezek015-P153r-L5" prev="F305-90.026.013.xml#Ezek013-P153r-L5"/>
+						<l xml:id="Ezek-015-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">טו</foreign></l>
+						<milestone unit="line" n="6"/>
+						<l n="1" xml:id="Ezek-015-001">Da ėdi navilik śoźu H-nyn Jeḥeźqeʾeĺ naviǵa ajtadoɣoč.</l>
+						<l n="2" xml:id="Ezek-015-002">Adam
+							<milestone unit="line" n="7"/>uvlu ńe syjlyraḥ bolur aɣačy ol borlalyḥnyn bar
+							<milestone unit="line" n="8"/>aɣačtan ančaḥ ol butaḥ ki bolsa aɣačlary arasyna ol ormannyn.
+						</l>
+						<milestone unit="line" n="9"/>
+						<l n="3" xml:id="Ezek-015-003">Alynyrmo andan aɣač qylma iš́ḱa h́em alyrlarmo andan qazyḥ
+							<milestone unit="line" n="10"/>taḥma anyn üśt́uńa bar savutnu.
+						</l>
+						<l n="4" xml:id="Ezek-015-004">Muna otḥa b́erilir ör-
+							<milestone unit="line" n="11"/>t́av́ǵa ėksid́a učlaryn ört́ar ol ot da ortasy qarardy ona-
+							<milestone unit="line" n="12"/>ryrmo iš́ḱa.
+						</l>
+						<l n="5" xml:id="Ezek-015-005">Muna bolɣanda t́uǵaĺ qylynmady iš́ḱa h́em ki
+							<milestone unit="line" n="13"/>ot ört́adi any da qararsa da qylynyrmo artyḥ iš́ḱa.
+						</l>
+						<l n="6" xml:id="Ezek-015-006">Anyn <delSpan spanTo="#Ezek-015-del001">(ü)<anchor xml:id="Esek-015-del001" type="delSpan"/></delSpan>
+							<milestone unit="line" n="14"/>üč́uń bolej ajtty H T́eńri ki ńečik aɣačy ol borlalyḥnyn aɣač-
+							<milestone unit="line" n="15"/>lary arasyna ol ormannyn ki b́erdim otḥa ört́aḿa any alej
+							<milestone unit="line" n="16"/>b́erirmiń olturuvčularyn Jerušalajimniń.
+						</l>
+						<l n="7" xml:id="Ezek-015-007">Da b́erirmiń ḥyššymymny
+							<milestone unit="line" n="17"/>alarda ol ottan čyḥsalar vaĺe ol ot ört́ar alarny da bilir-
+							<milestone unit="line" n="18"/>siź ki ḿeń H qojɣanymda ḥyššymymny alarda.
+						</l>
+						<l n="8" xml:id="Ezek-015-008">Da b́erirmiń ol jerni
+							<milestone unit="line" n="19"/>v́eŕań qačan tandylar maja tanmaḥ alej ajtty H T́eńri. 
+							<foreign xml:lang="he" style="unicode-bidi: embed;">תוכחה</foreign>
+							<ref n="1" target="#Ezek-015-fn1" type="noteAnchor"/>
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ezek-015-fn1" type="footnote" anchored="true">Heb. 
+							<foreign xml:lang="he" style="unicode-bidi: embed;">תּוֹכֵחָה </foreign>
+							‘rebuke’.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

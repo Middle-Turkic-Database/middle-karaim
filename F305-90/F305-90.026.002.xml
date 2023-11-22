@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Ezekiel 2</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Ezekiel 2</title>
+						<milestone unit="line" n="4" xml:id="Ezek002-P139r-L4" prev="F305-90.026.001.xml#Ezek001-P139r-L4"/>
+						<l xml:id="Ezek-002-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">ב</foreign></l>
+						<milestone unit="line" n="5"/>
+						<l n="1" xml:id="Ezek-002-001">Da ajtty maja ėj adam uvlu turɣun ajaḥlaryj üś-
+							<milestone unit="line" n="6"/>t́uńa da śoźĺarmiń saja.
+						</l>
+						<l n="2" xml:id="Ezek-002-002">Da keĺdi maja alh́em
+							<milestone unit="line" n="7"/>ki ńečik śoźĺadi maja da turɣuzdu ḿeni ajaḥlarym üśt́uńa
+							<milestone unit="line" n="8"/>da ėšit́tim śoźĺejdoɣon maja.
+						</l>
+						<l n="3" xml:id="Ezek-002-003">Da ajtty maja adam uvlu ija-
+							<milestone unit="line" n="9"/>miń ḿeń śeni ulanlaryna Jiśraʾeĺniń ḥanlyḥlarɣa ol tanuvču-
+							<milestone unit="line" n="10"/>lar ki tandylar maja alar da atalary jazyḥly boldular maja ušpu
+							<milestone unit="line" n="11"/>ḱuńǵa d́ejiń.
+						</l>
+						<l n="4" xml:id="Ezek-002-004">Da ol ulanlar qaty juźĺuĺar da kip juŕakliĺar ḿeń
+							<milestone unit="line" n="12"/>ijarmiń śeni alarɣa da ajtḥyn alarɣa bolej ajtty H T́eńri.
+						</l>
+						<milestone unit="line" n="13"/>
+						<l n="5" xml:id="Ezek-002-005">Da alar ėger tynlasalar da ėger qalsalar tynlamaḥtan ki tanuvču
+							<milestone unit="line" n="14"/>juv́ alar vaĺe bilirĺar ki navi ėdi ortalarynda.
+						</l>
+						<l n="6" xml:id="Ezek-002-006">Da śeń
+							<milestone unit="line" n="15"/>adam uvlu qorḥmaɣyn alardan da śoźĺarińd́ań ki kečit́-
+							<milestone unit="line" n="16"/>ḱańĺar kibik t́eǵańakĺar kibik alar saja da arasyna šipšińĺar-
+							<milestone unit="line" n="17"/>niń śeń oltyrasyn śoźĺarińd́ań qorḥmaɣyn da alynlaryndan synyḥ-
+							<milestone unit="line" n="18"/>maɣyn ki tanuvču juv́ alar.
+						</l>
+						<l n="8" xml:id="Ezek-002-008">
+							<ref n="1" target="#Ezek-002-fn1" type="noteAnchor"/> Da śeń adam uvlu tynlaɣyn ńe ki
+							<milestone unit="line" n="19"/>ḿeń śoźĺejmiń saja bolmaɣyn tanuvču juv́u kibik ol tanuvčunun
+							<milestone unit="line" n="20"/>ačḥyn avzujnu da ašaɣyn ńeki ḿeń b́erirmiń saja.
+						</l>
+						<l n="9" xml:id="Ezek-002-009">Da ḱord́um da
+							<milestone unit="line" n="21"/>muna qol sunulɣan maja da muna anda ǯyrɣyjaɣy bitikniń.
+						</l>
+						<milestone unit="page" n="139v"/>
+						<milestone unit="line" n="1"/>
+						<l n="10" xml:id="Ezek-002-010">Da jajdy any alnymda da ol jazylɣan alny da arty da jazɣan anyn
+							<milestone unit="line" n="2" xml:id="Ezek002-P139v-L2" next="F305-90.026.003.xml#Ezek003-P139v-L2"/>üśt́uńa qinalar da syjyt da firjat.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ezek-002-fn1" type="footnote" anchored="true">F305-90: verse Ezekiel 2:7 is omitted.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

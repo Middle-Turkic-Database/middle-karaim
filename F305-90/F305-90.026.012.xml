@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-90</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Ezekiel 12</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Ezekiel 12</title>
+						<milestone unit="line" n="12" xml:id="Ezek012-P149r-L12" prev="F305-90.026.011.xml#Ezek011-P149r-L12"/>
+						<l xml:id="Ezek-012-x001"><foreign xml:lang="he" style="unicode-bidi: embed;">יב</foreign></l>
+						<milestone unit="line" n="13"/>
+						<l n="1" xml:id="Ezek-012-001">Da ėdi navilik śoźu H-nyn Jeḥeźqeʾeĺ naviǵa ajtadoɣoč.</l>
+						<l n="2" xml:id="Ezek-012-002">Adam
+							<milestone unit="line" n="14"/>uvlu ortasynda juv́uńuń ol tanuvču ėĺniń śeń
+							<milestone unit="line" n="15"/>olturasyn ki ḱoźĺar bardyr alarɣa ḱorḿa da ḱorḿejdirĺar qulaḥ-
+							<milestone unit="line" n="16"/>lar alarɣa ėšit́ḿa da ėšit́ḿejdirĺar ki tanuvču juv́ alar.
+						</l>
+						<l n="3" xml:id="Ezek-012-003">Da śeń
+							<milestone unit="line" n="17"/>adam uvlu qylɣyn öźuja savutlaryn olǯanyn da olǯalanɣyn ḱuńd́uź
+							<milestone unit="line" n="18"/>ḱoźĺarič́a alarnyn da olǯalanɣyn ornujdan ėkińči orunɣa ḱoźĺari-
+							<milestone unit="line" n="19"/>č́a šeḿe ḱoŕarĺar ki tanuvču juv́ alar.
+						</l>
+						<l n="4" xml:id="Ezek-012-004">Da čyɣarɣyn savutlaryjny savut-
+							<milestone unit="line" n="20"/>laryn kibik olǯanyn ḱuńd́uź ḱoźĺarič́a alarnyn da śeń čyḥqyn keč́a byla
+							<milestone unit="page" n="149v"/>
+							<milestone unit="line" n="1"/>ḱoźĺarič́a alarnyn čyɣuvčulary kibik olǯanyn.
+						</l>
+						<l n="5" xml:id="Ezek-012-005">Ḱoźĺarič́a alarnyn
+							<milestone unit="line" n="2"/>qazynɣyn öźuja farstḥa da čyḥqyn anyn ašyra.
+						</l>
+						<l n="6" xml:id="Ezek-012-006">Ḱoźĺarič́a
+							<milestone unit="line" n="3"/>alarnyn javrun üśt́uńa ḱot́urǵuń qaranɣyda čyɣarɣyn juźĺarijni
+							<milestone unit="line" n="4"/>japḥyn da ḱorḿagiń ol jerni ki nišan ornuna b́erdim śeni juv́uńa
+							<milestone unit="line" n="5"/>Jiśraʾeĺniń.
+						</l>
+						<l n="7" xml:id="Ezek-012-007">Da qyldym alej ki ńečik bujuruldum savutlarymny čy-
+							<milestone unit="line" n="6"/>ɣardym savutlaryn kibik olǯanyn da 
+							<supplied reason="lost">i</supplied>ńgird́a
+							<ref n="1" target="#Ezek-012-fn1" type="noteAnchor"/> qazyndym öźuḿa
+							<milestone unit="line" n="7"/>farstḥa qol byla qaranɣyda čyḥtym javrun üśt́uńa juk
+							<milestone unit="line" n="8"/>ḱot́urd́um ḱoźĺarič́a alarnyn.
+						</l>
+						<l n="8" xml:id="Ezek-012-008">Da ėdi śoźu H-nyn maja tan byla-
+							<milestone unit="line" n="9"/>da ajtadoɣoč.
+						</l>
+						<l n="9" xml:id="Ezek-012-009">Ėj adam uvlu muna ajtsalar saja juv́u Jiśra-
+							<milestone unit="line" n="10"/><delSpan spanTo="#Ezek-012-del001">ra</delSpan><anchor xml:id="Esek-012-del001" type="delSpan"/>ʾeĺniń ol tanuvču juv́ ńe śeń qylasyn.
+						</l>
+						<l n="10" xml:id="Ezek-012-010">Ajtḥyn alarɣa bolej
+							<milestone unit="line" n="11"/>ajtty H T́eńrim ėj nasi ol navilik ušpu Jerušalajim üč́uń da bar
+							<milestone unit="line" n="12"/>juv́u üč́uń Jiśraʾeĺniń ki alar ortalarynda.
+						</l>
+						<l n="11" xml:id="Ezek-012-011">Ajtḥyn ḿeń nišanyjyz siźniń
+							<milestone unit="line" n="13"/>ki ńečik qyldym alej qylynyr alarɣa olǯa byla jesirlik byla
+							<milestone unit="line" n="14"/>baryrlar.
+						</l>
+						<l n="12" xml:id="Ezek-012-012">Da ol navi ki ortalarynda javrun üśt́uńa juk ḱot́uŕur
+							<milestone unit="line" n="15"/>qaranɣyda da čyɣar farstḥa qazynyrlar čyɣarma any juźĺariń qaplar qačan ki
+							<milestone unit="line" n="16"/>ḱorḿaśtir t́urśuńuń ol jerniń.
+						</l>
+						<l n="13" xml:id="Ezek-012-013">Da jajarmyn avumnu anyn üśt́uńa
+							<milestone unit="line" n="17"/>da ilinir avymda da keĺtirirmiń any Bav́eĺǵa jerińa Kasdimniń da any ḱor-
+							<milestone unit="line" n="18"/>ḿaśsiń da anda öĺarsiń.
+						</l>
+						<l n="14" xml:id="Ezek-012-014">Da bary ki č́uv́ŕaĺarińd́a bolušuvčulary da bar
+							<milestone unit="line" n="19"/>aɣalyḥlaryn tozdururmyn har tarafḥa da qylyč suvururmyn artlaryndan.
+						</l>
+						<milestone unit="line" n="20"/>
+						<l n="15" xml:id="Ezek-012-015">Da bilirĺar ki ḿeń H tozdurɣanymda alarny ḥanlyḥlarda da tozdururmyn
+							<milestone unit="page" n="150r"/>
+							<milestone unit="line" n="1"/>alarny jat jerĺard́a.
+						</l>
+						<l n="16" xml:id="Ezek-012-016">Da qaldyryrmyn sanly ėĺ alardan qylyčtan ač-
+							<milestone unit="line" n="2"/>lyḥtan da öĺat́t́ań anyn üč́uń ki jomaḥlaɣejlar bar jerińči iš́ĺariń
+							<milestone unit="line" n="3"/>ḥanlyḥlarda ki kelirĺar ara da bilirĺar ki ḿeń H.
+						</l>
+						<l n="17" xml:id="Ezek-012-017">Da ėdi navilik
+							<milestone unit="line" n="4"/>śoźu H-nyn Jeḥeźqeʾeĺ naviǵa ajtadoɣoč.
+						</l>
+						<l n="18" xml:id="Ezek-012-018">Adam uvlu ėt́ḿagijni qalt-
+							<milestone unit="line" n="5"/>ravuḥ byla ašaɣyn da suvlaryjny tit́ŕav́uk byla da qajɣy byla ič́kiń.
+						</l>
+						<l n="19" xml:id="Ezek-012-019">Da
+							<milestone unit="line" n="6"/>ajtḥyn ulusuna ol jerniń bolej ajtty H T́eńri olturuvču-
+							<milestone unit="line" n="7"/>lary üč́uń Jerušalajimniń jeri üč́uń Jiśraʾeĺniń öt́ḿakĺariń qajɣy byla
+							<milestone unit="line" n="8"/>ašarlar da suvlaryn adamaḥ byla ič́arĺar anyn üč́uń v́eŕań bolur
+							<milestone unit="line" n="9"/>jeri dunjasyndan avanlyḥtan bar ol olturuvčular anda.
+						</l>
+						<l n="20" xml:id="Ezek-012-020">Da ol šahar
+							<milestone unit="line" n="10"/>lar ol olturɣuzulɣanlar v́eŕań bolurlar da ol jer adaɣan bolur da
+							<milestone unit="line" n="11"/>bilirsiź ki ḿeń H.
+						</l>
+						<l n="21" xml:id="Ezek-012-021">Da ėdi navilik śoźu H-nyn maja ajtadoɣoč.</l>
+						<l n="22" xml:id="Ezek-012-022">Adam
+							<milestone unit="line" n="12"/>uvlu ńedir ol mašal ušpu siźǵa jeri üśt́uńa Jiśraʾeĺniń aj-
+							<milestone unit="line" n="13"/>tadoɣoč uzaryrlar ol ḱuńĺar da taspolur bar navilik.
+						</l>
+						<l n="23" xml:id="Ezek-012-023">Anyn üč́uń
+							<milestone unit="line" n="14"/>ajtḥyn alarɣa bolej ajtty H T́eńri ėksitirmiń ol mašalny uš-
+							<milestone unit="line" n="15"/>punu da mašal ajtmaslar any artyḥ Jiśraʾeĺd́a ki ančaḥ śoźĺagiń
+							<milestone unit="line" n="16"/>alarɣa juvujdyrlar ol ḱuńĺar da śoźu bar navilikniń.
+						</l>
+						<l n="24" xml:id="Ezek-012-024">Ki bolmast<delSpan spanTo="#Ezek-012-del002">a</delSpan><anchor xml:id="Esek-012-del002" type="delSpan"/>
+							<milestone unit="line" n="17"/>artyḥ bar jalɣan navilik da qusnačylyḥ da jylma śoźč́u ortasynda
+							<milestone unit="line" n="18"/>Jiśraʾeĺniń.
+						</l>
+						<l n="25" xml:id="Ezek-012-025">Ki ḿeń H śoźĺarmiń ńeki śoźĺaśam śoź da qylynyr tarty
+							<supplied reason="lost">l</supplied>-
+							<milestone unit="line" n="19"/>mast
+							<ref n="2" target="#Ezek-012-fn2" type="noteAnchor"/> artyḥ ki ḱuńĺarijiźd́a ol tanuvču juv́ śoźĺarmiń śoź da
+							<milestone unit="line" n="20"/>qylarmyn any alej ajtty H T́eńri.
+						</l>
+						<l n="26" xml:id="Ezek-012-026">Da ėdi navilik śoźu H-nyn maja
+							<milestone unit="line" n="21"/>ajtadoɣoč.
+						</l>
+						<l n="27" xml:id="Ezek-012-027">Adam uvlu muna juv́u Jiśraʾeĺniń ajtadyrlar ol navilik
+							<milestone unit="page" n="150v"/>
+							<milestone unit="line" n="1"/>ki ol navilik ėt́adir ḱop ḱuńĺard́ań da jyraḥ vaḥtlardan ol navilik
+							<milestone unit="line" n="2"/>ėt́adir.
+						</l>
+						<l n="28" xml:id="Ezek-012-028">Anyn üč́uń ajtḥyn alarɣa bolej ajtty H T́eńri tar-
+							<milestone unit="line" n="3"/>tylmast artyḥ bar śoźĺarim ki śoźĺaśam śoź da qylynyr alej
+							<milestone unit="line" n="4" xml:id="Ezek012-P150v-L4" next="F305-90.026.013.xml#Ezek013-P150v-L4"/>ajtty H T́eńri.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Ezek-012-fn1" type="footnote" anchored="true">F305-90: spelled 
+							<emph>ėńgird́a</emph>; a scribal error.
+						</note>
+						<note xml:id="Ezek-012-fn2" type="footnote" anchored="true">F305-90: spelled 
+							<emph>tartyrmast</emph>; a scribal error.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
