@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-07</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther), the books of Daniel, Ezra, Nehemiah, and 1-2 Chronicles</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Chronicles 27</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Chronicles 27</title>
+						<milestone unit="line" n="4"/>
+						<l n="1" xml:id="Chron2-027-001">Egirmi b́eš́ jyllyq Jotam bij bolɣanynda da on alty jyllar bijlik et́ti
+							<milestone unit="line" n="5"/>Jerušalajimd́a da šemi anasynyn Jeruša qyzy Cadoqun.
+						</l>
+						<l n="2" xml:id="Chron2-027-002">Da qyldy ol t́uź köŕuńǵańni
+							<milestone unit="line" n="6"/>ʿenajatlary alnyna H-nyn alej ńečik qyldy ʿUzijahu atasy ančaq kirḿaśedi heḫalyna
+							<milestone unit="line" n="7"/>H-nyn da hanuz ol ulus iš́ĺariń čejpaŕediĺar.
+						</l>
+						<l n="3" xml:id="Chron2-027-003">Ol qondardy bramasyn juv́uńuń H-nyn ol
+							<milestone unit="line" n="8"/>bijikŕagiń da murlaryn ol ʿofeĺniń astry ḱop qondardy.
+						</l>
+						<l n="4" xml:id="Chron2-027-004">Da šaharlar qondardy tavynda Juhudanyn
+							<milestone unit="line" n="9"/>da t́eŕań ormanlarda qondardy palačlar
+							<ref n="1" target="#Chron2-027-fn1" type="noteAnchor"/> da v́ezalar.
+						</l>
+						<l n="5" xml:id="Chron2-027-005">Da ol uruštu bijib́a ulanlarynyn
+							<milestone unit="line" n="10"/>ʿAmonnun da ḱuč́ĺuŕak boldu alar üśt́uńa da b́erdiĺar anar ulanlary ʿAmonnun
+							<milestone unit="line" n="11"/>juź qantar
+							<ref n="2" target="#Chron2-027-fn2" type="noteAnchor"/> ḱuḿuš́ da on miń kor
+							<ref n="3" target="#Chron2-027-fn3" type="noteAnchor"/> but́ek b́eriŕediĺar anar
+							<milestone unit="line" n="12"/>ulanlary ʿAmonnun da ol ekińči jylda da ol üč́uńč́u jylda.
+						</l>
+						<l n="6" xml:id="Chron2-027-006">Da kipĺańdi Jotam
+							<milestone unit="line" n="13"/>ki t́uźud́u jollaryn alnynda H-nyn Teńrisiniń.
+						</l>
+						<l n="7" xml:id="Chron2-027-007">Da qalɣan iš́ĺari Jotamnyn da bar orušlary
+							<milestone unit="line" n="14"/>da kečińḿakĺari muna alar jazylɣanblar seferi üśt́uńa bijĺariniń Jiśraʾeĺniń da Juhudanyn.
+						</l>
+						<milestone unit="line" n="15"/>
+						<l n="8" xml:id="Chron2-027-008">Egirmi b́eš́ jyllyq edi bij bolɣanynda da on alty jyl bijlik et́ti Jerušalajimd́a.</l>
+						<milestone unit="line" n="16"/>
+						<l n="9" xml:id="Chron2-027-009">Da jatty Jotam atalary qatyna da astradylar any šaharynda David́niń da bij boldu ʾAḥaz
+							<milestone unit="line" n="17"/>uvlu ornunda anyn.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Chron2-027-fn1" type="footnote" anchored="true">Cf. Polish 
+							<emph>pałac</emph> ’palace’.
+						</note>
+						<note xml:id="Chron2-027-fn2" type="footnote" anchored="true">Written as 
+							<emph>kantar</emph>.
+						</note>
+						<note xml:id="Chron2-027-fn3" type="footnote" anchored="true">Measurement of the Bible.</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>

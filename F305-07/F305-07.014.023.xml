@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Vilnius, Lithuania</settlement>
+						<repository>Wroblewski Library of the Lithuanian Academy of Sciences in Vilniuse, Lithuania</repository>
+						<idno>F305-07</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">Translations of Biblical texts into North-Western Karaim: Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther), the books of Daniel, Ezra, Nehemiah, and 1-2 Chronicles</summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>2 Chronicles 23</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>2 Chronicles 23</title>
+						<milestone unit="line" n="9"/>
+						<l n="1" xml:id="Chron2-023-001">Da jedińči jylda kipĺanip Johojadaʿ da aldy aɣalyḥlaryn ol juźĺariniń ʿAzarjany uvlun
+							<milestone unit="line" n="10"/>Jorohamnyn da Jiš́maʿeʾĺni uvlun Johoḥanannyn da ʿAzarjahunu uvlun ʿOved́niń da Maʿašejahunu
+							<milestone unit="line" n="11"/>uvlun ʿAdajahunun da ʾElišafatny uvlun Zikriniń birǵasińa š́ert́ḱa.
+						</l>
+						<l n="2" xml:id="Chron2-023-002">Da alar quršadylar
+							<milestone unit="line" n="12"/>jeriń Juhudanyn da yštyrdylar ol leviĺarni bar šaharlaryndan Juhudanyn da aɣaraqlaryn üv́uńuń
+							<milestone unit="line" n="13"/>ol atalarnyn ki Jiśraʾeĺniń da keĺdiĺar Jerušalajimǵa.
+						</l>
+						<l n="3" xml:id="Chron2-023-003">Da keśtiĺar bar ol jyjyn š́ert́
+							<milestone unit="line" n="14"/>juv́uńd́a H-nyn ol Teńriniń ol bij byla da ajtty Johojadaʿ
+							<ref n="1" target="#Chron2-023-fn1" type="noteAnchor"/> alarɣa muna uvlu ol
+							<milestone unit="line" n="15"/>bijniń ki bijlik et́ar ki ńečik śoźĺadi H ulanlary üśt́uńa David́niń.
+						</l>
+						<l n="4" xml:id="Chron2-023-004">Bu ol śoź
+							<milestone unit="line" n="16"/>ki qylyjyz ol üč́uńč́u üĺuš́ siźd́ań qajsylaryjyz keĺasiź šabbat ḱuńńu koheńĺard́ań
+							<milestone unit="line" n="17"/>da leviĺard́ań bolurlar qabaḥčylar bramalar qatyna.
+						</l>
+						<l n="5" xml:id="Chron2-023-005">Da ol üč́uńč́u üĺuš́ bolurlar
+							<milestone unit="line" n="18"/>juv́uńd́a ol bijniń da ol üč́uńč́u üĺuš́ qabaɣynda ol fundaḿeńt́niń da bar 
+							<addSpan spanTo="#Chron2-023-add001" status="unremarkable"/>ol
+							<anchor xml:id="Chron2-023-add001" type="addSpan"/> ulus
+							<milestone unit="line" n="19"/>qalyrlar azbarlarynda juv́uńuń H-nyn.
+						</l>
+						<l n="6" xml:id="Chron2-023-006">Da kišid́a kirḿasiń juv́uńa H-nyn ki ančaq ol
+							<milestone unit="line" n="20"/>koheńĺar da jumuščulary
+							<ref n="2" target="#Chron2-023-fn2" type="noteAnchor"/> alarnyn leviĺar alar kirsińĺar ki alar aziź etiĺǵańĺar da bar ol
+							<milestone unit="line" n="21"/>ulus saqlasynlar saqlavyn H-nyn.
+						</l>
+						<l n="7" xml:id="Chron2-023-007">Da quršasynlar ol leviĺar ol bijni har biri č́eriv savutu
+							<milestone unit="line" n="22"/>qolunda da kim ki kirśa ol juv́ǵa öĺt́uruĺśuń da bolursuz ol bij byla kirǵanińd́a
+							<milestone unit="line" n="23"/>da čyḥḫanynda.
+						</l>
+						<l n="8" xml:id="Chron2-023-008">Da qyldylar ol leviĺar da bar eli Juhudanyn baryna ḱoŕa ki bujurdu Johojadaʿ
+							<milestone unit="line" n="24"/>ol koheń da aldylar har biri eŕańĺariń qajsylary kelirediĺar šabbat ḱuńńu da qajsylary qajty-
+							<milestone unit="line" n="25"/>rediĺar ol šabbat ḱuńńu ki jeb́erḿadi Johojadaʿ ol koheń jerǵaĺariń alarnyn.
+						</l>
+						<milestone unit="page" n="105v"/>
+						<milestone unit="line" n="1"/>
+						<l n="9" xml:id="Chron2-023-009">Da b́erdi Johojadaʿ ol koheń aɣalyqlaryna ol juźĺarniń ol śuńǵuĺarniń da ol qalḫanlarny
+							<milestone unit="line" n="2"/>da ol ḱub́aĺarni ki alar ediĺar bijniń David́niń ki qojdu juv́uńd́a Teńriniń.
+						</l>
+						<l n="10" xml:id="Chron2-023-010">Da turɣuzdu
+							<milestone unit="line" n="3"/>bar ol ulusnu da har biriniń qylyčy qolunda anyn on janyndan ḿuv́uš́uńuń ol juv́ńuń
+							<milestone unit="line" n="4"/>son janyna dejiń ḿuv́uš́uńuń ol juv́ńuń uturu ol mizbeaḥḫa da juv́ǵa oqolo ol
+							<milestone unit="line" n="5"/>bijniń.
+						</l>
+						<l n="11" xml:id="Chron2-023-011">Da čyɣardylar uvlun ol bijniń da b́erdiĺar anyn üśt́uńa ol qoronany da ol
+							<milestone unit="line" n="6"/>tanyqlyḥny da bij et́tiĺar any da śurt́t́uĺar any Johojadaʿ da uvullary da ajttylar tiri
+							<milestone unit="line" n="7"/>bolgej ol bij.
+						</l>
+						<l n="12" xml:id="Chron2-023-012">Da ešit́ti ʿAtaljahu avazyn ol ulusnun ol juvuruvčularnyn da ol
+							<milestone unit="line" n="8"/>maḥtavčularnyn ol bijni da kirdi ol ulusqa juv́uńa H-nyn.
+						</l>
+						<l n="13" xml:id="Chron2-023-013">Da ḱord́u da muna ol bij
+							<milestone unit="line" n="9"/>turadyr baɣanasy üśt́uńa kiriš́t́a da ol aɣalyqlar da ol byrɣylar oqolo ol
+							<milestone unit="line" n="10"/>bijniń da ol ulusu bar ol jerniń bijańadir da tartadyr byrɣylarɣa da ol šyračylar šyra
+							<milestone unit="line" n="11"/>savutlary byla da bašladylar maḥtav b́erḿa da jyrtty ʿAtaljahu upraqlaryn da ajtty taratorluḥ
+							<ref n="3" target="#Chron2-023-fn3" type="noteAnchor"/>
+							<milestone unit="line" n="12"/>taraturluḥ.
+						</l>
+						<l n="14" xml:id="Chron2-023-014">Da bujurdu Johojadaʿ ol koheń čyɣarma aɣalyqlaryna ol juźĺarniń aɣaraqlary
+							<milestone unit="line" n="13"/>ol č́eriv́niń da ajtty alarɣa čyɣaryjyz any jerǵaĺarińd́ań ol juv́ńuń da kim keĺśa anyn
+							<milestone unit="line" n="14"/>artyndan öĺt́uŕuĺśuń qylyč byla ki ajtty ol koheń öĺt́urmajiź any juv́uńd́a
+							<milestone unit="line" n="15"/>H-nyn.
+						</l>
+						<l n="15" xml:id="Chron2-023-015">Da qojdular anar orun da kijirdiĺar kirišińa qabaɣynyn qajsy jary eĺtirediĺar
+							<milestone unit="line" n="16"/>ol atlarny juv́uńa ol bijniń da öĺt́urd́uĺar any anda.
+						</l>
+						<milestone unit="line" n="17"/>
+						<l n="16" xml:id="Chron2-023-016">Da keśti Johojadaʿ š́ert́ arasyna öźuńuń da arasyna bar ol ulusnun da arasyna ol
+							<milestone unit="line" n="18"/>bijniń ki alar bolgejlar ulusu H-nyn.
+						</l>
+						<l n="17" xml:id="Chron2-023-017">Da keĺdiĺar bar ol ulus juv́uńa ol Baʿalnyn
+							<milestone unit="line" n="19"/>da jančtylar any da mizbeaḥlaryn da abaqlaryn anyn syndyrdylar da Mattanny koheniniń ol Baʿalnyn
+							<milestone unit="line" n="20"/>öĺt́urd́uĺar alnyna ol mizbeaḥlarnyn.
+						</l>
+						<l n="18" xml:id="Chron2-023-018">Da qojdu Johojadaʿ janɣy baštan aɣaraqlar juv́uńd́a
+							<milestone unit="line" n="21"/>H-nyn bujruɣu t́uv́uńa ol koheńĺarniń da ol leviĺarniń ńečik ki ajyrdy David́ juv́uńd́a
+							<milestone unit="line" n="22"/>H-nyn čyɣarma ʿolalar H-ɣa ńečik jazylɣandyr Torasynda Mošeniń bijańč́ byla da šyra
+							<milestone unit="line" n="23"/>byla bujruɣuna ḱoŕa David́niń.
+						</l>
+						<l n="19" xml:id="Chron2-023-019">Da turɣuzdu ol qabaḥčylarny qabaḥlary qatyna
+							<milestone unit="line" n="24"/>juv́uńuń H-nyn ki ara kirḿagej murdar har ńerśaǵa.
+						</l>
+						<l n="20" xml:id="Chron2-023-020">Da aldy aɣalyqlaryn ol
+							<milestone unit="line" n="25"/>juźĺarniń da l aɣaraqlarny da ol erkĺańuv́č́uĺarni ulus üśt́uńa da bar
+							<milestone unit="page" n="106r"/>
+							<milestone unit="line" n="1"/>ulusun ol jerniń da eĺt́tiĺar ol bijni juv́uńd́ań H-nyn da keĺdiĺar ol bijikŕagi qabaɣyna
+							<milestone unit="line" n="2"/>juv́uńuń ol bijniń da olturɣuzdular ol bijni taḥty üśt́uńa ol bijlikniń.
+						</l>
+						<milestone unit="line" n="3"/>
+						<l n="21" xml:id="Chron2-023-021">Da bijańdiĺar
+							<ref n="4" target="#Chron2-023-fn4" type="noteAnchor"/> bar ulusu ol jerniń da ol šahar tynč aldy da ʿAtaljahunu öĺt́urd́uĺar qylyčba.
+						</l>
+					</ab>
+				</div>
+			</div>
+			<div type="apparatus">
+				<listApp>
+					<app>
+						<note xml:id="Chron2-023-fn1" type="footnote" anchored="true">Not part of the original text.</note>
+						<note xml:id="Chron2-023-fn2" type="footnote" anchored="true">Written as 
+							<emph>jumušč́ulary</emph>.
+						</note>
+						<note xml:id="Chron2-023-fn3" type="footnote" anchored="true">See 
+							<emph>taraturluḥ</emph> (KRPS 514).
+						</note>
+						<note xml:id="Chron2-023-fn4" type="footnote" anchored="true">Written as 
+							<emph>bijandilar</emph>.
+						</note>
+					</app>
+				</listApp>
+			</div>
+		</body>
+	</text>
+</TEI>
