@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Joshua 12</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Joshua 12</title>
+                        <milestone unit="line" n="8"/>
+                        <l n="1" xml:id="Josh-012-001">
+                            Da bulardylar ḫanlary ol jerniŋ<milestone unit="line" n="9"/>
+ki urdylar oġlanlary Jisraʾelniŋ da meräslädilär<ref n="1" target="#Josh-012-fn1" type="noteAnchor"/>
+ šol jerlärin kečivindä<milestone unit="line" n="10"/>
+ol Jardenniŋ balqymaġynda<ref n="2" target="#Josh-012-fn2" type="noteAnchor"/>
+ ol qujašnyŋ özänindän Arnonnyŋ taġyna<milestone unit="line" n="11"/>
+degin Ḥermonnyŋ da barča ol tüz mizraḥ sary.</l>
+        <l n="2" xml:id="Josh-012-002">
+            <foreign xml:lang="he" style="unicode-bidi: embed;">סיחון</foreign> Siḥon<milestone unit="line" n="12"/>
+ḫany ol Emoriniŋ ol oturuvču Ḥešbonda erkläniredi<milestone unit="line" n="13"/>
+ʿAroʿerdän ki jaġasy üstünä özäniniŋ Arnonnyŋ da ortasyn<milestone unit="line" n="14"/>
+ol özänniŋ da jarymysy ol Gilʿadnyŋ da Jaboqyna degin ol özänniŋ<milestone unit="line" n="15"/>
+synory oġlanlarynyŋ ʿAmonnyŋ.</l>
+<l n="3" xml:id="Josh-012-003">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והערבה</foreign> Da ol tüz teŋizinä<milestone unit="line" n="16"/>
+degin Kinrot<addSpan spanTo="#Josh-012-add001"/>nyŋ<anchor xml:id="Josh-012-add001" type="addSpan"/>
+ mizraḥ sary <addSpan spanTo="#Josh-012-add002"/>da teŋizinä degin ol tüzniŋ ol tuzly<anchor xml:id="Josh-012-add002" type="addSpan"/>
+ <delSpan spanTo="#Josh-012-del001"/>jolyna Bet ol Ješimotnyŋ da temandan tibinä<anchor xml:id="Josh-012-del001" type="delSpan"/><milestone unit="line" n="17"/>
+teŋiz mizraḥ sary joluna Bet ol Ješimot da temandan tibinä<milestone unit="line" n="18"/>
+aqqanlarynyŋ ol qajanyŋ.</l>
+<l n="4" xml:id="Josh-012-004">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וגבול</foreign> Da synory ʿOgnyŋ ḫany ol<milestone unit="line" n="19"/>
+Bašannyŋ qalġanyndan ol Refaʾimniŋ ol oturġan ʾAštarotda<milestone unit="line" n="20"/>
+da Edreʿide.</l>
+<l n="5" xml:id="Josh-012-005">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ומשל</foreign> Da erklänir edi taġynda Ḥermonnyŋ<milestone unit="line" n="21"/>
+da Salḫada da barča ol Bašanda synoryna degin ol Gešuriniŋ da ol<milestone unit="line" n="22"/>
+Maʿaḫatiniŋ da jarymysy ol Gilʿadnyŋ synory Siḥonnyŋ ḥany Ḥešbon-<milestone unit="line" n="23"/>
+nyŋ.</l>
+<l n="6" xml:id="Josh-012-006">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">משה</foreign> Moše qulu YWY-nyŋ oġlanlary bilän Jisraʾelniŋ urdylar<milestone unit="line" n="24"/>
+alarny da berdi any Moše qulu YWY-nyŋ meräslik Ruʿuvenigä da Gadigä<milestone unit="line" n="25"/>
+da jarym ševetinä ol Menašeniŋ.<milestone unit="page" n="20r"/>
+<milestone unit="line" n="1"/></l>
+<l n="7" xml:id="Josh-012-007">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ואלה</foreign> Da bulardylar ḥanlary ol jerniŋ ki urdy Johošuʿa oġlanlary bilän<milestone unit="line" n="2"/>
+Jisraʾelniŋ kečivindä ol Jardenniŋ kün batyšy sary Baʿal Gaddan<milestone unit="line" n="3"/>
+jylġasynda ol Levanonnyŋ da ol jylma taġġa degin ol čyqqan Seʿir-<milestone unit="line" n="4"/>
+gä da berdi any Johošuʿa ševetlärinä Jisraʾelniŋ meräslik nölüklärinä<milestone unit="line" n="5"/>
+körä.</l>
+<l n="8" xml:id="Josh-012-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">בהר</foreign> Taġda da alčaq jerdä da tüzdä da tsuv aqqan jerlärdä<milestone unit="line" n="6"/>
+da jabanda da tüšlüktä ol Ḥiti ol Emori da ol Kenaʿani ol Perizi<milestone unit="line" n="7"/>
+ol Ḥivi da ol Jevusi.</l>
+<l n="9" xml:id="Josh-012-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">מלך</foreign> Ḫany Jeriḥonyŋ bir<milestone unit="line" n="8"/>
+ḫany ol ʿAjnyŋ ki janyŋdan Bet <addSpan spanTo="#Josh-012-add003"/>E<anchor xml:id="Josh-012-add003" type="addSpan"/>lniŋ bir. מלך</l>
+<l n="10" xml:id="Josh-012-010">Ḫany Jerušalajimniŋ bir
+    <milestone unit="line" n="9" />
+    ḫany ḤḪany Jarmutnyŋ bir ḫany Laḫišnin bir.<milestone unit="line" n="10"/>
+</l>
+<l n="12" xml:id="Josh-012-012">Ḫany ʿEglonnyŋ bir ḫany Gezerniŋ bir.</l>
+<l n="13" xml:id="Josh-012-013">Ḫany Devirniŋ bir ḫany<milestone unit="line" n="11"/>
+Gederniŋ bir.</l>
+<l n="14" xml:id="Josh-012-014">Ḫany Ḥarmanyŋ bir ḫany ʿAradnyŋ bir.</l>
+<l n="15" xml:id="Josh-012-015">Ḫany<milestone unit="line" n="12"/>
+Livnanyŋ bir ḫany ʿAdulamnyŋ bir.</l>
+<l n="16" xml:id="Josh-012-016">Ḫany Maqedanyŋ bir ḫany Bet El-<milestone unit="line" n="13"/>
+niŋ bir.</l>
+<l n="17" xml:id="Josh-012-017">Ḫany Tapuaḥnyŋ bir ḫany Ḥeferniŋ bir.</l>
+<l n="18" xml:id="Josh-012-018">Ḫany Afeqniŋ bir<milestone unit="line" n="14"/>
+ḫany Lašaronnyŋ bir.</l>
+<l n="19" xml:id="Josh-012-019">Ḫany Madonnyŋ bir ḫany Ḥačornyŋ bir.</l>
+<l n="20" xml:id="Josh-012-020">Ḫany<milestone unit="line" n="15"/>
+Šimron Merʾonnyŋ bir ḫany Aḫšafnyŋ bir.</l>
+<l n="21" xml:id="Josh-012-021">Ḫany Taʿnaḫnin bir<milestone unit="line" n="16"/>
+ḫany Megidonyŋ bir.</l>
+<l n="22" xml:id="Josh-012-022">Ḫany Qedešniŋ bir ḫany Jaqnaʿam Karmelgä<milestone unit="line" n="17"/>
+bir</l>
+<l n="23" xml:id="Josh-012-023">Ḫany Dor synoruna Dornyŋ bir ḫany Gojimniŋ Gilgalġa<milestone unit="line" n="18"/>
+bir.</l>
+<l n="24" xml:id="Josh-012-024">Ḫany Tirčanyŋ bir barča ḫanlar otuz bir.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Josh-012-fn1" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Josh-012-fn2" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Josh-012-fn3" type="footnote">Hebrew incipits of Josh 12.11-24 are omitted.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
