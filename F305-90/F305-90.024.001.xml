@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Vilnius, Lithuania</settlement>
+                        <repository></repository>
+                        <idno>F305-90</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">Translations of Biblical texts into North-Western Karaim: The Latter Prophets, The Twelve Minor Prophets, the Sifrei Emet (Psalms, Proverbs, Job), and the Five Megillot (Song of Songs, Ruth, Lamentations, Ecclesiastes, Esther)</summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Jeremiah 1</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Jeremiah 1</title>
+                        <milestone unit="page" n="65r" />
+                        <milestone unit="line" n="1" />
+                        <foreign xml:lang="he" style="unicode-bidi: embed;">ירמיה א</foreign>
+                        <milestone unit="line" n="2" />
+                        <foreign xml:lang="he" style="unicode-bidi: embed;"><seg type="commented"
+                                corresp="#Jer-001-seg001" />דִּבְרֵי</foreign>
+                        <milestone unit="line" n="3" />
+                        <foreign xml:lang="he" style="unicode-bidi: embed;">יִרְמְיָהוּ בֶּן חִלְקִיָּהוּ מִן הַכֹּהֲנִים</foreign>
+                        <milestone unit="line" n="4" />
+                        <foreign xml:lang="he" style="unicode-bidi: embed;">אֲשֶׁר בַּעֲנָתוֹת בְּאֶרֶץ בִּנְיָמִין<anchor
+                                type="commented" xml:id="Jer-001-seg001" /></foreign><ref n="1" target="#Jer-001-fn1" />
+                    <milestone unit="line" n="5"/>
+                        <l n="1" xml:id="Jer-001-001">Śoźĺari Jirmijahunun uvlunun Ḥilqijahunun<milestone unit="line" n="6"/>
+ol koheńĺarniń ki ʿAnatotta jeriń-<milestone unit="line" n="7"/>
+d́a Binjamińniń.</l>
+                    <l n="2" xml:id="Jer-001-002">Ki ėdi navilik śoźu H-nyn Jirmijahuɣa vaḥtynda<milestone unit="line" n="8"/>
+Joʾšijahunun uvlunun Amonnun bijiniń Juhudanyn on üč́uńč́u jyl-<milestone unit="line" n="9"/>
+da bij bolmaɣyna.</l>
+                <l n="3" xml:id="Jer-001-003">Da ėdi vaḥtynda Johojaqimniń uvlu Joʾšijahunun<milestone unit="line" n="10"/>
+bijiniń Juhudanyn t́uǵańǵanińa d́ejiń on bir jyl Cid́qijahuɣa uv-<milestone unit="line" n="11"/>
+luna Jošijahunun bijiniń Juhudanyn olǯalanmaɣyna d́ejiń Jerušalajim<milestone unit="line" n="12"/>
+ol b́ešińči janɣyjda.</l>
+        <l n="4" xml:id="Jer-001-004">Da ėdi navilik śoźu H-nyn Jirmijahu navi-<milestone unit="line" n="13"/>
+ǵa ajtadoɣoč.</l>
+        <l n="5" xml:id="Jer-001-005">Jaratmasymdan burun qursaḥtan<ref n="2" target="#Jer-001-fn2" type="noteAnchor"/>
+ bildim śeni da<milestone unit="line" n="14"/>
+tuvmaɣyjdan burun qursaḥtan ajyrdym śeni navi ḥanlyḥlarɣa b́erdim<milestone unit="line" n="15"/>
+śeni.</l>
+<l n="6" xml:id="Jer-001-006">Da ajttym aha H T́eńrim muna ḿeń biĺmim śozĺaḿa ki jaš<milestone unit="line" n="16"/>
+ulan ḿeń.</l>
+<l n="7" xml:id="Jer-001-007">Da ajtty H maja ajtmaɣyn jaš ulan ḿeń ki barča<milestone unit="line" n="17"/>
+ńeki ijśam śeni barɣyn da baryn ńeki bujursam saja śoźĺagiń.</l>
+<milestone unit="page" n="65v"/>
+<milestone unit="line" n="1"/>
+<l n="8" xml:id="Jer-001-008">Qorḥmaɣyn alynlaryndan ki birǵa ḿeń qutḥarma śeni alej ajtty<milestone unit="line" n="2"/>
+H.</l>
+<l n="9" xml:id="Jer-001-009">Da sundu H qudratym da tyjdy avzu üśt́uńa da ajtty H maja<milestone unit="line" n="3"/>
+muna b́erdim śoźĺarimni avzuja.</l>
+<l n="10" xml:id="Jer-001-010">Ḱor vakiĺ ėt́tim śeni b́uǵuń-<milestone unit="line" n="4"/>
+ńu ol ḥanlyḥlar üśt́uńa da ol bijlikĺar tašlama da jančma<milestone unit="line" n="5"/>
+da tas ėt́ḿa da buzma qondarma da ornatma.</l>
+<l n="11" xml:id="Jer-001-011">Da ėdi navilik<milestone unit="line" n="6"/>
+śoźu H maja ajtadoɣoč ńe śeń ḱoŕasiń Jirmijahu da ajttym badam<milestone unit="line" n="7"/>
+tajaɣy ḿeń ḱoŕamiń.</l>
+<l n="12" xml:id="Jer-001-012">Da ajtty H maja jaḥšy ėt́tij ḱorḿa ki<milestone unit="line" n="8"/>
+saqlarmyn ḿeń śoźumńu qylma.</l>
+<l n="13" xml:id="Jer-001-013">Da ėdi navilik śoźu H-nyn maja<milestone unit="line" n="9"/>
+ėkińči por ajtadoɣon ńe śeń ḱoŕasiń da ajttym qazan qajnejdoɣon<milestone unit="line" n="10"/>
+ḿeń ḱoŕamiń da juźĺari alnyndan cafonnun.</l>
+<l n="14" xml:id="Jer-001-014">Da ajtty H maja cafondan<milestone unit="line" n="11"/>
+ačylyr ol jamanlyḥ bar olturuvčulary üśt́uńa ol jerniń.</l>
+<milestone unit="line" n="12"/>
+<l n="15" xml:id="Jer-001-015">Ki muna ḿeń čaɣyryrmyn bar uruvčularyna bijlikĺariniń cafonnun<milestone unit="line" n="13"/>
+alej ajtty H da kelirĺar da b́erirĺar har birisi taḥtyn ėšigiń-<milestone unit="line" n="14"/>
+d́a qabaḥlarynyn Jerušalajimniń da bar qalalary üśt́uńa č́uv́ŕa<milestone unit="line" n="15"/>
+da bar šaharlary üśt́uńa Juhudanyn.</l>
+<l n="16" xml:id="Jer-001-016">Da śoźĺarmiń t́oŕaĺarimni alar-<milestone unit="line" n="16"/>
+ɣa bar jaman iš́ĺari üč́uń ki kemiš́tiĺar ḿeni da t́ut́at́tiĺar<milestone unit="line" n="17"/>
+öźǵa t́eńriĺarǵa da bašurdular išińa qollarynyn.</l>
+<l n="17" xml:id="Jer-001-017">Da śeń bajlaɣyn<milestone unit="line" n="18"/>
+b́eĺĺarijni da turɣun da śoźĺagiń alarɣa baryn ńeki ḿeń bujuramyn saja<milestone unit="line" n="19"/>
+synyḥmaɣyn alynlaryndan maɣat synyḥtyryrmyn alynlarynda.</l>
+<l n="18" xml:id="Jer-001-018">Da ḿeń<milestone unit="line" n="20"/>
+muna b́erdim śeni b́uǵuńńu b́ek šaharɣa da t́emir baɣanɣa da tuč<milestone unit="line" n="21"/>
+qajaɣa bar ol jer üśt́uńa bijĺarińa Juhudanyn aɣalyḥlaryna<milestone unit="page" n="66r"/>
+<milestone unit="line" n="1"/>
+koheńĺarińa da ulusuna ol jerniń.</l>
+<l n="19" xml:id="Jer-001-019">Da urušurlar śeniń byla da<milestone unit="line" n="2"/>
+bolalmaslar jeńḿa śeni ki birǵaja ḿeń alej ajtty H qutḥarma śeni.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Jer-001-fn1" type="footnote">Jer 1:1 in Biblical Hebrew.</note>
+<note xml:id="Jer-001-fn2" type="footnote">F305-90: <foreign xml:lang="he" style="unicode-bidi: embed;">קוּרְסְחַטְן</foreign>; a scribal error.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
