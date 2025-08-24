@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Joshua 4</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Joshua 4</title>
+                        <milestone unit="line" n="17"/>
+                        <l n="1" xml:id="Josh-004-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi nečiki tamam boldylar barča ol ulus kečmä ol<milestone unit="line" n="18"/>
+Jardenni da ajtty YWY Johošuʿaqa demä.</l>
+                        <l n="2" xml:id="Josh-004-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">קחו</foreign> Alyŋyz özüŋizgä<milestone unit="line" n="19"/>
+ol ulustan <supplied reason="lost">on</supplied><ref n="1" target="#Josh-004-fn1" type="noteAnchor"/>
+ eki kišilär har bir kiši ševetdän.<ref n="2" target="#Josh-004-fn2" type="noteAnchor"/>
+                    <milestone unit="line" n="20"/>
+                </l>
+                <l n="3" xml:id="Josh-004-003">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">וצוו</foreign> Da symarlaŋyz alarġa demä kötäriŋiz özüŋizgä m<supplied reason="lost">u</supplied>ndan ortasyndan<milestone unit="line" n="21"/>
+ol Jardenniŋ turusyndan ajaqlarynyŋ ol kohenlärniŋ on eki tašlar<milestone unit="line" n="22"/>
+da kečiriŋiz alarŋy birgäŋizgä da qojuŋyz alarŋy qonar jergä ki<milestone unit="line" n="23"/>
+qonarsyz anda bugäčä.</l>
+        <l n="4" xml:id="Josh-004-004">
+            <foreign xml:lang="he" style="unicode-bidi: embed;">ויקרא</foreign> Da čaqyrdy Johošuʿa ol on eki<milestone unit="line" n="24"/>
+kiši kišigä ki hadirlädi oġlanlaryndan Jisraʾelniŋ har bir kiši ševet-<milestone unit="line" n="25"/>
+dän.</l>
+    <l n="5" xml:id="Josh-004-005">
+        <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty alarġa Johošuʿa kečiŋiz aldyna sanduġynyŋ YWY<milestone unit="page" n="8v"/>
+    <milestone unit="line" n="1"/>
+    <supplied reason="lost">Teŋriŋizniŋ</supplied><ref n="3" target="#Josh-004-fn3" type="noteAnchor"/>
+ ortasyna ol Jardenniŋ da kötäriŋiz özüŋizgä har<milestone unit="line" n="2"/>
+kiši bir taš jaġyrny<ref n="4" target="#Josh-004-fn4" type="noteAnchor"/>
+ üstünä sanynča ševetläriniŋ oġlanlarynyŋ<milestone unit="line" n="3"/>
+Jisraʾelniŋ.</l>
+<l n="6" xml:id="Josh-004-006">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">למען</foreign> Anyŋ učun bolġaj bu nišan ortaŋyzda<milestone unit="line" n="4"/>
+ki sorsalar oġlanlaryŋyz taŋda demä nedir ušbu tašlar sizgä.<milestone unit="line" n="5"/></l>
+<l n="7" xml:id="Josh-004-007">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ואמרתם</foreign> Da ajtyŋyz alarġa ki kesildilär suvlar ol Jarden-<milestone unit="line" n="6"/>
+niŋ aldyndan sanduġynyŋ šertiniŋ YWY-nyŋ kečkäniŋdä Jardendä<milestone unit="line" n="7"/>
+kesildilär suvlar ol Jardenniŋ da bolġajlar ušbu tašlar<milestone unit="line" n="8"/>
+saġynmaqlyqqa <supplied reason="lost">oġlanlaryna</supplied>
+<ref n="5" target="#Josh-004-fn5" type="noteAnchor"/>
+ Jisraʾelniŋ dunjaġa degin.</l>
+<milestone unit="line" n="9"/>
+<l n="8" xml:id="Josh-004-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויעשו</foreign> Da qyldylar alaj oġlanlary Jisraʾelniŋ nečiki symarlady Johošuʿa<milestone unit="line" n="10"/>
+da kötärdilär on eki <seg type="commented" corresp="#Josh-004-seg001"/><delSpan spanTo="#Josh-004-del001"/>tašlar<anchor xml:id="Josh-004-del001" type="delSpan"/> <addSpan spanTo="#Josh-004-add001"/>
+<emph>kišilär</emph><anchor xml:id="Josh-004-add001" type="addSpan"/>
+<anchor type="commented" xml:id="Josh-004-seg001"/><ref n="6" target="#Josh-004-fn6" type="noteAnchor"/>
+ ortasyndan ol Jardenniŋ nečiki sözlädi<milestone unit="line" n="11"/>
+H Johošuʿaġa sanynča ševetläriniŋ <addSpan spanTo="#Josh-004-add002"/>
+oġla<addSpan spanTo="#Josh-004-add002"/>n<anchor xml:id="Josh-004-add002" type="addSpan"/>larynyŋ<anchor xml:id="Josh-004-add003" type="addSpan"/>
+ Jisraʾelniŋ da kečirdilär<milestone unit="line" n="12"/>
+alarny birgälärinä ol qonar jergä da qojdylar alarny anda.<milestone unit="line" n="13"/></l>
+<l n="9" xml:id="Josh-004-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ושתים</foreign> Da on eki tašlar turġuzdy Johošuʿa ortasynda ol<milestone unit="line" n="14"/>
+Jardenniŋ tibinä turušynyŋ ajaqlarynyŋ ol kohenlärniŋ kötärivčilär<milestone unit="line" n="15"/>
+sanduġyn ol šertniŋ da boldylar anda ušbu <supplied reason="lost">küngä</supplied><ref n="7" target="#Josh-004-fn7" type="noteAnchor"/>
+ degin.<milestone unit="line" n="16"/></l>
+<l n="10" xml:id="Josh-004-010">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והכהנים</foreign> Da ol kohenlär kötärivčilär ol sanduqny turur<milestone unit="line" n="17"/>
+edilär ortasynda ol Jardenniŋ tamam bolġanyna degin barča ol<milestone unit="line" n="18"/>
+söz ki symarlady YWY Johošuʿaqa sözlämä ol ulusqa barča nečiki<milestone unit="line" n="19"/>
+symarlady Moše Johošuʿaqa da tezlädilär ol ulus da kečtilär.<milestone unit="line" n="20"/></l>
+<l n="11" xml:id="Josh-004-011">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi nečik ki tamam boldy barča ol ulus kečmä da kečti<milestone unit="line" n="21"/>
+sanduġy YWY-nyŋ da ol kohenlär aldyna ol ulusnuŋ.</l>
+<milestone unit="line" n="22"/>
+<l n="12" xml:id="Josh-004-012">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויעברו</foreign> Da kečtilär oġlanlary Ruʿuvenniŋ da oġlanlary Gadnyŋ da jarym ševeti<milestone unit="line" n="23"/>
+ol Menašeniŋ quranlylar<ref n="8" target="#Josh-004-fn8" type="noteAnchor"/>
+ aldyna oġlanlarynyŋ Jisraʾelniŋ nečik<milestone unit="line" n="24"/>
+sözlädi alarġa Moše.</l>
+<l n="13" xml:id="Josh-004-013">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">כארבעים</foreign> Qyrq miŋ tegli quranlylar<milestone unit="line" n="25"/>
+čerivniŋ kečtilär aldyna YWY-nyŋ urušqa tüzlärinä Jeriḥonyŋ.</l>
+<milestone unit="page" n="9r"/>
+<milestone unit="line" n="1"/>
+<l n="14" xml:id="Josh-004-014">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ביום</foreign> Ol kündä ulġajtty YWY šol Johošuʿany közlärinčä barča Jisraʾel-<milestone unit="line" n="2"/>
+niŋ da qorqtylar andan nečiki qorqtylar Mošedän barča künlärindä<milestone unit="line" n="3"/>
+tirlikläriniŋ.</l>
+<l n="15" xml:id="Josh-004-015">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty YWY<milestone unit="line" n="4"/>
+Johošuʿaqa demä.</l>
+<l n="16" xml:id="Josh-004-016">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">צוה</foreign> Symarlaġyn ol kohenlärgä kötärivčilär<milestone unit="line" n="5"/>
+sanduġyn ol tanyqlyq bitikniŋ da čyqsynlar ol Jardendän.</l>
+<milestone unit="line" n="6"/>
+<l n="17" xml:id="Josh-004-017">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויצו</foreign> Da symarlady Johošuʿa ol kohenlärgä demä čyġyŋyz ol Jardenden.</l>
+<milestone unit="line" n="7"/>
+<l n="18" xml:id="Josh-004-018">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi čyqqanynda ol kohenlär kötärivčilär sanduġyn šertiniŋ YWY-nyŋ<milestone unit="line" n="8"/>
+ortasyndan ol Jardenniŋ üzüldilär tabanlary ajaqlarynyŋ<milestone unit="line" n="9"/>
+ol kohenlärniŋ ol quruġa da qajttylar suvlary ol Jardenniŋ<milestone unit="line" n="10"/>
+oruŋlaryna da jürüdülär tünägin kibik birsi kün kibik barča<milestone unit="line" n="11"/>
+jaġalary üstünä.</l>
+<l n="19" xml:id="Josh-004-019">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והעם</foreign> Da ol ulus čyqtylar ol Jardenden<milestone unit="line" n="11"/>
+onunda ol burunḥu ajnyŋ da qondylar Gilgalda qyjyrynda<milestone unit="line" n="12"/>
+balqymaġynyŋ Jeriḥonyŋ.</l>
+<l n="20" xml:id="Josh-004-020">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ואת</foreign> Da ešol on eki ušbu tašlarny<milestone unit="line" n="13"/>
+ki aldylar ol Jardendän turġuzdy Johošuʿa Gilgalda.<milestone unit="line" n="14"/></l>
+<l n="21" xml:id="Josh-004-021">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty oġlanlaryna Jisraʾelniŋ demä ki sorsalar oġlanlaryŋyz<milestone unit="line" n="15"/>
+tanda demä atalaryna demä nedir ušbu tašlar.</l>
+<milestone unit="line" n="16"/>
+<l n="22" xml:id="Josh-004-022">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והודעתם</foreign> Da bildiŋiz oġlanlaryŋyzġa demä quru bilän kečti Jisraʾel<milestone unit="line" n="17"/>
+šol ušbu Jardenni.</l>
+<l n="23" xml:id="Josh-004-023">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">אשר</foreign> Ki qurutty YWY Teŋriŋiz šol<milestone unit="line" n="18"/>
+suvlaryn ol Jardenniŋ aldyŋyzdan kečgäniŋizgä degin nečiki qyldy YWY<milestone unit="line" n="19"/>
+Teŋriŋiz teŋizgä sufŋyn ki qurutty aldymyzdan kečkänimizgä<milestone unit="line" n="20"/>
+degin. <delSpan spanTo="#Josh-004-del002"/>nečiki qyldy YWY Teŋriŋiz<anchor xml:id="Josh-004-del002" type="delSpan"/> למען</l>
+<l n="24" xml:id="Josh-004-024">Bilmäk <addSpan spanTo="#Josh-004-add004"/>
+üčün<anchor xml:id="Josh-004-add004" type="addSpan"/> barča uluslary<milestone unit="line" n="21"/>
+ol jerniŋ šol qudratyn YWY-nyŋ ki küčlüdir <addSpan spanTo="#Josh-004-add005"/>
+ol<anchor xml:id="Josh-004-add005" type="addSpan"/>
+ anyŋ üčün<milestone unit="line" n="22"/>
+qorqajsiz YWY Teŋriŋizdän barča ol künlär.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Josh-004-fn1" type="footnote">JSul.III.02: o; a scribal error.</note>
+<note xml:id="Josh-004-fn2" type="footnote">The Hebrew incipit is not marked with red ink.</note>
+<note xml:id="Josh-004-fn3" type="footnote">JSul.III.02: <emph>Teŋrizniŋ</emph>; a scribal error.</note>
+<note xml:id="Josh-004-fn4" type="footnote">This word is referred to in a note in pencil made by J. Sulimowicz in the margin: “jaɣyryr”.</note>
+<note xml:id="Josh-004-fn5" type="footnote">JSul.III.02: <emph>oġlalaryna</emph>; a scribal error.</note>
+<note xml:id="Josh-004-fn6" type="footnote">Corrected in pencil in the margin most probably by J. Sulimowicz.</note>
+<note xml:id="Josh-004-fn7" type="footnote">JSul.III.02: <emph>kingä</emph>; a scribal error. This word is referred to in a note in pencil made by J. Sulimowicz in the margin: “kingä<foreign xml:lang="he" style="unicode-bidi: embed;">” </foreign>with a doubly underlined letter "i".</note>
+<note xml:id="Josh-004-fn8" type="footnote">This word is referred to in a note in pencil made by J. Sulimowicz in the margin: “quranły”.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
