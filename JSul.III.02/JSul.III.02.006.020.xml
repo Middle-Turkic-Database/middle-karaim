@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title ana="#no"/>
+				<author ana="#no"/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Uppsala University, Department of linguistics and philology</publisher>
+				<pubPlace>Uppsala, Sweden</pubPlace>
+				<date>2023</date>
+				<availability status="restricted">
+					<licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Warsaw, Poland</settlement>
+						<repository>Private archive</repository>
+						<idno>JSul.III.02</idno>
+					</msIdentifier>
+					<msContents>
+						<summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+					</msContents>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>
+					<lg>
+						<l>Joshua 20</l>
+					</lg>
+				</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" subtype="chapter">
+					<ab>
+						<title>Joshua 20</title>
+						<milestone unit="line" n="14"/>
+						<l n="1" xml:id="Josh-020-001">
+							<foreign xml:lang="he" style="unicode-bidi: embed;">וידבר</foreign> Da sözlädi YWY Johošuʿaqa demä.<milestone unit="line" n="15"/></l>
+						<l n="2" xml:id="Josh-020-002">
+							<foreign xml:lang="he" style="unicode-bidi: embed;">דבר</foreign> Sözlägin oġlanlaryna Jisraʾelniŋ demä beriŋiz<milestone unit="line" n="16"/>
+özüŋizgä šol šaḥarlaryn ol qutulmaqnyn ki sözlädim sizgä<milestone unit="line" n="17"/>
+qolu bilän Mošeniŋ.</l>
+					<l n="3" xml:id="Josh-020-003">
+						<foreign xml:lang="he" style="unicode-bidi: embed;">לנוס</foreign> Qačma anda ročeaḥ uruvčy ǯanny<milestone unit="line" n="18"/>
+janyšlyq bilän bilmäjinčä da bolsynlar sizgä qutulmaqqa<milestone unit="line" n="19"/>
+juluvčysyndan ol qannyŋ.</l>
+				<l n="4" xml:id="Josh-020-004">
+					<foreign xml:lang="he" style="unicode-bidi: embed;">ונס</foreign> Da qačsyn birsinä ušbu<milestone unit="line" n="20"/>
+šaḥarlardan da tursyn ešigindä qabaġynyŋ ol šaḥarnyŋ da sözläsin<milestone unit="line" n="21"/>
+qulaqlarynča qartlarynyŋ ol šaḥarnyŋ šol sözlärin da čöplänsinlär<milestone unit="line" n="22"/>
+any ol šaḥarġa özlärinä da bersinlär aŋar orun da otursyn<milestone unit="line" n="23"/>
+birgelärinä.</l>
+	<l n="5" xml:id="Josh-020-005">
+		<foreign xml:lang="he" style="unicode-bidi: embed;">וכי</foreign> Da quvsa juluvčysy ol qannyŋ artyndan<milestone unit="line" n="24"/>
+da čyġara bermesinlär šol ročeaḥny qoluna ki bilmäjinčä urdy<milestone unit="line" n="25"/>
+šol dostyn da dušman dügül edi ol aŋar tünägindän birisi kündän.<milestone unit="page" n="28v"/>
+<milestone unit="line" n="1"/></l>
+<l n="6" xml:id="Josh-020-006">
+	<foreign xml:lang="he" style="unicode-bidi: embed;">וישב</foreign> Da otursyn šaḥarda turġanyŋa degin aldyŋda ol<milestone unit="line" n="2"/>
+ǯamaʿatnyŋ šaraʿatkä ölgäninä degin ol ulu kohen ki<milestone unit="line" n="3"/>
+bolsa ol künlärdä ol vaḥtta qajtsyn ol ročeaḥ da kelsin<milestone unit="line" n="4"/>
+šaḥaryna da evinä ol šaḥarġa ki qačty andan.</l>
+<l n="7" xml:id="Josh-020-007">
+	<foreign xml:lang="he" style="unicode-bidi: embed;">ויקדשו</foreign> Da ḥadirlädilär<milestone unit="line" n="5"/>
+šol <supplied reason="lost">Qedešni</supplied><ref n="1" target="#Josh-020-fn1" type="noteAnchor"/>
+ Galeldä<ref n="2" target="#Josh-020-fn2" type="noteAnchor"/>
+ taġynda Naftaliniŋ da ešol Šeḫemni<milestone unit="line" n="6"/>
+taġynda Efrajimniŋ da ešol Qirjat Arbaʿany oldyr<milestone unit="line" n="7"/>
+Ḥevron taġynda Juhudanyŋ.</l>
+<l n="8" xml:id="Josh-020-008">
+	<foreign xml:lang="he" style="unicode-bidi: embed;">ומעבר</foreign> Da kečivindän Jardenniŋ<milestone unit="line" n="8"/>
+Jeriḥonyŋ mizraḥ sary berdilär šol <supplied reason="lost">Bečerni</supplied><ref n="3" target="#Josh-020-fn3" type="noteAnchor"/>
+ jabanda tüzdä<milestone unit="line" n="9"/>
+ševetindän Ruʿuvenniŋ da ešol Raʾmot<delSpan spanTo="#Josh-020-del001"/>…<anchor xml:id="Josh-020-del001" type="delSpan"/>ny Gilʿadda ševetindän<milestone unit="line" n="10"/>
+Gadnyŋ da ešol Golanny Bašanda ševetindän Menašenin.<milestone unit="line" n="11"/></l>
+<l n="9" xml:id="Josh-020-009">
+	<foreign xml:lang="he" style="unicode-bidi: embed;">אלה</foreign> Bular edilär ol anyqbolġan šaḥarlar barča<milestone unit="line" n="12"/>
+oġlanlaryna Jisraʾelniŋ da ġaripkä ol tirilgän ortalarynda<milestone unit="line" n="13"/>
+qačma anda barča uruvǯy ǯanny jaġyšlyq bilän da ölmägäj qolu<milestone unit="line" n="14"/>
+bilän juluvčysynyŋ ol qannyŋ turġanyŋa degin aldyna ol<milestone unit="line" n="15"/>
+ǯamaʿatnyŋ.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Josh-020-fn1" type="footnote">JSul.III.02: <emph>Qedešniŋ</emph>; a scribal error, cf. G 1841: <emph>Qedešni</emph>.
+</note>
+<note xml:id="Josh-020-fn2" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">גָּלִיל</foreign>.</note>
+<note xml:id="Josh-020-fn3" type="footnote">JSul.III.02: <emph>Bečerniŋ</emph>; a scribal error, cf. G 1841: <emph>Bečerni</emph>.
+</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
