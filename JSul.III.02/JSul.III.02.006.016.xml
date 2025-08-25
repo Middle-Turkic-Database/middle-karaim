@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Joshua 16</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Joshua 16</title>
+                        <milestone unit="line" n="3"/>
+                        <l n="1" xml:id="Josh-016-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da čyqty<milestone unit="line" n="4"/>
+ol ček oġlanlaryna Josefniŋ Jardenindän Jeriḥonyŋ suv-<milestone unit="line" n="5"/>
+laryna Jeriḥonyŋ mizraḥ sary ol jabanġa čyġar Jeriḥodan taġda<milestone unit="line" n="6"/>
+Bet Elgä.</l>
+                <l n="2" xml:id="Josh-016-002">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da čyġar Bet Eldän Luzġa da kečär synoryna ol<milestone unit="line" n="7"/>
+Arkiniŋ ʿAtarotqa.</l>
+                <l n="3" xml:id="Josh-016-003">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">וירד</foreign> Da enär teŋizgä synoryna ol Jafletiniŋ<milestone unit="line" n="8"/>
+synoryna degin ašaġaryġy Bet Ḥoronnyŋ da Gezergä degin da boldylar<milestone unit="line" n="9"/>
+čyġyvlary teŋizgä.</l>
+            <l n="4" xml:id="Josh-016-004">
+                <foreign xml:lang="he" style="unicode-bidi: embed;">וינחלו</foreign> Da üläštilär oġlanlary Josefniŋ Menaše<milestone unit="line" n="10"/>
+da Efrajim.</l>
+            <l n="5" xml:id="Josh-016-005">
+                <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da boldy synory oġlanlarynyŋ Efrajimniŋ mišpaḥa-<milestone unit="line" n="11"/>
+laryna da boldy synory ülüšläriniŋ mizraḥ sary ʿAtrot Adar joġaryġy<milestone unit="line" n="12"/>
+Bet Ḥoronġa degin.</l>
+        <l n="6" xml:id="Josh-016-006">
+            <foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da čyġar ol synor ol teŋizgä ol<milestone unit="line" n="13"/>
+Miḫtatqa<ref n="1" target="#Josh-016-fn1" type="noteAnchor"/>
+ čafon sartyn da čevirilir ol s<supplied reason="lost">ynor</supplied>
+    <ref n="2" target="#Josh-016-fn2" type="noteAnchor"/>
+ mizraḥ sary Tʾanasyna<milestone unit="line" n="14"/>
+Šilohnyŋ da kečär any mizraḥ sartyn Janoaḥqa.</l>
+<l n="7" xml:id="Josh-016-007">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וירד</foreign> Da enär Janoaḥ-<milestone unit="line" n="15"/>
+dan ʿAtarotqa da Naʿarataġa da učrar Jeriḥoġa da <supplied reason="lost">čy</supplied>ġar<ref n="3" target="#Josh-016-fn3" type="noteAnchor"/>
+ ol Jarden-<milestone unit="line" n="16"/>
+gä.</l>
+<l n="8" xml:id="Josh-016-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">מתפוח</foreign> Tapuaḥdan baryr ol synor teŋizgä <supplied reason="lost">oznajyna</supplied>
+<ref n="4" target="#Josh-016-fn4" type="noteAnchor"/>
+ Qananyŋ<milestone unit="line" n="17"/>
+da bolurlar čyġyvlary ol teŋizgä budyr ülüši ševetiniŋ oġlanlarynyŋ<milestone unit="line" n="18"/>
+Efrajimniŋ mišpaḥalaryna.</l>
+<l n="9" xml:id="Josh-016-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והערים</foreign> Da ol šaḥarlar oġlanlaryna<milestone unit="line" n="19"/>
+Efrajimniŋ ortasynda <supplied reason="lost">ülüšiniŋ</supplied>
+<ref n="5" target="#Josh-016-fn5" type="noteAnchor"/>
+ oġlanlarynyŋ Menašenin barča<milestone unit="line" n="20"/>
+ol šaḥarlar salalary.</l>
+<l n="10" xml:id="Josh-016-010">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ולא</foreign> Da sürmädilär šol Kenaʿanini ol oturġan<milestone unit="line" n="21"/>
+Gezerdä da oturdy ol Kenaʿani ortasynda Efrajimniŋ ušbu küngä degin<milestone unit="line" n="22"/>
+da boldy ḫaraǯġa<ref n="6" target="#Josh-016-fn6" type="noteAnchor"/>
+ qulluq<ref n="7" target="#Josh-016-fn7" type="noteAnchor"/>
+ etivči.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Josh-016-fn1" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">מִּכְמְתָת</foreign>; the same error also in Josh 16.7.</note>
+<note xml:id="Josh-016-fn2" type="footnote">Illegilble due to an ink smear; reconstructed on the basis of G 1841.</note>
+<note xml:id="Josh-016-fn3" type="footnote">Illegilble due to an ink smear; reconstructed on the basis of G 1841.</note>
+<note xml:id="Josh-016-fn4" type="footnote">Illegilble due to an ink smear; reconstructed on the basis of G 1841.</note>
+<note xml:id="Josh-016-fn5" type="footnote">JSul.III.02: <emph>ülüsiniŋ</emph>; a scribal error.</note>
+<note xml:id="Josh-016-fn6" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Josh-016-fn7" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Joshua 15</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Joshua 15</title>
+                        <milestone unit="line" n="23"/>
+                        <l n="1" xml:id="Josh-015-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da boldy ol ček ševetinä oġlanlarynyŋ<milestone unit="line" n="24"/>
+Juhudanyŋ mišpaḥalaryna synory üstünä Edomnyŋ jabanda<milestone unit="line" n="25"/>
+                    <supplied reason="lost">Činniŋ</supplied>
+                    <ref n="1" target="#Josh-015-fn1" type="noteAnchor"/>
+ tüšlik sary <supplied reason="lost">qyjyryna</supplied>
+                    <ref n="2" target="#Josh-015-fn2" type="noteAnchor"/>
+ Temannyŋ.</l>
+                <l n="2" xml:id="Josh-015-002">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da boldy alarġa<milestone unit="page" n="22v"/>
+                <milestone unit="line" n="1"/>
+synory tüšlükniŋ qyjyryndan ol tuzly teŋizniŋ ol limandan<milestone unit="line" n="2"/>
+ol qajrylġan tüšlik sartyn.</l>
+            <l n="3" xml:id="Josh-015-003">
+                <foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da čyġar tüšlüktän čyġyvyna<milestone unit="line" n="3"/>
+ʿAqrabimniŋ da kečär Činaġa da čyġar tüšlüktän Qadeš Barneʿaqa<milestone unit="line" n="4"/>
+da kečär Ḥečronġa da čyġar Adarġa da čevirilir ol qarqaʿġa.<milestone unit="line" n="5"/></l>
+    <l n="4" xml:id="Josh-015-004">
+        <foreign xml:lang="he" style="unicode-bidi: embed;">ועבר</foreign> Da kečär ʿAčmonġa da čyġar özäninä Mysyrnyŋ<milestone unit="line" n="6"/>
+da bolyrlar čyġyvlary ol synornyŋ kün batyšy sary <supplied reason="lost">bu bolsyn</supplied>
+    <ref n="3" target="#Josh-015-fn3" type="noteAnchor"/>
+ sizgä<milestone unit="line" n="7"/>
+synory tüšlikniŋ.</l>
+<l n="5" xml:id="Josh-015-005">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וגבול</foreign> Da synory kün doġyšnyŋ ol tuzly<milestone unit="line" n="8"/>
+teŋiz qyjyryna degin ol Jardenniŋ da synor tarafyna čafon-<milestone unit="line" n="9"/>
+nyŋ limanyndan ol teŋizniŋ qyjyryndan ol Jardenniŋ.<milestone unit="line" n="10"/></l>
+<l n="6" xml:id="Josh-015-006">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ועלה</foreign> Da čyġar ol synor Bet Ḥaglaġa da kečär čafon<milestone unit="line" n="11"/>
+sartyn Bet ol Aravaġa da čyġar ol synor Even Boḥanġa<milestone unit="line" n="12"/>
+oġlyna Ruʿuvenniŋ.</l>
+<l n="7" xml:id="Josh-015-007">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ועלה</foreign> Da čyġar ol synor Devirgä<milestone unit="line" n="13"/>
+enišindän ʿAḫornyŋ da čafon sary <supplied reason="lost">qajyrylyr</supplied>
+<ref n="4" target="#Josh-015-fn4" type="noteAnchor"/>
+ ol Gilgalġa ki<milestone unit="line" n="14"/>
+qaršysyna čyġyvnyŋ Adumimniŋ ki tüšlik sartyn ol<milestone unit="line" n="15"/>
+özängä da kečär ol synor suvlaryna En Šemešniŋ da boldy-<milestone unit="line" n="16"/>
+lar čyġyvlary čoġraġyna aq juvuġynyn.</l>
+<l n="8" xml:id="Josh-015-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ועלה</foreign> Da čyġar<milestone unit="line" n="17"/>
+enišinä Ben Hinomnyŋ tarafyna ol Jevusiniŋ tüšlik<milestone unit="line" n="18"/>
+sartyn oldyr Jerušalajim da čyġar ol synor bašyna bašyna<ref n="5" target="#Josh-015-fn5" type="noteAnchor"/>
+<milestone unit="line" n="19"/>
+ol taġnyŋ ki aldyna enišiniŋ Hinomnyŋ kün batyšy sary<milestone unit="line" n="20"/>
+ki qyjyrynda enišiniŋ Refaʾimniŋ čafon sary.</l>
+<milestone unit="line" n="21"/>
+<l n="9" xml:id="Josh-015-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ותאר</foreign> Da nišanlary ol synor bašyndan ol taġnyŋ
+                        <addSpan spanTo="#Josh-015-add001"/>čoġraġina<anchor xml:id="Josh-015-add001" type="addSpan"/><ref n="6" target="#Josh-015-fn6" type="noteAnchor"/>
+ suvlarynyŋ Neftoaḥ-<milestone unit="line" n="22"/>
+nyŋ da čyġar šaḥarlaryna taġynyŋ ʿEfronnyŋ da nišanlanyr ol synor<milestone unit="line" n="23"/>
+Baʿalaġa oldyr Qirjat Jeʿarim.</l>
+<l n="10" xml:id="Josh-015-010">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ונסב</foreign> Da čevirilir<milestone unit="line" n="24"/>
+ol synor Baʿaladan teŋizgä taġyna Seʿirniŋ da kečär<milestone unit="line" n="25"/>
+tarafyna taġynyŋ Jeʿarimniŋ čafon sartyn oldyr Ḫesalon da ener<milestone unit="page" n="23r"/>
+<milestone unit="line" n="1"/>
+Bet Šemeškä da kečär Temnaġa<ref n="7" target="#Josh-015-fn7" type="noteAnchor"/>.</l>
+<l n="11" xml:id="Josh-015-011">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da čyġar ol synor<milestone unit="line" n="2"/>
+tarafyna ʿEqronnyŋ čafon sary da nišanlanyr ol synor Šikronġa da kečär<milestone unit="line" n="3"/>
+taġyna ol Baʿalanyŋ da čyġar Ja<supplied reason="lost">v</supplied>neʾelge<ref n="8" target="#Josh-015-fn8" type="noteAnchor"/>
+ da bolyrlar čyġyvlary<milestone unit="line" n="4"/>
+ol synornyŋ teŋizgä.</l>
+<l n="12" xml:id="Josh-015-012">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וגבול</foreign> Da synory kün batyšynyŋ ol ulu teŋiz<milestone unit="line" n="5"/>
+da synor budyr synory oġlanlarynyŋ Juhudanyŋ mišpaḥalaryna.</l>
+<milestone unit="line" n="6"/>
+<l n="13" xml:id="Josh-015-013">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ולכלב</foreign> Da Kalevgä oġlyna Jefuneniŋ berdi paj ortasynda oġlanlarynyŋ<milestone unit="line" n="7"/>
+Juhudanyŋ bujruġynyŋ<ref n="9" target="#Josh-015-fn9" type="noteAnchor"/>
+ YWY-nyŋ Johošuʿaqa šol Qirjat Arbaʿany<milestone unit="line" n="8"/>
+atasy olʿAnaqnyŋ oldyr Ḥevron.</l>
+<l n="14" xml:id="Josh-015-014">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וירש</foreign> Da sürdi andan Kalev šol<milestone unit="line" n="9"/>
+üč oġlanlaryn ol ʿAnaqnyŋ šol Šešaj da ešol Aḫimanny<milestone unit="line" n="10"/>
+da ešol Talmajny oġlanlaryn ol ʿAnaknyŋ.</l>
+<l n="15" xml:id="Josh-015-015">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויעל</foreign> Da čyqty andan<milestone unit="line" n="11"/>
+oturuvčylaryna Devirniŋ da aty Devirniŋ burun Qirjat Sefer.</l>
+<milestone unit="line" n="12"/>
+<l n="16" xml:id="Josh-015-016">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty Kalev kim ki ursa šol Qirjat Seferni da tutsa any da beräjim<milestone unit="line" n="13"/>
+aŋar šol ʿAḫsany qyzymny ḫatynlyqqa.</l>
+<l n="17" xml:id="Josh-015-017">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וילכדה</foreign> Da tuttu any ʿAteniʾel<milestone unit="line" n="14"/>
+oġly Qenaznyŋ qardašy Kalevnin da berdi aŋar šol ʿAḫsany qyzyn<milestone unit="line" n="15"/>
+ḫatynlyqqa.</l>
+<l n="18" xml:id="Josh-015-018">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi kelgänindä da azġyrdy<milestone unit="line" n="16"/>
+any klämä ḫatyndan atasynyŋ tarlyv da čabuldy<ref n="10" target="#Josh-015-fn10" type="noteAnchor"/>
+ üstündän ol<milestone unit="line" n="17"/>
+ešäkniŋ da ajtty aŋar Kelev nedir saŋa.</l>
+<l n="19" xml:id="Josh-015-019">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign> Da ajtty<milestone unit="line" n="18"/>
+bergin maŋa baḫšiš ki ol qurġaq jerni berdiŋ maŋa da bergin<milestone unit="line" n="19"/>
+maŋa čoqrlaqlaryn suvlarnyŋ da berdi aŋar šol joġarġy čoqraqlarny<milestone unit="line" n="20"/>
+da ešol ašaġy čoġraqlarny.<milestone unit="line" n="21"/></l>
+<l n="20" xml:id="Josh-015-020">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">זאת</foreign> Budyr ülüši ševetiniŋ oġlanlarynyŋ<milestone unit="line" n="22"/>
+Juhudanyŋ mišpaḥatlaryna.</l>
+<l n="21" xml:id="Josh-015-021">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהיו</foreign> Da boldylar qyjyryndan<milestone unit="line" n="23"/>
+šaḥarlarnyŋ ševetinä oġlanlarynyŋ Juhuda synory <supplied reason="lost">üstünä</supplied>
+<ref n="11" target="#Josh-015-fn11" type="noteAnchor"/>
+<milestone unit="line" n="24"/>
+Edomnyŋ tüšlüktä Qavčeʾel da ʿEder da Jagur.</l>
+<l n="22" xml:id="Josh-015-022">
+ Da Qina da Dimona<milestone unit="line" n="25"/>
+da ʿAdʿada.<ref n="12" target="#Josh-015-fn12" type="noteAnchor" /></l>
+<l n="23" xml:id="Josh-015-023">Da Qedeš da Ḥačor da Jitnan.</l>
+<l n="24" xml:id="Josh-015-024">Zif da Telem da Beʿalot.</l>
+<l n="25" xml:id="Josh-015-025">Da Ḥačor<milestone unit="page" n="23v"/>
+<milestone unit="line" n="1"/>
+Ḥadata da Qerjot Ḥečron oldyr Ḥačor.</l>
+<l n="26" xml:id="Josh-015-026">Amam da Šemaʿ da Molada.</l>
+<milestone unit="line" n="2"/>
+<l n="27" xml:id="Josh-015-027">Da Ḥačar Gada da Ḥešmon da Bet Palet.</l>
+<l n="28" xml:id="Josh-015-028">Da Ḥačar Šuʿal da Beʾer Ševaʿ<milestone unit="line" n="3"/>
+da Vizjotja.</l>
+<l n="29" xml:id="Josh-015-029">Baʿala da ʿIjim da ʿAčem.</l>
+<l n="30" xml:id="Josh-015-030">Da Eltolad da Ḫesil da Ḥarama.</l>
+<milestone unit="line" n="4"/>
+<l n="31" xml:id="Josh-015-031">Da Čiklag da Madmana da Sansana.</l>
+<l n="32" xml:id="Josh-015-032">Da Levaʾot da Šilḥim daʿAjin<milestone unit="line" n="5"/>
+da Rimon da barča šaḥarlar egirmi toquz da salalary.</l>
+<l n="33" xml:id="Josh-015-033">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">בשפלה</foreign> Alčaq<milestone unit="line" n="6"/>
+jerdä Eštaʾol da Čarʿa da Ašna.</l>
+<l n="34" xml:id="Josh-015-034">
+ Zanoaḥ da ʿEn Ganim Tapuaḥ da ol<milestone unit="line" n="7"/>
+ʿEnam.<ref n="13" target="#Josh-015-fn13" type="noteAnchor" /></l>
+<l n="35" xml:id="Josh-015-035">Jarmot da ʿAdulam Šoḫa<ref n="14" target="#Josh-015-fn14" type="noteAnchor"/>
+ da ʿAzeqa.</l>
+<l n="36" xml:id="Josh-015-036">Da Šaʿarajim da ʿAditajim<milestone unit="line" n="8"/>
+da ol Gedera da Gediritajim<ref n="15" target="#Josh-015-fn15" type="noteAnchor"/>
+ on dört šaḥarlar da salary.</l>
+<l n="37" xml:id="Josh-015-037">Čenan<milestone unit="line" n="9"/>
+da Ḥadaša da Migdal Gad.</l>
+<l n="38" xml:id="Josh-015-038">Da Dilʿan da ol Mičpe da Jaqteʾel.</l>
+<l n="39" xml:id="Josh-015-039">Laḫiš<milestone unit="line" n="10"/>
+da Bačqat da ʿEglon.</l>
+<l n="40" xml:id="Josh-015-040">Da Ḫabon da Laḥmas da Ḫitliš.</l>
+<l n="41" xml:id="Josh-015-041">Da Gedirot<ref n="16" target="#Josh-015-fn16" type="noteAnchor"/>
+ Bet Dagon<milestone unit="line" n="11"/>
+da Naʿama da Maqeda on alty šaḥarlar da salalary.</l>
+<l n="42" xml:id="Josh-015-042">Livna da ʿEter da ʿAšan.</l>
+<milestone unit="line" n="12"/>
+<l n="43" xml:id="Josh-015-043">Da Jiftah<ref n="17" target="#Josh-015-fn17" type="noteAnchor"/>
+ da Ašna da Nečiv.</l>
+<l n="44" xml:id="Josh-015-044">Da Qeʿila da Aḫziv da Mareʾša toquz šaḥarlar<milestone unit="line" n="13"/>
+da salalary.</l>
+<l n="45" xml:id="Josh-015-045">ʿEqron da salalary.</l>
+<l n="46" xml:id="Josh-015-046">ʿEqrondan da kün batyšy sary barča<milestone unit="line" n="14"/>
+ki orny üstünä <supplied reason="lost">Ašdodnyŋ da s</supplied>alalary<ref n="18" target="#Josh-015-fn18" type="noteAnchor"/>
+ alarnyŋ.</l>
+<l n="47" xml:id="Josh-015-047">Asdod<ref n="19" target="#Josh-015-fn19" type="noteAnchor"/>
+ da salalary ʿAza<milestone unit="line" n="15"/>
+da salalary özäninä degin Mysyrnyŋ da ol ulu teŋiz da synory.<milestone unit="line" n="16"/></l>
+<l n="48" xml:id="Josh-015-048">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ובהר</foreign> Da taġda Šamir da Jatir da Soḫo.</l>
+<l n="49" xml:id="Josh-015-049">
+ Da Dana da Qirjat Sana<milestone unit="line" n="17"/>
+oldyr Dev<supplied reason="lost">ir</supplied><ref n="21" target="#Josh-015-fn21" type="noteAnchor"/>.<ref
+                                n="20" target="#Josh-015-fn20" type="noteAnchor" /></l>
+<l n="50" xml:id="Josh-015-050">Da ʿAnav da Eštemo da ʿAnim.</l>
+<l n="51" xml:id="Josh-015-051">Da Gošen da Ḥolon da Gilo<milestone unit="line" n="18"/>
+on bir šaḥarlar da salalary.</l>
+<l n="52" xml:id="Josh-015-052">Arav da Ruma da Ešʿan.</l>
+<l n="53" xml:id="Josh-015-053">Da Janum da Bet Tapuaḥ<milestone unit="line" n="19"/>
+da Afeqa.</l>
+<l n="54" xml:id="Josh-015-054">Da Ḥumta da Qirjat Arbaʿ oldyr Ḥevron da Čiʿor toġuz<milestone unit="line" n="20"/>
+šaḥarlar da salalary.</l>
+<l n="55" xml:id="Josh-015-055">Maʿon Karmel da Zih<ref n="22" target="#Josh-015-fn22" type="noteAnchor"/>
+ da Juta.</l>
+<l n="56" xml:id="Josh-015-056">Da Jizreʿeʾl da Jaqdaʿam<milestone unit="line" n="21"/>
+da Zanoaḥ.</l>
+<l n="57" xml:id="Josh-015-057">Ol Qajan Givʿa da Timna on šaḥarlar da salalary.</l>
+<l n="58" xml:id="Josh-015-058">Ḥalḥul<milestone unit="line" n="22"/>
+Bet Čur da Gedor.</l>
+<l n="59" xml:id="Josh-015-059">Da Maʿarat da Bet ʿAnot da Elteqon alty šaḥarlar<milestone unit="line" n="23"/>
+da salalary.</l>
+<l n="60" xml:id="Josh-015-060">Qirjat Baʿal oldyr Qirjat Jeʿarim da ol Raba eki šaḥarlar<milestone unit="line" n="24"/>
+da salalary.</l>
+<l n="61" xml:id="Josh-015-061">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">במדבר</foreign> Jabanda <seg type="commented" corresp="#Josh-015-seg001"/>Bet El ʿAraba<anchor type="commented" xml:id="Josh-015-seg001"/><ref n="23" target="#Josh-015-fn23" type="noteAnchor"/>
+ Midin da Seḫaḫa.</l>
+<l n="62" xml:id="Josh-015-062">
+<ref n="24" target="#Josh-015-fn24" type="noteAnchor"/>
+ Da ol<milestone unit="line" n="25"/>
+Nivšan da ol Šaḥary Tuznyŋ da ʿEn Gedi alty šaḥarlar da salalary.</l>
+<l n="63" xml:id="Josh-015-063">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ואת</foreign> Da ešol<milestone unit="page" n="24r"/>
+<milestone unit="line" n="1"/>
+ol Jevusini oturuvčularyn Jerušalajimniŋ bola almadylar oġlanlary<milestone unit="line" n="2"/>
+Juhudanyŋ sürmä alarny da otur<supplied reason="lost">dy</supplied><ref n="25" target="#Josh-015-fn25" type="noteAnchor"/>
+ ol Jevusi oġlanlary<milestone unit="line" n="3"/>
+bilän Juhudanyŋ Jerušalajimdä ušbu küngä degin.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Josh-015-fn1" type="footnote">JSul.III.02: <emph>Čijonnyŋ</emph>; a scribal error, cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">
+                                צִן</foreign>.</note>
+<note xml:id="Josh-015-fn2" type="footnote">JSul.III.02: <emph>qyryna</emph>; a scribal error.</note>
+<note xml:id="Josh-015-fn3" type="footnote">JSul.III.02: <emph>bbolsyn</emph>; a scribal error, cf. G 1841: <emph>bu bolsyn</emph>.
+</note>
+<note xml:id="Josh-015-fn4" type="footnote">JSul.III.02: <emph>qajyryl</emph>; a scribal error, cf. G 1841: <emph>qajyrylyr</emph>.
+</note>
+<note xml:id="Josh-015-fn5" type="footnote">Superfluous repetition.</note>
+<note xml:id="Josh-015-fn6" type="footnote">Added in the margin.</note>
+<note xml:id="Josh-015-fn7" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">תִּמְנָה</foreign>.</note>
+<note xml:id="Josh-015-fn8" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">יַבְנְאֵל</foreign>.</note>
+<note xml:id="Josh-015-fn9" type="footnote">Most probably a scribal error; instead of: <emph>bujruġy bilän</emph>? Cf. G 1841: <emph>bujruġy bilän</emph>.
+</note>
+<note xml:id="Josh-015-fn10" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Josh-015-fn11" type="footnote">JSul.III.02: <emph>üstne</emph>; a scribal error.</note>
+<note xml:id="Josh-015-fn12" type="footnote">The Hebrew incipits of Josh 15.22-32 are omitted.</note>
+<note xml:id="Josh-015-fn13" type="footnote">The Hebrew incipits of Josh 15.34-47 are omitted.</note>
+<note xml:id="Josh-015-fn14" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">שֹׂוכֹה</foreign>.</note>
+<note xml:id="Josh-015-fn15" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">גְדֵרֹתָיִם</foreign>.</note>
+<note xml:id="Josh-015-fn16" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">גְדֵרֹות</foreign>.</note>
+<note xml:id="Josh-015-fn17" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">יִפְתָּח</foreign>.</note>
+<note xml:id="Josh-015-fn18" type="footnote">Partially illegible due to an ink smear, reconstructed on the basis of the Hebrew original.</note>
+<note xml:id="Josh-015-fn19" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">אַשְׁדֹּוד</foreign>.</note>
+<note xml:id="Josh-015-fn20" type="footnote">The Hebrew incipits of Josh 15.49-60 are omitted.</note>
+<note xml:id="Josh-015-fn21" type="footnote">Illegible due to an ink smear, reconstructed upon the Hebrew original.</note>
+<note xml:id="Josh-015-fn22" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">וזיף</foreign>.</note>
+<note xml:id="Josh-015-fn23" type="footnote">Cf. Heb. <foreign xml:lang="he" style="unicode-bidi: embed;">הָעֲרָבָה בֵּית</foreign></note>
+<note xml:id="Josh-015-fn24" type="footnote">The Hebrew incipit of Jos 15.62 is omitted.</note>
+<note xml:id="Josh-015-fn25" type="footnote">Illegilble due to an ink smear; reconstructed on the basis of G 1841.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
