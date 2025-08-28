@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Judges 2</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>
+                            <supplied reason="lost">Judges 2</supplied>
+                        </title>
+                        <milestone unit="page" n="37r"/>
+                        <milestone unit="line" n="1"/>
+                        <l n="14" xml:id="Judg-002-014">da bolaj almadylar daġyn turma aldyŋa dušmanlarynyŋ.<milestone unit="line" n="2"/></l>
+                        <l n="15" xml:id="Judg-002-015">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בכל</foreign> Barča da ki čyqtylar ḫyšymy YWY-nyŋ boldy<milestone unit="line" n="3"/>
+alarġa jamanlyqqa nečiki sözlädi YWY da nečiki ant<milestone unit="line" n="4"/>
+etti YWY alarġa da tar boldy alarġa asry.</l>
+                    <l n="16" xml:id="Judg-002-016">
+                        <foreign xml:lang="he" style="unicode-bidi: embed;">ויקם</foreign> <milestone unit="line" n="5"/> Da turġuzyr edi YWY šaraʿatčylar da qutqaryr edi-<milestone unit="line" n="6"/>
+lär alarny qolundan <supplied reason="lost">taluvčylarnyŋ</supplied><ref n="1" target="#Judg-002-fn1" type="noteAnchor"/>.</l>
+                <l n="17" xml:id="Judg-002-017">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">וגם</foreign> Da daġyn<milestone unit="line" n="7"/>
+šaraʿatčylaryna ešitmäsä edilär ki azdylar<milestone unit="line" n="8"/>
+artyndan öŋgä tenrilärniŋ da baš urdular<milestone unit="line" n="9"/>
+alarġa azdylar tez ol joldan ki jürüdilär atalary<milestone unit="line" n="10"/>
+ešitmä mičvalaryn YWY-nyŋ qylmadylar alaj.</l>
+    <l n="18" xml:id="Judg-002-018">
+        <foreign xml:lang="he" style="unicode-bidi: embed;">וכי</foreign> Da ki<milestone unit="line" n="11"/>
+turġuzyr YWY alarġa šaraʿatčylar da bolyr edi YWY ol<milestone unit="line" n="12"/>
+šaraʿatčy bilän da qut<addSpan spanTo="#Judg-002-add001"/>qa<anchor xml:id="Judg-002-add001" type="addSpan"/>ryr edi alarny qolundan dušma-<milestone unit="line" n="13"/>
+nlarynyŋ barča künlärindä ol šaraʿatčynyŋ ki<milestone unit="line" n="14"/>
+asajyš bolyr edi YWY firjatlaryndan aldyndan qystuvčylarynyŋ<milestone unit="line" n="15"/>
+da tar berivčiläriniŋ.</l>
+<l n="19" xml:id="Judg-002-019">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והיה</foreign> Da bolġaj ölgenindä<milestone unit="line" n="16"/>
+ol šaraʿatčy qajtyr edilär da čajpar edilär atalaryndan<milestone unit="line" n="17"/>
+artyq jürümä artyndan öŋgä tenrilärniŋ qulluq<milestone unit="line" n="18"/>
+etmä alarġa da baš urma alarġa tüšürmäs edilär<milestone unit="line" n="19"/>
+islärin da ol qaty jollaryn.</l>
+<l n="20" xml:id="Judg-002-020">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויחר</foreign> Da qaḥerländi<milestone unit="line" n="20"/>
+ačuvu YWY-nyŋ Jisraʾelgä da ajtty anyŋ üčün ki kečtilär<milestone unit="line" n="21"/>
+ušbu ulus šol šertimni ki symarladym atalaryna<milestone unit="line" n="22"/>
+da ešitmädilär sözimä.</l>
+<l n="21" xml:id="Judg-002-021">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">גם</foreign> Daġyn men <supplied reason="lost">arttyrmamdyr</supplied>
+<ref n="2" target="#Judg-002-fn2" type="noteAnchor"/> sürmä<milestone unit="line" n="23"/>
+kišini aldlaryndan ol uluslardan ki kemišti Johošuʿa<milestone unit="line" n="24"/>
+da öldi.</l>
+<l n="22" xml:id="Judg-002-022">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">למען</foreign> Synamaq učun alar bilän šol 
+    <supplied reason="lost">Jisraʾelni</supplied><ref n="3" target="#Judg-002-fn3" type="noteAnchor"/>
+<milestone unit="line" n="25"/>
+saqlarlarmy alar šol jolun YWY-nyŋ jürümä alar bilän nečiki<milestone unit="page" n="37v"/>
+<milestone unit="line" n="1"/>
+saqladylar atalary jesä joq.</l>
+<l n="23" xml:id="Judg-002-023">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וינח</foreign> Da qojdu YWY šol<milestone unit="line" n="2"/>
+ušbu uluslarny sürmämäkä alarny tez da bermedi<milestone unit="line" n="3"/>
+alarny qoluna Johošuʿanyŋ.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Judg-002-fn1" type="footnote">JSul.III.02: <emph>talvčylarnyŋ</emph>; a scribal error.</note>
+<note xml:id="Judg-002-fn2" type="footnote">JSul.III.02: <emph>artyrmamdyr</emph>; a scribal error.</note>
+<note xml:id="Judg-002-fn3" type="footnote">JSul.III.02: <emph>Jisraʾel</emph>; a scribal error.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
