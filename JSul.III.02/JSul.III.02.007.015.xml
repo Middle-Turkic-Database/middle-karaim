@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Judges 15</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Judges 15</title>
+                        <milestone unit="line" n="11"/>
+                        <l n="1" xml:id="Judg-015-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi künlärdän künlärindä oraġy-<milestone unit="line" n="12"/>
+nyŋ ašlyqnyŋ da saġyndy Šimšon šol ḫatynyŋ ulaġy<milestone unit="line" n="13"/>
+bilän ečkiläriniŋ da ajtty keläjim ḫatynyma ol<milestone unit="line" n="14"/>
+ḥuǯraġa da bermedi any atasy kelmä.</l>
+                <l n="2" xml:id="Judg-015-002">
+                    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign><milestone unit="line" n="15" />
+                    Da ajtty atasy ajtma ajttym ki ḥor etmä ḥor<milestone unit="line" n="16"/>
+ettiŋ any da berdim any dostuna muna qyz qardašy<milestone unit="line" n="17"/>
+ol jaḫšy andan bolsyn endi saŋa ornyŋa.</l>
+            <l n="3" xml:id="Judg-015-003">
+                <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign><milestone unit="line" n="18" />
+                Da ajtty alarġa Šimšon aruv boldym bu vaḫt<milestone unit="line" n="19"/>
+Pelištimlärdän ki qylajdyrmin birgelärinä jamanlyq.</l>
+        <l n="4" xml:id="Judg-015-004">
+            <milestone unit="line" n="20"/><foreign xml:lang="he" style="unicode-bidi: embed;">וילך</foreign>
+            Da bardy Šimšon da <supplied reason="lost">tuttu</supplied><ref n="1" target="#Judg-015-fn1" type="noteAnchor"/>
+ üč jüz tülkülär da aldy<milestone unit="line" n="21"/>
+kösüvlär<ref n="2" target="#Judg-015-fn2" type="noteAnchor"/>
+ da qajyrdy qujruq qujruqqa da qojdy bir<milestone unit="line" n="22"/>
+kösüv arasyna eki ol qujruqlarnyŋ ortada.</l>
+<l n="5" xml:id="Judg-015-005">
+    <milestone unit="line" n="23"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויבער</foreign>
+    Da jandyrdy ot kösüvlärdä da jibirdi turuqlarynda<ref n="3" target="#Judg-015-fn3" type="noteAnchor"/>
+<milestone unit="line" n="24"/>
+Pelištimlärniŋ da jandyrdy čerändän<ref n="4" target="#Judg-015-fn4" type="noteAnchor"/>
+ turuqqa<milestone unit="line" n="25"/>
+degin da borlalyqqa degin <supplied reason="lost">zajtinlikkä</supplied><ref n="5" target="#Judg-015-fn5" type="noteAnchor"/>
+ degin.</l>
+<l n="6" xml:id="Judg-015-006">
+    <milestone unit="page" n="57v"/>
+    <milestone unit="line" n="1"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמרו</foreign>
+    Da ajttylarPelištimlär kim qyldy buny<milestone unit="line" n="2"/>
+da ajttylar Šimšon kijövi ol Timniniŋ ki aldy šol<milestone unit="line" n="3"/>
+ḫatynyŋ da berdi any dostuna da čyqtylarPelištimlilär<milestone unit="line" n="4"/>
+da qojdurdular any da ešol atasyn otqa.</l>
+<l n="7" xml:id="Judg-015-007">
+    <milestone unit="line" n="5"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
+    Da ajtty alarġa Šimšon egär qylsaŋyz<milestone unit="line" n="6"/>
+edi munyŋ kibik ki ančaq öč alajym sizdän da andan<milestone unit="line" n="7"/>
+soŋra tyjylajym.</l>
+<l n="8" xml:id="Judg-015-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויך</foreign> Da urdy alarny<milestone unit="line" n="8"/>
+atly <supplied reason="lost">…</supplied>ov<ref n="6" target="#Judg-015-fn6" type="noteAnchor"/>
+ bilän ulu urmaq da anda da otyrdy<milestone unit="line" n="9"/>
+tyšynda ol qajasynyŋ ʿEtamnyŋ.</l>
+<l n="9" xml:id="Judg-015-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויעלו</foreign><milestone unit="line" n="10" />
+    Da čyqtylar Pelištimlär da qondylar Juhudada<milestone unit="line" n="11"/>
+da <supplied reason="lost">jajyldylar</supplied><ref n="7" target="#Judg-015-fn7" type="noteAnchor"/>
+ Leḥidä.</l>
+<l n="10" xml:id="Judg-015-010">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמרו</foreign>
+    Da ajttylar kišisi<milestone unit="line" n="12"/>
+Juhudanyŋ nučun čyqtyŋyz maŋa da ajttylar baġlama<milestone unit="line" n="13"/>
+šol Šimšon čyqtyq qylma aŋar nečiki qyldy bizge.</l>
+<l n="11" xml:id="Judg-015-011">
+    <milestone unit="line" n="14"/><foreign xml:lang="he" style="unicode-bidi: embed;">וירדו</foreign>
+    Da endilär üč miŋ kiši Juhudadan tyšyna<milestone unit="line" n="15"/>
+qajasynyŋ ʿEtamnyŋ da ajttylar Šimšonġa muna<milestone unit="line" n="16"/>
+keldik ki erklänädir bizgä Pelištimlär<milestone unit="line" n="17"/>
+da nä bu qyldyŋ bizgä da ajtty alarġa nečiki<milestone unit="line" n="18"/>
+qyldylar maŋa alaj qyldym alarġa.</l>
+<l n="12" xml:id="Judg-015-012">
+    <milestone unit="line" n="19"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמרו</foreign>
+    Da ajttylar aŋar baġlama<milestone unit="line" n="20"/>
+seni endik bermä seni qoluna Pelištimlärniŋ<milestone unit="line" n="21"/>
+da ajtty alarġa Šimšon ant etiŋiz maŋa bolmaġaj<milestone unit="line" n="22"/>
+učraġajsyz maŋa siz.</l>
+<l n="13" xml:id="Judg-015-013">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמרו</foreign> Da ajttylar aŋar<milestone unit="line" n="23"/>
+demä joq ki baġlama baġlarmyz seni da berimiz seni<milestone unit="line" n="24"/>
+qollaryna da öldürmä öldür<supplied reason="lost">mä</supplied>mälim<ref n="8" target="#Judg-015-fn8" type="noteAnchor"/>
+ seni<milestone unit="line" n="25"/>
+da baġladylar any eki jäni jiplär bilän da čyġardylar any<milestone unit="page" n="58r"/>
+<milestone unit="line" n="1"/>
+ol qajadan.</l>
+<l n="14" xml:id="Judg-015-014">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">הוא</foreign> Ol keldi Leḥigä degin da Pelištim-<milestone unit="line" n="2"/>
+lär qyčqyrdylar qaršysyna da qondy üstünä<milestone unit="line" n="3"/>
+alḥemi YWY-nyŋ da boldylar ol jiplär ki biläkläri<milestone unit="line" n="4"/>
+üstünä anyŋ üskülü<ref n="9" target="#Judg-015-fn9" type="noteAnchor"/>
+ kibik ki jandylar otqa da ijirildi<milestone unit="line" n="5"/>
+baġlary üstünden qollarynyŋ.</l>
+<l n="15" xml:id="Judg-015-015">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וימצא</foreign> Da tapty jaŋaġyn<ref n="10" target="#Judg-015-fn10" type="noteAnchor"/>
+<milestone unit="line" n="6"/>
+ešäkniŋ jaš da sundu qolun da aldy any da urdy anyŋ<milestone unit="line" n="7"/>
+bilän miŋ kiši.</l>
+<l n="16" xml:id="Judg-015-016">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty Šimšon jaŋaġy<milestone unit="line" n="8"/>
+bilän ol ešäkniŋ bir oba eki oba jaŋaġy bilän ol ešäkniŋ<milestone unit="line" n="9"/>
+urdym miŋ kišini.</l>
+<l n="17" xml:id="Judg-015-017">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi tavusqany kibik<milestone unit="line" n="10"/>
+sözlämä da tašlady ol janaqny qolundan da atady ol<milestone unit="line" n="11"/>
+jergä Ramat Leḥi.</l>
+<l n="18" xml:id="Judg-015-018">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויצמא</foreign> Da suvsady <addSpan spanTo="#Judg-015-add001"/>
+astry<anchor xml:id="Judg-015-add001" type="addSpan"/>
+ Šimšon da čaqyrdy<milestone unit="line" n="12"/>
+YWY-ġa da ajtty sen berdiŋ qoluna qulunnyŋ šol<milestone unit="line" n="13"/>
+ušbu jarlyġašynny de endi <supplied reason="lost">öläjimmi</supplied><ref n="11" target="#Judg-015-fn11" type="noteAnchor"/>
+ susamaq bilän<milestone unit="line" n="14"/>
+da <supplied reason="lost">tüšäjimmi</supplied><ref n="12" target="#Judg-015-fn12" type="noteAnchor"/>
+ qoluna ol ʿarellärniŋ.</l>
+<l n="19" xml:id="Judg-015-019">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויבקע</foreign>
+    <seg type="commented" corresp="#Judg-015-seg001" />Da jardy<anchor type="commented" xml:id="Judg-015-seg001" /><ref
+                                n="13" target="#Judg-015-fn13" type="noteAnchor" />
+<milestone unit="line" n="15"/>
+Teŋri šol ol tišni ki Leḥidä da čyqtylar andan suv<milestone unit="line" n="16"/>
+da ičti da qajtty ǯany da savuqty anyŋ učun atad<milestone unit="line" n="17"/>
+atyn anyŋ ʿEn Haqore ki Leḥidä ušbu küngä degin.</l>
+<l n="20" xml:id="Judg-015-020">
+    <milestone unit="line" n="18"/><foreign xml:lang="he" style="unicode-bidi: embed;">וישפט</foreign>
+    Da šaraʿat etti Jisraʾelgä künlärindä<milestone unit="line" n="19"/>
+Pelištimlärniŋ jigirmi jyl.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Judg-015-fn1" type="footnote">JSul.III.02: <emph>tutu</emph>.</note>
+<note xml:id="Judg-015-fn2" type="footnote">Alternative reading: <emph>kösöv</emph>.</note>
+<note xml:id="Judg-015-fn3" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Judg-015-fn4" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Judg-015-fn5" type="footnote">JSul.III.02: <emph>zajtintlikkä</emph>; a scribal error.</note>
+<note xml:id="Judg-015-fn6" type="footnote">Illegible due to an ink smear.</note>
+<note xml:id="Judg-015-fn7" type="footnote">JSul.III.02: <emph>jaldylar</emph>; a scribal error.</note>
+<note xml:id="Judg-015-fn8" type="footnote">Partially illegible due to an ink smear.</note>
+<note xml:id="Judg-015-fn9" type="footnote">This word is referred to in a note in pencil made by J. Sulimowicz in the margin: ‟uskulú ‘len’” (uskulú ‘flax, linen’).</note>
+<note xml:id="Judg-015-fn10" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Judg-015-fn11" type="footnote">JSul.III.02: <emph>öläjimi</emph>.</note>
+<note xml:id="Judg-015-fn12" type="footnote">JSul.III.02: <emph>tüšäjimi</emph>.</note>
+<note xml:id="Judg-015-fn13" type="footnote">Written in red ink.</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
