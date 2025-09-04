@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.02</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">A Karaim translation of the Former Prophets, the Book of Ruth, the Book of Esther, and some passages of the Book of Proverbs </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Judges 17</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Judges 17</title>
+                        <milestone unit="line" n="3"/>
+                        <l n="1" xml:id="Judg-017-001">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign> Da edi kiši taġynda Efrajim-<milestone unit="line" n="4"/>
+niŋ da aty Miḫajehu.</l>
+                        <l n="2" xml:id="Judg-017-002">
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty anasyna<milestone unit="line" n="5"/>
+miŋ da jüz kümüš ki alyndy <supplied reason="lost">saŋa</supplied><ref n="1" target="#Judg-017-fn1" type="noteAnchor"/>
+ da sen qarġadyŋ<milestone unit="line" n="6"/>
+da daġyn ajttyŋ qulaqlarymča<ref n="2" target="#Judg-017-fn2" type="noteAnchor"/>
+ muna ol kümüš<milestone unit="line" n="7"/>
+birgämä men <supplied reason="lost">aldym any</supplied><ref n="3" target="#Judg-017-fn3" type="noteAnchor"/>
+ <seg type="commented" corresp="#Judg-017-seg001" />da qajtardy šol min da jüz ol kümüšni<milestone unit="line" n="8"/>
+anasyna<anchor type="commented" xml:id="Judg-017-seg001" /><ref n="4" target="#Judg-017-fn4"
+                                type="noteAnchor" />
+ da ajtty anasy alġyšlydyr oġlym<milestone unit="line" n="9"/>
+YWY-dan.</l>
+<l n="3" xml:id="Judg-017-003">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וישב</foreign> Da qajtardy šol min da jüz ol<milestone unit="line" n="10"/>
+kümüšni anasyna da ajtty anasy qodeš etmä<milestone unit="line" n="11"/>
+qodeš ettim šol kümüšni YWY-ġa qolumdan<milestone unit="line" n="12"/>
+oġlyma qylma pesel da maseḫa da endi qajtarajym<milestone unit="line" n="13"/>
+any saŋa.</l>
+<l n="4" xml:id="Judg-017-004">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וישב</foreign> Da qajtardy šol jüz kümüšni<milestone unit="line" n="14"/>
+anasyna da aldy anasy eki jüz kümüš da boldy<milestone unit="line" n="15"/>
+qujumǯyġa da qyldy any pesel da maseḫa da boldy<milestone unit="line" n="16"/>
+evindä Miḫajehunyŋ.</l>
+<l n="5" xml:id="Judg-017-005">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">והאיש</foreign> Da ol kiši Miḥa<milestone unit="line" n="17"/>
+qyldy agar evin Teŋriniŋ da qyldy efod da estorlaplar<ref n="5" target="#Judg-017-fn5" type="noteAnchor"/>
+<milestone unit="line" n="18"/>
+da toldurdy šol qolun birsiniŋ oġlanlaryndan<milestone unit="line" n="19"/>
+da boldu aŋar qaratonġa<ref n="6" target="#Judg-017-fn6" type="noteAnchor"/>.</l>
+<l n="6" xml:id="Judg-017-006">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">בימים</foreign> Ol künlärdä<milestone unit="line" n="20"/>
+joġedi ḫan Jisraʾeldä har kiši ol doġru <supplied reason="lost">körgänni</supplied><ref n="7" target="#Judg-017-fn7" type="noteAnchor"/>
+<milestone unit="line" n="21"/>
+közlärindä qylar edi.</l>
+<l n="7" xml:id="Judg-017-007">
+    <milestone unit="line" n="22"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויהי</foreign>
+    Da edi oġlan Bet Leḥemdä<milestone unit="line" n="23"/>
+Juhudadan mišpaḥasyndan Juhudanyŋ da ol Levi<milestone unit="line" n="24"/>
+da ol tirilir edi anda.</l>
+<l n="8" xml:id="Judg-017-008">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וילך</foreign> Da bardy ol kiši<milestone unit="line" n="25"/>
+ol šaḥardan Bet Leḥemdän Juhudanyŋ tirilmä qajda<milestone unit="page" n="61r"/>
+<milestone unit="line" n="1"/>
+ki tapsa da keldi taġyna Efrajimniŋ evine degin<milestone unit="line" n="2"/>
+Miḫanyŋ qylma jolyn.</l>
+<l n="9" xml:id="Judg-017-009">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty aŋar<milestone unit="line" n="3"/>
+Miḫa qajdan kelirsin da ajtty aŋar Levi dir men<milestone unit="line" n="4"/>
+Bet Leḥem Juhudadan da men barajdyrmyn <addSpan spanTo="#Judg-017-add001"/>
+tirilmä<anchor xml:id="Judg-017-add001" type="addSpan"/>
+ qajda ki tapsam.</l>
+<l n="10" xml:id="Judg-017-010">
+    <milestone unit="line" n="5"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
+        Da ajtty aŋar Miḫa oturġyn birgämä<milestone unit="line" n="6"/>
+da bolġyn maŋa ügrätivčigä da kohengä da men beräjim<milestone unit="line" n="7"/>
+saŋa on kümüš bir jylġa da qyjasyn upraqlaryŋnyŋ<milestone unit="line" n="8"/>
+da tirligiŋniŋ da bardy ol Levi.</l>
+<l n="11" xml:id="Judg-017-011">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">ויואל</foreign> Da kilädi<milestone unit="line" n="9"/>
+ol Levi oturma ol kiši bilän da boldy ol oġlan
+<milestone unit="line" n="10" />
+aŋar birsi kibik oġlanlaryndan.</l>
+<l n="12" xml:id="Judg-017-012">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">וימלא</foreign><milestone unit="line" n="11" />
+    Da toldurdy qolun Miḫa ol Leviniŋ da boldy ol<milestone unit="line" n="12"/>
+oġlan agar kohengä da boldy evindä Miḫanyŋ.</l>
+<l n="13" xml:id="Judg-017-013">
+    <milestone unit="line" n="13"/><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign>
+    Da ajtty Miḫa endi bildim ki jaḥšy YWY<milestone unit="line" n="14"/>
+maŋa ki boldy maŋa ol Levi qaratonġa.</l>
+</ab>
+</div>
+</div>
+<div type="apparatus">
+<listApp>
+<app>
+<note xml:id="Judg-017-fn1" type="footnote">JSul.III.02: <emph>seniŋ</emph>; a scribal error. Cf. G 1841.</note>
+<note xml:id="Judg-017-fn2" type="footnote">Marked by J. Sulimowicz with a tick mark in pencil.</note>
+<note xml:id="Judg-017-fn3" type="footnote">Omitted by the copyist; reconstructed on the basis of G 1841.</note>
+<note xml:id="Judg-017-fn4" type="footnote">The copyist erroneously copied here the beginnig of Judg 17.3 due to contamination.</note>
+<note xml:id="Judg-017-fn5" type="footnote">This word is referred to in a note in pencil made by J. Sulimowicz in the margin: ‟estorláp”.</note>
+<note xml:id="Judg-017-fn6" type="footnote">This word is referred to in a note in pencil made by J. Sulimowicz in the margin: ‟qaraton”.</note>
+<note xml:id="Judg-017-fn7" type="footnote">JSul.III.02: <emph>körgani</emph>.
+</note>
+</app>
+</listApp>
+</div>
+</body>
+</text>
+</TEI>
