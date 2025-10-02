@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.65</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">Prayers (for Yom Teruah, Sukkot, Shemini Atzeret, Tenth of Tevet, Purim), Biblical texts (Book of Esther), blessings (marriage, after meal, and milah) in Hebrew and South-Western Karaim </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Esther 10</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>[Esther 10]</title>
+<l n="1" xml:id="Est-010-001">
+    <milestone unit="line" n="18" xml:id="Est010-P16v-L18"
+                                prev="JSul.III.65.017.009.xml#Est009-P16v-L18" />
+<foreign xml:lang="he" style="unicode-bidi: embed;">וישם</foreign>
+                            Da qojdu ol bij<milestone unit="line" n="19"/>
+Aḥašveroš jasaq eli üstüne ol jernin da otraclary üstüne ol tengi-<milestone unit="line" n="20"/>
+znin.</l>
+<l n="2" xml:id="Est-010-002"><foreign xml:lang="he" style="unicode-bidi: embed;">וכל</foreign> Da bar isi kipliginin da baɣatyrlyɣy da belgirtilmegi ullu-<milestone unit="line" n="21"/>
+luɣunun Mardeḫajnyn ki ulɣajtty any ol bij muna alar jazylɣandylar<milestone unit="line" n="22"/>
+bitgi üstüne islerinin ol <supplied reason="lost">künlernin</supplied> bijlerine Parasnyn da Madajnyn.<milestone unit="line" n="23"/></l>
+<l n="3" xml:id="Est-010-003"><foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign> Ki Mardeḫaj ol Jisraʾel ekinci edi bijge Aḥašverošqa da ullu edi<milestone unit="line" n="24"/>
+Jisraʾellerge da süvümlü edi köp qaryndašlaryna izleredi jaḥšyny ulu-<milestone unit="line" n="25"/>
+suna da sözleredi bazlyqny bar urluɣuna. <seg type="commented" corresp="#Est-010-seg001" /><foreign
+                                xml:lang="he" style="unicode-bidi: embed;">כי מרדכי היהודי משנה</foreign><anchor
+                                type="commented" xml:id="Est-010-seg001" />.</l>
+</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>
