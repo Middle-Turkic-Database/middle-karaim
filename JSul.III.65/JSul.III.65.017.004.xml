@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.65</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">Prayers (for Yom Teruah, Sukkot, Shemini Atzeret, Tenth of Tevet, Purim), Biblical texts (Book of Esther), blessings (marriage, after meal, and milah) in Hebrew and South-Western Karaim </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Esther 4</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Esther 4</title>
+                        <l n="1" xml:id="Est-004-001">
+                        <milestone unit="line" n="12" xml:id="Est004-P9r-L12"
+                                prev="JSul.III.65.017.003.xml#Est003-P9r-L12" />
+                        <foreign xml:lang="he" style="unicode-bidi: embed;">ומרדכי ידע</foreign>
+                        <milestone unit="line" n="13"/>
+                        Da Mardeḫaj bildi ošol barca neni ki qylynady da jyrtty Mardeḫaj<milestone unit="line" n="14"/>
+ošol upraklaryn da kijdi kijiz da topraq da cyqty ortasyna<milestone unit="line" n="15"/>
+ol saharnyn da firjat etti ullu firjat da acy.</l>
+                    <l n="2" xml:id="Est-004-002"><foreign xml:lang="he" style="unicode-bidi: embed;">ויבוא</foreign> Da<milestone unit="line" n="16"/>
+keldi alnynadejin qabaɣynyn ol bijnin ki usamasedi kelme qabaɣyna-<milestone unit="line" n="17"/>
+dejin ol bijnin kijizli upraq <delSpan spanTo="#Est-004-del001" />icc<anchor xml:id="Est-004-del001" type="delSpan"/> icine.</l>
+                <l n="3" xml:id="Est-004-003"><foreign xml:lang="he" style="unicode-bidi: embed;">ובכל</foreign> Da har bir<milestone unit="line" n="18"/>
+valajatta ne orunda ki sözü ol bijnin da qadaɣasy anyn jeteredi<milestone unit="line" n="19"/>
+ullu jaš boldu Jisraʾellerge da oruc tutmaq da jylamaq da<milestone unit="line" n="20"/>
+syjyt kijiz da kül töšeldi syjlylarɣa.</l>
+        <l n="4" xml:id="Est-004-004"><foreign xml:lang="he" style="unicode-bidi: embed;">ותבואנה</foreign> Da keldiler<milestone unit="line" n="21"/>
+qyrqynlary Esternin da vezirleri anyn da anlattylar anar da<milestone unit="line" n="22"/>
+qopsaldy ol bijce astry da ijdi upraqlar kijindirme ošol<milestone unit="line" n="23"/>
+Mardeḫajny da keterme kijizin anyn üstünden da qabul etmedi.</l>
+<l n="5" xml:id="Est-004-005">
+    <milestone unit="line" n="24"/><foreign xml:lang="he" style="unicode-bidi: embed;">ותקרא</foreign>
+    Da ündedi Ester Hataḫny vezirlerinden ol bijnin ki
+    <milestone unit="page" n="9v" />
+    <milestone unit="line" n="1"/>
+turɣuzdu any ol bij alnynda Esternin jumuš etme anar da sary-<milestone unit="line" n="2"/>
+dy anyn ašyra Mardeḫajɣa bilme ne<delSpan spanTo="#Est-004-del002" />ücün<anchor
+                                xml:id="Est-004-del002" type="delSpan" />di bu da ne ücün-<milestone unit="line" n="3"/>
+di bu.</l>
+<l n="6" xml:id="Est-004-006"><foreign xml:lang="he" style="unicode-bidi: embed;">ויצא</foreign> Da cyqty Hataḫ Mardeḫajɣa oramyna ol šaharnyn ki<milestone unit="line" n="4"/>
+alnynda qabaɣynyn ol bijnin.</l>
+<l n="7" xml:id="Est-004-007"><foreign xml:lang="he" style="unicode-bidi: embed;">ויגד</foreign> Da anlatty anar Mardeḫaj<milestone unit="line" n="5"/>
+ošol barca neni ki ucrady any da ošol belgirtilmegin ol<milestone unit="line" n="6"/>
+kümüšnin ki ajtty Haman elceme ḥaznalaryna ol bijnin<milestone unit="line" n="7"/>
+Jisraʾeller ücün tasetme alarny.</l>
+<l n="8" xml:id="Est-004-008"><foreign xml:lang="he" style="unicode-bidi: embed;">ואת</foreign> Da ošol kopijasyn<milestone unit="line" n="8"/>
+<addSpan spanTo="#Est-004-add001"/>jazysynyn<anchor xml:id="Est-004-add001" type="addSpan"/>
+ ol qadaɣanyn ki berildi Šušanda tasetme alarny berdi anar<milestone unit="line" n="9"/>
+körgizme ošol Esterge da anlatma anar da symarlama<milestone unit="line" n="10"/>
+(<foreign xml:lang="he" style="unicode-bidi: embed;">או</foreign> bujurma) anar kelme ol bijge jalbarma anar da qolma<milestone unit="line" n="11"/>
+alnyndan anyn ulusu ücün.</l>
+<l n="9" xml:id="Est-004-009"><foreign xml:lang="he" style="unicode-bidi: embed;">ויבוא</foreign> Da keldi Hataḫ da anlatty<milestone unit="line" n="12"/>
+Esterge ošol sözlerin Mardeḫajnyn.</l>
+<l n="10" xml:id="Est-004-010"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign> Da ajtty Ester<milestone unit="line" n="13"/>
+Hataḫka da sarydy anyn ašyra Mardeḫajɣa.</l>
+<l n="11" xml:id="Est-004-011"><foreign xml:lang="he" style="unicode-bidi: embed;">כל</foreign> Bar qullary ol<milestone unit="line" n="14"/>
+bijnin da ulusu valajatlarynyn ol bijnin bilediler ki bar kisi da<milestone unit="line" n="15"/>
+qatyn ki kelse ol bijge ol ickirge qaḥraɣa ündelmejin<milestone unit="line" n="16"/>
+birdi qadaɣasy anyn öltirme basqa kimden ki burɣasa anar<milestone unit="line" n="17"/>
+ol bij ošol ol altyn cybykny da tiri bolur da men ündel-<milestone unit="line" n="18"/>
+medim kelme ol bijge bu juze otuz kün.</l>
+<l n="12" xml:id="Est-004-012"><foreign xml:lang="he" style="unicode-bidi: embed;">ויגידו</foreign> Da anlat-<milestone unit="line" n="19"/>
+tylar Mardeḫajɣa ošol sözlerin Esternin.</l>
+<l n="13" xml:id="Est-004-013"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty<milestone unit="line" n="20"/>
+Mardeḫaj qaruv qajtarma Esterge yšanmaɣyn qutulma bir <supplied reason="lost">özün</supplied>
+<milestone unit="line" n="21"/>
+üvünde ol bijnin egirek bar ol Jisraʾellerden.</l>
+<l n="14" xml:id="Est-004-014"><foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign> Ki eger<milestone unit="line" n="22"/>
+tyjylma tyjylsen bu vaḥtta muna bilgin özüne ki avlaqlyq da<milestone unit="line" n="23"/>
+qutulmaq turar Jisraʾellerge özge <addSpan spanTo="#Est-004-add002"/>orundan<anchor xml:id="Est-004-add002" type="addSpan"/>
+ da seme sen da üvü<milestone unit="line" n="24"/>
+atannyn taspolusiz da kim biledi seme bundij vaḥt ücün
+<milestone unit="page" n="10r" />
+<milestone unit="line" n="1"/>
+jettin bijcelikke.</l>
+<l n="15" xml:id="Est-004-015"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign> Da ajtty Ester qaruv qajtarma<milestone unit="line" n="2"/>
+Mardeḫajɣa.</l>
+<l n="16" xml:id="Est-004-016"><foreign xml:lang="he" style="unicode-bidi: embed;">לך כנוס</foreign> Barɣyn ystyrɣyn ošol bar ol Jisraʾellerni ol<milestone unit="line" n="3"/>
+tabulɣanlarny Šušanda da oruc tutunuz menim ücün da asa-<milestone unit="line" n="4"/>
+manyz ani icmeniz üc künler kece da kün daɣyn men de<milestone unit="line" n="5"/>
+da qyrqynlarym da oruc tutarmen alaj da bunluq byla kelimen<milestone unit="line" n="6"/>
+ol bijge ḥotej ki tüvül qadaɣaɣa köre da ki necik taspoldum<milestone unit="line" n="7"/>
+alaj taspolumen.</l>
+<l n="17" xml:id="Est-004-017"><foreign xml:lang="he" style="unicode-bidi: embed;">ויעבר</foreign> Da asty Mardeḫaj da qyldy barca necik
+    <milestone unit="line" n="8" xml:id="Est004-P10r-L8"
+                                next="JSul.III.65.017.005.xml#Est005-P10r-L8" />
+ki bujurdu anar Ester.</l>
+</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>
