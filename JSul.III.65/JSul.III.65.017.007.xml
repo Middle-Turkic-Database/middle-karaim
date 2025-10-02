@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.65</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">Prayers (for Yom Teruah, Sukkot, Shemini Atzeret, Tenth of Tevet, Purim), Biblical texts (Book of Esther), blessings (marriage, after meal, and milah) in Hebrew and South-Western Karaim </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Esther 7</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Esther 7</title>
+                        <milestone unit="line" n="16" xml:id="Est007-P11v-L16"
+                            prev="JSul.III.65.017.006.xml#Est006-P11v-L16" />
+                        <l n="1" xml:id="Est-007-001"><foreign xml:lang="he" style="unicode-bidi: embed;">ויבא</foreign> Da keldi ol bij da Haman<milestone unit="line" n="17"/>
+icme Ester ol bijce byla.</l>
+                        <l n="2" xml:id="Est-007-002"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty ol bij Esterge<milestone unit="line" n="18"/>
+daɣyn ol ekinci künde ickisinde ol vinanyn nedi qoltqan<milestone unit="line" n="19"/>
+senin e Ester bijce da berilsin sana da nedi klegin senin jarty<milestone unit="line" n="20"/>
+ol bijlikkedejin da qylynsyn.</l>
+                <l n="3" xml:id="Est-007-003"><foreign xml:lang="he" style="unicode-bidi: embed;">ותען</foreign> Da qaruv berdi Ester ol<milestone unit="line" n="21"/>
+bijce da ajtty eger taptym ese sirinlik közlerinde senin<milestone unit="line" n="22"/>
+e bij da eger ol bijge jaḥšy körinse berilsin mana ʒanym<milestone unit="line" n="23"/>
+qoltqam ücün da ulusum klegim ücün.</l>
+        <l n="4" xml:id="Est-007-004"><foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign> Ki satyldyq men<milestone unit="line" n="24"/>
+da ulusum tasetme eltirme da joq etme da ḥotej
+<milestone unit="page" n="12r" />
+<milestone unit="line" n="1"/>
+qullarɣa da qaravaslarɣa satylsajdyq tyjyl<delSpan spanTo="#Est-007-del001" />h<anchor xml:id="Est-007-del001" type="delSpan" />ɣajedim
+                            ki ol dušman<milestone unit="line" n="2"/>
+özü tijmejdi bar yzzanyna ol bijnin.</l>
+<l n="5" xml:id="Est-007-005"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty ol<milestone unit="line" n="3"/>
+bij Aḥašveroš da ajtty Ester ol bijcege kimdi bu ol da<milestone unit="line" n="4"/>
+qajsydy bu ol ki qunušturdu any üregi qylma alaj.</l>
+<l n="6" xml:id="Est-007-006"><foreign xml:lang="he" style="unicode-bidi: embed;">ותאמר</foreign><milestone unit="line" n="5" />
+Da ajtty Ester tar berivcü kisi da dušman Haman ol jaman uspu<milestone unit="line" n="6"/>
+da Haman alɣašandy alnyndan ol bijnin da ol bijcenin.</l>
+<l n="7" xml:id="Est-007-007"><foreign xml:lang="he" style="unicode-bidi: embed;">והמלך</foreign><milestone unit="line" n="7" />
+Da ol bij turdu qaḥyry byla ickisinden ol vinanyn baɣbostan<milestone unit="line" n="8"/>
+ol sarajɣa da Haman turdu qolma ʒany ücün Ester ol bijceden<milestone unit="line" n="9"/>
+ki kördi ki tügelice jetti anar ol jaman <addSpan spanTo="#Est-007-add001"/>ošol<anchor xml:id="Est-007-add001" type="addSpan"/>
+ ol bijden.</l>
+<l n="8" xml:id="Est-007-008"><foreign xml:lang="he" style="unicode-bidi: embed;">והמלך</foreign> Da<milestone unit="line" n="10"/>
+ol bij qajtty baɣbostan ol sarajdan icki üvüne ol vina-<milestone unit="line" n="11"/>
+nyn da Haman tisken edi ol tesek qatyna ki Ester anyn üs-<milestone unit="line" n="12"/>
+tüne da ajtty ol bij daɣynmo ujatly ettirme ošol<milestone unit="line" n="13"/>
+ol bijceni birgeme ickiride ol söz cyqty avzundan ol<milestone unit="line" n="14"/>
+bijnin da jizleri Hamannyn quvardylar.</l>
+<l n="9" xml:id="Est-007-009"><foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty Ḥarbona<milestone unit="line" n="15"/>
+birisi ol vezirlerden alnynda ol bijnin daɣy muna ol asqyc<milestone unit="line" n="16"/>
+ki qyldy Haman Mardeḫajɣa qajsy ki sözledi jaḥšyny ol bij ücün turady<milestone unit="line" n="17"/>
+üvünde Hamannyn bijik enli lokot da ajtty ol bij asynyz<milestone unit="line" n="18"/>
+any anyn üstüne.</l>
+<l n="10" xml:id="Est-007-010"><foreign xml:lang="he" style="unicode-bidi: embed;">ויתלו</foreign>
+    Da astylar ošol Hamanny ol asqyc<milestone unit="line" n="19"/>
+üstüne ki hadirlebedi Mardeḫajɣa da qaḥyry ol bijnin japryldy.
+<milestone unit="line" n="20"/>
+<seg type="commented" corresp="#Est-007-seg001" />ובהגיתי לכאן מפסיקים ממקרא מגלה ואומרים הבשת הזה
+ לבעל השבח הנצחי<anchor type="commented" xml:id="Est-007-seg001" />
+ <milestone unit="line" n="14" />
+<seg type="commented" corresp="#Est-007-seg002" />ועוד חוזרים למקום שפסוק משם לסיום מקרא מגלה׃<anchor type="commented" xml:id="Est-007-seg002" /></l>
+</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>
