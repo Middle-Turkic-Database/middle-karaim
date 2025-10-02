@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ana="#no"/>
+                <author ana="#no"/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Uppsala University, Department of linguistics and philology</publisher>
+                <pubPlace>Uppsala, Sweden</pubPlace>
+                <date>2023</date>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warsaw, Poland</settlement>
+                        <repository>Private archive</repository>
+                        <idno>JSul.III.65</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary ana="#no">Prayers (for Yom Teruah, Sukkot, Shemini Atzeret, Tenth of Tevet, Purim), Biblical texts (Book of Esther), blessings (marriage, after meal, and milah) in Hebrew and South-Western Karaim </summary>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>
+                    <lg>
+                        <l>Esther 1</l>
+                    </lg>
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition">
+                <div type="textpart" subtype="chapter">
+                    <ab>
+                        <title>Esther 1</title>
+                        <milestone unit="page" n="5r" />
+                        <l>
+                            <milestone unit="line" n="1" />
+                            <seg type="commented" corresp="#Est-001-seg001" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">בעזרת אלהי עולם ה֨ אשר ראה גוים ויתר׃
+                            אכתוב פשטו</foreign>
+                            <milestone unit="line" n="2" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">של מגלת אסתר׃ והוא הלשון
+                            ההמוני ר״ל לשון קדר הנהוג אצלנו</foreign>
+                            <milestone unit="line" n="3" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אשר נהגו עדתנו הקדושה
+                            לקרוא את המגלה ביום שני דפורים בפשט                                <delSpan spanTo="#Est-000-del001" />
+                            ליעיני                                <anchor xml:id="Est-000-del001" type="delSpan" />
+                            </foreign>
+                            <milestone unit="line" n="4" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">למשעות אזני העדה טף ונשים ולכן גם אני
+                            אכתוב אותו בזה הקונטריס</foreign>
+                            <milestone unit="line" n="5" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וראשונה אומרים ברכות אלו
+                            בגירסא ובפשט</foreign>
+                            <anchor type="commented" xml:id="Est-001-seg001" />
+                            <milestone unit="line" n="6" />
+                            <seg type="commented" corresp="#Est-001-seg002" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אתה ה֨ אלהינ מלך העולם
+                            אשר עשה נסים וגבורות ברוך</foreign>
+                            <milestone unit="line" n="7" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אותות ונפלאות עם אבותינו
+                            בימים ההם ובזמן הזה אמן</foreign>
+                            <milestone unit="line" n="8" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">אתה הָ֨ אלהינו מלך העולם
+                            אשר החײנו וקײמנו ברוך</foreign>
+                            <milestone unit="line" n="9" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">⸢והגיענו בשלום לזמן לקרוא
+                            מגלת אסתר אמן</foreign>
+                            <anchor type="commented" xml:id="Est-001-seg002" />
+                            <milestone unit="line" n="10" />
+                    Maḥtavludur sen H Tenrimiz biznin biji ol dunjanyn ki qyldy
+                            <milestone unit="line" n="11" />
+ nyslar da baɣatyrlyqlar belgiler da tamaša-
+                            <milestone unit="line" n="12" />
+ lyqlar atalarymyz byla ol künlerde alarda da
+                            ospu zamanda
+                            <milestone unit="line" n="13" />
+                    amen.
+                            <milestone unit="line" n="14" />
+                    Maḥtavludur sen H Tenrimiz biznin biji ol dunjanyn ki tirlik-
+                            <milestone unit="line" n="15" />
+                    te tuttu bizni da qajjamlyqta bar etti
+                            <milestone unit="line" n="16" />
+                    bizni da jetistirdi bizni ošpu zamanɣa tynčlyqta oḥuma
+                            <milestone unit="line" n="17" />
+                    megilasyn Esternin amen.
+                            <seg type="commented" corresp="#Est-001-seg003" />
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">וזוהיא המגלה</foreign>
+                            <anchor type="commented" xml:id="Est-001-seg003" />
+                        </l>
+                        <milestone unit="line" n="18"/>
+                        <l>
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">ויהי בימי אחשורוש הוא אחשורוש המלך מהדו ועד כוש</foreign>
+                            <milestone unit="line" n="19"/>
+                            <foreign xml:lang="he" style="unicode-bidi: embed;">שבע ועשרים ומאה מדינה׃</foreign>
+                        </l>
+                        <milestone unit="line" n="20"/>
+                        <l n="1" xml:id="Est-001-001">Da edi vaḥtlarynda Aḥašverošnun ol ez<addSpan spanTo="#Est-001-add001"/>
+i edi Aḥašveroš<anchor xml:id="Est-001-add001" type="addSpan"/>
+                    <milestone unit="line" n="21"/>
+ol bijlik etivcü Hododan da Kušqadejin <addSpan spanTo="#Est-001-add002"/>
+iz egirmi<anchor xml:id="Est-001-add002" type="addSpan"/>
+            <milestone unit="line" n="22"/>
+jedi valajat üstüne.</l>
+        <l n="2" xml:id="Est-001-002">
+            <foreign xml:lang="he" style="unicode-bidi: embed;">בימים</foreign> Ol vaḥtlarda alar<addSpan spanTo="#Est-001-add003"/>
+da olturɣacoq<anchor xml:id="Est-001-add003" type="addSpan"/>
+    <milestone unit="line" n="23"/>
+ol bij Aḥašveroš bijlik taḥty üstüne ki Šušan ol sarajda.</l>
+<milestone unit="line" n="24"/>
+<l n="3" xml:id="Est-001-003">
+    <foreign xml:lang="he" style="unicode-bidi: embed;">בשנת</foreign> Ücüncü jylda bij bolmaɣyna qyldy icki bar aɣaraq-<milestone unit="line" n="1"/>
+laryna da qullaryna özünün čörüvüne Parasnyn da Madajnyn<milestone unit="line" n="2"/>
+ol alpavutlar da aɣaraqlary ol valajatlarnyn alnynda özünün.</l>
+<milestone unit="line" n="3"/>
+<l n="4" xml:id="Est-001-004">
+<foreign xml:lang="he" style="unicode-bidi: embed;">תואובהר</foreign> Körgizgeninde ošol ḥoʒalyɣyn syjynyn bijliginin da<milestone unit="line" n="4"/>
+ošol abajlyɣyn körkinin ulluɣunun köp künler edi ol<milestone unit="line" n="5"/>
+icki jiz seksen kün.</l>
+<l n="5" xml:id="Est-001-005">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ובמלאת</foreign> Da tolɣanda ol künler<milestone unit="line" n="6"/>
+ol ušpular qyldy ol bij bar ol ulusqa ol tabulɣanlar-<milestone unit="line" n="7"/>
+ɣa Šušan ol sarajda ulludan da kicigedejin icki jedi künler<milestone unit="line" n="8"/>
+qaḥrasynda baɣbostan sarajynyn ol bijnin.</l>
+<l n="6" xml:id="Est-001-006">
+<foreign xml:lang="he" style="unicode-bidi: embed;">חור</foreign> Tesettirdi<milestone unit="line" n="9"/>
+ol kaḥrada zaponalar ak sary da kök tutulɣan snurlar byla<milestone unit="line" n="10"/>
+kese jipli da jipkinli kümüs ʒyɣyryklar üstüne da bahana-<milestone unit="line" n="11"/>
+lar marmur tasyndan tesek<addSpan spanTo="#Est-001-add004"/>
+ler<anchor xml:id="Est-001-add004" type="addSpan"/>
+ altynly da kümüsli posacqa<milestone unit="line" n="12"/>
+üstüne bahaly tašlardan ündeledoɣanlar bahat da šeš da dar<milestone unit="line" n="13"/>
+da soḥaret.</l>
+<l n="7" xml:id="Est-001-007">
+<foreign xml:lang="he" style="unicode-bidi: embed;">והשקות</foreign> Da ol icki edi altyn savutlar ücü-<milestone unit="line" n="14"/>
+ne da savutlar savutlardan özge tirliler da bijlik vina<milestone unit="line" n="15"/>
+edi köbüsü jetkiligine köre ḥalynyn ol bijnin.</l>
+<l n="8" xml:id="Est-001-008">
+<foreign xml:lang="he" style="unicode-bidi: embed;">והשתיה</foreign>
+<milestone unit="line" n="16" />
+Da ol icki edi kadaɣasyna köre har bir kisinin joɣedi<milestone unit="line" n="17"/>
+qystavcu ki alaj postanovtetti ol bij har bir aɣaraɣyna<milestone unit="line" n="18"/>
+ivinin qylma klegine köre har bir kisinin.</l>
+<l n="9" xml:id="Est-001-009">
+<foreign xml:lang="he" style="unicode-bidi: embed;">גם</foreign> Daɣyn<milestone unit="line" n="19"/>
+<addSpan spanTo="#Est-001-add005"/>
+Vašti o<anchor xml:id="Est-001-add005" type="addSpan"/>
+l bijce qyldy icki qatynlarɣa ol bijcelik ivde<milestone unit="line" n="20"/>
+ki <addSpan spanTo="#Est-001-add006"/>
+meleḫke<anchor xml:id="Est-001-add006" type="addSpan"/>
+ Aḥašveroška.</l>
+<l n="10" xml:id="Est-001-010">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ביום</foreign> Ol jedinci künde satyrlan-<milestone unit="line" n="21"/>
+ɣacoq jüregi ol bijnin vinada ajtty Mehumanɣa Bizta-<milestone unit="line" n="22"/>
+ɣa Ḥarbonaɣa Bigtaɣa da Abagtaɣa Zetarɣa da Karkas-<milestone unit="line" n="23"/>
+ɣa jedi ol vezirlerge ol jumuš etivcilerge alnynda<milestone unit="line" n="24"/>
+ol bijnin Aḥašverošnun.</l>
+<l n="11" xml:id="Est-001-011">
+<foreign xml:lang="he" style="unicode-bidi: embed;">להביא</foreign> Keltirme ošol Vaštini<milestone unit="line" n="1"/>
+ol bijceni alnyna ol bijnin bijlik taʒ ücüne körgüz-<milestone unit="line" n="2"/>
+me <delSpan spanTo="#Est-001-del001" />
+ošol<anchor xml:id="Est-001-del001" type="delSpan" />
+ ol uluslarɣa da ol aɣaraqlarɣa ošol <delSpan spanTo="#Est-001-del002" />
+köki<anchor xml:id="Est-001-del002" type="delSpan" />
+<milestone unit="line" n="3" />
+körkin anyn ki jaḥšy körimli edi ol.</l>
+<l n="12" xml:id="Est-001-012">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ותמאן</foreign> Da klemedi<milestone unit="line" n="4"/>
+ol bijce Vašti kelme sözü byla ol bijnin ki sarydy anar<milestone unit="line" n="5"/>
+qolu ašyra ol vezirlernin da acuvlandy ol bij astry da<milestone unit="line" n="6"/>
+qaḥiri anyn jandy anda.</l>
+<l n="13" xml:id="Est-001-013">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty ol bij uslularɣa<milestone unit="line" n="7"/>
+bilivcü kecinmegin ol vaḥtlarnyn ki alaj edi harda sözü ol<milestone unit="line" n="8"/>
+bijnin alnynda bar bilüvcülernin kadaɣany da jarɣunu.</l>
+<l n="14" xml:id="Est-001-014">
+<foreign xml:lang="he" style="unicode-bidi: embed;">והקרב</foreign>
+<milestone unit="line" n="9" />
+Da ol aɣaraqlar naj juvuqraqlar anar alar ediler Karšena Šetar<milestone unit="line" n="10"/>
+Admata Taršiš Meres Marsena Memuḫan jedi aɣaraqlary Parasnyn<milestone unit="line" n="11"/>
+da Madajnyn körüvcüler jüzlerin ol bijnin ol olturuvcu-<milestone unit="line" n="12"/>
+lar burunɣu jergede bijlikte.</l>
+<l n="15" xml:id="Est-001-015">
+<foreign xml:lang="he" style="unicode-bidi: embed;">כדת</foreign> Soradoɣac alardan kadaɣa<milestone unit="line" n="13"/>
+köre ne usajdy qylma bijcege Vaštige anyn ücün ki<milestone unit="line" n="14"/>
+qylmady ošol ajtmaɣyn ol bijnin Aḥašverošnun ki sarydy anar<milestone unit="line" n="15"/>
+qolu ašyra ol vezirlernin.</l>
+<l n="16" xml:id="Est-001-016">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ויאמר</foreign> Da ajtty Memuḫan alnynda<milestone unit="line" n="16"/>
+ol bijnin da ol aɣaraqlarnyn tüvül ol bijge jalɣyz özüne<milestone unit="line" n="17"/>
+qynɣyrlyq qyldy Vašti ol bijce ki ancaq bar ol aɣaraqlarɣa<milestone unit="line" n="18"/>
+da ol uluslarɣa ki bar valajatlarynda ol bijnin Aḥašverošnun.<milestone unit="line" n="19"/>
+</l>
+<l n="17" xml:id="Est-001-017">
+<foreign xml:lang="he" style="unicode-bidi: embed;">כי</foreign> Ki cyɣar sözü ol bijcenin bar ol qatynlarɣa ḥortutma<milestone unit="line" n="20"/>
+erlerin öz közlerinde ajtqanlarynda ol bij Aḥašveroš<milestone unit="line" n="21"/>
+ajtty keltirme alnyna özünün ošol Vaštini ol bijce-<milestone unit="line" n="22"/>
+ni da kelmedi.</l>
+<l n="18" xml:id="Est-001-018">
+<foreign xml:lang="he" style="unicode-bidi: embed;">והיום</foreign> Da ušpu künnü bar bijceleri Parasnyn<milestone unit="line" n="23"/>
+da Madajnyn ki esittiler bunu ajtyrlar ošol sözün ol<milestone unit="line" n="24"/>
+bijcenin bar aɣaraqlaryna ol bijnin da jeter ḥorluq da acuv.<milestone unit="line" n="1"/>
+</l>
+<l n="19" xml:id="Est-001-019">
+<foreign xml:lang="he" style="unicode-bidi: embed;">אם</foreign> Eger ol bijge jaḥšy körinse cyqsyn söz alnyndan<milestone unit="line" n="2"/>
+anyn da jazylsyn kadaɣalarynda Parasnyn da Madajnyn ki asmaɣaj<milestone unit="line" n="3"/>
+ki anyn ücün ki kelmedi Vašti alnyna ol bijnin Aḥašverošnun<milestone unit="line" n="4"/>
+<addSpan spanTo="#Est-001-add007"/>
+da<anchor xml:id="Est-001-add007" type="addSpan"/>
+ bijceligin anyn bersin ol bij qyrqynyna anyn ol egirekke<milestone unit="line" n="5"/>
+andan.</l>
+<l n="20" xml:id="Est-001-020">
+<foreign xml:lang="he" style="unicode-bidi: embed;">ונשמע</foreign> Da esitiler sözü ol bijnin ki qylsa bar<milestone unit="line" n="6"/>
+bijliginde anyn ki köpti ol (<foreign xml:lang="he" style="unicode-bidi: embed;">או</foreign>: ki ullu nersedi ol) da<milestone unit="line" n="7"/>
+bar ol qatynlar berirler abajlyq erlerine özlerinin ullu-<milestone unit="line" n="8"/>
+dan da kicigedejin.</l>
+<l n="21" xml:id="Est-001-021">
+<foreign xml:lang="he" style="unicode-bidi: embed;">וייטב</foreign> Da jaḥšy körindi ol söz közlerin-<milestone unit="line" n="9"/>
+de ol bijnin da ol bar aɣaraqlarnyn da qyldy ol bij sözüne<milestone unit="line" n="10"/>
+köre Memuḫannyn.</l>
+<l n="22" xml:id="Est-001-022">
+<foreign xml:lang="he" style="unicode-bidi: embed;">וישלח</foreign> Da ijdi bitikler bar valajatlaryna<milestone unit="line" n="11"/>
+ol bijnin har bir valajatka jazysyna köre da har bir ulusqa<milestone unit="line" n="12"/>
+tiline köre bolma har kisi erkejivci üvünde özü-<milestone unit="line" n="13"/>
+nün da sözlevcü sözüne ulusunun.</l>
+</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>
